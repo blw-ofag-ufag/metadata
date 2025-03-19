@@ -30,7 +30,7 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/assets/datasets.json
+          git add data/processed/datasets.json
           git commit -m "Updated combined datasets.json" || echo "No changes to commit"
           git push
         env:
