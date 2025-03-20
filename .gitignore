@@ -1,0 +1,11 @@
+*.R
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+*.Rout
+*.Rout.save
+*.Rout.fail
+*.Rapp.history
+.DS_Store
+Thumbs.db
