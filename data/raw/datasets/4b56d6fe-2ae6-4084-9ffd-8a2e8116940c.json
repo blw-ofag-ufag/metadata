@@ -38,9 +38,10 @@
     "e-geoch",
     "vineyard-zone",
     "official-geodata",
-    "conservation-and-archiving-planning-aap---confederation",
+    "conservation",
+    "archivation",
     "subsidy",
-    "fsdi-federal-spatial-data-infrastructure"
+    "FSDI"
   ],
   "dcat:theme": [
     "agriculture"

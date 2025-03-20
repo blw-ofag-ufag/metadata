@@ -54,7 +54,9 @@
     }
   ],
   "bv:itSystem": "https://agriculture.ld.admin.ch/system-map/SYS042",
-  "dcatap:applicableLegislation": ["https://raw.githubusercontent.com/aNotWorkingRequest"],
+  "dcatap:applicableLegislation": [
+    "https://raw.githubusercontent.com/aNotWorkingRequest"
+  ],
   "bv:archivalValue": false,
   "bv:opendata_swiss": {
     "bv:mustBePublished": true
@@ -103,5 +105,5 @@
       "dcat:downloadURL": "https://s.zazuko.com/3sAp7YF",
       "dct:format": "SPARQL-Service"
     }
-  ]  
+  ]
 }

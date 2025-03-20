@@ -36,9 +36,11 @@
   "dcat:keyword": [
     "alpine-economy",
     "mountain-management",
-    "area-managementrestrictionregulation-zones-and-reporting-units",
+    "area-management",
+    "zoning",
+    "reporting-unit",
     "utility-and-governmental-services",
-    "fsdi-federal-spatial-data-infrastructure"
+    "FSDI"
   ],
   "dcat:theme": [
     "agriculture"

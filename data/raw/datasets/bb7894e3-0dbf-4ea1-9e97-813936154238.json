@@ -36,10 +36,11 @@
   "dcat:keyword": [
     "official-geodata",
     "gradient",
-    "conservation-and-archiving-planning-aap---confederation",
+    "conservation",
+    "archivation",
     "e-geoch",
     "subsidy",
-    "fsdi-federal-spatial-data-infrastructure"
+    "FSDI"
   ],
   "dcat:theme": [
     "agriculture"

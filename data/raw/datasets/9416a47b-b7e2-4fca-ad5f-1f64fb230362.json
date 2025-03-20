@@ -34,14 +34,16 @@
   },
   "bv:typeOfData": "thematicData",
   "dcat:keyword": [
-    "protected-designation-of-origin-pdo",
-    "protected-geographical-indication-pgi",
+    "protected-designation-of-origin",
+    "protected-geographical-indication",
     "processed-agricultural-produce",
     "alcohol",
     "distillation",
-    "area-managementrestrictionregulation-zones-and-reporting-units",
+    "area-management",
+    "zoning",
+    "reporting-unit",
     "land-use",
-    "fsdi-federal-spatial-data-infrastructure"
+    "FSDI"
   ],
   "dcat:theme": [
     "agriculture"

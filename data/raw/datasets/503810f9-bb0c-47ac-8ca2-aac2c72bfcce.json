@@ -36,9 +36,9 @@
   "dcat:keyword": [
     "cultivation-suitability",
     "climatic-effect",
-    "meteorological-geographical-features",
+    "meteorology",
     "land-use",
-    "fsdi-federal-spatial-data-infrastructure"
+    "FSDI"
   ],
   "dcat:theme": [
     "agriculture"

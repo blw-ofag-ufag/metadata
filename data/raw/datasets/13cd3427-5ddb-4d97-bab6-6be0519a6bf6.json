@@ -34,8 +34,8 @@
   },
   "bv:typeOfData": "thematicData",
   "dcat:keyword": [
-    "meteorological-geographical-features",
-    "fsdi-federal-spatial-data-infrastructure"
+    "meteorology",
+    "FSDI"
   ],
   "dcat:theme": [
     "agriculture"

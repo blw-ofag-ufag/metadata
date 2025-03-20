@@ -35,10 +35,13 @@
   "bv:typeOfData": "thematicData",
   "dcat:keyword": [
     "official-geodata",
-    "conservation-and-archiving-planning-aap---confederation",
+    "conservation",
+    "archivation",
     "land-use",
-    "area-managementrestrictionregulation-zones-and-reporting-units",
-    "fsdi-federal-spatial-data-infrastructure"
+    "area-management",
+    "zoning",
+    "reporting-unit",
+    "FSDI"
   ],
   "dcat:theme": [
     "agriculture"

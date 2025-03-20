@@ -35,10 +35,11 @@
   "bv:typeOfData": "thematicData",
   "dcat:keyword": [
     "e-geoch",
-    "conservation-and-archiving-planning-aap---confederation",
+    "conservation",
+    "archivation",
     "soil-erosion",
     "erosion",
-    "fsdi-federal-spatial-data-infrastructure"
+    "FSDI"
   ],
   "dcat:theme": [
     "agriculture"

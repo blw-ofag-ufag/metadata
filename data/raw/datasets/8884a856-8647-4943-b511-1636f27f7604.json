@@ -34,13 +34,15 @@
   },
   "bv:typeOfData": "thematicData",
   "dcat:keyword": [
-    "protected-geographical-indication-pgi",
-    "protected-designation-of-origin-pdo",
+    "protected-geographical-indication",
+    "protected-designation-of-origin",
     "processed-agricultural-produce",
     "meat",
     "land-use",
-    "area-managementrestrictionregulation-zones-and-reporting-units",
-    "fsdi-federal-spatial-data-infrastructure"
+    "area-management",
+    "zoning",
+    "reporting-unit",
+    "FSDI"
   ],
   "dcat:theme": [
     "agriculture"

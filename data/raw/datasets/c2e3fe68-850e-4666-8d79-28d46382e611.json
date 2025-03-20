@@ -36,8 +36,8 @@
   "dcat:keyword": [
     "cultivation-suitability",
     "soil",
-    "meteorological-geographical-features",
-    "fsdi-federal-spatial-data-infrastructure"
+    "meteorology",
+    "FSDI"
   ],
   "dcat:theme": [
     "agriculture"
