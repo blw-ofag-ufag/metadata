@@ -15,7 +15,15 @@ ATTRIBUTES = [
     "dct:issued",
     "dcat:keyword",
     "prov:qualifiedAttribution",
-    "schema:image"
+    "schema:image",
+    "dct:accessRights",
+    "dct:publisher",
+    "dcat:contactPoint",
+    "dct:modified",
+    "adms:status",
+    "bv:classification",
+    "bv:personalData",
+    "bv:archivalValue"
 ]
 
 def load_schema(schema_path):
