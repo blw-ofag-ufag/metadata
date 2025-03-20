@@ -1,4 +1,5 @@
 {
+  "schema:image": "https://fal.media/files/panda/b__vcdaZJ763Vws9jRj-a_3728723149c44bfbb2a35c622a99ddef.jpg",
   "dct:identifier": "1260f14f-559f-4db2-97f7-66212441786a",
   "dct:title": {
     "fr": "Chiffres du marché des aliments pour animaux - Prix bruts annuels des producteurs, prix indicatifs",
@@ -35,7 +36,8 @@
   "bv:typeOfData": "thematicData",
   "dcat:keyword": [
     "price",
-    "market-data"
+    "market-data",
+    "feedstuff"
   ],
   "dcat:theme": [
     "agriculture",

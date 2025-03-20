@@ -1,4 +1,5 @@
 {
+  "schema:image": "https://fal.media/files/panda/b__vcdaZJ763Vws9jRj-a_3728723149c44bfbb2a35c622a99ddef.jpg",
   "dct:identifier": "fee0fa24-5a7a-4ee1-a2b4-ec0780339b4f",
   "dct:title": {
     "fr": "Chiffres du marché des aliments pour animaux - Quantités de production annuelles",
@@ -35,7 +36,8 @@
   "bv:typeOfData": "thematicData",
   "dcat:keyword": [
     "market-data",
-    "quantity"
+    "quantity",
+    "feedstuff"
   ],
   "dcat:theme": [
     "agriculture",

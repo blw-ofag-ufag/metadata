@@ -1,4 +1,5 @@
 {
+  "schema:image": "https://fal.media/files/lion/pjNrj1qOmGAynHFOMqvgL_576aedebfc1d4148a99d90ad324e6bab.jpg",
   "dct:identifier": "2a1dfa59-c0e8-4221-9fc0-52d2cb342094",
   "dct:title": {
     "fr": "Chiffres du marché de la viande, produits à base de viande et charcuterie - Quantités produites annuelles ",
@@ -35,7 +36,8 @@
   "bv:typeOfData": "thematicData",
   "dcat:keyword": [
     "quantity",
-    "market-data"
+    "market-data",
+    "meat"
   ],
   "dcat:theme": [
     "agriculture",
