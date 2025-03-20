@@ -3,8 +3,8 @@ import json
 
 # Configuration
 input_directory = "data/raw/datasets/"
-target_keyword = "meteorological-geographical-features"
-replacement_keywords = ["meteorology"]
+target_keyword = "aquatic animals"
+replacement_keywords = ["aquatic-animals"]
 
 # Loop over each file in the specified directory
 for filename in os.listdir(input_directory):
