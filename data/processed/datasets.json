@@ -224,8 +224,10 @@
         "dct:issued": "2025-03-09",
         "dcat:keyword": [
             "price",
-            "market-data"
+            "market-data",
+            "oilseeds"
         ],
+        "schema:image": "https://fal.media/files/penguin/7l0bvJnVAT1UAEBavzFda_e3f41ce03e2c4b95a26d206868b8b990.jpg",
         "schemaViolations": 1,
         "schemaViolationMessages": [
             "'prov:qualifiedAttribution' is a required property"
@@ -1734,8 +1736,10 @@
         "dct:issued": "2025-03-09",
         "dcat:keyword": [
             "market-data",
-            "price"
+            "price",
+            "oilseeds"
         ],
+        "schema:image": "https://fal.media/files/penguin/7l0bvJnVAT1UAEBavzFda_e3f41ce03e2c4b95a26d206868b8b990.jpg",
         "schemaViolations": 1,
         "schemaViolationMessages": [
             "'prov:qualifiedAttribution' is a required property"
@@ -2030,8 +2034,10 @@
         "dct:issued": "2025-03-09",
         "dcat:keyword": [
             "market-data",
-            "price"
+            "price",
+            "oilseeds"
         ],
+        "schema:image": "https://fal.media/files/penguin/7l0bvJnVAT1UAEBavzFda_e3f41ce03e2c4b95a26d206868b8b990.jpg",
         "schemaViolations": 1,
         "schemaViolationMessages": [
             "'prov:qualifiedAttribution' is a required property"
@@ -2574,8 +2580,10 @@
         "dct:issued": "2025-03-09",
         "dcat:keyword": [
             "quantity",
-            "market-data"
+            "market-data",
+            "oilseeds"
         ],
+        "schema:image": "https://fal.media/files/penguin/7l0bvJnVAT1UAEBavzFda_e3f41ce03e2c4b95a26d206868b8b990.jpg",
         "schemaViolations": 1,
         "schemaViolationMessages": [
             "'prov:qualifiedAttribution' is a required property"
