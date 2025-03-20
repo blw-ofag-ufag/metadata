@@ -87,10 +87,13 @@
         "dct:issued": "1997-01-01",
         "dcat:keyword": [
             "official-geodata",
-            "conservation-and-archiving-planning-aap---confederation",
+            "conservation",
+            "archivation",
             "land-use",
-            "area-managementrestrictionregulation-zones-and-reporting-units",
-            "fsdi-federal-spatial-data-infrastructure"
+            "area-management",
+            "zoning",
+            "reporting-unit",
+            "FSDI"
         ],
         "schemaViolations": 1,
         "schemaViolationMessages": [
@@ -113,9 +116,11 @@
         },
         "dct:issued": "2024-01-01",
         "dcat:keyword": [
-            "Data standard agricultural data",
+            "data-standard",
             "eCH-0263",
-            "fertiliserProductCategory"
+            "fertilizer",
+            "product-category",
+            "categorization"
         ],
         "businessDataOwner": "p-0170309",
         "schemaViolations": 1,
@@ -139,13 +144,15 @@
         },
         "dct:issued": "2009-12-16",
         "dcat:keyword": [
-            "protected-designation-of-origin-pdo",
-            "protected-geographical-indication-pgi",
+            "protected-designation-of-origin",
+            "protected-geographical-indication",
             "processed-agricultural-produce",
             "dairy-product",
             "land-use",
-            "area-managementrestrictionregulation-zones-and-reporting-units",
-            "fsdi-federal-spatial-data-infrastructure"
+            "area-management",
+            "zoning",
+            "reporting-unit",
+            "FSDI"
         ],
         "schemaViolations": 1,
         "schemaViolationMessages": [
@@ -191,9 +198,9 @@
         "dcat:keyword": [
             "cultivation-suitability",
             "climatic-effect",
-            "meteorological-geographical-features",
+            "meteorology",
             "land-use",
-            "fsdi-federal-spatial-data-infrastructure"
+            "FSDI"
         ],
         "schemaViolations": 1,
         "schemaViolationMessages": [
@@ -335,9 +342,9 @@
         "dcat:keyword": [
             "cultivation-suitability",
             "climatic-effect",
-            "meteorological-geographical-features",
+            "meteorology",
             "land-use",
-            "fsdi-federal-spatial-data-infrastructure"
+            "FSDI"
         ],
         "schemaViolations": 1,
         "schemaViolationMessages": [
@@ -455,7 +462,7 @@
         "dcat:keyword": [
             "land-use",
             "natural-risk-zones",
-            "fsdi-federal-spatial-data-infrastructure"
+            "FSDI"
         ],
         "schemaViolations": 1,
         "schemaViolationMessages": [
@@ -549,9 +556,9 @@
         "dcat:keyword": [
             "cultivation-suitability",
             "climatic-effect",
-            "meteorological-geographical-features",
+            "meteorology",
             "land-use",
-            "fsdi-federal-spatial-data-infrastructure"
+            "FSDI"
         ],
         "schemaViolations": 1,
         "schemaViolationMessages": [
@@ -597,7 +604,7 @@
         "dcat:keyword": [
             "soil",
             "agriculture",
-            "fsdi-federal-spatial-data-infrastructure"
+            "FSDI"
         ],
         "schemaViolations": 1,
         "schemaViolationMessages": [
@@ -646,9 +653,11 @@
         "dcat:keyword": [
             "mountain-management",
             "alpine-economy",
-            "area-managementrestrictionregulation-zones-and-reporting-units",
+            "area-management",
+            "zoning",
+            "reporting-unit",
             "utility-and-governmental-services",
-            "fsdi-federal-spatial-data-infrastructure"
+            "FSDI"
         ],
         "schemaViolations": 1,
         "schemaViolationMessages": [
@@ -719,14 +728,16 @@
         },
         "dct:issued": "2009-12-16",
         "dcat:keyword": [
-            "protected-geographical-indication-pgi",
-            "protected-designation-of-origin-pdo",
+            "protected-geographical-indication",
+            "protected-designation-of-origin",
             "crop-production",
             "plant-resource",
             "processed-agricultural-produce",
             "land-use",
-            "area-managementrestrictionregulation-zones-and-reporting-units",
-            "fsdi-federal-spatial-data-infrastructure"
+            "area-management",
+            "zoning",
+            "reporting-unit",
+            "FSDI"
         ],
         "schemaViolations": 1,
         "schemaViolationMessages": [
@@ -751,8 +762,8 @@
         "dcat:keyword": [
             "cultivation-suitability",
             "soil",
-            "meteorological-geographical-features",
-            "fsdi-federal-spatial-data-infrastructure"
+            "meteorology",
+            "FSDI"
         ],
         "schemaViolations": 1,
         "schemaViolationMessages": [
@@ -819,9 +830,9 @@
         "dcat:keyword": [
             "cultivation-suitability",
             "climatic-effect",
-            "meteorological-geographical-features",
+            "meteorology",
             "land-use",
-            "fsdi-federal-spatial-data-infrastructure"
+            "FSDI"
         ],
         "schemaViolations": 1,
         "schemaViolationMessages": [
@@ -931,14 +942,16 @@
         },
         "dct:issued": "2009-12-16",
         "dcat:keyword": [
-            "protected-designation-of-origin-pdo",
-            "protected-geographical-indication-pgi",
+            "protected-designation-of-origin",
+            "protected-geographical-indication",
             "processed-agricultural-produce",
             "alcohol",
             "distillation",
-            "area-managementrestrictionregulation-zones-and-reporting-units",
+            "area-management",
+            "zoning",
+            "reporting-unit",
             "land-use",
-            "fsdi-federal-spatial-data-infrastructure"
+            "FSDI"
         ],
         "schemaViolations": 1,
         "schemaViolationMessages": [
@@ -1003,9 +1016,11 @@
         },
         "dct:issued": "2001-03-01",
         "dcat:keyword": [
-            "Data standard agricultural data",
+            "data-standard",
             "eCH-0263",
-            "fertiliserProductCatPre24"
+            "fertilizer",
+            "product-category",
+            "deprecated"
         ],
         "businessDataOwner": "p-0170309",
         "schemaViolations": 1,
@@ -1100,8 +1115,8 @@
         "dcat:keyword": [
             "cultivation-suitability",
             "soil",
-            "meteorological-geographical-features",
-            "fsdi-federal-spatial-data-infrastructure"
+            "meteorology",
+            "FSDI"
         ],
         "schemaViolations": 1,
         "schemaViolationMessages": [
@@ -1213,9 +1228,9 @@
         "dcat:keyword": [
             "cultivation-suitability",
             "climatic-effect",
-            "meteorological-geographical-features",
+            "meteorology",
             "land-use",
-            "fsdi-federal-spatial-data-infrastructure"
+            "FSDI"
         ],
         "schemaViolations": 1,
         "schemaViolationMessages": [
@@ -1242,9 +1257,10 @@
             "e-geoch",
             "vineyard-zone",
             "official-geodata",
-            "conservation-and-archiving-planning-aap---confederation",
+            "conservation",
+            "archivation",
             "subsidy",
-            "fsdi-federal-spatial-data-infrastructure"
+            "FSDI"
         ],
         "schemaViolations": 1,
         "schemaViolationMessages": [
@@ -1271,7 +1287,7 @@
             "soil-erosion",
             "e-geoch",
             "soil",
-            "fsdi-federal-spatial-data-infrastructure"
+            "FSDI"
         ],
         "schemaViolations": 1,
         "schemaViolationMessages": [
@@ -1318,11 +1334,12 @@
         },
         "dct:issued": "2012-12-01",
         "dcat:keyword": [
-            "conservation-and-archiving-planning-aap---confederation",
+            "conservation",
+            "archivation",
             "e-geoch",
             "soil-erosion",
             "erosion",
-            "fsdi-federal-spatial-data-infrastructure"
+            "FSDI"
         ],
         "schemaViolations": 1,
         "schemaViolationMessages": [
@@ -1371,9 +1388,9 @@
         "dcat:keyword": [
             "cultivation-suitability",
             "climatic-effect",
-            "meteorological-geographical-features",
+            "meteorology",
             "land-use",
-            "fsdi-federal-spatial-data-infrastructure"
+            "FSDI"
         ],
         "schemaViolations": 1,
         "schemaViolationMessages": [
@@ -1443,8 +1460,8 @@
         "dcat:keyword": [
             "cultivation-suitability",
             "soil",
-            "meteorological-geographical-features",
-            "fsdi-federal-spatial-data-infrastructure"
+            "meteorology",
+            "FSDI"
         ],
         "schemaViolations": 1,
         "schemaViolationMessages": [
@@ -1493,8 +1510,8 @@
         "dcat:keyword": [
             "cultivation-suitability",
             "soil",
-            "meteorological-geographical-features",
-            "fsdi-federal-spatial-data-infrastructure"
+            "meteorology",
+            "FSDI"
         ],
         "schemaViolations": 1,
         "schemaViolationMessages": [
@@ -1633,10 +1650,11 @@
         "dcat:keyword": [
             "official-geodata",
             "gradient",
-            "conservation-and-archiving-planning-aap---confederation",
+            "conservation",
+            "archivation",
             "e-geoch",
             "subsidy",
-            "fsdi-federal-spatial-data-infrastructure"
+            "FSDI"
         ],
         "schemaViolations": 1,
         "schemaViolationMessages": [
@@ -1755,10 +1773,10 @@
         },
         "dct:issued": "2024-01-01",
         "dcat:keyword": [
-            "Data standard agricultural data",
+            "data-standard",
             "eCH-0265",
             "AGIS",
-            "Direct Payments"
+            "direct-payments"
         ],
         "businessDataOwner": "p-5367735",
         "schemaViolations": 0,
@@ -1804,13 +1822,15 @@
         },
         "dct:issued": "2011-12-14",
         "dcat:keyword": [
-            "protected-geographical-indication-pgi",
-            "protected-designation-of-origin-pdo",
+            "protected-geographical-indication",
+            "protected-designation-of-origin",
             "processed-agricultural-produce",
             "meat",
             "land-use",
-            "area-managementrestrictionregulation-zones-and-reporting-units",
-            "fsdi-federal-spatial-data-infrastructure"
+            "area-management",
+            "zoning",
+            "reporting-unit",
+            "FSDI"
         ],
         "schemaViolations": 1,
         "schemaViolationMessages": [
@@ -1903,7 +1923,7 @@
         "dct:issued": "2023-07-14",
         "dcat:keyword": [
             "statistical-units",
-            "fsdi-federal-spatial-data-infrastructure"
+            "FSDI"
         ],
         "schemaViolations": 1,
         "schemaViolationMessages": [
@@ -1926,11 +1946,11 @@
         },
         "dct:issued": "2024-01-01",
         "dcat:keyword": [
-            "Data standard agricultural data",
+            "data-standard",
             "eCH-0263",
             "main crops",
             "AGIS",
-            "Direct Payments"
+            "direct-payments"
         ],
         "businessDataOwner": "p-5367735",
         "schemaViolations": 0,
@@ -1953,10 +1973,11 @@
         "dct:issued": "2012-12-31",
         "dcat:keyword": [
             "e-geoch",
-            "conservation-and-archiving-planning-aap---confederation",
+            "conservation",
+            "archivation",
             "soil-erosion",
             "erosion",
-            "fsdi-federal-spatial-data-infrastructure"
+            "FSDI"
         ],
         "schemaViolations": 1,
         "schemaViolationMessages": [
@@ -2050,9 +2071,9 @@
         "dcat:keyword": [
             "cultivation-suitability",
             "climatic-effect",
-            "meteorological-geographical-features",
+            "meteorology",
             "land-use",
-            "fsdi-federal-spatial-data-infrastructure"
+            "FSDI"
         ],
         "schemaViolations": 1,
         "schemaViolationMessages": [
@@ -2101,8 +2122,8 @@
         "dcat:keyword": [
             "cultivation-suitability",
             "soil",
-            "meteorological-geographical-features",
-            "fsdi-federal-spatial-data-infrastructure"
+            "meteorology",
+            "FSDI"
         ],
         "schemaViolations": 1,
         "schemaViolationMessages": [
@@ -2125,10 +2146,10 @@
         },
         "dct:issued": "2024-01-01",
         "dcat:keyword": [
-            "Data standard agricultural data",
+            "data-standard",
             "eCH-0265",
             "AGIS",
-            "Direct Payments"
+            "direct-payments"
         ],
         "businessDataOwner": "p-5367735",
         "schemaViolations": 0,
@@ -2250,9 +2271,9 @@
         "dcat:keyword": [
             "cultivation-suitability",
             "climatic-effect",
-            "meteorological-geographical-features",
+            "meteorology",
             "land-use",
-            "fsdi-federal-spatial-data-infrastructure"
+            "FSDI"
         ],
         "schemaViolations": 1,
         "schemaViolationMessages": [
@@ -2368,8 +2389,8 @@
         },
         "dct:issued": "2009-11-10",
         "dcat:keyword": [
-            "meteorological-geographical-features",
-            "fsdi-federal-spatial-data-infrastructure"
+            "meteorology",
+            "FSDI"
         ],
         "schemaViolations": 1,
         "schemaViolationMessages": [
@@ -2394,9 +2415,11 @@
         "dcat:keyword": [
             "alpine-economy",
             "mountain-management",
-            "area-managementrestrictionregulation-zones-and-reporting-units",
+            "area-management",
+            "zoning",
+            "reporting-unit",
             "utility-and-governmental-services",
-            "fsdi-federal-spatial-data-infrastructure"
+            "FSDI"
         ],
         "schemaViolations": 1,
         "schemaViolationMessages": [
@@ -2468,7 +2491,7 @@
             "erosion",
             "soil-erosion",
             "e-geoch",
-            "fsdi-federal-spatial-data-infrastructure"
+            "FSDI"
         ],
         "schemaViolations": 1,
         "schemaViolationMessages": [
@@ -2514,8 +2537,8 @@
         "dcat:keyword": [
             "cultivation-suitability",
             "soil",
-            "meteorological-geographical-features",
-            "fsdi-federal-spatial-data-infrastructure"
+            "meteorology",
+            "FSDI"
         ],
         "schemaViolations": 1,
         "schemaViolationMessages": [
@@ -2646,9 +2669,9 @@
         "dcat:keyword": [
             "cultivation-suitability",
             "climatic-effect",
-            "meteorological-geographical-features",
+            "meteorology",
             "land-use",
-            "fsdi-federal-spatial-data-infrastructure"
+            "FSDI"
         ],
         "schemaViolations": 1,
         "schemaViolationMessages": [
@@ -2673,8 +2696,8 @@
         "dcat:keyword": [
             "cultivation-suitability",
             "soil",
-            "meteorological-geographical-features",
-            "fsdi-federal-spatial-data-infrastructure"
+            "meteorology",
+            "FSDI"
         ],
         "schemaViolations": 1,
         "schemaViolationMessages": [
@@ -2786,8 +2809,8 @@
         "dcat:keyword": [
             "cultivation-suitability",
             "soil",
-            "meteorological-geographical-features",
-            "fsdi-federal-spatial-data-infrastructure"
+            "meteorology",
+            "FSDI"
         ],
         "schemaViolations": 1,
         "schemaViolationMessages": [
@@ -2834,14 +2857,16 @@
         },
         "dct:issued": "2009-12-16",
         "dcat:keyword": [
-            "protected-designation-of-origin-pdo",
-            "protected-geographical-indication-pgi",
+            "protected-designation-of-origin",
+            "protected-geographical-indication",
             "plant-resource",
             "crop-production",
             "processed-agricultural-produce",
             "land-use",
-            "area-managementrestrictionregulation-zones-and-reporting-units",
-            "fsdi-federal-spatial-data-infrastructure"
+            "area-management",
+            "zoning",
+            "reporting-unit",
+            "FSDI"
         ],
         "schemaViolations": 1,
         "schemaViolationMessages": [
@@ -2891,7 +2916,7 @@
             "soil-erosion",
             "erosion",
             "e-geoch",
-            "fsdi-federal-spatial-data-infrastructure"
+            "FSDI"
         ],
         "schemaViolations": 1,
         "schemaViolationMessages": [
@@ -2935,9 +2960,12 @@
         },
         "dct:issued": "2023-01-01",
         "dcat:keyword": [
-            "Data standard agricultural data",
+            "data-standard",
             "eCH-0263",
-            "TypeOfFertilizerProdPre24"
+            "fertilizer",
+            "product-category",
+            "deprecated",
+            "categorization"
         ],
         "businessDataOwner": "p-0170309",
         "schemaViolations": 1,
@@ -2961,10 +2989,10 @@
         },
         "dct:issued": "2024-01-01",
         "dcat:keyword": [
-            "Data standard agricultural data",
+            "data-standard",
             "eCH-0265",
             "AGIS",
-            "Direct Payments"
+            "direct-payments"
         ],
         "businessDataOwner": "p-5367735",
         "schemaViolations": 0,
@@ -2987,9 +3015,11 @@
         "dct:issued": "2024-05-14",
         "dcat:keyword": [
             "land-use",
-            "area-managementrestrictionregulation-zones-and-reporting-units",
+            "area-management",
+            "zoning",
+            "reporting-unit",
             "land-cover",
-            "fsdi-federal-spatial-data-infrastructure"
+            "FSDI"
         ],
         "schemaViolations": 1,
         "schemaViolationMessages": [
