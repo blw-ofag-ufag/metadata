@@ -248,8 +248,10 @@
         "dct:issued": "2025-03-09",
         "dcat:keyword": [
             "market-data",
-            "price"
+            "price",
+            "feedstuff"
         ],
+        "schema:image": "https://fal.media/files/panda/b__vcdaZJ763Vws9jRj-a_3728723149c44bfbb2a35c622a99ddef.jpg",
         "schemaViolations": 1,
         "schemaViolationMessages": [
             "'prov:qualifiedAttribution' is a required property"
@@ -317,8 +319,10 @@
         "dct:issued": "2025-03-09",
         "dcat:keyword": [
             "quantity",
-            "market-data"
+            "market-data",
+            "meat"
         ],
+        "schema:image": "https://fal.media/files/lion/pjNrj1qOmGAynHFOMqvgL_576aedebfc1d4148a99d90ad324e6bab.jpg",
         "schemaViolations": 1,
         "schemaViolationMessages": [
             "'prov:qualifiedAttribution' is a required property"
@@ -437,8 +441,10 @@
         "dct:issued": "2025-03-09",
         "dcat:keyword": [
             "market-data",
-            "price"
+            "price",
+            "feedstuff"
         ],
+        "schema:image": "https://fal.media/files/panda/b__vcdaZJ763Vws9jRj-a_3728723149c44bfbb2a35c622a99ddef.jpg",
         "schemaViolations": 1,
         "schemaViolationMessages": [
             "'prov:qualifiedAttribution' is a required property"
@@ -681,8 +687,10 @@
         "dct:issued": "2025-03-09",
         "dcat:keyword": [
             "price",
-            "market-data"
+            "market-data",
+            "feedstuff"
         ],
+        "schema:image": "https://fal.media/files/panda/b__vcdaZJ763Vws9jRj-a_3728723149c44bfbb2a35c622a99ddef.jpg",
         "schemaViolations": 1,
         "schemaViolationMessages": [
             "'prov:qualifiedAttribution' is a required property"
@@ -2046,8 +2054,10 @@
         "dct:issued": "2025-03-09",
         "dcat:keyword": [
             "market-data",
-            "quantity"
+            "quantity",
+            "meat"
         ],
+        "schema:image": "https://fal.media/files/lion/pjNrj1qOmGAynHFOMqvgL_576aedebfc1d4148a99d90ad324e6bab.jpg",
         "schemaViolations": 1,
         "schemaViolationMessages": [
             "'prov:qualifiedAttribution' is a required property"
@@ -2097,8 +2107,10 @@
         "dct:issued": "2025-03-09",
         "dcat:keyword": [
             "market-data",
-            "quantity"
+            "quantity",
+            "feedstuff"
         ],
+        "schema:image": "https://fal.media/files/panda/b__vcdaZJ763Vws9jRj-a_3728723149c44bfbb2a35c622a99ddef.jpg",
         "schemaViolations": 1,
         "schemaViolationMessages": [
             "'prov:qualifiedAttribution' is a required property"
