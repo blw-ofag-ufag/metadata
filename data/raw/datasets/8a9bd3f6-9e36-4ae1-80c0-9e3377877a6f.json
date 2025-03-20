@@ -1,4 +1,5 @@
 {
+  "schema:image": "https://fal.media/files/penguin/7l0bvJnVAT1UAEBavzFda_e3f41ce03e2c4b95a26d206868b8b990.jpg",
   "dct:identifier": "8a9bd3f6-9e36-4ae1-80c0-9e3377877a6f",
   "dct:title": {
     "fr": "Chiffres du marché des oléagineux - Prix de consommation mensuels",
@@ -35,7 +36,8 @@
   "bv:typeOfData": "thematicData",
   "dcat:keyword": [
     "market-data",
-    "price"
+    "price",
+    "oilseeds"
   ],
   "dcat:theme": [
     "agriculture",
