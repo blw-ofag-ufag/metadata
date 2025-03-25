@@ -1591,6 +1591,45 @@
         ]
     },
     {
+        "dct:identifier": "6ce7322f-10c4-4a60-8a4b-ea5318b4b8a1",
+        "dct:title": {
+            "de": "Art und Anzahl Nutztiere auf einem Betrieb in der Schweizer Landwirtschaft",
+            "fr": "Type et nombre d'animaux de rente dans une exploitation agricole suisse",
+            "it": "Tipo e numero di animali da reddito in un'azienda agricola in Svizzera",
+            "en": "Type and number of farm animals on a farm in Switzerland"
+        },
+        "dct:description": {
+            "de": "Dieses Datenpaket enthält die Art und Anzahl Nutztiere, die auf einem Betrieb gehalten werden. Im BLW sind auf Anfrage über die Anwendung MAF aus dem System AGIS Betriebsdaten (Person und Betrieb), Strukturdaten und Anmeldedaten zu landwirtschaftlichen Betrieben verfügbar. Zur Weitergabe der Daten müssen die Bewirtschaftenden ihre Einwilligung in der Anwendung MAF erteilen. Dieses Dataset entspricht dem Datenpaket S01 \"Nutztiere_auf_Betrieb\" aus dem MAF PDF-Katalog. Das Dataset enthält jährlich ab ca. Mitte März die Daten aus dem Vorjahr. Das Dataset mit \"provisorischen Daten\" enthält Angaben aus dem laufenden Kalenderjahr.",
+            "fr": "Ce paquet de données contient le type et le nombre d'animaux de rente détenus dans une exploitation. Sur demande, l'OFAG met à disposition des données d'exploitation (personne et exploitation), des données structurelles et des données d'enregistrement des exploitations agricoles via l'application MAF du système AGIS. Pour que les données puissent être transmises, les exploitants doivent donner leur accord dans l'application MAF. Cet ensemble de données correspond au paquet de données S01 « Animaux de rente sur l'exploitation » du catalogue PDF MAF. L'ensemble de données contient chaque année, à partir de la mi-mars environ, les données de l'année précédente. L'ensemble de données contenant les « données provisoires » contient des informations sur l'année civile en cours.",
+            "it": "Questo pacchetto di dati contiene il tipo e il numero di animali da reddito allevati in un'azienda. Su richiesta, l'UFAG mette a disposizione dati aziendali (persona e azienda), dati strutturali e dati di registrazione delle aziende agricole tramite l'applicazione MAF del sistema AGIS. Per la trasmissione dei dati, gli agricoltori devono dare il loro consenso nell'applicazione MAF. Questo set di dati corrisponde al pacchetto di dati S01 \"Animali da reddito nell'azienda\" del catalogo MAF in formato PDF. Il set di dati contiene i dati dell'anno precedente a partire da circa metà marzo di ogni anno. Il set di dati con \"dati provvisori\" contiene informazioni relative all'anno solare in corso.",
+            "en": "This data package contains the type and number of farm animals kept on a holding. The FOAG provides access to the following data on holdings: personal and holding data, structural data and registration data from the AGIS system via the MAF application. Farmers must give their consent in the MAF application for the data to be passed on. This dataset corresponds to the S01 \"Nutztiere_auf_Betrieb\" data package from the MAF PDF catalogue. The dataset contains data from the previous year, available annually from around mid-March. The dataset with \"provisional data\" contains information from the current calendar year."
+        },
+        "dct:issued": "2020-01-01",
+        "dcat:keyword": [
+            "AGIS",
+            "meine-agrardaten-freigabe",
+            "MAF",
+            "structural-data",
+            "farm",
+            "animals",
+            "GVE"
+        ],
+        "dct:accessRights": "RESTRICTED",
+        "dct:publisher": "BLW-OFAG-UFAG",
+        "dcat:contactPoint": {
+            "schema:name": "AV MAF, GRKDT",
+            "schema:email": "maf@blw.admin.ch"
+        },
+        "dct:modified": "2025-03-25",
+        "adms:status": "published",
+        "bv:classification": "none",
+        "bv:personalData": "personalData",
+        "bv:archivalValue": false,
+        "businessDataOwner": "p-1YVS771WP",
+        "schemaViolations": 0,
+        "schemaViolationMessages": []
+    },
+    {
         "dct:identifier": "b5158cde-a426-4c7f-9a61-2f6a192938a2",
         "dct:title": {
             "fr": "Commerce extérieur 1990/92-2015",
@@ -2117,6 +2156,46 @@
         "schemaViolationMessages": [
             "'prov:qualifiedAttribution' is a required property"
         ]
+    },
+    {
+        "dct:identifier": "451e6d03-9868-49fb-8c26-ebf3acc85e43",
+        "dct:title": {
+            "de": "Art und Anzahl Nutztiere in Sömmerung auf einem Betrieb in der Schweizer Landwirtschaft",
+            "fr": "Type et nombre d'animaux de rente en estivage dans une exploitation agricole suisse",
+            "it": "Tipo e numero di animali da reddito in estivazione in un'azienda agricola svizzera",
+            "en": "Type and number of farm animals summering on a farm in Swiss agriculture"
+        },
+        "dct:description": {
+            "de": "Dieses Datenpaket enthält die Art und Anzahl Nutztiere zu einem Betrieb, die im Inland gesömmert wurden. Im BLW sind auf Anfrage über die Anwendung MAF aus dem System AGIS Betriebsdaten (Person und Betrieb), Strukturdaten und Anmeldedaten zu landwirtschaftlichen Betrieben verfügbar. Zur Weitergabe der Daten müssen die Bewirtschaftenden ihre Einwilligung in der Anwendung MAF erteilen. Dieses Dataset entspricht dem Datenpaket S02 \"Nutztiere_in_Soemmerung\" aus dem MAF PDF-Katalog. Das Dataset enthält jährlich ab ca. Mitte März die Daten aus dem Vorjahr. Das Dataset mit \"provisorischen Daten\" enthält Angaben aus dem laufenden Kalenderjahr.",
+            "fr": "Ce paquet de données contient le type et le nombre d'animaux de rente d'une exploitation qui ont été estivés en Suisse. Sur demande, l'OFAG met à disposition des données d'exploitation (personne et exploitation), des données structurelles et des données d'enregistrement des exploitations agricoles via l'application MAF du système AGIS. Pour que les données puissent être transmises, les exploitants doivent donner leur accord dans l'application MAF. Cet ensemble de données correspond au paquet de données S02 « Nutztiere_in_Soemmerung » du catalogue PDF MAF. L'ensemble de données contient les données de l'année précédente à partir de la mi-mars environ. L'ensemble de données contenant des « données provisoires » contient des informations sur l'année civile en cours.",
+            "it": "Questo pacchetto di dati contiene il tipo e il numero di animali da reddito di un'azienda che sono stati estivati in Svizzera. Su richiesta, i dati aziendali (persona e azienda), i dati strutturali e i dati di registrazione delle aziende agricole sono disponibili presso l'UFAG tramite l'applicazione MAF del sistema AGIS. Per la trasmissione dei dati, gli agricoltori devono dare il loro consenso nell'applicazione MAF. Questo set di dati corrisponde al pacchetto di dati S02 \"Nutztiere_in_Soemmerung\" del catalogo MAF in formato PDF. Il set di dati contiene i dati dell'anno precedente a partire da circa metà marzo di ogni anno. Il set di dati con \"dati provvisori\" contiene informazioni relative all'anno solare in corso.",
+            "en": "This data package contains the type and number of farm animals for a holding that have been summered in Switzerland. At the FOAG, farm data (person and holding), structural data and registration data on agricultural holdings are available via the MAF application from the AGIS system. Farmers must give their consent in the MAF application for the data to be passed on. This dataset corresponds to the data package S02 \"Nutztiere_in_Soemmerung\" from the MAF PDF catalogue. The dataset contains data from the previous year, annually from around mid-March. The dataset with \"provisional data\" contains information from the current calendar year."
+        },
+        "dct:issued": "2020-01-01",
+        "dcat:keyword": [
+            "AGIS",
+            "meine-agrardaten-freigabe",
+            "MAF",
+            "structural-data",
+            "farm",
+            "animals",
+            "GVE",
+            "summering"
+        ],
+        "dct:accessRights": "RESTRICTED",
+        "dct:publisher": "BLW-OFAG-UFAG",
+        "dcat:contactPoint": {
+            "schema:name": "AV MAF, GRKDT",
+            "schema:email": "maf@blw.admin.ch"
+        },
+        "dct:modified": "2025-03-25",
+        "adms:status": "published",
+        "bv:classification": "none",
+        "bv:personalData": "personalData",
+        "bv:archivalValue": false,
+        "businessDataOwner": "p-1YVS771WP",
+        "schemaViolations": 0,
+        "schemaViolationMessages": []
     },
     {
         "dct:identifier": "9fccd3a6-fbaf-41cc-9ade-7c53d8c9cc8e",
