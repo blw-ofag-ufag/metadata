@@ -1,0 +1,107 @@
+{
+  "dct:identifier": "f2d347f7-7782-4411-b99e-666e67b6c652",
+  "dct:title": {
+    "de": "Flächenangaben zu Hauptkulturen auf einem Betrieb in der Schweizer Landwirtschaft",
+    "fr": "Données sur les surfaces des principales cultures dans une exploitation agricole suisse",
+    "it": "Dati sulle superfici delle principali colture in un'azienda agricola in Svizzera",
+    "en": "Area data for main crops on a farm in Swiss agriculture"
+  },
+  "dct:description": {
+    "de": "Dieses Datenpaket enthält die Fläche der im entsprechenden Jahr angebauten Hauptkulturen eines Betriebs inklusive Angabe zur landwirtschaftlichen Zone, Standortgemeinde und der Bewirtschaftungsform. Im BLW sind auf Anfrage über die Anwendung MAF aus dem System AGIS Betriebsdaten (Person und Betrieb), Strukturdaten und Anmeldedaten zu landwirtschaftlichen Betrieben verfügbar. Zur Weitergabe der Daten müssen die Bewirtschaftenden ihre Einwilligung in der Anwendung MAF erteilen. Dieses Dataset entspricht dem Datenpaket S03 \"Flaechen_Hauptkulturen\" aus dem MAF PDF-Katalog. Das Dataset enthält jährlich ab ca. Mitte März die Daten aus dem Vorjahr. Das Dataset mit \"provisorischen Daten\" enthält Angaben aus dem laufenden Kalenderjahr.",
+    "fr": "Ce paquet de données contient la surface des principales cultures d'une exploitation au cours de l'année concernée, y compris des informations sur la zone agricole, la commune d'implantation et le mode d'exploitation. Sur demande, l'OFAG met à disposition des données d'exploitation (personne et exploitation), des données structurelles et des données d'enregistrement des exploitations agricoles via l'application MAF du système AGIS. Pour que les données puissent être transmises, les exploitants doivent donner leur consentement dans l'application MAF. Cet ensemble de données correspond au paquet de données S03 « Surfaces_cultures_principales » du catalogue PDF MAF. L'ensemble de données contient les données de l'année précédente à partir de la mi-mars environ. L'ensemble de données avec les « données provisoires » contient des informations de l'année civile en cours.",
+    "it": "Questo pacchetto di dati contiene la superficie delle colture principali di un'azienda coltivate nell'anno corrispondente, compresa l'indicazione della zona agricola, del comune di ubicazione e del tipo di gestione. Su richiesta, l'UFAG mette a disposizione dati aziendali (persona e azienda), dati strutturali e dati di registrazione delle aziende agricole tramite l'applicazione MAF del sistema AGIS. Per la trasmissione dei dati, gli agricoltori devono dare il loro consenso nell'applicazione MAF. Questo set di dati corrisponde al pacchetto di dati S03 \"Flaechen_Hauptkulturen\" (superfici_colture principali) del catalogo MAF in formato PDF. Il set di dati contiene i dati dell'anno precedente a partire da circa metà marzo di ogni anno. Il set di dati con \"dati provvisori\" contiene informazioni relative all'anno solare in corso.",
+    "en": "This data package contains the area of the main crops grown on a holding in the corresponding year, including information on the agricultural zone, municipality and type of farming. Farm data (person and holding), structural data and registration data on agricultural holdings are available from the FOAG on request via the MAF application from the AGIS system. Farmers must give their consent in the MAF application for the data to be passed on. This dataset corresponds to the S03 \"Flaechen_Hauptkulturen\" data package from the MAF PDF catalogue. The dataset containing \"provisional data\" contains information from the current calendar year."
+  },
+  "dct:accessRights": "RESTRICTED",
+  "dct:issued": "2020-01-01",
+  "dct:publisher": "BLW-OFAG-UFAG",
+  "dcat:contactPoint": {
+    "schema:name": "AV MAF, GRKDT",
+    "schema:email": "maf@blw.admin.ch"
+  },
+  "bv:archivalValue": false,
+  "dcat:keyword": [
+    "AGIS",
+    "meine-agrardaten-freigabe",
+    "MAF",
+    "structural-data",
+	"crops",
+	"legal-form"
+  ],
+  "dct:accrualPeriodicity": "ANNUAL",
+  "dct:modified": "2025-03-25",
+  "prov:qualifiedAttribution": [
+    {
+      "prov:agent": "p-1YVS771WP",
+      "dcat:hadRole": "businessDataOwner"
+    },
+    {
+      "prov:agent": "p-6693814",
+      "dcat:hadRole": "dataSteward"
+    }
+  ],
+  "dcat:landingPage": "https://www.blw.admin.ch/de/meine-agrardatenfreigabe",
+  "foaf:page": [
+    {
+      "alias": "PDF: MAF-Verfügbare Datenpakete",
+	  "uri": "https://backend.blw.admin.ch/fileservice/sdweb-docs-prod-blwch-files/files/2024/08/28/3106f5f5-1bcb-4b25-a78a-75c712f2491f.pdf"
+    }
+  ],
+  "adms:status": "published",
+  "bv:classification": "none",
+  "bv:personalData": "personalData",
+  "bv:typeOfData": "thematicData",
+  "bv:opendata_swiss": {
+    "bv:mustBePublished": false
+  },
+  "bv:i14y": {
+    "bv:mustBePublished": true
+  },
+  "dcat:theme": [
+    "agriculture"
+  ],
+  "dcatap:applicableLegislation": [
+    "Missing"
+  ],
+  "bv:itSystem": "https://agriculture.ld.admin.ch/system-map/SYS008",
+  "dcat:distribution": [
+    {
+      "dct:identifier": "229be31f-e6d7-4017-9a3b-b5ffed71efe9",
+	  "dct:title": {
+		"de": "Flächenangaben zu Hauptkulturen auf einem Betrieb in der Schweizer Landwirtschaft",
+		"fr": "Données sur les surfaces des principales cultures dans une exploitation agricole suisse",
+		"it": "Dati sulle superfici delle principali colture in un'azienda agricola in Svizzera",
+		"en": "Area data for main crops on a farm in Swiss agriculture"
+	  },
+	  "dct:description": {
+		"de": "Dieses Datenpaket enthält die Fläche der im entsprechenden Jahr angebauten Hauptkulturen eines Betriebs inklusive Angabe zur landwirtschaftlichen Zone, Standortgemeinde und der Bewirtschaftungsform. Das Dataset enthält jährlich ab ca. Mitte März die Daten aus dem Vorjahr.",
+		"fr": "Ce paquet de données contient la surface des principales cultures d'une exploitation au cours de l'année concernée, y compris des informations sur la zone agricole, la commune d'implantation et le mode d'exploitation. L'ensemble de données contient chaque année, à partir de la mi-mars environ, les données de l'année précédente.",
+		"it": "Questo pacchetto di dati contiene la superficie delle colture principali di un'azienda coltivate nell'anno corrispondente, compresa l'indicazione della zona agricola, del comune di ubicazione e del tipo di gestione. Il set di dati contiene i dati dell'anno precedente a partire da circa metà marzo di ogni anno.",
+		"en": "This data package contains the area of the main crops grown on a holding in the corresponding year, including information on the agricultural zone, municipality and type of farming. The dataset contains data from the previous year, available annually from around mid-March."
+	  },
+      "adms:status": "published",
+      "dct:modified": "2025-03-25",
+      "dcat:accessURL": "missing",
+      "dct:format": "CSV"
+    },
+	{
+      "dct:identifier": "0fbb5a05-2ed6-4fd8-bdd7-78e7e2b001cf",
+	  "dct:title": {
+		"de": "Flächenangaben zu Hauptkulturen auf einem Betrieb in der Schweizer Landwirtschaft - Provisorische Daten",
+		"fr": "Données sur les surfaces des principales cultures dans une exploitation agricole suisse - données provisoires",
+		"it": "Dati sulle superfici delle principali colture in un'azienda agricola in Svizzera - dati provvisori",
+		"en": "Area data for main crops on a farm in Swiss agriculture - provisional data"
+	  },
+	  "dct:description": {
+		"de": "Dieses Datenpaket enthält die Fläche der im entsprechenden Jahr angebauten Hauptkulturen eines Betriebs inklusive Angabe zur landwirtschaftlichen Zone, Standortgemeinde und der Bewirtschaftungsform. Das Dataset mit \"provisorischen Daten\" enthält Angaben aus dem laufenden Kalenderjahr.",
+		"fr": "Ce paquet de données contient la surface des principales cultures d'une exploitation au cours de l'année concernée, y compris des informations sur la zone agricole, la commune d'implantation et le mode d'exploitation. L'ensemble de données contenant les « données provisoires » contient des informations sur l'année civile en cours.",
+		"it": "Questo pacchetto di dati contiene la superficie delle colture principali di un'azienda coltivate nell'anno corrispondente, compresa l'indicazione della zona agricola, del comune di ubicazione e del tipo di gestione. Il set di dati con \"dati provvisori\" contiene informazioni relative all'anno solare in corso.",
+		"en": "This data package contains the area of the main crops grown on a holding in the corresponding year, including information on the agricultural zone, municipality and type of farming. The dataset with \"provisional data\" contains information from the current calendar year."
+	  },
+      "adms:status": "published",
+      "dct:modified": "2025-03-25",
+      "dcat:accessURL": "missing",
+      "dct:format": "CSV"
+    }
+  ]
+}
