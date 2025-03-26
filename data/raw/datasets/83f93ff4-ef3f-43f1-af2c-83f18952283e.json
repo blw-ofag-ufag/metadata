@@ -26,8 +26,16 @@
   "dct:accrualPeriodicity": "IRREG",
   "prov:qualifiedAttribution": [
     {
+      "prov:agent": "p-1ZPP7KQSW",
+      "dcat:hadRole": "dataSteward"
+    },
+    {
       "prov:agent": "p-1ZFWFFNP6",
       "dcat:hadRole": "businessDataOwner"
+    },
+    {
+      "prov:agent": "p-1ZLWBXSJD",
+      "dcat:hadRole": "dataSteward"
     }
   ],
   "dct:publisher": "Federal Office for Agriculture",
