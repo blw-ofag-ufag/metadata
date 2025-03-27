@@ -185,6 +185,11 @@
             "title": "Last modification date",
             "description": "Last modification date of the data in the dataset."
         },
+        "dcat:version": {
+            "type": "string",
+            "title": "Version",
+            "description": "The version indicator following a Major.Minor.Patch schema (example: 2.1.4)."
+        },
         "prov:qualifiedAttribution": {
             "type": "array",
             "title": "Affiliated persons",

@@ -141,6 +141,11 @@
                 "archived"
             ]
         },
+        "dcat:version": {
+            "type": "string",
+            "title": "Version",
+            "description": "The version indicator following a Major.Minor.Patch schema (example: 2.1.4)."
+        },
         "dcat:dataset": {
             "title": "Series dataset",
             "type": [
