@@ -93,7 +93,7 @@
         "dct:accessRights": {
             "type": "string",
             "title": "Access rights",
-            "description": "Defines the accessibility of the dataset (e.g., public, internal, etc.). You can find more information here: <a href="https://www.dcat-ap.ch/releases/3.0_workingdraft/dcat-ap-ch_3.0_workingdraft.html#bib-vocab-eu-access-right">DCAT-AP CH 3.0 – Access Rights Vocabulary</a>.",
+            "description": "Defines the accessibility of the dataset (e.g., public, internal, etc.). You can find more information here: <a href='https://www.dcat-ap.ch/releases/3.0_workingdraft/dcat-ap-ch_3.0_workingdraft.html#bib-vocab-eu-access-right'>DCAT-AP CH 3.0 – Access Rights Vocabulary</a>.",
             "enum": [
                 "CONFIDENTIAL",
                 "NON_PUBLIC",
@@ -137,7 +137,7 @@
         },
         "dcatap:availability": {
             "title": "Dataset availability",
-            "description": "This property indicates how long it is planned to keep the Dataset available. You can find the available values here: <a href="http://publications.europa.eu/resource/authority/planned-availability">Planned availability</a>.",
+            "description": "This property indicates how long it is planned to keep the Dataset available. You can find the available values here: <a href='http://publications.europa.eu/resource/authority/planned-availability'>Planned availability</a>.",
             "type": "string",
             "enum": [
                 "AVAILABLE",
@@ -160,7 +160,7 @@
         "dct:accrualPeriodicity": {
             "type": "string",
             "title": "Accrual periodicity",
-            "description": "Frequency with which dataset is updated (e.g., 'Annual'). More information here: <a href="https://www.dcat-ap.ch/releases/3.0_workingdraft/dcat-ap-ch_3.0_workingdraft.html#bib-vocab-eu-frequency">Available frequencies</a>.",
+            "description": "Frequency with which dataset is updated (e.g., 'Annual'). More information here: <a href='https://www.dcat-ap.ch/releases/3.0_workingdraft/dcat-ap-ch_3.0_workingdraft.html#bib-vocab-eu-frequency'>Available frequencies</a>.",
             "enum": [
                 "OTHER",
                 "HOURLY",
@@ -344,7 +344,7 @@
                 "null"
             ],
             "title": "Dataset themes",
-            "description": "This attribute classifies the dataset into one or more broad thematics. Proper classification allow other users interested in the topic to find the dataset without knowing its name or description. Those are opendata.swiss themes, which are then mapped to EU themes. For the mapping, please consult <a href="https://dcat-ap.ch/vocabulary/themes/20231122.html">this page</a>.",
+            "description": "This attribute classifies the dataset into one or more broad thematics. Proper classification allow other users interested in the topic to find the dataset without knowing its name or description. Those are opendata.swiss themes, which are then mapped to EU themes. For the mapping, please consult <a href='https://dcat-ap.ch/vocabulary/themes/20231122.html'>this page</a>.",
             "items": {
                 "type": "string",
                 "enum": [
@@ -577,7 +577,7 @@
                     },
                     "dcatap:availability": {
                         "title": "Distribution availability",
-                        "description": "This property indicates how long it is planned to keep the Distribution available. You can find the available values here: <a href="http://publications.europa.eu/resource/authority/planned-availability">Planned availability</a>.",
+                        "description": "This property indicates how long it is planned to keep the Distribution available. You can find the available values here: <a href='http://publications.europa.eu/resource/authority/planned-availability'>Planned availability</a>.",
                         "type": "string",
                         "enum": [
                             "AVAILABLE",
