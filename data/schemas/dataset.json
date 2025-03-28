@@ -137,7 +137,7 @@
         },
         "dcatap:availability": {
             "title": "Dataset availability",
-            "description": "This property indicates how long it is planned to keep the Dataset available. See http://publications.europa.eu/resource/authority/planned-availability for the controlled vocabulary.",
+            "description": "This property indicates how long it is planned to keep the Dataset available. You can find the available values here: <a href="http://publications.europa.eu/resource/authority/planned-availability">Planned availability</a>.",
             "type": "string",
             "enum": [
                 "AVAILABLE",
@@ -160,7 +160,7 @@
         "dct:accrualPeriodicity": {
             "type": "string",
             "title": "Accrual periodicity",
-            "description": "Frequency with which dataset is updated (e.g., 'Annual'). See https://www.dcat-ap.ch/releases/3.0_workingdraft/dcat-ap-ch_3.0_workingdraft.html#bib-vocab-eu-frequency .",
+            "description": "Frequency with which dataset is updated (e.g., 'Annual'). More information here: <a href="https://www.dcat-ap.ch/releases/3.0_workingdraft/dcat-ap-ch_3.0_workingdraft.html#bib-vocab-eu-frequency">Available frequencies</a>.",
             "enum": [
                 "OTHER",
                 "HOURLY",
@@ -339,7 +339,7 @@
                 "null"
             ],
             "title": "Dataset themes",
-            "description": "This attribute classifies the dataset into one or more broad thematics. Proper classification allow other users interested in the topic to find the dataset without knowing its name or description. Those are opendata.swiss themes, which are then mapped to EU themes thanks to https://dcat-ap.ch/vocabulary/themes/20231122.html .",
+            "description": "This attribute classifies the dataset into one or more broad thematics. Proper classification allow other users interested in the topic to find the dataset without knowing its name or description. Those are opendata.swiss themes, which are then mapped to EU themes. For the mapping, please consult <a href="https://dcat-ap.ch/vocabulary/themes/20231122.html">this page</a>.",
             "items": {
                 "type": "string",
                 "enum": [
@@ -412,7 +412,7 @@
         },
         "dcatap:applicableLegislation": {
             "title": "Applicable legislation",
-            "description": "The legislation that mandates or allows the creation or management of the dataset (as URI, e.g. 'https://www.fedlex.admin.ch/eli/oc/2022/491/de#art_5').",
+            "description": "The legislation that mandates or allows the creation or management of the dataset (as URI, e.g. https://www.fedlex.admin.ch/eli/oc/2022/491/de#art_5).",
             "type": [
                 "array",
                 "null"
@@ -571,8 +571,8 @@
                         ]
                     },
                     "dcatap:availability": {
-                        "title": "Dataset availability",
-                        "description": "This property indicates how long it is planned to keep the Distribution available. See http://publications.europa.eu/resource/authority/planned-availability for the controlled vocabulary.",
+                        "title": "Distribution availability",
+                        "description": "This property indicates how long it is planned to keep the Distribution available. You can find the available values here: <a href="http://publications.europa.eu/resource/authority/planned-availability">Planned availability</a>.",
                         "type": "string",
                         "enum": [
                             "AVAILABLE",
