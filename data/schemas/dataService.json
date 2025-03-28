@@ -98,11 +98,11 @@
             "properties": {
                 "schema:name": {
                     "type": "string",
-                    "title": "Name"
+                    "title": "Contact point name"
                 },
                 "schema:email": {
                     "type": "string",
-                    "title": "email"
+                    "title": "Contact point email address"
                 }
             }
         },
