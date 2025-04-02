@@ -63,7 +63,7 @@
     "agriculture"
   ],
   "dcatap:applicableLegislation": [
-    "Missing"
+    "https://www.fedlex.admin.ch/eli/cc/2013/733/de#a27"
   ],
   "bv:itSystem": "https://agriculture.ld.admin.ch/system-map/SYS008",
   "dcat:distribution": [
@@ -83,7 +83,7 @@
 	  },
       "adms:status": "published",
       "dct:modified": "2025-03-25",
-      "dcat:accessURL": "missing",
+      "dcat:accessURL": "https://www.blw.admin.ch/de/meine-agrardatenfreigabe",
       "dct:format": "CSV"
     },
 	{
@@ -102,7 +102,7 @@
 	  },
       "adms:status": "published",
       "dct:modified": "2025-03-25",
-      "dcat:accessURL": "missing",
+      "dcat:accessURL": "https://www.blw.admin.ch/de/meine-agrardatenfreigabe",
       "dct:format": "CSV"
     }
   ]
