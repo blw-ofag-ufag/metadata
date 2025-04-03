@@ -2,16 +2,18 @@
   "dct:identifier": "ae7efc5f-962c-4d50-a9e7-c9aa0256a12e",
   "schema:image": "https://fal.media/files/penguin/zLmfGWbw9SuNH9pYHqE7Y_454ce31f6849495cb14b7a083875b676.jpg",
   "dct:title": {
-    "de": "Der erste test"
+    "de": "Ein test für die Änderung",
+    "en": "A test regarding the change"
   },
   "dct:description": {
-    "de": "Das hier gibt es nur wegen einem Test."
+    "de": "Das hier gibt es nur wegen einem Test. Wir versuchen es auch mit Speziälchäräktöörs. ? Èh.",
+    "en": "This exist only due to a test."
   },
   "adms:status": "workInProgress",
-  "dct:accessRights": "CONFIDENTIAL",
-  "dcatap:availability": "AVAILABLE",
-  "bv:classification": "none",
-  "bv:personalData": "none",
+  "dct:accessRights": "PUBLIC",
+  "dcatap:availability": "EXPERIMENTAL",
+  "bv:classification": "confidential",
+  "bv:personalData": "personalData",
   "bv:i14y": {
     "bv:mustBePublished": true
   },
@@ -22,7 +24,7 @@
     "dcat:start_date": "",
     "dcat:end_date": ""
   },
-  "bv:abrogation": "",
+  "bv:abrogation": "2025-04-06",
   "bv:archivalValue": false,
   "bv:opendata_swiss": {
     "bv:mustBePublished": false
