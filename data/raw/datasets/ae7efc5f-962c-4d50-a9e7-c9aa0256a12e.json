@@ -1,0 +1,30 @@
+{
+  "dct:identifier": "ae7efc5f-962c-4d50-a9e7-c9aa0256a12e",
+  "schema:image": "https://fal.media/files/penguin/zLmfGWbw9SuNH9pYHqE7Y_454ce31f6849495cb14b7a083875b676.jpg",
+  "dct:title": {
+    "de": "Der erste test"
+  },
+  "dct:description": {
+    "de": "Das hier gibt es nur wegen einem Test."
+  },
+  "adms:status": "workInProgress",
+  "dct:accessRights": "CONFIDENTIAL",
+  "dcatap:availability": "AVAILABLE",
+  "bv:classification": "none",
+  "bv:personalData": "none",
+  "bv:i14y": {
+    "bv:mustBePublished": true
+  },
+  "dct:issued": "",
+  "dct:modified": "",
+  "dct:accrualPeriodicity": "OTHER",
+  "dct:temporal": {
+    "dcat:start_date": "",
+    "dcat:end_date": ""
+  },
+  "bv:abrogation": "",
+  "bv:archivalValue": false,
+  "bv:opendata_swiss": {
+    "bv:mustBePublished": false
+  }
+}
