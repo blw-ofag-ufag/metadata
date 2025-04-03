@@ -3598,6 +3598,49 @@
         "schemaViolationMessages": []
     },
     {
+        "dct:identifier": "83f93ff4-ef3f-43f1-af2c-83f18952283e",
+        "dct:title": {
+            "de": "DigiAgriFoodCH Systemlandkarte",
+            "fr": "Carte du système DigiAgriFoodCH",
+            "it": "Mappa del sistema DigiAgriFoodCH",
+            "en": "DigiAgriFoodCH System Map"
+        },
+        "dct:description": {
+            "de": "Strukturierte Informationen über IT-Systeme, die darin enthaltenen Daten und deren betreibende Organisationen im Schweizer Agrar- und Ernährungssektor.",
+            "fr": "Informations structurées sur les systèmes informatiques, les données qu'ils contiennent et les organisations qui les gèrent dans le secteur agricole et alimentaire suisse.",
+            "it": "Informazioni strutturate sui sistemi IT, i dati in essi contenuti e le organizzazioni che li gestiscono nel settore agricolo e alimentare svizzero.",
+            "en": "Structured information about IT systems, the data they contain, and the organizations that manage them in the Swiss agriculture and food sector."
+        },
+        "dct:issued": "2025-01-29",
+        "dcat:keyword": [
+            "software",
+            "data",
+            "systems",
+            "network",
+            "organization",
+            "linked-data",
+            "knowledge-graph"
+        ],
+        "schema:image": "https://fal.media/files/penguin/zLmfGWbw9SuNH9pYHqE7Y_454ce31f6849495cb14b7a083875b676.jpg",
+        "dct:accessRights": "PUBLIC",
+        "dct:publisher": "Federal Office for Agriculture",
+        "dcat:contactPoint": {
+            "schema:name": "DigiAgriFoodCH",
+            "schema:email": "info@digiagrifood.ch"
+        },
+        "dct:modified": "2025-02-24",
+        "adms:status": "workInProgress",
+        "bv:classification": "none",
+        "bv:personalData": "none",
+        "bv:archivalValue": false,
+        "businessDataOwner": "p-1ZFWFFNP6",
+        "schemaViolations": 2,
+        "schemaViolationMessages": [
+            "'environment' is not one of ['work', 'construction', 'population', 'education', 'energy', 'finances', 'geography', 'legislation', 'health', 'trade', 'industry', 'crime', 'culture', 'agriculture', 'mobility', 'public-order', 'politics', 'prices', 'territory', 'social-security', 'statistical-basis', 'tourism', 'administration', 'national-economy']",
+            "'agricultureFisheriesForestryFood' is not one of ['work', 'construction', 'population', 'education', 'energy', 'finances', 'geography', 'legislation', 'health', 'trade', 'industry', 'crime', 'culture', 'agriculture', 'mobility', 'public-order', 'politics', 'prices', 'territory', 'social-security', 'statistical-basis', 'tourism', 'administration', 'national-economy']"
+        ]
+    },
+    {
         "dct:identifier": "0ad73812-5afd-4a08-811b-eb785c3e7032",
         "dct:title": {
             "fr": "Production 1990/92-2015",
