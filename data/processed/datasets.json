@@ -32,10 +32,7 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "businessDataOwner": [
-            "p-3966584",
-            "p-1ZW70CP28"
-        ],
+        "businessDataOwner": "p-3966584",
         "schemaViolations": 0,
         "schemaViolationMessages": []
     },
@@ -106,9 +103,7 @@
         "bv:classification": "none",
         "bv:personalData": "personalData",
         "bv:archivalValue": false,
-        "businessDataOwner": [
-            "p-1YVS771WP"
-        ],
+        "businessDataOwner": "p-1YVS771WP",
         "schemaViolations": 0,
         "schemaViolationMessages": []
     },
@@ -218,9 +213,7 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "businessDataOwner": [
-            "p-0170309"
-        ],
+        "businessDataOwner": "p-0170309",
         "schemaViolations": 1,
         "schemaViolationMessages": [
             "'dcat:contactPoint' is a required property"
@@ -629,9 +622,7 @@
         "bv:classification": "none",
         "bv:personalData": "personalData",
         "bv:archivalValue": false,
-        "businessDataOwner": [
-            "p-1YVS771WP"
-        ],
+        "businessDataOwner": "p-1YVS771WP",
         "schemaViolations": 0,
         "schemaViolationMessages": []
     },
@@ -701,9 +692,7 @@
         "bv:classification": "none",
         "bv:personalData": "personalData",
         "bv:archivalValue": false,
-        "businessDataOwner": [
-            "p-1YVS771WP"
-        ],
+        "businessDataOwner": "p-1YVS771WP",
         "schemaViolations": 0,
         "schemaViolationMessages": []
     },
@@ -850,9 +839,7 @@
         "bv:classification": "none",
         "bv:personalData": "personalData",
         "bv:archivalValue": false,
-        "businessDataOwner": [
-            "p-1YVS771WP"
-        ],
+        "businessDataOwner": "p-1YVS771WP",
         "schemaViolations": 0,
         "schemaViolationMessages": []
     },
@@ -954,9 +941,7 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "businessDataOwner": [
-            "p-5367735"
-        ],
+        "businessDataOwner": "p-5367735",
         "schemaViolations": 0,
         "schemaViolationMessages": []
     },
@@ -1291,9 +1276,7 @@
         "bv:classification": "none",
         "bv:personalData": "personalData",
         "bv:archivalValue": false,
-        "businessDataOwner": [
-            "p-1YVS771WP"
-        ],
+        "businessDataOwner": "p-1YVS771WP",
         "schemaViolations": 0,
         "schemaViolationMessages": []
     },
@@ -1476,9 +1459,7 @@
         "bv:classification": "none",
         "bv:personalData": "personalData",
         "bv:archivalValue": false,
-        "businessDataOwner": [
-            "p-1YVS771WP"
-        ],
+        "businessDataOwner": "p-1YVS771WP",
         "schemaViolations": 0,
         "schemaViolationMessages": []
     },
@@ -1723,9 +1704,7 @@
         "bv:classification": "none",
         "bv:personalData": "personalData",
         "bv:archivalValue": false,
-        "businessDataOwner": [
-            "p-1YVS771WP"
-        ],
+        "businessDataOwner": "p-1YVS771WP",
         "schemaViolations": 0,
         "schemaViolationMessages": []
     },
@@ -1822,9 +1801,7 @@
         "bv:classification": "none",
         "bv:personalData": "personalData",
         "bv:archivalValue": false,
-        "businessDataOwner": [
-            "p-1YVS771WP"
-        ],
+        "businessDataOwner": "p-1YVS771WP",
         "schemaViolations": 0,
         "schemaViolationMessages": []
     },
@@ -1857,9 +1834,7 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "businessDataOwner": [
-            "p-0170309"
-        ],
+        "businessDataOwner": "p-0170309",
         "schemaViolations": 1,
         "schemaViolationMessages": [
             "'dcat:contactPoint' is a required property"
@@ -2362,9 +2337,7 @@
         "bv:classification": "none",
         "bv:personalData": "personalData",
         "bv:archivalValue": false,
-        "businessDataOwner": [
-            "p-1YVS771WP"
-        ],
+        "businessDataOwner": "p-1YVS771WP",
         "schemaViolations": 0,
         "schemaViolationMessages": []
     },
@@ -3000,9 +2973,7 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "businessDataOwner": [
-            "p-5367735"
-        ],
+        "businessDataOwner": "p-5367735",
         "schemaViolations": 0,
         "schemaViolationMessages": []
     },
@@ -3253,9 +3224,7 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "businessDataOwner": [
-            "p-5367735"
-        ],
+        "businessDataOwner": "p-5367735",
         "schemaViolations": 0,
         "schemaViolationMessages": []
     },
@@ -3367,9 +3336,7 @@
         "bv:classification": "none",
         "bv:personalData": "personalData",
         "bv:archivalValue": false,
-        "businessDataOwner": [
-            "p-1YVS771WP"
-        ],
+        "businessDataOwner": "p-1YVS771WP",
         "schemaViolations": 0,
         "schemaViolationMessages": []
     },
@@ -3591,9 +3558,7 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "businessDataOwner": [
-            "p-5367735"
-        ],
+        "businessDataOwner": "p-5367735",
         "schemaViolations": 0,
         "schemaViolationMessages": []
     },
@@ -3631,9 +3596,7 @@
         "bv:classification": "none",
         "bv:personalData": "personalData",
         "bv:archivalValue": false,
-        "businessDataOwner": [
-            "p-1YVS771WP"
-        ],
+        "businessDataOwner": "p-1YVS771WP",
         "schemaViolations": 0,
         "schemaViolationMessages": []
     },
@@ -3673,9 +3636,7 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "businessDataOwner": [
-            "p-1ZFWFFNP6"
-        ],
+        "businessDataOwner": "p-1ZFWFFNP6",
         "schemaViolations": 2,
         "schemaViolationMessages": [
             "'environment' is not one of ['work', 'construction', 'population', 'education', 'energy', 'finances', 'geography', 'legislation', 'health', 'trade', 'industry', 'crime', 'culture', 'agriculture', 'mobility', 'public-order', 'politics', 'prices', 'territory', 'social-security', 'statistical-basis', 'tourism', 'administration', 'national-economy']",
@@ -3779,9 +3740,7 @@
         "bv:classification": "none",
         "bv:personalData": "personalData",
         "bv:archivalValue": false,
-        "businessDataOwner": [
-            "p-0711690"
-        ],
+        "businessDataOwner": "p-0711690",
         "schemaViolations": 0,
         "schemaViolationMessages": []
     },
@@ -4337,9 +4296,7 @@
         "dct:modified": "2025-01-22",
         "adms:status": "workInProgress",
         "bv:personalData": "none",
-        "businessDataOwner": [
-            "p-1Y4L0Y450"
-        ],
+        "businessDataOwner": "p-1Y4L0Y450",
         "schemaViolations": 12,
         "schemaViolationMessages": [
             "'dct:publisher' is a required property",
@@ -4811,9 +4768,7 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "businessDataOwner": [
-            "p-0170309"
-        ],
+        "businessDataOwner": "p-0170309",
         "schemaViolations": 1,
         "schemaViolationMessages": [
             "'dcat:contactPoint' is a required property"
@@ -4853,9 +4808,7 @@
         "bv:classification": "none",
         "bv:personalData": "personalData",
         "bv:archivalValue": false,
-        "businessDataOwner": [
-            "p-1YVS771WP"
-        ],
+        "businessDataOwner": "p-1YVS771WP",
         "schemaViolations": 0,
         "schemaViolationMessages": []
     },
@@ -4891,9 +4844,7 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "businessDataOwner": [
-            "p-5367735"
-        ],
+        "businessDataOwner": "p-5367735",
         "schemaViolations": 0,
         "schemaViolationMessages": []
     },
