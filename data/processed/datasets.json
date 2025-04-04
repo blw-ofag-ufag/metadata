@@ -2,38 +2,39 @@
     {
         "dct:identifier": "6cfb283f-7173-4bfd-8028-f944f153de41",
         "dct:title": {
-            "fr": "Chiffres du marché du lait et des produits laitiers - Indice des prix annuels (commerce de gros/transformation)",
             "de": "Marktzahlen Milch und Milchprodukte - Jährlicher Preis-Index (Grosshandel/Verarbeitung)",
-            "en": "Market figures milk and dairy products - Annual price indices (wholesale/processing)",
-            "it": "Cifre di mercato latte e latticini - Indice dei prezzi annuali (commercio all'ingrosso/trasformazione)"
+            "fr": "Chiffres du marché du lait et des produits laitiers - Indice des prix annuels (commerce de gros/transformation)",
+            "it": "Cifre di mercato latte e latticini - Indice dei prezzi annuali (commercio all'ingrosso/trasformazione)",
+            "en": "Market figures milk and dairy products - Annual price indices (wholesale/processing)"
         },
         "dct:description": {
-            "fr": "Indice de prix annuel d’une sélection de produits laitiers à l’échelon de création de valeur Commerce de gros/transformation",
             "de": "Jährliche Preis-Indizes von ausgewählten Milchprodukten auf der Wertschöpfungsstufe Grosshandel/Verarbeitung",
-            "en": "Annual price indices of selected dairy products at the wholesale/processing stage of the value chain",
-            "it": "Indice dei prezzi annuo di latticini selezionati a livello della catena del valore commercio all'ingrosso/trasformazione"
+            "fr": "Indice de prix annuel d’une sélection de produits laitiers à l’échelon de création de valeur Commerce de gros/transformation",
+            "it": "Indice dei prezzi annuo di latticini selezionati a livello della catena del valore commercio all'ingrosso/trasformazione",
+            "en": "Annual price indices of selected dairy products at the wholesale/processing stage of the value chain"
         },
         "dct:issued": "2025-03-09",
         "dcat:keyword": [
             "price",
-            "market-data"
+            "market-data",
+            "milk",
+            "dairy-product"
         ],
         "schema:image": "https://fal.media/files/monkey/LvaEBkMYay8mV564By9D-_75dcc4e1bc5a459aab15b9a80399ba6a.jpg",
         "dct:accessRights": "PUBLIC",
         "dct:publisher": "Bundesamt für Landwirtschaft BLW",
         "dcat:contactPoint": {
-            "schema:email": "marktanalysen@blw.admin.ch",
-            "schema:name": "Bundesamt für Landwirtschaft, Fachbereich Marktanalysen"
+            "schema:name": "Bundesamt für Landwirtschaft, Fachbereich Marktanalysen",
+            "schema:email": "marktanalysen@blw.admin.ch"
         },
         "dct:modified": "2025-02-12",
         "adms:status": "published",
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
-        "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
-        ]
+        "businessDataOwner": "p-3966584",
+        "schemaViolations": 0,
+        "schemaViolationMessages": []
     },
     {
         "dct:identifier": "b732392b-e688-4ed5-9d5c-4399461e9259",
