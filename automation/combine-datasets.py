@@ -65,14 +65,12 @@ def extract_relevant_data(file_path, schema):
         # Extract only the defined attributes
         extracted_data = {key: data[key] for key in ATTRIBUTES if key in data}
         
-        # Extract all business data owners from prov:qualifiedAttribution if it exists
+        # Extract the dataOwner if exists from prov:qualifiedAttribution
         if "prov:qualifiedAttribution" in extracted_data:
-            owners = []
             for role in extracted_data["prov:qualifiedAttribution"]:
                 if role.get("dcat:hadRole") == "businessDataOwner":
-                    owners.append(role.get("prov:agent"))
-            if owners:
-                extracted_data["businessDataOwner"] = owners
+                    extracted_data["businessDataOwner"] = role.get("prov:agent")
+                    break
             # Remove prov:qualifiedAttribution from the output
             extracted_data.pop("prov:qualifiedAttribution", None)
         
