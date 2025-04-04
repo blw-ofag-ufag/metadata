@@ -378,16 +378,16 @@
     {
         "dct:identifier": "4edd205d-a51d-44a3-9a6d-dba7e8ced476",
         "dct:title": {
-            "de": "Marktzahlen Futtermittel - Monatliche Verarbeitungspreise",
             "fr": "Chiffres du marché des aliments pour animaux - Prix de transformation mensuels",
-            "it": "Dati di mercato dei mangimi - Prezzi di trasformazione mensili",
-            "en": "Market figures for feedstuffs - Monthly processing prices"
+            "de": "Marktzahlen Futtermittel - Monatliche Verarbeitungspreise",
+            "en": "Market figures for feedstuffs - Monthly processing prices",
+            "it": "Dati di mercato dei mangimi - Prezzi di trasformazione mensili"
         },
         "dct:description": {
-            "de": "Monatliche Preise für Futtermittel auf der Wertschöpfungsstufe Grosshandel/Verarbeitung",
             "fr": "Prix mensuels des aliments pour animaux au niveau du commerce de gros/transformation",
-            "it": "Prezzi mensili dei mangimi al livello del commercio all’ingrosso/trasformazione",
-            "en": "Monthly prices for feedstuffs at the wholesale/processing level"
+            "de": "Monatliche Preise für Futtermittel auf der Wertschöpfungsstufe Grosshandel/Verarbeitung",
+            "en": "Monthly prices for feedstuffs at the wholesale/processing level",
+            "it": "Prezzi mensili dei mangimi al livello del commercio all’ingrosso/trasformazione"
         },
         "dct:issued": "2025-03-09",
         "dcat:keyword": [
@@ -399,20 +399,18 @@
         "dct:accessRights": "PUBLIC",
         "dct:publisher": "Bundesamt für Landwirtschaft BLW",
         "dcat:contactPoint": {
-            "schema:name": "Bundesamt für Landwirtschaft, Fachbereich Marktanalysen",
-            "schema:email": "marktanalysen@blw.admin.ch"
+            "schema:email": "marktanalysen@blw.admin.ch",
+            "schema:name": "Bundesamt für Landwirtschaft, Fachbereich Marktanalysen"
         },
         "dct:modified": "2025-02-19",
         "adms:status": "published",
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "businessDataOwner": [
-            "p-3966584",
-            "p-1ZW70CP28"
-        ],
-        "schemaViolations": 0,
-        "schemaViolationMessages": []
+        "schemaViolations": 1,
+        "schemaViolationMessages": [
+            "'prov:qualifiedAttribution' is a required property"
+        ]
     },
     {
         "dct:identifier": "1cde0ba1-6995-4419-ba4c-15df2e7d198c",
