@@ -1741,33 +1741,6 @@
         ]
     },
     {
-        "dct:identifier": "ae7efc5f-962c-4d50-a9e7-c9aa0256a12e",
-        "dct:title": {
-            "de": "Ein test für die Änderung",
-            "en": "A test regarding the change"
-        },
-        "dct:description": {
-            "de": "Das hier gibt es nur wegen einem Test. Wir versuchen es auch mit Speziälchäräktöörs. ? Èh.",
-            "en": "This exist only due to a test."
-        },
-        "dct:issued": "",
-        "schema:image": "https://fal.media/files/penguin/zLmfGWbw9SuNH9pYHqE7Y_454ce31f6849495cb14b7a083875b676.jpg",
-        "dct:accessRights": "PUBLIC",
-        "dct:modified": "",
-        "adms:status": "workInProgress",
-        "bv:classification": "confidential",
-        "bv:personalData": "personalData",
-        "bv:archivalValue": false,
-        "schemaViolations": 5,
-        "schemaViolationMessages": [
-            "'dct:publisher' is a required property",
-            "'dcat:contactPoint' is a required property",
-            "'prov:qualifiedAttribution' is a required property",
-            "'fr' is a required property",
-            "'fr' is a required property"
-        ]
-    },
-    {
         "dct:identifier": "8432bc6e-262f-40dd-b380-2bc39f9efa32",
         "dct:title": {
             "de": "Flächenangaben zu Fächen in Hanglagen auf einem Betrieb in der Schweizer Landwirtschaft",
