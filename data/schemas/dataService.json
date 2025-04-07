@@ -148,11 +148,6 @@
                 "archived"
             ]
         },
-        "dcat:version": {
-            "type": "string",
-            "title": "Version",
-            "description": "The version indicator following a Major.Minor.Patch schema (example: 2.1.4)."
-        },
         "dcat:servesDataset": {
             "title": "Serves dataset",
             "type": [
@@ -211,7 +206,7 @@
         },
         "dcat:version": {
             "title": "Service Version",
-            "description": "Full service version number, e.g. 1.4.2",
+            "description": "The version indicator following a Major.Minor.Patch schema (example: 2.1.4).",
             "type": "string"
         },
         "adms:versionNotes": {
