@@ -206,6 +206,7 @@
             "product-category",
             "categorization"
         ],
+        "schema:image": "https://fal.media/files/rabbit/vACOEgJZbcpfArdQzROcX_351aa26ba9134232bdc01f867502e0ef.jpg",
         "dct:accessRights": "PUBLIC",
         "dct:publisher": "Bundesamt für Landwirtschaft BLW",
         "dct:modified": "2024-01-01",
@@ -1800,6 +1801,7 @@
             "product-category",
             "deprecated"
         ],
+        "schema:image": "https://fal.media/files/rabbit/vACOEgJZbcpfArdQzROcX_351aa26ba9134232bdc01f867502e0ef.jpg",
         "dct:accessRights": "PUBLIC",
         "dct:publisher": "Bundesamt für Landwirtschaft BLW",
         "dct:modified": "2023-01-01",
@@ -4734,6 +4736,7 @@
             "deprecated",
             "categorization"
         ],
+        "schema:image": "https://fal.media/files/rabbit/vACOEgJZbcpfArdQzROcX_351aa26ba9134232bdc01f867502e0ef.jpg",
         "dct:accessRights": "PUBLIC",
         "dct:publisher": "Bundesamt für Landwirtschaft BLW",
         "dct:modified": "2023-01-01",
