@@ -111,6 +111,7 @@
             "title": "Access rights",
             "description": "Defines the accessibility of the dataset (e.g., public, internal, etc.). You can find more information here: <a href='https://www.dcat-ap.ch/releases/3.0_workingdraft/dcat-ap-ch_3.0_workingdraft.html#bib-vocab-eu-access-right'>DCAT-AP CH 3.0 – Access Rights Vocabulary</a>.",
             "enum": [
+                "",
                 "CONFIDENTIAL",
                 "NON_PUBLIC",
                 "PUBLIC",
@@ -141,6 +142,7 @@
             "type": "string",
             "description": "Current status of the DataService.",
             "enum": [
+                "",
                 "workInProgress",
                 "validated",
                 "published",

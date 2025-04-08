@@ -95,6 +95,7 @@
             "title": "Access rights",
             "description": "Defines the accessibility of the dataset (e.g., public, internal, etc.). You can find more information here: <a href='https://www.dcat-ap.ch/releases/3.0_workingdraft/dcat-ap-ch_3.0_workingdraft.html#bib-vocab-eu-access-right'>DCAT-AP CH 3.0 – Access Rights Vocabulary</a>.",
             "enum": [
+                "",
                 "CONFIDENTIAL",
                 "NON_PUBLIC",
                 "PUBLIC",
@@ -140,6 +141,7 @@
             "description": "This property indicates how long it is planned to keep the Dataset available. You can find the available values here: <a href='http://publications.europa.eu/resource/authority/planned-availability'>Planned availability</a>.",
             "type": "string",
             "enum": [
+                "",
                 "AVAILABLE",
                 "EXPERIMENTAL",
                 "STABLE",
@@ -162,6 +164,7 @@
             "title": "Accrual periodicity",
             "description": "Frequency with which dataset is updated (e.g., 'Annual'). More information here: <a href='https://www.dcat-ap.ch/releases/3.0_workingdraft/dcat-ap-ch_3.0_workingdraft.html#bib-vocab-eu-frequency'>Available frequencies</a>.",
             "enum": [
+                "",
                 "OTHER",
                 "HOURLY",
                 "UNKNOWN",
@@ -241,6 +244,7 @@
             "title": "Status",
             "description": "Current status of the dataset.",
             "enum": [
+                "",
                 "workInProgress",
                 "validated",
                 "published",
@@ -253,6 +257,7 @@
             "title": "Classification level",
             "description": "Classification level of the dataset according to the Swiss Informationssicherheitsgesetz, ISG. For information regarding the categorization, consult <a https://www.fedlex.admin.ch/eli/cc/2022/232/de#art_13'>the Swiss Informationssicherheitsgesetz article 13</a>",
             "enum": [
+                "",
                 "none",
                 "internal",
                 "confidential",
@@ -264,6 +269,7 @@
             "title": "Categorization DSG",
             "description": "Categorization regarding the Swiss data protection act. For information regarding the categorization, consult <a href='https://www.fedlex.admin.ch/eli/oc/2022/491/de#art_5'>the Swiss data protection act article 5</a>.",
             "enum": [
+                "",
                 "none",
                 "personalData",
                 "sensitivePersonalData"
@@ -274,6 +280,7 @@
             "title": "Data type",
             "description": "Specifies the type of data in the dataset (master data, reference data, thematic data or unstructured data).",
             "enum": [
+                "",
                 "thematicData",
                 "referenceData",
                 "masterData",
@@ -348,6 +355,7 @@
             "items": {
                 "type": "string",
                 "enum": [
+                    "",
                     "work",
                     "construction",
                     "population",
@@ -568,6 +576,7 @@
                         "type": "string",
                         "description": "Current status of the distribution.",
                         "enum": [
+                            "",
                             "workInProgress",
                             "validated",
                             "published",
@@ -580,6 +589,7 @@
                         "description": "This property indicates how long it is planned to keep the Distribution available. You can find the available values here: <a href='http://publications.europa.eu/resource/authority/planned-availability'>Planned availability</a>.",
                         "type": "string",
                         "enum": [
+                            "",
                             "AVAILABLE",
                             "EXPERIMENTAL",
                             "STABLE",
@@ -673,6 +683,7 @@
                         "type": "string",
                         "description": "License under which this distribution is released. This is mandatory for opendata.swiss publications.",
                         "enum": [
+                            "",
                             "terms_open",
                             "terms_by",
                             "terms_ask",
