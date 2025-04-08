@@ -134,6 +134,7 @@
             "type": "string",
             "description": "Current status of the DatasetSeries.",
             "enum": [
+                "",
                 "workInProgress",
                 "validated",
                 "published",
@@ -225,6 +226,7 @@
             "title": "Classification level",
             "description": "Classification level of the dataset according to the Swiss Informationssicherheitsgesetz, ISG. For information regarding the categorization, consult <a href='https://www.fedlex.admin.ch/eli/cc/2022/232/de#art_13'>the Swiss Informationssicherheitsgesetz article 13</a>",
             "enum": [
+                "",
                 "none",
                 "internal",
                 "confidential",
@@ -236,6 +238,7 @@
             "title": "Categorization DSG",
             "description": "Categorization regarding the Swiss data protection act. For information regarding the categorization, consult <a href='https://www.fedlex.admin.ch/eli/oc/2022/491/de#art_5'>the Swiss data protection act article 5</a>.",
             "enum": [
+                "",
                 "none",
                 "personalData",
                 "sensitivePersonalData"
