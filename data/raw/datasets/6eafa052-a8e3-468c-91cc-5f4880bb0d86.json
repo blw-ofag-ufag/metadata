@@ -1,0 +1,37 @@
+{
+  "dct:identifier": "6eafa052-a8e3-468c-91cc-5f4880bb0d86",
+  "dct:title": {
+    "de": "test- edit me!",
+    "fr": "test- edit me!",
+    "it": "test- edit me!",
+    "en": "test- edit me!"
+  },
+  "dct:description": {
+    "de": "test- edit me!",
+    "fr": "test- edit me!",
+    "it": "test- edit me!",
+    "en": "test- edit me!"
+  },
+  "dcat:keyword": [
+    "edit-test"
+  ],
+  "adms:status": "deleted",
+  "dct:accessRights": "CONFIDENTIAL",
+  "dcatap:availability": "EXPERIMENTAL",
+  "bv:classification": "internal",
+  "bv:personalData": "none",
+  "bv:i14y": {
+    "bv:mustBePublished": true
+  },
+  "dct:issued": "",
+  "dct:modified": "",
+  "dct:temporal": {
+    "dcat:start_date": "",
+    "dcat:end_date": ""
+  },
+  "bv:abrogation": "",
+  "bv:archivalValue": false,
+  "bv:opendata_swiss": {
+    "bv:mustBePublished": false
+  }
+}
