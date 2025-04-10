@@ -1918,6 +1918,38 @@
         ]
     },
     {
+        "dct:identifier": "6eafa052-a8e3-468c-91cc-5f4880bb0d86",
+        "dct:title": {
+            "de": "test- edit me!",
+            "fr": "test- edit me!",
+            "it": "test- edit me!",
+            "en": "test- edit me!"
+        },
+        "dct:description": {
+            "de": "test- edit me!",
+            "fr": "test- edit me!",
+            "it": "test- edit me!",
+            "en": "test- edit me!"
+        },
+        "dct:issued": "",
+        "dcat:keyword": [
+            "edit-test"
+        ],
+        "dct:accessRights": "CONFIDENTIAL",
+        "dct:modified": "",
+        "adms:status": "deleted",
+        "bv:classification": "internal",
+        "bv:personalData": "none",
+        "bv:archivalValue": false,
+        "schemaViolations": 4,
+        "schemaViolationMessages": [
+            "'dct:publisher' is a required property",
+            "'dcat:contactPoint' is a required property",
+            "'dct:accrualPeriodicity' is a required property",
+            "'prov:qualifiedAttribution' is a required property"
+        ]
+    },
+    {
         "dct:identifier": "f65f56fe-d007-4b28-b3eb-2da01cbb733b",
         "dct:title": {
             "fr": "Carte digitale des aptitudes des sols de la Suisse - Pierrosité",
