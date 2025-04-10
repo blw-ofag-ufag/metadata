@@ -1,0 +1,40 @@
+{
+  "dct:identifier": "6b5f4640-d292-4afb-9c8e-626034bdd7fb",
+  "dct:title": {
+    "de": "weiteres test",
+    "fr": "un autre test",
+    "it": "un altro test",
+    "en": "another test"
+  },
+  "dct:description": {
+    "de": "blabla",
+    "fr": "blabla",
+    "it": "blalbl",
+    "en": "blabla"
+  },
+  "dcat:theme": [
+    "ec"
+  ],
+  "dcat:keyword": [
+    "edit-test"
+  ],
+  "adms:status": "workInProgress",
+  "dct:accessRights": "SENSITIVE",
+  "dcatap:availability": "AVAILABLE",
+  "bv:classification": "secret",
+  "bv:personalData": "sensitivePersonalData",
+  "bv:i14y": {
+    "bv:mustBePublished": true
+  },
+  "dct:issued": "",
+  "dct:modified": "",
+  "dct:temporal": {
+    "dcat:start_date": "",
+    "dcat:end_date": ""
+  },
+  "bv:abrogation": "",
+  "bv:archivalValue": false,
+  "bv:opendata_swiss": {
+    "bv:mustBePublished": false
+  }
+}
