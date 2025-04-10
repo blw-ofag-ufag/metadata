@@ -2953,6 +2953,40 @@
         "schemaViolationMessages": []
     },
     {
+        "dct:identifier": "b086f7a6-c888-44db-a432-c87c94a3fbb2",
+        "dct:title": {
+            "de": "das ist ein test",
+            "fr": "c'est un test",
+            "it": "è un test",
+            "en": "it's a test"
+        },
+        "dct:description": {
+            "de": "DE- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent et nunc mauris. In iaculis, est in egestas fringilla, tortor nunc dignissim dui, vitae fermentum eros mi pharetra lectus. Aliquam et aliquet urna. Mauris et tortor vitae urna suscipit iaculis at vel ante. Nunc nec lectus et eros venenatis placerat. Donec cursus id leo id fringilla. Ut dolor odio, pulvinar in sollicitudin id, mollis quis ligula. Quisque condimentum, tellus et lobortis euismod, augue magna efficitur enim, sit amet hendrerit justo lacus a tortor. Nulla imperdiet mattis enim ac euismod.",
+            "fr": "FR- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent et nunc mauris. In iaculis, est in egestas fringilla, tortor nunc dignissim dui, vitae fermentum eros mi pharetra lectus. Aliquam et aliquet urna. Mauris et tortor vitae urna suscipit iaculis at vel ante. Nunc nec lectus et eros venenatis placerat. Donec cursus id leo id fringilla. Ut dolor odio, pulvinar in sollicitudin id, mollis quis ligula. Quisque condimentum, tellus et lobortis euismod, augue magna efficitur enim, sit amet hendrerit justo lacus a tortor. Nulla imperdiet mattis enim ac euismod.",
+            "it": "IT - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent et nunc mauris. In iaculis, est in egestas fringilla, tortor nunc dignissim dui, vitae fermentum eros mi pharetra lectus. Aliquam et aliquet urna. Mauris et tortor vitae urna suscipit iaculis at vel ante. Nunc nec lectus et eros venenatis placerat. Donec cursus id leo id fringilla. Ut dolor odio, pulvinar in sollicitudin id, mollis quis ligula. Quisque condimentum, tellus et lobortis euismod, augue magna efficitur enim, sit amet hendrerit justo lacus a tortor. Nulla imperdiet mattis enim ac euismod.",
+            "en": "EN - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent et nunc mauris. In iaculis, est in egestas fringilla, tortor nunc dignissim dui, vitae fermentum eros mi pharetra lectus. Aliquam et aliquet urna. Mauris et tortor vitae urna suscipit iaculis at vel ante. Nunc nec lectus et eros venenatis placerat. Donec cursus id leo id fringilla. Ut dolor odio, pulvinar in sollicitudin id, mollis quis ligula. Quisque condimentum, tellus et lobortis euismod, augue magna efficitur enim, sit amet hendrerit justo lacus a tortor. Nulla imperdiet mattis enim ac euismod."
+        },
+        "dct:issued": "",
+        "dcat:keyword": [
+            "edit-test",
+            "another-one"
+        ],
+        "dct:accessRights": "PUBLIC",
+        "dct:publisher": "BLW",
+        "dct:modified": "",
+        "adms:status": "workInProgress",
+        "bv:classification": "confidential",
+        "bv:personalData": "personalData",
+        "bv:archivalValue": false,
+        "businessDataOwner": null,
+        "schemaViolations": 3,
+        "schemaViolationMessages": [
+            "'dcat:contactPoint' is a required property",
+            "'dct:accrualPeriodicity' is a required property",
+            "'prov:agent' is a required property"
+        ]
+    },
+    {
         "dct:identifier": "96b1ba2f-e8d8-4b9e-a35c-5a90e0f389be",
         "dct:title": {
             "fr": "Chiffres du marché du lait et des produits laitiers - Indicateur annuel (production)",
