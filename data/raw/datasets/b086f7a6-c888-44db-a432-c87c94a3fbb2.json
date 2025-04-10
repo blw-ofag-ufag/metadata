@@ -1,0 +1,44 @@
+{
+  "dct:identifier": "b086f7a6-c888-44db-a432-c87c94a3fbb2",
+  "dct:title": {
+    "de": "das ist ein test",
+    "fr": "c'est un test",
+    "it": "è un test",
+    "en": "it's a test"
+  },
+  "dct:description": {
+    "de": "DE- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent et nunc mauris. In iaculis, est in egestas fringilla, tortor nunc dignissim dui, vitae fermentum eros mi pharetra lectus. Aliquam et aliquet urna. Mauris et tortor vitae urna suscipit iaculis at vel ante. Nunc nec lectus et eros venenatis placerat. Donec cursus id leo id fringilla. Ut dolor odio, pulvinar in sollicitudin id, mollis quis ligula. Quisque condimentum, tellus et lobortis euismod, augue magna efficitur enim, sit amet hendrerit justo lacus a tortor. Nulla imperdiet mattis enim ac euismod.",
+    "fr": "FR- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent et nunc mauris. In iaculis, est in egestas fringilla, tortor nunc dignissim dui, vitae fermentum eros mi pharetra lectus. Aliquam et aliquet urna. Mauris et tortor vitae urna suscipit iaculis at vel ante. Nunc nec lectus et eros venenatis placerat. Donec cursus id leo id fringilla. Ut dolor odio, pulvinar in sollicitudin id, mollis quis ligula. Quisque condimentum, tellus et lobortis euismod, augue magna efficitur enim, sit amet hendrerit justo lacus a tortor. Nulla imperdiet mattis enim ac euismod.",
+    "it": "IT - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent et nunc mauris. In iaculis, est in egestas fringilla, tortor nunc dignissim dui, vitae fermentum eros mi pharetra lectus. Aliquam et aliquet urna. Mauris et tortor vitae urna suscipit iaculis at vel ante. Nunc nec lectus et eros venenatis placerat. Donec cursus id leo id fringilla. Ut dolor odio, pulvinar in sollicitudin id, mollis quis ligula. Quisque condimentum, tellus et lobortis euismod, augue magna efficitur enim, sit amet hendrerit justo lacus a tortor. Nulla imperdiet mattis enim ac euismod.",
+    "en": "EN - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent et nunc mauris. In iaculis, est in egestas fringilla, tortor nunc dignissim dui, vitae fermentum eros mi pharetra lectus. Aliquam et aliquet urna. Mauris et tortor vitae urna suscipit iaculis at vel ante. Nunc nec lectus et eros venenatis placerat. Donec cursus id leo id fringilla. Ut dolor odio, pulvinar in sollicitudin id, mollis quis ligula. Quisque condimentum, tellus et lobortis euismod, augue magna efficitur enim, sit amet hendrerit justo lacus a tortor. Nulla imperdiet mattis enim ac euismod."
+  },
+  "dcat:keyword": [
+    "edit-test",
+    "another-one"
+  ],
+  "adms:status": "workInProgress",
+  "dct:accessRights": "PUBLIC",
+  "dcatap:availability": "EXPERIMENTAL",
+  "bv:classification": "confidential",
+  "bv:personalData": "personalData",
+  "dct:publisher": "BLW",
+  "prov:qualifiedAttribution": [
+    {
+      "dcat:hadRole": "businessDataOwner"
+    }
+  ],
+  "dct:issued": "",
+  "dct:modified": "",
+  "dct:temporal": {
+    "dcat:start_date": "",
+    "dcat:end_date": ""
+  },
+  "bv:abrogation": "",
+  "bv:archivalValue": false,
+  "bv:opendata_swiss": {
+    "bv:mustBePublished": false
+  },
+  "bv:i14y": {
+    "bv:mustBePublished": false
+  }
+}
