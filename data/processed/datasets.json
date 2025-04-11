@@ -4667,28 +4667,34 @@
             "en": "another test"
         },
         "dct:description": {
-            "de": "blabla",
-            "fr": "blabla",
+            "de": "blabla : Obst- und Weinstatistiken\r\n",
+            "fr": "blabla : Statistiques arboricoles et viticoles",
             "it": "blalbl",
             "en": "blabla"
         },
         "dct:issued": "",
         "dcat:keyword": [
-            "edit-test"
+            "edit-test",
+            "fruits"
         ],
+        "schema:image": "https://prod-blwch-hcms-sdweb.imgix.net/2024/11/27/f8bd6a5f-cf35-4ee7-8c6c-273be151e20b.jpeg?rect=0%2C264%2C3882%2C2184&auto=format",
         "dct:accessRights": "SENSITIVE",
+        "dct:publisher": "BLW ",
+        "dcat:contactPoint": {
+            "schema:name": "Astat Team",
+            "schema:email": "astat@blw.admin.ch"
+        },
         "dct:modified": "",
         "adms:status": "workInProgress",
         "bv:classification": "secret",
         "bv:personalData": "sensitivePersonalData",
         "bv:archivalValue": false,
-        "schemaViolations": 5,
+        "schemaViolations": 4,
         "schemaViolationMessages": [
-            "'dct:publisher' is a required property",
-            "'dcat:contactPoint' is a required property",
             "'dct:accrualPeriodicity' is a required property",
-            "'prov:qualifiedAttribution' is a required property",
-            "'ec' is not one of ['', 'work', 'construction', 'population', 'education', 'energy', 'finances', 'geography', 'legislation', 'health', 'trade', 'industry', 'crime', 'culture', 'agriculture', 'mobility', 'public-order', 'politics', 'prices', 'territory', 'social-security', 'statistical-basis', 'tourism', 'administration', 'national-economy']"
+            "None of [{'prov:agent': 'p-2347438', 'schema:name': 'Céline Rossier', 'dcat:hadRole': 'dataCustodian'}] are valid under the given schema",
+            "'ec' is not one of ['', 'work', 'construction', 'population', 'education', 'energy', 'finances', 'geography', 'legislation', 'health', 'trade', 'industry', 'crime', 'culture', 'agriculture', 'mobility', 'public-order', 'politics', 'prices', 'territory', 'social-security', 'statistical-basis', 'tourism', 'administration', 'national-economy']",
+            "'http://dcat-ap.ch/vocabulary/themes/agriculture' is not one of ['', 'work', 'construction', 'population', 'education', 'energy', 'finances', 'geography', 'legislation', 'health', 'trade', 'industry', 'crime', 'culture', 'agriculture', 'mobility', 'public-order', 'politics', 'prices', 'territory', 'social-security', 'statistical-basis', 'tourism', 'administration', 'national-economy']"
         ]
     },
     {
