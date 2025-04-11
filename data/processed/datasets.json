@@ -1053,6 +1053,31 @@
         ]
     },
     {
+        "dct:identifier": "bbf6e18e-352d-4824-b819-8e498cfef675",
+        "dct:title": {
+            "de": "edit-test"
+        },
+        "dct:description": {
+            "de": "Test"
+        },
+        "dct:issued": "",
+        "dct:accessRights": "PUBLIC",
+        "dct:publisher": "FOAG-USER",
+        "dct:modified": "",
+        "adms:status": "workInProgress",
+        "bv:classification": "none",
+        "bv:personalData": "personalData",
+        "bv:archivalValue": true,
+        "schemaViolations": 5,
+        "schemaViolationMessages": [
+            "'dcat:contactPoint' is a required property",
+            "'dct:accrualPeriodicity' is a required property",
+            "'prov:qualifiedAttribution' is a required property",
+            "'fr' is a required property",
+            "'fr' is a required property"
+        ]
+    },
+    {
         "dct:identifier": "a39a06f5-f356-4510-98a3-eceed56b5cad",
         "dct:title": {
             "fr": "Chiffres du marché du lait et des produits laitiers - Indicateur mensuel (production)",
