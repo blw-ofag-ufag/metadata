@@ -1,30 +1,33 @@
 {
   "dct:identifier": "6eafa052-a8e3-468c-91cc-5f4880bb0d86",
+  "schema:image": "https://cdn.pixabay.com/photo/2014/06/03/19/38/board-361516_1280.jpg",
   "dct:title": {
-    "de": "test- edit me!",
-    "fr": "test- edit me!",
-    "it": "test- edit me!",
-    "en": "test- edit me!"
+    "de": "Das ist ein Test -- editier mich!",
+    "fr": "C'est un test -- change-moi !",
+    "it": "Questo è un test... cambiami!",
+    "en": "This is a test -- edit me!"
   },
   "dct:description": {
-    "de": "test- edit me!",
-    "fr": "test- edit me!",
-    "it": "test- edit me!",
-    "en": "test- edit me!"
+    "de": "Hier kannst du irgendeine Beschreibung hinzufügen. Die sollte sich idealerweise auf den Datensatz beziehen ;)",
+    "fr": "Tu peux ajouter ici une description. Elle doit idéalement se rapporter à l'enregistrement ;)",
+    "it": "Qui puoi aggiungere una descrizione. Idealmente, dovrebbe fare riferimento al record ;)",
+    "en": "You can add any description here. Ideally, it should refer to the data record ;)"
   },
-  "dcat:keyword": [
-    "edit-test"
+  "dcat:theme": [
+    "agriculture"
   ],
-  "adms:status": "published",
-  "dct:accessRights": "CONFIDENTIAL",
+  "dcat:keyword": [
+    "test",
+    "data"
+  ],
+  "adms:status": "workInProgress",
+  "dct:accessRights": "NON_PUBLIC",
   "dcatap:availability": "EXPERIMENTAL",
-  "bv:classification": "internal",
+  "bv:classification": "none",
   "bv:personalData": "none",
-  "bv:i14y": {
-    "bv:mustBePublished": true
-  },
-  "dct:issued": "",
-  "dct:modified": "",
+  "dct:issued": "2025-04-11",
+  "dct:modified": "2025-04-11",
+  "dct:accrualPeriodicity": "QUARTERLY",
   "dct:temporal": {
     "dcat:start_date": "",
     "dcat:end_date": ""
@@ -32,6 +35,9 @@
   "bv:abrogation": "",
   "bv:archivalValue": false,
   "bv:opendata_swiss": {
+    "bv:mustBePublished": false
+  },
+  "bv:i14y": {
     "bv:mustBePublished": false
   }
 }
