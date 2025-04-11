@@ -1920,32 +1920,33 @@
     {
         "dct:identifier": "6eafa052-a8e3-468c-91cc-5f4880bb0d86",
         "dct:title": {
-            "de": "test- edit me!",
-            "fr": "test- edit me!",
-            "it": "test- edit me!",
-            "en": "test- edit me!"
+            "de": "Das ist ein Test -- editier mich!",
+            "fr": "C'est un test -- change-moi !",
+            "it": "Questo è un test... cambiami!",
+            "en": "This is a test -- edit me!"
         },
         "dct:description": {
-            "de": "test- edit me!",
-            "fr": "test- edit me!",
-            "it": "test- edit me!",
-            "en": "test- edit me!"
+            "de": "Hier kannst du irgendeine Beschreibung hinzufügen. Die sollte sich idealerweise auf den Datensatz beziehen ;)",
+            "fr": "Tu peux ajouter ici une description. Elle doit idéalement se rapporter à l'enregistrement ;)",
+            "it": "Qui puoi aggiungere una descrizione. Idealmente, dovrebbe fare riferimento al record ;)",
+            "en": "You can add any description here. Ideally, it should refer to the data record ;)"
         },
-        "dct:issued": "",
+        "dct:issued": "2025-04-11",
         "dcat:keyword": [
-            "edit-test"
+            "test",
+            "data"
         ],
-        "dct:accessRights": "CONFIDENTIAL",
-        "dct:modified": "",
-        "adms:status": "published",
-        "bv:classification": "internal",
+        "schema:image": "https://cdn.pixabay.com/photo/2014/06/03/19/38/board-361516_1280.jpg",
+        "dct:accessRights": "NON_PUBLIC",
+        "dct:modified": "2025-04-11",
+        "adms:status": "workInProgress",
+        "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 4,
+        "schemaViolations": 3,
         "schemaViolationMessages": [
             "'dct:publisher' is a required property",
             "'dcat:contactPoint' is a required property",
-            "'dct:accrualPeriodicity' is a required property",
             "'prov:qualifiedAttribution' is a required property"
         ]
     },
