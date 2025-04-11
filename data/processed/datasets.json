@@ -4672,7 +4672,7 @@
             "it": "blalbl",
             "en": "blabla"
         },
-        "dct:issued": "",
+        "dct:issued": "2024-02-01",
         "dcat:keyword": [
             "edit-test",
             "fruits"
@@ -4684,14 +4684,13 @@
             "schema:name": "Astat Team",
             "schema:email": "astat@blw.admin.ch"
         },
-        "dct:modified": "",
+        "dct:modified": "2024-02-01",
         "adms:status": "workInProgress",
         "bv:classification": "secret",
         "bv:personalData": "sensitivePersonalData",
         "bv:archivalValue": false,
-        "schemaViolations": 4,
+        "schemaViolations": 3,
         "schemaViolationMessages": [
-            "'dct:accrualPeriodicity' is a required property",
             "None of [{'prov:agent': 'p-2347438', 'schema:name': 'Céline Rossier', 'dcat:hadRole': 'dataCustodian'}] are valid under the given schema",
             "'ec' is not one of ['', 'work', 'construction', 'population', 'education', 'energy', 'finances', 'geography', 'legislation', 'health', 'trade', 'industry', 'crime', 'culture', 'agriculture', 'mobility', 'public-order', 'politics', 'prices', 'territory', 'social-security', 'statistical-basis', 'tourism', 'administration', 'national-economy']",
             "'http://dcat-ap.ch/vocabulary/themes/agriculture' is not one of ['', 'work', 'construction', 'population', 'education', 'energy', 'finances', 'geography', 'legislation', 'health', 'trade', 'industry', 'crime', 'culture', 'agriculture', 'mobility', 'public-order', 'politics', 'prices', 'territory', 'social-security', 'statistical-basis', 'tourism', 'administration', 'national-economy']"
