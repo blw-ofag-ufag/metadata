@@ -1,7 +1,8 @@
 {
   "dct:identifier": "bbf6e18e-352d-4824-b819-8e498cfef675",
+  "schema:image": "https://cdn.pixabay.com/photo/2014/06/03/19/38/board-361516_1280.jpg",
   "dct:title": {
-    "de": "edit-test"
+    "de": "Ein Test auf Deutsch"
   },
   "dct:description": {
     "de": "Test"
