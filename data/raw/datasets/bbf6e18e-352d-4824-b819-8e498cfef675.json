@@ -1,0 +1,29 @@
+{
+  "dct:identifier": "bbf6e18e-352d-4824-b819-8e498cfef675",
+  "dct:title": {
+    "de": "edit-test"
+  },
+  "dct:description": {
+    "de": "Test"
+  },
+  "adms:status": "workInProgress",
+  "dct:accessRights": "PUBLIC",
+  "dcatap:availability": "AVAILABLE",
+  "bv:classification": "none",
+  "bv:personalData": "personalData",
+  "bv:archivalValue": true,
+  "bv:i14y": {
+    "bv:mustBePublished": true
+  },
+  "dct:publisher": "FOAG-USER",
+  "dct:issued": "",
+  "dct:modified": "",
+  "dct:temporal": {
+    "dcat:start_date": "",
+    "dcat:end_date": ""
+  },
+  "bv:abrogation": "",
+  "bv:opendata_swiss": {
+    "bv:mustBePublished": false
+  }
+}
