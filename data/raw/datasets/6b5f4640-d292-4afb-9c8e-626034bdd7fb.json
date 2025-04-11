@@ -41,8 +41,9 @@
       "dcat:hadRole": "dataCustodian"
     }
   ],
-  "dct:issued": "",
-  "dct:modified": "",
+  "dct:issued": "2024-02-01",
+  "dct:modified": "2024-02-01",
+  "dct:accrualPeriodicity": "ANNUAL",
   "dct:temporal": {
     "dcat:start_date": "",
     "dcat:end_date": ""
