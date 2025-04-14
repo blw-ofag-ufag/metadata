@@ -104,9 +104,14 @@
             ]
         },
         "dct:publisher": {
-            "type": "string",
             "title": "Publisher",
-            "description": "Entity (person or organization) who published the dataset."
+            "type": "string",
+            "description": "Federal Office responsible for the data object",
+            "enum": [
+                "",
+                "BLW-OFAG-UFAG-FOAG",
+                "BLV-OSAV-USAV-FSVO"
+            ]
         },
         "dcat:contactPoint": {
             "type": "object",
@@ -724,7 +729,7 @@
             },
             "dcat:keyword": ["some-keywords", "all-english", "separated-by-dashes", "digiFLUX", "FOAG", "eCH", "DigiAgriFoodCH"],
             "dct:accessRights": "PUBLIC",
-            "dct:publisher": "Bundesamt für Landwirtschaft",
+            "dct:publisher": "BLW-OFAG-UFAG-FOAG",
             "dcat:contactPoint": {
                 "schema:name": "Max Muster",
                 "schema:email": "max.muster@blw.admin.ch"
