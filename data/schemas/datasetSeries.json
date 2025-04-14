@@ -25,12 +25,12 @@
             "description": "URL for an image to be displayed in the data catalog. Choose an image that is related to the series content."
         },
         "dct:identifier": {
-            "title": "Series id",
+            "title": "DatasetSeries identifier",
             "type": "string",
             "description": "Identifier for this DatasetSeries. If left empty, it will be automatically assigned."
         },
         "dct:title": {
-            "title": "Series title",
+            "title": "DatasetSeries title",
             "type": "object",
             "required": [
                 "de",
@@ -57,7 +57,7 @@
             }
         },
         "dct:description": {
-            "title": "Series description",
+            "title": "DatasetSeries description",
             "type": "object",
             "required": [
                 "de",
@@ -113,7 +113,7 @@
             ]
         },
         "dct:creator": {
-            "title": "Curator of the series",
+            "title": "Curator of the DatasetSeries",
             "description": "Person responsible for the curation of the series (not the content of the datasets in it).",
             "type": "object",
               "required": [
@@ -153,7 +153,7 @@
             "description": "The version indicator following a Major.Minor.Patch schema (example: 2.1.4)."
         },
         "dcat:dataset": {
-            "title": "Series dataset",
+            "title": "Available datasets",
             "type": [
                 "array",
                 "null"
@@ -195,7 +195,7 @@
             }
         },
         "schema:comment": {
-            "title": "comments",
+            "title": "Comments",
             "type": "string",
             "description": "Additional comments or notes about the DatasetSeries."
         },
