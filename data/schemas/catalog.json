@@ -83,7 +83,12 @@
         "dct:publisher": {
             "title": "Publisher",
             "type": "string",
-            "description": "Publisher or organization responsible for the Catalog."
+            "description": "Federal Office responsible for the data object",
+            "enum": [
+                "",
+                "BLW-OFAG-UFAG-FOAG",
+                "BLV-OSAV-USAV-FSVO"
+            ]
         },
         "dcat:contactPoint": {
             "title": "Contact point",
