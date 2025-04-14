@@ -8,10 +8,10 @@
     "en": "This is a test -- edit me!"
   },
   "dct:description": {
-    "de": "Hier kannst du irgendeine Beschreibung hinzufügen. Die sollte sich idealerweise auf den Datensatz beziehen ;)",
+    "de": "Hier kannst du irgendeine Beschreibung hinzufügen. Die sollte sich idealerweise auf den Datensatz beziehen ;)\r\n",
     "fr": "Tu peux ajouter ici une description. Elle doit idéalement se rapporter à l'enregistrement ;)",
     "it": "Qui puoi aggiungere una descrizione. Idealmente, dovrebbe fare riferimento al record ;)",
-    "en": "You can add any description here. Ideally, it should refer to the data record ;)"
+    "en": "You can add any description here. Ideally, it should refer to the data record ;)\r\n\r\nchanged i14y-setting to test possible push.\r\nappartently, this is true by default. what will be the publication process?"
   },
   "dcat:theme": [
     "agriculture"
@@ -25,6 +25,9 @@
   "dcatap:availability": "EXPERIMENTAL",
   "bv:classification": "none",
   "bv:personalData": "none",
+  "bv:i14y": {
+    "bv:mustBePublished": true
+  },
   "dct:issued": "2025-04-11",
   "dct:modified": "2025-04-11",
   "dct:accrualPeriodicity": "QUARTERLY",
@@ -33,11 +36,9 @@
     "dcat:end_date": ""
   },
   "bv:abrogation": "",
+  "dcat:version": "0.0.1",
   "bv:archivalValue": false,
   "bv:opendata_swiss": {
-    "bv:mustBePublished": false
-  },
-  "bv:i14y": {
     "bv:mustBePublished": false
   }
 }
