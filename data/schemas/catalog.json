@@ -22,9 +22,9 @@
             "description": "URL for an image to be displayed in the data catalog. Choose an image that is related to the datasets content."
         },
         "dct:identifier": {
-            "title": "Catalog id",
+            "title": "Catalog identifier",
             "type": "string",
-            "description": "Identifier for this Catalog. If left empty, it will be automatically assigned."
+            "description": "Identifier for this catalog. If left empty, it will be automatically assigned."
         },
         "dct:title": {
             "title": "Catalog title",
@@ -33,7 +33,7 @@
                 "de",
                 "fr"
             ],
-            "description": "Title for the Catalog in multiple languages.",
+            "description": "Title for the catalog in multiple languages.",
             "properties": {
                 "de": {
                     "type": "string",
@@ -83,11 +83,18 @@
         "dct:publisher": {
             "title": "Publisher",
             "type": "string",
-            "description": "Publisher or organization responsible for the Catalog."
+            "description": "Federal Office responsible for the data object",
+            "enum": [
+                "",
+                "BLW-OFAG-UFAG-FOAG",
+                "BLV-OSAV-USAV-FSVO",
+                "BFS-OFS-UST-FSO",
+                "swisstopo"
+            ]
         },
         "dcat:contactPoint": {
             "title": "Contact point",
-            "description": "Contact information for potential inquiries about the Catalog.",
+            "description": "Contact information for potential inquiries about the catalog.",
             "type": "object",
             "required": [
                 "schema:name",
@@ -123,16 +130,16 @@
                 "null"
             ],
             "format": "uri",
-            "title": "homepage",
-            "description": "Homepage for the Catalog."
+            "title": "Homepage",
+            "description": "Homepage for the catalog."
         },
         "dcat:dataset": {
             "type": [
                 "array",
                 "null"
             ],
-            "title": "Catalog datasets",
-            "description": "IDs of the datasets referenced in the Catalog.",
+            "title": "Available datasets",
+            "description": "IDs of the datasets referenced in the catalog.",
             "items": {
                 "type": "string"
             }
@@ -142,8 +149,8 @@
                 "array",
                 "null"
             ],
-            "title": "catalog services",
-            "description": "IDs of the DataServices referenced in the catalog",
+            "title": "Available data services",
+            "description": "IDs of the data services referenced in the catalog",
             "items": {
                 "type": "string"
             }

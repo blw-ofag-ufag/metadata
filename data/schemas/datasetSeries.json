@@ -25,12 +25,12 @@
             "description": "URL for an image to be displayed in the data catalog. Choose an image that is related to the series content."
         },
         "dct:identifier": {
-            "title": "Series id",
+            "title": "Dataset series identifier",
             "type": "string",
-            "description": "Identifier for this DatasetSeries. If left empty, it will be automatically assigned."
+            "description": "Identifier for this dataset series. If left empty, it will be automatically assigned."
         },
         "dct:title": {
-            "title": "Series title",
+            "title": "Dataset series title",
             "type": "object",
             "required": [
                 "de",
@@ -57,7 +57,7 @@
             }
         },
         "dct:description": {
-            "title": "Series description",
+            "title": "Dataset series description",
             "type": "object",
             "required": [
                 "de",
@@ -85,7 +85,7 @@
         },
         "dcat:contactPoint": {
             "title": "Contact point",
-            "description": "Contact information for potential inquiries about the DatasetSeries.",
+            "description": "Contact information for potential inquiries about the dataset series.",
             "type": "object",
             "required": [
                 "schema:name",
@@ -103,12 +103,17 @@
             }
         },
         "dct:publisher": {
-            "type": "string",
             "title": "Publisher",
-            "description": "Publisher or organization responsible for the series."
+            "type": "string",
+            "description": "Federal Office responsible for the data object",
+            "enum": [
+                "",
+                "BLW-OFAG-UFAG-FOAG",
+                "BLV-OSAV-USAV-FSVO"
+            ]
         },
         "dct:creator": {
-            "title": "Curator of the series",
+            "title": "Curator of the dataset series",
             "description": "Person responsible for the curation of the series (not the content of the datasets in it).",
             "type": "object",
               "required": [
@@ -132,7 +137,7 @@
         "adms:status": {
             "title": "Status",
             "type": "string",
-            "description": "Current status of the DatasetSeries.",
+            "description": "Current status of the dataset series.",
             "enum": [
                 "",
                 "workInProgress",
@@ -148,12 +153,12 @@
             "description": "The version indicator following a Major.Minor.Patch schema (example: 2.1.4)."
         },
         "dcat:dataset": {
-            "title": "Series dataset",
+            "title": "Available datasets",
             "type": [
                 "array",
                 "null"
             ],
-            "description": "References which dataset(s) are grouped within this DatasetSeries. Please note that a Dataset may be referenced by multiple DatasetSeries.",
+            "description": "References which dataset(s) are grouped within this dataset series. Please note that a Dataset may be referenced by multiple dataset series.",
             "items": {
                 "type": "string"
             }
@@ -190,9 +195,9 @@
             }
         },
         "schema:comment": {
-            "title": "comments",
+            "title": "Comments",
             "type": "string",
-            "description": "Additional comments or notes about the DatasetSeries."
+            "description": "Additional comments or notes about the dataset series."
         },
         "dcat:keyword": {
             "type": [
@@ -200,14 +205,14 @@
                 "null"
             ],
             "title": "Keywords",
-            "description": "Keywords describing the DatasetSeries.",
+            "description": "Keywords describing the dataset series.",
             "items": {
                 "type": "string"
             }
         },
         "dcatap:applicableLegislation": {
             "title": "Applicable legislation",
-            "description": "The legislation that mandates or allows the creation or management of the datasetSeries.",
+            "description": "The legislation that mandates or allows the creation or management of the dataset series.",
             "type": [
               "array",
               "null"

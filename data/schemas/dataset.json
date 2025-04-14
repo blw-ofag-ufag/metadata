@@ -104,9 +104,14 @@
             ]
         },
         "dct:publisher": {
-            "type": "string",
             "title": "Publisher",
-            "description": "Entity (person or organization) who published the dataset."
+            "type": "string",
+            "description": "Federal Office responsible for the data object",
+            "enum": [
+                "",
+                "BLW-OFAG-UFAG-FOAG",
+                "BLV-OSAV-USAV-FSVO"
+            ]
         },
         "dcat:contactPoint": {
             "type": "object",
@@ -306,7 +311,7 @@
                     "type": "boolean"
                 },
                 "dct:identifier": {
-                    "title": "opendata.swiss ID",
+                    "title": "opendata.swiss identifier",
                     "type": "string",
                     "description": "Identifier for the dataset on opendata.swiss."
                 },
@@ -333,7 +338,7 @@
                     "default": true
                 },
                 "dct:identifier": {
-                    "title": "i14y id",
+                    "title": "i14y identifier",
                     "type": "string",
                     "description": "Identifier for the dataset on I14Y."
                 },
@@ -456,7 +461,7 @@
             "description": "Retention period for the dataset. That is, the time that the dataset must legally be available after the end of its active use."
         },
         "dcat:catalog": {
-            "title": "catalog",
+            "title": "Catalog",
             "type": "string",
             "description": "Indicates in which catalog this dataset is available."
         },
@@ -496,7 +501,7 @@
                         "type": "string"
                     },
                     "uri": {
-                        "title": "url",
+                        "title": "URL",
                         "description": "URL for the page, document or resource",
                         "type": [
                             "string",
@@ -508,12 +513,12 @@
             }
         },
         "schema:comment": {
-            "title": "comments",
+            "title": "Comments",
             "type": "string",
             "description": "Additional comments about the dataset."
         },
         "bv:abrogation": {
-            "title": "abrogation",
+            "title": "Abrogation",
             "type": [
                 "string",
                 "null"
@@ -527,12 +532,12 @@
             "description": "Name of the IT system managing this dataset."
         },
         "dcat:inSeries": {
-            "title": "In Series",
+            "title": "In dataset series",
             "type": "string",
-            "description": "Reference to the series this dataset belongs to."
+            "description": "Reference to the dataset series this dataset is integrated into."
         },
         "dct:replaces": {
-            "title": "replaces",
+            "title": "Replaces",
             "type": [
                 "array",
                 "null"
@@ -561,7 +566,7 @@
                 "additionalProperties": false,
                 "properties": {
                     "dct:identifier": {
-                        "title": "Distribution id",
+                        "title": "Distribution identifier",
                         "type": "string",
                         "description": "Identifier for this distribution. If left empty, it will be automatically assigned."
                     },
@@ -597,7 +602,7 @@
                         ]
                     },
                     "dct:format": {
-                        "title": "format",
+                        "title": "File format",
                         "type": "string",
                         "description": "File format for this distribution (e.g., CSV, JSON)."
                     },
@@ -679,7 +684,7 @@
                         "description": "Reference to a standard or specification the distribution conforms to."
                     },
                     "dct:license": {
-                        "title": "license",
+                        "title": "License",
                         "type": "string",
                         "description": "License under which this distribution is released. This is mandatory for opendata.swiss publications.",
                         "enum": [
@@ -694,14 +699,14 @@
                         ]
                     },
                     "schema:comment": {
-                        "title": "comments",
+                        "title": "Comments",
                         "type": "string",
                         "description": "Additional comments about the distribution."
                     },
                     "dcat:accessService": {
                         "title": "Access service",
                         "type": "string",
-                        "description": "Reference to a service used to provide access to the data."
+                        "description": "Reference to data services used to provide access to the data."
                     }
                 }
             }
@@ -724,7 +729,7 @@
             },
             "dcat:keyword": ["some-keywords", "all-english", "separated-by-dashes", "digiFLUX", "FOAG", "eCH", "DigiAgriFoodCH"],
             "dct:accessRights": "PUBLIC",
-            "dct:publisher": "Bundesamt für Landwirtschaft",
+            "dct:publisher": "BLW-OFAG-UFAG-FOAG",
             "dcat:contactPoint": {
                 "schema:name": "Max Muster",
                 "schema:email": "max.muster@blw.admin.ch"
