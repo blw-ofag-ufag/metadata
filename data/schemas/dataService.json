@@ -24,7 +24,7 @@
             "description": "URL for an image to be displayed in the data catalog. Choose an image that is related to the datasets content."
         },
         "dct:identifier": {
-            "title": "Service id",
+            "title": "DataService identifier",
             "type": "string",
             "description": "Identifier for this DataService. If left empty, it will be automatically assigned."
         },
@@ -207,7 +207,7 @@
             }
         },
         "schema:comment": {
-            "title": "comments",
+            "title": "Comments",
             "type": "string",
             "description": "Additional comments about the DataService."
         },
@@ -279,7 +279,7 @@
                     "default": true
                 },
                 "dct:identifier": {
-                    "title": "I14Y id",
+                    "title": "I14Y identifier",
                     "type": "string",
                     "description": "Identifier for the DataService on I14Y."
                 },
