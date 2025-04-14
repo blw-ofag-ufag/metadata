@@ -1,0 +1,619 @@
+[
+    {
+        "personId": "p-1YVS771WP",
+        "name": null,
+        "roles": [
+            {
+                "role": "businessDataOwner",
+                "datasets": [
+                    {
+                        "dct:identifier": "19711e0b-c622-46c7-88ee-b081e1c042d4",
+                        "dct:title": {
+                            "de": "Nährstofflieferungen zwischen Betrieben in der Schweizer Landwirtschaft",
+                            "fr": "Livraisons de nutriments entre les exploitations agricoles suisses",
+                            "it": "Scambi di sostanze nutritive tra aziende agricole in Svizzera",
+                            "en": "Nutrient transfers between farms in Swiss agriculture"
+                        }
+                    },
+                    {
+                        "dct:identifier": "451e6d03-9868-49fb-8c26-ebf3acc85e43",
+                        "dct:title": {
+                            "de": "Art und Anzahl Nutztiere in Sömmerung auf einem Betrieb in der Schweizer Landwirtschaft",
+                            "fr": "Type et nombre d'animaux de rente en estivage dans une exploitation agricole suisse",
+                            "it": "Tipo e numero di animali da reddito in estivazione in un'azienda agricola svizzera",
+                            "en": "Type and number of farm animals summering on a farm in Swiss agriculture"
+                        }
+                    },
+                    {
+                        "dct:identifier": "8432bc6e-262f-40dd-b380-2bc39f9efa32",
+                        "dct:title": {
+                            "de": "Flächenangaben zu Fächen in Hanglagen auf einem Betrieb in der Schweizer Landwirtschaft",
+                            "fr": "Indications de surface pour les surfaces en pente d'une exploitation agricole suisse",
+                            "it": "Dati relativi alle superfici in pendenza in un'azienda agricola svizzera",
+                            "en": "Information on the area of sloping fields on a farm in Swiss agriculture"
+                        }
+                    },
+                    {
+                        "dct:identifier": "ad68ced9-d7da-4817-980e-f439c7394172",
+                        "dct:title": {
+                            "de": "Flächenangaben zu Biodiversitätsfrderflächen auf einem Betrieb in der Schweizer Landwirtschaft",
+                            "fr": "Indications de surface pour les surfaces de promotion de la biodiversité dans une exploitation agricole suisse",
+                            "it": "Dati sulle superfici delle superfici per la promozione della biodiversità in un'azienda agricola in Svizzera",
+                            "en": "Information on the area of biodiversity promotion areas on a farm in Swiss agriculture"
+                        }
+                    },
+                    {
+                        "dct:identifier": "f2d347f7-7782-4411-b99e-666e67b6c652",
+                        "dct:title": {
+                            "de": "Flächenangaben zu Hauptkulturen auf einem Betrieb in der Schweizer Landwirtschaft",
+                            "fr": "Données sur les surfaces des principales cultures dans une exploitation agricole suisse",
+                            "it": "Dati sulle superfici delle principali colture in un'azienda agricola in Svizzera",
+                            "en": "Area data for main crops on a farm in Swiss agriculture"
+                        }
+                    },
+                    {
+                        "dct:identifier": "6ce7322f-10c4-4a60-8a4b-ea5318b4b8a1",
+                        "dct:title": {
+                            "de": "Art und Anzahl Nutztiere auf einem Betrieb in der Schweizer Landwirtschaft",
+                            "fr": "Type et nombre d'animaux de rente dans une exploitation agricole suisse",
+                            "it": "Tipo e numero di animali da reddito in un'azienda agricola in Svizzera",
+                            "en": "Type and number of farm animals on a farm in Switzerland"
+                        }
+                    },
+                    {
+                        "dct:identifier": "00d5f3a2-8387-432b-8f46-b49c3eb018ea",
+                        "dct:title": {
+                            "de": "Anmeldungen für Direktzahlungsprogramme zu einem Betrieb in der Schweizer Landwirtschaft",
+                            "fr": "Inscription aux programmes de paiements directs pour une exploitation agricole suisse",
+                            "it": "Iscrizioni per programmi di pagamenti diretti per un'azienda nell'agricoltura svizzera",
+                            "en": "Registrations for direct payment programmes for a company in Swiss agriculture"
+                        }
+                    },
+                    {
+                        "dct:identifier": "3e7fd49d-0d26-44fe-86a4-ac06240ea5d7",
+                        "dct:title": {
+                            "de": "Betriebsangaben zu Betrieben in der Schweizer Landwirtschaft",
+                            "fr": "Données d'entreprises de l'agriculture suisse",
+                            "it": "Dati aziendali relativi alle aziende agricole svizzere",
+                            "en": "Information on Swiss agricultural businesses"
+                        }
+                    },
+                    {
+                        "dct:identifier": "e4b1f944-2f1a-433e-bcd4-7f88028800c8",
+                        "dct:title": {
+                            "de": "Flächenangaben zu Rebfächen in Hanglagen auf einem Betrieb in der Schweizer Landwirtschaft",
+                            "fr": "Indications de surface pour les vignobles en pente sur une exploitation agricole suisse",
+                            "it": "Dati sulle superfici di vigneti in pendenza in un'azienda agricola svizzera",
+                            "en": "Information on the area of vineyards on slopes on a Swiss agricultural holding"
+                        }
+                    },
+                    {
+                        "dct:identifier": "0fb4574d-48e0-45db-989b-5692683311ef",
+                        "dct:title": {
+                            "de": "Beziehungen zwischen Betrieben eines Bewirtschafters in der Schweizer Landwirtschaft",
+                            "fr": "Relations entre les exploitations d'un exploitant dans l'agriculture suisse",
+                            "it": "Relazioni tra aziende di un gestore nell'agricoltura svizzera",
+                            "en": "Relationships between the businesses of a single operator in the Swiss agricultural sector"
+                        }
+                    },
+                    {
+                        "dct:identifier": "d1692003-f226-4d4c-b70d-baa3332bca82",
+                        "dct:title": {
+                            "de": "Juristische und natürliche Personen aus der Schweizerischen Landwirtschaft",
+                            "fr": "Personnes morales et physiques issues du secteur agricole suisse",
+                            "it": "Persone giuridiche e fisiche del settore agricolo svizzero",
+                            "en": "Legal and natural persons in the Swiss agricultural sector"
+                        }
+                    },
+                    {
+                        "dct:identifier": "7079407c-c5df-430c-b6bf-75f9216c46b3",
+                        "dct:title": {
+                            "de": "Flächenangaben zu Vernetzungsflächen auf einem Betrieb in der Schweizer Landwirtschaft",
+                            "fr": "Indications de superficie pour les surfaces de mise en réseau sur une exploitation agricole suisse",
+                            "it": "Dati sulle superfici di interconnessione in un'azienda agricola in Svizzera",
+                            "en": "Information on the size of the connection areas on a farm in Swiss agriculture"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "personId": "p-6693814",
+        "name": null,
+        "roles": [
+            {
+                "role": "dataSteward",
+                "datasets": [
+                    {
+                        "dct:identifier": "19711e0b-c622-46c7-88ee-b081e1c042d4",
+                        "dct:title": {
+                            "de": "Nährstofflieferungen zwischen Betrieben in der Schweizer Landwirtschaft",
+                            "fr": "Livraisons de nutriments entre les exploitations agricoles suisses",
+                            "it": "Scambi di sostanze nutritive tra aziende agricole in Svizzera",
+                            "en": "Nutrient transfers between farms in Swiss agriculture"
+                        }
+                    },
+                    {
+                        "dct:identifier": "451e6d03-9868-49fb-8c26-ebf3acc85e43",
+                        "dct:title": {
+                            "de": "Art und Anzahl Nutztiere in Sömmerung auf einem Betrieb in der Schweizer Landwirtschaft",
+                            "fr": "Type et nombre d'animaux de rente en estivage dans une exploitation agricole suisse",
+                            "it": "Tipo e numero di animali da reddito in estivazione in un'azienda agricola svizzera",
+                            "en": "Type and number of farm animals summering on a farm in Swiss agriculture"
+                        }
+                    },
+                    {
+                        "dct:identifier": "8432bc6e-262f-40dd-b380-2bc39f9efa32",
+                        "dct:title": {
+                            "de": "Flächenangaben zu Fächen in Hanglagen auf einem Betrieb in der Schweizer Landwirtschaft",
+                            "fr": "Indications de surface pour les surfaces en pente d'une exploitation agricole suisse",
+                            "it": "Dati relativi alle superfici in pendenza in un'azienda agricola svizzera",
+                            "en": "Information on the area of sloping fields on a farm in Swiss agriculture"
+                        }
+                    },
+                    {
+                        "dct:identifier": "ad68ced9-d7da-4817-980e-f439c7394172",
+                        "dct:title": {
+                            "de": "Flächenangaben zu Biodiversitätsfrderflächen auf einem Betrieb in der Schweizer Landwirtschaft",
+                            "fr": "Indications de surface pour les surfaces de promotion de la biodiversité dans une exploitation agricole suisse",
+                            "it": "Dati sulle superfici delle superfici per la promozione della biodiversità in un'azienda agricola in Svizzera",
+                            "en": "Information on the area of biodiversity promotion areas on a farm in Swiss agriculture"
+                        }
+                    },
+                    {
+                        "dct:identifier": "f2d347f7-7782-4411-b99e-666e67b6c652",
+                        "dct:title": {
+                            "de": "Flächenangaben zu Hauptkulturen auf einem Betrieb in der Schweizer Landwirtschaft",
+                            "fr": "Données sur les surfaces des principales cultures dans une exploitation agricole suisse",
+                            "it": "Dati sulle superfici delle principali colture in un'azienda agricola in Svizzera",
+                            "en": "Area data for main crops on a farm in Swiss agriculture"
+                        }
+                    },
+                    {
+                        "dct:identifier": "6ce7322f-10c4-4a60-8a4b-ea5318b4b8a1",
+                        "dct:title": {
+                            "de": "Art und Anzahl Nutztiere auf einem Betrieb in der Schweizer Landwirtschaft",
+                            "fr": "Type et nombre d'animaux de rente dans une exploitation agricole suisse",
+                            "it": "Tipo e numero di animali da reddito in un'azienda agricola in Svizzera",
+                            "en": "Type and number of farm animals on a farm in Switzerland"
+                        }
+                    },
+                    {
+                        "dct:identifier": "00d5f3a2-8387-432b-8f46-b49c3eb018ea",
+                        "dct:title": {
+                            "de": "Anmeldungen für Direktzahlungsprogramme zu einem Betrieb in der Schweizer Landwirtschaft",
+                            "fr": "Inscription aux programmes de paiements directs pour une exploitation agricole suisse",
+                            "it": "Iscrizioni per programmi di pagamenti diretti per un'azienda nell'agricoltura svizzera",
+                            "en": "Registrations for direct payment programmes for a company in Swiss agriculture"
+                        }
+                    },
+                    {
+                        "dct:identifier": "3e7fd49d-0d26-44fe-86a4-ac06240ea5d7",
+                        "dct:title": {
+                            "de": "Betriebsangaben zu Betrieben in der Schweizer Landwirtschaft",
+                            "fr": "Données d'entreprises de l'agriculture suisse",
+                            "it": "Dati aziendali relativi alle aziende agricole svizzere",
+                            "en": "Information on Swiss agricultural businesses"
+                        }
+                    },
+                    {
+                        "dct:identifier": "e4b1f944-2f1a-433e-bcd4-7f88028800c8",
+                        "dct:title": {
+                            "de": "Flächenangaben zu Rebfächen in Hanglagen auf einem Betrieb in der Schweizer Landwirtschaft",
+                            "fr": "Indications de surface pour les vignobles en pente sur une exploitation agricole suisse",
+                            "it": "Dati sulle superfici di vigneti in pendenza in un'azienda agricola svizzera",
+                            "en": "Information on the area of vineyards on slopes on a Swiss agricultural holding"
+                        }
+                    },
+                    {
+                        "dct:identifier": "0fb4574d-48e0-45db-989b-5692683311ef",
+                        "dct:title": {
+                            "de": "Beziehungen zwischen Betrieben eines Bewirtschafters in der Schweizer Landwirtschaft",
+                            "fr": "Relations entre les exploitations d'un exploitant dans l'agriculture suisse",
+                            "it": "Relazioni tra aziende di un gestore nell'agricoltura svizzera",
+                            "en": "Relationships between the businesses of a single operator in the Swiss agricultural sector"
+                        }
+                    },
+                    {
+                        "dct:identifier": "d1692003-f226-4d4c-b70d-baa3332bca82",
+                        "dct:title": {
+                            "de": "Juristische und natürliche Personen aus der Schweizerischen Landwirtschaft",
+                            "fr": "Personnes morales et physiques issues du secteur agricole suisse",
+                            "it": "Persone giuridiche e fisiche del settore agricolo svizzero",
+                            "en": "Legal and natural persons in the Swiss agricultural sector"
+                        }
+                    },
+                    {
+                        "dct:identifier": "7079407c-c5df-430c-b6bf-75f9216c46b3",
+                        "dct:title": {
+                            "de": "Flächenangaben zu Vernetzungsflächen auf einem Betrieb in der Schweizer Landwirtschaft",
+                            "fr": "Indications de superficie pour les surfaces de mise en réseau sur une exploitation agricole suisse",
+                            "it": "Dati sulle superfici di interconnessione in un'azienda agricola in Svizzera",
+                            "en": "Information on the size of the connection areas on a farm in Swiss agriculture"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "personId": "p-0170309",
+        "name": null,
+        "roles": [
+            {
+                "role": "businessDataOwner",
+                "datasets": [
+                    {
+                        "dct:identifier": "82fcca67-633d-431d-853d-1bf765a70bc6",
+                        "dct:title": {
+                            "de": "Produktfunktionskategorien (PFC) gemäss Düngerverordnung (DüV)",
+                            "fr": "Catégories fonctionnelles de produits (PFC) selon l’ordonnance sur les engrais (OEng)",
+                            "it": "Categorie di materiali costituenti (CMC) secondo l'Ordinanza sui concimi (OCon)",
+                            "en": "Product function categories (PFC) according to the German Fertilizer Ordinance (DüV)"
+                        }
+                    },
+                    {
+                        "dct:identifier": "a88a2dfa-f5fb-4fe2-a1c5-af392052f6a2",
+                        "dct:title": {
+                            "de": "Düngerkategorien gemäss Düngerverordnung (DüV) gültig vor 2024",
+                            "fr": "Catégories d’engrais selon l’ordonnance sur les engrais (OEng) valables avant 2024",
+                            "it": "Categorie di concimi secondo l'Ordinanza sui concimi (OCon) valida prima del 2024",
+                            "en": ""
+                        }
+                    },
+                    {
+                        "dct:identifier": "c61f6636-f09f-433e-8612-4babd5a3a9f4",
+                        "dct:title": {
+                            "de": "Düngertypen gemäss Anhang 1 der Düngerverordnung (DüV) gültig vor 2024",
+                            "fr": "Types d’engrais selon l’annexe 1 de l’ordonnance sur les engrais (OEng) valables avant 2024",
+                            "it": "Tipi di fertilizzanti secondo l'Allegato 1 dell'Ordinanza sui fertilizzanti (VZV) valida prima del 2024",
+                            "en": ""
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "personId": "p-9934253",
+        "name": null,
+        "roles": [
+            {
+                "role": "dataSteward",
+                "datasets": [
+                    {
+                        "dct:identifier": "82fcca67-633d-431d-853d-1bf765a70bc6",
+                        "dct:title": {
+                            "de": "Produktfunktionskategorien (PFC) gemäss Düngerverordnung (DüV)",
+                            "fr": "Catégories fonctionnelles de produits (PFC) selon l’ordonnance sur les engrais (OEng)",
+                            "it": "Categorie di materiali costituenti (CMC) secondo l'Ordinanza sui concimi (OCon)",
+                            "en": "Product function categories (PFC) according to the German Fertilizer Ordinance (DüV)"
+                        }
+                    },
+                    {
+                        "dct:identifier": "a88a2dfa-f5fb-4fe2-a1c5-af392052f6a2",
+                        "dct:title": {
+                            "de": "Düngerkategorien gemäss Düngerverordnung (DüV) gültig vor 2024",
+                            "fr": "Catégories d’engrais selon l’ordonnance sur les engrais (OEng) valables avant 2024",
+                            "it": "Categorie di concimi secondo l'Ordinanza sui concimi (OCon) valida prima del 2024",
+                            "en": ""
+                        }
+                    },
+                    {
+                        "dct:identifier": "c61f6636-f09f-433e-8612-4babd5a3a9f4",
+                        "dct:title": {
+                            "de": "Düngertypen gemäss Anhang 1 der Düngerverordnung (DüV) gültig vor 2024",
+                            "fr": "Types d’engrais selon l’annexe 1 de l’ordonnance sur les engrais (OEng) valables avant 2024",
+                            "it": "Tipi di fertilizzanti secondo l'Allegato 1 dell'Ordinanza sui fertilizzanti (VZV) valida prima del 2024",
+                            "en": ""
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "personId": "p-5367735",
+        "name": null,
+        "roles": [
+            {
+                "role": "businessDataOwner",
+                "datasets": [
+                    {
+                        "dct:identifier": "b7f151dc-8a3d-4d52-912b-6074be50fd70",
+                        "dct:title": {
+                            "de": "Direktzahlungskultur bzw. Hauptkulturen",
+                            "fr": "Culture de paiement direct ou cultures principales",
+                            "it": "Coltura a pagamento diretto o colture principali",
+                            "en": "Direct payment crop or main crops"
+                        }
+                    },
+                    {
+                        "dct:identifier": "aa213bfe-c355-4c8e-a487-924b29d97e01",
+                        "dct:title": {
+                            "de": "Codes für Aquakultur-Betriebe",
+                            "fr": "Codes pour les exploitations aquacoles",
+                            "it": "Codici per le aziende di acquacoltura",
+                            "en": "Codes for aquaculture businesses"
+                        }
+                    },
+                    {
+                        "dct:identifier": "5361e7d7-4ac9-43ab-bdb3-dbec0f030033",
+                        "dct:title": {
+                            "de": "Programme/Label",
+                            "fr": "Programmes/labels",
+                            "it": "Programmi/label",
+                            "en": ""
+                        }
+                    },
+                    {
+                        "dct:identifier": "4624b7bf-40c4-4249-b25a-98ce06ffa280",
+                        "dct:title": {
+                            "de": "Direktzahlungsprogramme",
+                            "fr": "Programme de paiements directs",
+                            "it": "Programma dei pagamenti diretti",
+                            "en": "Direct payments program"
+                        }
+                    },
+                    {
+                        "dct:identifier": "db3bd925-f540-4c38-9a54-fb4fbe524609",
+                        "dct:title": {
+                            "de": "Flächenkategorien",
+                            "fr": "Catégories de surfaces",
+                            "it": "Categorie di aree",
+                            "en": "Area categories"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "personId": "p-3899027",
+        "name": null,
+        "roles": [
+            {
+                "role": "dataSteward",
+                "datasets": [
+                    {
+                        "dct:identifier": "b7f151dc-8a3d-4d52-912b-6074be50fd70",
+                        "dct:title": {
+                            "de": "Direktzahlungskultur bzw. Hauptkulturen",
+                            "fr": "Culture de paiement direct ou cultures principales",
+                            "it": "Coltura a pagamento diretto o colture principali",
+                            "en": "Direct payment crop or main crops"
+                        }
+                    },
+                    {
+                        "dct:identifier": "4624b7bf-40c4-4249-b25a-98ce06ffa280",
+                        "dct:title": {
+                            "de": "Direktzahlungsprogramme",
+                            "fr": "Programme de paiements directs",
+                            "it": "Programma dei pagamenti diretti",
+                            "en": "Direct payments program"
+                        }
+                    },
+                    {
+                        "dct:identifier": "db3bd925-f540-4c38-9a54-fb4fbe524609",
+                        "dct:title": {
+                            "de": "Flächenkategorien",
+                            "fr": "Catégories de surfaces",
+                            "it": "Categorie di aree",
+                            "en": "Area categories"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "personId": "p-1ZPP7KQSW",
+        "name": null,
+        "roles": [
+            {
+                "role": "dataSteward",
+                "datasets": [
+                    {
+                        "dct:identifier": "83f93ff4-ef3f-43f1-af2c-83f18952283e",
+                        "dct:title": {
+                            "de": "DigiAgriFoodCH Systemlandkarte",
+                            "fr": "Carte du système DigiAgriFoodCH",
+                            "it": "Mappa del sistema DigiAgriFoodCH",
+                            "en": "DigiAgriFoodCH System Map"
+                        }
+                    },
+                    {
+                        "dct:identifier": "19111589-d41f-4f42-b397-b8318dfb13fd",
+                        "dct:title": {
+                            "de": "Pflanzensorten in der Schweiz",
+                            "fr": "Variétés végétales en Suisse",
+                            "it": "Varietà vegetali in Svizzera",
+                            "en": "Plant varieties in Switzerland"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "personId": "p-1ZFWFFNP6",
+        "name": null,
+        "roles": [
+            {
+                "role": "businessDataOwner",
+                "datasets": [
+                    {
+                        "dct:identifier": "83f93ff4-ef3f-43f1-af2c-83f18952283e",
+                        "dct:title": {
+                            "de": "DigiAgriFoodCH Systemlandkarte",
+                            "fr": "Carte du système DigiAgriFoodCH",
+                            "it": "Mappa del sistema DigiAgriFoodCH",
+                            "en": "DigiAgriFoodCH System Map"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "personId": "p-1ZLWBXSJD",
+        "name": null,
+        "roles": [
+            {
+                "role": "dataSteward",
+                "datasets": [
+                    {
+                        "dct:identifier": "83f93ff4-ef3f-43f1-af2c-83f18952283e",
+                        "dct:title": {
+                            "de": "DigiAgriFoodCH Systemlandkarte",
+                            "fr": "Carte du système DigiAgriFoodCH",
+                            "it": "Mappa del sistema DigiAgriFoodCH",
+                            "en": "DigiAgriFoodCH System Map"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "personId": "p-2049HHGTR",
+        "name": null,
+        "roles": [
+            {
+                "role": "dataSteward",
+                "datasets": [
+                    {
+                        "dct:identifier": "aa213bfe-c355-4c8e-a487-924b29d97e01",
+                        "dct:title": {
+                            "de": "Codes für Aquakultur-Betriebe",
+                            "fr": "Codes pour les exploitations aquacoles",
+                            "it": "Codici per le aziende di acquacoltura",
+                            "en": "Codes for aquaculture businesses"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "personId": "p-1Y4L0Y450",
+        "name": null,
+        "roles": [
+            {
+                "role": "businessDataOwner",
+                "datasets": [
+                    {
+                        "dct:identifier": "2ea8bfa1-8bb6-45ef-bee4-3b4cba52d834",
+                        "dct:title": {
+                            "de": "Massnahmenmonitoring Klimastrategie Landwirtschaft und Ernährung",
+                            "fr": "Suivi des mesures Stratégie Climat pour l'agriculture et l'alimentation",
+                            "it": "Monitoraggio delle misure Strategia Climatica per l'Agricoltura e l'Alimentazione",
+                            "en": "Monitoring Measures Climate Strategy for Agriculture and Food"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "personId": "p-3689497",
+        "name": null,
+        "roles": [
+            {
+                "role": "dataSteward",
+                "datasets": [
+                    {
+                        "dct:identifier": "5361e7d7-4ac9-43ab-bdb3-dbec0f030033",
+                        "dct:title": {
+                            "de": "Programme/Label",
+                            "fr": "Programmes/labels",
+                            "it": "Programmi/label",
+                            "en": ""
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "personId": "p-3966584",
+        "name": null,
+        "roles": [
+            {
+                "role": "businessDataOwner",
+                "datasets": [
+                    {
+                        "dct:identifier": "6cfb283f-7173-4bfd-8028-f944f153de41",
+                        "dct:title": {
+                            "de": "Marktzahlen Milch und Milchprodukte - Jährlicher Preis-Index (Grosshandel/Verarbeitung)",
+                            "fr": "Chiffres du marché du lait et des produits laitiers - Indice des prix annuels (commerce de gros/transformation)",
+                            "it": "Cifre di mercato latte e latticini - Indice dei prezzi annuali (commercio all'ingrosso/trasformazione)",
+                            "en": "Market figures milk and dairy products - Annual price indices (wholesale/processing)"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "personId": "p-1ZW70CP28",
+        "name": null,
+        "roles": [
+            {
+                "role": "businessDataOwner",
+                "datasets": [
+                    {
+                        "dct:identifier": "6cfb283f-7173-4bfd-8028-f944f153de41",
+                        "dct:title": {
+                            "de": "Marktzahlen Milch und Milchprodukte - Jährlicher Preis-Index (Grosshandel/Verarbeitung)",
+                            "fr": "Chiffres du marché du lait et des produits laitiers - Indice des prix annuels (commerce de gros/transformation)",
+                            "it": "Cifre di mercato latte e latticini - Indice dei prezzi annuali (commercio all'ingrosso/trasformazione)",
+                            "en": "Market figures milk and dairy products - Annual price indices (wholesale/processing)"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "personId": "p-0711690",
+        "name": null,
+        "roles": [
+            {
+                "role": "businessDataOwner",
+                "datasets": [
+                    {
+                        "dct:identifier": "19111589-d41f-4f42-b397-b8318dfb13fd",
+                        "dct:title": {
+                            "de": "Pflanzensorten in der Schweiz",
+                            "fr": "Variétés végétales en Suisse",
+                            "it": "Varietà vegetali in Svizzera",
+                            "en": "Plant varieties in Switzerland"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "personId": "p-2347438",
+        "name": "Céline Rossier",
+        "roles": [
+            {
+                "role": "dataCustodian",
+                "datasets": [
+                    {
+                        "dct:identifier": "6b5f4640-d292-4afb-9c8e-626034bdd7fb",
+                        "dct:title": {
+                            "de": "weiteres test",
+                            "fr": "un autre test",
+                            "it": "un altro test",
+                            "en": "another test"
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+]
