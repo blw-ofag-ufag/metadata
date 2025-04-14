@@ -24,7 +24,7 @@
         "dct:identifier": {
             "title": "Catalog identifier",
             "type": "string",
-            "description": "Identifier for this Catalog. If left empty, it will be automatically assigned."
+            "description": "Identifier for this catalog. If left empty, it will be automatically assigned."
         },
         "dct:title": {
             "title": "Catalog title",
@@ -33,7 +33,7 @@
                 "de",
                 "fr"
             ],
-            "description": "Title for the Catalog in multiple languages.",
+            "description": "Title for the catalog in multiple languages.",
             "properties": {
                 "de": {
                     "type": "string",
@@ -94,7 +94,7 @@
         },
         "dcat:contactPoint": {
             "title": "Contact point",
-            "description": "Contact information for potential inquiries about the Catalog.",
+            "description": "Contact information for potential inquiries about the catalog.",
             "type": "object",
             "required": [
                 "schema:name",
@@ -131,7 +131,7 @@
             ],
             "format": "uri",
             "title": "Homepage",
-            "description": "Homepage for the Catalog."
+            "description": "Homepage for the catalog."
         },
         "dcat:dataset": {
             "type": [
@@ -139,7 +139,7 @@
                 "null"
             ],
             "title": "Available datasets",
-            "description": "IDs of the datasets referenced in the Catalog.",
+            "description": "IDs of the datasets referenced in the catalog.",
             "items": {
                 "type": "string"
             }
@@ -149,8 +149,8 @@
                 "array",
                 "null"
             ],
-            "title": "Available dataServices",
-            "description": "IDs of the dataServices referenced in the catalog",
+            "title": "Available data services",
+            "description": "IDs of the data services referenced in the catalog",
             "items": {
                 "type": "string"
             }
