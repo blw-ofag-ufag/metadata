@@ -532,7 +532,7 @@
             "description": "Name of the IT system managing this dataset."
         },
         "dcat:inSeries": {
-            "title": "In datasetSeries",
+            "title": "In dataset series",
             "type": [
                 "array",
                 "null"
@@ -540,7 +540,7 @@
 			"items": {
                 "type": "string"
             },
-            "description": "Reference to the datasetSeries this dataset is integrated into."
+            "description": "Reference to the dataset series this dataset is integrated into."
         },
         "dct:replaces": {
             "title": "Replaces",
@@ -718,7 +718,7 @@
 						"items": {
 							"type": "string"
 						},
-                        "description": "Reference to dataServices used to provide access to the data."
+                        "description": "Reference to data services used to provide access to the data."
                     }
                 }
             }
