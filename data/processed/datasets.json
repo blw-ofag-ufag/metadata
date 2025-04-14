@@ -4742,6 +4742,25 @@
         ]
     },
     {
+        "dct:identifier": "0e5b02d8-877a-49e6-9d48-613ed8143d95",
+        "dct:issued": "",
+        "dct:modified": "",
+        "bv:archivalValue": false,
+        "schemaViolations": 10,
+        "schemaViolationMessages": [
+            "'dct:title' is a required property",
+            "'dct:description' is a required property",
+            "'dct:accessRights' is a required property",
+            "'dct:publisher' is a required property",
+            "'dcat:contactPoint' is a required property",
+            "'dct:accrualPeriodicity' is a required property",
+            "'prov:qualifiedAttribution' is a required property",
+            "'adms:status' is a required property",
+            "'bv:classification' is a required property",
+            "'bv:personalData' is a required property"
+        ]
+    },
+    {
         "dct:identifier": "ea33009b-6ee8-4db1-8b83-e40263dbb269",
         "dct:title": {
             "fr": "Chiffres du marché du lait et des produits laitiers - Prix de gros mensuels",
