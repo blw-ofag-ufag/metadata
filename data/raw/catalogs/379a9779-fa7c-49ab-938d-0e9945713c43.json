@@ -1,0 +1,26 @@
+{
+  "dct:identifier": "379a9779-fa7c-49ab-938d-0e9945713c43",
+  "dct:title": {
+    "de": "opendata.swiss",
+    "fr": "opendata.swiss",
+    "it": "opendata.swiss",
+    "en": "opendata.swiss"
+  },
+  "dct:description": {
+    "de": "opendata.swiss ist das zentrale Portal für offene, d.h. frei zugängliche Daten der Schweizer Behörden (Open Government Data, OGD).",
+    "fr": "opendata.swiss est le portail central répertoriant les données en libre accès («Open Government Data» ou «OGD») de l’administration publique suisse.",
+    "it": "opendata.swiss è il portale centrale in cui sono archiviati i dati liberamente accessibili («open government data» o «OGD») dell’amministrazione pubblica svizzera.",
+    "en": "opendata.swiss is the Swiss public administration’s central portal for open government data."
+  },
+  "dct:accessRights": "PUBLIC",
+  "dct:publisher": "BFS-OFS-UST-FSO",
+  "dcat:contactPoint": {
+    "schema:name": "opendata.swiss Contact Point",
+    "schema:email": "opendata@bfs.admin.ch"
+  },
+  "foaf:homepage": "https://opendata.swiss/",
+  "dcat:dataset": [
+  ],
+  "dcat:service": [
+  ]
+}

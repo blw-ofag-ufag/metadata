@@ -1,0 +1,26 @@
+{
+  "dct:identifier": "9dd04e9f-642a-4e2a-8664-046db10256fe",
+  "dct:title": {
+    "de": "geocat.ch",
+    "fr": "geocat.ch",
+    "it": "geocat.ch",
+    "en": "geocat.ch"
+  },
+  "dct:description": {
+    "de": "geocat.ch dokumentiert die Geodaten, die Geodienste und die Modelle von Bundesämtern, Kantonen, Gemeinden, vom Fürstentum Liechtenstein, von Forschungsinstituten, privaten Firmen. Er erlaubt eine schnelle Suche zu Informationen. Die Geometadaten, welche in geocat.ch enthalten sind, werden auch durch andere Portale genutzt, wie durch map.geo.admin.ch, opendata.swiss oder INSPIRE.",
+    "fr": "geocat.ch documente les géodonnées, les géoservices et les modèles des offices fédéraux, des cantons, des communes, de la Principauté du Liechtenstein, des instituts de recherche, des entreprises privées. Il permet une recherche rapide d'informations. Les géométadonnées contenues dans geocat.ch sont également utilisées par d'autres portails, tels que map.geo.admin.ch, opendata.swiss ou INSPIRE.",
+    "it": "geocat.ch documenta geodati, geoservizi e modelli di uffici federali, cantoni, comuni, Principato del Liechtenstein, istituti di ricerca, aziende private. Consente una ricerca rapida di informazioni. I geometadati contenuti in geocat.ch sono utilizzati anche da altri portali, come map.geo.admin.ch, opendata.swiss o INSPIRE.",
+    "en": "geocat.ch documents geodata, geoservices and models of federal offices, cantons, municipalities, the Principality of Liechtenstein, research institutes, private companies. It allows a quick search for information. The geometadata contained in geocat.ch are also used by other portals, such as map.geo.admin.ch, opendata.swiss or INSPIRE."
+  },
+  "dct:accessRights": "PUBLIC",
+  "dct:publisher": "swisstopo",
+  "dcat:contactPoint": {
+    "schema:name": "geocat.ch Contact Point",
+    "schema:email": "geocat@swisstopo.ch"
+  },
+  "foaf:homepage": "https://www.geocat.ch/",
+  "dcat:dataset": [
+  ],
+  "dcat:service": [
+  ]
+}
