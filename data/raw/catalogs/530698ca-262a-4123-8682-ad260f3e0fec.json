@@ -1,0 +1,26 @@
+{
+  "dct:identifier": "530698ca-262a-4123-8682-ad260f3e0fec",
+  "dct:title": {
+    "de": "I14Y - Metadatenplattform für die Schweiz",
+    "fr": "I14Y - Catalogue des métadonnées de la Suisse",
+    "it": "I14Y - Catalogo svizzero dei metadati",
+    "en": "I14Y - Metadata catalog of Switzerland"
+  },
+  "dct:description": {
+    "de": "Auf der Interoperabilitätsplattform I14Y können Behörden aller föderalen Ebenen ihre Datensätze, elektronischen Schnittstellen (APIs) und Behördenleistungen mittels Metadaten beschreiben und so auffindbar machen. Über die globale Suche finden Sie alle Objekte des Metadatenkatalogs. Ausserdem werden Ihnen die Datensätze der Metadatenportalen opendata.swiss und geocat.ch angezeigt.",
+    "fr": "Les autorités de tous les niveaux de l’État fédéral peuvent décrire leurs jeux de données, leurs interfaces de programmation d’application (API) et leurs prestations sur la plateforme d’interopérabilité I14Y. La description se fait au moyen de métadonnées qui permettent de facilement trouver ces jeux de données. Avec la fonction de recherche globale, vous affichez des résultats dans l’ensemble des métadonnées I14Y ainsi que dans les jeux de données des portails opendata.swiss et geocat.ch.",
+    "it": "Sulla piattaforma di interoperabilità I14Y, attraverso i metadati le autorità di tutti i livelli federali possono descrivere i propri set di dati, interfacce elettroniche (API) e servizi pubblici offerti, e quindi renderli reperibili. Tramite la ricerca globale è possibile trovare tutti gli oggetti del catalogo di metadati. Vengono inoltre visualizzati i set di dati dei portali di metadati opendata.swiss e geocat.ch.",
+    "en": "The I14Y interoperability platform is Switzerland’s national data catalogue. It ensures the efficient exchange of data between authorities, companies and citizens. In the platform, an overview of the data collections and interfaces of the Confederation, cantons and communes is continuously expanded and their metadata are made available centrally."
+  },
+  "dct:accessRights": "PUBLIC",
+  "dct:publisher": "BFS-OFS-UST-FSO",
+  "dcat:contactPoint": {
+    "schema:name": "I14Y Contact Point",
+    "schema:email": "i14y@bfs.admin.ch"
+  },
+  "foaf:homepage": "https://www.i14y.admin.ch/",
+  "dcat:dataset": [
+  ],
+  "dcat:service": [
+  ]
+}
