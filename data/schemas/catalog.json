@@ -22,7 +22,7 @@
             "description": "URL for an image to be displayed in the data catalog. Choose an image that is related to the datasets content."
         },
         "dct:identifier": {
-            "title": "Catalog id",
+            "title": "Catalog identifier",
             "type": "string",
             "description": "Identifier for this Catalog. If left empty, it will be automatically assigned."
         },
@@ -130,7 +130,7 @@
                 "null"
             ],
             "format": "uri",
-            "title": "homepage",
+            "title": "Homepage",
             "description": "Homepage for the Catalog."
         },
         "dcat:dataset": {
@@ -138,7 +138,7 @@
                 "array",
                 "null"
             ],
-            "title": "Catalog datasets",
+            "title": "Available datasets",
             "description": "IDs of the datasets referenced in the Catalog.",
             "items": {
                 "type": "string"
@@ -149,8 +149,8 @@
                 "array",
                 "null"
             ],
-            "title": "catalog services",
-            "description": "IDs of the DataServices referenced in the catalog",
+            "title": "Available dataServices",
+            "description": "IDs of the dataServices referenced in the catalog",
             "items": {
                 "type": "string"
             }
