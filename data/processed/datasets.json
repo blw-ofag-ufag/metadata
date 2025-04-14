@@ -33,8 +33,10 @@
         "bv:personalData": "none",
         "bv:archivalValue": false,
         "businessDataOwner": "p-3966584",
-        "schemaViolations": 0,
-        "schemaViolationMessages": []
+        "schemaViolations": 1,
+        "schemaViolationMessages": [
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
+        ]
     },
     {
         "dct:identifier": "b732392b-e688-4ed5-9d5c-4399461e9259",
@@ -63,9 +65,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -104,8 +107,10 @@
         "bv:personalData": "personalData",
         "bv:archivalValue": false,
         "businessDataOwner": "p-1YVS771WP",
-        "schemaViolations": 0,
-        "schemaViolationMessages": []
+        "schemaViolations": 1,
+        "schemaViolationMessages": [
+            "'BLW-OFAG-UFAG' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
+        ]
     },
     {
         "dct:identifier": "738bfce1-5732-46f7-b529-e82dacaa6352",
@@ -138,9 +143,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -179,9 +185,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -215,9 +222,10 @@
         "bv:personalData": "none",
         "bv:archivalValue": false,
         "businessDataOwner": "p-0170309",
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'dcat:contactPoint' is a required property"
+            "'dcat:contactPoint' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -257,9 +265,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -289,9 +298,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -327,9 +337,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -364,9 +375,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -401,9 +413,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -436,9 +449,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -468,9 +482,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -505,9 +520,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -543,9 +559,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -578,9 +595,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -624,8 +642,10 @@
         "bv:personalData": "personalData",
         "bv:archivalValue": false,
         "businessDataOwner": "p-1YVS771WP",
-        "schemaViolations": 0,
-        "schemaViolationMessages": []
+        "schemaViolations": 1,
+        "schemaViolationMessages": [
+            "'BLW-OFAG-UFAG' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
+        ]
     },
     {
         "dct:identifier": "0fb36c61-a2c7-4cb7-8168-3f4bd9bbd167",
@@ -654,9 +674,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -694,8 +715,10 @@
         "bv:personalData": "personalData",
         "bv:archivalValue": false,
         "businessDataOwner": "p-1YVS771WP",
-        "schemaViolations": 0,
-        "schemaViolationMessages": []
+        "schemaViolations": 1,
+        "schemaViolationMessages": [
+            "'BLW-OFAG-UFAG' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
+        ]
     },
     {
         "dct:identifier": "c3b38cf5-8f64-406b-8ecf-4858916b5a50",
@@ -727,9 +750,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -764,9 +788,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -800,9 +825,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -841,8 +867,10 @@
         "bv:personalData": "personalData",
         "bv:archivalValue": false,
         "businessDataOwner": "p-1YVS771WP",
-        "schemaViolations": 0,
-        "schemaViolationMessages": []
+        "schemaViolations": 1,
+        "schemaViolationMessages": [
+            "'BLW-OFAG-UFAG' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
+        ]
     },
     {
         "dct:identifier": "b2bbf16b-744d-4554-bc39-5528a7d59002",
@@ -874,9 +902,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -906,9 +935,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -943,8 +973,10 @@
         "bv:personalData": "none",
         "bv:archivalValue": false,
         "businessDataOwner": "p-5367735",
-        "schemaViolations": 0,
-        "schemaViolationMessages": []
+        "schemaViolations": 1,
+        "schemaViolationMessages": [
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
+        ]
     },
     {
         "dct:identifier": "a5dce9aa-6eb8-430e-9126-9436f6c3aec1",
@@ -979,9 +1011,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -1011,9 +1044,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -1047,9 +1081,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -1082,9 +1117,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -1122,9 +1158,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -1159,9 +1196,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -1194,9 +1232,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -1237,9 +1276,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -1278,8 +1318,10 @@
         "bv:personalData": "personalData",
         "bv:archivalValue": false,
         "businessDataOwner": "p-1YVS771WP",
-        "schemaViolations": 0,
-        "schemaViolationMessages": []
+        "schemaViolations": 1,
+        "schemaViolationMessages": [
+            "'BLW-OFAG-UFAG' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
+        ]
     },
     {
         "dct:identifier": "1b460b8f-ddca-4069-b744-89798658f1fd",
@@ -1313,9 +1355,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -1345,9 +1388,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -1377,9 +1421,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -1415,9 +1460,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -1461,8 +1507,10 @@
         "bv:personalData": "personalData",
         "bv:archivalValue": false,
         "businessDataOwner": "p-1YVS771WP",
-        "schemaViolations": 0,
-        "schemaViolationMessages": []
+        "schemaViolations": 1,
+        "schemaViolationMessages": [
+            "'BLW-OFAG-UFAG' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
+        ]
     },
     {
         "dct:identifier": "6ef9cb6b-8af5-409a-a195-93126a224ba7",
@@ -1491,9 +1539,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -1523,9 +1572,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -1558,9 +1608,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -1590,9 +1641,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -1633,9 +1685,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -1665,9 +1718,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -1706,8 +1760,10 @@
         "bv:personalData": "personalData",
         "bv:archivalValue": false,
         "businessDataOwner": "p-1YVS771WP",
-        "schemaViolations": 0,
-        "schemaViolationMessages": []
+        "schemaViolations": 1,
+        "schemaViolationMessages": [
+            "'BLW-OFAG-UFAG' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
+        ]
     },
     {
         "dct:identifier": "b5158cde-a426-4c7f-9a61-2f6a192938a2",
@@ -1736,9 +1792,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -1776,8 +1833,10 @@
         "bv:personalData": "personalData",
         "bv:archivalValue": false,
         "businessDataOwner": "p-1YVS771WP",
-        "schemaViolations": 0,
-        "schemaViolationMessages": []
+        "schemaViolations": 1,
+        "schemaViolationMessages": [
+            "'BLW-OFAG-UFAG' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
+        ]
     },
     {
         "dct:identifier": "a88a2dfa-f5fb-4fe2-a1c5-af392052f6a2",
@@ -1810,9 +1869,10 @@
         "bv:personalData": "none",
         "bv:archivalValue": false,
         "businessDataOwner": "p-0170309",
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'dcat:contactPoint' is a required property"
+            "'dcat:contactPoint' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -1845,9 +1905,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -1877,9 +1938,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -1912,9 +1974,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -1982,9 +2045,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -2017,9 +2081,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -2049,9 +2114,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -2081,9 +2147,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -2113,9 +2180,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -2151,9 +2219,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -2192,9 +2261,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -2230,9 +2300,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -2265,9 +2336,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -2304,9 +2376,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -2346,8 +2419,10 @@
         "bv:personalData": "personalData",
         "bv:archivalValue": false,
         "businessDataOwner": "p-1YVS771WP",
-        "schemaViolations": 0,
-        "schemaViolationMessages": []
+        "schemaViolations": 1,
+        "schemaViolationMessages": [
+            "'BLW-OFAG-UFAG' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
+        ]
     },
     {
         "dct:identifier": "9fccd3a6-fbaf-41cc-9ade-7c53d8c9cc8e",
@@ -2379,9 +2454,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -2417,9 +2493,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -2452,9 +2529,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -2484,9 +2562,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -2521,9 +2600,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -2556,9 +2636,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -2593,9 +2674,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -2628,9 +2710,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -2660,9 +2743,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -2695,9 +2779,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -2730,9 +2815,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -2762,9 +2848,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -2802,9 +2889,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -2837,9 +2925,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -2872,9 +2961,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -2909,9 +2999,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -2944,9 +3035,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -2982,8 +3074,10 @@
         "bv:personalData": "none",
         "bv:archivalValue": false,
         "businessDataOwner": "p-5367735",
-        "schemaViolations": 0,
-        "schemaViolationMessages": []
+        "schemaViolations": 1,
+        "schemaViolationMessages": [
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
+        ]
     },
     {
         "dct:identifier": "b086f7a6-c888-44db-a432-c87c94a3fbb2",
@@ -3012,10 +3106,11 @@
         "bv:personalData": "personalData",
         "bv:archivalValue": false,
         "businessDataOwner": null,
-        "schemaViolations": 3,
+        "schemaViolations": 4,
         "schemaViolationMessages": [
             "'dcat:contactPoint' is a required property",
             "'dct:accrualPeriodicity' is a required property",
+            "'BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']",
             "'prov:agent' is a required property"
         ]
     },
@@ -3049,9 +3144,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -3091,9 +3187,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -3123,9 +3220,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -3158,9 +3256,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -3193,9 +3292,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -3228,9 +3328,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -3267,8 +3368,10 @@
         "bv:personalData": "none",
         "bv:archivalValue": false,
         "businessDataOwner": "p-5367735",
-        "schemaViolations": 0,
-        "schemaViolationMessages": []
+        "schemaViolations": 1,
+        "schemaViolationMessages": [
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
+        ]
     },
     {
         "dct:identifier": "1bf31551-1f4d-4947-9649-8b993504bdc0",
@@ -3304,9 +3407,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -3336,9 +3440,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -3379,8 +3484,10 @@
         "bv:personalData": "personalData",
         "bv:archivalValue": false,
         "businessDataOwner": "p-1YVS771WP",
-        "schemaViolations": 0,
-        "schemaViolationMessages": []
+        "schemaViolations": 1,
+        "schemaViolationMessages": [
+            "'BLW-OFAG-UFAG' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
+        ]
     },
     {
         "dct:identifier": "cce23d00-7ae9-493e-b3af-5f72241a455c",
@@ -3414,9 +3521,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -3451,9 +3559,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -3489,9 +3598,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -3526,9 +3636,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -3563,9 +3674,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -3601,8 +3713,10 @@
         "bv:personalData": "none",
         "bv:archivalValue": false,
         "businessDataOwner": "p-5367735",
-        "schemaViolations": 0,
-        "schemaViolationMessages": []
+        "schemaViolations": 1,
+        "schemaViolationMessages": [
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
+        ]
     },
     {
         "dct:identifier": "7079407c-c5df-430c-b6bf-75f9216c46b3",
@@ -3639,8 +3753,10 @@
         "bv:personalData": "personalData",
         "bv:archivalValue": false,
         "businessDataOwner": "p-1YVS771WP",
-        "schemaViolations": 0,
-        "schemaViolationMessages": []
+        "schemaViolations": 1,
+        "schemaViolationMessages": [
+            "'BLW-OFAG-UFAG' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
+        ]
     },
     {
         "dct:identifier": "83f93ff4-ef3f-43f1-af2c-83f18952283e",
@@ -3679,8 +3795,9 @@
         "bv:personalData": "none",
         "bv:archivalValue": false,
         "businessDataOwner": "p-1ZFWFFNP6",
-        "schemaViolations": 2,
+        "schemaViolations": 3,
         "schemaViolationMessages": [
+            "'Federal Office for Agriculture' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']",
             "'environment' is not one of ['', 'work', 'construction', 'population', 'education', 'energy', 'finances', 'geography', 'legislation', 'health', 'trade', 'industry', 'crime', 'culture', 'agriculture', 'mobility', 'public-order', 'politics', 'prices', 'territory', 'social-security', 'statistical-basis', 'tourism', 'administration', 'national-economy']",
             "'agricultureFisheriesForestryFood' is not one of ['', 'work', 'construction', 'population', 'education', 'energy', 'finances', 'geography', 'legislation', 'health', 'trade', 'industry', 'crime', 'culture', 'agriculture', 'mobility', 'public-order', 'politics', 'prices', 'territory', 'social-security', 'statistical-basis', 'tourism', 'administration', 'national-economy']"
         ]
@@ -3712,9 +3829,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -3744,9 +3862,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -3783,8 +3902,10 @@
         "bv:personalData": "personalData",
         "bv:archivalValue": false,
         "businessDataOwner": "p-0711690",
-        "schemaViolations": 0,
-        "schemaViolationMessages": []
+        "schemaViolations": 1,
+        "schemaViolationMessages": [
+            "'BLW-OFAG-UFAG' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
+        ]
     },
     {
         "dct:identifier": "18291692-b713-4bed-9bf5-f3294edc6e54",
@@ -3819,9 +3940,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -3854,9 +3976,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -3889,9 +4012,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -3921,9 +4045,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -3956,9 +4081,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -3991,9 +4117,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -4031,9 +4158,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -4066,9 +4194,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -4098,9 +4227,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -4136,9 +4266,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -4168,9 +4299,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -4205,9 +4337,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -4242,9 +4375,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -4274,9 +4408,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -4306,9 +4441,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -4388,9 +4524,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -4425,9 +4562,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -4457,9 +4595,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -4489,9 +4628,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -4524,9 +4664,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -4556,9 +4697,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -4593,9 +4735,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -4628,9 +4771,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -4664,8 +4808,9 @@
         "bv:classification": "secret",
         "bv:personalData": "sensitivePersonalData",
         "bv:archivalValue": false,
-        "schemaViolations": 3,
+        "schemaViolations": 4,
         "schemaViolationMessages": [
+            "'BLW ' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']",
             "None of [{'prov:agent': 'p-2347438', 'schema:name': 'Céline Rossier', 'dcat:hadRole': 'dataCustodian'}] are valid under the given schema",
             "'ec' is not one of ['', 'work', 'construction', 'population', 'education', 'energy', 'finances', 'geography', 'legislation', 'health', 'trade', 'industry', 'crime', 'culture', 'agriculture', 'mobility', 'public-order', 'politics', 'prices', 'territory', 'social-security', 'statistical-basis', 'tourism', 'administration', 'national-economy']",
             "'http://dcat-ap.ch/vocabulary/themes/agriculture' is not one of ['', 'work', 'construction', 'population', 'education', 'energy', 'finances', 'geography', 'legislation', 'health', 'trade', 'industry', 'crime', 'culture', 'agriculture', 'mobility', 'public-order', 'politics', 'prices', 'territory', 'social-security', 'statistical-basis', 'tourism', 'administration', 'national-economy']"
@@ -4709,9 +4854,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -4744,9 +4890,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -4781,9 +4928,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -4813,9 +4961,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -4850,9 +4999,10 @@
         "bv:personalData": "none",
         "bv:archivalValue": false,
         "businessDataOwner": "p-0170309",
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'dcat:contactPoint' is a required property"
+            "'dcat:contactPoint' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -4890,8 +5040,10 @@
         "bv:personalData": "personalData",
         "bv:archivalValue": false,
         "businessDataOwner": "p-1YVS771WP",
-        "schemaViolations": 0,
-        "schemaViolationMessages": []
+        "schemaViolations": 1,
+        "schemaViolationMessages": [
+            "'BLW-OFAG-UFAG' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
+        ]
     },
     {
         "dct:identifier": "5361e7d7-4ac9-43ab-bdb3-dbec0f030033",
@@ -4926,8 +5078,10 @@
         "bv:personalData": "none",
         "bv:archivalValue": false,
         "businessDataOwner": "p-5367735",
-        "schemaViolations": 0,
-        "schemaViolationMessages": []
+        "schemaViolations": 1,
+        "schemaViolationMessages": [
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
+        ]
     },
     {
         "dct:identifier": "de36bb9d-ce43-48ea-8a8b-26bef7dee358",
@@ -4963,9 +5117,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     },
     {
@@ -4995,9 +5150,10 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property"
+            "'prov:qualifiedAttribution' is a required property",
+            "'Bundesamt für Landwirtschaft BLW' is not one of ['', 'BLW-OFAG-UFAG-FOAG', 'BLV-OSAV-USAV-FSVO']"
         ]
     }
 ]
