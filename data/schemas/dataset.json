@@ -533,13 +533,7 @@
         },
         "dcat:inSeries": {
             "title": "In dataset series",
-            "type": [
-                "array",
-                "null"
-            ],
-			"items": {
-                "type": "string"
-            },
+            "type": "string",
             "description": "Reference to the dataset series this dataset is integrated into."
         },
         "dct:replaces": {
@@ -711,13 +705,7 @@
                     },
                     "dcat:accessService": {
                         "title": "Access service",
-                        "type": [
-							"array",
-							"null"
-						],
-						"items": {
-							"type": "string"
-						},
+                        "type": "string",
                         "description": "Reference to data services used to provide access to the data."
                     }
                 }
