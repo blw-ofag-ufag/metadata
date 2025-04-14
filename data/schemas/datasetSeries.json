@@ -103,9 +103,14 @@
             }
         },
         "dct:publisher": {
-            "type": "string",
             "title": "Publisher",
-            "description": "Publisher or organization responsible for the series."
+            "type": "string",
+            "description": "Federal Office responsible for the data object",
+            "enum": [
+                "",
+                "BLW-OFAG-UFAG-FOAG",
+                "BLV-OSAV-USAV-FSVO"
+            ]
         },
         "dct:creator": {
             "title": "Curator of the series",
