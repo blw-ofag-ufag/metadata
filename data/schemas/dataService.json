@@ -83,9 +83,14 @@
             }
         },
         "dct:publisher": {
-            "type": "string",
             "title": "Publisher",
-            "description": "Publisher or organization responsible for the DataService."
+            "type": "string",
+            "description": "Federal Office responsible for the data object",
+            "enum": [
+                "",
+                "BLW-OFAG-UFAG-FOAG",
+                "BLV-OSAV-USAV-FSVO"
+            ]
         },
         "dcat:contactPoint": {
             "title": "Contact point",
