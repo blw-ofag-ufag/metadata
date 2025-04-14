@@ -1,6 +1,6 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "title": "Data Service Schema",
+    "title": "Data service Schema",
     "description": "A JSON schema for a data service file in the data catalog.",
     "type": "object",
     "required": [
@@ -24,18 +24,18 @@
             "description": "URL for an image to be displayed in the data catalog. Choose an image that is related to the datasets content."
         },
         "dct:identifier": {
-            "title": "DataService identifier",
+            "title": "Data service identifier",
             "type": "string",
-            "description": "Identifier for this DataService. If left empty, it will be automatically assigned."
+            "description": "Identifier for this data service. If left empty, it will be automatically assigned."
         },
         "dct:title": {
-            "title": "DataService title",
+            "title": "Data service title",
             "type": "object",
             "required": [
                 "de",
                 "fr"
             ],
-            "description": "Title for the DataService in multiple languages.",
+            "description": "Title for the data service in multiple languages.",
             "properties": {
                 "de": {
                     "type": "string",
@@ -56,7 +56,7 @@
             }
         },
         "dct:description": {
-            "title": "DataService description",
+            "title": "Data service description",
             "type": "object",
             "required": [
                 "de",
@@ -94,7 +94,7 @@
         },
         "dcat:contactPoint": {
             "title": "Contact point",
-            "description": "Contact information for potential inquiries about the DataService.",
+            "description": "Contact information for potential inquiries about the data service.",
             "type": "object",
             "required": [
                 "schema:name",
@@ -131,7 +131,7 @@
                 "null"
             ],
             "format": "uri",
-            "description": "URL of the technical endpoint of the DataService."
+            "description": "URL of the technical endpoint of the data service."
         },
         "dcat:landingPage": {
           "title": "Landing page",
@@ -145,7 +145,7 @@
         "adms:status": {
             "title": "Status",
             "type": "string",
-            "description": "Current status of the DataService.",
+            "description": "Current status of the data service.",
             "enum": [
                 "",
                 "workInProgress",
@@ -161,7 +161,7 @@
                 "array",
                 "null"
             ],
-            "description": "IDs of the datasets served by this DataService",
+            "description": "IDs of the datasets served by this data service",
             "items": {
                 "type": "string"
             }
@@ -173,7 +173,7 @@
                 "null"
             ],
             "format": "uri",
-            "description": "URL of technical documentation of the DataService, such as for example a Swagger documentation."
+            "description": "URL of technical documentation of the data service, such as for example a Swagger documentation."
         },
         "foaf:page": {
             "type": [
@@ -209,7 +209,7 @@
         "schema:comment": {
             "title": "Comments",
             "type": "string",
-            "description": "Additional comments about the DataService."
+            "description": "Additional comments about the data service."
         },
         "dcat:version": {
             "title": "Service Version",
@@ -250,7 +250,7 @@
         },
         "dcatap:applicableLegislation": {
             "title": "Applicable legislation",
-            "description": "The legislation that mandates or allows the creation or management of the dataService.",
+            "description": "The legislation that mandates or allows the creation or management of the data service.",
             "type": [
               "array",
               "null"
@@ -270,24 +270,24 @@
                 "bv:mustBePublished"
             ],
             "title": "I14Y publication",
-            "description": "Indicates if the DataService metadata must be made available via the interoperability platform I14Y. Optionally references the I14Y publication ID.",
+            "description": "Indicates if the data service metadata must be made available via the interoperability platform I14Y. Optionally references the I14Y publication ID.",
             "properties": {
                 "bv:mustBePublished": {
                     "title": "I14Y publication flag",
-                    "description": "Indicates if the DataService must be published on I14Y. May be used by harvesters or automatic metadata publication. This is true by default.",
+                    "description": "Indicates if the data service must be published on I14Y. May be used by harvesters or automatic metadata publication. This is true by default.",
                     "type": "boolean",
                     "default": true
                 },
                 "dct:identifier": {
                     "title": "I14Y identifier",
                     "type": "string",
-                    "description": "Identifier for the DataService on I14Y."
+                    "description": "Identifier for the data service on I14Y."
                 },
                 "dcat:accessURL": {
                     "title": "I14Y URL",
                     "type": "string",
                     "format": "uri",
-                    "description": "URL for the DataService on I14Y"
+                    "description": "URL for the data service on I14Y"
                 }
             }
         }
