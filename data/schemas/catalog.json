@@ -87,7 +87,9 @@
             "enum": [
                 "",
                 "BLW-OFAG-UFAG-FOAG",
-                "BLV-OSAV-USAV-FSVO"
+                "BLV-OSAV-USAV-FSVO",
+                "BFS-OFS-UST-FSO",
+                "swisstopo"
             ]
         },
         "dcat:contactPoint": {
