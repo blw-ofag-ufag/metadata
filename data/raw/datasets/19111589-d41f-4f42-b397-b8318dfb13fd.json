@@ -47,11 +47,11 @@
     }
   ],
   "dct:issued": "2025-02-20",
-  "dct:modified": "2025-04-14",
+  "dct:modified": "2025-02-20",
   "dct:accrualPeriodicity": "MONTHLY",
   "dct:temporal": {
-    "dcat:start_date": "1977-05-31",
-    "dcat:end_date": "2025-03-31"
+    "dcat:start_date": "",
+    "dcat:end_date": ""
   },
   "bv:abrogation": "",
   "dcatap:applicableLegislation": [
@@ -76,7 +76,7 @@
       "dcat:accessURL": "https://github.com/blw-ofag-ufag/blw-ogd-data/blob/fb1fc64d032e1f40d2d1bcf52daef1fc7eb7f177/data/plant_varieties_in_switzerland.json",
       "adms:status": "published",
       "dct:format": "JSON",
-      "dct:modified": "2025-02-20",
+      "dct:modified": "2025-04-14",
       "dcat:downloadURL": "https://github.com/blw-ofag-ufag/blw-ogd-data/blob/fb1fc64d032e1f40d2d1bcf52daef1fc7eb7f177/data/plant_varieties_in_switzerland.json",
       "dct:license": "terms_by"
     }
