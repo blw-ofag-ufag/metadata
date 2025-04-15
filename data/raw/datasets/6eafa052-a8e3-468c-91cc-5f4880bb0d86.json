@@ -29,6 +29,20 @@
   "bv:i14y": {
     "bv:mustBePublished": true
   },
+  "prov:qualifiedAttribution": [
+    {
+      "prov:agent": "p-2959456",
+      "schema:name": "NN",
+      "schema:email": "nomen.nescio",
+      "dcat:hadRole": "businessDataOwner"
+    },
+    {
+      "prov:agent": "p-1ZLWBXSJD",
+      "schema:name": "toBeDecided",
+      "schema:email": "t.bd@blw.admin.ch",
+      "dcat:hadRole": "dataSteward"
+    }
+  ],
   "dct:issued": "2025-04-11",
   "dct:modified": "2025-04-11",
   "dct:accrualPeriodicity": "QUARTERLY",
