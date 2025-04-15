@@ -264,32 +264,29 @@
               "format": "uri"
             }
         },
-        "bv:i14y": {
+        "bv:externalCatalogs": {
+            "title": "External catalogs",
             "type": "object",
-            "required": [
-                "bv:mustBePublished"
-            ],
-            "title": "I14Y publication",
-            "description": "Indicates if the data service metadata must be made available via the interoperability platform I14Y. Optionally references the I14Y publication ID.",
-            "properties": {
-                "bv:mustBePublished": {
-                    "title": "I14Y publication flag",
-                    "description": "Indicates if the data service must be published on I14Y. May be used by harvesters or automatic metadata publication. This is true by default.",
-                    "type": "boolean",
-                    "default": true
-                },
-                "dct:identifier": {
-                    "title": "I14Y identifier",
-                    "type": "string",
-                    "description": "Identifier for the data service on I14Y."
-                },
-                "dcat:accessURL": {
-                    "title": "I14Y URL",
-                    "type": "string",
-                    "format": "uri",
-                    "description": "URL for the data service on I14Y"
-                }
-            }
+	        "required": [
+		        "dcat:catalog"
+	        ],
+            "description": "External catalogs where the data object is published",
+	        "properties": {
+		        "dcat:catalog": {
+			        "type": "string",
+			        "title": "Reference to external catalog",
+			        "description": "Reference to the external catalogs the data object should be pubished to. Adding a catalog here triggers metadata validation and an automatic push to the listed catalog.",
+			        "enum": [
+				        "",
+				        "I14Y"
+			        ]
+		        },
+		        "dct:identifier": {
+			        "type": "string",
+			        "title": "ID in the external catalog"
+			        "description": "This field should be automatically filled at first publication with the ID assigned by the external catalog. It is a hidden field in the edit form."
+		        }
+	        }
         }
     }
 }
