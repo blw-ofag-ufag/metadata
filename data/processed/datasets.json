@@ -2006,11 +2006,11 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 4,
+        "businessDataOwner": "p-2959456",
+        "schemaViolations": 3,
         "schemaViolationMessages": [
             "'dct:publisher' is a required property",
             "'dcat:contactPoint' is a required property",
-            "'prov:qualifiedAttribution' is a required property",
             "'sct' is not one of ['', 'work', 'construction', 'population', 'education', 'energy', 'finances', 'geography', 'legislation', 'health', 'trade', 'industry', 'crime', 'culture', 'agriculture', 'mobility', 'public-order', 'politics', 'prices', 'territory', 'social-security', 'statistical-basis', 'tourism', 'administration', 'national-economy']"
         ]
     },
