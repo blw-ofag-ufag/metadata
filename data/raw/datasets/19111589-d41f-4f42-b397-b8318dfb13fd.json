@@ -47,11 +47,11 @@
     }
   ],
   "dct:issued": "2025-02-20",
-  "dct:modified": "2025-02-20",
+  "dct:modified": "2025-04-14",
   "dct:accrualPeriodicity": "MONTHLY",
   "dct:temporal": {
-    "dcat:start_date": "",
-    "dcat:end_date": ""
+    "dcat:start_date": "1977-05-31",
+    "dcat:end_date": "2025-03-31"
   },
   "bv:abrogation": "",
   "dcatap:applicableLegislation": [
