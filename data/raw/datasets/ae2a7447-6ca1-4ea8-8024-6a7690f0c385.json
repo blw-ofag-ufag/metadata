@@ -13,7 +13,7 @@
     "it": "Si tratta dell'acqua ritenuta dal suolo attraverso le forze di tensione e facilmente assimilabile dai vegetali (0,1 - 1,0 atm). Si può stimare approssimativamente che per ogni cm di profondità fisiologica è facilmente assimilabile 1 mm d'acqua. La profondità fisiologica si calcola sottraendo dallo strato penetrabile dalle radici lo scheletro, grandi cavità dei suoli sabbioso-ghiaiosi, strutture compatte e orizzonti poveri di ossigeno. (Dettagli: carta delle attitudini dei suoli svizzeri, marzo 1980)."
   },
   "dct:accessRights": "PUBLIC",
-  "dct:publisher": "Bundesamt für Landwirtschaft BLW",
+  "dct:publisher": "BLW-OFAG-UFAG-FOAG",
   "dcat:contactPoint": {
     "schema:email": "info@blw.admin.ch",
     "schema:name": "info@blw.admin.ch"
@@ -25,13 +25,6 @@
   "bv:classification": "none",
   "bv:personalData": "none",
   "bv:archivalValue": false,
-  "bv:opendata_swiss": {
-    "bv:mustBePublished": true,
-    "dct:identifier": "f3ea03ee-9d4c-431f-9ca3-f38746373fc0"
-  },
-  "bv:i14y": {
-    "bv:mustBePublished": true
-  },
   "bv:typeOfData": "thematicData",
   "dcat:keyword": [
     "cultivation-suitability",
@@ -161,6 +154,12 @@
       },
       "dct:license": "terms_by",
       "schema:comment": "ID for this distribution on opendata.swiss: 0d8f534b-b038-45fc-b414-955343931281"
+    }
+  ],
+  "bv:externalCatalogs": [
+    {
+      "dcat:catalog": "opendata.swiss",
+      "dct:identifier": "f3ea03ee-9d4c-431f-9ca3-f38746373fc0"
     }
   ]
 }

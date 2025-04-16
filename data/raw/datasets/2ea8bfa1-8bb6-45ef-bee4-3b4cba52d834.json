@@ -71,5 +71,7 @@
       "dcat:accessURL": "https://www.blw.admin.ch/de/klimastrategie-landwirtschaft-und-ernaehrung-2050#%C3%9Cberpr%C3%BCfung-der-Massnahmen-und-Zielerreichung",
       "dct:format": "PowerBI Report"
     }
-  ]
+  ],
+  "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+  "bv:externalCatalogs": null
 }

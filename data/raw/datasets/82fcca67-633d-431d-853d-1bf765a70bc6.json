@@ -28,7 +28,7 @@
     "c61f6636-f09f-433e-8612-4babd5a3a9f4",
     "a88a2dfa-f5fb-4fe2-a1c5-af392052f6a2"
   ],
-  "dct:publisher": "Bundesamt für Landwirtschaft BLW",
+  "dct:publisher": "BLW-OFAG-UFAG-FOAG",
   "bv:archivalValue": false,
   "prov:qualifiedAttribution": [
     {
@@ -44,14 +44,6 @@
   "bv:classification": "none",
   "bv:personalData": "none",
   "bv:typeOfData": "referenceData",
-  "bv:opendata_swiss": {
-    "bv:mustBePublished": false
-  },
-  "bv:i14y": {
-    "bv:mustBePublished": true,
-    "dct:identifier": "BLW_CD_PFC_DueV",
-    "dcat:accessURL": "https://www.i14y.admin.ch/de/catalog/concepts/08dc7ef4-e871-d36f-ade1-d11f8e073447"
-  },
   "dcat:theme": [
     "agriculture",
     "territory"
@@ -102,5 +94,6 @@
       "dct:format": "CSV",
       "dct:license": "terms_by"
     }
-  ]
+  ],
+  "bv:externalCatalogs": null
 }

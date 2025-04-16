@@ -14,7 +14,7 @@
     "it": "Volumi annuali di carne, pordotti carnei e insaccati commercializzati a livello della catena del valore consumo"
   },
   "dct:accessRights": "PUBLIC",
-  "dct:publisher": "Bundesamt für Landwirtschaft BLW",
+  "dct:publisher": "BLW-OFAG-UFAG-FOAG",
   "dcat:contactPoint": {
     "schema:email": "marktanalysen@blw.admin.ch",
     "schema:name": "Bundesamt für Landwirtschaft, Fachbereich Marktanalysen"
@@ -26,13 +26,6 @@
   "bv:classification": "none",
   "bv:personalData": "none",
   "bv:archivalValue": false,
-  "bv:opendata_swiss": {
-    "bv:mustBePublished": true,
-    "dct:identifier": "b8368066-995a-424d-96bc-d6993720865b"
-  },
-  "bv:i14y": {
-    "bv:mustBePublished": true
-  },
   "bv:typeOfData": "thematicData",
   "dcat:keyword": [
     "market-data",
@@ -80,5 +73,11 @@
   "dct:temporal": {
     "dcat:start_date": "2017-01-01",
     "dcat:end_date": "2023-01-01"
-  }
+  },
+  "bv:externalCatalogs": [
+    {
+      "dcat:catalog": "opendata.swiss",
+      "dct:identifier": "b8368066-995a-424d-96bc-d6993720865b"
+    }
+  ]
 }

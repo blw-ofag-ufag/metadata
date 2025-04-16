@@ -13,7 +13,7 @@
     "it": "Carta del rischio di erosione dei terreni coltivi, perdita di suolo media sul lungo periodo, espressa in tonnellate per ettaro e anno (Ufficio federale dell’agricoltura) Carta del rischio di erosione dei terreni coltivi della Svizzera realizzata con un reticolo a celle di 2x2 metri sulla base di SwissALTI3D e dei dati cantonali sulle superfici riguardanti i terreni coltivi (stato 2021). La carta riporta la potenziale perdita di suolo media sul lungo periodo, espressa in tonnellate per ettaro e anno, calcolata sulla base del maggese nero (erosione che potrebbe teoricamente verificarsi, se il suolo venisse lasciato permanentemente senza vegetazione). Le tonalità verdi si riferiscono a un ridotto rischio di erosione, quelle gialle a un rischio medio e quelle rosse a un rischio elevato. I valori calcolati nel modello sono sempre più alti di quelli riscontrabili nella realtà (di un coefficiente 10 circa), poiché la lavorazione e la gestione del suolo (coefficiente C) non sono state tenute in considerazione, bensì figurano come costante con il valore 1 nel calcolo. Il calcolo del rischio di erosione con algoritmi a flusso multiplo consente di rappresentare la struttura del terreno in maniera dettagliata (p.es. l’andamento di conche del terreno o di versanti trasversali con declività notevoli) e quindi anche di riconoscere il rischio di erosione del talweg, rappresentato dettagliatamente nella carta delle vie di deflusso idrico (vedi Carta delle vie di deflusso idrico). I blocchi di particelle costituiscono la base di calcolo spaziale (vedi Carta dei blocchi di particelle)."
   },
   "dct:accessRights": "PUBLIC",
-  "dct:publisher": "Bundesamt für Landwirtschaft BLW",
+  "dct:publisher": "BLW-OFAG-UFAG-FOAG",
   "dcat:contactPoint": {
     "schema:email": "info@blw.admin.ch",
     "schema:name": "info@blw.admin.ch"
@@ -25,13 +25,6 @@
   "bv:classification": "none",
   "bv:personalData": "none",
   "bv:archivalValue": false,
-  "bv:opendata_swiss": {
-    "bv:mustBePublished": true,
-    "dct:identifier": "e1a93f10-8007-4ef6-b5a9-3c617ed29c32"
-  },
-  "bv:i14y": {
-    "bv:mustBePublished": true
-  },
   "bv:typeOfData": "thematicData",
   "dcat:keyword": [
     "soil-erosion",
@@ -139,6 +132,12 @@
       },
       "dct:license": "terms_by",
       "schema:comment": "ID for this distribution on opendata.swiss: 6b63eeaf-14da-4ad3-9739-b5e4e5d44f2a"
+    }
+  ],
+  "bv:externalCatalogs": [
+    {
+      "dcat:catalog": "opendata.swiss",
+      "dct:identifier": "e1a93f10-8007-4ef6-b5a9-3c617ed29c32"
     }
   ]
 }

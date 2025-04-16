@@ -29,14 +29,7 @@
   "dcatap:availability": "AVAILABLE",
   "bv:classification": "none",
   "bv:personalData": "none",
-  "bv:opendata_swiss": {
-    "bv:mustBePublished": true,
-    "dct:identifier": "55f48530-8f03-4058-b26e-387c23c5a48e"
-  },
-  "bv:i14y": {
-    "bv:mustBePublished": true
-  },
-  "dct:publisher": "Bundesamt für Landwirtschaft BLW",
+  "dct:publisher": "BLW-OFAG-UFAG-FOAG",
   "dcat:contactPoint": {
     "schema:name": "Bundesamt für Landwirtschaft, Fachbereich Marktanalysen",
     "schema:email": "marktanalysen@blw.admin.ch"
@@ -86,5 +79,11 @@
       "schema:comment": "ID for this distribution on opendata.swiss: 9be4b01d-50ce-4b9b-8f2a-bd55ab3b1e16"
     }
   ],
-  "bv:archivalValue": false
+  "bv:archivalValue": false,
+  "bv:externalCatalogs": [
+    {
+      "dcat:catalog": "opendata.swiss",
+      "dct:identifier": "55f48530-8f03-4058-b26e-387c23c5a48e"
+    }
+  ]
 }

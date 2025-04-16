@@ -1,8 +1,5 @@
 {
   "dct:identifier": "0e5b02d8-877a-49e6-9d48-613ed8143d95",
-  "bv:i14y": {
-    "bv:mustBePublished": true
-  },
   "dct:issued": "",
   "dct:modified": "",
   "dct:temporal": {
@@ -11,7 +8,6 @@
   },
   "bv:abrogation": "",
   "bv:archivalValue": false,
-  "bv:opendata_swiss": {
-    "bv:mustBePublished": false
-  }
+  "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+  "bv:externalCatalogs": null
 }

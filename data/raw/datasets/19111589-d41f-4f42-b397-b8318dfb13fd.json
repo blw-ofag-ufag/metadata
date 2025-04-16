@@ -27,11 +27,6 @@
   "dct:accessRights": "PUBLIC",
   "bv:classification": "none",
   "bv:personalData": "personalData",
-  "bv:i14y": {
-    "bv:mustBePublished": true,
-    "dct:identifier": "BLW_DS_VARIETIES",
-    "dcat:accessURL": "https://www.i14y.admin.ch/catalog/datasets/BLW_DS_VARIETIES"
-  },
   "dcat:contactPoint": {
     "schema:name": "Büro für Sortenschutz",
     "schema:email": "sortenadmin@blw.admin.ch"
@@ -82,7 +77,6 @@
     }
   ],
   "bv:archivalValue": false,
-  "bv:opendata_swiss": {
-    "bv:mustBePublished": false
-  }
+  "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+  "bv:externalCatalogs": null
 }

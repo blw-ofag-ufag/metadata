@@ -13,7 +13,7 @@
     "it": "La designazione “alpe” (p.es. formaggio d'alpe) può essere impiegata se le materie prime provengono dalla regione d'estivazione e se lì sono trasformate.La trasformazione dei seguenti prodotti può avvenire anche al di fuori della regione d'estivazione: latte pronto al consumo, panna pronta al consumo, maturazione del formaggio, nonché macellazione e sezionamento degli animali. La designazione «alpe» può essere utilizzata anche nella caratterizzazione di una derrata alimentare composta da più ingredienti anche se la derrata alimentare in sé non adempie le esigenze per l'impiego della designazione «alpe». La designazione «alpe» può riferirsi esclusivamente agli ingredienti in questione (p.es. «yogurt con latte dell'alpe») (RS 910.19)."
   },
   "dct:accessRights": "PUBLIC",
-  "dct:publisher": "Bundesamt für Landwirtschaft BLW",
+  "dct:publisher": "BLW-OFAG-UFAG-FOAG",
   "dcat:contactPoint": {
     "schema:email": "info@blw.admin.ch",
     "schema:name": "info@blw.admin.ch"
@@ -25,13 +25,6 @@
   "bv:classification": "none",
   "bv:personalData": "none",
   "bv:archivalValue": false,
-  "bv:opendata_swiss": {
-    "bv:mustBePublished": true,
-    "dct:identifier": "3d44c5fb-eb7f-4c9e-9422-88868f7fe60c"
-  },
-  "bv:i14y": {
-    "bv:mustBePublished": true
-  },
   "bv:typeOfData": "thematicData",
   "dcat:keyword": [
     "alpine-economy",
@@ -143,6 +136,12 @@
       },
       "dct:license": "terms_by",
       "schema:comment": "ID for this distribution on opendata.swiss: b11116ce-f6b1-48fc-971a-73b36c0286c5"
+    }
+  ],
+  "bv:externalCatalogs": [
+    {
+      "dcat:catalog": "opendata.swiss",
+      "dct:identifier": "3d44c5fb-eb7f-4c9e-9422-88868f7fe60c"
     }
   ]
 }

@@ -13,7 +13,7 @@
     "it": "Il Registro delle denominazioni di origine (DOP) e delle indicazioni geografiche (IGP) consente di tutelare i nomi geografici e tradizionali che designano prodotti agricoli (ad eccezione del vino) la cui qualità e le cui caratteristiche principali sono determinate dalla loro origine. L'utilizzo di un nome protetto è appannaggio dei produttori della zona geografica definita che ottemperano ad un dettagliato elenco degli obblighi. La protezione di determinate denominazioni di prodotti agricoli è finalizzata a tutelare i consumatori dalle frodi e a proteggere i contadini dalla concorrenza sleale dovuta all'abuso delle denominazioni. La regolamentazione applicabile in questo settore permette il reciproco riconoscimento dei prodotti di qualità tra Svizzera e UE. Le DOP/IGP sono suddivise in quattro categorie: formaggi, prodotti carnei, prodotti vegetali e distillati. Attualmente il registro delle DOP/IGP conta 30 prodotti e il numero di registrazioni è in costante aumento."
   },
   "dct:accessRights": "PUBLIC",
-  "dct:publisher": "Bundesamt für Landwirtschaft BLW",
+  "dct:publisher": "BLW-OFAG-UFAG-FOAG",
   "dcat:contactPoint": {
     "schema:email": "info@blw.admin.ch",
     "schema:name": "info@blw.admin.ch"
@@ -25,13 +25,6 @@
   "bv:classification": "none",
   "bv:personalData": "none",
   "bv:archivalValue": false,
-  "bv:opendata_swiss": {
-    "bv:mustBePublished": true,
-    "dct:identifier": "55d1451b-9d9a-4e88-921d-b901f5b2de17"
-  },
-  "bv:i14y": {
-    "bv:mustBePublished": true
-  },
   "bv:typeOfData": "thematicData",
   "dcat:keyword": [
     "protected-geographical-indication",
@@ -166,6 +159,12 @@
       },
       "dct:license": "terms_by",
       "schema:comment": "ID for this distribution on opendata.swiss: 35f8a5a7-20e2-4898-bba0-bfac90f3147d"
+    }
+  ],
+  "bv:externalCatalogs": [
+    {
+      "dcat:catalog": "opendata.swiss",
+      "dct:identifier": "55d1451b-9d9a-4e88-921d-b901f5b2de17"
     }
   ]
 }

@@ -13,7 +13,7 @@
     "it": "Prezzi medi mensili per cereali panificabili, farina e prodotti da forno al livello del consumo"
   },
   "dct:accessRights": "PUBLIC",
-  "dct:publisher": "Bundesamt für Landwirtschaft BLW",
+  "dct:publisher": "BLW-OFAG-UFAG-FOAG",
   "dcat:contactPoint": {
     "schema:email": "marktanalysen@blw.admin.ch",
     "schema:name": "Bundesamt für Landwirtschaft, Fachbereich Marktanalysen"
@@ -25,13 +25,6 @@
   "bv:classification": "none",
   "bv:personalData": "none",
   "bv:archivalValue": false,
-  "bv:opendata_swiss": {
-    "bv:mustBePublished": true,
-    "dct:identifier": "ae43c729-da24-4d82-a3ae-01d13197833f"
-  },
-  "bv:i14y": {
-    "bv:mustBePublished": true
-  },
   "bv:typeOfData": "thematicData",
   "dcat:keyword": [
     "market-data",
@@ -78,5 +71,11 @@
   "dct:temporal": {
     "dcat:start_date": "2020-01-01",
     "dcat:end_date": "2024-10-01"
-  }
+  },
+  "bv:externalCatalogs": [
+    {
+      "dcat:catalog": "opendata.swiss",
+      "dct:identifier": "ae43c729-da24-4d82-a3ae-01d13197833f"
+    }
+  ]
 }
