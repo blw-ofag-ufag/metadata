@@ -299,29 +299,36 @@
         },
         "bv:externalCatalogs": {
             "title": "External catalogs",
-            "type": "object",
-	        "required": [
-		        "dcat:catalog"
-	        ],
+            "type": [
+                "array",
+                "null"
+            ],
             "description": "External catalogs where the data object is published",
-	        "properties": {
-		        "dcat:catalog": {
-			        "type": "string",
-			        "title": "Reference to external catalog",
-			        "description": "Reference to the external catalogs the data object should be pubished to. Adding a catalog here triggers metadata validation and an automatic push to the listed catalog.",
-			        "enum": [
-				        "",
-				        "I14Y",
-				        "opendata.swiss",
-				        "geocat.ch"
-			        ]
-		        },
-		        "dct:identifier": {
-			        "type": "string",
-			        "title": "ID in the external catalog"
-			        "description": "This field should be automatically filled at first publication with the ID assigned by the external catalog. It is a hidden field in the edit form."
-		        }
-	        }
+            "items": {
+                "type": "object",
+                "required": [
+                    "dcat:catalog"
+                ],
+                "additionalProperties": false,
+                "properties": {
+                    "dcat:catalog": {
+                        "type": "string",
+                        "title": "Reference to external catalog",
+                        "description": "Reference to the external catalogs the data object should be pubished to. Adding a catalog here triggers metadata validation and an automatic push to the listed catalog.",
+                        "enum": [
+                            "",
+                            "I14Y",
+                            "opendata.swiss",
+                            "geocat.ch"
+                        ]
+                    },
+                    "dct:identifier": {
+                        "type": "string",
+                        "title": "ID in the external catalog",
+                        "description": "This field should be automatically filled at first publication with the ID assigned by the external catalog. It is a hidden field in the edit form."
+                    }
+                }
+            }
         },
         "dcat:theme": {
             "type": [
@@ -700,7 +707,15 @@
                 "it": "Esempio di descrizione. La descrizione di un dataset può essere decisamente più lunga di un titolo, ma deve rimanere chiara (3-10 frasi). Descrivi il dataset, non il tema, né un sistema informatico, né il tuo settore. Puoi parlare del contenuto del dataset, dello scopo, ecc.",
                 "en": "Example description. The description of a dataset can be significantly longer than a title, but it should remain comprehensible (3-10 sentences). Describe the dataset, not the topic, an IT system, or your field. You may discuss the content of the dataset, its purpose, etc."
             },
-            "dcat:keyword": ["some-keywords", "all-english", "separated-by-dashes", "digiFLUX", "FOAG", "eCH", "DigiAgriFoodCH"],
+            "dcat:keyword": [
+                "some-keywords",
+                "all-english",
+                "separated-by-dashes",
+                "digiFLUX",
+                "FOAG",
+                "eCH",
+                "DigiAgriFoodCH"
+            ],
             "dct:accessRights": "PUBLIC",
             "dct:publisher": "BLW-OFAG-UFAG-FOAG",
             "dcat:contactPoint": {
