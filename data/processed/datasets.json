@@ -2001,17 +2001,19 @@
         ],
         "schema:image": "https://cdn.pixabay.com/photo/2014/06/03/19/38/board-361516_1280.jpg",
         "dct:accessRights": "NON_PUBLIC",
+        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+        "dcat:contactPoint": {
+            "schema:name": "john doe",
+            "schema:email": "johndoes mailaddress"
+        },
         "dct:modified": "2025-04-11",
         "adms:status": "workInProgress",
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 3,
-        "schemaViolationMessages": [
-            "'dct:publisher' is a required property",
-            "'dcat:contactPoint' is a required property",
-            "'prov:qualifiedAttribution' is a required property"
-        ]
+        "businessDataOwner": "p-2959456",
+        "schemaViolations": 0,
+        "schemaViolationMessages": []
     },
     {
         "dct:identifier": "f65f56fe-d007-4b28-b3eb-2da01cbb733b",

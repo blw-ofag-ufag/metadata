@@ -26,6 +26,11 @@
   "dcatap:availability": "EXPERIMENTAL",
   "bv:classification": "none",
   "bv:personalData": "none",
+  "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+  "dcat:contactPoint": {
+    "schema:name": "john doe",
+    "schema:email": "johndoes mailaddress"
+  },
   "prov:qualifiedAttribution": [
     {
       "prov:agent": "p-2959456",
