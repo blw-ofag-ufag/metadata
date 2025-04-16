@@ -13,7 +13,7 @@
     "it": "Quantità annue delle piante proteiche al livello della produzione"
   },
   "dct:accessRights": "PUBLIC",
-  "dct:publisher": "Bundesamt für Landwirtschaft BLW",
+  "dct:publisher": "BLW-OFAG-UFAG-FOAG",
   "dcat:contactPoint": {
     "schema:email": "marktanalysen@blw.admin.ch",
     "schema:name": "Bundesamt für Landwirtschaft, Fachbereich Marktanalysen"
@@ -25,13 +25,6 @@
   "bv:classification": "none",
   "bv:personalData": "none",
   "bv:archivalValue": false,
-  "bv:opendata_swiss": {
-    "bv:mustBePublished": true,
-    "dct:identifier": "9569ebd8-9611-4276-91d0-c3c872fe3c7f"
-  },
-  "bv:i14y": {
-    "bv:mustBePublished": true
-  },
   "bv:typeOfData": "thematicData",
   "dcat:keyword": [
     "quantity",
@@ -78,5 +71,11 @@
   "dct:temporal": {
     "dcat:start_date": "2014-07-01",
     "dcat:end_date": "2023-07-01"
-  }
+  },
+  "bv:externalCatalogs": [
+    {
+      "dcat:catalog": "opendata.swiss",
+      "dct:identifier": "9569ebd8-9611-4276-91d0-c3c872fe3c7f"
+    }
+  ]
 }

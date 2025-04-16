@@ -13,7 +13,7 @@
     "it": "La raccolta di geodati di base delle zone e regioni agricole consiste in sei zone di produzione agricola e dalla regione d'estivazione e costituisce il catasto della produzione agricola. Questo rileva le condizioni di produzione e di vita difficili che occorre considerare opportunamente nell'applicazione della legge sull'agricoltura. Le basi giuridiche sono disciplinate dall'articolo 4 della legge sull'agricoltura (RS 910.1) nonché dall'ordinanza concernente il catasto della produzione agricola e la delimitazione di zone (RS 912.1). Diverse misure nel campo della legge sull'agricoltura si basano sulla suddivisone per zone. Una parte dei pagamenti diretti a favore dell'agricoltura, ad esempio, è differenziata in funzione dell'appartenenza a una determinata zona."
   },
   "dct:accessRights": "PUBLIC",
-  "dct:publisher": "Bundesamt für Landwirtschaft BLW",
+  "dct:publisher": "BLW-OFAG-UFAG-FOAG",
   "dcat:contactPoint": {
     "schema:email": "info@blw.admin.ch",
     "schema:name": "info@blw.admin.ch"
@@ -25,13 +25,6 @@
   "bv:classification": "none",
   "bv:personalData": "none",
   "bv:archivalValue": false,
-  "bv:opendata_swiss": {
-    "bv:mustBePublished": true,
-    "dct:identifier": "704b25c2-1140-4bee-9df6-11901492232a"
-  },
-  "bv:i14y": {
-    "bv:mustBePublished": true
-  },
   "bv:typeOfData": "thematicData",
   "dcat:keyword": [
     "official-geodata",
@@ -123,6 +116,12 @@
       },
       "dct:license": "terms_by",
       "schema:comment": "ID for this distribution on opendata.swiss: d2f7c148-8338-4fa0-8475-8ee9fc8811f6"
+    }
+  ],
+  "bv:externalCatalogs": [
+    {
+      "dcat:catalog": "opendata.swiss",
+      "dct:identifier": "704b25c2-1140-4bee-9df6-11901492232a"
     }
   ]
 }

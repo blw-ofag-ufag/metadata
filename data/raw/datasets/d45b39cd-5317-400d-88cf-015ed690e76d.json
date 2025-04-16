@@ -13,7 +13,7 @@
     "it": "Struttura del mercato annuale delle uova in percentuale a livello della catena del valore produzione"
   },
   "dct:accessRights": "PUBLIC",
-  "dct:publisher": "Bundesamt für Landwirtschaft BLW",
+  "dct:publisher": "BLW-OFAG-UFAG-FOAG",
   "dcat:contactPoint": {
     "schema:email": "marktanalysen@blw.admin.ch",
     "schema:name": "Bundesamt für Landwirtschaft, Fachbereich Marktanalysen"
@@ -25,13 +25,6 @@
   "bv:classification": "none",
   "bv:personalData": "none",
   "bv:archivalValue": false,
-  "bv:opendata_swiss": {
-    "bv:mustBePublished": true,
-    "dct:identifier": "c49e3861-9b41-4e77-878e-1cead201bf9c"
-  },
-  "bv:i14y": {
-    "bv:mustBePublished": true
-  },
   "bv:typeOfData": "thematicData",
   "dcat:keyword": [
     "price",
@@ -78,5 +71,11 @@
   "dct:temporal": {
     "dcat:start_date": "2007-01-01",
     "dcat:end_date": "2024-01-01"
-  }
+  },
+  "bv:externalCatalogs": [
+    {
+      "dcat:catalog": "opendata.swiss",
+      "dct:identifier": "c49e3861-9b41-4e77-878e-1cead201bf9c"
+    }
+  ]
 }

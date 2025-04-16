@@ -13,7 +13,7 @@
     "it": "Per scheletro s'intende l'insieme dei frammenti minerali più grandi di 2 mm (resti nel setaccio). Individuati principalmente nei 50 cm superiori del profilo del suolo. (Dettagli: carta delle attitudini dei suoli svizzeri, marzo 1980)."
   },
   "dct:accessRights": "PUBLIC",
-  "dct:publisher": "Bundesamt für Landwirtschaft BLW",
+  "dct:publisher": "BLW-OFAG-UFAG-FOAG",
   "dcat:contactPoint": {
     "schema:email": "info@blw.admin.ch",
     "schema:name": "info@blw.admin.ch"
@@ -25,13 +25,6 @@
   "bv:classification": "none",
   "bv:personalData": "none",
   "bv:archivalValue": false,
-  "bv:opendata_swiss": {
-    "bv:mustBePublished": true,
-    "dct:identifier": "d18a25f8-6967-41d7-8813-c4b1e486f54a"
-  },
-  "bv:i14y": {
-    "bv:mustBePublished": true
-  },
   "bv:typeOfData": "thematicData",
   "dcat:keyword": [
     "cultivation-suitability",
@@ -161,6 +154,12 @@
       },
       "dct:license": "terms_by",
       "schema:comment": "ID for this distribution on opendata.swiss: ecdeca9d-c614-4a72-94ee-3541c45a044a"
+    }
+  ],
+  "bv:externalCatalogs": [
+    {
+      "dcat:catalog": "opendata.swiss",
+      "dct:identifier": "d18a25f8-6967-41d7-8813-c4b1e486f54a"
     }
   ]
 }

@@ -13,7 +13,7 @@
     "it": "Per tenere opportunamente conto di condizioni di produzione e di vita difficili nell'agricoltura, vengono corrisposti contributi di declività per superfici che danno diritto a pagamenti diretti. Per i pagamenti diretti generali è stato creato un set di dati \"Zone declive\" (OGI 152.1; OPD art. 43) e un secondo set di dati \"Vigneti in zone declive\" (OGI 152.2; OPD art. 45). Sono previste diverse classi di declività. Il set di dati \"Zone declive\" fa parte delle basi di calcolo per i pagamenti diretti agricoli, applicando un sistema d'informazione geografica SIG. I calcoli sono stati effettuati secondo criteri unitari per tutta la Svizzera. La produzione si basa sul modello del terreno \"SwissAlti3D\" di swisstopo. Si distinguono le seguenti classi di declività: <18; 18-35; 35-50; >50 per cento. Le superfici declive inferiori a un'ara non sono state considerate."
   },
   "dct:accessRights": "PUBLIC",
-  "dct:publisher": "Bundesamt für Landwirtschaft BLW",
+  "dct:publisher": "BLW-OFAG-UFAG-FOAG",
   "dcat:contactPoint": {
     "schema:email": "info@blw.admin.ch",
     "schema:name": "info@blw.admin.ch"
@@ -25,13 +25,6 @@
   "bv:classification": "none",
   "bv:personalData": "none",
   "bv:archivalValue": false,
-  "bv:opendata_swiss": {
-    "bv:mustBePublished": true,
-    "dct:identifier": "6cac5c48-29b1-45d0-b684-836ac6354be3"
-  },
-  "bv:i14y": {
-    "bv:mustBePublished": true
-  },
   "bv:typeOfData": "thematicData",
   "dcat:keyword": [
     "official-geodata",
@@ -143,6 +136,12 @@
       },
       "dct:license": "terms_by",
       "schema:comment": "ID for this distribution on opendata.swiss: 94c72b1f-bb7f-41a1-b2a9-88e7c12bacca"
+    }
+  ],
+  "bv:externalCatalogs": [
+    {
+      "dcat:catalog": "opendata.swiss",
+      "dct:identifier": "6cac5c48-29b1-45d0-b684-836ac6354be3"
     }
   ]
 }

@@ -14,7 +14,7 @@
   },
   "dct:accessRights": "RESTRICTED",
   "dct:issued": "2020-01-01",
-  "dct:publisher": "BLW-OFAG-UFAG",
+  "dct:publisher": "BLW-OFAG-UFAG-FOAG",
   "dcat:contactPoint": {
     "schema:name": "AV MAF, GRKDT",
     "schema:email": "maf@blw.admin.ch"
@@ -25,9 +25,9 @@
     "meine-agrardaten-freigabe",
     "MAF",
     "structural-data",
-	"crops",
-	"slope-gradient",
-	"vineyards"
+    "crops",
+    "slope-gradient",
+    "vineyards"
   ],
   "dct:accrualPeriodicity": "ANNUAL",
   "dct:modified": "2025-03-25",
@@ -45,19 +45,13 @@
   "foaf:page": [
     {
       "alias": "PDF: MAF-Verfügbare Datenpakete",
-	  "uri": "https://backend.blw.admin.ch/fileservice/sdweb-docs-prod-blwch-files/files/2024/08/28/3106f5f5-1bcb-4b25-a78a-75c712f2491f.pdf"
+      "uri": "https://backend.blw.admin.ch/fileservice/sdweb-docs-prod-blwch-files/files/2024/08/28/3106f5f5-1bcb-4b25-a78a-75c712f2491f.pdf"
     }
   ],
   "adms:status": "published",
   "bv:classification": "none",
   "bv:personalData": "personalData",
   "bv:typeOfData": "thematicData",
-  "bv:opendata_swiss": {
-    "bv:mustBePublished": false
-  },
-  "bv:i14y": {
-    "bv:mustBePublished": true
-  },
   "dcat:theme": [
     "agriculture"
   ],
@@ -68,41 +62,42 @@
   "dcat:distribution": [
     {
       "dct:identifier": "9a24783a-7f00-4654-8813-33cc53ac30d7",
-	  "dct:title": {
-		"de": "Flächenangaben zu Rebfächen in Hanglagen auf einem Betrieb in der Schweizer Landwirtschaft",
-		"fr": "Indications de surface pour les vignobles en pente sur une exploitation agricole suisse",
-		"it": "Dati sulle superfici di vigneti in pendenza in un'azienda agricola svizzera",
-		"en": "Information on the area of vineyards on slopes on a Swiss agricultural holding"
-	  },
-	  "dct:description": {
-		"de": "Dieses Datenpaket enthält Rebflächen, die in einem Hang liegen mit einer Neigung grösser als 30%. Zu den Flächen wird die Hauptkultur, Hangneigung, Zone und Betrieb angegeben. Das Dataset enthält jährlich ab ca. Mitte März die Daten aus dem Vorjahr.",
-		"fr": "Ce paquet de données contient les vignobles situés sur des pentes dont l'inclinaison est supérieure à 30 %. La culture principale, l'inclinaison de la pente, la zone et l'exploitation sont indiquées pour les surfaces. L'ensemble de données contient chaque année, à partir de la mi-mars environ, les données de l'année précédente.",
-		"it": "Questo pacchetto di dati contiene i vigneti situati su un pendio con una pendenza superiore al 30%. Per le superfici vengono indicati la coltura principale, la pendenza del pendio, la zona e l'azienda. Il set di dati contiene i dati dell'anno precedente a partire da circa metà marzo di ogni anno.",
-		"en": "This data set contains vineyard areas that are located on slopes with an inclination of more than 30%. The main crop, slope inclination, zone and farm are indicated for the areas. The dataset contains data from the previous year, available annually from around mid-March."
-	  },
+      "dct:title": {
+        "de": "Flächenangaben zu Rebfächen in Hanglagen auf einem Betrieb in der Schweizer Landwirtschaft",
+        "fr": "Indications de surface pour les vignobles en pente sur une exploitation agricole suisse",
+        "it": "Dati sulle superfici di vigneti in pendenza in un'azienda agricola svizzera",
+        "en": "Information on the area of vineyards on slopes on a Swiss agricultural holding"
+      },
+      "dct:description": {
+        "de": "Dieses Datenpaket enthält Rebflächen, die in einem Hang liegen mit einer Neigung grösser als 30%. Zu den Flächen wird die Hauptkultur, Hangneigung, Zone und Betrieb angegeben. Das Dataset enthält jährlich ab ca. Mitte März die Daten aus dem Vorjahr.",
+        "fr": "Ce paquet de données contient les vignobles situés sur des pentes dont l'inclinaison est supérieure à 30 %. La culture principale, l'inclinaison de la pente, la zone et l'exploitation sont indiquées pour les surfaces. L'ensemble de données contient chaque année, à partir de la mi-mars environ, les données de l'année précédente.",
+        "it": "Questo pacchetto di dati contiene i vigneti situati su un pendio con una pendenza superiore al 30%. Per le superfici vengono indicati la coltura principale, la pendenza del pendio, la zona e l'azienda. Il set di dati contiene i dati dell'anno precedente a partire da circa metà marzo di ogni anno.",
+        "en": "This data set contains vineyard areas that are located on slopes with an inclination of more than 30%. The main crop, slope inclination, zone and farm are indicated for the areas. The dataset contains data from the previous year, available annually from around mid-March."
+      },
       "adms:status": "published",
       "dct:modified": "2025-03-25",
       "dcat:accessURL": "https://www.blw.admin.ch/de/meine-agrardatenfreigabe",
       "dct:format": "CSV"
     },
-	{
+    {
       "dct:identifier": "4f0eef7b-633a-4a37-a795-9550cf0f7a1a",
-	  "dct:title": {
-		"de": "Flächenangaben zu Rebfächen in Hanglagen auf einem Betrieb in der Schweizer Landwirtschaft - Provisorische Daten",
-		"fr": "Indications de surface pour les vignobles en pente sur une exploitation agricole suisse - données provisoires",
-		"it": "Dati sulle superfici di vigneti in pendenza in un'azienda agricola svizzera - dati provvisori",
-		"en": "Information on the area of vineyards on slopes on a Swiss agricultural holding - provisional data"
-	  },
-	  "dct:description": {
-		"de": "Dieses Datenpaket enthält Rebflächen, die in einem Hang liegen mit einer Neigung grösser als 30%. Zu den Flächen wird die Hauptkultur, Hangneigung, Zone und Betrieb angegeben. Das Dataset mit \"provisorischen Daten\" enthält Angaben aus dem laufenden Kalenderjahr.",
-		"fr": "Ce paquet de données contient les vignobles situés sur des pentes dont l'inclinaison est supérieure à 30 %. La culture principale, l'inclinaison de la pente, la zone et l'exploitation sont indiquées pour les surfaces. L'ensemble de données contenant les « données provisoires » contient des informations sur l'année civile en cours.",
-		"it": "Questo pacchetto di dati contiene i vigneti situati su un pendio con una pendenza superiore al 30%. Per le superfici vengono indicati la coltura principale, la pendenza del pendio, la zona e l'azienda. Il set di dati con \"dati provvisori\" contiene informazioni relative all'anno solare in corso.",
-		"en": "This data set contains vineyard areas that are located on slopes with an inclination of more than 30%. The main crop, slope inclination, zone and farm are indicated for the areas. The dataset with \"provisional data\" contains information from the current calendar year."
-	  },
+      "dct:title": {
+        "de": "Flächenangaben zu Rebfächen in Hanglagen auf einem Betrieb in der Schweizer Landwirtschaft - Provisorische Daten",
+        "fr": "Indications de surface pour les vignobles en pente sur une exploitation agricole suisse - données provisoires",
+        "it": "Dati sulle superfici di vigneti in pendenza in un'azienda agricola svizzera - dati provvisori",
+        "en": "Information on the area of vineyards on slopes on a Swiss agricultural holding - provisional data"
+      },
+      "dct:description": {
+        "de": "Dieses Datenpaket enthält Rebflächen, die in einem Hang liegen mit einer Neigung grösser als 30%. Zu den Flächen wird die Hauptkultur, Hangneigung, Zone und Betrieb angegeben. Das Dataset mit \"provisorischen Daten\" enthält Angaben aus dem laufenden Kalenderjahr.",
+        "fr": "Ce paquet de données contient les vignobles situés sur des pentes dont l'inclinaison est supérieure à 30 %. La culture principale, l'inclinaison de la pente, la zone et l'exploitation sont indiquées pour les surfaces. L'ensemble de données contenant les « données provisoires » contient des informations sur l'année civile en cours.",
+        "it": "Questo pacchetto di dati contiene i vigneti situati su un pendio con una pendenza superiore al 30%. Per le superfici vengono indicati la coltura principale, la pendenza del pendio, la zona e l'azienda. Il set di dati con \"dati provvisori\" contiene informazioni relative all'anno solare in corso.",
+        "en": "This data set contains vineyard areas that are located on slopes with an inclination of more than 30%. The main crop, slope inclination, zone and farm are indicated for the areas. The dataset with \"provisional data\" contains information from the current calendar year."
+      },
       "adms:status": "published",
       "dct:modified": "2025-03-25",
       "dcat:accessURL": "https://www.blw.admin.ch/de/meine-agrardatenfreigabe",
       "dct:format": "CSV"
     }
-  ]
+  ],
+  "bv:externalCatalogs": null
 }

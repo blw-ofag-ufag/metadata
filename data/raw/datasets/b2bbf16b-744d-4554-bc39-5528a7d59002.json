@@ -13,7 +13,7 @@
     "it": "Prezzi medi mensili delle uova nella fase di produzione della catena di valore"
   },
   "dct:accessRights": "PUBLIC",
-  "dct:publisher": "Bundesamt für Landwirtschaft BLW",
+  "dct:publisher": "BLW-OFAG-UFAG-FOAG",
   "dcat:contactPoint": {
     "schema:email": "marktanalysen@blw.admin.ch",
     "schema:name": "Bundesamt für Landwirtschaft, Fachbereich Marktanalysen"
@@ -25,13 +25,6 @@
   "bv:classification": "none",
   "bv:personalData": "none",
   "bv:archivalValue": false,
-  "bv:opendata_swiss": {
-    "bv:mustBePublished": true,
-    "dct:identifier": "0c5885ce-c147-4cfd-85cb-1279298860b0"
-  },
-  "bv:i14y": {
-    "bv:mustBePublished": true
-  },
   "bv:typeOfData": "thematicData",
   "dcat:keyword": [
     "market-data",
@@ -78,5 +71,11 @@
   "dct:temporal": {
     "dcat:start_date": "2016-01-01",
     "dcat:end_date": "2025-01-01"
-  }
+  },
+  "bv:externalCatalogs": [
+    {
+      "dcat:catalog": "opendata.swiss",
+      "dct:identifier": "0c5885ce-c147-4cfd-85cb-1279298860b0"
+    }
+  ]
 }

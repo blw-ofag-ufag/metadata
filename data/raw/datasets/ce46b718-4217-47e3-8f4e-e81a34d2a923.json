@@ -13,7 +13,7 @@
     "it": "Profondità del suolo penetrabile dalle radici (in generale radici sottili e spesse; non si tiene conto ad esempio delle radici che penetrano in fenditure). (Dettagli: carta delle attitudini dei suoli svizzeri, marzo 1980)."
   },
   "dct:accessRights": "PUBLIC",
-  "dct:publisher": "Bundesamt für Landwirtschaft BLW",
+  "dct:publisher": "BLW-OFAG-UFAG-FOAG",
   "dcat:contactPoint": {
     "schema:email": "info@blw.admin.ch",
     "schema:name": "info@blw.admin.ch"
@@ -25,13 +25,6 @@
   "bv:classification": "none",
   "bv:personalData": "none",
   "bv:archivalValue": false,
-  "bv:opendata_swiss": {
-    "bv:mustBePublished": true,
-    "dct:identifier": "03e2cfdd-40c1-4fe0-bf34-5c15e5779559"
-  },
-  "bv:i14y": {
-    "bv:mustBePublished": true
-  },
   "bv:typeOfData": "thematicData",
   "dcat:keyword": [
     "cultivation-suitability",
@@ -161,6 +154,12 @@
       },
       "dct:license": "terms_by",
       "schema:comment": "ID for this distribution on opendata.swiss: e68e7981-1bc5-4e6b-8659-ef46b24c558a"
+    }
+  ],
+  "bv:externalCatalogs": [
+    {
+      "dcat:catalog": "opendata.swiss",
+      "dct:identifier": "03e2cfdd-40c1-4fe0-bf34-5c15e5779559"
     }
   ]
 }
