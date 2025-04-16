@@ -14,8 +14,7 @@
     "en": "You can add any description here. Ideally, it should refer to the data record ;)\r\n\r\nchanged i14y-setting to test possible push.\r\nappartently, this is true by default. what will be the publication process?"
   },
   "dcat:theme": [
-    "agriculture",
-    "sct"
+    "agriculture"
   ],
   "dcat:keyword": [
     "edit-test",
@@ -28,6 +27,11 @@
   "bv:personalData": "none",
   "bv:i14y": {
     "bv:mustBePublished": true
+  },
+  "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+  "dcat:contactPoint": {
+    "schema:name": "john doe",
+    "schema:email": "johndoes mailaddress"
   },
   "prov:qualifiedAttribution": [
     {
