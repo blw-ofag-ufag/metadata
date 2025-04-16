@@ -307,7 +307,7 @@
     {
         "dct:identifier": "e7d071a5-4168-4686-9e60-fb74d68ff0f1",
         "dct:title": {
-            "de": "titel_de",
+            "de": "titel_de TEST_v1.1.1",
             "fr": "title_fr",
             "it": "NULL",
             "en": "None"
@@ -322,7 +322,7 @@
         "dcat:keyword": [
             "free keywords"
         ],
-        "schema:image": "TEST_v1.1.1",
+        "schema:image": "https://www.istockphoto.com/de/vektor/daumen-hoch-geste-doodle-symbol-gm626530130-110680557",
         "dct:accessRights": "CONFIDENTIAL",
         "dct:publisher": "BLW-OFAG-UFAG-FOAG",
         "dcat:contactPoint": {
