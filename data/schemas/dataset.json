@@ -17,9 +17,7 @@
         "adms:status",
         "bv:classification",
         "bv:personalData",
-        "bv:archivalValue",
-        "bv:opendata_swiss",
-        "bv:i14y"
+        "bv:archivalValue"
     ],
     "properties": {
         "schema:image": {
