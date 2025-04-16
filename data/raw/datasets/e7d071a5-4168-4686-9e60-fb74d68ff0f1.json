@@ -1,0 +1,90 @@
+{
+  "dct:identifier": "e7d071a5-4168-4686-9e60-fb74d68ff0f1",
+  "schema:image": "TEST_v1.1.1",
+  "dct:title": {
+    "de": "titel_de",
+    "fr": "title_fr",
+    "it": "NULL",
+    "en": "None"
+  },
+  "dct:description": {
+    "de": "Beschreibung mit *Markup* oder **Markup.\r\nwieso setzt es den Stern nach unten?\r\n\r\ndataset themes ist nur noch kontrolliertes Vokabular. Das vokabular scheint mir nicht geeignet, die Datensätze des BLW zu beschreiben.\r\ni14y erlaubt zusätzliche Themes (z.B. tiere...). Für i14y: https://www.i14y.admin.ch/de/catalog/concepts/08da58dc-4dc8-f9cb-b6f2-7d16b3fa0cde/content\r\n\r\naccessrights enthält: CONFIDENTIAL. Sollte dies nicht die Publikation auf opendata.swiss ausschliessen? Ähnlich: ClassificationLevel (SECRET) und Data Protection Category -> \"sensitivePersonalData\"\r\nBei VERTRAULICH und SECRET dürften die Metadaten der Datensätze vielleicht nicht einmal im Katalog auftauchen. Zumindest müsste ein Hinweis kommen, dass die Beschreibung keine Rückschlüsse erlauben dürfen. Wurde der Rechtsdienst involviert?\r\n\r\nWas sind die gültigen Werte für Retention Period? 5 Jahre, 2030, ... rechts werden pfeile eingeblendet, die negative oder positive integer einfügen. was sind die units? zusätzlich kann \"e\" eingegeben werden. Wissenschaftliche Notation?\r\n\r\nDates sind unabhängig von einander. Möglichkeit dies zu kontrollieren vorgesehen? (EndDate kann vor StartDate sein AbregationDate vor StartDate, etc.)\r\n\r\nreplaces sollte eine Liste der ids haben? Oder zumindest einen Hinweis, wo die Ids gefunden werden können.",
+    "fr": "description",
+    "it": "description",
+    "en": "description"
+  },
+  "dcat:theme": [
+    "construction"
+  ],
+  "dcat:keyword": [
+    "free keywords"
+  ],
+  "adms:status": "workInProgress",
+  "dct:accessRights": "CONFIDENTIAL",
+  "dcatap:availability": "EXPERIMENTAL",
+  "bv:classification": "secret",
+  "bv:personalData": "sensitivePersonalData",
+  "bv:archivalValue": true,
+  "bv:opendata_swiss": {
+    "bv:mustBePublished": true
+  },
+  "bv:i14y": {
+    "bv:mustBePublished": true
+  },
+  "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+  "dcat:contactPoint": {
+    "schema:name": "john doe",
+    "schema:email": "johndoes mailaddress"
+  },
+  "dct:issued": "2025-04-01",
+  "dct:modified": "2025-04-02",
+  "dct:accrualPeriodicity": "IRREG",
+  "dct:temporal": {
+    "dcat:start_date": "2025-04-07",
+    "dcat:end_date": "2025-04-01"
+  },
+  "bv:abrogation": "2025-04-05",
+  "dct:spatial": "www",
+  "dcat:landingPage": "example.com",
+  "bv:geoIdentifier": "bla",
+  "foaf:page": [
+    {
+      "alias": "sdf",
+      "uri": "www"
+    }
+  ],
+  "dct:replaces": [
+    "string"
+  ],
+  "dcatap:applicableLegislation": [
+    "www.fedlex.admin.ch/eli/oc/2022/491/de@art_5"
+  ],
+  "prov:wasGeneratedBy": [
+    "whoamI"
+  ],
+  "prov:wasDerivedFrom": [
+    "link or id fromwhich this dataset was derivec"
+  ],
+  "bv:itSystem": "my favorite IT System",
+  "dcat:version": "version9000",
+  "dcat:distribution": [
+    {
+      "dct:identifier": "816c2f63-5eac-4b3f-a072-de4a26ac18d5",
+      "dct:title": {
+        "de": "Distribution Title (DE)",
+        "fr": "ds",
+        "it": "ds",
+        "en": "dssd"
+      },
+      "dct:description": {
+        "de": "dDistribution Description (DE)\r\nLets try to break this: \"\r\nquit()\r\n\r\n'\r\nquit()\r\necho \"hello\""
+      },
+      "dcat:accessURL": "linkToDownloadlink.page.com",
+      "adms:status": "deleted",
+      "dct:format": "string",
+      "dct:modified": "",
+      "dcat:downloadURL": "downloadURL_for_ogd.questionmark",
+      "dct:conformsTo": "reference to a standard or specification"
+    }
+  ]
+}
