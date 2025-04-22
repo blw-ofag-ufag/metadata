@@ -295,42 +295,6 @@
         ]
     },
     {
-        "dct:identifier": "e7d071a5-4168-4686-9e60-fb74d68ff0f1",
-        "dct:title": {
-            "de": "titel_de TEST_v1.1.1",
-            "fr": "title_fr",
-            "it": "NULL",
-            "en": "None"
-        },
-        "dct:description": {
-            "de": "Beschreibung mit *Markup* oder **Markup.\r\nwieso setzt es den Stern nach unten?\r\n\r\ndataset themes ist nur noch kontrolliertes Vokabular. Das vokabular scheint mir nicht geeignet, die Datensätze des BLW zu beschreiben.\r\ni14y erlaubt zusätzliche Themes (z.B. tiere...). Für i14y: https://www.i14y.admin.ch/de/catalog/concepts/08da58dc-4dc8-f9cb-b6f2-7d16b3fa0cde/content\r\n\r\naccessrights enthält: CONFIDENTIAL. Sollte dies nicht die Publikation auf opendata.swiss ausschliessen? Ähnlich: ClassificationLevel (SECRET) und Data Protection Category -> \"sensitivePersonalData\"\r\nBei VERTRAULICH und SECRET dürften die Metadaten der Datensätze vielleicht nicht einmal im Katalog auftauchen. Zumindest müsste ein Hinweis kommen, dass die Beschreibung keine Rückschlüsse erlauben dürfen. Wurde der Rechtsdienst involviert?\r\n\r\nWas sind die gültigen Werte für Retention Period? 5 Jahre, 2030, ... rechts werden pfeile eingeblendet, die negative oder positive integer einfügen. was sind die units? zusätzlich kann \"e\" eingegeben werden. Wissenschaftliche Notation?\r\n\r\nDates sind unabhängig von einander. Möglichkeit dies zu kontrollieren vorgesehen? (EndDate kann vor StartDate sein AbregationDate vor StartDate, etc.)\r\n\r\nreplaces sollte eine Liste der ids haben? Oder zumindest einen Hinweis, wo die Ids gefunden werden können.",
-            "fr": "description",
-            "it": "description",
-            "en": "description"
-        },
-        "dct:issued": "2025-04-01",
-        "dcat:keyword": [
-            "free keywords"
-        ],
-        "schema:image": "https://www.istockphoto.com/de/vektor/daumen-hoch-geste-doodle-symbol-gm626530130-110680557",
-        "dct:accessRights": "CONFIDENTIAL",
-        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
-        "dcat:contactPoint": {
-            "schema:name": "john doe",
-            "schema:email": "johndoes mailaddress"
-        },
-        "dct:modified": "2025-04-02",
-        "adms:status": "workInProgress",
-        "bv:classification": "secret",
-        "bv:personalData": "sensitivePersonalData",
-        "bv:archivalValue": true,
-        "schemaViolations": 2,
-        "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property",
-            "'fr' is a required property"
-        ]
-    },
-    {
         "dct:identifier": "3a2d8680-3bcb-47ed-a982-f46112eb3db9",
         "dct:title": {
             "fr": "Cartes des aptitudes climatiques pour l'agriculture en Suisse - cultures céréalières",
@@ -732,42 +696,6 @@
         "businessDataOwner": "p-1YVS771WP",
         "schemaViolations": 0,
         "schemaViolationMessages": []
-    },
-    {
-        "dct:identifier": "5f007a38-14c0-4553-a584-b5d3528ea3ad",
-        "dct:title": {
-            "de": "titel_de",
-            "fr": "title_fr",
-            "it": "NULL",
-            "en": "None"
-        },
-        "dct:description": {
-            "de": "Beschreibung mit *Markup* oder **Markup.\r\nwieso setzt es den Stern nach unten?\r\n\r\ndataset themes ist nur noch kontrolliertes Vokabular. Das vokabular scheint mir nicht geeignet, die Datensätze des BLW zu beschreiben.\r\ni14y erlaubt zusätzliche Themes (z.B. tiere...). Für i14y: https://www.i14y.admin.ch/de/catalog/concepts/08da58dc-4dc8-f9cb-b6f2-7d16b3fa0cde/content\r\n\r\naccessrights enthält: CONFIDENTIAL. Sollte dies nicht die Publikation auf opendata.swiss ausschliessen? Ähnlich: ClassificationLevel (SECRET) und Data Protection Category -> \"sensitivePersonalData\"\r\nBei VERTRAULICH und SECRET dürften die Metadaten der Datensätze vielleicht nicht einmal im Katalog auftauchen. Zumindest müsste ein Hinweis kommen, dass die Beschreibung keine Rückschlüsse erlauben dürfen. Wurde der Rechtsdienst involviert?\r\n\r\nWas sind die gültigen Werte für Retention Period? 5 Jahre, 2030, ... rechts werden pfeile eingeblendet, die negative oder positive integer einfügen. was sind die units? zusätzlich kann \"e\" eingegeben werden. Wissenschaftliche Notation?\r\n\r\nDates sind unabhängig von einander. Möglichkeit dies zu kontrollieren vorgesehen? (EndDate kann vor StartDate sein AbregationDate vor StartDate, etc.)\r\n\r\nreplaces sollte eine Liste der ids haben? Oder zumindest einen Hinweis, wo die Ids gefunden werden können.",
-            "fr": "description",
-            "it": "description",
-            "en": "description"
-        },
-        "dct:issued": "2025-04-01",
-        "dcat:keyword": [
-            "free keywords"
-        ],
-        "schema:image": "TEST_v1.1.1",
-        "dct:accessRights": "CONFIDENTIAL",
-        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
-        "dcat:contactPoint": {
-            "schema:name": "john doe",
-            "schema:email": "johndoes mailaddress"
-        },
-        "dct:modified": "2025-04-02",
-        "adms:status": "workInProgress",
-        "bv:classification": "secret",
-        "bv:personalData": "sensitivePersonalData",
-        "bv:archivalValue": true,
-        "schemaViolations": 2,
-        "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property",
-            "'fr' is a required property"
-        ]
     },
     {
         "dct:identifier": "c3b38cf5-8f64-406b-8ecf-4858916b5a50",
@@ -1990,43 +1918,6 @@
         ]
     },
     {
-        "dct:identifier": "6eafa052-a8e3-468c-91cc-5f4880bb0d86",
-        "dct:title": {
-            "de": "Das ist ein Test -- editier mich!",
-            "fr": "C'est un test -- change-moi !",
-            "it": "Questo è un test... cambiami!",
-            "en": "This is a test -- edit me!"
-        },
-        "dct:description": {
-            "de": "Hier kannst du irgendeine Beschreibung hinzufügen. Die sollte sich idealerweise auf den Datensatz beziehen ;)\r\n",
-            "fr": "Tu peux ajouter ici une description. Elle doit idéalement se rapporter à l'enregistrement ;)",
-            "it": "Qui puoi aggiungere una descrizione. Idealmente, dovrebbe fare riferimento al record ;)",
-            "en": "You can add any description here. Ideally, it should refer to the data record ;)\r\n\r\nchanged i14y-setting to test possible push.\r\nappartently, this is true by default. what will be the publication process?"
-        },
-        "dct:issued": "2025-04-11",
-        "dcat:keyword": [
-            "edit-test",
-            "data"
-        ],
-        "schema:image": "https://cdn.pixabay.com/photo/2014/06/03/19/38/board-361516_1280.jpg",
-        "dct:accessRights": "NON_PUBLIC",
-        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
-        "dcat:contactPoint": {
-            "schema:name": "john doe",
-            "schema:email": "johndoes mailaddress"
-        },
-        "dct:modified": "2025-04-11",
-        "adms:status": "workInProgress",
-        "bv:classification": "none",
-        "bv:personalData": "none",
-        "bv:archivalValue": false,
-        "businessDataOwner": "p-2959456",
-        "schemaViolations": 1,
-        "schemaViolationMessages": [
-            "'sct' is not one of ['', 'work', 'construction', 'population', 'education', 'energy', 'finances', 'geography', 'legislation', 'health', 'trade', 'industry', 'crime', 'culture', 'agriculture', 'mobility', 'public-order', 'politics', 'prices', 'territory', 'social-security', 'statistical-basis', 'tourism', 'administration', 'national-economy']"
-        ]
-    },
-    {
         "dct:identifier": "f65f56fe-d007-4b28-b3eb-2da01cbb733b",
         "dct:title": {
             "fr": "Carte digitale des aptitudes des sols de la Suisse - Pierrosité",
@@ -3060,40 +2951,6 @@
         "businessDataOwner": "p-5367735",
         "schemaViolations": 0,
         "schemaViolationMessages": []
-    },
-    {
-        "dct:identifier": "b086f7a6-c888-44db-a432-c87c94a3fbb2",
-        "dct:title": {
-            "de": "das ist ein test",
-            "fr": "c'est un test",
-            "it": "è un test",
-            "en": "it's a test"
-        },
-        "dct:description": {
-            "de": "DE- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent et nunc mauris. In iaculis, est in egestas fringilla, tortor nunc dignissim dui, vitae fermentum eros mi pharetra lectus. Aliquam et aliquet urna. Mauris et tortor vitae urna suscipit iaculis at vel ante. Nunc nec lectus et eros venenatis placerat. Donec cursus id leo id fringilla. Ut dolor odio, pulvinar in sollicitudin id, mollis quis ligula. Quisque condimentum, tellus et lobortis euismod, augue magna efficitur enim, sit amet hendrerit justo lacus a tortor. Nulla imperdiet mattis enim ac euismod.",
-            "fr": "FR- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent et nunc mauris. In iaculis, est in egestas fringilla, tortor nunc dignissim dui, vitae fermentum eros mi pharetra lectus. Aliquam et aliquet urna. Mauris et tortor vitae urna suscipit iaculis at vel ante. Nunc nec lectus et eros venenatis placerat. Donec cursus id leo id fringilla. Ut dolor odio, pulvinar in sollicitudin id, mollis quis ligula. Quisque condimentum, tellus et lobortis euismod, augue magna efficitur enim, sit amet hendrerit justo lacus a tortor. Nulla imperdiet mattis enim ac euismod.",
-            "it": "IT - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent et nunc mauris. In iaculis, est in egestas fringilla, tortor nunc dignissim dui, vitae fermentum eros mi pharetra lectus. Aliquam et aliquet urna. Mauris et tortor vitae urna suscipit iaculis at vel ante. Nunc nec lectus et eros venenatis placerat. Donec cursus id leo id fringilla. Ut dolor odio, pulvinar in sollicitudin id, mollis quis ligula. Quisque condimentum, tellus et lobortis euismod, augue magna efficitur enim, sit amet hendrerit justo lacus a tortor. Nulla imperdiet mattis enim ac euismod.",
-            "en": "EN - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent et nunc mauris. In iaculis, est in egestas fringilla, tortor nunc dignissim dui, vitae fermentum eros mi pharetra lectus. Aliquam et aliquet urna. Mauris et tortor vitae urna suscipit iaculis at vel ante. Nunc nec lectus et eros venenatis placerat. Donec cursus id leo id fringilla. Ut dolor odio, pulvinar in sollicitudin id, mollis quis ligula. Quisque condimentum, tellus et lobortis euismod, augue magna efficitur enim, sit amet hendrerit justo lacus a tortor. Nulla imperdiet mattis enim ac euismod."
-        },
-        "dct:issued": "",
-        "dcat:keyword": [
-            "edit-test",
-            "another-one"
-        ],
-        "dct:accessRights": "PUBLIC",
-        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
-        "dct:modified": "",
-        "adms:status": "workInProgress",
-        "bv:classification": "confidential",
-        "bv:personalData": "personalData",
-        "bv:archivalValue": false,
-        "businessDataOwner": null,
-        "schemaViolations": 3,
-        "schemaViolationMessages": [
-            "'dcat:contactPoint' is a required property",
-            "'dct:accrualPeriodicity' is a required property",
-            "'prov:agent' is a required property"
-        ]
     },
     {
         "dct:identifier": "96b1ba2f-e8d8-4b9e-a35c-5a90e0f389be",
@@ -4724,44 +4581,6 @@
         "schemaViolations": 1,
         "schemaViolationMessages": [
             "'prov:qualifiedAttribution' is a required property"
-        ]
-    },
-    {
-        "dct:identifier": "6b5f4640-d292-4afb-9c8e-626034bdd7fb",
-        "dct:title": {
-            "de": "weiteres test",
-            "fr": "un autre test",
-            "it": "un altro test",
-            "en": "another test"
-        },
-        "dct:description": {
-            "de": "blabla : Obst- und Weinstatistiken\r\n",
-            "fr": "blabla : Statistiques arboricoles et viticoles",
-            "it": "blalbl",
-            "en": "blabla"
-        },
-        "dct:issued": "2024-02-01",
-        "dcat:keyword": [
-            "edit-test",
-            "fruits"
-        ],
-        "schema:image": "https://prod-blwch-hcms-sdweb.imgix.net/2024/11/27/f8bd6a5f-cf35-4ee7-8c6c-273be151e20b.jpeg?rect=0%2C264%2C3882%2C2184&auto=format",
-        "dct:accessRights": "SENSITIVE",
-        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
-        "dcat:contactPoint": {
-            "schema:name": "Astat Team",
-            "schema:email": "astat@blw.admin.ch"
-        },
-        "dct:modified": "2024-02-01",
-        "adms:status": "workInProgress",
-        "bv:classification": "secret",
-        "bv:personalData": "sensitivePersonalData",
-        "bv:archivalValue": false,
-        "schemaViolations": 3,
-        "schemaViolationMessages": [
-            "None of [{'prov:agent': 'p-2347438', 'schema:name': 'Céline Rossier', 'dcat:hadRole': 'dataCustodian'}] are valid under the given schema",
-            "'ec' is not one of ['', 'work', 'construction', 'population', 'education', 'energy', 'finances', 'geography', 'legislation', 'health', 'trade', 'industry', 'crime', 'culture', 'agriculture', 'mobility', 'public-order', 'politics', 'prices', 'territory', 'social-security', 'statistical-basis', 'tourism', 'administration', 'national-economy']",
-            "'http://dcat-ap.ch/vocabulary/themes/agriculture' is not one of ['', 'work', 'construction', 'population', 'education', 'energy', 'finances', 'geography', 'legislation', 'health', 'trade', 'industry', 'crime', 'culture', 'agriculture', 'mobility', 'public-order', 'politics', 'prices', 'territory', 'social-security', 'statistical-basis', 'tourism', 'administration', 'national-economy']"
         ]
     },
     {
