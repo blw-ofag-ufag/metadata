@@ -14,7 +14,7 @@
     "it": "Quantità annue dei mangimi al livello della produzione"
   },
   "dct:accessRights": "PUBLIC",
-  "dct:publisher": "Bundesamt für Landwirtschaft BLW",
+  "dct:publisher": "BLW-OFAG-UFAG-FOAG",
   "dcat:contactPoint": {
     "schema:email": "marktanalysen@blw.admin.ch",
     "schema:name": "Bundesamt für Landwirtschaft, Fachbereich Marktanalysen"
@@ -26,13 +26,6 @@
   "bv:classification": "none",
   "bv:personalData": "none",
   "bv:archivalValue": false,
-  "bv:opendata_swiss": {
-    "bv:mustBePublished": true,
-    "dct:identifier": "10015a2a-933b-43d9-bb42-c4aa28d7884e"
-  },
-  "bv:i14y": {
-    "bv:mustBePublished": true
-  },
   "bv:typeOfData": "thematicData",
   "dcat:keyword": [
     "market-data",
@@ -80,5 +73,11 @@
   "dct:temporal": {
     "dcat:start_date": "2014-07-01",
     "dcat:end_date": "2023-07-01"
-  }
+  },
+  "bv:externalCatalogs": [
+    {
+      "dcat:catalog": "opendata.swiss",
+      "dct:identifier": "10015a2a-933b-43d9-bb42-c4aa28d7884e"
+    }
+  ]
 }

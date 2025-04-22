@@ -13,7 +13,7 @@
     "it": "Regioni dell’osservazione del mercato del latte e dei latticini sulla base delle quali sono pubblicati i prezzi alla produzione del latte. Le regioni sono definite nel seguente modo: Regione I: Ginevra, Vaud, Friburgo, Neuchâtel, Giura e parti del territorio francofono del Cantone di Berna (distretto amministrativo del Giura bernese). Regione II: Berna (tranne il distretto amministrativo del Giura bernese), Lucerna, Untervaldo (Sopraselva, Sottoselva), Uri, Zugo e una parte del Cantone di Svitto (distretti Svitto, Gersau e Küssnacht). Regione III: Basilea Campagna e Basilea Città, Argovia e Soletta. Regione IV: Zurigo, Sciaffusa, Turgovia, Appenzello (Interno ed Esterno), San Gallo, una parte del Cantone di Svitto (distretti Einsiedeln, March e Höfe), Glarona, Grigioni. Regione V: Vallese e Ticino."
   },
   "dct:accessRights": "PUBLIC",
-  "dct:publisher": "Bundesamt für Landwirtschaft BLW",
+  "dct:publisher": "BLW-OFAG-UFAG-FOAG",
   "dcat:contactPoint": {
     "schema:email": "info@blw.admin.ch",
     "schema:name": "info@blw.admin.ch"
@@ -25,13 +25,6 @@
   "bv:classification": "none",
   "bv:personalData": "none",
   "bv:archivalValue": false,
-  "bv:opendata_swiss": {
-    "bv:mustBePublished": true,
-    "dct:identifier": "4e95ecac-0c7d-45b5-bfec-844504a7aa69"
-  },
-  "bv:i14y": {
-    "bv:mustBePublished": true
-  },
   "bv:typeOfData": "thematicData",
   "dcat:keyword": [
     "statistical-units",
@@ -159,6 +152,12 @@
       },
       "dct:license": "terms_by",
       "schema:comment": "ID for this distribution on opendata.swiss: c7ea8405-2a71-4e1e-91ee-edcf6efda432"
+    }
+  ],
+  "bv:externalCatalogs": [
+    {
+      "dcat:catalog": "opendata.swiss",
+      "dct:identifier": "4e95ecac-0c7d-45b5-bfec-844504a7aa69"
     }
   ]
 }

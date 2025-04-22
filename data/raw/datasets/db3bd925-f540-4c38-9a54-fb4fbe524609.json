@@ -22,7 +22,7 @@
   ],
   "dct:accrualPeriodicity": "AS_NEEDED",
   "dct:modified": "2024-01-01",
-  "dct:publisher": "Bundesamt für Landwirtschaft BLW",
+  "dct:publisher": "BLW-OFAG-UFAG-FOAG",
   "dcat:contactPoint": {
     "schema:email": "agis@blw.admin.ch",
     "schema:name": "Fachbereich Agrarinformationssysteme"
@@ -42,14 +42,6 @@
   "bv:classification": "none",
   "bv:personalData": "none",
   "bv:typeOfData": "referenceData",
-  "bv:opendata_swiss": {
-    "bv:mustBePublished": false
-  },
-  "bv:i14y": {
-    "bv:mustBePublished": true,
-    "dct:identifier": "BLW_CD_DZ_AREA",
-    "dcat:accessURL": "https://www.i14y.admin.ch/de/catalog/concepts/08dd50e5-da95-bba3-9ec9-f99d769eec6d"
-  },
   "dcat:theme": [
     "agriculture",
     "territory",
@@ -102,5 +94,6 @@
       "dct:format": "CSV",
       "dct:license": "terms_by"
     }
-  ]
+  ],
+  "bv:externalCatalogs": null
 }

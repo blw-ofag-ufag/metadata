@@ -14,7 +14,8 @@
     "en": "You can add any description here. Ideally, it should refer to the data record ;)\r\n\r\nchanged i14y-setting to test possible push.\r\nappartently, this is true by default. what will be the publication process?"
   },
   "dcat:theme": [
-    "agriculture"
+    "agriculture",
+    "sct"
   ],
   "dcat:keyword": [
     "edit-test",
@@ -25,9 +26,6 @@
   "dcatap:availability": "EXPERIMENTAL",
   "bv:classification": "none",
   "bv:personalData": "none",
-  "bv:i14y": {
-    "bv:mustBePublished": true
-  },
   "dct:publisher": "BLW-OFAG-UFAG-FOAG",
   "dcat:contactPoint": {
     "schema:name": "john doe",
@@ -98,7 +96,6 @@
     }
   ],
   "bv:archivalValue": false,
-  "bv:opendata_swiss": {
-    "bv:mustBePublished": false
-  }
+  "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+  "bv:externalCatalogs": null
 }

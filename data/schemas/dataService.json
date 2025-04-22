@@ -134,14 +134,14 @@
             "description": "URL of the technical endpoint of the data service."
         },
         "dcat:landingPage": {
-          "title": "Landing page",
-          "type": [
-              "string",
-              "null"
-          ],
-          "format": "uri",
-          "description": "Landing page or homepage for the API."
-      },
+            "title": "Landing page",
+            "type": [
+                "string",
+                "null"
+            ],
+            "format": "uri",
+            "description": "Landing page or homepage for the API."
+        },
         "adms:status": {
             "title": "Status",
             "type": "string",
@@ -252,42 +252,46 @@
             "title": "Applicable legislation",
             "description": "The legislation that mandates or allows the creation or management of the data service.",
             "type": [
-              "array",
-              "null"
+                "array",
+                "null"
             ],
             "items": {
-              "title": "URI",
-              "type": [
-                  "string",
-                  "null"
-              ],
-              "format": "uri"
+                "title": "URI",
+                "type": [
+                    "string",
+                    "null"
+                ],
+                "format": "uri"
             }
         },
-        "bv:i14y": {
-            "type": "object",
-            "required": [
-                "bv:mustBePublished"
+        "bv:externalCatalogs": {
+            "title": "External catalogs",
+            "type": [
+                "array",
+                "null"
             ],
-            "title": "I14Y publication",
-            "description": "Indicates if the data service metadata must be made available via the interoperability platform I14Y. Optionally references the I14Y publication ID.",
-            "properties": {
-                "bv:mustBePublished": {
-                    "title": "I14Y publication flag",
-                    "description": "Indicates if the data service must be published on I14Y. May be used by harvesters or automatic metadata publication. This is true by default.",
-                    "type": "boolean",
-                    "default": true
-                },
-                "dct:identifier": {
-                    "title": "I14Y identifier",
-                    "type": "string",
-                    "description": "Identifier for the data service on I14Y."
-                },
-                "dcat:accessURL": {
-                    "title": "I14Y URL",
-                    "type": "string",
-                    "format": "uri",
-                    "description": "URL for the data service on I14Y"
+            "description": "External catalogs where the data object is published",
+            "items": {
+                "type": "object",
+                "required": [
+                    "dcat:catalog"
+                ],
+                "additionalProperties": false,
+                "properties": {
+                    "dcat:catalog": {
+                        "type": "string",
+                        "title": "Reference to external catalog",
+                        "description": "Reference to the external catalogs the data object should be pubished to. Adding a catalog here triggers metadata validation and an automatic push to the listed catalog.",
+                        "enum": [
+                            "",
+                            "I14Y"
+                        ]
+                    },
+                    "dct:identifier": {
+                        "type": "string",
+                        "title": "ID in the external catalog",
+                        "description": "This field should be automatically filled at first publication with the ID assigned by the external catalog. It is a hidden field in the edit form."
+                    }
                 }
             }
         }

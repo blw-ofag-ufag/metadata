@@ -13,7 +13,7 @@
     "it": "Il set di geodati \"Superfici d’utilizzazione agricole\" mostra la localizzazione spaziale delle superfici coltivate come prati, pascoli e seminativi in Svizzera. Contiene le superfici utilizzate per l'agricoltura secondo l'Ordinanza sulla terminologia agricola (LBV), l'Ordinanza sui pagamenti diretti (DZV) e le definizioni (compresa la codifica) dell'uso del suolo derivate da queste dalla Confederazione e dai Cantoni. Il set di dati si basa sui geodati ufficiali della legislazione federale \"Superfici agricole coltivate\" (GeoIV, Allegato 1, identificatore 153), che sono di competenza dei Cantoni. Il set di dati viene aggiornato una volta all'anno."
   },
   "dct:accessRights": "PUBLIC",
-  "dct:publisher": "Bundesamt für Landwirtschaft BLW",
+  "dct:publisher": "BLW-OFAG-UFAG-FOAG",
   "dcat:contactPoint": {
     "schema:email": "info@blw.admin.ch",
     "schema:name": "info@blw.admin.ch"
@@ -25,13 +25,6 @@
   "bv:classification": "none",
   "bv:personalData": "none",
   "bv:archivalValue": false,
-  "bv:opendata_swiss": {
-    "bv:mustBePublished": true,
-    "dct:identifier": "ccd6ff9b-b1e0-4328-acbc-dd139a79522d"
-  },
-  "bv:i14y": {
-    "bv:mustBePublished": true
-  },
   "bv:typeOfData": "thematicData",
   "dcat:keyword": [
     "land-use",
@@ -142,6 +135,12 @@
       },
       "dct:license": "terms_by",
       "schema:comment": "ID for this distribution on opendata.swiss: 82539356-f071-44db-929f-afa9cfefe87a"
+    }
+  ],
+  "bv:externalCatalogs": [
+    {
+      "dcat:catalog": "opendata.swiss",
+      "dct:identifier": "ccd6ff9b-b1e0-4328-acbc-dd139a79522d"
     }
   ]
 }

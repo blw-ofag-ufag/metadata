@@ -31,10 +31,7 @@
   "dcatap:availability": "AVAILABLE",
   "bv:classification": "none",
   "bv:personalData": "none",
-  "bv:opendata_swiss": {
-    "bv:mustBePublished": true
-  },
-  "dct:publisher": "Federal Office for Agriculture",
+  "dct:publisher": "BLW-OFAG-UFAG-FOAG",
   "dcat:contactPoint": {
     "schema:name": "DigiAgriFoodCH",
     "schema:email": "info@digiagrifood.ch"
@@ -122,7 +119,10 @@
     }
   ],
   "bv:archivalValue": false,
-  "bv:i14y": {
-    "bv:mustBePublished": false
-  }
+  "bv:externalCatalogs": [
+    {
+      "dcat:catalog": "opendata.swiss",
+      "dct:identifier": ""
+    }
+  ]
 }

@@ -13,7 +13,7 @@
     "it": "Quantile del 33 per cento a lungo termine dell'evapotraspirazione relativa (rapporto tra evapotraspirazione attuale e potenziale, ET/ETP) per la superficie agricola utile svizzera; calcolo per i periodi di vegetazione nel periodo 1980-2006 nel reticolo a celle di 500x500m."
   },
   "dct:accessRights": "PUBLIC",
-  "dct:publisher": "Bundesamt für Landwirtschaft BLW",
+  "dct:publisher": "BLW-OFAG-UFAG-FOAG",
   "dcat:contactPoint": {
     "schema:email": "info@blw.admin.ch",
     "schema:name": "info@blw.admin.ch"
@@ -25,13 +25,6 @@
   "bv:classification": "none",
   "bv:personalData": "none",
   "bv:archivalValue": false,
-  "bv:opendata_swiss": {
-    "bv:mustBePublished": true,
-    "dct:identifier": "524a909d-6dae-4c34-8dfd-029b601b51fc"
-  },
-  "bv:i14y": {
-    "bv:mustBePublished": true
-  },
   "bv:typeOfData": "thematicData",
   "dcat:keyword": [
     "meteorology",
@@ -134,6 +127,12 @@
       },
       "dct:license": "terms_by",
       "schema:comment": "ID for this distribution on opendata.swiss: f2b32b34-8375-47ab-bef3-c428598808f7"
+    }
+  ],
+  "bv:externalCatalogs": [
+    {
+      "dcat:catalog": "opendata.swiss",
+      "dct:identifier": "524a909d-6dae-4c34-8dfd-029b601b51fc"
     }
   ]
 }

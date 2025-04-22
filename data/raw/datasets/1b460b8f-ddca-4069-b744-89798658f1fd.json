@@ -13,7 +13,7 @@
     "it": "Per saturazione idrica s'intende la presenza, oltre alle acque meteoriche, di acque estranee (di pendio o di falda). (Dettagli: carta delle attitudini dei suoli svizzeri, marzo 1980)."
   },
   "dct:accessRights": "PUBLIC",
-  "dct:publisher": "Bundesamt für Landwirtschaft BLW",
+  "dct:publisher": "BLW-OFAG-UFAG-FOAG",
   "dcat:contactPoint": {
     "schema:email": "info@blw.admin.ch",
     "schema:name": "info@blw.admin.ch"
@@ -25,13 +25,6 @@
   "bv:classification": "none",
   "bv:personalData": "none",
   "bv:archivalValue": false,
-  "bv:opendata_swiss": {
-    "bv:mustBePublished": true,
-    "dct:identifier": "1122ee8a-03c9-4007-9236-74cc2e2f5ee7"
-  },
-  "bv:i14y": {
-    "bv:mustBePublished": true
-  },
   "bv:typeOfData": "thematicData",
   "dcat:keyword": [
     "cultivation-suitability",
@@ -161,6 +154,12 @@
       },
       "dct:license": "terms_by",
       "schema:comment": "ID for this distribution on opendata.swiss: ceecb2af-712e-453b-becf-5ff0d4b53c0c"
+    }
+  ],
+  "bv:externalCatalogs": [
+    {
+      "dcat:catalog": "opendata.swiss",
+      "dct:identifier": "1122ee8a-03c9-4007-9236-74cc2e2f5ee7"
     }
   ]
 }

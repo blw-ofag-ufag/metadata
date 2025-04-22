@@ -21,7 +21,7 @@
   ],
   "dct:accrualPeriodicity": "AS_NEEDED",
   "dct:modified": "2025-02-01",
-  "dct:publisher": "Bundesamt für Landwirtschaft BLW",
+  "dct:publisher": "BLW-OFAG-UFAG-FOAG",
   "dcat:contactPoint": {
     "schema:email": "agis@blw.admin.ch",
     "schema:name": "Fachbereich Agrarinformationssysteme"
@@ -41,14 +41,6 @@
   "bv:classification": "none",
   "bv:personalData": "none",
   "bv:typeOfData": "referenceData",
-  "bv:opendata_swiss": {
-    "bv:mustBePublished": false
-  },
-  "bv:i14y": {
-    "bv:mustBePublished": true,
-    "dct:identifier": "BLW_CD_agis_aquaculture",
-    "dcat:accessURL": "https://www.i14y.admin.ch/de/catalog/concepts/08dd50de-ea53-b497-8a45-39bd23beff61"
-  },
   "dcat:theme": [
     "agriculture"
   ],
@@ -99,5 +91,6 @@
       "dct:format": "CSV",
       "dct:license": "terms_by"
     }
-  ]
+  ],
+  "bv:externalCatalogs": null
 }

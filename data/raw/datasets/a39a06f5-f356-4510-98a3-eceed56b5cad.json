@@ -13,7 +13,7 @@
     "it": "Indice di prezzo mensile sul mercato lattiero"
   },
   "dct:accessRights": "PUBLIC",
-  "dct:publisher": "Bundesamt für Landwirtschaft BLW",
+  "dct:publisher": "BLW-OFAG-UFAG-FOAG",
   "dcat:contactPoint": {
     "schema:email": "marktanalysen@blw.admin.ch",
     "schema:name": "Bundesamt für Landwirtschaft, Fachbereich Marktanalysen"
@@ -25,13 +25,6 @@
   "bv:classification": "none",
   "bv:personalData": "none",
   "bv:archivalValue": false,
-  "bv:opendata_swiss": {
-    "bv:mustBePublished": true,
-    "dct:identifier": "6b0a2fac-5a53-4320-bc1d-d39546ca4f44"
-  },
-  "bv:i14y": {
-    "bv:mustBePublished": true
-  },
   "bv:typeOfData": "thematicData",
   "dcat:keyword": [
     "price",
@@ -78,5 +71,11 @@
   "dct:temporal": {
     "dcat:start_date": "2010-01-01",
     "dcat:end_date": "2024-12-01"
-  }
+  },
+  "bv:externalCatalogs": [
+    {
+      "dcat:catalog": "opendata.swiss",
+      "dct:identifier": "6b0a2fac-5a53-4320-bc1d-d39546ca4f44"
+    }
+  ]
 }

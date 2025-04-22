@@ -25,7 +25,7 @@
   "dct:accrualPeriodicity": "NEVER",
   "dct:modified": "2023-01-01",
   "bv:abrogation": "2023-12-31",
-  "dct:publisher": "Bundesamt für Landwirtschaft BLW",
+  "dct:publisher": "BLW-OFAG-UFAG-FOAG",
   "bv:archivalValue": false,
   "prov:qualifiedAttribution": [
     {
@@ -41,14 +41,6 @@
   "bv:classification": "none",
   "bv:personalData": "none",
   "bv:typeOfData": "referenceData",
-  "bv:opendata_swiss": {
-    "bv:mustBePublished": false
-  },
-  "bv:i14y": {
-    "bv:mustBePublished": true,
-    "dct:identifier": "BLW_CD_TDE_DueV_pre24",
-    "dcat:accessURL": "https://www.i14y.admin.ch/de/catalog/concepts/08dca65f-2d5e-9e75-8a13-48b8ecd20149"
-  },
   "dcat:theme": [
     "agriculture",
     "territory"
@@ -99,5 +91,6 @@
       "dct:format": "CSV",
       "dct:license": "terms_by"
     }
-  ]
+  ],
+  "bv:externalCatalogs": null
 }

@@ -21,7 +21,7 @@
   "dcatap:availability": "EXPERIMENTAL",
   "bv:classification": "confidential",
   "bv:personalData": "personalData",
-  "dct:publisher": "BLW",
+  "dct:publisher": "BLW-OFAG-UFAG-FOAG",
   "prov:qualifiedAttribution": [
     {
       "dcat:hadRole": "businessDataOwner"
@@ -35,10 +35,5 @@
   },
   "bv:abrogation": "",
   "bv:archivalValue": false,
-  "bv:opendata_swiss": {
-    "bv:mustBePublished": false
-  },
-  "bv:i14y": {
-    "bv:mustBePublished": false
-  }
+  "bv:externalCatalogs": null
 }

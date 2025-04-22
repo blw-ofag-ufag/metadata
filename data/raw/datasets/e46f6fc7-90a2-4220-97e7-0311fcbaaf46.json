@@ -13,7 +13,7 @@
     "it": "La carta delle vie di deflusso idrico riporta le nuove vie di deflusso idrico calcolate per il ruscellamento superficiale (coefficiente L dell’Universal Soil Loss Equation o della carta del rischio di erosione) sulle superfici agricole all’interno dei blocchi di particelle. Le vie di deflusso si basano sul modello del terreno SwissALTI3D e su algoritmi a flusso multiplo e raffigurano le aree in cui l’acqua si raccoglie e defluisce a causa della topografia. Più il colore è scuro, maggiore è la portata possibile e quindi il rischio di erosione. Con questa carta è possibile raffigurare chiaramente il rischio di erosione talweg e i possibili danni al di fuori del blocco di particelle (danni off-site), per esempio a strade e corsi d’acqua."
   },
   "dct:accessRights": "PUBLIC",
-  "dct:publisher": "Bundesamt für Landwirtschaft BLW",
+  "dct:publisher": "BLW-OFAG-UFAG-FOAG",
   "dcat:contactPoint": {
     "schema:email": "info@blw.admin.ch",
     "schema:name": "info@blw.admin.ch"
@@ -25,13 +25,6 @@
   "bv:classification": "none",
   "bv:personalData": "none",
   "bv:archivalValue": false,
-  "bv:opendata_swiss": {
-    "bv:mustBePublished": true,
-    "dct:identifier": "b5bdff07-74bf-4dfa-b015-7e1aa2f2b422"
-  },
-  "bv:i14y": {
-    "bv:mustBePublished": true
-  },
   "bv:typeOfData": "thematicData",
   "dcat:keyword": [
     "soil",
@@ -137,6 +130,12 @@
       },
       "dct:license": "terms_by",
       "schema:comment": "ID for this distribution on opendata.swiss: 141b9f70-8942-415e-b52f-a02bf42d63e9"
+    }
+  ],
+  "bv:externalCatalogs": [
+    {
+      "dcat:catalog": "opendata.swiss",
+      "dct:identifier": "b5bdff07-74bf-4dfa-b015-7e1aa2f2b422"
     }
   ]
 }

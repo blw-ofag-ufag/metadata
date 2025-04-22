@@ -17,9 +17,7 @@
         "adms:status",
         "bv:classification",
         "bv:personalData",
-        "bv:archivalValue",
-        "bv:opendata_swiss",
-        "bv:i14y"
+        "bv:archivalValue"
     ],
     "properties": {
         "schema:image": {
@@ -297,56 +295,36 @@
             "title": "Archival value",
             "description": "Indicates if this dataset has archival value and must be sent to the BAR."
         },
-        "bv:opendata_swiss": {
-            "type": "object",
-            "required": [
-                "bv:mustBePublished"
+        "bv:externalCatalogs": {
+            "title": "External catalogs",
+            "type": [
+                "array",
+                "null"
             ],
-            "title": "opendataswiss publication",
-            "description": "Indicates if the dataset must be published as Open Government Data (OGD) via the opendata.swiss portal. Optionally references the opendata.swiss publication ID.",
-            "properties": {
-                "bv:mustBePublished": {
-                    "title": "opendata.swiss publication flag",
-                    "description": "Indicates if the dataset must be published on opendata.swiss. May be used by harvesters or automatic metadata publication.",
-                    "type": "boolean"
-                },
-                "dct:identifier": {
-                    "title": "opendata.swiss identifier",
-                    "type": "string",
-                    "description": "Identifier for the dataset on opendata.swiss."
-                },
-                "dcat:accessURL": {
-                    "title": "opendata.swiss URL",
-                    "type": "string",
-                    "format": "uri",
-                    "description": "URL for the dataset on opendata.swiss"
-                }
-            }
-        },
-        "bv:i14y": {
-            "type": "object",
-            "required": [
-                "bv:mustBePublished"
-            ],
-            "title": "i14y publication",
-            "description": "Indicates if the dataset metadata must be made available via the interoperability platform I14Y. Optionally references the I14Y publication ID.",
-            "properties": {
-                "bv:mustBePublished": {
-                    "title": "i14y publication flag",
-                    "description": "Indicates if the dataset must be published on I14Y. May be used by harvesters or automatic metadata publication. This is true by default.",
-                    "type": "boolean",
-                    "default": true
-                },
-                "dct:identifier": {
-                    "title": "i14y identifier",
-                    "type": "string",
-                    "description": "Identifier for the dataset on I14Y."
-                },
-                "dcat:accessURL": {
-                    "title": "i14y url",
-                    "type": "string",
-                    "format": "uri",
-                    "description": "URL for the dataset on I14Y"
+            "description": "External catalogs where the data object is published",
+            "items": {
+                "type": "object",
+                "required": [
+                    "dcat:catalog"
+                ],
+                "additionalProperties": false,
+                "properties": {
+                    "dcat:catalog": {
+                        "type": "string",
+                        "title": "Reference to external catalog",
+                        "description": "Reference to the external catalogs the data object should be pubished to. Adding a catalog here triggers metadata validation and an automatic push to the listed catalog.",
+                        "enum": [
+                            "",
+                            "I14Y",
+                            "opendata.swiss",
+                            "geocat.ch"
+                        ]
+                    },
+                    "dct:identifier": {
+                        "type": "string",
+                        "title": "ID in the external catalog",
+                        "description": "This field should be automatically filled at first publication with the ID assigned by the external catalog. It is a hidden field in the edit form."
+                    }
                 }
             }
         },
@@ -739,7 +717,15 @@
                 "it": "Esempio di descrizione. La descrizione di un dataset può essere decisamente più lunga di un titolo, ma deve rimanere chiara (3-10 frasi). Descrivi il dataset, non il tema, né un sistema informatico, né il tuo settore. Puoi parlare del contenuto del dataset, dello scopo, ecc.",
                 "en": "Example description. The description of a dataset can be significantly longer than a title, but it should remain comprehensible (3-10 sentences). Describe the dataset, not the topic, an IT system, or your field. You may discuss the content of the dataset, its purpose, etc."
             },
-            "dcat:keyword": ["some-keywords", "all-english", "separated-by-dashes", "digiFLUX", "FOAG", "eCH", "DigiAgriFoodCH"],
+            "dcat:keyword": [
+                "some-keywords",
+                "all-english",
+                "separated-by-dashes",
+                "digiFLUX",
+                "FOAG",
+                "eCH",
+                "DigiAgriFoodCH"
+            ],
             "dct:accessRights": "PUBLIC",
             "dct:publisher": "BLW-OFAG-UFAG-FOAG",
             "dcat:contactPoint": {

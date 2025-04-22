@@ -13,7 +13,7 @@
     "it": "I blocchi di particelle sono superfici contigue utilizzabili a scopo agricolo circondate da confini relativamente stabili e visibili sul campo (p.es. foresta, strade, superfici edificate, corsi d’acqua, fossati). Il modello topografico del paesaggio (MTP3D) costituisce la base di calcolo. Un blocco di particelle rappresenta pertanto un comprensorio idrologico chiuso, in cui tutti i pixel possono essere collegati dal profilo idrologico e di conseguenza influenzarsi a vicenda per quanto riguarda l’erosione. Nel modello, altri blocchi di particelle o superfici al di fuori di un blocco di particelle non possono influenzare i flussi d’acqua e l’erosione all’interno di un blocco di particelle. Secondo il modello, quindi, non può esserci afflusso di acque estranee. La dimensione minima di un blocco di particelle è stata fissata a 25 are. Il monitoraggio dell’erosione sulle superfici coltive da parte delle autorità competenti avviene preferibilmente verificando i blocchi di particelle nelle zone agricole prioritarie. È necessario rivedere il calcolo del rischio di erosione in caso di variazione della dimensione del blocco di particelle, per esempio in seguito alla costruzione di nuove strade oppure all’impianto o alla rimozione di siepi."
   },
   "dct:accessRights": "PUBLIC",
-  "dct:publisher": "Bundesamt für Landwirtschaft BLW",
+  "dct:publisher": "BLW-OFAG-UFAG-FOAG",
   "dcat:contactPoint": {
     "schema:email": "info@blw.admin.ch",
     "schema:name": "info@blw.admin.ch"
@@ -25,13 +25,6 @@
   "bv:classification": "none",
   "bv:personalData": "none",
   "bv:archivalValue": false,
-  "bv:opendata_swiss": {
-    "bv:mustBePublished": true,
-    "dct:identifier": "79a82202-4743-4f99-92a6-eb42b365b19f"
-  },
-  "bv:i14y": {
-    "bv:mustBePublished": true
-  },
   "bv:typeOfData": "thematicData",
   "dcat:keyword": [
     "soil",
@@ -139,6 +132,12 @@
       },
       "dct:license": "terms_by",
       "schema:comment": "ID for this distribution on opendata.swiss: b7a2ed9c-77d6-4e15-93dd-a38cb3a4d8cc"
+    }
+  ],
+  "bv:externalCatalogs": [
+    {
+      "dcat:catalog": "opendata.swiss",
+      "dct:identifier": "79a82202-4743-4f99-92a6-eb42b365b19f"
     }
   ]
 }

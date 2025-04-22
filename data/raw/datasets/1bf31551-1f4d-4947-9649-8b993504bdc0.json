@@ -13,7 +13,7 @@
     "it": "La potenziale carta delle superfici collegate ad acque superficiali mostra, sotto forma di \"scenario del caso peggiore\" (maggese nero permanente, fasce tampone inesistenti o provvedimenti edilizi), le superfici sulle quali in caso di gestione non adatta alle caratteristiche locali vi è un rischio notevole di immissioni di sostanze nei corsi d'acqua. Funge pertanto da ausilio per una pianificazione mirata dei provvedimenti nel settore della protezione delle acque. Il modello per l'identificazione del collegamento alle acque superficiali di superfici agricole potenzialmente a rischio d'erosione si basa sulla CRE2. Il modello di collegamento alle acque superficiali consente di calcolare, per ogni cella del reticolo della CRE2, la probabilità di collegamento a un corso d'acqua. Onde passare dal collegamento potenziale alle acque superficiali a quello reale, è necessario disporre di informazioni sull'utilizzo delle superfici a rischio e su eventuali provvedimenti volti a ridurre il deflusso. Tali informazioni vanno rilevate sul campo."
   },
   "dct:accessRights": "PUBLIC",
-  "dct:publisher": "Bundesamt für Landwirtschaft BLW",
+  "dct:publisher": "BLW-OFAG-UFAG-FOAG",
   "dcat:contactPoint": {
     "schema:email": "info@blw.admin.ch",
     "schema:name": "info@blw.admin.ch"
@@ -25,13 +25,6 @@
   "bv:classification": "none",
   "bv:personalData": "none",
   "bv:archivalValue": false,
-  "bv:opendata_swiss": {
-    "bv:mustBePublished": true,
-    "dct:identifier": "dda337d2-fce5-4fc7-9bec-5fd9df78939b"
-  },
-  "bv:i14y": {
-    "bv:mustBePublished": true
-  },
   "bv:typeOfData": "thematicData",
   "dcat:keyword": [
     "e-geoch",
@@ -142,6 +135,12 @@
       },
       "dct:license": "terms_by",
       "schema:comment": "ID for this distribution on opendata.swiss: f5929228-52db-4ba7-9347-0fbdf9db1d75"
+    }
+  ],
+  "bv:externalCatalogs": [
+    {
+      "dcat:catalog": "opendata.swiss",
+      "dct:identifier": "dda337d2-fce5-4fc7-9bec-5fd9df78939b"
     }
   ]
 }

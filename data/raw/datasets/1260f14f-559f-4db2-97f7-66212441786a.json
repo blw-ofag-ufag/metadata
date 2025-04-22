@@ -14,7 +14,7 @@
     "it": "Prezzi medi annui e prezzi indicativi dei mangimi al livello della produzione"
   },
   "dct:accessRights": "PUBLIC",
-  "dct:publisher": "Bundesamt für Landwirtschaft BLW",
+  "dct:publisher": "BLW-OFAG-UFAG-FOAG",
   "dcat:contactPoint": {
     "schema:email": "marktanalysen@blw.admin.ch",
     "schema:name": "Bundesamt für Landwirtschaft, Fachbereich Marktanalysen"
@@ -26,13 +26,6 @@
   "bv:classification": "none",
   "bv:personalData": "none",
   "bv:archivalValue": false,
-  "bv:opendata_swiss": {
-    "bv:mustBePublished": true,
-    "dct:identifier": "cfaa671b-dc0d-4dde-9810-413c22b0938d"
-  },
-  "bv:i14y": {
-    "bv:mustBePublished": true
-  },
   "bv:typeOfData": "thematicData",
   "dcat:keyword": [
     "price",
@@ -80,5 +73,11 @@
   "dct:temporal": {
     "dcat:start_date": "2010-07-01",
     "dcat:end_date": "2023-07-01"
-  }
+  },
+  "bv:externalCatalogs": [
+    {
+      "dcat:catalog": "opendata.swiss",
+      "dct:identifier": "cfaa671b-dc0d-4dde-9810-413c22b0938d"
+    }
+  ]
 }

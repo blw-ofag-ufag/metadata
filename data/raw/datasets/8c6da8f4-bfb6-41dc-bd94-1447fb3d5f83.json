@@ -14,7 +14,7 @@
     "it": "Prezzi annui dei mangimi al livello del commercio all’ingrosso/trasformazione"
   },
   "dct:accessRights": "PUBLIC",
-  "dct:publisher": "Bundesamt für Landwirtschaft BLW",
+  "dct:publisher": "BLW-OFAG-UFAG-FOAG",
   "dcat:contactPoint": {
     "schema:email": "marktanalysen@blw.admin.ch",
     "schema:name": "Bundesamt für Landwirtschaft, Fachbereich Marktanalysen"
@@ -26,13 +26,6 @@
   "bv:classification": "none",
   "bv:personalData": "none",
   "bv:archivalValue": false,
-  "bv:opendata_swiss": {
-    "bv:mustBePublished": true,
-    "dct:identifier": "b5be6ebc-5b78-42e9-949a-a83c7c9960f4"
-  },
-  "bv:i14y": {
-    "bv:mustBePublished": true
-  },
   "bv:typeOfData": "thematicData",
   "dcat:keyword": [
     "market-data",
@@ -80,5 +73,11 @@
   "dct:temporal": {
     "dcat:start_date": "2013-01-01",
     "dcat:end_date": "2024-01-01"
-  }
+  },
+  "bv:externalCatalogs": [
+    {
+      "dcat:catalog": "opendata.swiss",
+      "dct:identifier": "b5be6ebc-5b78-42e9-949a-a83c7c9960f4"
+    }
+  ]
 }

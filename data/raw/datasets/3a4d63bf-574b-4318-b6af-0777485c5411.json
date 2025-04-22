@@ -13,7 +13,7 @@
     "it": "Sulla carta delle attitudini dei suoli ogni unità cartografica è dotata di un codice composto da una lettera maiuscola e da un numero. Le lettere rappresentano 25 unità fisiografiche differenti. Il numero indica diversi elementi formali dei paesaggi, ordinati in base a roccia madre, esposizione e declività. Inoltre, ogni unità cartografica contiene una o più tipologie di suolo. Le 144 unità cartografiche totali sono classificate, secondo l'attitudine del suolo, in 18 gruppi caratterizzati da colori differenti. Questa classificazione si basa essenzialmente su criteri di tipo agricolo."
   },
   "dct:accessRights": "PUBLIC",
-  "dct:publisher": "Bundesamt für Landwirtschaft BLW",
+  "dct:publisher": "BLW-OFAG-UFAG-FOAG",
   "dcat:contactPoint": {
     "schema:email": "info@blw.admin.ch",
     "schema:name": "info@blw.admin.ch"
@@ -25,13 +25,6 @@
   "bv:classification": "none",
   "bv:personalData": "none",
   "bv:archivalValue": false,
-  "bv:opendata_swiss": {
-    "bv:mustBePublished": true,
-    "dct:identifier": "cf8b87c9-edac-4785-b248-34192da76723"
-  },
-  "bv:i14y": {
-    "bv:mustBePublished": true
-  },
   "bv:typeOfData": "thematicData",
   "dcat:keyword": [
     "cultivation-suitability",
@@ -161,6 +154,12 @@
       },
       "dct:license": "terms_by",
       "schema:comment": "ID for this distribution on opendata.swiss: caec4af2-4f5f-4595-9488-793b5aac7887"
+    }
+  ],
+  "bv:externalCatalogs": [
+    {
+      "dcat:catalog": "opendata.swiss",
+      "dct:identifier": "cf8b87c9-edac-4785-b248-34192da76723"
     }
   ]
 }

@@ -13,7 +13,7 @@
     "it": "Carta del rischio di erosione dei terreni coltivi, categorizzazione qualitativa (Ufficio federale dell’agricoltura) Carta del rischio di erosione dei terreni coltivi della Svizzera realizzata con un reticolo a celle di 2x2 metri sulla base di SwissALTI3D e dei dati cantonali sulle superfici riguardanti i terreni coltivi (stato 2021). È riportato il potenziale rischio di erosione qualitativo. La valutazione complessiva viene classificata in uno dei tre livelli di pericolo (nessun pericolo, pericolo, pericolo elevato), senza considerare l’utilizzo o il tipo di gestione del suolo. La perdita di suolo media pluriennale è calcolata basandosi sulla Universal Soil Loss Equation (USLE)."
   },
   "dct:accessRights": "PUBLIC",
-  "dct:publisher": "Bundesamt für Landwirtschaft BLW",
+  "dct:publisher": "BLW-OFAG-UFAG-FOAG",
   "dcat:contactPoint": {
     "schema:email": "info@blw.admin.ch",
     "schema:name": "info@blw.admin.ch"
@@ -25,13 +25,6 @@
   "bv:classification": "none",
   "bv:personalData": "none",
   "bv:archivalValue": false,
-  "bv:opendata_swiss": {
-    "bv:mustBePublished": true,
-    "dct:identifier": "078e0c66-26c4-4f83-a3d3-700b8c7dfa58"
-  },
-  "bv:i14y": {
-    "bv:mustBePublished": true
-  },
   "bv:typeOfData": "thematicData",
   "dcat:keyword": [
     "erosion",
@@ -141,6 +134,12 @@
       },
       "dct:license": "terms_by",
       "schema:comment": "ID for this distribution on opendata.swiss: dd26060a-1c61-4c88-89d3-3b5d53dbcf81"
+    }
+  ],
+  "bv:externalCatalogs": [
+    {
+      "dcat:catalog": "opendata.swiss",
+      "dct:identifier": "078e0c66-26c4-4f83-a3d3-700b8c7dfa58"
     }
   ]
 }

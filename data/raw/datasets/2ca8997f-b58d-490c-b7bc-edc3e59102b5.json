@@ -13,7 +13,7 @@
     "it": "Analogamente alla capacità di stoccaggio idrico, occorre indicare il numero di equivalenti di cationi che il suolo può ritenere. Questi milliequivalenti sono indicati per una colonna di suolo con base di 1 cm2 e altezza corrispondente alla profondità fisiologica. Se ne ricava il numero di milliequivalenti (meq) di cationi per cm2. (Dettagli: carta delle attitudini dei suoli svizzeri, marzo 1980)."
   },
   "dct:accessRights": "PUBLIC",
-  "dct:publisher": "Bundesamt für Landwirtschaft BLW",
+  "dct:publisher": "BLW-OFAG-UFAG-FOAG",
   "dcat:contactPoint": {
     "schema:email": "info@blw.admin.ch",
     "schema:name": "info@blw.admin.ch"
@@ -25,13 +25,6 @@
   "bv:classification": "none",
   "bv:personalData": "none",
   "bv:archivalValue": false,
-  "bv:opendata_swiss": {
-    "bv:mustBePublished": true,
-    "dct:identifier": "7db80be0-f3b8-45af-a616-ef4bb1191996"
-  },
-  "bv:i14y": {
-    "bv:mustBePublished": true
-  },
   "bv:typeOfData": "thematicData",
   "dcat:keyword": [
     "cultivation-suitability",
@@ -161,6 +154,12 @@
       },
       "dct:license": "terms_by",
       "schema:comment": "ID for this distribution on opendata.swiss: bb444b1c-23f1-4ad8-971f-2752fd4af282"
+    }
+  ],
+  "bv:externalCatalogs": [
+    {
+      "dcat:catalog": "opendata.swiss",
+      "dct:identifier": "7db80be0-f3b8-45af-a616-ef4bb1191996"
     }
   ]
 }

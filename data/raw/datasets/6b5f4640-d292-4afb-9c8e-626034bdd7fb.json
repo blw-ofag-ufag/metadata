@@ -26,10 +26,7 @@
   "dcatap:availability": "AVAILABLE",
   "bv:classification": "secret",
   "bv:personalData": "sensitivePersonalData",
-  "bv:i14y": {
-    "bv:mustBePublished": true
-  },
-  "dct:publisher": "BLW ",
+  "dct:publisher": "BLW-OFAG-UFAG-FOAG",
   "dcat:contactPoint": {
     "schema:name": "Astat Team",
     "schema:email": "astat@blw.admin.ch"
@@ -52,7 +49,5 @@
   "dct:spatial": "CH",
   "bv:itSystem": "Astat",
   "bv:archivalValue": false,
-  "bv:opendata_swiss": {
-    "bv:mustBePublished": false
-  }
+  "bv:externalCatalogs": null
 }

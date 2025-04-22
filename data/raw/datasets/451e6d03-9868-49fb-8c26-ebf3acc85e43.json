@@ -14,7 +14,7 @@
   },
   "dct:accessRights": "RESTRICTED",
   "dct:issued": "2020-01-01",
-  "dct:publisher": "BLW-OFAG-UFAG",
+  "dct:publisher": "BLW-OFAG-UFAG-FOAG",
   "dcat:contactPoint": {
     "schema:name": "AV MAF, GRKDT",
     "schema:email": "maf@blw.admin.ch"
@@ -25,10 +25,10 @@
     "meine-agrardaten-freigabe",
     "MAF",
     "structural-data",
-	"farm",
-	"animals",
-	"GVE",
-	"summering"
+    "farm",
+    "animals",
+    "GVE",
+    "summering"
   ],
   "dct:accrualPeriodicity": "ANNUAL",
   "dct:modified": "2025-03-25",
@@ -46,19 +46,13 @@
   "foaf:page": [
     {
       "alias": "PDF: MAF-Verfügbare Datenpakete",
-	  "uri": "https://backend.blw.admin.ch/fileservice/sdweb-docs-prod-blwch-files/files/2024/08/28/3106f5f5-1bcb-4b25-a78a-75c712f2491f.pdf"
+      "uri": "https://backend.blw.admin.ch/fileservice/sdweb-docs-prod-blwch-files/files/2024/08/28/3106f5f5-1bcb-4b25-a78a-75c712f2491f.pdf"
     }
   ],
   "adms:status": "published",
   "bv:classification": "none",
   "bv:personalData": "personalData",
   "bv:typeOfData": "thematicData",
-  "bv:opendata_swiss": {
-    "bv:mustBePublished": false
-  },
-  "bv:i14y": {
-    "bv:mustBePublished": true
-  },
   "dcat:theme": [
     "agriculture"
   ],
@@ -69,41 +63,42 @@
   "dcat:distribution": [
     {
       "dct:identifier": "01bcf7b1-a662-42ff-948f-40339a6a3b24",
-	  "dct:title": {
-		"de": "Art und Anzahl Nutztiere in Sömmerung auf einem Betrieb in der Schweizer Landwirtschaft",
-		"fr": "Type et nombre d'animaux de rente en estivage dans une exploitation agricole suisse",
-		"it": "Tipo e numero di animali da reddito in estivazione in un'azienda agricola svizzera",
-		"en": "Type and number of farm animals summering on a farm in Swiss agriculture"
-	  },
-	  "dct:description": {
-		"de": "Dieses Datenpaket enthält die Art und Anzahl Nutztiere zu einem Betrieb, die im Inland gesömmert wurden. Das Dataset enthält jährlich ab ca. Mitte März die Daten aus dem Vorjahr.",
-		"fr": "Ce paquet de données contient le type et le nombre d'animaux de rente d'une exploitation qui ont été estivés en Suisse. L'ensemble de données contient chaque année, à partir de la mi-mars environ, les données de l'année précédente.",
-		"it": "Questo pacchetto di dati contiene il tipo e il numero di animali da reddito di un'azienda che sono stati estivati in Svizzera. Il set di dati contiene i dati dell'anno precedente a partire da circa metà marzo di ogni anno.",
-		"en": "This data package contains the type and number of farm animals for a holding that have been summered in Switzerland. The dataset contains data from the previous year, available annually from around mid-March."
-	  },
+      "dct:title": {
+        "de": "Art und Anzahl Nutztiere in Sömmerung auf einem Betrieb in der Schweizer Landwirtschaft",
+        "fr": "Type et nombre d'animaux de rente en estivage dans une exploitation agricole suisse",
+        "it": "Tipo e numero di animali da reddito in estivazione in un'azienda agricola svizzera",
+        "en": "Type and number of farm animals summering on a farm in Swiss agriculture"
+      },
+      "dct:description": {
+        "de": "Dieses Datenpaket enthält die Art und Anzahl Nutztiere zu einem Betrieb, die im Inland gesömmert wurden. Das Dataset enthält jährlich ab ca. Mitte März die Daten aus dem Vorjahr.",
+        "fr": "Ce paquet de données contient le type et le nombre d'animaux de rente d'une exploitation qui ont été estivés en Suisse. L'ensemble de données contient chaque année, à partir de la mi-mars environ, les données de l'année précédente.",
+        "it": "Questo pacchetto di dati contiene il tipo e il numero di animali da reddito di un'azienda che sono stati estivati in Svizzera. Il set di dati contiene i dati dell'anno precedente a partire da circa metà marzo di ogni anno.",
+        "en": "This data package contains the type and number of farm animals for a holding that have been summered in Switzerland. The dataset contains data from the previous year, available annually from around mid-March."
+      },
       "adms:status": "published",
       "dct:modified": "2025-03-25",
       "dcat:accessURL": "https://www.blw.admin.ch/de/meine-agrardatenfreigabe",
       "dct:format": "CSV"
     },
-	{
+    {
       "dct:identifier": "32140afd-1b8d-4d72-b522-ff1e50d801f5",
-	  "dct:title": {
-		"de": "Art und Anzahl Nutztiere in Sömmerung auf einem Betrieb in der Schweizer Landwirtschaft - Provisorische Daten",
-		"fr": "Type et nombre d'animaux de rente en estivage dans une exploitation agricole suisse - données provisoires",
-		"it": "Tipo e numero di animali da reddito in estivazione in un'azienda agricola svizzera - dati provvisori",
-		"en": "Type and number of farm animals summering on a farm in Swiss agriculture - provisional data"
-	  },
-	  "dct:description": {
-		"de": "Dieses Datenpaket enthält die Art und Anzahl Nutztiere zu einem Betrieb, die im Inland gesömmert wurden. Das Dataset mit \"provisorischen Daten\" enthält Angaben aus dem laufenden Kalenderjahr.",
-		"fr": "Ce paquet de données contient le type et le nombre d'animaux de rente d'une exploitation qui ont été estivés en Suisse. L'ensemble de données contenant les « données provisoires » contient des informations sur l'année civile en cours.",
-		"it": "Questo pacchetto di dati contiene il tipo e il numero di animali da reddito di un'azienda che sono stati estivati in Svizzera. Il set di dati con \"dati provvisori\" contiene informazioni relative all'anno solare in corso.",
-		"en": "This data package contains the type and number of farm animals for a holding that have been summered in Switzerland. The dataset with \"provisional data\" contains information from the current calendar year."
-	  },
+      "dct:title": {
+        "de": "Art und Anzahl Nutztiere in Sömmerung auf einem Betrieb in der Schweizer Landwirtschaft - Provisorische Daten",
+        "fr": "Type et nombre d'animaux de rente en estivage dans une exploitation agricole suisse - données provisoires",
+        "it": "Tipo e numero di animali da reddito in estivazione in un'azienda agricola svizzera - dati provvisori",
+        "en": "Type and number of farm animals summering on a farm in Swiss agriculture - provisional data"
+      },
+      "dct:description": {
+        "de": "Dieses Datenpaket enthält die Art und Anzahl Nutztiere zu einem Betrieb, die im Inland gesömmert wurden. Das Dataset mit \"provisorischen Daten\" enthält Angaben aus dem laufenden Kalenderjahr.",
+        "fr": "Ce paquet de données contient le type et le nombre d'animaux de rente d'une exploitation qui ont été estivés en Suisse. L'ensemble de données contenant les « données provisoires » contient des informations sur l'année civile en cours.",
+        "it": "Questo pacchetto di dati contiene il tipo e il numero di animali da reddito di un'azienda che sono stati estivati in Svizzera. Il set di dati con \"dati provvisori\" contiene informazioni relative all'anno solare in corso.",
+        "en": "This data package contains the type and number of farm animals for a holding that have been summered in Switzerland. The dataset with \"provisional data\" contains information from the current calendar year."
+      },
       "adms:status": "published",
       "dct:modified": "2025-03-25",
       "dcat:accessURL": "https://www.blw.admin.ch/de/meine-agrardatenfreigabe",
       "dct:format": "CSV"
     }
-  ]
+  ],
+  "bv:externalCatalogs": null
 }

@@ -13,7 +13,7 @@
     "it": "Il set di dati «Zone declive Dilavamento» serve per determinare le superfici su cui vanno adottate misure per la riduzione del dilavamento. Le prescrizioni concernenti le misure per la riduzione del dilavamento si basano sulle esigenze relative alla PER secondo l’allegato 1 numero 6.1a.4 OPD e sulle istruzioni del servizio d’omologazione dei prodotti fitosanitari dell’Ufficio federale della sicurezza alimentare e di veterinaria concernenti misure per la riduzione dei rischi nell’utilizzo di prodotti fitosanitari. I calcoli sono stati effettuati secondo criteri unitari per tutta la Svizzera. La produzione si basa sul modello digitale di elevazione DHM25 (dimensione maglia 25m) di swisstopo. Sono state distinte le seguenti classi di inclinazione del pendio: <=2 per cento; >2 per cento."
   },
   "dct:accessRights": "PUBLIC",
-  "dct:publisher": "Bundesamt für Landwirtschaft BLW",
+  "dct:publisher": "BLW-OFAG-UFAG-FOAG",
   "dcat:contactPoint": {
     "schema:email": "info@blw.admin.ch",
     "schema:name": "info@blw.admin.ch"
@@ -25,13 +25,6 @@
   "bv:classification": "none",
   "bv:personalData": "none",
   "bv:archivalValue": false,
-  "bv:opendata_swiss": {
-    "bv:mustBePublished": true,
-    "dct:identifier": "48a5f275-4046-46a9-bba5-ed7a60ca3393"
-  },
-  "bv:i14y": {
-    "bv:mustBePublished": true
-  },
   "bv:typeOfData": "thematicData",
   "dcat:keyword": [
     "land-use",
@@ -139,6 +132,12 @@
       },
       "dct:license": "terms_by",
       "schema:comment": "ID for this distribution on opendata.swiss: a496952f-b1b9-4289-8bfd-bd080abf1932"
+    }
+  ],
+  "bv:externalCatalogs": [
+    {
+      "dcat:catalog": "opendata.swiss",
+      "dct:identifier": "48a5f275-4046-46a9-bba5-ed7a60ca3393"
     }
   ]
 }

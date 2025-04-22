@@ -13,7 +13,7 @@
     "it": "A complemento della carta delle superfici collegate ad acque superficiali, ne è stata allestita una che consente di distinguere tra collegamento diretto e indiretto alle acque superficiali. Le superfici collegate direttamente ad acque superficiali sono ubicate in prossimità di corsi d'acqua oppure collegate ad essi mediante fossati temporaneamente portatori d'acqua o linee di profondità. Mediante pozzetti di drenaggio e pozzetti d'entrata dell'evacuazione delle acque delle strade, il deflusso superficiale può giungere nel corso d'acqua anche indirettamente. Grazie a quest'informazione è possibile pianificare in maniera ancora più mirata i provvedimenti contro l'immissione di sostanze nei corsi d'acqua. I probabili collegamenti delle superfici agricole ai corsi d'acqua si suddividono in sei categorie."
   },
   "dct:accessRights": "PUBLIC",
-  "dct:publisher": "Bundesamt für Landwirtschaft BLW",
+  "dct:publisher": "BLW-OFAG-UFAG-FOAG",
   "dcat:contactPoint": {
     "schema:email": "info@blw.admin.ch",
     "schema:name": "info@blw.admin.ch"
@@ -25,13 +25,6 @@
   "bv:classification": "none",
   "bv:personalData": "none",
   "bv:archivalValue": false,
-  "bv:opendata_swiss": {
-    "bv:mustBePublished": true,
-    "dct:identifier": "4e49f596-d0b6-4473-9c77-7cf4f1008969"
-  },
-  "bv:i14y": {
-    "bv:mustBePublished": true
-  },
   "bv:typeOfData": "thematicData",
   "dcat:keyword": [
     "conservation",
@@ -142,6 +135,12 @@
       },
       "dct:license": "terms_by",
       "schema:comment": "ID for this distribution on opendata.swiss: 25c1798a-d1b8-461e-af02-dd908823ddc1"
+    }
+  ],
+  "bv:externalCatalogs": [
+    {
+      "dcat:catalog": "opendata.swiss",
+      "dct:identifier": "4e49f596-d0b6-4473-9c77-7cf4f1008969"
     }
   ]
 }

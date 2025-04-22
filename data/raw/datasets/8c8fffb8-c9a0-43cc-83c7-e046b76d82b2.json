@@ -13,7 +13,7 @@
     "it": ""
   },
   "dct:accessRights": "PUBLIC",
-  "dct:publisher": "Bundesamt für Landwirtschaft BLW",
+  "dct:publisher": "BLW-OFAG-UFAG-FOAG",
   "dcat:contactPoint": {
     "schema:email": "alessandro.rossi@blw.admin.ch",
     "schema:name": "Bundesamt für Landwirtschaft"
@@ -25,13 +25,6 @@
   "bv:classification": "none",
   "bv:personalData": "none",
   "bv:archivalValue": false,
-  "bv:opendata_swiss": {
-    "bv:mustBePublished": true,
-    "dct:identifier": "9d72dd2a-0d32-464f-ad2b-4ad82af111d6"
-  },
-  "bv:i14y": {
-    "bv:mustBePublished": true
-  },
   "bv:typeOfData": "thematicData",
   "dcat:keyword": [],
   "dcat:theme": [
@@ -114,5 +107,11 @@
   "dct:temporal": {
     "dcat:start_date": "1999-01-01",
     "dcat:end_date": "2015-12-31"
-  }
+  },
+  "bv:externalCatalogs": [
+    {
+      "dcat:catalog": "opendata.swiss",
+      "dct:identifier": "9d72dd2a-0d32-464f-ad2b-4ad82af111d6"
+    }
+  ]
 }
