@@ -284,7 +284,8 @@
             "description": "Specifies the type of data in the dataset (master data, reference data, thematic data or unstructured data).",
             "enum": [
                 "",
-                "thematicData",
+                "primaryThematicData",
+                "secondaryThematicData",
                 "referenceData",
                 "masterData",
                 "unstructuredData"
