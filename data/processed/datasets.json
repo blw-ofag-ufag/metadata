@@ -3749,6 +3749,36 @@
         ]
     },
     {
+        "dct:identifier": "1793fe63-410f-4a7f-beb6-de0b94147473",
+        "dct:title": {
+            "de": "Versorgungssicherheitsbeiträge",
+            "fr": "Contributions à la sécurité de l’approvisionnement",
+            "it": "Contributi per la sicurezza dell’approvvigionamento"
+        },
+        "dct:description": {
+            "de": "Beitrag und bezahlte Fläche der einzelnen Versorgungssicherheitsbeiträge nach Kanton und nach Zone."
+        },
+        "dct:issued": "2024-11-01",
+        "schema:image": "https://www.agrarbericht.ch/de/politik/direktzahlungen/versorgungssicherheitsbeitraege",
+        "dct:accessRights": "PUBLIC",
+        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+        "dcat:contactPoint": {
+            "schema:name": "Jonas Plattner",
+            "schema:email": "jonas.plattner@blw.admin.ch"
+        },
+        "dct:modified": "2024-12-11",
+        "adms:status": "published",
+        "bv:classification": "none",
+        "bv:personalData": "none",
+        "bv:archivalValue": false,
+        "schemaViolations": 3,
+        "schemaViolationMessages": [
+            "'prov:qualifiedAttribution' is a required property",
+            "'fr' is a required property",
+            "'' is not of type 'array', 'null'"
+        ]
+    },
+    {
         "dct:identifier": "aa213bfe-c355-4c8e-a487-924b29d97e01",
         "dct:title": {
             "de": "Codes für Aquakultur-Betriebe",
