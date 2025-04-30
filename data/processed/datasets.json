@@ -4257,13 +4257,10 @@
         "bv:personalData": "none",
         "bv:archivalValue": false,
         "businessDataOwner": "p-8397553",
-        "schemaViolations": 6,
+        "schemaViolations": 3,
         "schemaViolationMessages": [
             "'dct:description' is a required property",
             "'' is not of type 'array', 'null'",
-            "'dcat:accessURL' is a required property",
-            "'adms:status' is a required property",
-            "'dct:format' is a required property",
             "'' is not of type 'array', 'null'"
         ]
     },
