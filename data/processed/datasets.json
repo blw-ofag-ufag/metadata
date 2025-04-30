@@ -4179,6 +4179,26 @@
         ]
     },
     {
+        "dct:identifier": "381493bc-cff3-4922-849b-cbee6d7daaf7",
+        "dct:issued": "",
+        "dct:modified": "",
+        "bv:archivalValue": false,
+        "schemaViolations": 11,
+        "schemaViolationMessages": [
+            "'dct:title' is a required property",
+            "'dct:description' is a required property",
+            "'dct:accessRights' is a required property",
+            "'dct:publisher' is a required property",
+            "'dcat:contactPoint' is a required property",
+            "'dct:accrualPeriodicity' is a required property",
+            "'prov:qualifiedAttribution' is a required property",
+            "'adms:status' is a required property",
+            "'bv:classification' is a required property",
+            "'bv:personalData' is a required property",
+            "'' is not of type 'array', 'null'"
+        ]
+    },
+    {
         "dct:identifier": "a5dce9aa-6eb8-430e-9126-9436f6c3aec1",
         "dct:title": {
             "fr": "Cartes des aptitudes climatiques pour l'agriculture en Suisse - culture dérobées",
