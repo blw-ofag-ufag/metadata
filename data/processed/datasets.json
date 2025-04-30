@@ -4239,12 +4239,19 @@
             "it": "Controlli 2023 in aziende gestite tutto l'anno nel settore PER",
             "en": "Controls on year-round farms regarding proof of ecological performance in 2023"
         },
+        "dct:description": {
+            "de": "Diese Tabelle zeigt die statistische Auswertung der Kontrollen der Ganzjahresbetriebe im Jahr 2023 im Bereich des ökologischen Leistungsnachweises. Die Angaben sind bis auf Stufe der Kantone aufgeschlüsselt.",
+            "fr": "Ce tableau présente l'analyse statistique des contrôles effectués en 2023 dans les exploitations à l'année dans le domaine de la prestations écologiques requises. Les données sont détaillées jusqu'au niveau cantonal.",
+            "it": "Questa tabella presenta l'analisi statistica dei controlli effettuati nel 2023 sulle azienda gestita tutto l'anno nel settore della prova che le esigenze ecologiche sono rispettate. I dati sono ripartiti fino al livello cantonale.",
+            "en": "This table shows the statistical analysis of the controls carried out on full-year farms in 2023 in the area of proof of ecological performance. The data is broken down to cantonal level."
+        },
         "dct:issued": "2024-11-14",
         "dcat:keyword": [
             "controls",
             "direct-payments",
             "proof-of-ecological-performance"
         ],
+        "schema:image": "https://www.agrarbericht.ch/pictures/16/muft8l0lgym4lxmy1663oxjb6m99x8/bild_vollzug_ab24_foto_acontrol-836.jpg",
         "dct:accessRights": "PUBLIC",
         "dct:publisher": "BLW-OFAG-UFAG-FOAG",
         "dcat:contactPoint": {
@@ -4257,9 +4264,10 @@
         "bv:personalData": "none",
         "bv:archivalValue": false,
         "businessDataOwner": "p-8397553",
-        "schemaViolations": 3,
+        "schemaViolations": 4,
         "schemaViolationMessages": [
-            "'dct:description' is a required property",
+            "'' is not of type 'array', 'null'",
+            "'' is not of type 'array', 'null'",
             "'' is not of type 'array', 'null'",
             "'' is not of type 'array', 'null'"
         ]
