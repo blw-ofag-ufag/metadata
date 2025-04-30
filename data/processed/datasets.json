@@ -4202,6 +4202,42 @@
         ]
     },
     {
+        "dct:identifier": "d7b805b5-9b14-42ba-bfba-7a41957ad656",
+        "dct:title": {
+            "de": "Kontrollen auf Ganzjahresbetrieben im Bereich Ökologischer Leistungsnachweis 2023",
+            "fr": "Contrôles 2023 dans les exploitations à l'année dans le domaine PER",
+            "it": "Controlli 2023 in aziende gestite tutto l'anno nel settore PER",
+            "en": "Controls on year-round farms regarding proof of ecological performance in 2023"
+        },
+        "dct:issued": "2024-11-14",
+        "dcat:keyword": [
+            "controls",
+            "direct-payments",
+            "proof-of-ecological-performance"
+        ],
+        "dct:accessRights": "PUBLIC",
+        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+        "dcat:contactPoint": {
+            "schema:name": "Fachbereich Direktzahlungsgrundlagen",
+            "schema:email": "acontrol@blw.admin.ch"
+        },
+        "dct:modified": "2024-11-14",
+        "adms:status": "published",
+        "bv:classification": "none",
+        "bv:personalData": "none",
+        "bv:archivalValue": false,
+        "businessDataOwner": "p-8397553",
+        "schemaViolations": 6,
+        "schemaViolationMessages": [
+            "'dct:description' is a required property",
+            "'' is not of type 'array', 'null'",
+            "'dcat:accessURL' is a required property",
+            "'adms:status' is a required property",
+            "'dct:format' is a required property",
+            "'' is not of type 'array', 'null'"
+        ]
+    },
+    {
         "dct:identifier": "381493bc-cff3-4922-849b-cbee6d7daaf7",
         "dct:issued": "",
         "dct:modified": "",
