@@ -1532,6 +1532,29 @@
         ]
     },
     {
+        "dct:identifier": "1010a8b3-d241-4b9d-8b1c-9131549ab1b7",
+        "dct:title": {
+            "de": "minimal"
+        },
+        "dct:issued": "",
+        "dct:modified": "",
+        "bv:archivalValue": false,
+        "schemaViolations": 11,
+        "schemaViolationMessages": [
+            "'dct:description' is a required property",
+            "'dct:accessRights' is a required property",
+            "'dct:publisher' is a required property",
+            "'dcat:contactPoint' is a required property",
+            "'dct:accrualPeriodicity' is a required property",
+            "'prov:qualifiedAttribution' is a required property",
+            "'adms:status' is a required property",
+            "'bv:classification' is a required property",
+            "'bv:personalData' is a required property",
+            "'fr' is a required property",
+            "'' is not of type 'array', 'null'"
+        ]
+    },
+    {
         "dct:identifier": "6cfb283f-7173-4bfd-8028-f944f153de41",
         "dct:title": {
             "de": "Marktzahlen Milch und Milchprodukte - Jährlicher Preis-Index (Grosshandel/Verarbeitung)",
