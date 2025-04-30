@@ -1,0 +1,62 @@
+{
+  "dct:identifier": "d7b805b5-9b14-42ba-bfba-7a41957ad656",
+  "dct:title": {
+    "de": "Kontrollen auf Ganzjahresbetrieben im Bereich Ökologischer Leistungsnachweis 2023",
+    "fr": "Contrôles 2023 dans les exploitations à l'année dans le domaine PER",
+    "it": "Controlli 2023 in aziende gestite tutto l'anno nel settore PER",
+    "en": "Controls on year-round farms regarding proof of ecological performance in 2023"
+  },
+  "dcat:theme": [
+    "agriculture"
+  ],
+  "dcat:keyword": [
+    "controls",
+    "direct-payments",
+    "proof-of-ecological-performance"
+  ],
+  "adms:status": "published",
+  "dct:accessRights": "PUBLIC",
+  "dcatap:availability": "AVAILABLE",
+  "bv:classification": "none",
+  "bv:personalData": "none",
+  "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+  "dcat:contactPoint": {
+    "schema:name": "Fachbereich Direktzahlungsgrundlagen",
+    "schema:email": "acontrol@blw.admin.ch"
+  },
+  "prov:qualifiedAttribution": [
+    {
+      "prov:agent": "p-1142659",
+      "schema:name": "Claudia Blumenstein",
+      "schema:email": "claudia.blumenstein@blw.admin.ch",
+      "dcat:hadRole": "dataSteward"
+    },
+    {
+      "prov:agent": "p-8397553",
+      "schema:name": "Simon Hasler",
+      "schema:email": "simon.hasler@blw.admin.ch",
+      "dcat:hadRole": "businessDataOwner"
+    }
+  ],
+  "dct:issued": "2024-11-14",
+  "dct:modified": "2024-11-14",
+  "dct:accrualPeriodicity": "ANNUAL",
+  "dct:temporal": {
+    "dcat:start_date": "",
+    "dcat:end_date": ""
+  },
+  "bv:abrogation": "",
+  "dcat:inSeries": "",
+  "dcatap:applicableLegislation": [
+    "https://www.fedlex.admin.ch/eli/cc/2013/733/de#sec_3"
+  ],
+  "bv:itSystem": "Acontrol",
+  "dcat:distribution": [
+    {
+      "dct:identifier": "c6bbb2ff-5b27-4933-9bb3-91352d5a1b4c",
+      "dct:modified": "",
+      "dcat:accessService": ""
+    }
+  ],
+  "bv:archivalValue": false
+}
