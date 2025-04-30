@@ -1,0 +1,15 @@
+{
+  "dct:identifier": "1010a8b3-d241-4b9d-8b1c-9131549ab1b7",
+  "dct:title": {
+    "de": "minimal"
+  },
+  "dct:issued": "",
+  "dct:modified": "",
+  "dct:temporal": {
+    "dcat:start_date": "",
+    "dcat:end_date": ""
+  },
+  "bv:abrogation": "",
+  "dcat:inSeries": "",
+  "bv:archivalValue": false
+}
