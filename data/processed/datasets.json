@@ -4892,6 +4892,36 @@
         ]
     },
     {
+        "dct:identifier": "9469ac4c-6cc4-4549-8776-353af9bbcbd3",
+        "dct:title": {
+            "de": "testtttttbtg",
+            "fr": "testtttttbtg",
+            "it": "testtttttbtg",
+            "en": "testtttttbtg"
+        },
+        "dct:description": {
+            "de": "testtttttbtg",
+            "fr": "testtttttbtg",
+            "it": "testtttttbtg",
+            "en": "testtttttbtg"
+        },
+        "dct:issued": "",
+        "dct:accessRights": "PUBLIC",
+        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+        "dct:modified": "",
+        "adms:status": "workInProgress",
+        "bv:classification": "none",
+        "bv:personalData": "none",
+        "bv:archivalValue": false,
+        "schemaViolations": 4,
+        "schemaViolationMessages": [
+            "'dcat:contactPoint' is a required property",
+            "'dct:accrualPeriodicity' is a required property",
+            "'prov:qualifiedAttribution' is a required property",
+            "'' is not of type 'array', 'null'"
+        ]
+    },
+    {
         "dct:identifier": "8a4208a2-b235-47fd-922b-79ddc9d53f8a",
         "dct:title": {
             "fr": "Chiffres du marché des oeufs - Prix annuels à la production",
