@@ -13,6 +13,15 @@
     "it": "Il contributo di transizione garantisce una transizione socialmente sostenibile dalla precedente all’attuale politica agricola. Con la crescente partecipazione ai programmi introdotti nel 2014 nell’ambito dei pagamenti diretti, di anno in anno diminuiscono i fondi per questo tipo di contributo. ",
     "en": "Der Übergangsbeitrag stellt einen sozialverträglichen Übergang von der vorherigen in die aktuelle Agrar­politik sicher. Mit zunehmender Beteiligung an den im Jahr 2014 eingeführten Direktzahlungsprogrammen nehmen die für den Übergangsbeitrag zur Verfügung gestellten Geldmittel von Jahr zu Jahr ab. "
   },
+  "dcat:theme": [
+    "agriculture"
+  ],
+  "dcat:keyword": [
+    "Subsidies",
+    "transitional contribution",
+    "direct payments",
+    "swiss agriculture"
+  ],
   "adms:status": "published",
   "dct:accessRights": "PUBLIC",
   "dcatap:availability": "AVAILABLE",
@@ -24,12 +33,24 @@
     "schema:name": "Auszahlung Direktzahlungen",
     "schema:email": "direktzahlungen@blw.admin.ch"
   },
+  "prov:qualifiedAttribution": [
+    {
+      "schema:name": "P. Meyer",
+      "schema:email": "philipp.meyer@blw.admin.ch",
+      "dcat:hadRole": "dataSteward"
+    },
+    {
+      "schema:name": "AGIS-Team",
+      "schema:email": "agis@blw.admin.ch",
+      "dcat:hadRole": "dataSteward"
+    }
+  ],
   "dct:issued": "2023-12-31",
   "dct:modified": "2023-12-31",
   "dct:accrualPeriodicity": "ANNUAL",
   "dct:temporal": {
     "dcat:start_date": "2023-01-01",
-    "dcat:end_date": "2023-12-31"
+    "dcat:end_date": "2099-12-31"
   },
   "bv:abrogation": "",
   "dcat:inSeries": "",
