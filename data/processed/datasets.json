@@ -4702,26 +4702,32 @@
         "dct:description": {
             "de": "Die Statistik zeigt die Anzahl Ganzjahresbetriebe und Hektaren pro Kanton, welche von den entsprechenden Beiträgen profitieren. Zudem finden wir die Aufteilung auf Zonen und Kantone. Nicht berücksichtigt sind die Sömmerungsbeiträge. "
         },
-        "dct:issued": "",
+        "dct:issued": "2015-01-01",
         "dcat:keyword": [
-            "Kulturlandschaftsbeiträge, Direktzahlungen, Zonen, Offenhaltung"
+            "Kulturlandschaftsbeiträge",
+            "Direktzahlungen",
+            "Zonen",
+            "Offenhaltung"
         ],
+        "dct:accessRights": "PUBLIC",
         "dcat:contactPoint": {
             "schema:name": "Andrea Koch ",
             "schema:email": "andrea.koch@blw.admin.ch"
         },
         "dct:modified": "",
+        "adms:status": "published",
+        "bv:classification": "none",
+        "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 9,
+        "schemaViolations": 8,
         "schemaViolationMessages": [
-            "'dct:accessRights' is a required property",
             "'dct:publisher' is a required property",
-            "'dct:accrualPeriodicity' is a required property",
             "'prov:qualifiedAttribution' is a required property",
-            "'adms:status' is a required property",
-            "'bv:classification' is a required property",
-            "'bv:personalData' is a required property",
             "'fr' is a required property",
+            "'' is not of type 'array', 'null'",
+            "'dcat:accessURL' is a required property",
+            "'adms:status' is a required property",
+            "'dct:format' is a required property",
             "'' is not of type 'array', 'null'"
         ]
     },
