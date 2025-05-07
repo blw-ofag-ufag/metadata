@@ -26,6 +26,7 @@
   "dcatap:availability": "AVAILABLE",
   "bv:classification": "none",
   "bv:personalData": "none",
+  "bv:typeOfData": "secondaryThematicData",
   "dct:publisher": "BLW-OFAG-UFAG-FOAG",
   "dcat:contactPoint": {
     "schema:name": "Fachbereich Direktzahlungsgrundlagen",
