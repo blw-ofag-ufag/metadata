@@ -858,6 +858,39 @@
         ]
     },
     {
+        "dct:identifier": "2617894b-ca61-4bfa-a290-f2a2b57c80d1",
+        "dct:title": {
+            "de": "Auszahlung Übergangsbeitrag 2023",
+            "fr": "Versement de la contribution de transition 2023",
+            "it": "Versamento del contributo di transizione nel 2023",
+            "en": "Auszahlung Übergangsbeitrag 2023"
+        },
+        "dct:description": {
+            "de": "Auszahlung des Übergangsbeitrags im Jahr 2023: \r\n2023 wurden 26,4 Mio. Franken als Übergangsbeitrag ausgerichtet. Im Vorjahr waren es 53,3 Mio. Franken.",
+            "fr": "Versement de la contribution de transition en 2023 : \r\nEn 2023, 26,4 millions de francs ont au total été octroyés au titre de la contribution de transition. Le montant était de 53,3 millions de francs l’année précédente.",
+            "it": "Versamento del contributo di transizione nel 2023: \r\nNel 2023 sono stati versati 26,4 milioni di contributi di transizione. L’anno precedente erano stati 53,3 milioni di franchi.",
+            "en": "Auszahlung des Übergangsbeitrags im Jahr 2023: \r\n2023 wurden 26,4 Mio. Franken als Übergangsbeitrag ausgerichtet. Im Vorjahr waren es 53,3 Mio. Franken."
+        },
+        "dct:issued": "2023-12-31",
+        "schema:image": "https://www.agrarbericht.ch/de/politik/direktzahlungen/uebergangsbeitrag",
+        "dct:accessRights": "PUBLIC",
+        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+        "dcat:contactPoint": {
+            "schema:name": "Philipp Meyer",
+            "schema:email": "philipp.meyer@blw.admin.ch"
+        },
+        "dct:modified": "2023-12-31",
+        "adms:status": "published",
+        "bv:classification": "none",
+        "bv:personalData": "none",
+        "bv:archivalValue": false,
+        "schemaViolations": 2,
+        "schemaViolationMessages": [
+            "'prov:qualifiedAttribution' is a required property",
+            "'' is not of type 'array', 'null'"
+        ]
+    },
+    {
         "dct:identifier": "b990b028-d113-42a1-9435-a7ffd0f00e48",
         "dct:title": {
             "fr": "Carte digitale des aptitudes des sols de la Suisse - Typologies des cultures",
