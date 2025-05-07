@@ -4267,18 +4267,18 @@
     {
         "dct:identifier": "d7b805b5-9b14-42ba-bfba-7a41957ad656",
         "dct:title": {
-            "de": "Kontrollen auf Ganzjahresbetrieben im Bereich Ökologischer Leistungsnachweis 2023",
-            "fr": "Contrôles 2023 dans les exploitations à l'année dans le domaine PER",
-            "it": "Controlli 2023 in aziende gestite tutto l'anno nel settore PER",
-            "en": "Controls on year-round farms regarding proof of ecological performance in 2023"
+            "de": "Kontrollen auf Ganzjahresbetrieben im Bereich Ökologischer Leistungsnachweis",
+            "fr": "Contrôles dans les exploitations à l'année dans le domaine PER",
+            "it": "Controlli in aziende gestite tutto l'anno nel settore PER",
+            "en": "Controls on year-round farms regarding proof of ecological performance"
         },
         "dct:description": {
-            "de": "Diese Tabelle zeigt die statistische Auswertung der Kontrollen der Ganzjahresbetriebe im Jahr 2023 im Bereich des ökologischen Leistungsnachweises. Die Angaben sind bis auf Stufe der Kantone aufgeschlüsselt.",
-            "fr": "Ce tableau présente l'analyse statistique des contrôles effectués en 2023 dans les exploitations à l'année dans le domaine de la prestations écologiques requises. Les données sont détaillées jusqu'au niveau cantonal.",
-            "it": "Questa tabella presenta l'analisi statistica dei controlli effettuati nel 2023 sulle azienda gestita tutto l'anno nel settore della prova che le esigenze ecologiche sono rispettate. I dati sono ripartiti fino al livello cantonale.",
-            "en": "This table shows the statistical analysis of the controls carried out on full-year farms in 2023 in the area of proof of ecological performance. The data is broken down to cantonal level."
+            "de": "Diese Tabelle zeigt die statistische Auswertung der Anzahl Kontrollen der Ganzjahresbetriebe sowie der Anzahl festgestellter Mängel im Bereich des ökologischen Leistungsnachweises (ÖLN). Die Angaben sind bis auf Stufe der Kantone aufgeschlüsselt.",
+            "fr": "Ce tableau présente l'analyse statistique du nombre de contrôles effectués dans les exploitations à l'année ainsi que le nombre de manquements constatés dans le domaine de la prestations écologiques requises (PER). Les données sont détaillées jusqu'au niveau cantonal.",
+            "it": "Questa tabella presenta l'analisi statistica del numero di controlli effettuati sulle azienda gestita tutto l'anno e il numero di lacune riscontrate nel settore della prova che le esigenze ecologiche sono rispettate (PER). I dati sono ripartiti fino al livello cantonale.",
+            "en": "This table shows the statistical analysis of the number of controls carried out on full-year farms and the number of non-compliances in the area of proof of ecological performance. The data is broken down to cantonal level."
         },
-        "dct:issued": "2024-11-14",
+        "dct:issued": "2018-11-14",
         "dcat:keyword": [
             "controls",
             "direct-payments",
