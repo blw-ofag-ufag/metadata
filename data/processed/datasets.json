@@ -872,6 +872,12 @@
             "en": "Der Übergangsbeitrag stellt einen sozialverträglichen Übergang von der vorherigen in die aktuelle Agrar­politik sicher. Mit zunehmender Beteiligung an den im Jahr 2014 eingeführten Direktzahlungsprogrammen nehmen die für den Übergangsbeitrag zur Verfügung gestellten Geldmittel von Jahr zu Jahr ab. "
         },
         "dct:issued": "2023-12-31",
+        "dcat:keyword": [
+            "Subsidies",
+            "transitional contribution",
+            "direct payments",
+            "swiss agriculture"
+        ],
         "schema:image": "https://www.agrarbericht.ch/download/documents/7d/80tu18hgohl4oh0fs2uodkvxr2i6ru/42_ab24_statdz2023_antab_uebergangsbeitrag_d.xlsx",
         "dct:accessRights": "PUBLIC",
         "dct:publisher": "BLW-OFAG-UFAG-FOAG",
@@ -884,9 +890,11 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "schemaViolations": 4,
+        "schemaViolations": 6,
         "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property",
+            "'prov:agent' is a required property",
+            "'prov:agent' is a required property",
+            "None of [{'schema:name': 'P. Meyer', 'schema:email': 'philipp.meyer@blw.admin.ch', 'dcat:hadRole': 'dataSteward'}, {'schema:name': 'AGIS-Team', 'schema:email': 'agis@blw.admin.ch', 'dcat:hadRole': 'dataSteward'}] are valid under the given schema",
             "'' is not of type 'array', 'null'",
             "'dcat:accessURL' is a required property",
             "'' is not of type 'array', 'null'"
