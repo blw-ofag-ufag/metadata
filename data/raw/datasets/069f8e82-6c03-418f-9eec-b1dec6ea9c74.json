@@ -1,0 +1,27 @@
+{
+  "dct:identifier": "069f8e82-6c03-418f-9eec-b1dec6ea9c74",
+  "dct:title": {
+    "de": "Datenreihe Kulturlandschaftsbeiträge ab 2014, Offenthaltungsbeitrag, Hangbeitrag, Steillagenbeitrag und Alpungsbeitrag",
+    "fr": "Contributions au paysage cultivé depuis 2014: contribution pour le maintien d’un paysage ouvert, contribution pour surfaces en pente, contribution pour surfaces en forte pente, contribution pour surfaces viticoles en pente, contribution de mise à l’alpage",
+    "it": "Statistica sull’estivazione: aziende e carichi normali per Cantone"
+  },
+  "dct:description": {
+    "de": "Die Statistik zeigt die Anzahl Ganzjahresbetriebe und Hektaren pro Kanton, welche von den entsprechenden Beiträgen profitieren. Zudem finden wir die Aufteilung auf Zonen und Kantone. Nicht berücksichtigt sind die Sömmerungsbeiträge. "
+  },
+  "dcat:keyword": [
+    "Kulturlandschaftsbeiträge, Direktzahlungen, Zonen, Offenhaltung"
+  ],
+  "dcat:contactPoint": {
+    "schema:name": "Andrea Koch ",
+    "schema:email": "andrea.koch@blw.admin.ch"
+  },
+  "dct:issued": "",
+  "dct:modified": "",
+  "dct:temporal": {
+    "dcat:start_date": "",
+    "dcat:end_date": ""
+  },
+  "bv:abrogation": "",
+  "dcat:inSeries": "",
+  "bv:archivalValue": false
+}
