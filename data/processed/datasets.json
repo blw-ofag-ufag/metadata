@@ -4660,6 +4660,39 @@
         ]
     },
     {
+        "dct:identifier": "069f8e82-6c03-418f-9eec-b1dec6ea9c74",
+        "dct:title": {
+            "de": "Datenreihe Kulturlandschaftsbeiträge ab 2014, Offenthaltungsbeitrag, Hangbeitrag, Steillagenbeitrag und Alpungsbeitrag",
+            "fr": "Contributions au paysage cultivé depuis 2014: contribution pour le maintien d’un paysage ouvert, contribution pour surfaces en pente, contribution pour surfaces en forte pente, contribution pour surfaces viticoles en pente, contribution de mise à l’alpage",
+            "it": "Statistica sull’estivazione: aziende e carichi normali per Cantone"
+        },
+        "dct:description": {
+            "de": "Die Statistik zeigt die Anzahl Ganzjahresbetriebe und Hektaren pro Kanton, welche von den entsprechenden Beiträgen profitieren. Zudem finden wir die Aufteilung auf Zonen und Kantone. Nicht berücksichtigt sind die Sömmerungsbeiträge. "
+        },
+        "dct:issued": "",
+        "dcat:keyword": [
+            "Kulturlandschaftsbeiträge, Direktzahlungen, Zonen, Offenhaltung"
+        ],
+        "dcat:contactPoint": {
+            "schema:name": "Andrea Koch ",
+            "schema:email": "andrea.koch@blw.admin.ch"
+        },
+        "dct:modified": "",
+        "bv:archivalValue": false,
+        "schemaViolations": 9,
+        "schemaViolationMessages": [
+            "'dct:accessRights' is a required property",
+            "'dct:publisher' is a required property",
+            "'dct:accrualPeriodicity' is a required property",
+            "'prov:qualifiedAttribution' is a required property",
+            "'adms:status' is a required property",
+            "'bv:classification' is a required property",
+            "'bv:personalData' is a required property",
+            "'fr' is a required property",
+            "'' is not of type 'array', 'null'"
+        ]
+    },
+    {
         "dct:identifier": "fae110b0-eb93-4b47-9440-dbdecfb8c452",
         "dct:title": {
             "fr": "Chiffres du marché des oléagineux - Prix de transformation annuels",
