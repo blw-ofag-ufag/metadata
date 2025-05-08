@@ -397,6 +397,72 @@
       "dct:modified": "2020-11-21",
       "dcat:downloadURL": "https://2020.agrarbericht.ch/download/documents/38/hhn0rz99vzgea4e09y73eh06u5semb/44_ab20_statdz2019_anhaenge_tab_gjb_krzungen_der_dz_i.xlsx",
       "dcat:accessService": ""
+    },
+    {
+      "dct:identifier": "78608bc6-2998-4e7d-ae68-3e8e312beabb",
+      "dct:title": {
+        "de": "Jahr 2018",
+        "fr": "Année 2018",
+        "it": "Anno 2018",
+        "en": "Year 2018"
+      },
+      "dct:description": {
+        "de": "Deutsch",
+        "fr": "Allemand",
+        "it": "Tedesco",
+        "en": "German"
+      },
+      "dcat:accessURL": "https://2019.agrarbericht.ch/de/politik/direktzahlungen/vollzug",
+      "adms:status": "published",
+      "dcatap:availability": "AVAILABLE",
+      "dct:format": "xlsx",
+      "dct:modified": "2019-11-21",
+      "dcat:downloadURL": "https://2019.agrarbericht.ch/download/documents/db/tzxhb8gxfxnixdmr3n17fw58938ivh/44_ab19_statdz2018_anhaenge_tab_gjb_kuerzungen_der_dz_d_1.xlsx",
+      "dcat:accessService": ""
+    },
+    {
+      "dct:identifier": "99da184e-dcd7-4d90-af00-d4c393de5e05",
+      "dct:title": {
+        "de": "Jahr 2018",
+        "fr": "Année 2018",
+        "it": "Anno 2018",
+        "en": "Year 2018"
+      },
+      "dct:description": {
+        "de": "Französisch",
+        "fr": "Français",
+        "it": "Francese",
+        "en": "French"
+      },
+      "dcat:accessURL": "https://2019.agrarbericht.ch/fr/politique/paiements-directs/execution",
+      "adms:status": "published",
+      "dcatap:availability": "AVAILABLE",
+      "dct:format": "xlsx",
+      "dct:modified": "2019-11-21",
+      "dcat:downloadURL": "https://2019.agrarbericht.ch/download/documents/e7/ov8wcs2p9cnflv2zrrmyvrgk1r2xuk/44_ab19_statdz2018_anhaenge_tab_gjb_krzungen_der_dz_f.xlsx",
+      "dcat:accessService": ""
+    },
+    {
+      "dct:identifier": "3b53c674-469a-43f3-b2fd-822d2abc2e78",
+      "dct:title": {
+        "de": "Jahr 2018",
+        "fr": "Année 2018",
+        "it": "Anno 2018",
+        "en": "Year 2018"
+      },
+      "dct:description": {
+        "de": "Italienisch",
+        "fr": "Italien",
+        "it": "Italiano",
+        "en": "Italian"
+      },
+      "dcat:accessURL": "https://2019.agrarbericht.ch/it/politica/pagamenti-diretti/esecuzione",
+      "adms:status": "published",
+      "dcatap:availability": "AVAILABLE",
+      "dct:format": "xlsx",
+      "dct:modified": "2019-11-21",
+      "dcat:downloadURL": "https://2019.agrarbericht.ch/download/documents/89/s7i242vughrdhdv0sj4l7q4ju69hbm/44_ab19_statdz2018_anhaenge_tab_gjb_krzungen_der_dz_i.xlsx",
+      "dcat:accessService": ""
     }
   ],
   "bv:archivalValue": false
