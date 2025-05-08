@@ -2534,6 +2534,46 @@
         ]
     },
     {
+        "dct:identifier": "487ad0b5-da52-4408-98da-751c890db14a",
+        "dct:title": {
+            "de": "Kürzungen der Direktzahlungen bei Ganzjahresbetrieben",
+            "fr": "Réductions des paiements directs dans les exploitations à l'année",
+            "it": "Riduzioni dei pagamenti diretti in aziende gestite tutto l'anno",
+            "en": "Reductions in direct payments for year-round farms"
+        },
+        "dct:description": {
+            "de": "Diese Tabelle zeigt die statistische Auswertung der vollzogenen Kürzungen der Direktzahlungen der Ganzjahresbetriebe in Schweizer Franken sowie die Anzahl und der prozentuale Anteil der Betriebe mit Kürzungen und die durchschnittlichen Kürzungen pro Betrieb. Die Angaben sind bis auf Stufe der Kantone aufgeschlüsselt.",
+            "fr": "Ce tableau présente l'analyse statistique des réductions de paiements directs effectuées en francs suisses pour les exploitations à l'année, ainsi que le nombre et le pourcentage d'exploitations touchées par des réductions et les réductions moyennes par exploitation. Les données sont détaillées jusqu'au niveau cantonal.",
+            "it": "Questa tabella presenta l'analisi statistica delle riduzioni dei pagamenti diretti effettuate sulle azienda gestita tutto l'anno in franchi svizzeri, nonché il numero e la percentuale di aziende soggette a riduzioni e le riduzioni medie per azienda. I dati sono ripartiti fino al livello cantonale.",
+            "en": "This table shows the statistical analysis of the reductions in direct payments enforced on full-year farms in Swiss francs, as well as the number and percentage of farms affected by reductions and the average reduction per farm. The data is broken down to cantonal level."
+        },
+        "dct:issued": "",
+        "dcat:keyword": [
+            "direct-payments",
+            "agis"
+        ],
+        "schema:image": "https://www.agrarbericht.ch/pictures/16/muft8l0lgym4lxmy1663oxjb6m99x8/bild_vollzug_ab24_foto_acontrol-836.jpg",
+        "dct:accessRights": "PUBLIC",
+        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+        "dcat:contactPoint": {
+            "schema:name": "Fachbereich Direktzahlungsgrundlagen",
+            "schema:email": "direktzahlungen@blw.admin.ch"
+        },
+        "dct:modified": "2024-11-14",
+        "adms:status": "published",
+        "bv:classification": "none",
+        "bv:personalData": "none",
+        "bv:archivalValue": false,
+        "businessDataOwner": "p-8397553",
+        "schemaViolations": 4,
+        "schemaViolationMessages": [
+            "'' is not of type 'array', 'null'",
+            "'' is not of type 'array', 'null'",
+            "'' is not of type 'array', 'null'",
+            "'' is not of type 'array', 'null'"
+        ]
+    },
+    {
         "dct:identifier": "891e97ca-316c-43eb-9b0c-c0652bfd3f76",
         "dct:title": {
             "fr": "Dépenses économie animale 1999-2015",
