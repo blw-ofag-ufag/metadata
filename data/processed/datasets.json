@@ -5035,6 +5035,43 @@
         ]
     },
     {
+        "dct:identifier": "bede7799-1552-43ea-be5b-7cd30a8f61cb",
+        "dct:title": {
+            "de": "Kürzungen der Direktzahlungen bei Sömmerungsbetrieben",
+            "fr": "Réductions des paiements directs dans les exploitations d'estivage",
+            "it": "Riduzioni dei pagamenti diretti in aziende d'estivazione",
+            "en": "Reductions in direct payments to summer grazing farms"
+        },
+        "dct:description": {
+            "de": "Diese Tabelle zeigt die statistische Auswertung der vollzogenen Kürzungen der Direktzahlungen der Sömmerungsbetriebe in Schweizer Franken sowie die Anzahl und der prozentuale Anteil der Betriebe mit Kürzungen und die durchschnittlichen Kürzungen pro Betrieb. Die Angaben sind bis auf Stufe der Kantone aufgeschlüsselt. Wenn ein Betrieb die Bestimmungen nicht vollständig erfüllt, kürzt der Kanton die Direktzahlungen gemäss den Vorgaben des Bundes. Die Beiträge eines Betriebs werden dann entweder pauschal, pro Einheit oder prozentual reduziert. Bei wiederholten Verstössen werden allermeistens die Kürzungen der Direktzahlungen verdoppelt oder sogar vervierfacht.",
+            "fr": "Ce tableau présente l'analyse statistique des réductions de paiements directs effectuées en francs suisses pour les exploitations d'estivage, ainsi que le nombre et le pourcentage d'exploitations touchées par des réductions et les réductions moyennes par exploitation. Les données sont détaillées jusqu'au niveau cantonal. Si une exploitation ne se conforme pas entièrement aux dispositions de la réglementation, le canton réduit les paiements directs comme le prévoient les prescriptions fédérales. Les contributions à une exploitation peuvent être réduites suivant un montant unitaire fixe, ou proportionnellement. Les récidivistes s’exposent à des réductions qui peuvent atteindre le double ou le quadruple des réductions initiales.",
+            "it": "Questa tabella presenta l'analisi statistica delle riduzioni dei pagamenti diretti effettuate sulle azienda d'estivazione in franchi svizzeri, nonché il numero e la percentuale di aziende soggette a riduzioni e le riduzioni medie per azienda. I dati sono ripartiti fino al livello cantonale. Se un’azienda non adempie appieno le disposizioni, il Cantone riduce i pagamenti diretti in base alle prescrizioni della Confederazione. Le riduzioni avvengono mediante la detrazione di importi forfettari, di importi per unità o di una percentuale. In caso di recidiva, le riduzioni sono normalmente raddoppiate o addirittura quadruplicate.",
+            "en": "This table shows the statistical analysis of the reductions in direct payments enforced on summer grazing farms in Swiss francs, as well as the number and percentage of farms affected by reductions and the average reduction per farm. The data is broken down to cantonal level. If a farm does not fully comply with the regulations, the canton reduces direct payments in accordance with federal guidelines. The contributions to a farm are then reduced either by a fixed amount, per unit or as a percentage. In the event of repeated violations, the reductions in direct payments are usually doubled or even quadrupled."
+        },
+        "dct:issued": "",
+        "dcat:keyword": [
+            "direct-payments",
+            "agis"
+        ],
+        "schema:image": "https://www.agrarbericht.ch/pictures/16/muft8l0lgym4lxmy1663oxjb6m99x8/bild_vollzug_ab24_foto_acontrol-836.jpg",
+        "dct:accessRights": "PUBLIC",
+        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+        "dcat:contactPoint": {
+            "schema:name": "Fachbereich Direktzahlungsgrundlagen",
+            "schema:email": "direktzahlungen@blw.admin.ch"
+        },
+        "dct:modified": "2024-11-14",
+        "adms:status": "published",
+        "bv:classification": "none",
+        "bv:personalData": "none",
+        "bv:archivalValue": false,
+        "businessDataOwner": " p-8397553",
+        "schemaViolations": 1,
+        "schemaViolationMessages": [
+            "'' is not of type 'array', 'null'"
+        ]
+    },
+    {
         "dct:identifier": "9469ac4c-6cc4-4549-8776-353af9bbcbd3",
         "dct:title": {
             "de": "testtttttbtg",
