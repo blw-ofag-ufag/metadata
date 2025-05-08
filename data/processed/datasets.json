@@ -2547,7 +2547,7 @@
             "it": "Questa tabella presenta l'analisi statistica delle riduzioni dei pagamenti diretti effettuate sulle azienda gestita tutto l'anno in franchi svizzeri, nonché il numero e la percentuale di aziende soggette a riduzioni e le riduzioni medie per azienda. I dati sono ripartiti fino al livello cantonale.\r\n\r\nSe un’azienda non adempie appieno le disposizioni, il Cantone riduce i pagamenti diretti in base alle prescrizioni della Confederazione. Le riduzioni avvengono mediante la detrazione di importi forfettari, di importi per unità o di una percentuale. In caso di recidiva, le riduzioni sono normalmente raddoppiate o addirittura quadruplicate. ",
             "en": "This table shows the statistical analysis of the reductions in direct payments enforced on full-year farms in Swiss francs, as well as the number and percentage of farms affected by reductions and the average reduction per farm. The data is broken down to cantonal level.\r\n\r\nIf a farm does not fully comply with the regulations, the canton reduces direct payments in accordance with federal guidelines. The contributions to a farm are then reduced either by a fixed amount, per unit or as a percentage. In the event of repeated violations, the reductions in direct payments are usually doubled or even quadrupled."
         },
-        "dct:issued": "",
+        "dct:issued": "2017-11-21",
         "dcat:keyword": [
             "direct-payments",
             "agis"
@@ -2565,8 +2565,11 @@
         "bv:personalData": "none",
         "bv:archivalValue": false,
         "businessDataOwner": "p-8397553",
-        "schemaViolations": 22,
+        "schemaViolations": 25,
         "schemaViolationMessages": [
+            "'' is not of type 'array', 'null'",
+            "'' is not of type 'array', 'null'",
+            "'' is not of type 'array', 'null'",
             "'' is not of type 'array', 'null'",
             "'' is not of type 'array', 'null'",
             "'' is not of type 'array', 'null'",
