@@ -1,0 +1,140 @@
+{
+  "dct:identifier": "487ad0b5-da52-4408-98da-751c890db14a",
+  "schema:image": "https://www.agrarbericht.ch/pictures/16/muft8l0lgym4lxmy1663oxjb6m99x8/bild_vollzug_ab24_foto_acontrol-836.jpg",
+  "dct:title": {
+    "de": "Kürzungen der Direktzahlungen bei Ganzjahresbetrieben",
+    "fr": "Réductions des paiements directs dans les exploitations à l'année",
+    "it": "Riduzioni dei pagamenti diretti in aziende gestite tutto l'anno",
+    "en": "Reductions in direct payments for year-round farms"
+  },
+  "dct:description": {
+    "de": "Diese Tabelle zeigt die statistische Auswertung der vollzogenen Kürzungen der Direktzahlungen der Ganzjahresbetriebe in Schweizer Franken sowie die Anzahl und der prozentuale Anteil der Betriebe mit Kürzungen und die durchschnittlichen Kürzungen pro Betrieb. Die Angaben sind bis auf Stufe der Kantone aufgeschlüsselt.",
+    "fr": "Ce tableau présente l'analyse statistique des réductions de paiements directs effectuées en francs suisses pour les exploitations à l'année, ainsi que le nombre et le pourcentage d'exploitations touchées par des réductions et les réductions moyennes par exploitation. Les données sont détaillées jusqu'au niveau cantonal.",
+    "it": "Questa tabella presenta l'analisi statistica delle riduzioni dei pagamenti diretti effettuate sulle azienda gestita tutto l'anno in franchi svizzeri, nonché il numero e la percentuale di aziende soggette a riduzioni e le riduzioni medie per azienda. I dati sono ripartiti fino al livello cantonale.",
+    "en": "This table shows the statistical analysis of the reductions in direct payments enforced on full-year farms in Swiss francs, as well as the number and percentage of farms affected by reductions and the average reduction per farm. The data is broken down to cantonal level."
+  },
+  "dcat:theme": [
+    "agriculture",
+    "finances"
+  ],
+  "dcat:keyword": [
+    "direct-payments",
+    "agis"
+  ],
+  "adms:status": "published",
+  "dct:accessRights": "PUBLIC",
+  "dcatap:availability": "AVAILABLE",
+  "bv:classification": "none",
+  "bv:personalData": "none",
+  "bv:typeOfData": "secondaryThematicData",
+  "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+  "dcat:contactPoint": {
+    "schema:name": "Fachbereich Direktzahlungsgrundlagen",
+    "schema:email": "direktzahlungen@blw.admin.ch"
+  },
+  "prov:qualifiedAttribution": [
+    {
+      "prov:agent": "p-8397553",
+      "schema:name": "Simon Hasler",
+      "schema:email": "simon.hasler@blw.admin.ch",
+      "dcat:hadRole": "businessDataOwner"
+    },
+    {
+      "prov:agent": "p-1142659",
+      "schema:name": "Claudia Blumenstein",
+      "schema:email": "claudia.blumenstein@blw.admin.ch",
+      "dcat:hadRole": "dataSteward"
+    }
+  ],
+  "dct:issued": "",
+  "dct:modified": "2024-11-14",
+  "dct:accrualPeriodicity": "ANNUAL",
+  "dct:temporal": {
+    "dcat:start_date": "",
+    "dcat:end_date": ""
+  },
+  "bv:abrogation": "",
+  "dct:spatial": "Switzerland",
+  "dcat:landingPage": "https://www.agrarbericht.ch/de/politik/direktzahlungen/vollzug",
+  "foaf:page": [
+    {
+      "alias": "AGIS",
+      "uri": "https://www.blw.admin.ch/de/anwendung-agis"
+    }
+  ],
+  "dcat:inSeries": "",
+  "dcatap:applicableLegislation": [
+    "https://www.fedlex.admin.ch/eli/cc/2013/733/de#sec_2"
+  ],
+  "bv:itSystem": "AGIS",
+  "schema:comment": "Wenn ein Betrieb die Bestimmungen nicht vollständig erfüllt, kürzt der Kanton die Direktzahlungen gemäss den Vorgaben des Bundes. Die Beiträge eines Betriebs werden dann entweder pauschal, pro Einheit oder prozentual reduziert. Bei wiederholten Verstössen werden allermeistens die Kürzungen der Direktzahlungen verdoppelt oder sogar vervierfacht.\r\n\r\nSi une exploitation ne se conforme pas entièrement aux dispositions de la réglementation, le canton réduit les paiements directs comme le prévoient les prescriptions fédérales. Les contributions à une exploitation peuvent être réduites suivant un montant unitaire fixe, ou proportionnellement. Les récidivistes s’exposent à des réductions qui peuvent atteindre le double ou le quadruple des réductions initiales.\r\n\r\nSe un’azienda non adempie appieno le disposizioni, il Cantone riduce i pagamenti diretti in base alle prescrizioni della Confederazione. Le riduzioni avvengono mediante la detrazione di importi forfettari, di importi per unità o di una percentuale. In caso di recidiva, le riduzioni sono normalmente raddoppiate o addirittura quadruplicate. ",
+  "dcat:distribution": [
+    {
+      "dct:identifier": "d0686bd7-a595-4f76-9594-5f12850cae7d",
+      "dct:title": {
+        "de": "Jahr 2023",
+        "fr": "Année 2023",
+        "it": "Anno 2023",
+        "en": "Year 2023"
+      },
+      "dct:description": {
+        "de": "Deutsch",
+        "fr": "Allemand",
+        "it": "Tedesco",
+        "en": "German"
+      },
+      "dcat:accessURL": "https://www.agrarbericht.ch/de/politik/direktzahlungen/vollzug",
+      "adms:status": "published",
+      "dcatap:availability": "AVAILABLE",
+      "dct:format": "xlsx",
+      "dct:modified": "2024-11-14",
+      "dcat:downloadURL": "https://www.agrarbericht.ch/download/documents/88/0sj25i6wrseylc0ti9s67obuzfmz8t/44_ab24_statdz2023_antab_gjb_kuerzungen_der_dz_d.xlsx",
+      "dcat:accessService": ""
+    },
+    {
+      "dct:identifier": "709b9056-ca73-4542-8eb5-7fc16d6ab9a1",
+      "dct:title": {
+        "de": "Jahr 2023",
+        "fr": "Année 2023",
+        "it": "Anno 2023",
+        "en": "Year 2023"
+      },
+      "dct:description": {
+        "de": "Französisch",
+        "fr": "Français",
+        "it": "Francese",
+        "en": "French"
+      },
+      "dcat:accessURL": "https://www.agrarbericht.ch/fr/politique/paiements-directs/execution",
+      "adms:status": "published",
+      "dcatap:availability": "AVAILABLE",
+      "dct:format": "xlsx",
+      "dct:modified": "2024-11-14",
+      "dcat:downloadURL": "https://www.agrarbericht.ch/download/documents/e1/jgus9uf7e6c6rym5bhauvf9jxx7zi6/44_ab24_statdz2023_antab_gjb_kuerzungen_der_dz_f.xlsx",
+      "dcat:accessService": ""
+    },
+    {
+      "dct:identifier": "88eb895c-89c7-4cef-af1e-a3f77b6f37d7",
+      "dct:title": {
+        "de": "Jahr 2023",
+        "fr": "Année 2023",
+        "it": "Anno 2023",
+        "en": "Year 2023"
+      },
+      "dct:description": {
+        "de": "Italienisch",
+        "fr": "Italien",
+        "it": "Italiano",
+        "en": "Italian"
+      },
+      "dcat:accessURL": "https://www.agrarbericht.ch/it/politica/pagamenti-diretti/esecuzione",
+      "adms:status": "published",
+      "dcatap:availability": "AVAILABLE",
+      "dct:format": "xlsx",
+      "dct:modified": "2024-11-14",
+      "dcat:downloadURL": "https://www.agrarbericht.ch/download/documents/99/v78n9zv6wwrm1tqvsgyvz236pxujtn/44_ab24_statdz2023_antab_gjb_kuerzungen_der_dz_it.xlsx",
+      "dcat:accessService": ""
+    }
+  ],
+  "bv:archivalValue": false
+}
