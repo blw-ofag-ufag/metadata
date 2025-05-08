@@ -265,6 +265,72 @@
       "dct:modified": "2022-11-21",
       "dcat:downloadURL": "https://2022.agrarbericht.ch/download/documents/07/i0mm40ntna4n8h4ypjmz7icor1xh8r/44_ab22_statdz2021_antab_gjb_kuerzungen_der_dz_i.xlsx",
       "dcat:accessService": ""
+    },
+    {
+      "dct:identifier": "4480f2e7-7769-49b5-8a00-9c346e49ce6d",
+      "dct:title": {
+        "de": "Jahr 2020",
+        "fr": "Année 2020",
+        "it": "Anno 2020",
+        "en": "Year 2021"
+      },
+      "dct:description": {
+        "de": "Deutsch",
+        "fr": "Allemand",
+        "it": "Tedesco",
+        "en": "German"
+      },
+      "dcat:accessURL": "https://2021.agrarbericht.ch/de/politik/direktzahlungen/vollzug",
+      "adms:status": "published",
+      "dcatap:availability": "AVAILABLE",
+      "dct:format": "xlsx",
+      "dct:modified": "2021-11-21",
+      "dcat:downloadURL": "https://2021.agrarbericht.ch/download/documents/f4/c0w512j5gxzji9ql6ct2vvfezaapbg/44_ab21_statdz2020_anhaenge_tab_gjb_kuerzungen_der_dz_d.xlsx",
+      "dcat:accessService": ""
+    },
+    {
+      "dct:identifier": "46888097-f3bf-4b38-b3ed-f29c3d90d1b7",
+      "dct:title": {
+        "de": "Jahr 2020",
+        "fr": "Année 2020",
+        "it": "Anno 2020",
+        "en": "Year 2021"
+      },
+      "dct:description": {
+        "de": "Französisch",
+        "fr": "Français",
+        "it": "Francese",
+        "en": "French"
+      },
+      "dcat:accessURL": "https://2021.agrarbericht.ch/fr/politique/paiements-directs/execution",
+      "adms:status": "published",
+      "dcatap:availability": "AVAILABLE",
+      "dct:format": "xlsx",
+      "dct:modified": "2021-11-21",
+      "dcat:downloadURL": "https://2021.agrarbericht.ch/download/documents/32/rnnczv9k25qonfruwhnu5nkaz55z2v/44_ab21_statdz2020_anhaenge_tab_gjb_krzungen_der_dz_f.xlsx",
+      "dcat:accessService": ""
+    },
+    {
+      "dct:identifier": "d84389f9-8e5a-4e46-b547-a80876e8e356",
+      "dct:title": {
+        "de": "Jahr 2020",
+        "fr": "Année 2020",
+        "it": "Anno 2020",
+        "en": "Year 2021"
+      },
+      "dct:description": {
+        "de": "Italienisch",
+        "fr": "Italien",
+        "it": "Italiano",
+        "en": "Italian"
+      },
+      "dcat:accessURL": "https://2021.agrarbericht.ch/it/politica/pagamenti-diretti/esecuzione",
+      "adms:status": "published",
+      "dcatap:availability": "AVAILABLE",
+      "dct:format": "xlsx",
+      "dct:modified": "2021-11-21",
+      "dcat:downloadURL": "https://2021.agrarbericht.ch/download/documents/aa/y83gb6z4g0994xj3xnntho350nybp1/44_ab21_statdz2020_anhaenge_tab_gjb_krzungen_der_dz_i.xlsx",
+      "dcat:accessService": ""
     }
   ],
   "bv:archivalValue": false
