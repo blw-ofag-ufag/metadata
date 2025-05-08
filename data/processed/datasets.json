@@ -2565,8 +2565,11 @@
         "bv:personalData": "none",
         "bv:archivalValue": false,
         "businessDataOwner": "p-8397553",
-        "schemaViolations": 13,
+        "schemaViolations": 16,
         "schemaViolationMessages": [
+            "'' is not of type 'array', 'null'",
+            "'' is not of type 'array', 'null'",
+            "'' is not of type 'array', 'null'",
             "'' is not of type 'array', 'null'",
             "'' is not of type 'array', 'null'",
             "'' is not of type 'array', 'null'",
