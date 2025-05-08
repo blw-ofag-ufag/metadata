@@ -133,6 +133,72 @@
       "dct:modified": "2024-11-14",
       "dcat:downloadURL": "https://www.agrarbericht.ch/download/documents/99/v78n9zv6wwrm1tqvsgyvz236pxujtn/44_ab24_statdz2023_antab_gjb_kuerzungen_der_dz_it.xlsx",
       "dcat:accessService": ""
+    },
+    {
+      "dct:identifier": "1a757dba-01ca-47e1-ac3e-3e62aba5ce8a",
+      "dct:title": {
+        "de": "Jahr 2022",
+        "fr": "Année 2022",
+        "it": "Anno 2022",
+        "en": "Year 2022"
+      },
+      "dct:description": {
+        "de": "Deutsch",
+        "fr": "Allemand",
+        "it": "Tedesco",
+        "en": "German"
+      },
+      "dcat:accessURL": "https://2023.agrarbericht.ch/de/politik/direktzahlungen/vollzug",
+      "adms:status": "published",
+      "dcatap:availability": "AVAILABLE",
+      "dct:format": "xlsx",
+      "dct:modified": "2023-11-21",
+      "dcat:downloadURL": "https://2023.agrarbericht.ch/download/documents/77/p4q6nc3r50d1x17njpcjq7wun02o38/44_ab23_statdz2022_antab_gjb_kuerzungen_der_dz_d.xlsx",
+      "dcat:accessService": ""
+    },
+    {
+      "dct:identifier": "23ffa4a8-06b0-4b24-9c2e-9ce8a2b71926",
+      "dct:title": {
+        "de": "Jahr 2022",
+        "fr": "Année 2022",
+        "it": "Anno 2022",
+        "en": "Year 2022"
+      },
+      "dct:description": {
+        "de": "Französisch",
+        "fr": "Français",
+        "it": "Francese",
+        "en": "French"
+      },
+      "dcat:accessURL": "https://2023.agrarbericht.ch/fr/politique/paiements-directs/execution",
+      "adms:status": "published",
+      "dcatap:availability": "AVAILABLE",
+      "dct:format": "xlsx",
+      "dct:modified": "2023-11-21",
+      "dcat:downloadURL": "https://2023.agrarbericht.ch/download/documents/46/numon3t9ad8gu4i73cpahofwpqwyhw/44_ab23_statdz2022_antab_gjb_kuerzungen_der_dz_f.xlsx",
+      "dcat:accessService": ""
+    },
+    {
+      "dct:identifier": "c31304fa-43f2-4b61-8e3b-95d767358f1d",
+      "dct:title": {
+        "de": "Jahr 2022",
+        "fr": "Année 2022",
+        "it": "Anno 2022",
+        "en": "Year 2022"
+      },
+      "dct:description": {
+        "de": "Italienisch",
+        "fr": "Italien",
+        "it": "Italiano",
+        "en": "Italian"
+      },
+      "dcat:accessURL": "https://2023.agrarbericht.ch/it/politica/pagamenti-diretti/esecuzione",
+      "adms:status": "published",
+      "dcatap:availability": "AVAILABLE",
+      "dct:format": "xlsx",
+      "dct:modified": "2023-11-21",
+      "dcat:downloadURL": "https://2023.agrarbericht.ch/download/documents/bc/3tz4zit2phfxhsge4ye28rmju0824n/44_ab23_statdz2022_antab_gjb_kuerzungen_der_dz_i.xlsx",
+      "dcat:accessService": ""
     }
   ],
   "bv:archivalValue": false
