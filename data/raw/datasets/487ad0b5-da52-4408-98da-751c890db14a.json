@@ -46,12 +46,12 @@
       "dcat:hadRole": "dataSteward"
     }
   ],
-  "dct:issued": "",
+  "dct:issued": "2017-11-21",
   "dct:modified": "2024-11-14",
   "dct:accrualPeriodicity": "ANNUAL",
   "dct:temporal": {
-    "dcat:start_date": "",
-    "dcat:end_date": ""
+    "dcat:start_date": "2016-01-01",
+    "dcat:end_date": "2024-12-31"
   },
   "bv:abrogation": "",
   "dct:spatial": "Switzerland",
@@ -528,6 +528,72 @@
       "dct:format": "xlsx",
       "dct:modified": "2018-11-21",
       "dcat:downloadURL": "https://2018.agrarbericht.ch/download/documents/ca/1e4wfgv5nhpfykqnxv2sqky8h59wy1/44_ab18_statdz2017_anhaenge_tab_gjb_krzungen_der_dz_i.xlsx",
+      "dcat:accessService": ""
+    },
+    {
+      "dct:identifier": "ee12f5b7-4b3b-4fce-998a-d7e567c0d981",
+      "dct:title": {
+        "de": "Jahr 2016",
+        "fr": "Année 2016",
+        "it": "Anno 2016",
+        "en": "Year 2016"
+      },
+      "dct:description": {
+        "de": "Deutsch",
+        "fr": "Allemand",
+        "it": "Tedesco",
+        "en": "German"
+      },
+      "dcat:accessURL": "https://2017.agrarbericht.ch/de/politik/direktzahlungen/vollzug",
+      "adms:status": "published",
+      "dcatap:availability": "AVAILABLE",
+      "dct:format": "xlsx",
+      "dct:modified": "2017-11-21",
+      "dcat:downloadURL": "https://2017.agrarbericht.ch/download/documents/aa/ulkomorzs34ubqqn2ex5owu584ks7b/44_ab17_statdz2016_anhaenge_tab_gjb_kuerzungen_der_dz_d.xlsx",
+      "dcat:accessService": ""
+    },
+    {
+      "dct:identifier": "21bb1ed4-3e54-4156-8e3a-829c2fc11451",
+      "dct:title": {
+        "de": "Jahr 2016",
+        "fr": "Année 2016",
+        "it": "Anno 2016",
+        "en": "Year 2016"
+      },
+      "dct:description": {
+        "de": "Französisch",
+        "fr": "Français",
+        "it": "Francese",
+        "en": "French"
+      },
+      "dcat:accessURL": "https://2017.agrarbericht.ch/fr/politique/paiements-directs/execution",
+      "adms:status": "published",
+      "dcatap:availability": "AVAILABLE",
+      "dct:format": "xlsx",
+      "dct:modified": "2017-11-21",
+      "dcat:downloadURL": "https://2017.agrarbericht.ch/download/documents/4b/gxfjrzf8wq8rc2zkyhqcnkc7jpv9dv/44_ab17_statdz2016_anhaenge_tab_gjb_krzungen_der_dz_f.xlsx",
+      "dcat:accessService": ""
+    },
+    {
+      "dct:identifier": "69e5bf29-b4f6-4d0f-b9b3-161629697727",
+      "dct:title": {
+        "de": "Jahr 2016",
+        "fr": "Année 2016",
+        "it": "Anno 2016",
+        "en": "Year 2016"
+      },
+      "dct:description": {
+        "de": "Italienisch",
+        "fr": "Italien",
+        "it": "Italiano",
+        "en": "Italian"
+      },
+      "dcat:accessURL": "https://2017.agrarbericht.ch/it/politica/pagamenti-diretti/esecuzione",
+      "adms:status": "published",
+      "dcatap:availability": "AVAILABLE",
+      "dct:format": "xlsx",
+      "dct:modified": "2017-11-21",
+      "dcat:downloadURL": "https://2017.agrarbericht.ch/download/documents/70/fuqrvqxye29uug2oajrqxlaszgmifi/44_ab17_statdz2016_anhaenge_tab_gjb_krzungen_der_dz_i.xlsx",
       "dcat:accessService": ""
     }
   ],
