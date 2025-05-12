@@ -36,7 +36,7 @@
   },
   "prov:qualifiedAttribution": [
     {
-      "prov:agent": " p-8397553",
+      "prov:agent": "p-8397553",
       "schema:name": "Simon Hasler",
       "schema:email": "simon.hasler@blw.admin.ch",
       "dcat:hadRole": "businessDataOwner"
