@@ -1,0 +1,164 @@
+{
+  "dct:identifier": "91bc21d3-e08f-4794-a1e6-fd590aeddbe1",
+  "dct:title": {
+    "de": "Vollständige dataset für Testzwecke",
+    "fr": "Dataset complet pour tests",
+    "it": "Dataset completo per tests",
+    "en": "Complete dataset for test"
+  },
+  "dct:description": {
+    "de": "Vollständige dataset für Testzwecke.\r\nDas ist die Beschreibung",
+    "fr": "Dataset complet pour tests.\r\nCelle-ci est la description",
+    "it": "Dataset completo per tests.\r\nQuesta è la descrizione",
+    "en": "Complete dataset for test.\r\nThis is the description"
+  },
+  "dcat:theme": [
+    "agriculture",
+    "geography"
+  ],
+  "dcat:keyword": [
+    "edit-test",
+    "time-series",
+    "agricultural-policy"
+  ],
+  "adms:status": "published",
+  "dct:accessRights": "NON_PUBLIC",
+  "dcatap:availability": "STABLE",
+  "bv:classification": "internal",
+  "bv:personalData": "none",
+  "bv:typeOfData": "masterData",
+  "bv:archivalValue": true,
+  "bv:retentionPeriod": 30,
+  "bv:externalCatalogs": [
+    {
+      "dcat:catalog": "I14Y"
+    },
+    {
+      "dcat:catalog": "opendata.swiss"
+    }
+  ],
+  "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+  "dcat:contactPoint": {
+    "schema:name": "GR-KDT",
+    "schema:email": "kompetenzzentrumdigitaletransformation@blw.admin.ch"
+  },
+  "prov:qualifiedAttribution": [
+    {
+      "prov:agent": "p-1ZPP7KQSW",
+      "schema:name": "Ambrogio Foletti",
+      "schema:email": "ambrogio.foletti@blw.admin.ch",
+      "dcat:hadRole": "businessDataOwner"
+    },
+    {
+      "prov:agent": "p-1ZFWFFNP6",
+      "schema:name": "Damian Oswald",
+      "schema:email": "damian.oswald@blw.admin.ch",
+      "dcat:hadRole": "dataSteward"
+    },
+    {
+      "prov:agent": "p-1YVS771WP",
+      "schema:name": "Christian Wilda",
+      "schema:email": "christian.wilda@blw.admin.ch",
+      "dcat:hadRole": "businessDataOwner"
+    },
+    {
+      "prov:agent": "p-1ZLWBXSJD",
+      "schema:name": "Pascal Hurni",
+      "schema:email": "pascal.hurni@blw.admin.ch",
+      "dcat:hadRole": "dataCustodian"
+    }
+  ],
+  "dct:issued": "2025-05-12",
+  "dct:modified": "2025-05-12",
+  "dct:accrualPeriodicity": "IRREG",
+  "dct:temporal": {
+    "dcat:start_date": "2023-01-01",
+    "dcat:end_date": "2025-05-16"
+  },
+  "bv:abrogation": "2025-05-16",
+  "dct:spatial": "https://geo.ld.admin.ch/boundaries/country/CH",
+  "dcat:landingPage": "https://www.blw.admin.ch/de",
+  "bv:geoIdentifier": "110.4",
+  "foaf:page": [
+    {
+      "alias": "Related page 1",
+      "uri": "https://www.blw.admin.ch/de/freihandelsabkommen"
+    },
+    {
+      "alias": "Related page 2",
+      "uri": "https://opendata.swiss/de/dataset/landwirtschaftliche-nutzflache-1990-2015"
+    }
+  ],
+  "dcat:inSeries": "",
+  "dct:replaces": [
+    "b1cfe652-688a-4898-9b29-ac0ff6bb13a7",
+    "1260f14f-559f-4db2-97f7-66212441786"
+  ],
+  "dcatap:applicableLegislation": [
+    "https://www.fedlex.admin.ch/eli/oc/2022/491/de#art_5",
+    "https://www.fedlex.admin.ch/eli/oc/2022/491/de#art_12"
+  ],
+  "prov:wasGeneratedBy": [
+    "Named business process",
+    "https://intranet.blw.admin.ch/intrablw/de/home/dbdd/digitale_transformation.html"
+  ],
+  "prov:wasDerivedFrom": [
+    "Named upstream dataset",
+    "039e1df3-fd67-45f4-9692-1c9b0e97c8f3"
+  ],
+  "bv:itSystem": "https://agriculture.ld.admin.ch/system-map/SGdyOoksCnRRZwi2Q",
+  "dcat:version": "2.1.1",
+  "schema:comment": "This is a comment",
+  "dcat:distribution": [
+    {
+      "dct:identifier": "1b919440-c66e-4c98-8100-d8c0189c9067",
+      "dct:title": {
+        "de": "Erste Distribution",
+        "fr": "Première distribution",
+        "it": "Prima distribuzione",
+        "en": "First distribution"
+      },
+      "dct:description": {
+        "de": "Beschreibung der erste Distribution",
+        "fr": "Description de la première distribution",
+        "it": "Descrizione della prima distribuzione",
+        "en": "Description of the first distribution"
+      },
+      "dcat:accessURL": "https://github.com/blw-ofag-ufag/blw-ogd-data",
+      "adms:status": "published",
+      "dcatap:availability": "EXPERIMENTAL",
+      "dct:format": "JSON",
+      "dct:modified": "2025-05-12",
+      "dcat:downloadURL": "https://raw.githubusercontent.com/blw-ofag-ufag/blw-ogd-data/refs/heads/main/data/plant_varieties_in_switzerland.json",
+      "dct:conformsTo": "eCH-0262",
+      "dct:license": "terms_by",
+      "schema:comment": "Comment to Distribution 1",
+      "dcat:accessService": ""
+    },
+    {
+      "dct:identifier": "f3c2db41-a211-4c15-a1ca-1525ae6ed21d",
+      "dct:title": {
+        "de": "Zweite Distribution",
+        "fr": "Deuxième distribution",
+        "it": "Seconda distribution",
+        "en": "Second distribution"
+      },
+      "dct:description": {
+        "de": "Beschreibung der zweite Distribution",
+        "fr": "Description de la deuxième distribution",
+        "it": "Descrizione della seconda distribution",
+        "en": "Description of second distribution"
+      },
+      "dcat:accessURL": "https://opendata.swiss/de",
+      "adms:status": "workInProgress",
+      "dcatap:availability": "EXPERIMENTAL",
+      "dct:format": "CSV",
+      "dct:modified": "2025-05-12",
+      "dcat:downloadURL": "https://opendata.fr.ch/api/explore/v2.1/catalog/datasets/07_02_exploitations_agricoles_par_systeme_d_exploitation/exports/json",
+      "dct:conformsTo": "None",
+      "dct:license": "terms_by_ask",
+      "schema:comment": "Comment to second distribution",
+      "dcat:accessService": ""
+    }
+  ]
+}
