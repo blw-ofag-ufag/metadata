@@ -1886,9 +1886,8 @@
         "bv:personalData": "none",
         "bv:archivalValue": true,
         "businessDataOwner": "p-1ZPP7KQSW",
-        "schemaViolations": 3,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
-            "'' is not of type 'array', 'null'",
             "'' is not of type 'array', 'null'",
             "'' is not of type 'array', 'null'"
         ]
