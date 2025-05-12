@@ -5413,6 +5413,43 @@
         ]
     },
     {
+        "dct:identifier": "c41ed3f8-507f-43b1-bf9e-9b3d21495a0c",
+        "dct:title": {
+            "de": "Vollständige dataset für Testzwecke TEST 3",
+            "fr": "Dataset complet pour tests TEST 3",
+            "it": "Dataset completo per tests TEST 3",
+            "en": "Complete dataset for test TEST 3"
+        },
+        "dct:description": {
+            "de": "TEST 3 Vollständige dataset für Testzwecke.\r\nDas ist die Beschreibung",
+            "fr": "TEST 3 Dataset complet pour tests.\r\nCelle-ci est la description",
+            "it": "TEST 3 Dataset completo per tests.\r\nQuesta è la descrizione",
+            "en": "TEST 3 Complete dataset for test.\r\nThis is the description"
+        },
+        "dct:issued": "2025-05-12",
+        "dcat:keyword": [
+            "edit-test",
+            "time-series",
+            "agricultural-policy"
+        ],
+        "dct:accessRights": "NON_PUBLIC",
+        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+        "dcat:contactPoint": {
+            "schema:name": "GR-KDT",
+            "schema:email": "kompetenzzentrumdigitaletransformation@blw.admin.ch"
+        },
+        "dct:modified": "2025-05-12",
+        "adms:status": "published",
+        "bv:classification": "internal",
+        "bv:personalData": "none",
+        "bv:archivalValue": true,
+        "businessDataOwner": "p-1ZPP7KQSW",
+        "schemaViolations": 1,
+        "schemaViolationMessages": [
+            "'' is not of type 'array', 'null'"
+        ]
+    },
+    {
         "dct:identifier": "1cde0ba1-6995-4419-ba4c-15df2e7d198c",
         "dct:title": {
             "fr": "Chiffres du marché du lait et des produits laitiers - Prix de gros annuels",
