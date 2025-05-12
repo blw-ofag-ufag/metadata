@@ -1534,6 +1534,45 @@
         ]
     },
     {
+        "dct:identifier": "ec64dfdb-4388-4d59-baa4-dea173bc9e69",
+        "dct:title": {
+            "de": "Kontrollen auf direktzahlungsberechtigten Sömmerungsbetrieben",
+            "fr": "Contrôles dans les exploitations d’estivage ayant droit aux paiements directs",
+            "it": "Controlli in aziende d’estivazione aventi diritto ai pagamenti diretti",
+            "en": "Controls on summer grazing farms eligible for direct payments"
+        },
+        "dct:description": {
+            "de": "Diese Tabelle zeigt die statistische Auswertung der Anzahl Kontrollen der direktzahlungsberechtigten Sömmerungsbetriebe sowie der Anzahl festgestellter Mängel. Die Angaben sind bis auf Stufe der Kantone aufgeschlüsselt.",
+            "fr": "Ce tableau présente l'analyse statistique du nombre de contrôles effectués dans les exploitations d'estivage ayant droit aux paiements directs ainsi que le nombre de manquements constatés. Les données sont détaillées jusqu'au niveau cantonal.",
+            "it": "Questa tabella presenta l'analisi statistica del numero di controlli effettuati sulle azienda d'estivazione aventi diritto ai pagamenti diretti e il numero di lacune riscontrate. I dati sono ripartiti fino al livello cantonale.",
+            "en": "This table shows the statistical analysis of the number of controls carried out on summer grazing farms eligible for direct payments and the number of non-compliances. The data is broken down to cantonal level."
+        },
+        "dct:issued": "",
+        "dcat:keyword": [
+            "controls",
+            "direct-payments",
+            "summer-grazing",
+            "alpine-farming"
+        ],
+        "schema:image": "https://www.agrarbericht.ch/pictures/16/muft8l0lgym4lxmy1663oxjb6m99x8/bild_vollzug_ab24_foto_acontrol-836.jpg",
+        "dct:accessRights": "PUBLIC",
+        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+        "dcat:contactPoint": {
+            "schema:name": "Fachbereich Direktzahlungsgrundlagen",
+            "schema:email": "acontrol@blw.admin.ch"
+        },
+        "dct:modified": "2024-11-14",
+        "adms:status": "published",
+        "bv:classification": "none",
+        "bv:personalData": "none",
+        "bv:archivalValue": false,
+        "businessDataOwner": " p-8397553",
+        "schemaViolations": 1,
+        "schemaViolationMessages": [
+            "'' is not of type 'array', 'null'"
+        ]
+    },
+    {
         "dct:identifier": "8884a856-8647-4943-b511-1636f27f7604",
         "dct:title": {
             "fr": "Registre des appellations d'origine (AOP) et des indications géographiques (IGP) produits à base de viande",
