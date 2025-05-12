@@ -1052,6 +1052,44 @@
         ]
     },
     {
+        "dct:identifier": "74fe0fa3-3dd2-44f4-a7f6-d9bb2c542920",
+        "dct:title": {
+            "de": "Vollständige dataset für Testzwecke TEST 2",
+            "fr": "Dataset complet pour tests TEST 2",
+            "it": "Dataset completo per tests TEST 2",
+            "en": "Complete dataset for test TEST 2"
+        },
+        "dct:description": {
+            "de": "TEST 2 Vollständige dataset für Testzwecke.\r\nDas ist die Beschreibung",
+            "fr": "TEST 2 Dataset complet pour tests.\r\nCelle-ci est la description",
+            "it": "TEST 2 Dataset completo per tests.\r\nQuesta è la descrizione",
+            "en": "TEST 2 Complete dataset for test.\r\nThis is the description"
+        },
+        "dct:issued": "2025-05-12",
+        "dcat:keyword": [
+            "edit-test",
+            "time-series",
+            "agricultural-policy"
+        ],
+        "dct:accessRights": "NON_PUBLIC",
+        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+        "dcat:contactPoint": {
+            "schema:name": "GR-KDT",
+            "schema:email": "kompetenzzentrumdigitaletransformation@blw.admin.ch"
+        },
+        "dct:modified": "2025-05-12",
+        "adms:status": "published",
+        "bv:classification": "internal",
+        "bv:personalData": "none",
+        "bv:archivalValue": true,
+        "businessDataOwner": "p-1ZPP7KQSW",
+        "schemaViolations": 2,
+        "schemaViolationMessages": [
+            "'' is not of type 'array', 'null'",
+            "'' is not of type 'array', 'null'"
+        ]
+    },
+    {
         "dct:identifier": "0889be91-cab7-4f6a-a692-7ca2a1a222e4",
         "dct:title": {
             "fr": "Carte des risques d'érosion des terres arables, perte moyenne de sol en tonnes (ha*année)",
