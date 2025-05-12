@@ -5182,7 +5182,7 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "businessDataOwner": " p-8397553",
+        "businessDataOwner": "p-8397553",
         "schemaViolations": 25,
         "schemaViolationMessages": [
             "'' is not of type 'array', 'null'",
