@@ -1082,7 +1082,7 @@
         "bv:classification": "internal",
         "bv:personalData": "none",
         "bv:archivalValue": true,
-        "businessDataOwner": "p-1ZPP7KQSW",
+        "businessDataOwner": "p-1YVS771WP",
         "schemaViolations": 2,
         "schemaViolationMessages": [
             "'' is not of type 'array', 'null'",
