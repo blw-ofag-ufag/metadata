@@ -5508,9 +5508,9 @@
         "bv:classification": "internal",
         "bv:personalData": "none",
         "bv:archivalValue": true,
-        "businessDataOwner": "p-1ZPP7KQSW",
-        "schemaViolations": 1,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
+            "None of [{'prov:agent': 'p-1ZPP7KQSW', 'schema:name': 'Ambrogio Foletti', 'schema:email': 'ambrogio.foletti@blw.admin.ch', 'dcat:hadRole': 'dataSteward'}, {'prov:agent': 'p-1ZFWFFNP6', 'schema:name': 'Damian Oswald', 'schema:email': 'damian.oswald@blw.admin.ch', 'dcat:hadRole': 'dataSteward'}, {'prov:agent': 'p-1YVS771WP', 'schema:name': 'Christian Wilda', 'schema:email': 'christian.wilda@blw.admin.ch', 'dcat:hadRole': 'dataCustodian'}, {'prov:agent': 'p-1ZLWBXSJD', 'schema:name': 'Pascal Hurni', 'schema:email': 'pascal.hurni@blw.admin.ch', 'dcat:hadRole': 'dataCustodian'}] are valid under the given schema",
             "'' is not of type 'array', 'null'"
         ]
     },
