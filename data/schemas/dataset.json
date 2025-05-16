@@ -45,18 +45,22 @@
             "properties": {
                 "de": {
                     "type": "string",
+                    "pattern": "[a-zA-Z0-9_\\-\\s]{10,75}",
                     "title": "Deutsch"
                 },
                 "fr": {
                     "type": "string",
+                    "pattern": "[a-zA-Z0-9_\\-\\s]{10,75}",
                     "title": "Français"
                 },
                 "it": {
                     "type": "string",
+                    "pattern": "[a-zA-Z0-9_\\-\\s]{10,75}",
                     "title": "Italiano"
                 },
                 "en": {
                     "type": "string",
+                    "pattern": "[a-zA-Z0-9_\\-\\s]{10,75}",
                     "title": "English"
                 }
             }
@@ -620,18 +624,22 @@
                         "properties": {
                             "de": {
                                 "type": "string",
+                                "pattern": "[a-zA-Z0-9_\\-\\s]{10,75}",
                                 "title": "Deutsch"
                             },
                             "fr": {
                                 "type": "string",
+                                "pattern": "[a-zA-Z0-9_\\-\\s]{10,75}",
                                 "title": "Français"
                             },
                             "it": {
                                 "type": "string",
+                                "pattern": "[a-zA-Z0-9_\\-\\s]{10,75}",
                                 "title": "Italiano"
                             },
                             "en": {
                                 "type": "string",
+                                "pattern": "[a-zA-Z0-9_\\-\\s]{10,75}",
                                 "title": "English"
                             }
                         }
