@@ -1,162 +1,166 @@
-"""Dataset processing pipeline
+"""Unified metadata processing pipeline
 
-This script scans every JSON metadata file inside ``data/raw/datasets``,
-validates it against the Draft‑7 JSON‑Schema defined in
-``data/schemas/dataset.json``, extracts a curated subset of attributes and
-computes a *quality* score for each dataset. The resulting list of objects is
-sorted in descending order of quality and written to
-``data/processed/datasets.json``.
+This script walks through three raw‑metadata directories
 
-Quality is defined as:
+* ``data/raw/datasets``       → class **dataset**
+* ``data/raw/dataServices``   → class **dataServices**
+* ``data/raw/datasetSeries``  → class **datasetSeries**
+
+Every ``*.json`` file found is validated against the corresponding
+Draft‑7 JSON‑Schema and enriched with a *quality* score:
 
     quality = file_size / (schema_violations + 1)
 
-where *file_size* is the size of the original JSON file (in bytes) and
-*schema_violations* is the number of JSON‑Schema errors detected. Using
-`(schema_violations + 1)` avoids a division‑by‑zero error for perfect files; in that case
-the score falls back to the file size itself.
+The result is a single, quality‑sorted list written to
+``data/processed/datasets.json``.
 """
 
 from __future__ import annotations
 
 import json
 import os
+from collections import OrderedDict
+from functools import lru_cache
 from pathlib import Path
 from typing import Any, Dict, List, Optional
 
 from jsonschema import Draft7Validator
 
 # ---------------------------------------------------------------------------
-# Configuration
+# Configuration                                                               
 # ---------------------------------------------------------------------------
 
-DATASET_DIR = Path(os.path.expanduser("data/raw/datasets"))
-OUTPUT_FILE = Path(os.path.expanduser("data/processed/datasets.json"))
-SCHEMA_FILE = Path(os.path.expanduser("data/schemas/dataset.json"))
+BASE_DIR = Path(os.path.expanduser("data"))
+RAW_DIR = BASE_DIR / "raw"
+SCHEMA_DIR = BASE_DIR / "schemas"
+OUTPUT_FILE = BASE_DIR / "processed" / "datasets.json"
 
-# Attributes to extract (``prov:qualifiedAttribution`` is only used to derive
-# the ``businessDataOwner`` field and is removed afterwards).
-ATTRIBUTES = [
-    "dct:identifier",
-    "dct:title",
-    "dct:description",
-    "dct:issued",
-    "dcat:keyword",
-    "prov:qualifiedAttribution",
-    "schema:image",
-    "dct:accessRights",
-    "dct:publisher",
-    "dcat:contactPoint",
-    "dct:modified",
-    "adms:status",
-    "bv:classification",
-    "bv:personalData",
-    "bv:archivalValue",
-    "dcatap:availability",
-    "bv:typeOfData",
-    "dcat:theme",
-]
+CLASSES = {
+    "dataset": {
+        "dir": RAW_DIR / "datasets",
+        "schema": SCHEMA_DIR / "dataset.json",
+    },
+    "dataServices": {
+        "dir": RAW_DIR / "dataServices",
+        "schema": SCHEMA_DIR / "dataService.json",
+    },
+    "datasetSeries": {
+        "dir": RAW_DIR / "datasetSeries",
+        "schema": SCHEMA_DIR / "datasetSeries.json",
+    },
+}
 
 # ---------------------------------------------------------------------------
-# Helper functions
+# Helpers                                                                     
 # ---------------------------------------------------------------------------
 
+@lru_cache(maxsize=None)
 def load_schema(schema_path: Path) -> Optional[dict]:
-    """Load a JSON‑Schema file and return it as a Python *dict*."""
+    """Load and memoise a JSON‑Schema file."""
     try:
         with schema_path.open("r", encoding="utf-8") as fp:
             return json.load(fp)
-    except Exception as exc:  # pragma: no cover – log & propagate gracefully
-        print(f"Error loading schema from {schema_path}: {exc}")
+    except Exception as exc:  # pragma: no cover
+        print(f"❌  Error loading schema {schema_path}: {exc}")
         return None
 
 def _schema_errors(data: dict, schema: dict) -> List[str]:
-    """Return a list with the *messages* of all schema violations."""
     validator = Draft7Validator(schema)
-    return [error.message for error in validator.iter_errors(data)]
+    return [err.message for err in validator.iter_errors(data)]
 
-def extract_relevant_data(file_path: Path, schema: dict) -> Optional[Dict[str, Any]]:
-    """Read *file_path* and return a filtered & enriched mapping.
+def _extract_business_owner(mapping: Dict[str, Any]) -> Optional[Any]:
+    for role in mapping.get("prov:qualifiedAttribution", []):
+        if role.get("dcat:hadRole") == "businessDataOwner":
+            return role.get("prov:agent")
+    return None
 
-    The function extracts the subset of attributes defined in *ATTRIBUTES*,
-    derives ``businessDataOwner`` from ``prov:qualifiedAttribution``, counts
-    JSON‑Schema violations, computes a quality score and returns the resulting
-    mapping. Any exceptions are caught and logged; *None* is returned on
-    failure so the caller can skip the file.
-    """
+def enrich_record(
+    *,
+    data: Dict[str, Any],
+    file_path: Path,
+    cls: str,
+    schema: dict,
+) -> Dict[str, Any]:
+    
+    # Compute enrichment (quality, violations, owner, class).
 
-    try:
-        # 1. Load JSON --------------------------------------------------------
-        with file_path.open("r", encoding="utf-8") as fp:
-            data = json.load(fp)
+    #–– 1. Schema validation –––––––––––––––––––––––––––––––––––––––––––––––––
+    violation_messages = _schema_errors(data, schema)
+    violations = len(violation_messages)
 
-        # 2. Schema validation -----------------------------------------------
-        violation_messages = _schema_errors(data, schema)
-        violations_count = len(violation_messages)
+    #–– 2. Business owner –––––––––––––––––––––––––––––––––––––––––––––––––––
+    owner = _extract_business_owner(data)
 
-        # 3. Attribute filtering ---------------------------------------------
-        extracted: Dict[str, Any] = {k: data[k] for k in ATTRIBUTES if k in data}
+    # Remove prov:qualifiedAttribution whether owner found or not
+    data.pop("prov:qualifiedAttribution", None)
 
-        # 4. businessDataOwner derivation ------------------------------------
-        if "prov:qualifiedAttribution" in extracted:
-            for role in extracted["prov:qualifiedAttribution"]:
-                if role.get("dcat:hadRole") == "businessDataOwner":
-                    extracted["businessDataOwner"] = role.get("prov:agent")
-                    break
-            extracted.pop("prov:qualifiedAttribution", None)
+    #–– 3. Quality ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+    file_size = file_path.stat().st_size  # bytes
+    quality = file_size / (violations + 1)
 
-        # 5. Quality score ----------------------------------------------------
-        file_size = file_path.stat().st_size  # bytes
-        quality = file_size / (violations_count + 1)
+    #–– 4. Assemble –––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+    enriched: "OrderedDict[str, Any]" = OrderedDict()
+    enriched["class"] = cls  # appears first
 
-        # 6. Augment result ---------------------------------------------------
-        extracted.update(
-            {
-                "schemaViolations": violations_count,
-                "schemaViolationMessages": violation_messages,
-                "quality": quality,
-            }
-        )
-        return extracted
+    # All original metadata (minus prov:qualifiedAttribution) next
+    enriched.update(data)
 
-    except Exception as exc:  # pragma: no cover – log & propagate gracefully
-        print(f"Error processing {file_path}: {exc}")
-        return None
+    # Computed fields last
+    enriched.update(
+        {
+            "businessDataOwner": owner,
+            "schemaViolations": violations,
+            "schemaViolationMessages": violation_messages,
+            "quality": quality,
+        }
+    )
+
+    return enriched
 
 # ---------------------------------------------------------------------------
-# Main pipeline
+# Main pipeline                                                               
 # ---------------------------------------------------------------------------
 
 def process_all_files() -> None:
-    """Run the full pipeline and write the combined output JSON."""
+    """Run pipeline over all supported classes."""
 
-    schema = load_schema(SCHEMA_FILE)
-    if schema is None:
-        print("Schema could not be loaded. Exiting.")
-        return
+    combined: List[Dict[str, Any]] = []
 
-    combined_data: List[Dict[str, Any]] = []
+    for cls, cfg in CLASSES.items():
+        schema = load_schema(cfg["schema"])
+        if schema is None:
+            print(f"Skipping {cls}: schema not available")
+            continue
 
-    # Iterate over *all* *.json files – ignore nested subdirectories for now.
-    for file_path in sorted(DATASET_DIR.glob("*.json")):
-        result = extract_relevant_data(file_path, schema)
-        if result is not None:
-            combined_data.append(result)
+        directory = cfg["dir"]
+        if not directory.exists():
+            print(f"Directory for class '{cls}' does not exist: {directory}")
+            continue
 
-    # Sort by quality (descending: highest quality first) --------------------
-    combined_data.sort(key=lambda item: item.get("quality", 0.0), reverse=True)
+        for file_path in sorted(directory.glob("*.json")):
+            try:
+                with file_path.open("r", encoding="utf-8") as fp:
+                    data = json.load(fp)
+                record = enrich_record(
+                    data=data, file_path=file_path, cls=cls, schema=schema
+                )
+                combined.append(record)
+            except Exception as exc:  # pragma: no cover
+                print(f"Error processing {file_path}: {exc}")
 
-    # Ensure output directory exists ----------------------------------------
+    # Sort by quality – best first
+    combined.sort(key=lambda r: r.get("quality", 0.0), reverse=True)
+
+    # Ensure destination exists
     OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
 
-    # Persist ----------------------------------------------------------------
     with OUTPUT_FILE.open("w", encoding="utf-8") as fp:
-        json.dump(combined_data, fp, ensure_ascii=False, indent=4)
+        json.dump(combined, fp, ensure_ascii=False, indent=4)
 
-    print(f"Combined {len(combined_data)} datasets into {OUTPUT_FILE}")
+    print(f"Wrote {len(combined)} records to {OUTPUT_FILE}")
 
 # ---------------------------------------------------------------------------
-# Entrypoint
+# Entrypoint                                                                  
 # ---------------------------------------------------------------------------
 
 if __name__ == "__main__":
