@@ -1,5 +1,4 @@
 {
-  "$schema": "https://json-schema.org/draft/2020-12/schema",
   "dct:identifier": "f6133063-8de9-482d-8af7-9a0033b706ea",
   "dct:title": {
     "de": "Testdatenservice FOAG - Deutsch",
@@ -20,7 +19,7 @@
   },
   "dct:accessRights": "RESTRICTED",
   "dcat:endopointURL": "https://api.test.foag.ch/v1",
-  "adms:status": "workInProgress",,
+  "adms:status": "workInProgress",
   "dcat:landingPage": "https://data.foag.test.ch/landing",
   "dcat:servesDataset": ["c41ed3f8-507f-43b1-bf9e-9b3d21495a0c", "91bc21d3-e08f-4794-a1e6-fd590aeddbe1"],
   "dcat:endpointDescription": "https://docs.foag.test.ch/swagger",
