@@ -87,7 +87,6 @@
             "type": "string",
             "description": "Federal Office responsible for the data object",
             "enum": [
-                "",
                 "BLW-OFAG-UFAG-FOAG",
                 "BLV-OSAV-USAV-FSVO"
             ]
