@@ -73,25 +73,6 @@
         ]
     },
     {
-        "dct:identifier": "0e5b02d8-877a-49e6-9d48-613ed8143d95",
-        "dct:issued": "",
-        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
-        "dct:modified": "",
-        "bv:archivalValue": false,
-        "schemaViolations": 9,
-        "schemaViolationMessages": [
-            "'dct:title' is a required property",
-            "'dct:description' is a required property",
-            "'dct:accessRights' is a required property",
-            "'dcat:contactPoint' is a required property",
-            "'dct:accrualPeriodicity' is a required property",
-            "'prov:qualifiedAttribution' is a required property",
-            "'adms:status' is a required property",
-            "'bv:classification' is a required property",
-            "'bv:personalData' is a required property"
-        ]
-    },
-    {
         "dct:identifier": "82fcca67-633d-431d-853d-1bf765a70bc6",
         "dct:title": {
             "de": "Produktfunktionskategorien (PFC) gemäss Düngerverordnung (DüV)",
@@ -1648,29 +1629,6 @@
         "schemaViolationMessages": [
             "'prov:qualifiedAttribution' is a required property",
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']"
-        ]
-    },
-    {
-        "dct:identifier": "1010a8b3-d241-4b9d-8b1c-9131549ab1b7",
-        "dct:title": {
-            "de": "minimal"
-        },
-        "dct:issued": "",
-        "dct:modified": "",
-        "bv:archivalValue": false,
-        "schemaViolations": 11,
-        "schemaViolationMessages": [
-            "'dct:description' is a required property",
-            "'dct:accessRights' is a required property",
-            "'dct:publisher' is a required property",
-            "'dcat:contactPoint' is a required property",
-            "'dct:accrualPeriodicity' is a required property",
-            "'prov:qualifiedAttribution' is a required property",
-            "'adms:status' is a required property",
-            "'bv:classification' is a required property",
-            "'bv:personalData' is a required property",
-            "'fr' is a required property",
-            "'' is not of type 'array', 'null'"
         ]
     },
     {
@@ -4487,26 +4445,6 @@
             "'' is not of type 'array', 'null'",
             "'' is not of type 'array', 'null'",
             "'' is not of type 'array', 'null'",
-            "'' is not of type 'array', 'null'"
-        ]
-    },
-    {
-        "dct:identifier": "381493bc-cff3-4922-849b-cbee6d7daaf7",
-        "dct:issued": "",
-        "dct:modified": "",
-        "bv:archivalValue": false,
-        "schemaViolations": 11,
-        "schemaViolationMessages": [
-            "'dct:title' is a required property",
-            "'dct:description' is a required property",
-            "'dct:accessRights' is a required property",
-            "'dct:publisher' is a required property",
-            "'dcat:contactPoint' is a required property",
-            "'dct:accrualPeriodicity' is a required property",
-            "'prov:qualifiedAttribution' is a required property",
-            "'adms:status' is a required property",
-            "'bv:classification' is a required property",
-            "'bv:personalData' is a required property",
             "'' is not of type 'array', 'null'"
         ]
     },
