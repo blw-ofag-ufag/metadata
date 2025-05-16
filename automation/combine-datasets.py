@@ -1,13 +1,41 @@
-import os
+"""Dataset processing pipeline
+
+This script scans every JSON metadata file inside ``data/raw/datasets``,
+validates it against the Draft‑7 JSON‑Schema defined in
+``data/schemas/dataset.json``, extracts a curated subset of attributes and
+computes a *quality* score for each dataset. The resulting list of objects is
+sorted in descending order of quality and written to
+``data/processed/datasets.json``.
+
+Quality is defined as:
+
+    quality = file_size / (schema_violations + 1)
+
+where *file_size* is the size of the original JSON file (in bytes) and
+*schema_violations* is the number of JSON‑Schema errors detected. Using
+`(schema_violations + 1)` avoids a division‑by‑zero error for perfect files; in that case
+the score falls back to the file size itself.
+"""
+
+from __future__ import annotations
+
 import json
+import os
+from pathlib import Path
+from typing import Any, Dict, List, Optional
+
 from jsonschema import Draft7Validator
 
-# Define input and output directories
-DATASET_DIR = os.path.expanduser("data/raw/datasets")
-OUTPUT_FILE = os.path.expanduser("data/processed/datasets.json")
-SCHEMA_FILE = os.path.expanduser("data/schemas/dataset.json")
+# ---------------------------------------------------------------------------
+# Configuration
+# ---------------------------------------------------------------------------
 
-# Attributes to extract (note: prov:qualifiedAttribution will be used only to extract dataOwner)
+DATASET_DIR = Path(os.path.expanduser("data/raw/datasets"))
+OUTPUT_FILE = Path(os.path.expanduser("data/processed/datasets.json"))
+SCHEMA_FILE = Path(os.path.expanduser("data/schemas/dataset.json"))
+
+# Attributes to extract (``prov:qualifiedAttribution`` is only used to derive
+# the ``businessDataOwner`` field and is removed afterwards).
 ATTRIBUTES = [
     "dct:identifier",
     "dct:title",
@@ -23,86 +51,113 @@ ATTRIBUTES = [
     "adms:status",
     "bv:classification",
     "bv:personalData",
-    "bv:archivalValue"
+    "bv:archivalValue",
+    "dcatap:availability",
+    "bv:typeOfData",
+    "dcat:theme",
 ]
 
-def load_schema(schema_path):
-    """Load JSON schema from file."""
+# ---------------------------------------------------------------------------
+# Helper functions
+# ---------------------------------------------------------------------------
+
+def load_schema(schema_path: Path) -> Optional[dict]:
+    """Load a JSON‑Schema file and return it as a Python *dict*."""
     try:
-        with open(schema_path, "r", encoding="utf-8") as schema_file:
-            schema = json.load(schema_file)
-        return schema
-    except Exception as e:
-        print(f"Error loading schema from {schema_path}: {e}")
+        with schema_path.open("r", encoding="utf-8") as fp:
+            return json.load(fp)
+    except Exception as exc:  # pragma: no cover – log & propagate gracefully
+        print(f"Error loading schema from {schema_path}: {exc}")
         return None
 
-def count_schema_violations(data, schema):
-    """Count the number of schema violations using jsonschema's Draft7Validator."""
+def _schema_errors(data: dict, schema: dict) -> List[str]:
+    """Return a list with the *messages* of all schema violations."""
     validator = Draft7Validator(schema)
-    errors = list(validator.iter_errors(data))
-    return len(errors)
+    return [error.message for error in validator.iter_errors(data)]
 
-def get_schema_violation_messages(data, schema):
-    """Return a list of error messages for schema violations."""
-    validator = Draft7Validator(schema)
-    errors = list(validator.iter_errors(data))
-    return [error.message for error in errors]
+def extract_relevant_data(file_path: Path, schema: dict) -> Optional[Dict[str, Any]]:
+    """Read *file_path* and return a filtered & enriched mapping.
 
-def extract_relevant_data(file_path, schema):
+    The function extracts the subset of attributes defined in *ATTRIBUTES*,
+    derives ``businessDataOwner`` from ``prov:qualifiedAttribution``, counts
+    JSON‑Schema violations, computes a quality score and returns the resulting
+    mapping. Any exceptions are caught and logged; *None* is returned on
+    failure so the caller can skip the file.
     """
-    Extract relevant attributes from a JSON file, perform schema check,
-    add dataOwner if exists, and remove prov:qualifiedAttribution.
-    Also, include the schema violation count and messages.
-    """
+
     try:
-        with open(file_path, "r", encoding="utf-8") as f:
-            data = json.load(f)
-        
-        # Count schema violations and get their messages for the entire JSON file
-        violations_count = count_schema_violations(data, schema)
-        violation_messages = get_schema_violation_messages(data, schema)
-        
-        # Extract only the defined attributes
-        extracted_data = {key: data[key] for key in ATTRIBUTES if key in data}
-        
-        # Extract the dataOwner if exists from prov:qualifiedAttribution
-        if "prov:qualifiedAttribution" in extracted_data:
-            for role in extracted_data["prov:qualifiedAttribution"]:
+        # 1. Load JSON --------------------------------------------------------
+        with file_path.open("r", encoding="utf-8") as fp:
+            data = json.load(fp)
+
+        # 2. Schema validation -----------------------------------------------
+        violation_messages = _schema_errors(data, schema)
+        violations_count = len(violation_messages)
+
+        # 3. Attribute filtering ---------------------------------------------
+        extracted: Dict[str, Any] = {k: data[k] for k in ATTRIBUTES if k in data}
+
+        # 4. businessDataOwner derivation ------------------------------------
+        if "prov:qualifiedAttribution" in extracted:
+            for role in extracted["prov:qualifiedAttribution"]:
                 if role.get("dcat:hadRole") == "businessDataOwner":
-                    extracted_data["businessDataOwner"] = role.get("prov:agent")
+                    extracted["businessDataOwner"] = role.get("prov:agent")
                     break
-            # Remove prov:qualifiedAttribution from the output
-            extracted_data.pop("prov:qualifiedAttribution", None)
-        
-        # Add the schema violations count and messages
-        extracted_data["schemaViolations"] = violations_count
-        extracted_data["schemaViolationMessages"] = violation_messages
-        
-        return extracted_data
-    except Exception as e:
-        print(f"Error processing {file_path}: {e}")
+            extracted.pop("prov:qualifiedAttribution", None)
+
+        # 5. Quality score ----------------------------------------------------
+        file_size = file_path.stat().st_size  # bytes
+        quality = file_size / (violations_count + 1)
+
+        # 6. Augment result ---------------------------------------------------
+        extracted.update(
+            {
+                "schemaViolations": violations_count,
+                "schemaViolationMessages": violation_messages,
+                "quality": quality,
+            }
+        )
+        return extracted
+
+    except Exception as exc:  # pragma: no cover – log & propagate gracefully
+        print(f"Error processing {file_path}: {exc}")
         return None
 
-def process_all_files():
-    """Process all JSON files in the dataset directory and write them into one output file."""
+# ---------------------------------------------------------------------------
+# Main pipeline
+# ---------------------------------------------------------------------------
+
+def process_all_files() -> None:
+    """Run the full pipeline and write the combined output JSON."""
+
     schema = load_schema(SCHEMA_FILE)
     if schema is None:
         print("Schema could not be loaded. Exiting.")
         return
 
-    combined_data = []
-    
-    for filename in os.listdir(DATASET_DIR):
-        if filename.endswith(".json"):
-            input_path = os.path.join(DATASET_DIR, filename)
-            extracted_data = extract_relevant_data(input_path, schema)
-            if extracted_data:
-                combined_data.append(extracted_data)
-    
-    with open(OUTPUT_FILE, "w", encoding="utf-8") as out_f:
-        json.dump(combined_data, out_f, ensure_ascii=False, indent=4)
-    print("All data combined into", OUTPUT_FILE)
+    combined_data: List[Dict[str, Any]] = []
+
+    # Iterate over *all* *.json files – ignore nested subdirectories for now.
+    for file_path in sorted(DATASET_DIR.glob("*.json")):
+        result = extract_relevant_data(file_path, schema)
+        if result is not None:
+            combined_data.append(result)
+
+    # Sort by quality (descending: highest quality first) --------------------
+    combined_data.sort(key=lambda item: item.get("quality", 0.0), reverse=True)
+
+    # Ensure output directory exists ----------------------------------------
+    OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
+
+    # Persist ----------------------------------------------------------------
+    with OUTPUT_FILE.open("w", encoding="utf-8") as fp:
+        json.dump(combined_data, fp, ensure_ascii=False, indent=4)
+
+    print(f"Combined {len(combined_data)} datasets into {OUTPUT_FILE}")
+
+# ---------------------------------------------------------------------------
+# Entrypoint
+# ---------------------------------------------------------------------------
 
 if __name__ == "__main__":
     process_all_files()
-    print("Processing complete.")
