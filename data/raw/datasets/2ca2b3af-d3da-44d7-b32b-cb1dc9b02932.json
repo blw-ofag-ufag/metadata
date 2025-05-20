@@ -1,16 +1,17 @@
 {
   "dct:identifier": "2ca2b3af-d3da-44d7-b32b-cb1dc9b02932",
+  "schema:image": "https://fal.media/files/tiger/wRa9DHE4Hwzxa7c_1lqYQ_b2bc0df71b6a4d26935a1294876e8a3e.jpg",
   "dct:title": {
     "fr": "Données et indicateurs agro-environnementaux au niveau national 1990-2015",
     "de": "Agrarumweltindikatoren und -kennzahlen auf nationaler Ebene 1990-2015",
-    "en": "",
+    "en": "Agro-environmental data and indicators at the national level 1990–2015",
     "it": "Indicatori agro-ambientali e dati agroambientali a livello nazionale 1990-2015"
   },
   "dct:description": {
-    "fr": "",
-    "en": "",
+    "fr": "Développement d'indicateurs et de chiffres clés agro-environnementaux (azote, phosphore, climat et énergie, biodiversité, utilisation des terres, intrants)",
+    "en": "Development of agro-environmental indicators and key figures (nitrogen, phosphorus, climate and energy, biodiversity, land use, production inputs)",
     "de": "Entwicklung von Agrarumweltindikatoren und -kennzahlen (Stickstoff, Phosphor, Klima und Energie, Biodiversität, Bodennutzung, Produktionsmittel)",
-    "it": ""
+    "it": "Sviluppo di indicatori e dati chiave agro-ambientali (azoto, fosforo, clima ed energia, biodiversità, uso del suolo, mezzi di produzione)"
   },
   "dct:accessRights": "PUBLIC",
   "dct:publisher": "BLW-OFAG-UFAG-FOAG",
@@ -20,18 +21,16 @@
   },
   "dct:issued": "2016-11-08",
   "dct:accrualPeriodicity": "ANNUAL",
-  "dct:modified": null,
   "adms:status": "published",
   "bv:classification": "none",
   "bv:personalData": "none",
   "bv:archivalValue": false,
   "bv:typeOfData": "thematicData",
-  "dcat:keyword": [],
+  "dcat:keyword": ["environment", "climate", "nitrogen", "phosphorus", "nutrients", "energy", "biodiversity"],
   "dcat:theme": [
     "agriculture"
   ],
   "dcat:landingPage": "https://www.blw.admin.ch/blw/de/home/nachhaltige-produktion/umwelt/agrarumweltmonitoring.html",
-  "foaf:page": [],
   "dcatap:applicableLegislation": [
     "https://www.admin.ch/opc/de/classified-compilation/19983446/index.html#a11"
   ],
@@ -45,16 +44,10 @@
       "dct:modified": null,
       "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/e4/vkyvxxp93lxb8nyjlwv5u0mgkc07ju/agrarumweltindikatoren_und-kennzahlen_auf_nationaler_ebene_datenreihe_d.xlsx",
       "dct:title": {
-        "fr": "",
-        "de": "Agrarumweltindikatoren und -kennzahlen auf nationaler Ebene 1990-2015",
-        "en": "",
-        "it": ""
-      },
-      "dct:description": {
-        "fr": "",
-        "en": "",
-        "de": "",
-        "it": ""
+        "fr": "Données et indicateurs agro-environnementaux au niveau national 1990-2015 (DE)",
+        "de": "Agrarumweltindikatoren und -kennzahlen auf nationaler Ebene 1990-2015 (DE)",
+        "en": "Agro-environmental data and indicators at the national level 1990-2015 (DE)",
+        "it": "Indicatori agro-ambientali e dati agroambientali a livello nazionale 1990-2015 (DE)"
       },
       "dct:license": "terms_by",
       "schema:comment": "ID for this distribution on opendata.swiss: f750dbf4-f317-4e1d-b64e-582171901e47"
@@ -64,19 +57,12 @@
       "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/5a/6prgd7ife4xt6ulobdcfce8l4yjx0h/agrarumweltindikatoren_und-kennzahlen_auf_nationaler_ebene_datenreihe_f.xlsx",
       "adms:status": "published",
       "dct:format": "XLS",
-      "dct:modified": null,
       "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/5a/6prgd7ife4xt6ulobdcfce8l4yjx0h/agrarumweltindikatoren_und-kennzahlen_auf_nationaler_ebene_datenreihe_f.xlsx",
       "dct:title": {
-        "fr": "Données et indicateurs agro-environnementaux au niveau national 1990-2015",
-        "de": "",
-        "en": "",
-        "it": ""
-      },
-      "dct:description": {
-        "fr": "",
-        "de": "",
-        "en": "",
-        "it": ""
+        "fr": "Données et indicateurs agro-environnementaux au niveau national 1990-2015 (FR)",
+        "de": "Agrarumweltindikatoren und -kennzahlen auf nationaler Ebene 1990-2015 (FR)",
+        "en": "Agro-environmental data and indicators at the national level 1990-2015 (FR)",
+        "it": "Indicatori agro-ambientali e dati agroambientali a livello nazionale 1990-2015 (FR)"
       },
       "dct:license": "terms_by",
       "schema:comment": "ID for this distribution on opendata.swiss: b2e3a299-eb3b-484b-b5db-5a62cbfffe37"
@@ -89,16 +75,10 @@
       "dct:modified": null,
       "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/d6/k20vx5dfbsvl7y7woq1m7jlje6aeed/agrarumweltindikatoren_und-kennzahlen_auf_nationaler_ebene_datenreihe_i.xlsx",
       "dct:title": {
-        "fr": "",
-        "de": "",
-        "en": "",
-        "it": "Indicatori agro-ambientali e dati agroambientali a livello nazionale 1990-2015"
-      },
-      "dct:description": {
-        "fr": "",
-        "de": "",
-        "en": "",
-        "it": ""
+        "fr": "Données et indicateurs agro-environnementaux au niveau national 1990-2015 (IT)",
+        "de": "Agrarumweltindikatoren und -kennzahlen auf nationaler Ebene 1990-2015 (IT)",
+        "en": "Agro-environmental data and indicators at the national level 1990-2015 (IT)",
+        "it": "Indicatori agro-ambientali e dati agroambientali a livello nazionale 1990-2015 (IT)"
       },
       "dct:license": "terms_by",
       "schema:comment": "ID for this distribution on opendata.swiss: 0265babd-bb6f-4446-a5fd-909fd50d8e31"
