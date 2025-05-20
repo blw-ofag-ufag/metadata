@@ -1,5 +1,6 @@
 {
   "dct:identifier": "f6133063-8de9-482d-8af7-9a0033b706ea",
+  "schema:image": "https://fal.media/files/koala/gs2FKBa1oOpMotKhD2FGZ_9119f08e0c2f4496aee9281fea080337.jpg",
   "dct:title": {
     "de": "Testdatenservice FOAG - Deutsch",
     "fr": "Service de données test FOAG - Français",
@@ -12,9 +13,10 @@
     "it": "Questo è un servizio dati test per il catalogo dati interno FOAG",
     "en": "This is a test data service for the internal FOAG data catalog"
   },
+  "dcat:keyword": ["agriculture", "edit-test"],
   "dct:publisher": "BLW-OFAG-UFAG-FOAG",
   "dcat:contactPoint": {
-    "schema:name": "GR-KDT",
+    "schema:name": "GRKDT",
     "schema:email": "kompetenzzentrumdigitaletransformation@blw.admin.ch"
   },
   "dct:accessRights": "RESTRICTED",

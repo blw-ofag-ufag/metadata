@@ -1,5 +1,6 @@
 {
   "dct:identifier": "51c42dfb-76b1-40dd-928a-7d82020cc588",
+  "schema:image": "https://fal.media/files/koala/gs2FKBa1oOpMotKhD2FGZ_9119f08e0c2f4496aee9281fea080337.jpg",
   "dct:title": {
     "de": "Test-Datensatzserie FOAG - Deutsch",
     "fr": "Série de données test FOAG - Français",
@@ -13,7 +14,7 @@
     "en": "Test dataset series for the internal FOAG data catalog"
   },
   "dcat:contactPoint": {
-    "schema:name": "GR-KDT",
+    "schema:name": "GRKDT",
     "schema:email": "kompetenzzentrumdigitaletransformation@blw.admin.ch"
   },
   "dct:publisher": "BLW-OFAG-UFAG-FOAG",
