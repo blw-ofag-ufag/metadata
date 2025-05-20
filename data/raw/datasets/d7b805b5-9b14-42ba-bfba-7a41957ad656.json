@@ -1,6 +1,6 @@
 {
   "dct:identifier": "d7b805b5-9b14-42ba-bfba-7a41957ad656",
-  "schema:image": "https://www.agrarbericht.ch/pictures/16/muft8l0lgym4lxmy1663oxjb6m99x8/bild_vollzug_ab24_foto_acontrol-836.jpg",
+  "schema:image": "https://fal.media/files/kangaroo/MplSG_GNu6ZmK7BwV-Wna_62809d3f79334984b197c233f6abdc49.jpg",
   "dct:title": {
     "de": "Kontrollen auf Ganzjahresbetrieben im Bereich Ökologischer Leistungsnachweis",
     "fr": "Contrôles dans les exploitations à l'année dans le domaine PER",
@@ -62,7 +62,6 @@
       "uri": "https://www.blw.admin.ch/de/anwendung-acontrol"
     }
   ],
-  "dcat:inSeries": "",
   "dcatap:applicableLegislation": [
     "https://www.fedlex.admin.ch/eli/cc/2013/733/de#sec_3"
   ],
@@ -91,8 +90,7 @@
       "dcatap:availability": "AVAILABLE",
       "dct:format": "xlsx",
       "dct:modified": "2024-11-14",
-      "dcat:downloadURL": "https://www.agrarbericht.ch/download/documents/ab/u98nu8us4h9uo0hsrlmjbayvqqi9cy/46_ab24_statacontrol2023_anhaenge_tab_kontrollen_auf_gjb_d.xlsx",
-      "dcat:accessService": ""
+      "dcat:downloadURL": "https://www.agrarbericht.ch/download/documents/ab/u98nu8us4h9uo0hsrlmjbayvqqi9cy/46_ab24_statacontrol2023_anhaenge_tab_kontrollen_auf_gjb_d.xlsx"
     },
     {
       "dct:identifier": "46c41dcc-3af9-4860-9b3b-baf6dbf625c4",
@@ -112,8 +110,7 @@
       "adms:status": "published",
       "dct:format": "xlsx",
       "dct:modified": "2024-11-14",
-      "dcat:downloadURL": "https://www.agrarbericht.ch/download/documents/5a/p56zkomfh2sojbmckcqh2meqt6wpin/46_ab24_statacontrol2023_anhaenge_tab_kontrollen_auf_gjb_f.xlsx",
-      "dcat:accessService": ""
+      "dcat:downloadURL": "https://www.agrarbericht.ch/download/documents/5a/p56zkomfh2sojbmckcqh2meqt6wpin/46_ab24_statacontrol2023_anhaenge_tab_kontrollen_auf_gjb_f.xlsx"
     },
     {
       "dct:identifier": "f28b7600-df4f-486e-8923-531514f9c902",
@@ -133,8 +130,7 @@
       "adms:status": "published",
       "dct:format": "xlsx",
       "dct:modified": "2024-11-14",
-      "dcat:downloadURL": "https://www.agrarbericht.ch/download/documents/f4/x5xak92387a7ft5akfz4tkj1zsdm00/46_ab24_statacontrol2023_anhaenge_tab_kontrollen_auf_gjb_it.xlsx",
-      "dcat:accessService": ""
+      "dcat:downloadURL": "https://www.agrarbericht.ch/download/documents/f4/x5xak92387a7ft5akfz4tkj1zsdm00/46_ab24_statacontrol2023_anhaenge_tab_kontrollen_auf_gjb_it.xlsx"
     }
   ],
   "bv:archivalValue": false

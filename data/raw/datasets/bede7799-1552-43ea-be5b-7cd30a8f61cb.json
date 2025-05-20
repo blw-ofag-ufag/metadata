@@ -1,6 +1,6 @@
 {
   "dct:identifier": "bede7799-1552-43ea-be5b-7cd30a8f61cb",
-  "schema:image": "https://www.agrarbericht.ch/pictures/16/muft8l0lgym4lxmy1663oxjb6m99x8/bild_vollzug_ab24_foto_acontrol-836.jpg",
+  "schema:image": "https://fal.media/files/kangaroo/MplSG_GNu6ZmK7BwV-Wna_62809d3f79334984b197c233f6abdc49.jpg",
   "dct:title": {
     "de": "Kürzungen der Direktzahlungen bei Sömmerungsbetrieben",
     "fr": "Réductions des paiements directs dans les exploitations d'estivage",
@@ -55,7 +55,6 @@
     "dcat:start_date": "2016-01-01",
     "dcat:end_date": "2023-12-31"
   },
-  "bv:abrogation": "",
   "dct:spatial": "Switzerland",
   "dcat:landingPage": "https://www.agrarbericht.ch/de/politik/direktzahlungen/vollzug",
   "foaf:page": [
@@ -64,7 +63,6 @@
       "uri": "https://www.blw.admin.ch/de/anwendung-agis"
     }
   ],
-  "dcat:inSeries": "",
   "dcatap:applicableLegislation": [
     "https://www.fedlex.admin.ch/eli/cc/2013/733/de#sec_2"
   ],
@@ -89,8 +87,7 @@
       "dcatap:availability": "AVAILABLE",
       "dct:format": "xlsx",
       "dct:modified": "2024-11-14",
-      "dcat:downloadURL": "https://www.agrarbericht.ch/download/documents/a3/kbawn3rw2cxyemk6xds9uf1ij0z81d/45_ab24_statdz2023_antab_soeb_kuerzungen_der_dz_d.xlsx",
-      "dcat:accessService": ""
+      "dcat:downloadURL": "https://www.agrarbericht.ch/download/documents/a3/kbawn3rw2cxyemk6xds9uf1ij0z81d/45_ab24_statdz2023_antab_soeb_kuerzungen_der_dz_d.xlsx"
     },
     {
       "dct:identifier": "40b4d12f-26ae-4208-bc13-af55d59b0ac1",
@@ -111,8 +108,7 @@
       "dcatap:availability": "AVAILABLE",
       "dct:format": "xlsx",
       "dct:modified": "2024-11-14",
-      "dcat:downloadURL": "https://www.agrarbericht.ch/download/documents/7b/q5ykln3zc3j65o36bssy7dszmczqm1/45_ab24_statdz2023_antab_soeb_kuerzungen_der_dz_f.xlsx",
-      "dcat:accessService": ""
+      "dcat:downloadURL": "https://www.agrarbericht.ch/download/documents/7b/q5ykln3zc3j65o36bssy7dszmczqm1/45_ab24_statdz2023_antab_soeb_kuerzungen_der_dz_f.xlsx"
     },
     {
       "dct:identifier": "910449a7-95a9-42ae-a5da-e29b2647f846",
@@ -133,8 +129,7 @@
       "dcatap:availability": "AVAILABLE",
       "dct:format": "xlsx",
       "dct:modified": "2024-11-14",
-      "dcat:downloadURL": "https://www.agrarbericht.ch/download/documents/d6/0ne82pgi64eq3w09aw1v6506qy3f0r/45_ab24_statdz2023_antab_soeb_kuerzungen_der_dz_it.xlsx",
-      "dcat:accessService": ""
+      "dcat:downloadURL": "https://www.agrarbericht.ch/download/documents/d6/0ne82pgi64eq3w09aw1v6506qy3f0r/45_ab24_statdz2023_antab_soeb_kuerzungen_der_dz_it.xlsx"
     },
     {
       "dct:identifier": "e3f304b8-f4ac-4496-83f3-e3ac5620daba",
@@ -155,8 +150,7 @@
       "dcatap:availability": "AVAILABLE",
       "dct:format": "xlsx",
       "dct:modified": "2023-11-21",
-      "dcat:downloadURL": "https://2023.agrarbericht.ch/download/documents/de/m2dh743gkjdcobieacmork23nnpo2w/45_ab23_statdz2022_antab_soeb_kuerzungen_der_dz_d.xlsx",
-      "dcat:accessService": ""
+      "dcat:downloadURL": "https://2023.agrarbericht.ch/download/documents/de/m2dh743gkjdcobieacmork23nnpo2w/45_ab23_statdz2022_antab_soeb_kuerzungen_der_dz_d.xlsx"
     },
     {
       "dct:identifier": "e84ddd4d-de1e-42fc-89ab-54a3c30d6686",
@@ -177,8 +171,7 @@
       "dcatap:availability": "AVAILABLE",
       "dct:format": "xlsx",
       "dct:modified": "2023-11-21",
-      "dcat:downloadURL": "https://2023.agrarbericht.ch/download/documents/34/s14i3xjngna8ipw6q0484jl7l2w12d/45_ab23_statdz2022_antab_soeb_kuerzungen_der_dz_f.xlsx",
-      "dcat:accessService": ""
+      "dcat:downloadURL": "https://2023.agrarbericht.ch/download/documents/34/s14i3xjngna8ipw6q0484jl7l2w12d/45_ab23_statdz2022_antab_soeb_kuerzungen_der_dz_f.xlsx"
     },
     {
       "dct:identifier": "ddfaf37e-74ff-460a-9fb3-7012da9e915c",
@@ -199,8 +192,7 @@
       "dcatap:availability": "AVAILABLE",
       "dct:format": "xlsx",
       "dct:modified": "2023-11-21",
-      "dcat:downloadURL": "https://2023.agrarbericht.ch/download/documents/c1/fu5h0llkp70190um5g82pslrbdp7kt/45_ab23_statdz2022_antab_soeb_kuerzungen_der_dz_i.xlsx",
-      "dcat:accessService": ""
+      "dcat:downloadURL": "https://2023.agrarbericht.ch/download/documents/c1/fu5h0llkp70190um5g82pslrbdp7kt/45_ab23_statdz2022_antab_soeb_kuerzungen_der_dz_i.xlsx"
     },
     {
       "dct:identifier": "f300d9f7-85bb-4e88-b06f-3cdab5703831",
@@ -221,8 +213,7 @@
       "dcatap:availability": "AVAILABLE",
       "dct:format": "xlsx",
       "dct:modified": "2022-11-21",
-      "dcat:downloadURL": "https://2022.agrarbericht.ch/download/documents/b5/wc9c28uv78xe414wm0cnpp1y133vh9/45_ab22_statdz2021_antab_soeb_kuerzungen_der_dz_d.xlsx",
-      "dcat:accessService": ""
+      "dcat:downloadURL": "https://2022.agrarbericht.ch/download/documents/b5/wc9c28uv78xe414wm0cnpp1y133vh9/45_ab22_statdz2021_antab_soeb_kuerzungen_der_dz_d.xlsx"
     },
     {
       "dct:identifier": "44a5c71a-3a46-4d27-9dc9-dece4c4a4a23",
@@ -243,8 +234,7 @@
       "dcatap:availability": "AVAILABLE",
       "dct:format": "xlsx",
       "dct:modified": "2022-11-21",
-      "dcat:downloadURL": "https://2022.agrarbericht.ch/download/documents/6c/74t4i4yo2vtatwmqc7wi6g8jv2xu3r/45_ab22_statdz2021_antab_soeb_kuerzungen_der_dz_f.xlsx",
-      "dcat:accessService": ""
+      "dcat:downloadURL": "https://2022.agrarbericht.ch/download/documents/6c/74t4i4yo2vtatwmqc7wi6g8jv2xu3r/45_ab22_statdz2021_antab_soeb_kuerzungen_der_dz_f.xlsx"
     },
     {
       "dct:identifier": "7a3134e0-4e48-435f-8933-86ad0366fff0",
@@ -265,8 +255,7 @@
       "dcatap:availability": "AVAILABLE",
       "dct:format": "xlsx",
       "dct:modified": "2022-11-21",
-      "dcat:downloadURL": "https://2022.agrarbericht.ch/download/documents/0b/aqdsi5a2ep7zc2xfpdnzgef97b2um1/45_ab22_statdz2021_antab_soeb_kuerzungen_der_dz_i.xlsx",
-      "dcat:accessService": ""
+      "dcat:downloadURL": "https://2022.agrarbericht.ch/download/documents/0b/aqdsi5a2ep7zc2xfpdnzgef97b2um1/45_ab22_statdz2021_antab_soeb_kuerzungen_der_dz_i.xlsx"
     },
     {
       "dct:identifier": "c8ec274c-9766-4399-9a69-42ea646c4808",
@@ -287,8 +276,7 @@
       "dcatap:availability": "AVAILABLE",
       "dct:format": "xlsx",
       "dct:modified": "2021-11-21",
-      "dcat:downloadURL": "https://2021.agrarbericht.ch/download/documents/89/1qqxs6img560yp80kzuryzjfqweunq/45_ab21_statdz2020_anhaenge_tab_soeb_kuerzungen_der_dz_d.xlsx",
-      "dcat:accessService": ""
+      "dcat:downloadURL": "https://2021.agrarbericht.ch/download/documents/89/1qqxs6img560yp80kzuryzjfqweunq/45_ab21_statdz2020_anhaenge_tab_soeb_kuerzungen_der_dz_d.xlsx"
     },
     {
       "dct:identifier": "96819046-a2fb-4766-b2e9-673dccbb8fc7",
@@ -309,8 +297,7 @@
       "dcatap:availability": "AVAILABLE",
       "dct:format": "xlsx",
       "dct:modified": "2021-11-21",
-      "dcat:downloadURL": "https://2021.agrarbericht.ch/download/documents/5f/gty0hu1curfm43au765yn925reymtr/45_ab21_statdz2020_anhaenge_tab_soeb_kuerzungen_der_dz_f_korr.xlsx",
-      "dcat:accessService": ""
+      "dcat:downloadURL": "https://2021.agrarbericht.ch/download/documents/5f/gty0hu1curfm43au765yn925reymtr/45_ab21_statdz2020_anhaenge_tab_soeb_kuerzungen_der_dz_f_korr.xlsx"
     },
     {
       "dct:identifier": "d0cba551-9929-4c11-876d-8528771189bb",
@@ -331,8 +318,7 @@
       "dcatap:availability": "AVAILABLE",
       "dct:format": "xlsx",
       "dct:modified": "2021-11-21",
-      "dcat:downloadURL": "https://2021.agrarbericht.ch/download/documents/92/0f5ii48sej0ys3txncaixrqrkp8bbb/45_ab21_statdz2020_anhaenge_tab_soeb_kuerzungen_der_dz_i_korr.xlsx",
-      "dcat:accessService": ""
+      "dcat:downloadURL": "https://2021.agrarbericht.ch/download/documents/92/0f5ii48sej0ys3txncaixrqrkp8bbb/45_ab21_statdz2020_anhaenge_tab_soeb_kuerzungen_der_dz_i_korr.xlsx"
     },
     {
       "dct:identifier": "dfb70ec3-06b0-43f1-99eb-6243afa8e6e1",
@@ -353,8 +339,7 @@
       "dcatap:availability": "AVAILABLE",
       "dct:format": "xlsx",
       "dct:modified": "2020-11-21",
-      "dcat:downloadURL": "https://2020.agrarbericht.ch/download/documents/75/tb8wawgi3lhx7760yyfybju5ccbn0f/45_ab20_statdz2019_anhaenge_tab_soeb_kuerzungen_der_dz_d.xlsx",
-      "dcat:accessService": ""
+      "dcat:downloadURL": "https://2020.agrarbericht.ch/download/documents/75/tb8wawgi3lhx7760yyfybju5ccbn0f/45_ab20_statdz2019_anhaenge_tab_soeb_kuerzungen_der_dz_d.xlsx"
     },
     {
       "dct:identifier": "2ef6fdfd-43d1-4fef-830b-6f5da3f480ec",
@@ -375,8 +360,7 @@
       "dcatap:availability": "AVAILABLE",
       "dct:format": "xlsx",
       "dct:modified": "2020-11-21",
-      "dcat:downloadURL": "https://2020.agrarbericht.ch/download/documents/fa/jo4vuu617cuu9hcc17dgbnq1rlm1h9/45_ab20_statdz2019_anhaenge_tab_soeb_kuerzungen_der_dz_f_korr.xlsx",
-      "dcat:accessService": ""
+      "dcat:downloadURL": "https://2020.agrarbericht.ch/download/documents/fa/jo4vuu617cuu9hcc17dgbnq1rlm1h9/45_ab20_statdz2019_anhaenge_tab_soeb_kuerzungen_der_dz_f_korr.xlsx"
     },
     {
       "dct:identifier": "1ec82102-50e0-4e02-ba8e-5898480b754a",
@@ -397,8 +381,7 @@
       "dcatap:availability": "AVAILABLE",
       "dct:format": "xlsx",
       "dct:modified": "2020-11-21",
-      "dcat:downloadURL": "https://2020.agrarbericht.ch/download/documents/73/tivv45ta8gszyixzzja3qzdcj9ujuk/45_ab20_statdz2019_anhaenge_tab_soeb_kuerzungen_der_dz_i_korr.xlsx",
-      "dcat:accessService": ""
+      "dcat:downloadURL": "https://2020.agrarbericht.ch/download/documents/73/tivv45ta8gszyixzzja3qzdcj9ujuk/45_ab20_statdz2019_anhaenge_tab_soeb_kuerzungen_der_dz_i_korr.xlsx"
     },
     {
       "dct:identifier": "c1720ac5-f682-40b6-a9c0-24eff397bea0",
@@ -419,8 +402,7 @@
       "dcatap:availability": "AVAILABLE",
       "dct:format": "xlsx",
       "dct:modified": "2019-11-21",
-      "dcat:downloadURL": "https://2019.agrarbericht.ch/download/documents/ca/0037nsu91m6lbhz3u0yc1y5x59o5ey/45_ab19_statdz2018_anhaenge_tab_soeb_kuerzungen_der_dz_d_1.xlsx",
-      "dcat:accessService": ""
+      "dcat:downloadURL": "https://2019.agrarbericht.ch/download/documents/ca/0037nsu91m6lbhz3u0yc1y5x59o5ey/45_ab19_statdz2018_anhaenge_tab_soeb_kuerzungen_der_dz_d_1.xlsx"
     },
     {
       "dct:identifier": "973eeb83-3b50-425f-9c86-49ebbb60660e",
@@ -441,8 +423,7 @@
       "dcatap:availability": "AVAILABLE",
       "dct:format": "xlsx",
       "dct:modified": "2019-11-21",
-      "dcat:downloadURL": "https://2019.agrarbericht.ch/download/documents/5d/4dt5k8bxjckf0xiaylx7cwfhp1px4r/45_ab19_statdz2018_anhaenge_tab_soeb_kuerzungen_der_dz_f.xlsx",
-      "dcat:accessService": ""
+      "dcat:downloadURL": "https://2019.agrarbericht.ch/download/documents/5d/4dt5k8bxjckf0xiaylx7cwfhp1px4r/45_ab19_statdz2018_anhaenge_tab_soeb_kuerzungen_der_dz_f.xlsx"
     },
     {
       "dct:identifier": "fb6264f6-e8d4-4679-8634-67c37a3c1f8c",
@@ -463,8 +444,7 @@
       "dcatap:availability": "AVAILABLE",
       "dct:format": "xlsx",
       "dct:modified": "2019-11-21",
-      "dcat:downloadURL": "https://2019.agrarbericht.ch/download/documents/24/n83v571bvzwcrdfcdchhrq7bzf4kar/45_ab19_statdz2018_anhaenge_tab_soeb_kuerzungen_der_dz_i.xlsx",
-      "dcat:accessService": ""
+      "dcat:downloadURL": "https://2019.agrarbericht.ch/download/documents/24/n83v571bvzwcrdfcdchhrq7bzf4kar/45_ab19_statdz2018_anhaenge_tab_soeb_kuerzungen_der_dz_i.xlsx"
     },
     {
       "dct:identifier": "95e31a75-1c03-46bb-83b7-181df4336aef",
@@ -485,8 +465,7 @@
       "dcatap:availability": "AVAILABLE",
       "dct:format": "xlsx",
       "dct:modified": "2018-11-21",
-      "dcat:downloadURL": "https://2018.agrarbericht.ch/download/documents/ee/qqe0oas7wj2i6t4vsbuk2dhxk3tzh1/45_ab18_statdz2017_anhaenge_tab_soeb_kuerzungen_der_dz_d_korr.xlsx",
-      "dcat:accessService": ""
+      "dcat:downloadURL": "https://2018.agrarbericht.ch/download/documents/ee/qqe0oas7wj2i6t4vsbuk2dhxk3tzh1/45_ab18_statdz2017_anhaenge_tab_soeb_kuerzungen_der_dz_d_korr.xlsx"
     },
     {
       "dct:identifier": "4d907231-0ed5-4a2a-b62e-4aa90eef7db3",
@@ -507,8 +486,7 @@
       "dcatap:availability": "AVAILABLE",
       "dct:format": "xlsx",
       "dct:modified": "2018-11-21",
-      "dcat:downloadURL": "https://2018.agrarbericht.ch/download/documents/2e/mnxllqaktv2ebhwj8rddambqeesnqr/45_ab18_statdz2017_anhaenge_tab_soeb_kuerzungen_der_dz_f_korr.xlsx",
-      "dcat:accessService": ""
+      "dcat:downloadURL": "https://2018.agrarbericht.ch/download/documents/2e/mnxllqaktv2ebhwj8rddambqeesnqr/45_ab18_statdz2017_anhaenge_tab_soeb_kuerzungen_der_dz_f_korr.xlsx"
     },
     {
       "dct:identifier": "6dd967a8-8fea-4fa2-b439-8c9122d78f82",
@@ -529,8 +507,7 @@
       "dcatap:availability": "AVAILABLE",
       "dct:format": "xlsx",
       "dct:modified": "2018-11-21",
-      "dcat:downloadURL": "https://2018.agrarbericht.ch/download/documents/80/44u61876owdap69jy1dx0mamxg1q7i/45_ab18_statdz2017_anhaenge_tab_soeb_kuerzungen_der_dz_i_korr.xlsx",
-      "dcat:accessService": ""
+      "dcat:downloadURL": "https://2018.agrarbericht.ch/download/documents/80/44u61876owdap69jy1dx0mamxg1q7i/45_ab18_statdz2017_anhaenge_tab_soeb_kuerzungen_der_dz_i_korr.xlsx"
     },
     {
       "dct:identifier": "4cc9c276-840e-4b86-924b-12eacc253222",
@@ -551,8 +528,7 @@
       "dcatap:availability": "AVAILABLE",
       "dct:format": "xlsx",
       "dct:modified": "2017-11-21",
-      "dcat:downloadURL": "https://2017.agrarbericht.ch/download/documents/63/m8an3xptzum52k4268bmz8trp7cndw/45_ab17_statdz2016_anhaenge_tab_soeb_kuerzungen_der_dz_d.xlsx",
-      "dcat:accessService": ""
+      "dcat:downloadURL": "https://2017.agrarbericht.ch/download/documents/63/m8an3xptzum52k4268bmz8trp7cndw/45_ab17_statdz2016_anhaenge_tab_soeb_kuerzungen_der_dz_d.xlsx"
     },
     {
       "dct:identifier": "2dd2b8c3-c799-485e-b497-a7403feb6d99",
@@ -573,8 +549,7 @@
       "dcatap:availability": "AVAILABLE",
       "dct:format": "xlsx",
       "dct:modified": "2017-11-21",
-      "dcat:downloadURL": "https://2017.agrarbericht.ch/download/documents/5d/5gey6l6yj4owlqjwjexl55clr8ewg4/45_ab17_statdz2016_anhaenge_tab_sb_krzungen_der_dz_f.xlsx",
-      "dcat:accessService": ""
+      "dcat:downloadURL": "https://2017.agrarbericht.ch/download/documents/5d/5gey6l6yj4owlqjwjexl55clr8ewg4/45_ab17_statdz2016_anhaenge_tab_sb_krzungen_der_dz_f.xlsx"
     },
     {
       "dct:identifier": "77e1c29b-ca9c-450c-bbfb-3144cf4f4091",
@@ -595,8 +570,7 @@
       "dcatap:availability": "AVAILABLE",
       "dct:format": "xlsx",
       "dct:modified": "2017-11-21",
-      "dcat:downloadURL": "https://2017.agrarbericht.ch/download/documents/34/y457w5llmcpcswf3o5vsyeylockbrj/45_ab17_statdz2016_anhaenge_tab_sb_krzungen_der_dz_i.xlsx",
-      "dcat:accessService": ""
+      "dcat:downloadURL": "https://2017.agrarbericht.ch/download/documents/34/y457w5llmcpcswf3o5vsyeylockbrj/45_ab17_statdz2016_anhaenge_tab_sb_krzungen_der_dz_i.xlsx"
     }
   ],
   "bv:archivalValue": false
