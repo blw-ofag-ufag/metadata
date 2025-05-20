@@ -8032,6 +8032,78 @@
         "quality": 2289.3333333333335
     },
     {
+        "class": "dataServices",
+        "dct:identifier": "f6133063-8de9-482d-8af7-9a0033b706ea",
+        "schema:image": "https://fal.media/files/koala/gs2FKBa1oOpMotKhD2FGZ_9119f08e0c2f4496aee9281fea080337.jpg",
+        "dct:title": {
+            "de": "Testdatenservice FOAG - Deutsch",
+            "fr": "Service de données test FOAG - Français",
+            "it": "Servizio dati test FOAG - Italiano",
+            "en": "Test data service FOAG - English"
+        },
+        "dct:description": {
+            "de": "Dies ist ein Testdatenservice für den internen FOAG-Datenkatalog",
+            "fr": "Ceci est un service de données test pour le catalogue de données interne FOAG",
+            "it": "Questo è un servizio dati test per il catalogo dati interno FOAG",
+            "en": "This is a test data service for the internal FOAG data catalog"
+        },
+        "dcat:keyword": [
+            "agriculture",
+            "edit-test"
+        ],
+        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+        "dcat:contactPoint": {
+            "schema:name": "GRKDT",
+            "schema:email": "kompetenzzentrumdigitaletransformation@blw.admin.ch"
+        },
+        "dct:accessRights": "RESTRICTED",
+        "dcat:endopointURL": "https://api.test.foag.ch/v1",
+        "adms:status": "workInProgress",
+        "dcat:landingPage": "https://data.foag.test.ch/landing",
+        "dcat:servesDataset": [
+            "c41ed3f8-507f-43b1-bf9e-9b3d21495a0c",
+            "91bc21d3-e08f-4794-a1e6-fd590aeddbe1"
+        ],
+        "dcat:endpointDescription": "https://docs.foag.test.ch/swagger",
+        "foaf:page": [
+            {
+                "alias": "Technical Documentation",
+                "uri": "https://docs.foag.test.ch"
+            },
+            {
+                "alias": "Support Portal",
+                "uri": "https://help.foag.test.ch"
+            }
+        ],
+        "schema:comment": "Test entry for FOAG data catalog validation",
+        "dcat:version": "1.0.0",
+        "adms:versionNotes": {
+            "de": "Testversion für FOAG-Katalog",
+            "fr": "Version test pour catalogue FOAG",
+            "it": "Versione test per catalogo FOAG",
+            "en": "Test version for FOAG catalog"
+        },
+        "dct:conformsTo": "ISO 2001-2024 Test Standard",
+        "dcatap:applicableLegislation": [
+            "https://legal.test.ch/art12",
+            "https://legal.test.ch/art34"
+        ],
+        "bv:externalCatalogs": [
+            {
+                "dcat:catalog": "I14Y",
+                "dct:identifier": "EXT-12345"
+            },
+            {
+                "dcat:catalog": "I14Y",
+                "dct:identifier": "EXT-67890"
+            }
+        ],
+        "businessDataOwner": null,
+        "schemaViolations": 0,
+        "schemaViolationMessages": [],
+        "quality": 2174.0
+    },
+    {
         "class": "dataset",
         "dct:identifier": "13cd3427-5ddb-4d97-bab6-6be0519a6bf6",
         "dct:title": {
@@ -8178,75 +8250,9 @@
         "quality": 2025.6666666666667
     },
     {
-        "class": "dataServices",
-        "dct:identifier": "f6133063-8de9-482d-8af7-9a0033b706ea",
-        "dct:title": {
-            "de": "Testdatenservice FOAG - Deutsch",
-            "fr": "Service de données test FOAG - Français",
-            "it": "Servizio dati test FOAG - Italiano",
-            "en": "Test data service FOAG - English"
-        },
-        "dct:description": {
-            "de": "Dies ist ein Testdatenservice für den internen FOAG-Datenkatalog",
-            "fr": "Ceci est un service de données test pour le catalogue de données interne FOAG",
-            "it": "Questo è un servizio dati test per il catalogo dati interno FOAG",
-            "en": "This is a test data service for the internal FOAG data catalog"
-        },
-        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
-        "dcat:contactPoint": {
-            "schema:name": "GR-KDT",
-            "schema:email": "kompetenzzentrumdigitaletransformation@blw.admin.ch"
-        },
-        "dct:accessRights": "RESTRICTED",
-        "dcat:endopointURL": "https://api.test.foag.ch/v1",
-        "adms:status": "workInProgress",
-        "dcat:landingPage": "https://data.foag.test.ch/landing",
-        "dcat:servesDataset": [
-            "c41ed3f8-507f-43b1-bf9e-9b3d21495a0c",
-            "91bc21d3-e08f-4794-a1e6-fd590aeddbe1"
-        ],
-        "dcat:endpointDescription": "https://docs.foag.test.ch/swagger",
-        "foaf:page": [
-            {
-                "alias": "Technical Documentation",
-                "uri": "https://docs.foag.test.ch"
-            },
-            {
-                "alias": "Support Portal",
-                "uri": "https://help.foag.test.ch"
-            }
-        ],
-        "schema:comment": "Test entry for FOAG data catalog validation",
-        "dcat:version": "1.0.0",
-        "adms:versionNotes": {
-            "de": "Testversion für FOAG-Katalog",
-            "fr": "Version test pour catalogue FOAG",
-            "it": "Versione test per catalogo FOAG",
-            "en": "Test version for FOAG catalog"
-        },
-        "dct:conformsTo": "ISO 2001-2024 Test Standard",
-        "dcatap:applicableLegislation": [
-            "https://legal.test.ch/art12",
-            "https://legal.test.ch/art34"
-        ],
-        "bv:externalCatalogs": [
-            {
-                "dcat:catalog": "I14Y",
-                "dct:identifier": "EXT-12345"
-            },
-            {
-                "dcat:catalog": "I14Y",
-                "dct:identifier": "EXT-67890"
-            }
-        ],
-        "businessDataOwner": null,
-        "schemaViolations": 0,
-        "schemaViolationMessages": [],
-        "quality": 2017.0
-    },
-    {
         "class": "dataset",
         "dct:identifier": "c41ed3f8-507f-43b1-bf9e-9b3d21495a0c",
+        "schema:image": "https://fal.media/files/koala/gs2FKBa1oOpMotKhD2FGZ_9119f08e0c2f4496aee9281fea080337.jpg",
         "dct:title": {
             "de": "Vollständige dataset für Testzwecke TEST 3",
             "fr": "Dataset complet pour tests TEST 3",
@@ -8392,11 +8398,12 @@
             "None of [{'prov:agent': 'p-1ZPP7KQSW', 'schema:name': 'Ambrogio Foletti', 'schema:email': 'ambrogio.foletti@blw.admin.ch', 'dcat:hadRole': 'dataSteward'}, {'prov:agent': 'p-1ZFWFFNP6', 'schema:name': 'Damian Oswald', 'schema:email': 'damian.oswald@blw.admin.ch', 'dcat:hadRole': 'dataSteward'}, {'prov:agent': 'p-1YVS771WP', 'schema:name': 'Christian Wilda', 'schema:email': 'christian.wilda@blw.admin.ch', 'dcat:hadRole': 'dataCustodian'}, {'prov:agent': 'p-1ZLWBXSJD', 'schema:name': 'Pascal Hurni', 'schema:email': 'pascal.hurni@blw.admin.ch', 'dcat:hadRole': 'dataCustodian'}] are valid under the given schema",
             "'' is not of type 'array', 'null'"
         ],
-        "quality": 1856.3333333333333
+        "quality": 1893.0
     },
     {
         "class": "dataset",
         "dct:identifier": "74fe0fa3-3dd2-44f4-a7f6-d9bb2c542920",
+        "schema:image": "https://fal.media/files/koala/gs2FKBa1oOpMotKhD2FGZ_9119f08e0c2f4496aee9281fea080337.jpg",
         "dct:title": {
             "de": "Vollständige dataset für Testzwecke TEST 2",
             "fr": "Dataset complet pour tests TEST 2",
@@ -8540,11 +8547,12 @@
             "'' is not of type 'array', 'null'",
             "'' is not of type 'array', 'null'"
         ],
-        "quality": 1845.0
+        "quality": 1881.6666666666667
     },
     {
         "class": "dataset",
         "dct:identifier": "91bc21d3-e08f-4794-a1e6-fd590aeddbe1",
+        "schema:image": "https://fal.media/files/koala/gs2FKBa1oOpMotKhD2FGZ_9119f08e0c2f4496aee9281fea080337.jpg",
         "dct:title": {
             "de": "Vollständige dataset für Testzwecke",
             "fr": "Dataset complet pour tests",
@@ -8688,7 +8696,65 @@
             "'' is not of type 'array', 'null'",
             "'' is not of type 'array', 'null'"
         ],
-        "quality": 1828.3333333333333
+        "quality": 1865.0
+    },
+    {
+        "class": "datasetSeries",
+        "dct:identifier": "51c42dfb-76b1-40dd-928a-7d82020cc588",
+        "schema:image": "https://fal.media/files/koala/gs2FKBa1oOpMotKhD2FGZ_9119f08e0c2f4496aee9281fea080337.jpg",
+        "dct:title": {
+            "de": "Test-Datensatzserie FOAG - Deutsch",
+            "fr": "Série de données test FOAG - Français",
+            "it": "Serie di dati test FOAG - Italiano",
+            "en": "Test dataset series FOAG - English"
+        },
+        "dct:description": {
+            "de": "Testdatensatzserie für den internen FOAG-Datenkatalog",
+            "fr": "Série de données test pour le catalogue de données interne FOAG",
+            "it": "Serie di dati test per il catalogo dati interno FOAG",
+            "en": "Test dataset series for the internal FOAG data catalog"
+        },
+        "dcat:contactPoint": {
+            "schema:name": "GRKDT",
+            "schema:email": "kompetenzzentrumdigitaletransformation@blw.admin.ch"
+        },
+        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+        "adms:status": "published",
+        "bv:classification": "internal",
+        "bv:personalData": "personalData",
+        "dct:creator": {
+            "prov:agent": "AGNT-789",
+            "schema:name": "Dr. Test Curator",
+            "schema:email": "curator@foag.test.ch"
+        },
+        "dcat:version": "1.0.0",
+        "dcat:dataset": [
+            "74fe0fa3-3dd2-44f4-a7f6-d9bb2c542920",
+            "c41ed3f8-507f-43b1-bf9e-9b3d21495a0c"
+        ],
+        "foaf:page": [
+            {
+                "alias": "Series Documentation",
+                "uri": "https://docs.foag.test.ch/series"
+            },
+            {
+                "alias": "Validation Report",
+                "uri": "https://reports.foag.test.ch/series-456"
+            }
+        ],
+        "schema:comment": "Test dataset series entry for FOAG validation",
+        "dcat:keyword": [
+            "agriculture",
+            "edit-test"
+        ],
+        "dcatap:applicableLegislation": [
+            "https://legal.test.ch/series-art12",
+            "https://legal.test.ch/series-art34"
+        ],
+        "businessDataOwner": null,
+        "schemaViolations": 0,
+        "schemaViolationMessages": [],
+        "quality": 1705.0
     },
     {
         "class": "dataset",
@@ -8811,63 +8877,6 @@
             "'agricultureFisheriesForestryFood' is not one of ['', 'work', 'construction', 'population', 'education', 'energy', 'finances', 'geography', 'legislation', 'health', 'trade', 'industry', 'crime', 'culture', 'agriculture', 'mobility', 'public-order', 'politics', 'prices', 'territory', 'social-security', 'statistical-basis', 'tourism', 'administration', 'national-economy']"
         ],
         "quality": 1679.3333333333333
-    },
-    {
-        "class": "datasetSeries",
-        "dct:identifier": "51c42dfb-76b1-40dd-928a-7d82020cc588",
-        "dct:title": {
-            "de": "Test-Datensatzserie FOAG - Deutsch",
-            "fr": "Série de données test FOAG - Français",
-            "it": "Serie di dati test FOAG - Italiano",
-            "en": "Test dataset series FOAG - English"
-        },
-        "dct:description": {
-            "de": "Testdatensatzserie für den internen FOAG-Datenkatalog",
-            "fr": "Série de données test pour le catalogue de données interne FOAG",
-            "it": "Serie di dati test per il catalogo dati interno FOAG",
-            "en": "Test dataset series for the internal FOAG data catalog"
-        },
-        "dcat:contactPoint": {
-            "schema:name": "GR-KDT",
-            "schema:email": "kompetenzzentrumdigitaletransformation@blw.admin.ch"
-        },
-        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
-        "adms:status": "published",
-        "bv:classification": "internal",
-        "bv:personalData": "personalData",
-        "dct:creator": {
-            "prov:agent": "AGNT-789",
-            "schema:name": "Dr. Test Curator",
-            "schema:email": "curator@foag.test.ch"
-        },
-        "dcat:version": "1.0.0",
-        "dcat:dataset": [
-            "74fe0fa3-3dd2-44f4-a7f6-d9bb2c542920",
-            "c41ed3f8-507f-43b1-bf9e-9b3d21495a0c"
-        ],
-        "foaf:page": [
-            {
-                "alias": "Series Documentation",
-                "uri": "https://docs.foag.test.ch/series"
-            },
-            {
-                "alias": "Validation Report",
-                "uri": "https://reports.foag.test.ch/series-456"
-            }
-        ],
-        "schema:comment": "Test dataset series entry for FOAG validation",
-        "dcat:keyword": [
-            "agriculture",
-            "edit-test"
-        ],
-        "dcatap:applicableLegislation": [
-            "https://legal.test.ch/series-art12",
-            "https://legal.test.ch/series-art34"
-        ],
-        "businessDataOwner": null,
-        "schemaViolations": 0,
-        "schemaViolationMessages": [],
-        "quality": 1596.0
     },
     {
         "class": "dataset",
