@@ -119,7 +119,7 @@
         "dcatap:applicableLegislation": [
             "https://www.fedlex.admin.ch/eli/cc/2013/765/de"
         ],
-        "bv:itSystem": "https://agriculture.ld.admin.ch/system-map/SYS003",
+        "bv:itSystem": "https://agriculture.ld.admin.ch/system-map/SvDlxaJ5YMkuZGH6k",
         "dcat:distribution": [
             {
                 "dct:identifier": "9fddaaeb-478d-47f9-9e5a-40eb1eb15452",
@@ -168,7 +168,7 @@
         "businessDataOwner": "p-5367735",
         "schemaViolations": 0,
         "schemaViolationMessages": [],
-        "quality": 8242.0
+        "quality": 8253.0
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -214,7 +214,7 @@
         "dcatap:applicableLegislation": [
             "https://www.fedlex.admin.ch/eli/cc/2013/765/de"
         ],
-        "bv:itSystem": "https://agriculture.ld.admin.ch/system-map/SYS003",
+        "bv:itSystem": "https://agriculture.ld.admin.ch/system-map/SvDlxaJ5YMkuZGH6k",
         "dcat:distribution": [
             {
                 "dct:identifier": "b1bc44e7-a38b-4015-8666-8def354f82a4",
@@ -263,7 +263,7 @@
         "businessDataOwner": "p-5367735",
         "schemaViolations": 0,
         "schemaViolationMessages": [],
-        "quality": 7528.0
+        "quality": 7539.0
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -305,7 +305,7 @@
         "dcatap:applicableLegislation": [
             "https://www.fedlex.admin.ch/eli/cc/1995/3716_3716_3716/de#art_22"
         ],
-        "bv:itSystem": "https://agriculture.ld.admin.ch/system-map/SYS003",
+        "bv:itSystem": "https://agriculture.ld.admin.ch/system-map/SvDlxaJ5YMkuZGH6k",
         "dcat:distribution": [
             {
                 "dct:identifier": "7f82331a-eb8a-4890-b8de-e4624ba4af4c",
@@ -354,7 +354,7 @@
         "businessDataOwner": "p-5367735",
         "schemaViolations": 0,
         "schemaViolationMessages": [],
-        "quality": 6985.0
+        "quality": 6996.0
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -631,7 +631,7 @@
         "dcatap:applicableLegislation": [
             "https://www.fedlex.admin.ch/eli/cc/2013/733/de#a27"
         ],
-        "bv:itSystem": "https://agriculture.ld.admin.ch/system-map/SYS008",
+        "bv:itSystem": "https://agriculture.ld.admin.ch/system-map/SnM0KdtMBmniYOY8f",
         "dcat:distribution": [
             {
                 "dct:identifier": "5f4f43c6-0549-46df-9319-df163cba47d5",
@@ -678,7 +678,7 @@
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']"
         ],
-        "quality": 4915.5
+        "quality": 4921.0
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -921,7 +921,7 @@
         "dcatap:applicableLegislation": [
             "https://www.fedlex.admin.ch/eli/cc/2013/765/de"
         ],
-        "bv:itSystem": "https://agriculture.ld.admin.ch/system-map/SYS003",
+        "bv:itSystem": "https://agriculture.ld.admin.ch/system-map/SvDlxaJ5YMkuZGH6k",
         "dcat:distribution": [
             {
                 "dct:identifier": "df0a6506-24fd-4ca7-b1d0-aad017c9ab3f",
@@ -970,7 +970,7 @@
         "businessDataOwner": "p-5367735",
         "schemaViolations": 0,
         "schemaViolationMessages": [],
-        "quality": 4678.0
+        "quality": 4689.0
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -2530,7 +2530,7 @@
         "dcatap:applicableLegislation": [
             "https://raw.githubusercontent.com/aNotWorkingRequest"
         ],
-        "bv:itSystem": "https://agriculture.ld.admin.ch/system-map/SYS042",
+        "bv:itSystem": "https://agriculture.ld.admin.ch/system-map/SQfl1MHnNpsAj3WP",
         "dcat:distribution": [
             {
                 "dct:identifier": "bdd9a81c-c3f0-4696-8cb7-594bbf4e972e",
@@ -2590,7 +2590,7 @@
             "'environment' is not one of ['', 'work', 'construction', 'population', 'education', 'energy', 'finances', 'geography', 'legislation', 'health', 'trade', 'industry', 'crime', 'culture', 'agriculture', 'mobility', 'public-order', 'politics', 'prices', 'territory', 'social-security', 'statistical-basis', 'tourism', 'administration', 'national-economy']",
             "'agricultureFisheriesForestryFood' is not one of ['', 'work', 'construction', 'population', 'education', 'energy', 'finances', 'geography', 'legislation', 'health', 'trade', 'industry', 'crime', 'culture', 'agriculture', 'mobility', 'public-order', 'politics', 'prices', 'territory', 'social-security', 'statistical-basis', 'tourism', 'administration', 'national-economy']"
         ],
-        "quality": 1679.3333333333333
+        "quality": 1682.6666666666667
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -2645,7 +2645,7 @@
         "dcatap:applicableLegislation": [
             "https://www.fedlex.admin.ch/eli/cc/2013/733/de#sec_3"
         ],
-        "bv:itSystem": "Acontrol",
+        "bv:itSystem": "https://agriculture.ld.admin.ch/system-map/S9VcxLSoIIwQjoexY",
         "schema:comment": "The tables have been verified by the cantonal offices for agriculture.",
         "bv:archivalValue": false,
         "businessDataOwner": " p-8397553",
@@ -2653,7 +2653,7 @@
         "schemaViolationMessages": [
             "'dct:issued' is a required property"
         ],
-        "quality": 1547.0
+        "quality": 1573.0
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -12960,7 +12960,7 @@
             "de": "Programme/Label",
             "fr": "Programmes/labels",
             "it": "Programmi/label",
-            "en": ""
+            "en": "Programs/labels"
         },
         "dct:description": {
             "de": "Beschreibt unvollständige Liste mit privatrechtlichen Labels im Bereich Landwirtschaft und Lebensmittel. Darin enthalten sind die in der Schweiz am weitesten verbreiten Labels von Produkten, die einen Flächenbezug haben.",
@@ -12996,7 +12996,7 @@
         "dcatap:applicableLegislation": [
             "https://www.fedlex.admin.ch/eli/cc/2013/765/de"
         ],
-        "bv:itSystem": "https://agriculture.ld.admin.ch/system-map/SYS003",
+        "bv:itSystem": "https://agriculture.ld.admin.ch/system-map/SvDlxaJ5YMkuZGH6k",
         "dcat:distribution": [
             {
                 "dct:identifier": "a17f42a4-8d86-40e7-9e05-54eb3d932aa4",
@@ -13047,7 +13047,7 @@
         "schemaViolationMessages": [
             "'Programme/Label' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
             "'Programmi/label' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
-            "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
+            "'Programs/labels' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
             "'Programme/Label' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
             "'Programmi/label' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
@@ -13055,7 +13055,7 @@
             "'Programmi/label' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'"
         ],
-        "quality": 469.0
+        "quality": 471.6
     },
     {
         "rdf:type": "dcat:Dataset",
