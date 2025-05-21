@@ -64,7 +64,7 @@
   "dcatap:applicableLegislation": [
     "https://www.fedlex.admin.ch/eli/cc/2013/733/de#sec_3"
   ],
-  "bv:itSystem": "Acontrol",
+  "bv:itSystem": "https://agriculture.ld.admin.ch/system-map/S9VcxLSoIIwQjoexY",
   "schema:comment": "The tables have been verified by the cantonal offices for agriculture.",
   "bv:archivalValue": false
 }
