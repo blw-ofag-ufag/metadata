@@ -2,17 +2,17 @@
 
 This script walks through three raw‑metadata directories
 
-* ``data/raw/datasets``       → class **dataset**
-* ``data/raw/dataServices``   → class **dataServices**
-* ``data/raw/datasetSeries``  → class **datasetSeries**
+* ``data/raw/datasets``       → rdf:type dcat:Dataset
+* ``data/raw/dataServices``   → rdf:type dcat:DataServices
+* ``data/raw/datasetSeries``  → rdf:type dcat:DatasetSeries
 
-Every ``*.json`` file found is validated against the corresponding
+Every `*.json` file found is validated against the corresponding
 Draft‑7 JSON‑Schema and enriched with a *quality* score:
 
     quality = file_size / (schema_violations + 1)
 
 The result is a single, quality‑sorted list written to
-``data/processed/datasets.json``.
+`data/processed/datasets.json`.
 """
 
 from __future__ import annotations
@@ -36,22 +36,22 @@ SCHEMA_DIR = BASE_DIR / "schemas"
 OUTPUT_FILE = BASE_DIR / "processed" / "datasets.json"
 
 CLASSES = {
-    "dataset": {
+    "dcat:Dataset": {
         "dir": RAW_DIR / "datasets",
         "schema": SCHEMA_DIR / "dataset.json",
     },
-    "dataServices": {
+    "dcat:DataServices": {
         "dir": RAW_DIR / "dataServices",
         "schema": SCHEMA_DIR / "dataService.json",
     },
-    "datasetSeries": {
+    "dcat:DatasetSeries": {
         "dir": RAW_DIR / "datasetSeries",
         "schema": SCHEMA_DIR / "datasetSeries.json",
     },
 }
 
 # ---------------------------------------------------------------------------
-# Helpers                                                                     
+# Helpers
 # ---------------------------------------------------------------------------
 
 @lru_cache(maxsize=None)
@@ -61,7 +61,7 @@ def load_schema(schema_path: Path) -> Optional[dict]:
         with schema_path.open("r", encoding="utf-8") as fp:
             return json.load(fp)
     except Exception as exc:  # pragma: no cover
-        print(f"❌  Error loading schema {schema_path}: {exc}")
+        print(f"Error loading schema {schema_path}: {exc}")
         return None
 
 def _schema_errors(data: dict, schema: dict) -> List[str]:
@@ -100,7 +100,7 @@ def enrich_record(
 
     #–– 4. Assemble –––––––––––––––––––––––––––––––––––––––––––––––––––––––––
     enriched: "OrderedDict[str, Any]" = OrderedDict()
-    enriched["class"] = cls  # appears first
+    enriched["rdf:type"] = cls  # appears first
 
     # All original metadata (minus prov:qualifiedAttribution) next
     enriched.update(data)

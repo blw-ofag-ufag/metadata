@@ -1,6 +1,6 @@
 [
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "19111589-d41f-4f42-b397-b8318dfb13fd",
         "schema:image": "https://fal.media/files/rabbit/b-j9zxhlLzInwz4JQyCFU_b4014cdc2ebc4f92b293153dc4917f95.jpg",
         "dct:title": {
@@ -77,7 +77,7 @@
         "quality": 11650.0
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "4624b7bf-40c4-4249-b25a-98ce06ffa280",
         "dct:title": {
             "de": "Direktzahlungsprogramme",
@@ -171,7 +171,7 @@
         "quality": 8242.0
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "b7f151dc-8a3d-4d52-912b-6074be50fd70",
         "dct:title": {
             "de": "Direktzahlungskultur bzw. Hauptkulturen",
@@ -266,7 +266,7 @@
         "quality": 7528.0
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "aa213bfe-c355-4c8e-a487-924b29d97e01",
         "dct:title": {
             "de": "Codes für Aquakultur-Betriebe",
@@ -357,7 +357,7 @@
         "quality": 6985.0
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "82fcca67-633d-431d-853d-1bf765a70bc6",
         "schema:image": "https://fal.media/files/rabbit/vACOEgJZbcpfArdQzROcX_351aa26ba9134232bdc01f867502e0ef.jpg",
         "dct:title": {
@@ -453,7 +453,7 @@
         "quality": 5802.0
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "d7b805b5-9b14-42ba-bfba-7a41957ad656",
         "schema:image": "https://fal.media/files/kangaroo/MplSG_GNu6ZmK7BwV-Wna_62809d3f79334984b197c233f6abdc49.jpg",
         "dct:title": {
@@ -581,7 +581,7 @@
         "quality": 5659.0
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "ad68ced9-d7da-4817-980e-f439c7394172",
         "dct:title": {
             "de": "Flächenangaben zu Biodiversitätsfrderflächen auf einem Betrieb in der Schweizer Landwirtschaft",
@@ -681,7 +681,7 @@
         "quality": 4915.5
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "00d5f3a2-8387-432b-8f46-b49c3eb018ea",
         "dct:title": {
             "de": "Anmeldungen für Direktzahlungsprogramme zu einem Betrieb in der Schweizer Landwirtschaft",
@@ -780,7 +780,7 @@
         "quality": 4835.5
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "7079407c-c5df-430c-b6bf-75f9216c46b3",
         "dct:title": {
             "de": "Flächenangaben zu Vernetzungsflächen auf einem Betrieb in der Schweizer Landwirtschaft",
@@ -879,7 +879,7 @@
         "quality": 4729.0
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "db3bd925-f540-4c38-9a54-fb4fbe524609",
         "dct:title": {
             "de": "Flächenkategorien",
@@ -973,7 +973,7 @@
         "quality": 4678.0
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "e4b1f944-2f1a-433e-bcd4-7f88028800c8",
         "dct:title": {
             "de": "Flächenangaben zu Rebfächen in Hanglagen auf einem Betrieb in der Schweizer Landwirtschaft",
@@ -1073,7 +1073,7 @@
         "quality": 4552.5
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "f2d347f7-7782-4411-b99e-666e67b6c652",
         "dct:title": {
             "de": "Flächenangaben zu Hauptkulturen auf einem Betrieb in der Schweizer Landwirtschaft",
@@ -1172,7 +1172,7 @@
         "quality": 4527.0
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "19711e0b-c622-46c7-88ee-b081e1c042d4",
         "dct:title": {
             "de": "Nährstofflieferungen zwischen Betrieben in der Schweizer Landwirtschaft",
@@ -1253,7 +1253,7 @@
         "quality": 4492.5
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "8432bc6e-262f-40dd-b380-2bc39f9efa32",
         "dct:title": {
             "de": "Flächenangaben zu Fächen in Hanglagen auf einem Betrieb in der Schweizer Landwirtschaft",
@@ -1352,7 +1352,7 @@
         "quality": 4465.5
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "0fb4574d-48e0-45db-989b-5692683311ef",
         "dct:title": {
             "de": "Beziehungen zwischen Betrieben eines Bewirtschafters in der Schweizer Landwirtschaft",
@@ -1438,7 +1438,7 @@
         "quality": 4369.0
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "451e6d03-9868-49fb-8c26-ebf3acc85e43",
         "dct:title": {
             "de": "Art und Anzahl Nutztiere in Sömmerung auf einem Betrieb in der Schweizer Landwirtschaft",
@@ -1539,7 +1539,7 @@
         "quality": 4071.0
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "6ce7322f-10c4-4a60-8a4b-ea5318b4b8a1",
         "dct:title": {
             "de": "Art und Anzahl Nutztiere auf einem Betrieb in der Schweizer Landwirtschaft",
@@ -1639,7 +1639,7 @@
         "quality": 3858.5
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "d1692003-f226-4d4c-b70d-baa3332bca82",
         "dct:title": {
             "de": "Juristische und natürliche Personen aus der Schweizerischen Landwirtschaft",
@@ -1722,7 +1722,7 @@
         "quality": 3769.0
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "3e7fd49d-0d26-44fe-86a4-ac06240ea5d7",
         "dct:title": {
             "de": "Betriebsangaben zu Betrieben in der Schweizer Landwirtschaft",
@@ -1808,7 +1808,7 @@
         "quality": 3720.5
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "6cfb283f-7173-4bfd-8028-f944f153de41",
         "schema:image": "https://fal.media/files/monkey/LvaEBkMYay8mV564By9D-_75dcc4e1bc5a459aab15b9a80399ba6a.jpg",
         "dct:title": {
@@ -1892,7 +1892,7 @@
         "quality": 3580.0
     },
     {
-        "class": "dataServices",
+        "rdf:type": "dcat:DataServices",
         "dct:identifier": "f6133063-8de9-482d-8af7-9a0033b706ea",
         "schema:image": "https://fal.media/files/koala/gs2FKBa1oOpMotKhD2FGZ_9119f08e0c2f4496aee9281fea080337.jpg",
         "dct:title": {
@@ -1964,7 +1964,7 @@
         "quality": 2174.0
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "c41ed3f8-507f-43b1-bf9e-9b3d21495a0c",
         "schema:image": "https://fal.media/files/koala/gs2FKBa1oOpMotKhD2FGZ_9119f08e0c2f4496aee9281fea080337.jpg",
         "dct:title": {
@@ -2115,7 +2115,7 @@
         "quality": 1893.0
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "74fe0fa3-3dd2-44f4-a7f6-d9bb2c542920",
         "schema:image": "https://fal.media/files/koala/gs2FKBa1oOpMotKhD2FGZ_9119f08e0c2f4496aee9281fea080337.jpg",
         "dct:title": {
@@ -2264,7 +2264,7 @@
         "quality": 1881.6666666666667
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "91bc21d3-e08f-4794-a1e6-fd590aeddbe1",
         "schema:image": "https://fal.media/files/koala/gs2FKBa1oOpMotKhD2FGZ_9119f08e0c2f4496aee9281fea080337.jpg",
         "dct:title": {
@@ -2413,7 +2413,7 @@
         "quality": 1865.0
     },
     {
-        "class": "datasetSeries",
+        "rdf:type": "dcat:DatasetSeries",
         "dct:identifier": "51c42dfb-76b1-40dd-928a-7d82020cc588",
         "schema:image": "https://fal.media/files/koala/gs2FKBa1oOpMotKhD2FGZ_9119f08e0c2f4496aee9281fea080337.jpg",
         "dct:title": {
@@ -2471,7 +2471,7 @@
         "quality": 1705.0
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "83f93ff4-ef3f-43f1-af2c-83f18952283e",
         "schema:image": "https://fal.media/files/penguin/zLmfGWbw9SuNH9pYHqE7Y_454ce31f6849495cb14b7a083875b676.jpg",
         "dct:title": {
@@ -2593,7 +2593,7 @@
         "quality": 1679.3333333333333
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "ec64dfdb-4388-4d59-baa4-dea173bc9e69",
         "schema:image": "https://fal.media/files/kangaroo/MplSG_GNu6ZmK7BwV-Wna_62809d3f79334984b197c233f6abdc49.jpg",
         "dct:title": {
@@ -2656,7 +2656,7 @@
         "quality": 1547.0
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "a88a2dfa-f5fb-4fe2-a1c5-af392052f6a2",
         "schema:image": "https://fal.media/files/rabbit/vACOEgJZbcpfArdQzROcX_351aa26ba9134232bdc01f867502e0ef.jpg",
         "dct:title": {
@@ -2752,7 +2752,7 @@
         "quality": 1255.8
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "0889be91-cab7-4f6a-a692-7ca2a1a222e4",
         "dct:title": {
             "fr": "Carte des risques d'érosion des terres arables, perte moyenne de sol en tonnes (ha*année)",
@@ -2909,7 +2909,7 @@
         "quality": 1230.3333333333333
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "aac232d4-3d80-44dc-a7df-ce3b72b94c20",
         "dct:title": {
             "fr": "Registre des appellations d'origine (AOP) et des indications géographiques (IGP) pâtisserie",
@@ -3094,7 +3094,7 @@
         "quality": 1226.7777777777778
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "c3d2908f-707f-43cd-95e7-d134f2059524",
         "dct:title": {
             "fr": "Registre des appellations d'origine (AOP) et des indications géographiques (IGP) produits végétaux",
@@ -3279,7 +3279,7 @@
         "quality": 1221.5555555555557
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "8884a856-8647-4943-b511-1636f27f7604",
         "dct:title": {
             "fr": "Registre des appellations d'origine (AOP) et des indications géographiques (IGP) produits à base de viande",
@@ -3463,7 +3463,7 @@
         "quality": 1213.7777777777778
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "9416a47b-b7e2-4fca-ad5f-1f64fb230362",
         "dct:title": {
             "fr": "Registre des appellations d'origine (AOP) et des indications géographiques (IGP) spiritueux",
@@ -3648,7 +3648,7 @@
         "quality": 1212.6666666666667
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "e7b5cd7a-2e4f-48dd-ab78-0c4368220310",
         "dct:title": {
             "fr": "Registre des appellations d'origine (AOP) et des indications géographiques (IGP) fromage",
@@ -3832,7 +3832,7 @@
         "quality": 1199.4444444444443
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "c61f6636-f09f-433e-8612-4babd5a3a9f4",
         "schema:image": "https://fal.media/files/rabbit/vACOEgJZbcpfArdQzROcX_351aa26ba9134232bdc01f867502e0ef.jpg",
         "dct:title": {
@@ -3929,7 +3929,7 @@
         "quality": 1176.8
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "2ca2b3af-d3da-44d7-b32b-cb1dc9b02932",
         "schema:image": "https://fal.media/files/tiger/wRa9DHE4Hwzxa7c_1lqYQ_b2bc0df71b6a4d26935a1294876e8a3e.jpg",
         "dct:title": {
@@ -4044,7 +4044,7 @@
         "quality": 1132.6
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "833cdbbb-9e6a-47fb-8626-d03b80c7468d",
         "dct:title": {
             "fr": "Carte de blocs de parcelles pour le risque d'erosion",
@@ -4201,7 +4201,7 @@
         "quality": 1084.6666666666667
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "1bf31551-1f4d-4947-9649-8b993504bdc0",
         "dct:title": {
             "fr": "Carte des surfaces attenantes à des eaux de surface, probabilité de surfaces attenantes",
@@ -4361,7 +4361,7 @@
         "quality": 1030.4444444444443
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "4b56d6fe-2ae6-4084-9ffd-8a2e8116940c",
         "dct:title": {
             "fr": "Surfaces viticoles en pente",
@@ -4523,7 +4523,7 @@
         "quality": 1009.6666666666666
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "15a996da-8978-4e97-b0cf-8e15deeb2c92",
         "dct:title": {
             "fr": "Produits de montagne",
@@ -4684,7 +4684,7 @@
         "quality": 984.3333333333334
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "de36bb9d-ce43-48ea-8a8b-26bef7dee358",
         "dct:title": {
             "fr": "Surfaces d'utilisation agricole Suisse",
@@ -4843,7 +4843,7 @@
         "quality": 983.75
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "b990b028-d113-42a1-9435-a7ffd0f00e48",
         "dct:title": {
             "fr": "Carte digitale des aptitudes des sols de la Suisse - Typologies des cultures",
@@ -5022,7 +5022,7 @@
         "quality": 968.2222222222222
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "ae2a7447-6ca1-4ea8-8024-6a7690f0c385",
         "dct:title": {
             "fr": "Carte digitale des aptitudes des sols de la Suisse - Capacité de rétention hydrique",
@@ -5201,7 +5201,7 @@
         "quality": 967.8888888888889
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "3a4d63bf-574b-4318-b6af-0777485c5411",
         "dct:title": {
             "fr": "Carte digitale des aptitudes des sols de la Suisse - Terres cultivées",
@@ -5380,7 +5380,7 @@
         "quality": 967.3333333333334
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "9148d59a-a270-4719-a2ec-9d67d2d850f1",
         "dct:title": {
             "fr": "Carte des surfaces directement ou indirectement attenantes à des eaux de surface, probabilité de surfaces attenantes",
@@ -5540,7 +5540,7 @@
         "quality": 955.4444444444445
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "2ca8997f-b58d-490c-b7bc-edc3e59102b5",
         "dct:title": {
             "fr": "Carte digitale des aptitudes des sols de la Suisse - Capacité de rétention en substances nutritives",
@@ -5719,7 +5719,7 @@
         "quality": 909.1111111111111
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "e46f6fc7-90a2-4220-97e7-0311fcbaaf46",
         "dct:title": {
             "fr": "Carte des écoulements pour le risque d’érosion",
@@ -5874,7 +5874,7 @@
         "quality": 905.0
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "8fd9f464-5421-4dba-82f7-06105d9dbeaa",
         "dct:title": {
             "fr": "Produits d'alpage",
@@ -6035,7 +6035,7 @@
         "quality": 900.5555555555555
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "bb7894e3-0dbf-4ea1-9e97-813936154238",
         "dct:title": {
             "fr": "Terrains en pente",
@@ -6197,7 +6197,7 @@
         "quality": 887.6
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "a5dce9aa-6eb8-430e-9126-9436f6c3aec1",
         "dct:title": {
             "fr": "Cartes des aptitudes climatiques pour l'agriculture en Suisse - culture dérobées",
@@ -6377,7 +6377,7 @@
         "quality": 857.4444444444445
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "c2e3fe68-850e-4666-8d79-28d46382e611",
         "dct:title": {
             "fr": "Carte digitale des aptitudes des sols de la Suisse - Perméabilité",
@@ -6556,7 +6556,7 @@
         "quality": 856.5555555555555
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "503810f9-bb0c-47ac-8ca2-aac2c72bfcce",
         "dct:title": {
             "fr": "Cartes des aptitudes climatiques pour l'agriculture en Suisse - Cultures spéciales",
@@ -6736,7 +6736,7 @@
         "quality": 852.5555555555555
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "schema:image": "https://fal.media/files/lion/pjNrj1qOmGAynHFOMqvgL_576aedebfc1d4148a99d90ad324e6bab.jpg",
         "dct:identifier": "2a1dfa59-c0e8-4221-9fc0-52d2cb342094",
         "dct:title": {
@@ -6828,7 +6828,7 @@
         "quality": 851.25
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "dfd7ac55-4174-4671-b97a-80568aaf39a0",
         "dct:title": {
             "fr": "Limites des zones agricoles de la Suisse",
@@ -6969,7 +6969,7 @@
         "quality": 850.4444444444445
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "schema:image": "https://fal.media/files/lion/pjNrj1qOmGAynHFOMqvgL_576aedebfc1d4148a99d90ad324e6bab.jpg",
         "dct:identifier": "3d9aaf1f-57f8-4714-a2c1-a2d544241e91",
         "dct:title": {
@@ -7061,7 +7061,7 @@
         "quality": 846.25
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "3a2d8680-3bcb-47ed-a982-f46112eb3db9",
         "dct:title": {
             "fr": "Cartes des aptitudes climatiques pour l'agriculture en Suisse - cultures céréalières",
@@ -7241,7 +7241,7 @@
         "quality": 846.0
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "18291692-b713-4bed-9bf5-f3294edc6e54",
         "dct:title": {
             "fr": "Cartes des aptitudes climatiques pour l'agriculture en Suisse - Terres cultivées",
@@ -7421,7 +7421,7 @@
         "quality": 843.8888888888889
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "428f6bd7-3ecf-4c95-9adc-d7d635f56449",
         "dct:title": {
             "fr": "Cartes des aptitudes climatiques pour l'agriculture en Suisse - maïs grain",
@@ -7601,7 +7601,7 @@
         "quality": 842.1111111111111
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "e1e7eebc-26a8-4448-ac45-4a3136dad28b",
         "dct:title": {
             "fr": "Cartes des aptitudes climatiques pour l'agriculture en Suisse - culture fourragère",
@@ -7781,7 +7781,7 @@
         "quality": 841.3333333333334
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "b5c6b98b-c881-4535-8550-dac7096daba3",
         "dct:title": {
             "fr": "Cartes des aptitudes climatiques pour l'agriculture en Suisse - pommes de terre",
@@ -7961,7 +7961,7 @@
         "quality": 837.8888888888889
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "d84c6d4f-dcd0-4473-993c-a35c657338ad",
         "dct:title": {
             "fr": "Cartes des aptitudes climatiques pour l'agriculture en Suisse - Précipitations",
@@ -8141,7 +8141,7 @@
         "quality": 837.7777777777778
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "f684da8d-86dd-4d39-b17f-5414ae9b15d9",
         "dct:title": {
             "fr": "Régions de l’observatoire des marchés du lait et des produits laitiers",
@@ -8319,7 +8319,7 @@
         "quality": 832.4
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "b8cb3b68-0fb4-46d1-a309-23e4e3bbc856",
         "dct:title": {
             "fr": "Cartes des aptitudes climatiques pour l'agriculture en Suisse - vue d'ensemble",
@@ -8499,7 +8499,7 @@
         "quality": 831.8888888888889
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "039e1df3-fd67-45f4-9692-1c9b0e97c8f3",
         "dct:title": {
             "fr": "Chiffres du marché du lait et des produits laitiers - Indice des prix mensuels (commerce de gros/transformation)",
@@ -8589,7 +8589,7 @@
         "quality": 822.0
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "738bfce1-5732-46f7-b529-e82dacaa6352",
         "schema:image": "https://fal.media/files/rabbit/2-43pwx-pI5A1Y54WFQIA_c96ad1b1c29d4298b1c741f7e882c46b.jpg",
         "dct:title": {
@@ -8680,7 +8680,7 @@
         "quality": 815.5
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "d21435e2-83b4-48b6-a109-7b9827368e00",
         "dct:title": {
             "fr": "Chiffres du marché des céréales panifiables - Prix bruts annuels des producteurs, prix indicatifs",
@@ -8770,7 +8770,7 @@
         "quality": 815.25
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "schema:image": "https://fal.media/files/panda/b__vcdaZJ763Vws9jRj-a_3728723149c44bfbb2a35c622a99ddef.jpg",
         "dct:identifier": "1260f14f-559f-4db2-97f7-66212441786a",
         "dct:title": {
@@ -8862,7 +8862,7 @@
         "quality": 802.75
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "ea33009b-6ee8-4db1-8b83-e40263dbb269",
         "dct:title": {
             "fr": "Chiffres du marché du lait et des produits laitiers - Prix de gros mensuels",
@@ -8952,7 +8952,7 @@
         "quality": 795.75
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "93362440-dafa-42ef-aa6c-b05928eec867",
         "dct:title": {
             "fr": "Chiffres du marché des oeufs - Prix annuels à l'importation ",
@@ -9042,7 +9042,7 @@
         "quality": 794.25
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "1cde0ba1-6995-4419-ba4c-15df2e7d198c",
         "dct:title": {
             "fr": "Chiffres du marché du lait et des produits laitiers - Prix de gros annuels",
@@ -9132,7 +9132,7 @@
         "quality": 793.75
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "9db57343-7891-4072-b5b8-b786c7c197ad",
         "dct:title": {
             "fr": "Chiffres du marché des oeufs - Prix mensuels à l'importation",
@@ -9222,7 +9222,7 @@
         "quality": 793.5
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "21d9ebef-1f05-45d1-aec5-baafb38b2813",
         "dct:title": {
             "fr": "Chiffres du marché des céréales panifiables - Prix de transformation mensuels",
@@ -9312,7 +9312,7 @@
         "quality": 790.25
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "f65f56fe-d007-4b28-b3eb-2da01cbb733b",
         "dct:title": {
             "fr": "Carte digitale des aptitudes des sols de la Suisse - Pierrosité",
@@ -9491,7 +9491,7 @@
         "quality": 784.6666666666666
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "0ad233c4-e3e0-4533-9143-e4e2305de0fd",
         "dct:title": {
             "fr": "Chiffres du marché des oeufs - Prix de gros annuels ",
@@ -9581,7 +9581,7 @@
         "quality": 783.0
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "38200f08-d086-4a8f-8a6f-ae6de5f0d4f0",
         "dct:title": {
             "fr": "Chiffres du marché des œufs - Ressources et contributions annuelles disponibles",
@@ -9671,7 +9671,7 @@
         "quality": 780.5
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "ce46b718-4217-47e3-8f4e-e81a34d2a923",
         "dct:title": {
             "fr": "Carte digitale des aptitudes des sols de la Suisse - Profondeur",
@@ -9850,7 +9850,7 @@
         "quality": 778.1111111111111
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "schema:image": "https://fal.media/files/penguin/7l0bvJnVAT1UAEBavzFda_e3f41ce03e2c4b95a26d206868b8b990.jpg",
         "dct:identifier": "fae110b0-eb93-4b47-9440-dbdecfb8c452",
         "dct:title": {
@@ -9942,7 +9942,7 @@
         "quality": 777.5
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "schema:image": "https://fal.media/files/panda/b__vcdaZJ763Vws9jRj-a_3728723149c44bfbb2a35c622a99ddef.jpg",
         "dct:identifier": "4edd205d-a51d-44a3-9a6d-dba7e8ced476",
         "dct:title": {
@@ -10034,7 +10034,7 @@
         "quality": 777.0
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "c3b38cf5-8f64-406b-8ecf-4858916b5a50",
         "dct:title": {
             "fr": "Chiffres du marché des céréales panifiables - Quantités de production annuelles",
@@ -10124,7 +10124,7 @@
         "quality": 775.75
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "schema:image": "https://fal.media/files/panda/b__vcdaZJ763Vws9jRj-a_3728723149c44bfbb2a35c622a99ddef.jpg",
         "dct:identifier": "8c6da8f4-bfb6-41dc-bd94-1447fb3d5f83",
         "dct:title": {
@@ -10216,7 +10216,7 @@
         "quality": 774.5
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "b1cfe652-688a-4898-9b29-ac0ff6bb13a7",
         "dct:title": {
             "fr": "Chiffres du marché des céréales panifiables - Prix de consommation mensuels",
@@ -10306,7 +10306,7 @@
         "quality": 774.0
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "72c29f4d-206e-4fb7-9286-33b077cc0411",
         "dct:title": {
             "fr": "Chiffres du marché du lait et des produits laitiers - Prix mensuels à la consommation",
@@ -10396,7 +10396,7 @@
         "quality": 772.75
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "aab5736f-f6d7-41ba-9de3-51f962bde65c",
         "dct:title": {
             "fr": "Chiffres du marché des œufs - Prix mensuels à la consommation ",
@@ -10486,7 +10486,7 @@
         "quality": 771.5
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "efc52ea3-fa6c-4bcf-8de7-42126870f8de",
         "dct:title": {
             "fr": "Chiffres du marché des céréales panifiables - Prix de consommation annuels",
@@ -10576,7 +10576,7 @@
         "quality": 771.5
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "45d0c17b-80a0-4264-b826-5e68e9c5212d",
         "dct:title": {
             "fr": "Chiffres du marché du lait et des produits laitiers - Prix annuels à la consommation",
@@ -10666,7 +10666,7 @@
         "quality": 770.75
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "7787558f-6d0e-4b11-b015-cb128ff53523",
         "dct:title": {
             "fr": "Chiffres du marché du lait et des produits laitiers - Quantités produites mensuelles",
@@ -10756,7 +10756,7 @@
         "quality": 770.75
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "ee745f65-9f8d-45ac-939a-a6b894ad8b74",
         "dct:title": {
             "fr": "Chiffres du marché des oeufs - Prix annuels à la consommation ",
@@ -10846,7 +10846,7 @@
         "quality": 769.5
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "12faeb21-1ea3-45d7-a1bf-1aee6dbb8249",
         "dct:title": {
             "fr": "Chiffres du marché des œufs - Quantités exportées annuelles",
@@ -10936,7 +10936,7 @@
         "quality": 769.25
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "f0aba69d-4daf-412f-af1d-4e68898dada1",
         "dct:title": {
             "fr": "Chiffres du marché du lait et des produits laitiers - Quantités produites annuelles",
@@ -11026,7 +11026,7 @@
         "quality": 769.25
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "9a7053d8-6470-4f8b-9c56-e264f02789e9",
         "dct:title": {
             "fr": "Chiffres du marché des œufs - Quantités importées annuelles",
@@ -11116,7 +11116,7 @@
         "quality": 769.0
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "schema:image": "https://fal.media/files/panda/b__vcdaZJ763Vws9jRj-a_3728723149c44bfbb2a35c622a99ddef.jpg",
         "dct:identifier": "fee0fa24-5a7a-4ee1-a2b4-ec0780339b4f",
         "dct:title": {
@@ -11208,7 +11208,7 @@
         "quality": 763.25
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "1b460b8f-ddca-4069-b744-89798658f1fd",
         "dct:title": {
             "fr": "Carte digitale des aptitudes des sols de la Suisse - Mouillure",
@@ -11387,7 +11387,7 @@
         "quality": 763.1111111111111
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "d45b39cd-5317-400d-88cf-015ed690e76d",
         "dct:title": {
             "fr": "Chiffres du marché des œufs - Structure annuelle du marché (production)",
@@ -11477,7 +11477,7 @@
         "quality": 758.5
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "9fccd3a6-fbaf-41cc-9ade-7c53d8c9cc8e",
         "dct:title": {
             "fr": "Chiffres du marché du lait et des produits laitiers - Prix mensuels à la production ",
@@ -11567,7 +11567,7 @@
         "quality": 758.25
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "7050da25-7834-4d96-833a-f4af0d103dd1",
         "dct:title": {
             "fr": "Chiffres du marché du lait et des produits laitiers - Prix annuels à la production",
@@ -11657,7 +11657,7 @@
         "quality": 756.5
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "schema:image": "https://fal.media/files/penguin/7l0bvJnVAT1UAEBavzFda_e3f41ce03e2c4b95a26d206868b8b990.jpg",
         "dct:identifier": "e8c27678-45c6-42bd-a0a7-adce5a811f61",
         "dct:title": {
@@ -11749,7 +11749,7 @@
         "quality": 756.5
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "schema:image": "https://fal.media/files/penguin/7l0bvJnVAT1UAEBavzFda_e3f41ce03e2c4b95a26d206868b8b990.jpg",
         "dct:identifier": "8a9bd3f6-9e36-4ae1-80c0-9e3377877a6f",
         "dct:title": {
@@ -11841,7 +11841,7 @@
         "quality": 754.0
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "schema:image": "https://fal.media/files/penguin/7l0bvJnVAT1UAEBavzFda_e3f41ce03e2c4b95a26d206868b8b990.jpg",
         "dct:identifier": "cce23d00-7ae9-493e-b3af-5f72241a455c",
         "dct:title": {
@@ -11933,7 +11933,7 @@
         "quality": 753.5
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "a480fd3f-d15b-408b-bc0a-51ed5db51adf",
         "dct:title": {
             "fr": "Chiffres du marché des œufs - Quantités transformées annuelles ",
@@ -12023,7 +12023,7 @@
         "quality": 746.0
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "fca78318-4077-480b-977f-beea2d6732fd",
         "dct:title": {
             "fr": "Chiffres du marché des plantes protéagineuses - Quantités de production annuelles",
@@ -12113,7 +12113,7 @@
         "quality": 742.0
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "06c8da71-ba0c-4226-bd17-4333c5581363",
         "dct:title": {
             "fr": "Terrains en pente et ruissellement",
@@ -12271,7 +12271,7 @@
         "quality": 739.4
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "14bed7be-d997-4761-b684-6a5e0724322f",
         "dct:title": {
             "fr": "Chiffres du marché des œufs - Quantités produites annuelles",
@@ -12361,7 +12361,7 @@
         "quality": 732.5
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "8a4208a2-b235-47fd-922b-79ddc9d53f8a",
         "dct:title": {
             "fr": "Chiffres du marché des oeufs - Prix annuels à la production",
@@ -12451,7 +12451,7 @@
         "quality": 730.25
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "b2bbf16b-744d-4554-bc39-5528a7d59002",
         "dct:title": {
             "fr": "Chiffres du marché des oeufs - Prix mensuels à la production",
@@ -12541,7 +12541,7 @@
         "quality": 730.0
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "a39a06f5-f356-4510-98a3-eceed56b5cad",
         "dct:title": {
             "fr": "Chiffres du marché du lait et des produits laitiers - Indicateur mensuel (production)",
@@ -12631,7 +12631,7 @@
         "quality": 718.0
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "96b1ba2f-e8d8-4b9e-a35c-5a90e0f389be",
         "dct:title": {
             "fr": "Chiffres du marché du lait et des produits laitiers - Indicateur annuel (production)",
@@ -12721,7 +12721,7 @@
         "quality": 716.25
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "13cd3427-5ddb-4d97-bab6-6be0519a6bf6",
         "dct:title": {
             "fr": "Besoins en irrigation",
@@ -12873,7 +12873,7 @@
         "quality": 675.2222222222222
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "2617894b-ca61-4bfa-a290-f2a2b57c80d1",
         "dct:title": {
             "de": "Auszahlung Übergangsbeitrag",
@@ -12954,7 +12954,7 @@
         "quality": 642.1428571428571
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "5361e7d7-4ac9-43ab-bdb3-dbec0f030033",
         "dct:title": {
             "de": "Programme/Label",
@@ -13058,7 +13058,7 @@
         "quality": 469.0
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "0a5649ab-4d30-4617-b34b-3ff9e3d99045",
         "dct:title": {
             "fr": "Carte des risques d'érosion des terres arables, classification qualitative",
@@ -13225,7 +13225,7 @@
         "quality": 460.5882352941176
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "schema:image": "https://fal.media/files/tiger/wRa9DHE4Hwzxa7c_1lqYQ_b2bc0df71b6a4d26935a1294876e8a3e.jpg",
         "dct:identifier": "2ea8bfa1-8bb6-45ef-bee4-3b4cba52d834",
         "dct:title": {
@@ -13311,7 +13311,7 @@
         "quality": 450.3
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "6e679770-5782-4e28-9987-f82f3c677ab4",
         "dct:title": {
             "fr": "Aperçu paiements directs par type et canton 2015",
@@ -13446,7 +13446,7 @@
         "quality": 362.7692307692308
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "0fb36c61-a2c7-4cb7-8168-3f4bd9bbd167",
         "dct:title": {
             "fr": "Crédits d'investissements par catégorie de mesures 1999-2015",
@@ -13581,7 +13581,7 @@
         "quality": 358.15384615384613
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "5b685d2e-2b71-468a-b135-a48a98d39e2f",
         "dct:title": {
             "fr": "Dépenses Confédération pour agriculture et alimentation 2004-2015",
@@ -13716,7 +13716,7 @@
         "quality": 350.61538461538464
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "a791ff06-0bb2-4d7a-814f-ec9740d208c2",
         "dct:title": {
             "fr": "Contributions à l'utilisation efficiente des ressources 2014-2015",
@@ -13851,7 +13851,7 @@
         "quality": 349.61538461538464
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "3ff52744-9fc6-423d-b0bf-91faf913291a",
         "dct:title": {
             "fr": "Contributions à la sécurité de l'approvisionnement 2014-2015",
@@ -13986,7 +13986,7 @@
         "quality": 348.7692307692308
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "ae627091-0ca2-4cdd-a83d-2bef90f78701",
         "dct:title": {
             "fr": "Contributions au paysage cultivé 2014-2015",
@@ -14121,7 +14121,7 @@
         "quality": 344.0
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "92dd7020-b18b-4bd8-9159-31ceb588747d",
         "dct:title": {
             "fr": "Surface agricole utile en fonction des modes d'utilisation 1990/92-2015",
@@ -14256,7 +14256,7 @@
         "quality": 343.84615384615387
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "1793fe63-410f-4a7f-beb6-de0b94147473",
         "schema:image": "https://www.agrarbericht.ch/de/politik/direktzahlungen/versorgungssicherheitsbeitraege",
         "dct:title": {
@@ -14303,7 +14303,7 @@
         "quality": 343.75
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "242eb58f-bd2f-45ef-9c93-cfa70bb86aaf",
         "dct:title": {
             "fr": "Contributions au système de production 2014-2015",
@@ -14438,7 +14438,7 @@
         "quality": 343.38461538461536
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "3100a63c-e129-4e3a-bc1e-611cbd889c19",
         "dct:title": {
             "fr": "Production branche agricole 2000/02-2016",
@@ -14573,7 +14573,7 @@
         "quality": 341.2307692307692
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "b7845e61-ab2e-4153-8c6f-b524fb3cb4b8",
         "dct:title": {
             "fr": "Comptes économiques de l'agriculture 2000/02-2016",
@@ -14708,7 +14708,7 @@
         "quality": 340.3076923076923
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "bda83b03-5ecc-41b0-a822-4a2d17d02dc2",
         "dct:title": {
             "fr": "Contributions à la qualité du paysage 2014-2015",
@@ -14843,7 +14843,7 @@
         "quality": 340.2307692307692
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "3749fc93-56b7-439d-a198-cc185e53278b",
         "dct:title": {
             "fr": "Taux d'auto-approvisionnement 2007-2014",
@@ -14978,7 +14978,7 @@
         "quality": 336.9230769230769
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "cc1d32c9-33e1-4f31-8a61-a27a74631ad5",
         "dct:title": {
             "fr": "Personnes occupées dans l'agriculture 1990-2015",
@@ -15113,7 +15113,7 @@
         "quality": 335.0
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "95952e08-f90f-4e9c-8228-fb1e9d99ef87",
         "dct:title": {
             "fr": "Contributions versées aux cantons 1999-2015",
@@ -15248,7 +15248,7 @@
         "quality": 332.9230769230769
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "721bd8d0-1c8e-411b-bf56-4b434f8d7a91",
         "dct:title": {
             "fr": "Détenteurs et effectifs des animaux 2000/02-2015",
@@ -15383,7 +15383,7 @@
         "quality": 332.6923076923077
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "53cc632e-8ef0-490e-aa8d-8c88968f40c8",
         "dct:title": {
             "fr": "Contributions de transition 2014-2015",
@@ -15518,7 +15518,7 @@
         "quality": 331.2307692307692
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "fc928f44-f690-4280-ad53-d14bf5f80138",
         "dct:title": {
             "fr": "Mise en valeur de la récolte en production végétale 1990/92-2015",
@@ -15653,7 +15653,7 @@
         "quality": 330.38461538461536
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "884d2c24-6d25-4d73-9ad9-18a85b83c4b9",
         "dct:title": {
             "fr": "Contributions à la biodiversité 2014-2015",
@@ -15788,7 +15788,7 @@
         "quality": 329.61538461538464
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "891e97ca-316c-43eb-9b0c-c0652bfd3f76",
         "dct:title": {
             "fr": "Dépenses économie animale 1999-2015",
@@ -15923,7 +15923,7 @@
         "quality": 329.15384615384613
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "8c8fffb8-c9a0-43cc-83c7-e046b76d82b2",
         "dct:title": {
             "fr": "Dépenses économie laitière 1999-2015",
@@ -16058,7 +16058,7 @@
         "quality": 325.0769230769231
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "60d72f56-5d43-451a-bdbb-f585ee9b1fd5",
         "dct:title": {
             "fr": "Surface agricole utile 1990-2015",
@@ -16193,7 +16193,7 @@
         "quality": 322.53846153846155
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "27590233-ed8c-40f3-a681-166d5190dc91",
         "dct:title": {
             "fr": "Dépenses élevage 1999-2015",
@@ -16328,7 +16328,7 @@
         "quality": 322.38461538461536
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "b732392b-e688-4ed5-9d5c-4399461e9259",
         "dct:title": {
             "fr": "Production de produits laitiers 1990/92-2015",
@@ -16463,7 +16463,7 @@
         "quality": 321.0
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "13be2b2d-7a9e-4c95-88fa-86ea022c2475",
         "dct:title": {
             "fr": "Prix à la consommation sans le bio 2002/04-2015",
@@ -16598,7 +16598,7 @@
         "quality": 320.46153846153845
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "3dc41516-bc6a-4295-9911-050173c68cee",
         "dct:title": {
             "fr": "Prix à la production sans le bio 2002/04-2015",
@@ -16733,7 +16733,7 @@
         "quality": 320.3076923076923
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "b5158cde-a426-4c7f-9a61-2f6a192938a2",
         "dct:title": {
             "fr": "Commerce extérieur 1990/92-2015",
@@ -16868,7 +16868,7 @@
         "quality": 317.53846153846155
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "2782594c-5809-44a0-8eea-c838e7d1366f",
         "dct:title": {
             "fr": "Exploitations agricoles 1990-2015",
@@ -17003,7 +17003,7 @@
         "quality": 315.6923076923077
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "6ef9cb6b-8af5-409a-a195-93126a224ba7",
         "dct:title": {
             "fr": "Consommation par habitant 1990/92-2015",
@@ -17138,7 +17138,7 @@
         "quality": 315.38461538461536
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "3235b545-25a7-4ef6-a489-262d71ed60d1",
         "dct:title": {
             "fr": "Unités de gros bétail 1990-2015",
@@ -17273,7 +17273,7 @@
         "quality": 314.2307692307692
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "9b44e4dd-0e82-4c0f-8bea-cf3a57013733",
         "dct:title": {
             "fr": "Dépenses production végétale 1999-2015",
@@ -17406,7 +17406,7 @@
         "quality": 314.15384615384613
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "13300160-9f5f-4451-bce1-546e309cab52",
         "dct:title": {
             "fr": "Prix à la production bio 2002/04-2015",
@@ -17541,7 +17541,7 @@
         "quality": 313.7692307692308
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "db1e64b5-2236-40a7-b84c-424b5937a1dd",
         "dct:title": {
             "fr": "Prix à la consommation bio 2002/04-2015",
@@ -17676,7 +17676,7 @@
         "quality": 312.9230769230769
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "0ad73812-5afd-4a08-811b-eb785c3e7032",
         "dct:title": {
             "fr": "Production 1990/92-2015",
@@ -17811,7 +17811,7 @@
         "quality": 312.0769230769231
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "bede7799-1552-43ea-be5b-7cd30a8f61cb",
         "schema:image": "https://fal.media/files/kangaroo/MplSG_GNu6ZmK7BwV-Wna_62809d3f79334984b197c233f6abdc49.jpg",
         "dct:title": {
@@ -18476,7 +18476,7 @@
         "quality": 237.7835051546392
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "487ad0b5-da52-4408-98da-751c890db14a",
         "schema:image": "https://www.agrarbericht.ch/pictures/16/muft8l0lgym4lxmy1663oxjb6m99x8/bild_vollzug_ab24_foto_acontrol-836.jpg",
         "dct:title": {
@@ -19190,7 +19190,7 @@
         "quality": 195.172131147541
     },
     {
-        "class": "dataset",
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "069f8e82-6c03-418f-9eec-b1dec6ea9c74",
         "dct:title": {
             "de": "Datenreihe Kulturlandschaftsbeiträge ab 2014, Offenthaltungsbeitrag, Hangbeitrag, Steillagenbeitrag und Alpungsbeitrag",
