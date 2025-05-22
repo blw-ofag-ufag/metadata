@@ -8500,6 +8500,190 @@
     },
     {
         "rdf:type": "dcat:Dataset",
+        "dct:identifier": "93362440-dafa-42ef-aa6c-b05928eec867",
+        "schema:image": "https://fal.media/files/elephant/n_65bwtRfEpklGsKote-4_537817425c194e67bc00ea8b844d284d.jpg",
+        "dct:title": {
+            "fr": "Chiffres du marché des oeufs - Prix annuels à l'importation ",
+            "de": "Marktzahlen Eier - Jährliche Importpreise",
+            "en": "Market figures eggs - Annual import prices ",
+            "it": "Cifre del mercato delle uova - Prezzi annuali all'importazione "
+        },
+        "dct:description": {
+            "fr": "Prix moyens annuels des œufs importés et d’une sélection de divers produits importés à base d'œufs à l’échelon de création de valeur transformation et consommation",
+            "de": "Jährliche Durchschnittspreise für importierte Eiprodukte und Eier auf Wertschöpfungsstufe Verarbeitung und Konsum",
+            "en": "Annual average prices for a selection of different egg products or eggs at the transformation and consumption stage of the value chain",
+            "it": "Prezzi medi annui delle uova importate e di una selezione di prodotti importati a base di uovai a livello della catena del valore transformazione e consumi"
+        },
+        "dct:accessRights": "PUBLIC",
+        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+        "dcat:contactPoint": {
+            "schema:email": "marktanalysen@blw.admin.ch",
+            "schema:name": "Bundesamt für Landwirtschaft, Fachbereich Marktanalysen"
+        },
+        "dct:issued": "2025-03-09",
+        "dct:accrualPeriodicity": "ANNUAL",
+        "dct:modified": "2025-02-18",
+        "adms:status": "published",
+        "bv:classification": "none",
+        "bv:personalData": "none",
+        "bv:archivalValue": false,
+        "bv:typeOfData": "thematicData",
+        "dcat:keyword": [
+            "price",
+            "market-data",
+            "eggs"
+        ],
+        "dcat:theme": [
+            "agriculture",
+            "administration",
+            "finances"
+        ],
+        "dcat:landingPage": "https://www.agrarmarktdaten.ch",
+        "foaf:page": [
+            {
+                "uri": "https://www.agrarmarktdaten.ch/methoden/methoden-eier"
+            }
+        ],
+        "dcatap:applicableLegislation": [
+            "https://www.fedlex.admin.ch/eli/cc/1998/3033_3033_3033/de#art_27"
+        ],
+        "schema:comment": "Imported from opendata.swiss on 2025-03-10",
+        "dcat:distribution": [
+            {
+                "dct:identifier": "8b6202d9-7793-427b-8520-543d2301a8a7",
+                "dcat:accessURL": "https://lindas.admin.ch/sparql#query=DESCRIBE+%3Chttps%3A%2F%2Fagriculture.ld.admin.ch%2Ffoag%2Fcube%2FEggs%2FImport_Price_Year%3E%0A%0AFROM+%3Chttps%3A%2F%2Flindas.admin.ch%2Ffoag%2Fagricultural-market-data%3E%0A%0A%0A&endpoint=https%3A%2F%2Flindas.admin.ch%2Fquery",
+                "adms:status": "published",
+                "dct:format": "SPARQL",
+                "dct:modified": null,
+                "dct:title": {
+                    "fr": "SPARQL Endpoint avec présélection du graphe",
+                    "de": "SPARQL Endpoint mit Vorauswahl des Graph",
+                    "en": "SPARQL Endpoint with graph preselection",
+                    "it": ""
+                },
+                "dct:description": {
+                    "fr": "",
+                    "de": "",
+                    "en": "",
+                    "it": ""
+                },
+                "dct:license": "terms_by",
+                "schema:comment": "ID for this distribution on opendata.swiss: d0904b5e-5f48-4283-8733-bf7c9f804b3a"
+            }
+        ],
+        "dct:temporal": {
+            "dcat:start_date": "2017-01-01",
+            "dcat:end_date": "2024-01-01"
+        },
+        "bv:externalCatalogs": [
+            {
+                "dcat:catalog": "opendata.swiss",
+                "dct:identifier": "7f74b325-02a2-40de-9b2d-81f1ded24764"
+            }
+        ],
+        "businessDataOwner": null,
+        "schemaViolations": 3,
+        "schemaViolationMessages": [
+            "'prov:qualifiedAttribution' is a required property",
+            "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
+            "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'"
+        ],
+        "quality": 825.5
+    },
+    {
+        "rdf:type": "dcat:Dataset",
+        "dct:identifier": "9db57343-7891-4072-b5b8-b786c7c197ad",
+        "schema:image": "https://fal.media/files/elephant/n_65bwtRfEpklGsKote-4_537817425c194e67bc00ea8b844d284d.jpg",
+        "dct:title": {
+            "fr": "Chiffres du marché des oeufs - Prix mensuels à l'importation",
+            "de": "Marktzahlen Eier - Monatliche Importpreise",
+            "en": "Market figures eggs - Monthly import prices",
+            "it": "Cifre del mercato delle uova - Prezzi mensili all'importazione"
+        },
+        "dct:description": {
+            "fr": "Prix moyens mensuels des œufs importés et d’une sélection de divers produits importés à base d'œufs à l’échelon de création de valeur transformation et consommation",
+            "en": "Monthly average prices for a selection of different egg products or eggs at value creation level transformation and consumption",
+            "de": "Monatliche Durchschnittspreise für importierte Eiprodukte und Eier auf Wertschöpfungsstufe Verarbeitung und Konsum ",
+            "it": "Prezzi medi mensili delle uova importate e di una selezione di prodotti importati a base di uova a livello della catena del valore transformazione e consumi"
+        },
+        "dct:accessRights": "PUBLIC",
+        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+        "dcat:contactPoint": {
+            "schema:email": "marktanalysen@blw.admin.ch",
+            "schema:name": "Bundesamt für Landwirtschaft, Fachbereich Marktanalysen"
+        },
+        "dct:issued": "2025-03-09",
+        "dct:accrualPeriodicity": "MONTHLY",
+        "dct:modified": "2025-02-18",
+        "adms:status": "published",
+        "bv:classification": "none",
+        "bv:personalData": "none",
+        "bv:archivalValue": false,
+        "bv:typeOfData": "thematicData",
+        "dcat:keyword": [
+            "price",
+            "market-data",
+            "eggs"
+        ],
+        "dcat:theme": [
+            "agriculture",
+            "administration",
+            "finances"
+        ],
+        "dcat:landingPage": "https://www.agrarmarktdaten.ch",
+        "foaf:page": [
+            {
+                "uri": "https://www.agrarmarktdaten.ch/methoden/methoden-eier"
+            }
+        ],
+        "dcatap:applicableLegislation": [
+            "https://www.fedlex.admin.ch/eli/cc/1998/3033_3033_3033/de#art_27"
+        ],
+        "schema:comment": "Imported from opendata.swiss on 2025-03-10",
+        "dcat:distribution": [
+            {
+                "dct:identifier": "502c42e7-1da8-4018-a417-f7647831d4d5",
+                "dcat:accessURL": "https://lindas.admin.ch/sparql#query=DESCRIBE+%3Chttps%3A%2F%2Fagriculture.ld.admin.ch%2Ffoag%2Fcube%2FEggs%2FImport_Price_Month%3E%0A%0AFROM+%3Chttps%3A%2F%2Flindas.admin.ch%2Ffoag%2Fagricultural-market-data%3E%0A%0A%0A&endpoint=https%3A%2F%2Flindas.admin.ch%2Fquery",
+                "adms:status": "published",
+                "dct:format": "SPARQL",
+                "dct:modified": null,
+                "dct:title": {
+                    "fr": "SPARQL Endpoint avec présélection du graphe",
+                    "en": "SPARQL Endpoint with graph preselection",
+                    "de": "SPARQL Endpoint mit Vorauswahl des Graph",
+                    "it": ""
+                },
+                "dct:description": {
+                    "fr": "",
+                    "de": "",
+                    "en": "",
+                    "it": ""
+                },
+                "dct:license": "terms_by",
+                "schema:comment": "ID for this distribution on opendata.swiss: b487ae09-2949-4945-b66a-3dc5332d6a1f"
+            }
+        ],
+        "dct:temporal": {
+            "dcat:start_date": "2017-01-01",
+            "dcat:end_date": "2024-12-01"
+        },
+        "bv:externalCatalogs": [
+            {
+                "dcat:catalog": "opendata.swiss",
+                "dct:identifier": "9f78a795-0a94-4a97-91f2-813933bfbb07"
+            }
+        ],
+        "businessDataOwner": null,
+        "schemaViolations": 3,
+        "schemaViolationMessages": [
+            "'prov:qualifiedAttribution' is a required property",
+            "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
+            "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'"
+        ],
+        "quality": 824.75
+    },
+    {
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "039e1df3-fd67-45f4-9692-1c9b0e97c8f3",
         "dct:title": {
             "fr": "Chiffres du marché du lait et des produits laitiers - Indice des prix mensuels (commerce de gros/transformation)",
@@ -8953,96 +9137,6 @@
     },
     {
         "rdf:type": "dcat:Dataset",
-        "dct:identifier": "93362440-dafa-42ef-aa6c-b05928eec867",
-        "dct:title": {
-            "fr": "Chiffres du marché des oeufs - Prix annuels à l'importation ",
-            "de": "Marktzahlen Eier - Jährliche Importpreise",
-            "en": "Market figures eggs - Annual import prices ",
-            "it": "Cifre del mercato delle uova - Prezzi annuali all'importazione "
-        },
-        "dct:description": {
-            "fr": "Prix moyens annuels des œufs importés et d’une sélection de divers produits importés à base d'œufs à l’échelon de création de valeur transformation et consommation",
-            "de": "Jährliche Durchschnittspreise für importierte Eiprodukte und Eier auf Wertschöpfungsstufe Verarbeitung und Konsum",
-            "en": "Annual average prices for a selection of different egg products or eggs at the transformation and consumption stage of the value chain",
-            "it": "Prezzi medi annui delle uova importate e di una selezione di prodotti importati a base di uovai a livello della catena del valore transformazione e consumi"
-        },
-        "dct:accessRights": "PUBLIC",
-        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
-        "dcat:contactPoint": {
-            "schema:email": "marktanalysen@blw.admin.ch",
-            "schema:name": "Bundesamt für Landwirtschaft, Fachbereich Marktanalysen"
-        },
-        "dct:issued": "2025-03-09",
-        "dct:accrualPeriodicity": "ANNUAL",
-        "dct:modified": "2025-02-18",
-        "adms:status": "published",
-        "bv:classification": "none",
-        "bv:personalData": "none",
-        "bv:archivalValue": false,
-        "bv:typeOfData": "thematicData",
-        "dcat:keyword": [
-            "price",
-            "market-data"
-        ],
-        "dcat:theme": [
-            "agriculture",
-            "administration",
-            "finances"
-        ],
-        "dcat:landingPage": "https://www.agrarmarktdaten.ch",
-        "foaf:page": [
-            {
-                "uri": "https://www.agrarmarktdaten.ch/methoden/methoden-eier"
-            }
-        ],
-        "dcatap:applicableLegislation": [
-            "https://www.fedlex.admin.ch/eli/cc/1998/3033_3033_3033/de#art_27"
-        ],
-        "schema:comment": "Imported from opendata.swiss on 2025-03-10",
-        "dcat:distribution": [
-            {
-                "dct:identifier": "8b6202d9-7793-427b-8520-543d2301a8a7",
-                "dcat:accessURL": "https://lindas.admin.ch/sparql#query=DESCRIBE+%3Chttps%3A%2F%2Fagriculture.ld.admin.ch%2Ffoag%2Fcube%2FEggs%2FImport_Price_Year%3E%0A%0AFROM+%3Chttps%3A%2F%2Flindas.admin.ch%2Ffoag%2Fagricultural-market-data%3E%0A%0A%0A&endpoint=https%3A%2F%2Flindas.admin.ch%2Fquery",
-                "adms:status": "published",
-                "dct:format": "SPARQL",
-                "dct:modified": null,
-                "dct:title": {
-                    "fr": "SPARQL Endpoint avec présélection du graphe",
-                    "de": "SPARQL Endpoint mit Vorauswahl des Graph",
-                    "en": "SPARQL Endpoint with graph preselection",
-                    "it": ""
-                },
-                "dct:description": {
-                    "fr": "",
-                    "de": "",
-                    "en": "",
-                    "it": ""
-                },
-                "dct:license": "terms_by",
-                "schema:comment": "ID for this distribution on opendata.swiss: d0904b5e-5f48-4283-8733-bf7c9f804b3a"
-            }
-        ],
-        "dct:temporal": {
-            "dcat:start_date": "2017-01-01",
-            "dcat:end_date": "2024-01-01"
-        },
-        "bv:externalCatalogs": [
-            {
-                "dcat:catalog": "opendata.swiss",
-                "dct:identifier": "7f74b325-02a2-40de-9b2d-81f1ded24764"
-            }
-        ],
-        "businessDataOwner": null,
-        "schemaViolations": 3,
-        "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property",
-            "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
-            "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'"
-        ],
-        "quality": 794.25
-    },
-    {
-        "rdf:type": "dcat:Dataset",
         "dct:identifier": "1cde0ba1-6995-4419-ba4c-15df2e7d198c",
         "dct:title": {
             "fr": "Chiffres du marché du lait et des produits laitiers - Prix de gros annuels",
@@ -9130,96 +9224,6 @@
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'"
         ],
         "quality": 793.75
-    },
-    {
-        "rdf:type": "dcat:Dataset",
-        "dct:identifier": "9db57343-7891-4072-b5b8-b786c7c197ad",
-        "dct:title": {
-            "fr": "Chiffres du marché des oeufs - Prix mensuels à l'importation",
-            "de": "Marktzahlen Eier - Monatliche Importpreise",
-            "en": "Market figures eggs - Monthly import prices",
-            "it": "Cifre del mercato delle uova - Prezzi mensili all'importazione"
-        },
-        "dct:description": {
-            "fr": "Prix moyens mensuels des œufs importés et d’une sélection de divers produits importés à base d'œufs à l’échelon de création de valeur transformation et consommation",
-            "en": "Monthly average prices for a selection of different egg products or eggs at value creation level transformation and consumption",
-            "de": "Monatliche Durchschnittspreise für importierte Eiprodukte und Eier auf Wertschöpfungsstufe Verarbeitung und Konsum ",
-            "it": "Prezzi medi mensili delle uova importate e di una selezione di prodotti importati a base di uova a livello della catena del valore transformazione e consumi"
-        },
-        "dct:accessRights": "PUBLIC",
-        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
-        "dcat:contactPoint": {
-            "schema:email": "marktanalysen@blw.admin.ch",
-            "schema:name": "Bundesamt für Landwirtschaft, Fachbereich Marktanalysen"
-        },
-        "dct:issued": "2025-03-09",
-        "dct:accrualPeriodicity": "MONTHLY",
-        "dct:modified": "2025-02-18",
-        "adms:status": "published",
-        "bv:classification": "none",
-        "bv:personalData": "none",
-        "bv:archivalValue": false,
-        "bv:typeOfData": "thematicData",
-        "dcat:keyword": [
-            "price",
-            "market-data"
-        ],
-        "dcat:theme": [
-            "agriculture",
-            "administration",
-            "finances"
-        ],
-        "dcat:landingPage": "https://www.agrarmarktdaten.ch",
-        "foaf:page": [
-            {
-                "uri": "https://www.agrarmarktdaten.ch/methoden/methoden-eier"
-            }
-        ],
-        "dcatap:applicableLegislation": [
-            "https://www.fedlex.admin.ch/eli/cc/1998/3033_3033_3033/de#art_27"
-        ],
-        "schema:comment": "Imported from opendata.swiss on 2025-03-10",
-        "dcat:distribution": [
-            {
-                "dct:identifier": "502c42e7-1da8-4018-a417-f7647831d4d5",
-                "dcat:accessURL": "https://lindas.admin.ch/sparql#query=DESCRIBE+%3Chttps%3A%2F%2Fagriculture.ld.admin.ch%2Ffoag%2Fcube%2FEggs%2FImport_Price_Month%3E%0A%0AFROM+%3Chttps%3A%2F%2Flindas.admin.ch%2Ffoag%2Fagricultural-market-data%3E%0A%0A%0A&endpoint=https%3A%2F%2Flindas.admin.ch%2Fquery",
-                "adms:status": "published",
-                "dct:format": "SPARQL",
-                "dct:modified": null,
-                "dct:title": {
-                    "fr": "SPARQL Endpoint avec présélection du graphe",
-                    "en": "SPARQL Endpoint with graph preselection",
-                    "de": "SPARQL Endpoint mit Vorauswahl des Graph",
-                    "it": ""
-                },
-                "dct:description": {
-                    "fr": "",
-                    "de": "",
-                    "en": "",
-                    "it": ""
-                },
-                "dct:license": "terms_by",
-                "schema:comment": "ID for this distribution on opendata.swiss: b487ae09-2949-4945-b66a-3dc5332d6a1f"
-            }
-        ],
-        "dct:temporal": {
-            "dcat:start_date": "2017-01-01",
-            "dcat:end_date": "2024-12-01"
-        },
-        "bv:externalCatalogs": [
-            {
-                "dcat:catalog": "opendata.swiss",
-                "dct:identifier": "9f78a795-0a94-4a97-91f2-813933bfbb07"
-            }
-        ],
-        "businessDataOwner": null,
-        "schemaViolations": 3,
-        "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property",
-            "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
-            "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'"
-        ],
-        "quality": 793.5
     },
     {
         "rdf:type": "dcat:Dataset",
