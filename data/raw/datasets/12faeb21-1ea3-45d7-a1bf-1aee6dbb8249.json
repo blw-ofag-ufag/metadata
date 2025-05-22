@@ -1,5 +1,6 @@
 {
   "dct:identifier": "12faeb21-1ea3-45d7-a1bf-1aee6dbb8249",
+  "schema:image": "https://fal.media/files/elephant/n_65bwtRfEpklGsKote-4_537817425c194e67bc00ea8b844d284d.jpg",
   "dct:title": {
     "fr": "Chiffres du marché des œufs - Quantités exportées annuelles",
     "en": "Market figures eggs - Annual export quantities ",
@@ -33,7 +34,8 @@
   "dcat:theme": [
     "agriculture",
     "administration",
-    "finances"
+    "finances",
+    "eggs"
   ],
   "dcat:landingPage": "https://www.agrarmarktdaten.ch",
   "foaf:page": [

@@ -1,5 +1,6 @@
 {
   "dct:identifier": "38200f08-d086-4a8f-8a6f-ae6de5f0d4f0",
+  "schema:image": "https://fal.media/files/elephant/n_65bwtRfEpklGsKote-4_537817425c194e67bc00ea8b844d284d.jpg",
   "dct:title": {
     "fr": "Chiffres du marché des œufs - Ressources et contributions annuelles disponibles",
     "de": "Marktzahlen Eier - Jährliche Mittel und Beiträge",
@@ -28,7 +29,8 @@
   "bv:typeOfData": "thematicData",
   "dcat:keyword": [
     "market-data",
-    "price"
+    "price",
+    "eggs"
   ],
   "dcat:theme": [
     "agriculture",
