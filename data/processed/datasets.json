@@ -584,6 +584,7 @@
     {
         "rdf:type": "dcat:Dataset",
         "dct:identifier": "ad68ced9-d7da-4817-980e-f439c7394172",
+        "schema:image": "https://fal.media/files/kangaroo/zC34KxmLbmI4fsz9Cit2k_7a22cfc79d1d47c88ffd23ca3e4d99a0.jpg",
         "dct:title": {
             "de": "Flächenangaben zu Biodiversitätsfrderflächen auf einem Betrieb in der Schweizer Landwirtschaft",
             "fr": "Indications de surface pour les surfaces de promotion de la biodiversité dans une exploitation agricole suisse",
@@ -679,7 +680,7 @@
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']"
         ],
-        "quality": 4921.0
+        "quality": 4977.5
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -783,6 +784,7 @@
     {
         "rdf:type": "dcat:Dataset",
         "dct:identifier": "7079407c-c5df-430c-b6bf-75f9216c46b3",
+        "schema:image": "https://fal.media/files/kangaroo/zC34KxmLbmI4fsz9Cit2k_7a22cfc79d1d47c88ffd23ca3e4d99a0.jpg",
         "dct:title": {
             "de": "Flächenangaben zu Vernetzungsflächen auf einem Betrieb in der Schweizer Landwirtschaft",
             "fr": "Indications de superficie pour les surfaces de mise en réseau sur une exploitation agricole suisse",
@@ -877,7 +879,7 @@
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']"
         ],
-        "quality": 4729.0
+        "quality": 4785.5
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -976,6 +978,7 @@
     {
         "rdf:type": "dcat:Dataset",
         "dct:identifier": "e4b1f944-2f1a-433e-bcd4-7f88028800c8",
+        "schema:image": "https://fal.media/files/kangaroo/MplSG_GNu6ZmK7BwV-Wna_62809d3f79334984b197c233f6abdc49.jpg",
         "dct:title": {
             "de": "Flächenangaben zu Rebfächen in Hanglagen auf einem Betrieb in der Schweizer Landwirtschaft",
             "fr": "Indications de surface pour les vignobles en pente sur une exploitation agricole suisse",
@@ -1071,11 +1074,12 @@
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']"
         ],
-        "quality": 4552.5
+        "quality": 4609.0
     },
     {
         "rdf:type": "dcat:Dataset",
         "dct:identifier": "f2d347f7-7782-4411-b99e-666e67b6c652",
+        "schema:image": "https://fal.media/files/koala/0iew8qQY5t1OOcbFH10v-_c45b7b211f2c45e09e8452b0f267702c.jpg",
         "dct:title": {
             "de": "Flächenangaben zu Hauptkulturen auf einem Betrieb in der Schweizer Landwirtschaft",
             "fr": "Données sur les surfaces des principales cultures dans une exploitation agricole suisse",
@@ -1170,92 +1174,12 @@
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']"
         ],
-        "quality": 4527.0
-    },
-    {
-        "rdf:type": "dcat:Dataset",
-        "dct:identifier": "19711e0b-c622-46c7-88ee-b081e1c042d4",
-        "dct:title": {
-            "de": "Nährstofflieferungen zwischen Betrieben in der Schweizer Landwirtschaft",
-            "fr": "Livraisons de nutriments entre les exploitations agricoles suisses",
-            "it": "Scambi di sostanze nutritive tra aziende agricole in Svizzera",
-            "en": "Nutrient transfers between farms in Swiss agriculture"
-        },
-        "dct:description": {
-            "de": "Dieses Datenpaket enthält alle Nährstofflieferungen aus dem System \"HODUFLU\" mit dem Lieferstatus «bestätigt» aus dem laufenden Kalenderjahr und dem Vorjahr. Zu den Lieferungen wird angegeben: Flussrichtung, Tierkategorie, Produktstamm, Volumen, Gewicht, Nährstoffgehalt, Düngerart und Swiss Bilanz Kategorie. Im BLW sind auf Anfrage über die Anwendung MAF aus dem System HODUFLU Angaben zu Lieferungen zwischen landwirtschaftlichen Betrieben verfügbar. Zur Weitergabe der Daten müssen die Bewirtschaftenden ihre Einwilligung in der Anwendung MAF erteilen. Dieses Dataset entspricht dem Datenpaket H01 \"Einzellieferungen\" aus dem MAF PDF-Katalog. Das Dataset enthält die Daten vom 01.01. des Vorjahres bis zum aktuellen Datum.",
-            "fr": "Ce paquet de données contient toutes les livraisons de nutriments du système «HODUFLU» avec le statut de livraison «confirmé» de l'année civile en cours et de l'année précédente. Les informations suivantes sont indiquées pour les livraisons: direction du flux, catégorie d'animaux, base de données des produits, volume, poids, teneur en nutriments, type d'engrais et catégorie Swiss Bilanz. L'OFAG fournit sur demande des informations sur les livraisons entre exploitations agricoles via l'application MAF du système HODUFLU. Pour que les données puissent être transmises, les exploitants doivent donner leur consentement dans l'application MAF. Cet ensemble de données correspond au paquet de données H01 «Livraisons individuelles» du catalogue PDF MAF. L'ensemble de données contient les données du 01.01 de l'année précédente jusqu'à la date actuelle.",
-            "it": "Questo pacchetto di dati contiene tutte le forniture di sostanze nutritive dal sistema «HODUFLU» con lo stato di consegna «confermato» dell'anno civile in corso e dell'anno precedente. Per le consegne sono indicati: direzione del flusso, categoria di animali, scheda prodotto, volume, peso, contenuto di sostanze nutritive, tipo di fertilizzante e categoria Swiss Bilanz. Su richiesta, l'UFAG può fornire informazioni sulle consegne tra aziende agricole tramite l'applicazione MAF del sistema HODUFLU. Per la trasmissione dei dati, gli agricoltori devono dare il loro consenso nell'applicazione MAF. Questo set di dati corrisponde al pacchetto di dati H01 “Consegne individuali” del catalogo PDF MAF. Il set di dati contiene i dati dal 01.01 dell'anno precedente alla data corrente.",
-            "en": "This data set contains all nutrient deliveries from the \"HODUFLU\" system with the delivery status \"confirmed\" from the current calendar year and the previous year. The following information is provided for the deliveries: flow direction, animal category, product base, volume, weight, nutrient content, fertiliser type and Swiss balance category. Information on deliveries between agricultural holdings is available from the FOAG on request via the MAF application from the HODUFLU system. In order to pass on the data, the farmers must give their consent in the MAF application. This dataset corresponds to the data package H01 \"Einzellieferungen\" (individual deliveries) from the MAF PDF catalogue. The dataset contains the data from 01.01. of the previous year to the current date."
-        },
-        "dct:accessRights": "RESTRICTED",
-        "dct:issued": "2020-01-01",
-        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
-        "dcat:contactPoint": {
-            "schema:name": "AV MAF, GRKDT",
-            "schema:email": "maf@blw.admin.ch"
-        },
-        "bv:archivalValue": false,
-        "dcat:keyword": [
-            "HODUFLU",
-            "meine-agrardaten-freigabe",
-            "MAF",
-            "deliveries",
-            "nutrient-content",
-            "fertiliser",
-            "suisse-bilanz"
-        ],
-        "dct:accrualPeriodicity": "DAILY",
-        "dct:modified": "2025-03-25",
-        "dcat:landingPage": "https://www.blw.admin.ch/de/meine-agrardatenfreigabe",
-        "foaf:page": [
-            {
-                "alias": "PDF: MAF-Verfügbare Datenpakete",
-                "uri": "https://backend.blw.admin.ch/fileservice/sdweb-docs-prod-blwch-files/files/2024/08/28/3106f5f5-1bcb-4b25-a78a-75c712f2491f.pdf"
-            }
-        ],
-        "adms:status": "published",
-        "bv:classification": "none",
-        "bv:personalData": "personalData",
-        "bv:typeOfData": "thematicData",
-        "dcat:theme": [
-            "agriculture"
-        ],
-        "dcatap:applicableLegislation": [
-            "https://www.fedlex.admin.ch/eli/cc/2013/733/de#a27"
-        ],
-        "bv:itSystem": "https://agriculture.ld.admin.ch/system-map/SYS008",
-        "dcat:distribution": [
-            {
-                "dct:identifier": "b339f38f-af90-4127-bc06-b729dc4d5a41",
-                "dct:title": {
-                    "de": "Nährstofflieferungen zwischen Betrieben in der Schweizer Landwirtschaft",
-                    "fr": "Livraisons de nutriments entre les exploitations agricoles suisses",
-                    "it": "Scambi di sostanze nutritive tra aziende agricole in Svizzera",
-                    "en": "Nutrient transfers between farms in Swiss agriculture"
-                },
-                "dct:description": {
-                    "de": "Dieses Datenpaket enthält alle Nährstofflieferungen aus dem System \"HODUFLU\" mit dem Lieferstatus «bestätigt» aus dem laufenden Kalenderjahr und dem Vorjahr. Zu den Lieferungen wird angegeben: Flussrichtung, Tierkategorie, Produktstamm, Volumen, Gewicht, Nährstoffgehalt, Düngerart und Swiss Bilanz Kategorie. Im BLW sind auf Anfrage über die Anwendung MAF aus dem System HODUFLU Angaben zu Lieferungen zwischen landwirtschaftlichen Betrieben verfügbar. Zur Weitergabe der Daten müssen die Bewirtschaftenden ihre Einwilligung in der Anwendung MAF erteilen. Dieses Dataset entspricht dem Datenpaket H01 \"Einzellieferungen\" aus dem MAF PDF-Katalog. Das Dataset enthält die Daten vom 01.01. des Vorjahres bis zum aktuellen Datum.",
-                    "fr": "Ce paquet de données contient toutes les livraisons de nutriments du système «HODUFLU» avec le statut de livraison «confirmé» de l'année civile en cours et de l'année précédente. Les informations suivantes sont indiquées pour les livraisons: direction du flux, catégorie d'animaux, base de données des produits, volume, poids, teneur en nutriments, type d'engrais et catégorie Swiss Bilanz. L'OFAG fournit sur demande des informations sur les livraisons entre exploitations agricoles via l'application MAF du système HODUFLU. Pour que les données puissent être transmises, les exploitants doivent donner leur consentement dans l'application MAF. Cet ensemble de données correspond au paquet de données H01 «Livraisons individuelles» du catalogue PDF MAF. L'ensemble de données contient les données du 01.01 de l'année précédente jusqu'à la date actuelle.",
-                    "it": "Questo pacchetto di dati contiene tutte le forniture di sostanze nutritive dal sistema «HODUFLU» con lo stato di consegna «confermato» dell'anno civile in corso e dell'anno precedente. Per le consegne sono indicati: direzione del flusso, categoria di animali, scheda prodotto, volume, peso, contenuto di sostanze nutritive, tipo di fertilizzante e categoria Swiss Bilanz. Su richiesta, l'UFAG può fornire informazioni sulle consegne tra aziende agricole tramite l'applicazione MAF del sistema HODUFLU. Per la trasmissione dei dati, gli agricoltori devono dare il loro consenso nell'applicazione MAF. Questo set di dati corrisponde al pacchetto di dati H01 “Consegne individuali” del catalogo PDF MAF. Il set di dati contiene i dati dal 01.01 dell'anno precedente alla data corrente.",
-                    "en": "This data set contains all nutrient deliveries from the \"HODUFLU\" system with the delivery status \"confirmed\" from the current calendar year and the previous year. The following information is provided for the deliveries: flow direction, animal category, product base, volume, weight, nutrient content, fertiliser type and Swiss balance category. Information on deliveries between agricultural holdings is available from the FOAG on request via the MAF application from the HODUFLU system. In order to pass on the data, the farmers must give their consent in the MAF application. This dataset corresponds to the data package H01 \"Einzellieferungen\" (individual deliveries) from the MAF PDF catalogue. The dataset contains the data from 01.01. of the previous year to the current date."
-                },
-                "adms:status": "published",
-                "dct:modified": "2025-03-25",
-                "dcat:accessURL": "https://www.blw.admin.ch/de/meine-agrardatenfreigabe",
-                "dct:format": "CSV"
-            }
-        ],
-        "bv:externalCatalogs": null,
-        "businessDataOwner": "p-1YVS771WP",
-        "schemaViolations": 1,
-        "schemaViolationMessages": [
-            "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']"
-        ],
-        "quality": 4492.5
+        "quality": 4582.0
     },
     {
         "rdf:type": "dcat:Dataset",
         "dct:identifier": "8432bc6e-262f-40dd-b380-2bc39f9efa32",
+        "schema:image": "https://fal.media/files/kangaroo/MplSG_GNu6ZmK7BwV-Wna_62809d3f79334984b197c233f6abdc49.jpg",
         "dct:title": {
             "de": "Flächenangaben zu Fächen in Hanglagen auf einem Betrieb in der Schweizer Landwirtschaft",
             "fr": "Indications de surface pour les surfaces en pente d'une exploitation agricole suisse",
@@ -1350,7 +1274,88 @@
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']"
         ],
-        "quality": 4465.5
+        "quality": 4522.0
+    },
+    {
+        "rdf:type": "dcat:Dataset",
+        "dct:identifier": "19711e0b-c622-46c7-88ee-b081e1c042d4",
+        "dct:title": {
+            "de": "Nährstofflieferungen zwischen Betrieben in der Schweizer Landwirtschaft",
+            "fr": "Livraisons de nutriments entre les exploitations agricoles suisses",
+            "it": "Scambi di sostanze nutritive tra aziende agricole in Svizzera",
+            "en": "Nutrient transfers between farms in Swiss agriculture"
+        },
+        "dct:description": {
+            "de": "Dieses Datenpaket enthält alle Nährstofflieferungen aus dem System \"HODUFLU\" mit dem Lieferstatus «bestätigt» aus dem laufenden Kalenderjahr und dem Vorjahr. Zu den Lieferungen wird angegeben: Flussrichtung, Tierkategorie, Produktstamm, Volumen, Gewicht, Nährstoffgehalt, Düngerart und Swiss Bilanz Kategorie. Im BLW sind auf Anfrage über die Anwendung MAF aus dem System HODUFLU Angaben zu Lieferungen zwischen landwirtschaftlichen Betrieben verfügbar. Zur Weitergabe der Daten müssen die Bewirtschaftenden ihre Einwilligung in der Anwendung MAF erteilen. Dieses Dataset entspricht dem Datenpaket H01 \"Einzellieferungen\" aus dem MAF PDF-Katalog. Das Dataset enthält die Daten vom 01.01. des Vorjahres bis zum aktuellen Datum.",
+            "fr": "Ce paquet de données contient toutes les livraisons de nutriments du système «HODUFLU» avec le statut de livraison «confirmé» de l'année civile en cours et de l'année précédente. Les informations suivantes sont indiquées pour les livraisons: direction du flux, catégorie d'animaux, base de données des produits, volume, poids, teneur en nutriments, type d'engrais et catégorie Swiss Bilanz. L'OFAG fournit sur demande des informations sur les livraisons entre exploitations agricoles via l'application MAF du système HODUFLU. Pour que les données puissent être transmises, les exploitants doivent donner leur consentement dans l'application MAF. Cet ensemble de données correspond au paquet de données H01 «Livraisons individuelles» du catalogue PDF MAF. L'ensemble de données contient les données du 01.01 de l'année précédente jusqu'à la date actuelle.",
+            "it": "Questo pacchetto di dati contiene tutte le forniture di sostanze nutritive dal sistema «HODUFLU» con lo stato di consegna «confermato» dell'anno civile in corso e dell'anno precedente. Per le consegne sono indicati: direzione del flusso, categoria di animali, scheda prodotto, volume, peso, contenuto di sostanze nutritive, tipo di fertilizzante e categoria Swiss Bilanz. Su richiesta, l'UFAG può fornire informazioni sulle consegne tra aziende agricole tramite l'applicazione MAF del sistema HODUFLU. Per la trasmissione dei dati, gli agricoltori devono dare il loro consenso nell'applicazione MAF. Questo set di dati corrisponde al pacchetto di dati H01 “Consegne individuali” del catalogo PDF MAF. Il set di dati contiene i dati dal 01.01 dell'anno precedente alla data corrente.",
+            "en": "This data set contains all nutrient deliveries from the \"HODUFLU\" system with the delivery status \"confirmed\" from the current calendar year and the previous year. The following information is provided for the deliveries: flow direction, animal category, product base, volume, weight, nutrient content, fertiliser type and Swiss balance category. Information on deliveries between agricultural holdings is available from the FOAG on request via the MAF application from the HODUFLU system. In order to pass on the data, the farmers must give their consent in the MAF application. This dataset corresponds to the data package H01 \"Einzellieferungen\" (individual deliveries) from the MAF PDF catalogue. The dataset contains the data from 01.01. of the previous year to the current date."
+        },
+        "dct:accessRights": "RESTRICTED",
+        "dct:issued": "2020-01-01",
+        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+        "dcat:contactPoint": {
+            "schema:name": "AV MAF, GRKDT",
+            "schema:email": "maf@blw.admin.ch"
+        },
+        "bv:archivalValue": false,
+        "dcat:keyword": [
+            "HODUFLU",
+            "meine-agrardaten-freigabe",
+            "MAF",
+            "deliveries",
+            "nutrient-content",
+            "fertiliser",
+            "suisse-bilanz"
+        ],
+        "dct:accrualPeriodicity": "DAILY",
+        "dct:modified": "2025-03-25",
+        "dcat:landingPage": "https://www.blw.admin.ch/de/meine-agrardatenfreigabe",
+        "foaf:page": [
+            {
+                "alias": "PDF: MAF-Verfügbare Datenpakete",
+                "uri": "https://backend.blw.admin.ch/fileservice/sdweb-docs-prod-blwch-files/files/2024/08/28/3106f5f5-1bcb-4b25-a78a-75c712f2491f.pdf"
+            }
+        ],
+        "adms:status": "published",
+        "bv:classification": "none",
+        "bv:personalData": "personalData",
+        "bv:typeOfData": "thematicData",
+        "dcat:theme": [
+            "agriculture"
+        ],
+        "dcatap:applicableLegislation": [
+            "https://www.fedlex.admin.ch/eli/cc/2013/733/de#a27"
+        ],
+        "bv:itSystem": "https://agriculture.ld.admin.ch/system-map/SYS008",
+        "dcat:distribution": [
+            {
+                "dct:identifier": "b339f38f-af90-4127-bc06-b729dc4d5a41",
+                "dct:title": {
+                    "de": "Nährstofflieferungen zwischen Betrieben in der Schweizer Landwirtschaft",
+                    "fr": "Livraisons de nutriments entre les exploitations agricoles suisses",
+                    "it": "Scambi di sostanze nutritive tra aziende agricole in Svizzera",
+                    "en": "Nutrient transfers between farms in Swiss agriculture"
+                },
+                "dct:description": {
+                    "de": "Dieses Datenpaket enthält alle Nährstofflieferungen aus dem System \"HODUFLU\" mit dem Lieferstatus «bestätigt» aus dem laufenden Kalenderjahr und dem Vorjahr. Zu den Lieferungen wird angegeben: Flussrichtung, Tierkategorie, Produktstamm, Volumen, Gewicht, Nährstoffgehalt, Düngerart und Swiss Bilanz Kategorie. Im BLW sind auf Anfrage über die Anwendung MAF aus dem System HODUFLU Angaben zu Lieferungen zwischen landwirtschaftlichen Betrieben verfügbar. Zur Weitergabe der Daten müssen die Bewirtschaftenden ihre Einwilligung in der Anwendung MAF erteilen. Dieses Dataset entspricht dem Datenpaket H01 \"Einzellieferungen\" aus dem MAF PDF-Katalog. Das Dataset enthält die Daten vom 01.01. des Vorjahres bis zum aktuellen Datum.",
+                    "fr": "Ce paquet de données contient toutes les livraisons de nutriments du système «HODUFLU» avec le statut de livraison «confirmé» de l'année civile en cours et de l'année précédente. Les informations suivantes sont indiquées pour les livraisons: direction du flux, catégorie d'animaux, base de données des produits, volume, poids, teneur en nutriments, type d'engrais et catégorie Swiss Bilanz. L'OFAG fournit sur demande des informations sur les livraisons entre exploitations agricoles via l'application MAF du système HODUFLU. Pour que les données puissent être transmises, les exploitants doivent donner leur consentement dans l'application MAF. Cet ensemble de données correspond au paquet de données H01 «Livraisons individuelles» du catalogue PDF MAF. L'ensemble de données contient les données du 01.01 de l'année précédente jusqu'à la date actuelle.",
+                    "it": "Questo pacchetto di dati contiene tutte le forniture di sostanze nutritive dal sistema «HODUFLU» con lo stato di consegna «confermato» dell'anno civile in corso e dell'anno precedente. Per le consegne sono indicati: direzione del flusso, categoria di animali, scheda prodotto, volume, peso, contenuto di sostanze nutritive, tipo di fertilizzante e categoria Swiss Bilanz. Su richiesta, l'UFAG può fornire informazioni sulle consegne tra aziende agricole tramite l'applicazione MAF del sistema HODUFLU. Per la trasmissione dei dati, gli agricoltori devono dare il loro consenso nell'applicazione MAF. Questo set di dati corrisponde al pacchetto di dati H01 “Consegne individuali” del catalogo PDF MAF. Il set di dati contiene i dati dal 01.01 dell'anno precedente alla data corrente.",
+                    "en": "This data set contains all nutrient deliveries from the \"HODUFLU\" system with the delivery status \"confirmed\" from the current calendar year and the previous year. The following information is provided for the deliveries: flow direction, animal category, product base, volume, weight, nutrient content, fertiliser type and Swiss balance category. Information on deliveries between agricultural holdings is available from the FOAG on request via the MAF application from the HODUFLU system. In order to pass on the data, the farmers must give their consent in the MAF application. This dataset corresponds to the data package H01 \"Einzellieferungen\" (individual deliveries) from the MAF PDF catalogue. The dataset contains the data from 01.01. of the previous year to the current date."
+                },
+                "adms:status": "published",
+                "dct:modified": "2025-03-25",
+                "dcat:accessURL": "https://www.blw.admin.ch/de/meine-agrardatenfreigabe",
+                "dct:format": "CSV"
+            }
+        ],
+        "bv:externalCatalogs": null,
+        "businessDataOwner": "p-1YVS771WP",
+        "schemaViolations": 1,
+        "schemaViolationMessages": [
+            "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']"
+        ],
+        "quality": 4492.5
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -4846,6 +4851,7 @@
     {
         "rdf:type": "dcat:Dataset",
         "dct:identifier": "b990b028-d113-42a1-9435-a7ffd0f00e48",
+        "schema:image": "https://fal.media/files/koala/0iew8qQY5t1OOcbFH10v-_c45b7b211f2c45e09e8452b0f267702c.jpg",
         "dct:title": {
             "fr": "Carte digitale des aptitudes des sols de la Suisse - Typologies des cultures",
             "de": "Digitale Bodeneignungskarte der Schweiz - Kulturtyp",
@@ -5020,7 +5026,7 @@
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'"
         ],
-        "quality": 968.2222222222222
+        "quality": 980.4444444444445
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -6038,6 +6044,7 @@
     {
         "rdf:type": "dcat:Dataset",
         "dct:identifier": "bb7894e3-0dbf-4ea1-9e97-813936154238",
+        "schema:image": "https://fal.media/files/kangaroo/MplSG_GNu6ZmK7BwV-Wna_62809d3f79334984b197c233f6abdc49.jpg",
         "dct:title": {
             "fr": "Terrains en pente",
             "de": "Hanglagen",
@@ -6195,7 +6202,7 @@
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'"
         ],
-        "quality": 887.6
+        "quality": 898.9
     },
     {
         "rdf:type": "dcat:Dataset",
