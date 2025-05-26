@@ -173,6 +173,7 @@
     {
         "rdf:type": "dcat:Dataset",
         "dct:identifier": "b7f151dc-8a3d-4d52-912b-6074be50fd70",
+        "schema:image": "https://fal.media/files/koala/0iew8qQY5t1OOcbFH10v-_c45b7b211f2c45e09e8452b0f267702c.jpg",
         "dct:title": {
             "de": "Direktzahlungskultur bzw. Hauptkulturen",
             "fr": "Culture de paiement direct ou cultures principales",
@@ -263,7 +264,7 @@
         "businessDataOwner": "p-5367735",
         "schemaViolations": 0,
         "schemaViolationMessages": [],
-        "quality": 7539.0
+        "quality": 7650.0
     },
     {
         "rdf:type": "dcat:Dataset",
