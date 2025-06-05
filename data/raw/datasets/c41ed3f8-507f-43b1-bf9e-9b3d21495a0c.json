@@ -90,7 +90,9 @@
       "uri": "https://opendata.swiss/de/dataset/landwirtschaftliche-nutzflache-1990-2015"
     }
   ],
-  "dcat:inSeries": ["51c42dfb-76b1-40dd-928a-7d82020cc588"],
+  "dcat:inSeries": [
+    "51c42dfb-76b1-40dd-928a-7d82020cc588"
+  ],
   "dct:replaces": [
     "b1cfe652-688a-4898-9b29-ac0ff6bb13a7",
     "1260f14f-559f-4db2-97f7-66212441786"
@@ -159,7 +161,9 @@
       "dct:conformsTo": "None",
       "dct:license": "terms_by_ask",
       "schema:comment": "Comment to second distribution",
-      "dcat:accessService": ["f6133063-8de9-482d-8af7-9a0033b706ea"]
+      "dcat:accessService": [
+        "f6133063-8de9-482d-8af7-9a0033b706ea"
+      ]
     }
   ]
 }

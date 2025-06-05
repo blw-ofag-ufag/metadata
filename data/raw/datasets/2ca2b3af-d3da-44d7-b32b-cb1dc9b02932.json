@@ -26,7 +26,15 @@
   "bv:personalData": "none",
   "bv:archivalValue": false,
   "bv:typeOfData": "thematicData",
-  "dcat:keyword": ["environment", "climate", "nitrogen", "phosphorus", "nutrients", "energy", "biodiversity"],
+  "dcat:keyword": [
+    "environment",
+    "climate",
+    "nitrogen",
+    "phosphorus",
+    "nutrients",
+    "energy",
+    "biodiversity"
+  ],
   "dcat:theme": [
     "agriculture"
   ],

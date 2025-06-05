@@ -31,8 +31,8 @@
     "UID",
     "animal-owner",
     "legal-form",
-    "KT_ID_B",
-    "KT_ID_P"
+    "cantonal-identifier",
+    "cantonal-identifier"
   ],
   "dct:accrualPeriodicity": "WEEKLY",
   "dct:modified": "2025-03-25",

@@ -134,7 +134,9 @@
       "dct:conformsTo": "eCH-0262",
       "dct:license": "terms_by",
       "schema:comment": "Comment to Distribution 1",
-      "dcat:accessService": ["f6133063-8de9-482d-8af7-9a0033b706ea"]
+      "dcat:accessService": [
+        "f6133063-8de9-482d-8af7-9a0033b706ea"
+      ]
     },
     {
       "dct:identifier": "f3c2db41-a211-4c15-a1ca-1525ae6ed21d",
