@@ -34,7 +34,8 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add data/processed/datasets.json
-          git commit -m "Updated combined datasets.json" || echo "No changes to commit"
+          git add data/processed/keywords.json
+          git commit -m "Updated combined JSON files" || echo "No changes to commit"
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
