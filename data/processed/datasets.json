@@ -191,7 +191,7 @@
         "dcat:keyword": [
             "data-standard",
             "eCH-0263",
-            "main crops",
+            "main-crops",
             "AGIS",
             "direct-payments"
         ],
@@ -264,7 +264,7 @@
         "businessDataOwner": "p-5367735",
         "schemaViolations": 0,
         "schemaViolationMessages": [],
-        "quality": 7650.0
+        "quality": 7649.0
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -710,7 +710,7 @@
             "meine-agrardaten-freigabe",
             "MAF",
             "control-organization",
-            "contribution-jear",
+            "contribution-year",
             "registration-data"
         ],
         "dct:accrualPeriodicity": "ANNUAL",
@@ -1761,8 +1761,8 @@
             "UID",
             "animal-owner",
             "legal-form",
-            "KT_ID_B",
-            "KT_ID_P"
+            "cantonal-identifier",
+            "cantonal-identifier"
         ],
         "dct:accrualPeriodicity": "WEEKLY",
         "dct:modified": "2025-03-25",
@@ -1811,7 +1811,7 @@
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']"
         ],
-        "quality": 3720.5
+        "quality": 3732.5
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -2185,7 +2185,7 @@
             "None of [{'prov:agent': 'p-1ZPP7KQSW', 'schema:name': 'Ambrogio Foletti', 'schema:email': 'ambrogio.foletti@blw.admin.ch', 'dcat:hadRole': 'dataSteward'}, {'prov:agent': 'p-1ZFWFFNP6', 'schema:name': 'Damian Oswald', 'schema:email': 'damian.oswald@blw.admin.ch', 'dcat:hadRole': 'dataSteward'}, {'prov:agent': 'p-1YVS771WP', 'schema:name': 'Christian Wilda', 'schema:email': 'christian.wilda@blw.admin.ch', 'dcat:hadRole': 'dataCustodian'}, {'prov:agent': 'p-1ZLWBXSJD', 'schema:name': 'Pascal Hurni', 'schema:email': 'pascal.hurni@blw.admin.ch', 'dcat:hadRole': 'dataCustodian'}] are valid under the given schema",
             "'' is not of type 'array', 'null'"
         ],
-        "quality": 1893.0
+        "quality": 1900.6666666666667
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -2334,7 +2334,7 @@
             "'' is not of type 'array', 'null'",
             "'' is not of type 'array', 'null'"
         ],
-        "quality": 1881.6666666666667
+        "quality": 1884.0
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -2483,7 +2483,7 @@
             "'' is not of type 'array', 'null'",
             "'' is not of type 'array', 'null'"
         ],
-        "quality": 1865.0
+        "quality": 1870.0
     },
     {
         "rdf:type": "dcat:DatasetSeries",
@@ -2726,7 +2726,7 @@
         "schemaViolationMessages": [
             "'dct:issued' is a required property"
         ],
-        "quality": 1573.0
+        "quality": 1572.5
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -4114,7 +4114,7 @@
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
             "'dct:modified' is a required property"
         ],
-        "quality": 1132.6
+        "quality": 1139.0
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -12890,7 +12890,7 @@
         "dcat:keyword": [
             "Subsidies",
             "transitional contribution",
-            "direct payments",
+            "direct-payments",
             "swiss agriculture"
         ],
         "adms:status": "published",
@@ -12948,7 +12948,7 @@
             "'dcat:accessURL' is a required property",
             "'' is not of type 'array', 'null'"
         ],
-        "quality": 642.1428571428571
+        "quality": 642.0
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -17924,7 +17924,7 @@
             "direct-payments",
             "summer-grazing",
             "alpine-farming",
-            "agis"
+            "AGIS"
         ],
         "adms:status": "published",
         "dct:accessRights": "PUBLIC",
@@ -18563,7 +18563,7 @@
             "'Anno 2016' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
             "'Year 2016' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'"
         ],
-        "quality": 237.7835051546392
+        "quality": 237.77319587628867
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -18587,7 +18587,7 @@
         ],
         "dcat:keyword": [
             "direct-payments",
-            "agis"
+            "AGIS"
         ],
         "adms:status": "published",
         "dct:accessRights": "PUBLIC",
@@ -19294,8 +19294,8 @@
             "agriculture"
         ],
         "dcat:keyword": [
-            "Kulturlandschaftsbeiträge",
-            "Direktzahlungen",
+            "cultural-landscape",
+            "direct-payments",
             "Zonen",
             "Offenhaltung"
         ],
@@ -19338,6 +19338,6 @@
             "'dct:format' is a required property",
             "'' is not of type 'array', 'null'"
         ],
-        "quality": 191.44444444444446
+        "quality": 190.55555555555554
     }
 ]
