@@ -687,6 +687,7 @@
     {
         "rdf:type": "dcat:Dataset",
         "dct:identifier": "00d5f3a2-8387-432b-8f46-b49c3eb018ea",
+        "schema:image": "https://fal.media/files/monkey/6gWWWqidmTPm5sPb5W59p_38800376b318474599bf6fa9638c6bae.jpg",
         "dct:title": {
             "de": "Anmeldungen für Direktzahlungsprogramme zu einem Betrieb in der Schweizer Landwirtschaft",
             "fr": "Inscription aux programmes de paiements directs pour une exploitation agricole suisse",
@@ -781,7 +782,7 @@
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']"
         ],
-        "quality": 4835.5
+        "quality": 4891.0
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -980,7 +981,7 @@
     {
         "rdf:type": "dcat:Dataset",
         "dct:identifier": "e4b1f944-2f1a-433e-bcd4-7f88028800c8",
-        "schema:image": "https://fal.media/files/kangaroo/MplSG_GNu6ZmK7BwV-Wna_62809d3f79334984b197c233f6abdc49.jpg",
+        "schema:image": "https://fal.media/files/rabbit/AV3NeebdflBNBMy5B0LGy_ef0855c80cb24d24828892ac5c308d61.jpg",
         "dct:title": {
             "de": "Flächenangaben zu Rebfächen in Hanglagen auf einem Betrieb in der Schweizer Landwirtschaft",
             "fr": "Indications de surface pour les vignobles en pente sur une exploitation agricole suisse",
@@ -1076,7 +1077,7 @@
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']"
         ],
-        "quality": 4609.0
+        "quality": 4608.0
     },
     {
         "rdf:type": "dcat:Dataset",
