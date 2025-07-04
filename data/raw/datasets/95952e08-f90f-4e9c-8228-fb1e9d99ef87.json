@@ -3,14 +3,14 @@
   "dct:title": {
     "fr": "Contributions versées aux cantons 1999-2015",
     "de": "An die Kantone ausbezahlte Beiträge 1999-2015",
-    "en": "",
+    "en": "Contributions paid to the cantons 1999–2015",
     "it": "Contributi versati ai cantoni 1999-2015"
   },
   "dct:description": {
-    "fr": "",
-    "en": "",
+    "fr": "Contributions versées aux cantons pour les améliorations foncières et les bâtiments agricoles, par canton, en CHF",
+    "en": "Contributions paid to the cantons for land improvements and agricultural buildings, by canton, in CHF",
     "de": "An die Kantone ausbezahlte Beiträge für Bodenverbesserungen und landwirtschaftliche Gebäude, nach Kanton in CHF",
-    "it": ""
+    "it": "Contributi versati ai cantoni per i miglioramenti fondiari e gli edifici agricoli, per cantone, in CHF"
   },
   "dct:accessRights": "PUBLIC",
   "dct:publisher": "BLW-OFAG-UFAG-FOAG",
@@ -26,7 +26,7 @@
   "bv:personalData": "none",
   "bv:archivalValue": false,
   "bv:typeOfData": "thematicData",
-  "dcat:keyword": [],
+  "dcat:keyword": ["direct-payments", "finances", "agricultural-policy"],
   "dcat:theme": [
     "agriculture"
   ],
