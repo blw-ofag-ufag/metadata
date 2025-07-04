@@ -79,6 +79,7 @@
     {
         "rdf:type": "dcat:Dataset",
         "dct:identifier": "4624b7bf-40c4-4249-b25a-98ce06ffa280",
+        "schema:image": "https://fal.media/files/tiger/2-oCnTh1G440xQ9bVIC1s_0d28c78524fa45969b3ada26e2ef3cac.jpg",
         "dct:title": {
             "de": "Direktzahlungsprogramme",
             "fr": "Programme de paiements directs",
@@ -168,7 +169,7 @@
         "businessDataOwner": "p-5367735",
         "schemaViolations": 0,
         "schemaViolationMessages": [],
-        "quality": 8253.0
+        "quality": 8363.0
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -269,6 +270,7 @@
     {
         "rdf:type": "dcat:Dataset",
         "dct:identifier": "aa213bfe-c355-4c8e-a487-924b29d97e01",
+        "schema:image": "https://fal.media/files/rabbit/EQO73x5P4yvE-rYSETyKl_6b81f3608c454cb8bd567ad92ad57918.jpg",
         "dct:title": {
             "de": "Codes für Aquakultur-Betriebe",
             "fr": "Codes pour les exploitations aquacoles",
@@ -355,7 +357,7 @@
         "businessDataOwner": "p-5367735",
         "schemaViolations": 0,
         "schemaViolationMessages": [],
-        "quality": 6996.0
+        "quality": 7107.0
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -456,7 +458,7 @@
     {
         "rdf:type": "dcat:Dataset",
         "dct:identifier": "d7b805b5-9b14-42ba-bfba-7a41957ad656",
-        "schema:image": "https://fal.media/files/kangaroo/MplSG_GNu6ZmK7BwV-Wna_62809d3f79334984b197c233f6abdc49.jpg",
+        "schema:image": "https://fal.media/files/zebra/y_XJLvvdT7RGe2r7JD1eU_dec3c28e5ffd4d0593d39402df83cad8.jpg",
         "dct:title": {
             "de": "Kontrollen auf Ganzjahresbetrieben im Bereich Ökologischer Leistungsnachweis",
             "fr": "Contrôles dans les exploitations à l'année dans le domaine PER",
@@ -579,7 +581,7 @@
         "businessDataOwner": "p-8397553",
         "schemaViolations": 0,
         "schemaViolationMessages": [],
-        "quality": 5659.0
+        "quality": 5656.0
     },
     {
         "rdf:type": "dcat:Dataset",
