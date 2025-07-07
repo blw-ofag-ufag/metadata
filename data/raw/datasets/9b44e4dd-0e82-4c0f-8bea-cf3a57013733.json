@@ -1,9 +1,10 @@
 {
   "dct:identifier": "9b44e4dd-0e82-4c0f-8bea-cf3a57013733",
+  "schema:image": "https://fal.media/files/kangaroo/0O1vTmg8FNcXs12w-jdnZ_924fc25fd09348a884b64ae9ce544fc8.jpg",
   "dct:title": {
     "fr": "Dépenses production végétale 1999-2015",
     "de": "Ausgaben Pflanzenbau 1999-2015",
-    "en": "",
+    "en": "Expenditure Plant Production 1990-2015",
     "it": "Uscite produzione vegetale 1999-2015"
   },
   "dct:description": {
@@ -15,7 +16,7 @@
   "dct:accessRights": "PUBLIC",
   "dct:publisher": "BLW-OFAG-UFAG-FOAG",
   "dcat:contactPoint": {
-    "schema:email": "alessandro.rossi@blw.admin.ch",
+    "schema:email": "info@blw.admin.ch",
     "schema:name": "Bundesamt für Landwirtschaft"
   },
   "dct:issued": "2016-11-08",
