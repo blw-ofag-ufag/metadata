@@ -1449,6 +1449,7 @@
     {
         "rdf:type": "dcat:Dataset",
         "dct:identifier": "451e6d03-9868-49fb-8c26-ebf3acc85e43",
+        "schema:image": "https://fal.media/files/kangaroo/wfR9lE1XS04bNDZxRP99o_ebf2d36c2f4341d0b052966613ca8376.jpg",
         "dct:title": {
             "de": "Art und Anzahl Nutztiere in Sömmerung auf einem Betrieb in der Schweizer Landwirtschaft",
             "fr": "Type et nombre d'animaux de rente en estivage dans une exploitation agricole suisse",
@@ -1545,7 +1546,7 @@
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']"
         ],
-        "quality": 4071.0
+        "quality": 4127.5
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -13391,6 +13392,139 @@
     },
     {
         "rdf:type": "dcat:Dataset",
+        "dct:identifier": "9b44e4dd-0e82-4c0f-8bea-cf3a57013733",
+        "schema:image": "https://fal.media/files/kangaroo/0O1vTmg8FNcXs12w-jdnZ_924fc25fd09348a884b64ae9ce544fc8.jpg",
+        "dct:title": {
+            "fr": "Dépenses production végétale 1999-2015",
+            "de": "Ausgaben Pflanzenbau 1999-2015",
+            "en": "Expenditure Plant Production 1990-2015",
+            "it": "Uscite produzione vegetale 1999-2015"
+        },
+        "dct:description": {
+            "fr": "",
+            "en": "",
+            "de": "Ausgaben des Bundes im Bereich Pflanzenbau (Ackerbau, Obstbau, Weinbau) in CHF",
+            "it": ""
+        },
+        "dct:accessRights": "PUBLIC",
+        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+        "dcat:contactPoint": {
+            "schema:email": "info@blw.admin.ch",
+            "schema:name": "Bundesamt für Landwirtschaft"
+        },
+        "dct:issued": "2016-11-08",
+        "dct:accrualPeriodicity": "ANNUAL",
+        "dct:modified": null,
+        "adms:status": "published",
+        "bv:classification": "none",
+        "bv:personalData": "none",
+        "bv:archivalValue": false,
+        "bv:typeOfData": "thematicData",
+        "dcat:keyword": [],
+        "dcat:theme": [
+            "agriculture"
+        ],
+        "dcat:landingPage": "https://www.efv.admin.ch/efv/de/home/finanzberichterstattung/finanzberichte/staatsrechnung.html",
+        "foaf:page": [],
+        "dcatap:applicableLegislation": [],
+        "schema:comment": "Imported from opendata.swiss on 2025-03-10",
+        "dcat:distribution": [
+            {
+                "dct:identifier": "1acccdfe-2a8e-48c7-ad05-9bb6d74e34e1",
+                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/4a/x9n4v94v2nn5x3hnlqaz3fcj63la3p/ausgaben_pflanzenbau_1999-2015_datenreihe_d.xlsx",
+                "adms:status": "published",
+                "dct:format": "XLS",
+                "dct:modified": null,
+                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/4a/x9n4v94v2nn5x3hnlqaz3fcj63la3p/ausgaben_pflanzenbau_1999-2015_datenreihe_d.xlsx",
+                "dct:title": {
+                    "fr": "",
+                    "de": "Ausgaben Pflanzenbau 1999-2015",
+                    "en": "",
+                    "it": ""
+                },
+                "dct:description": {
+                    "fr": "",
+                    "de": "",
+                    "en": "",
+                    "it": ""
+                },
+                "dct:license": "terms_by",
+                "schema:comment": "ID for this distribution on opendata.swiss: bc755c83-3a2e-4cb9-b9de-c21b3e205dd7"
+            },
+            {
+                "dct:identifier": "5f8e8789-037a-426f-9c0e-a03bdc754cb1",
+                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/ba/sd99bjd5pykcwa5dtkonxhaf2xqx8r/ausgaben_pflanzenbau_1999-2015_datenreihe_f.xlsx",
+                "adms:status": "published",
+                "dct:format": "XLS",
+                "dct:modified": null,
+                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/ba/sd99bjd5pykcwa5dtkonxhaf2xqx8r/ausgaben_pflanzenbau_1999-2015_datenreihe_f.xlsx",
+                "dct:title": {
+                    "fr": "Dépenses production végétale 1999-2015",
+                    "de": "",
+                    "en": "",
+                    "it": ""
+                },
+                "dct:description": {
+                    "fr": "",
+                    "de": "",
+                    "en": "",
+                    "it": ""
+                },
+                "dct:license": "terms_by",
+                "schema:comment": "ID for this distribution on opendata.swiss: d67025d8-b1b3-4ee2-a06c-bf857e00b852"
+            },
+            {
+                "dct:identifier": "c486eff7-95b5-4f4f-8f59-ef744c9d8861",
+                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/60/vg0txp054n08vb6eko2mi7rvfggmaw/ausgaben_pflanzenbau_1999-2015_datenreihe_i.xlsx",
+                "adms:status": "published",
+                "dct:format": "XLS",
+                "dct:modified": null,
+                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/60/vg0txp054n08vb6eko2mi7rvfggmaw/ausgaben_pflanzenbau_1999-2015_datenreihe_i.xlsx",
+                "dct:title": {
+                    "fr": "",
+                    "de": "",
+                    "en": "",
+                    "it": "Uscite produzione vegetale 1999-2015"
+                },
+                "dct:description": {
+                    "fr": "",
+                    "de": "",
+                    "en": "",
+                    "it": ""
+                },
+                "dct:license": "terms_by",
+                "schema:comment": "ID for this distribution on opendata.swiss: aed499b3-d8c3-47c4-8fef-316c170f8b9b"
+            }
+        ],
+        "dct:temporal": {
+            "dcat:start_date": "1999-01-01",
+            "dcat:end_date": "2015-12-31"
+        },
+        "bv:externalCatalogs": [
+            {
+                "dcat:catalog": "opendata.swiss",
+                "dct:identifier": "767d09e4-d0f4-4dcf-9816-91e37bfa797d"
+            }
+        ],
+        "businessDataOwner": null,
+        "schemaViolations": 11,
+        "schemaViolationMessages": [
+            "'prov:qualifiedAttribution' is a required property",
+            "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
+            "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
+            "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
+            "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
+            "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
+            "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
+            "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
+            "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
+            "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
+            "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'"
+        ],
+        "quality": 351.9166666666667
+    },
+    {
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "5b685d2e-2b71-468a-b135-a48a98d39e2f",
         "dct:title": {
             "fr": "Dépenses Confédération pour agriculture et alimentation 2004-2015",
@@ -16945,139 +17079,6 @@
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'"
         ],
         "quality": 314.2307692307692
-    },
-    {
-        "rdf:type": "dcat:Dataset",
-        "dct:identifier": "9b44e4dd-0e82-4c0f-8bea-cf3a57013733",
-        "dct:title": {
-            "fr": "Dépenses production végétale 1999-2015",
-            "de": "Ausgaben Pflanzenbau 1999-2015",
-            "en": "",
-            "it": "Uscite produzione vegetale 1999-2015"
-        },
-        "dct:description": {
-            "fr": "",
-            "en": "",
-            "de": "Ausgaben des Bundes im Bereich Pflanzenbau (Ackerbau, Obstbau, Weinbau) in CHF",
-            "it": ""
-        },
-        "dct:accessRights": "PUBLIC",
-        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
-        "dcat:contactPoint": {
-            "schema:email": "alessandro.rossi@blw.admin.ch",
-            "schema:name": "Bundesamt für Landwirtschaft"
-        },
-        "dct:issued": "2016-11-08",
-        "dct:accrualPeriodicity": "ANNUAL",
-        "dct:modified": null,
-        "adms:status": "published",
-        "bv:classification": "none",
-        "bv:personalData": "none",
-        "bv:archivalValue": false,
-        "bv:typeOfData": "thematicData",
-        "dcat:keyword": [],
-        "dcat:theme": [
-            "agriculture"
-        ],
-        "dcat:landingPage": "https://www.efv.admin.ch/efv/de/home/finanzberichterstattung/finanzberichte/staatsrechnung.html",
-        "foaf:page": [],
-        "dcatap:applicableLegislation": [],
-        "schema:comment": "Imported from opendata.swiss on 2025-03-10",
-        "dcat:distribution": [
-            {
-                "dct:identifier": "1acccdfe-2a8e-48c7-ad05-9bb6d74e34e1",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/4a/x9n4v94v2nn5x3hnlqaz3fcj63la3p/ausgaben_pflanzenbau_1999-2015_datenreihe_d.xlsx",
-                "adms:status": "published",
-                "dct:format": "XLS",
-                "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/4a/x9n4v94v2nn5x3hnlqaz3fcj63la3p/ausgaben_pflanzenbau_1999-2015_datenreihe_d.xlsx",
-                "dct:title": {
-                    "fr": "",
-                    "de": "Ausgaben Pflanzenbau 1999-2015",
-                    "en": "",
-                    "it": ""
-                },
-                "dct:description": {
-                    "fr": "",
-                    "de": "",
-                    "en": "",
-                    "it": ""
-                },
-                "dct:license": "terms_by",
-                "schema:comment": "ID for this distribution on opendata.swiss: bc755c83-3a2e-4cb9-b9de-c21b3e205dd7"
-            },
-            {
-                "dct:identifier": "5f8e8789-037a-426f-9c0e-a03bdc754cb1",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/ba/sd99bjd5pykcwa5dtkonxhaf2xqx8r/ausgaben_pflanzenbau_1999-2015_datenreihe_f.xlsx",
-                "adms:status": "published",
-                "dct:format": "XLS",
-                "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/ba/sd99bjd5pykcwa5dtkonxhaf2xqx8r/ausgaben_pflanzenbau_1999-2015_datenreihe_f.xlsx",
-                "dct:title": {
-                    "fr": "Dépenses production végétale 1999-2015",
-                    "de": "",
-                    "en": "",
-                    "it": ""
-                },
-                "dct:description": {
-                    "fr": "",
-                    "de": "",
-                    "en": "",
-                    "it": ""
-                },
-                "dct:license": "terms_by",
-                "schema:comment": "ID for this distribution on opendata.swiss: d67025d8-b1b3-4ee2-a06c-bf857e00b852"
-            },
-            {
-                "dct:identifier": "c486eff7-95b5-4f4f-8f59-ef744c9d8861",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/60/vg0txp054n08vb6eko2mi7rvfggmaw/ausgaben_pflanzenbau_1999-2015_datenreihe_i.xlsx",
-                "adms:status": "published",
-                "dct:format": "XLS",
-                "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/60/vg0txp054n08vb6eko2mi7rvfggmaw/ausgaben_pflanzenbau_1999-2015_datenreihe_i.xlsx",
-                "dct:title": {
-                    "fr": "",
-                    "de": "",
-                    "en": "",
-                    "it": "Uscite produzione vegetale 1999-2015"
-                },
-                "dct:description": {
-                    "fr": "",
-                    "de": "",
-                    "en": "",
-                    "it": ""
-                },
-                "dct:license": "terms_by",
-                "schema:comment": "ID for this distribution on opendata.swiss: aed499b3-d8c3-47c4-8fef-316c170f8b9b"
-            }
-        ],
-        "dct:temporal": {
-            "dcat:start_date": "1999-01-01",
-            "dcat:end_date": "2015-12-31"
-        },
-        "bv:externalCatalogs": [
-            {
-                "dcat:catalog": "opendata.swiss",
-                "dct:identifier": "767d09e4-d0f4-4dcf-9816-91e37bfa797d"
-            }
-        ],
-        "businessDataOwner": null,
-        "schemaViolations": 12,
-        "schemaViolationMessages": [
-            "'prov:qualifiedAttribution' is a required property",
-            "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
-            "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
-            "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
-            "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
-            "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
-            "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
-            "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
-            "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
-            "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
-            "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
-            "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'"
-        ],
-        "quality": 314.15384615384613
     },
     {
         "rdf:type": "dcat:Dataset",
