@@ -68,9 +68,6 @@
       "uri": "https://blw-ofag-ufag.github.io/system-map/"
     }
   ],
-  "dcatap:applicableLegislation": [
-    "https://raw.githubusercontent.com/aNotWorkingRequest"
-  ],
   "bv:itSystem": "https://agriculture.ld.admin.ch/system-map/SQfl1MHnNpsAj3WP",
   "dcat:distribution": [
     {
