@@ -2179,9 +2179,6 @@
                 "uri": "https://blw-ofag-ufag.github.io/system-map/"
             }
         ],
-        "dcatap:applicableLegislation": [
-            "https://raw.githubusercontent.com/aNotWorkingRequest"
-        ],
         "bv:itSystem": "https://agriculture.ld.admin.ch/system-map/SQfl1MHnNpsAj3WP",
         "dcat:distribution": [
             {
@@ -2242,7 +2239,7 @@
             "'environment' is not one of ['', 'work', 'construction', 'population', 'education', 'energy', 'finances', 'geography', 'legislation', 'health', 'trade', 'industry', 'crime', 'culture', 'agriculture', 'mobility', 'public-order', 'politics', 'prices', 'territory', 'social-security', 'statistical-basis', 'tourism', 'administration', 'national-economy']",
             "'agricultureFisheriesForestryFood' is not one of ['', 'work', 'construction', 'population', 'education', 'energy', 'finances', 'geography', 'legislation', 'health', 'trade', 'industry', 'crime', 'culture', 'agriculture', 'mobility', 'public-order', 'politics', 'prices', 'territory', 'social-security', 'statistical-basis', 'tourism', 'administration', 'national-economy']"
         ],
-        "quality": 1685.0
+        "quality": 1651.6666666666667
     },
     {
         "rdf:type": "dcat:Dataset",
