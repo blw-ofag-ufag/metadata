@@ -1,0 +1,5 @@
+jsonschema
+pyyaml
+requests
+pytest
+pytest-mock
