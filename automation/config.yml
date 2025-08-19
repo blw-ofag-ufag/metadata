@@ -1,0 +1,14 @@
+# config.yml
+paths:
+  data_directory: 'data/raw/datasets'
+  rules_file: 'automation/quality_rules.yml'
+  report_directory: 'data/processed'
+
+scoring:
+  weights:
+    schema: 25
+    required_field: 10
+    url: 2
+    email: 2
+    enum: 5
+    critical: 100
