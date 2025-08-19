@@ -166,7 +166,6 @@ def main(config_path):
         print("Could not load main configuration. Exiting.")
         return
 
-    # The rest of the function remains almost identical
     data_raw_dir = config.get('paths', {}).get('data_directory')
     rules_file = config.get('paths', {}).get('rules_file')
     report_dir = config.get('paths', {}).get('report_directory')
