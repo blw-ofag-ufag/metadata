@@ -71,12 +71,20 @@ def validate_url(url):
             return f"Format Error: Invalid URL format for '{url}'"
     except ValueError:
         return f"Format Error: Invalid URL format for '{url}'"
+    # first try head request
     try:
         response = requests.head(url, allow_redirects=True, timeout=5)
+        if response.ok:
+            return None
+    except requests.RequestException:
+        pass
+    # fallback GET request (if head fails)
+    try:
+        response = requests.get(url, allow_redirects=True, timeout=10, stream=True)
         if not response.ok:
-            return f"Availability Error: URL not reachable (Status: {response.status_code}) for '{url}'"
+            return f"Availability Error: Fallback GET failed (Status: {response.status_code}) for '{url}'"
     except requests.RequestException as e:
-        return f"Availability Error: URL check failed ({type(e).__name__}) for '{url}'"
+        return f"Availability Error: Fallback GET failed ({type(e).__name__}) for '{url}'"
     return None
 
 def validate_email(email):
