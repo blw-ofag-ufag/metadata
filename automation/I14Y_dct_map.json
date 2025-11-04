@@ -1,0 +1,21 @@
+{
+    "DcatDatasetInputModel": {
+      "title": "dct:title",
+      "description": "dct:description",
+      "publisher": "dct:publisher",
+      "accessRights": "dct:accessRights"
+    },
+    "DataServiceInputModel": {
+      "title": "dct:title",
+      "description": "dct:description",
+      "publisher": "dct:publisher",
+      "accessRights": "dct:accessRights"
+    },
+    "DcatDistributionInputModel": {
+      "title": "dct:title",
+      "description": "dct:description",
+      "accessUrl": "dcat:accessURL",
+      "downloadUrl": "dcat:downloadURL",
+      "license": "dct:license"
+    }
+  }
