@@ -13,6 +13,13 @@
         "bv:classification",
         "bv:personalData"
     ],
+    "recommended": [
+        "dct:accessRights",
+        "dcat:contactPoint",
+        "dct:accrualPeriodicity",
+        "dct:modified",
+        "bv:archivalValue"
+        ],
     "properties": {
         "schema:image": {
             "type": [
