@@ -9,3 +9,9 @@
 *.Rapp.history
 .DS_Store
 Thumbs.db
+__pycache__
+.ipynb_checkpoints
+.pytest_cache
+.venv
+testzone
+quality_checker
