@@ -8,13 +8,9 @@ from pathlib import Path
 from rdflib import Graph, URIRef
 from rdflib.namespace import Namespace, SH, RDF
 
-# --- Usage Example ---
-# python automation/build-strict-schemas.py --input-dir data/schemas --output-dir data/schema_strict --prefix strict-ods- --portal ods
-# python automation/build-strict-schemas.py --help
-
 # --- Configuration ---
 SHACL_URL = "https://raw.githubusercontent.com/opendata-swiss/ogdch_checker/main/ogdch.shacl.ttl"
-I14Y_URL = "https://apiconsole.i14y.admin.ch/partner/v1/Release.json"
+# I14Y_URL is now a command-line argument
 
 # --- Define Namespaces and Mappings ---
 DCAT = Namespace("http://www.w3.org/ns/dcat#")
@@ -33,6 +29,8 @@ SCHEMA_TO_I14Y_MODEL = {
     "dataset.json": "DcatDatasetInputModel",
     "dataService.json": "DataServiceInputModel"
 }
+
+# 3. I14Y_TO_DCAT_MAP is loaded from a file
 
 # --- Helper Functions ---
 
@@ -234,7 +232,14 @@ def merge_i14y_rules(spec, base_schema, model_name, translation_map):
     type=click.Path(exists=True, dir_okay=False, readable=True),
     help="Path to the I14Y to DCAT translation map JSON file (required if --portal=i14y)."
 )
-def build_strict_schemas(portal, input_dir, output_dir, prefix, i14y_map):
+@click.option(
+    '--i14y-url',
+    type=str,
+    default="https://apiconsole.i14y.admin.ch/partner/v1/Release.json",
+    show_default=True,
+    help="URL to the I14Y 'Release.json' OpenAPI specification."
+)
+def build_strict_schemas(portal, input_dir, output_dir, prefix, i14y_map, i14y_url):
     """
     Generates 'strict' JSON schemas for portal validation based on a
     chosen source of truth (ODS SHACL or I14Y OpenAPI).
@@ -255,8 +260,8 @@ def build_strict_schemas(portal, input_dir, output_dir, prefix, i14y_map):
             print("Error: --portal=i14y requires the --i14y-map flag.", file=sys.stderr)
             sys.exit(1)
         
-        rules_source = fetch_rules(I14Y_URL)  # This is the OpenAPI spec
-        shacl_rules = fetch_rules(SHACL_URL)  # We also need the base SHACL rules
+        rules_source = fetch_rules(i14y_url)  # Use the parameter
+        shacl_rules = fetch_rules(SHACL_URL)  
         
         try:
             with Path(i14y_map).open('r', encoding='utf-8') as f:
