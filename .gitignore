@@ -10,6 +10,6 @@
 .DS_Store
 Thumbs.db
 .venv
-*pycache*
-*.ipynb*
-*testzone
+*cache*
+.ipynb*
+testzone
