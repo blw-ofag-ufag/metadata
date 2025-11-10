@@ -39,11 +39,11 @@
   "dcat:distribution": [
     {
       "dct:identifier": "c939e09b-430b-45f1-a6c7-1e8cb4bb2ec4",
-      "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/e6/yn5g9sr6wmi0wv3s7s4bk20oaijx3t/1_ab15_16_statdz2015_uebersicht_alle_dz_kt_einfach_neu_ehemals_33a_datenreihe_nur_2015_d_ok.xlsx",
+      "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/e6/yn5g9sr6wmi0wv3s7s4bk20oaijx3t/1_ab15_16_statdz2015_uebersicht_alle_dz_kt_einfach_neu_ehemals_33a_datenreihe_nur_2015_d_ok.xlsx",
       "adms:status": "published",
       "dct:format": "XLS",
       "dct:modified": null,
-      "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/e6/yn5g9sr6wmi0wv3s7s4bk20oaijx3t/1_ab15_16_statdz2015_uebersicht_alle_dz_kt_einfach_neu_ehemals_33a_datenreihe_nur_2015_d_ok.xlsx",
+      "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/e6/yn5g9sr6wmi0wv3s7s4bk20oaijx3t/1_ab15_16_statdz2015_uebersicht_alle_dz_kt_einfach_neu_ehemals_33a_datenreihe_nur_2015_d_ok.xlsx",
       "dct:title": {
         "fr": "",
         "de": "Übersicht Direktzahlungen alle Arten nach Kantonen 2015",
@@ -61,11 +61,11 @@
     },
     {
       "dct:identifier": "5e371896-fe30-4cd5-9512-d90b8fd9e505",
-      "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/28/wltyw028nqfq0zng7isdlzopx36emb/1_ab15_16_statdz2015_uebersicht_alle_dz_kt_einfach_neu_ehemals_3a_datenreihe_nur_2015_f_ok.xlsx",
+      "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/28/wltyw028nqfq0zng7isdlzopx36emb/1_ab15_16_statdz2015_uebersicht_alle_dz_kt_einfach_neu_ehemals_3a_datenreihe_nur_2015_f_ok.xlsx",
       "adms:status": "published",
       "dct:format": "XLS",
       "dct:modified": null,
-      "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/28/wltyw028nqfq0zng7isdlzopx36emb/1_ab15_16_statdz2015_uebersicht_alle_dz_kt_einfach_neu_ehemals_3a_datenreihe_nur_2015_f_ok.xlsx",
+      "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/28/wltyw028nqfq0zng7isdlzopx36emb/1_ab15_16_statdz2015_uebersicht_alle_dz_kt_einfach_neu_ehemals_3a_datenreihe_nur_2015_f_ok.xlsx",
       "dct:title": {
         "fr": "Aperçu paiements directs par type et canton 2015",
         "de": "",
@@ -83,11 +83,11 @@
     },
     {
       "dct:identifier": "9fdc4584-8ee8-4a59-9105-07f6d5da852e",
-      "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/de/4kl76qvuagyqeajbiglwhy5sj845bw/1_ab15_16_statdz2015_uebersicht_alle_dz_kt_einfach_neu_ehemals_33a_datenreihe_nur_2015_i_ok.xlsx",
+      "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/de/4kl76qvuagyqeajbiglwhy5sj845bw/1_ab15_16_statdz2015_uebersicht_alle_dz_kt_einfach_neu_ehemals_33a_datenreihe_nur_2015_i_ok.xlsx",
       "adms:status": "published",
       "dct:format": "XLS",
       "dct:modified": null,
-      "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/de/4kl76qvuagyqeajbiglwhy5sj845bw/1_ab15_16_statdz2015_uebersicht_alle_dz_kt_einfach_neu_ehemals_33a_datenreihe_nur_2015_i_ok.xlsx",
+      "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/de/4kl76qvuagyqeajbiglwhy5sj845bw/1_ab15_16_statdz2015_uebersicht_alle_dz_kt_einfach_neu_ehemals_33a_datenreihe_nur_2015_i_ok.xlsx",
       "dct:title": {
         "fr": "",
         "de": "",

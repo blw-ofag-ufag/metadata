@@ -39,11 +39,11 @@
   "dcat:distribution": [
     {
       "dct:identifier": "8a4d519f-52a6-4396-822a-9a05ed795126",
-      "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/authenticated/download/documents/c9/3k8k62nsdhr43wfhznoeycnoi9f31b/10_ab16_statdz2015_anhaenge_tab_versorgungsicherheit_datenreihe_d_ok.xlsx",
+      "dcat:accessURL": "https://2016.agrarbericht.ch/authenticated/download/documents/c9/3k8k62nsdhr43wfhznoeycnoi9f31b/10_ab16_statdz2015_anhaenge_tab_versorgungsicherheit_datenreihe_d_ok.xlsx",
       "adms:status": "published",
       "dct:format": "XLS",
       "dct:modified": null,
-      "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/authenticated/download/documents/c9/3k8k62nsdhr43wfhznoeycnoi9f31b/10_ab16_statdz2015_anhaenge_tab_versorgungsicherheit_datenreihe_d_ok.xlsx",
+      "dcat:downloadURL": "https://2016.agrarbericht.ch/authenticated/download/documents/c9/3k8k62nsdhr43wfhznoeycnoi9f31b/10_ab16_statdz2015_anhaenge_tab_versorgungsicherheit_datenreihe_d_ok.xlsx",
       "dct:title": {
         "fr": "",
         "de": "Versorgungssicherheitsbeiträge 2014-2015",
@@ -61,11 +61,11 @@
     },
     {
       "dct:identifier": "f214d26a-25f0-4831-ab74-5baaa3254141",
-      "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/authenticated/download/documents/ab/sb4yuj6vjemqktfpzshu2syobgzqfw/9_ab16_statdz2015_anhaenge_tab_kulturlandii_soemmerungiii_datenreihe_f_ok.xlsx",
+      "dcat:accessURL": "https://2016.agrarbericht.ch/fr/services/documentation/download-center",
       "adms:status": "published",
       "dct:format": "XLS",
       "dct:modified": null,
-      "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/authenticated/download/documents/ab/sb4yuj6vjemqktfpzshu2syobgzqfw/9_ab16_statdz2015_anhaenge_tab_kulturlandii_soemmerungiii_datenreihe_f_ok.xlsx",
+      "dcat:downloadURL": "https://2016.agrarbericht.ch/fr/services/documentation/download-center",
       "dct:title": {
         "fr": "Contributions à la sécurité de l'approvisionnement 2014-2015",
         "de": "",
@@ -83,11 +83,11 @@
     },
     {
       "dct:identifier": "bf21230a-a906-4ec6-bbdd-d2d1db0b3cdb",
-      "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/authenticated/download/documents/d1/snia6vpvy1o2jx2tss8oc97t7159fw/10_ab16_statdz2015_anhaenge_tab_versorgungsicherheit_datenreihe_i_ok.xlsx",
+      "dcat:accessURL": "https://2016.agrarbericht.ch/authenticated/download/documents/d1/snia6vpvy1o2jx2tss8oc97t7159fw/10_ab16_statdz2015_anhaenge_tab_versorgungsicherheit_datenreihe_i_ok.xlsx",
       "adms:status": "published",
       "dct:format": "XLS",
       "dct:modified": null,
-      "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/authenticated/download/documents/d1/snia6vpvy1o2jx2tss8oc97t7159fw/10_ab16_statdz2015_anhaenge_tab_versorgungsicherheit_datenreihe_i_ok.xlsx",
+      "dcat:downloadURL": "https://2016.agrarbericht.ch/authenticated/download/documents/d1/snia6vpvy1o2jx2tss8oc97t7159fw/10_ab16_statdz2015_anhaenge_tab_versorgungsicherheit_datenreihe_i_ok.xlsx",
       "dct:title": {
         "fr": "",
         "de": "",

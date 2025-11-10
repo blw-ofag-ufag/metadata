@@ -39,11 +39,11 @@
   "dcat:distribution": [
     {
       "dct:identifier": "8d84d3b1-5080-44d5-b565-88f495c270a5",
-      "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/fd/8ukhdkdzx1yj827ok4v1ohn1m1d2lo/ausgaben_bund_fuer_landwirtschaft_und_ernaehrung_2004-2015_datenreihe_d.xlsx",
+      "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/fd/8ukhdkdzx1yj827ok4v1ohn1m1d2lo/ausgaben_bund_fuer_landwirtschaft_und_ernaehrung_2004-2015_datenreihe_d.xlsx",
       "adms:status": "published",
       "dct:format": "XLS",
       "dct:modified": null,
-      "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/fd/8ukhdkdzx1yj827ok4v1ohn1m1d2lo/ausgaben_bund_fuer_landwirtschaft_und_ernaehrung_2004-2015_datenreihe_d.xlsx",
+      "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/fd/8ukhdkdzx1yj827ok4v1ohn1m1d2lo/ausgaben_bund_fuer_landwirtschaft_und_ernaehrung_2004-2015_datenreihe_d.xlsx",
       "dct:title": {
         "fr": "",
         "de": "Ausgaben Bund Landwirtschaft und Ernährung 2004-2015",
@@ -61,11 +61,11 @@
     },
     {
       "dct:identifier": "8b0cc52f-a129-48c6-999d-b7818c5612a8",
-      "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/63/756yxqygrrphnk2hlm8mch65el4tbi/ausgaben_bund_fuer_landwirtschaft_und_ernaehrung_2004-2015_datenreihe_f.xlsx",
+      "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/63/756yxqygrrphnk2hlm8mch65el4tbi/ausgaben_bund_fuer_landwirtschaft_und_ernaehrung_2004-2015_datenreihe_f.xlsx",
       "adms:status": "published",
       "dct:format": "XLS",
       "dct:modified": null,
-      "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/63/756yxqygrrphnk2hlm8mch65el4tbi/ausgaben_bund_fuer_landwirtschaft_und_ernaehrung_2004-2015_datenreihe_f.xlsx",
+      "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/63/756yxqygrrphnk2hlm8mch65el4tbi/ausgaben_bund_fuer_landwirtschaft_und_ernaehrung_2004-2015_datenreihe_f.xlsx",
       "dct:title": {
         "fr": "Dépenses Confédération pour agriculture et alimentation 2004-2015",
         "de": "",
@@ -83,11 +83,11 @@
     },
     {
       "dct:identifier": "c9ef0f3c-0d26-4357-a7bc-a94b971b059d",
-      "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/a5/fm1w0zhkyb14otpvo1z6yffcc1vtt3/ausgaben_bund_fuer_landwirtschaft_und_ernaehrung_2004-2015_datenreihe_i.xlsx",
+      "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/a5/fm1w0zhkyb14otpvo1z6yffcc1vtt3/ausgaben_bund_fuer_landwirtschaft_und_ernaehrung_2004-2015_datenreihe_i.xlsx",
       "adms:status": "published",
       "dct:format": "XLS",
       "dct:modified": null,
-      "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/a5/fm1w0zhkyb14otpvo1z6yffcc1vtt3/ausgaben_bund_fuer_landwirtschaft_und_ernaehrung_2004-2015_datenreihe_i.xlsx",
+      "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/a5/fm1w0zhkyb14otpvo1z6yffcc1vtt3/ausgaben_bund_fuer_landwirtschaft_und_ernaehrung_2004-2015_datenreihe_i.xlsx",
       "dct:title": {
         "fr": "",
         "de": "",

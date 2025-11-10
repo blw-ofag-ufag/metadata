@@ -39,11 +39,11 @@
   "dcat:distribution": [
     {
       "dct:identifier": "ba2ea4d5-38e9-4cb1-abb3-0bfd7285b79f",
-      "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/e5/v5h9v0kqp507d0ipvvytwl2jatqem4/produktion_datenreihe_d.xlsx",
+      "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/e5/v5h9v0kqp507d0ipvvytwl2jatqem4/produktion_datenreihe_d.xlsx",
       "adms:status": "published",
       "dct:format": "XLS",
       "dct:modified": null,
-      "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/e5/v5h9v0kqp507d0ipvvytwl2jatqem4/produktion_datenreihe_d.xlsx",
+      "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/e5/v5h9v0kqp507d0ipvvytwl2jatqem4/produktion_datenreihe_d.xlsx",
       "dct:title": {
         "fr": "",
         "de": "Produktion 1990/92-2015",
@@ -61,11 +61,11 @@
     },
     {
       "dct:identifier": "0faa589f-4b02-4a9b-b172-78ad876068bb",
-      "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/ff/k869h47uwrtwawb0i9g11zbzclkccl/produktion_datenreihe_f.xlsx",
+      "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/ff/k869h47uwrtwawb0i9g11zbzclkccl/produktion_datenreihe_f.xlsx",
       "adms:status": "published",
       "dct:format": "XLS",
       "dct:modified": null,
-      "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/ff/k869h47uwrtwawb0i9g11zbzclkccl/produktion_datenreihe_f.xlsx",
+      "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/ff/k869h47uwrtwawb0i9g11zbzclkccl/produktion_datenreihe_f.xlsx",
       "dct:title": {
         "fr": "Production 1990/92-2015",
         "de": "",
@@ -83,11 +83,11 @@
     },
     {
       "dct:identifier": "d183450f-83a4-4254-abf3-fdf4a88d8f62",
-      "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/64/lr4axell5nvazbkb5uqkw8zxn6yvjb/produktion_datenreihe_i.xlsx",
+      "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/64/lr4axell5nvazbkb5uqkw8zxn6yvjb/produktion_datenreihe_i.xlsx",
       "adms:status": "published",
       "dct:format": "XLS",
       "dct:modified": null,
-      "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/64/lr4axell5nvazbkb5uqkw8zxn6yvjb/produktion_datenreihe_i.xlsx",
+      "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/64/lr4axell5nvazbkb5uqkw8zxn6yvjb/produktion_datenreihe_i.xlsx",
       "dct:title": {
         "fr": "",
         "de": "",

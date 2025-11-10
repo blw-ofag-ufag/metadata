@@ -39,11 +39,11 @@
   "dcat:distribution": [
     {
       "dct:identifier": "aca936ab-4027-4f18-b1c0-4293fb607c16",
-      "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/59/kx4t9dohmeqvh1oa88qcye0vcdxvuf/41_ab16_statdz2015_anhaenge_tab_ressourceneffizienz_datenreihe_d_ok.xlsx",
+      "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/57/vjt4bormi0sd5dvrhep38co48czxwh/41_ab16_statdz2015_anhaenge_tab_ressourceneffizienz_datenreihe_d_ok.xlsx",
       "adms:status": "published",
       "dct:format": "XLS",
       "dct:modified": null,
-      "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/59/kx4t9dohmeqvh1oa88qcye0vcdxvuf/41_ab16_statdz2015_anhaenge_tab_ressourceneffizienz_datenreihe_d_ok.xlsx",
+      "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/57/vjt4bormi0sd5dvrhep38co48czxwh/41_ab16_statdz2015_anhaenge_tab_ressourceneffizienz_datenreihe_d_ok.xlsx",
       "dct:title": {
         "fr": "",
         "de": "Ressourceneffizienzbeiträge 2014-2015",
@@ -61,11 +61,11 @@
     },
     {
       "dct:identifier": "cf726ef1-ea12-46c9-999c-e7df624069b2",
-      "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/95/chm48gs0ryar8l7rlc2hl9bg8126qr/41_ab16_statdz2015_anhaenge_tab_ressourceneffizienz_datenreihe_f_ok.xlsx",
+      "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/95/chm48gs0ryar8l7rlc2hl9bg8126qr/41_ab16_statdz2015_anhaenge_tab_ressourceneffizienz_datenreihe_f_ok.xlsx",
       "adms:status": "published",
       "dct:format": "XLS",
       "dct:modified": null,
-      "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/95/chm48gs0ryar8l7rlc2hl9bg8126qr/41_ab16_statdz2015_anhaenge_tab_ressourceneffizienz_datenreihe_f_ok.xlsx",
+      "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/95/chm48gs0ryar8l7rlc2hl9bg8126qr/41_ab16_statdz2015_anhaenge_tab_ressourceneffizienz_datenreihe_f_ok.xlsx",
       "dct:title": {
         "fr": "Contributions à l'utilisation efficiente des ressources 2014-2015",
         "de": "",
@@ -83,11 +83,11 @@
     },
     {
       "dct:identifier": "543bc13a-9a7c-4bfc-9730-7ccba8ab1d35",
-      "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/b4/czitrqsrjf9p2d8x1gi5qmfqr4f3u5/41_ab16_statdz2015_anhaenge_tab_ressourceneffizienz_datenreihe_i_ok.xlsx",
+      "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/b4/czitrqsrjf9p2d8x1gi5qmfqr4f3u5/41_ab16_statdz2015_anhaenge_tab_ressourceneffizienz_datenreihe_i_ok.xlsx",
       "adms:status": "published",
       "dct:format": "XLS",
       "dct:modified": null,
-      "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/b4/czitrqsrjf9p2d8x1gi5qmfqr4f3u5/41_ab16_statdz2015_anhaenge_tab_ressourceneffizienz_datenreihe_i_ok.xlsx",
+      "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/b4/czitrqsrjf9p2d8x1gi5qmfqr4f3u5/41_ab16_statdz2015_anhaenge_tab_ressourceneffizienz_datenreihe_i_ok.xlsx",
       "dct:title": {
         "fr": "",
         "de": "",

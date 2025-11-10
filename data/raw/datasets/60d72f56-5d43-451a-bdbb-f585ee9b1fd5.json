@@ -39,11 +39,11 @@
   "dcat:distribution": [
     {
       "dct:identifier": "b04d466d-8909-445c-872f-9f1582caaabe",
-      "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/2a/po3w02zxj25e8b50j07w07a23l1gfo/landwirtschaftliche_nutzflaeche_1990-2015_datenreihe_d.xlsx",
+      "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/2a/po3w02zxj25e8b50j07w07a23l1gfo/landwirtschaftliche_nutzflaeche_1990-2015_datenreihe_d.xlsx",
       "adms:status": "published",
       "dct:format": "XLS",
       "dct:modified": null,
-      "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/2a/po3w02zxj25e8b50j07w07a23l1gfo/landwirtschaftliche_nutzflaeche_1990-2015_datenreihe_d.xlsx",
+      "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/2a/po3w02zxj25e8b50j07w07a23l1gfo/landwirtschaftliche_nutzflaeche_1990-2015_datenreihe_d.xlsx",
       "dct:title": {
         "fr": "",
         "de": "Landwirtschaftliche Nutzfläche",
@@ -61,11 +61,11 @@
     },
     {
       "dct:identifier": "7d080bbd-8b76-4de4-8540-1984d24d711a",
-      "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/eb/gfzt3asmg68au9ldneirdvmm7g0nv5/landwirtschaftliche_nutzflaeche_1990-2015_datenreihe_f.xlsx",
+      "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/eb/gfzt3asmg68au9ldneirdvmm7g0nv5/landwirtschaftliche_nutzflaeche_1990-2015_datenreihe_f.xlsx",
       "adms:status": "published",
       "dct:format": "XLS",
       "dct:modified": null,
-      "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/eb/gfzt3asmg68au9ldneirdvmm7g0nv5/landwirtschaftliche_nutzflaeche_1990-2015_datenreihe_f.xlsx",
+      "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/eb/gfzt3asmg68au9ldneirdvmm7g0nv5/landwirtschaftliche_nutzflaeche_1990-2015_datenreihe_f.xlsx",
       "dct:title": {
         "fr": "Surface agricole utile",
         "de": "",
@@ -83,11 +83,11 @@
     },
     {
       "dct:identifier": "284d9995-b102-4522-bbc6-86d4a52224f7",
-      "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/c5/0n6lcpamjiwnx4qmbxw4o6pyc3hrjs/landwirtschaftliche_nutzflaeche_1990-2015_datenreihe_i.xlsx",
+      "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/c5/0n6lcpamjiwnx4qmbxw4o6pyc3hrjs/landwirtschaftliche_nutzflaeche_1990-2015_datenreihe_i.xlsx",
       "adms:status": "published",
       "dct:format": "XLS",
       "dct:modified": null,
-      "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/c5/0n6lcpamjiwnx4qmbxw4o6pyc3hrjs/landwirtschaftliche_nutzflaeche_1990-2015_datenreihe_i.xlsx",
+      "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/c5/0n6lcpamjiwnx4qmbxw4o6pyc3hrjs/landwirtschaftliche_nutzflaeche_1990-2015_datenreihe_i.xlsx",
       "dct:title": {
         "fr": "",
         "de": "",

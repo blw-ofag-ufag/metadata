@@ -39,11 +39,11 @@
   "dcat:distribution": [
     {
       "dct:identifier": "fdd452e9-ddf4-44b8-891a-8de2ea11e9b3",
-      "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/57/zbuykwp2gpxk2upcr18fm3uwglhhhp/42_ab16_statdz2015_anhaenge_tab_uebergangsbeitrag_datenreihe_d_ok.xlsx",
+      "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/57/zbuykwp2gpxk2upcr18fm3uwglhhhp/42_ab16_statdz2015_anhaenge_tab_uebergangsbeitrag_datenreihe_d_ok.xlsx",
       "adms:status": "published",
       "dct:format": "XLS",
       "dct:modified": null,
-      "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/57/zbuykwp2gpxk2upcr18fm3uwglhhhp/42_ab16_statdz2015_anhaenge_tab_uebergangsbeitrag_datenreihe_d_ok.xlsx",
+      "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/57/zbuykwp2gpxk2upcr18fm3uwglhhhp/42_ab16_statdz2015_anhaenge_tab_uebergangsbeitrag_datenreihe_d_ok.xlsx",
       "dct:title": {
         "fr": "",
         "de": "Übergangsbeitrag 2014-2015",
@@ -61,11 +61,11 @@
     },
     {
       "dct:identifier": "b0bc19d3-4e45-486e-8e78-dd955a56cb43",
-      "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/e2/v4ogorc4yv2yrufhkcgzhoykz06u1i/42_ab16_statdz2015_anhaenge_tab_uebergangsbeitrag_datenreihe_f_ok.xlsx",
+      "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/e2/v4ogorc4yv2yrufhkcgzhoykz06u1i/42_ab16_statdz2015_anhaenge_tab_uebergangsbeitrag_datenreihe_f_ok.xlsx",
       "adms:status": "published",
       "dct:format": "XLS",
       "dct:modified": null,
-      "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/e2/v4ogorc4yv2yrufhkcgzhoykz06u1i/42_ab16_statdz2015_anhaenge_tab_uebergangsbeitrag_datenreihe_f_ok.xlsx",
+      "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/e2/v4ogorc4yv2yrufhkcgzhoykz06u1i/42_ab16_statdz2015_anhaenge_tab_uebergangsbeitrag_datenreihe_f_ok.xlsx",
       "dct:title": {
         "fr": "Contributions de transition 2014-2015",
         "de": "",
@@ -83,11 +83,11 @@
     },
     {
       "dct:identifier": "2687bdb4-8c87-4e66-aaff-fd3c7701d4ce",
-      "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/12/ptlhrc1ls2cjyrvlscl7qd8yz82lbt/42_ab16_statdz2015_anhaenge_tab_uebergangsbeitrag_datenreihe_i_ok.xlsx",
+      "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/12/ptlhrc1ls2cjyrvlscl7qd8yz82lbt/42_ab16_statdz2015_anhaenge_tab_uebergangsbeitrag_datenreihe_i_ok.xlsx",
       "adms:status": "published",
       "dct:format": "XLS",
       "dct:modified": null,
-      "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/12/ptlhrc1ls2cjyrvlscl7qd8yz82lbt/42_ab16_statdz2015_anhaenge_tab_uebergangsbeitrag_datenreihe_i_ok.xlsx",
+      "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/12/ptlhrc1ls2cjyrvlscl7qd8yz82lbt/42_ab16_statdz2015_anhaenge_tab_uebergangsbeitrag_datenreihe_i_ok.xlsx",
       "dct:title": {
         "fr": "",
         "de": "",

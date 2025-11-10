@@ -39,11 +39,11 @@
   "dcat:distribution": [
     {
       "dct:identifier": "948c5ab8-be2c-4e7c-8a88-282acd65b940",
-      "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/9b/n5o41eokh3l1runwj6tg8hnj7mal7t/ppreise_bio_datenreihe_d.xlsx",
+      "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/9b/n5o41eokh3l1runwj6tg8hnj7mal7t/ppreise_bio_datenreihe_d.xlsx",
       "adms:status": "published",
       "dct:format": "XLS",
       "dct:modified": null,
-      "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/9b/n5o41eokh3l1runwj6tg8hnj7mal7t/ppreise_bio_datenreihe_d.xlsx",
+      "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/9b/n5o41eokh3l1runwj6tg8hnj7mal7t/ppreise_bio_datenreihe_d.xlsx",
       "dct:title": {
         "fr": "",
         "de": "Produzentenpreise Bio 2002/04-2015",
@@ -61,11 +61,11 @@
     },
     {
       "dct:identifier": "16ae6c64-6b4e-4ab7-9659-e1934952ee13",
-      "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/bc/q5wtnqtps2q0pmjlkyqdc2i3cfyxd0/ppreise_bio_datenreihe_f.xlsx",
+      "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/bc/q5wtnqtps2q0pmjlkyqdc2i3cfyxd0/ppreise_bio_datenreihe_f.xlsx",
       "adms:status": "published",
       "dct:format": "XLS",
       "dct:modified": null,
-      "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/bc/q5wtnqtps2q0pmjlkyqdc2i3cfyxd0/ppreise_bio_datenreihe_f.xlsx",
+      "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/bc/q5wtnqtps2q0pmjlkyqdc2i3cfyxd0/ppreise_bio_datenreihe_f.xlsx",
       "dct:title": {
         "fr": "Prix à la production bio 2002/04-2015",
         "de": "",
@@ -83,11 +83,11 @@
     },
     {
       "dct:identifier": "cb91d805-8eb0-447b-bf78-ca79751ff9c6",
-      "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/da/juh0ghxda3y0pmwl0djnd3ex02eiu1/ppreise_bio_datenreihe_i.xlsx",
+      "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/da/juh0ghxda3y0pmwl0djnd3ex02eiu1/ppreise_bio_datenreihe_i.xlsx",
       "adms:status": "published",
       "dct:format": "XLS",
       "dct:modified": null,
-      "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/da/juh0ghxda3y0pmwl0djnd3ex02eiu1/ppreise_bio_datenreihe_i.xlsx",
+      "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/da/juh0ghxda3y0pmwl0djnd3ex02eiu1/ppreise_bio_datenreihe_i.xlsx",
       "dct:title": {
         "fr": "",
         "de": "",

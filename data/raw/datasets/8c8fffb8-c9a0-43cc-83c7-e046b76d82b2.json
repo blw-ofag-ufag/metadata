@@ -39,11 +39,11 @@
   "dcat:distribution": [
     {
       "dct:identifier": "34cf7699-ab5a-4c97-b887-fd0d877b5f3f",
-      "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/d4/kjoriwrpnugm81s066eeiqfyhxgpwv/ausgaben_milchwirtschaft_1999-2015_datenreihe_d.xlsx",
+      "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/d4/kjoriwrpnugm81s066eeiqfyhxgpwv/ausgaben_milchwirtschaft_1999-2015_datenreihe_d.xlsx",
       "adms:status": "published",
       "dct:format": "XLS",
       "dct:modified": null,
-      "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/d4/kjoriwrpnugm81s066eeiqfyhxgpwv/ausgaben_milchwirtschaft_1999-2015_datenreihe_d.xlsx",
+      "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/d4/kjoriwrpnugm81s066eeiqfyhxgpwv/ausgaben_milchwirtschaft_1999-2015_datenreihe_d.xlsx",
       "dct:title": {
         "fr": "",
         "de": "Ausgaben Milchwirtschaft 1999-2015",
@@ -61,11 +61,11 @@
     },
     {
       "dct:identifier": "4fd0bc0c-6eff-408e-af9c-041c15bbd0b0",
-      "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/1f/1fybysudtgjvdaj8s9x4oe0odztivy/ausgaben_milchwirtschaft_1999-2015_datenreihe_f.xlsx",
+      "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/1f/1fybysudtgjvdaj8s9x4oe0odztivy/ausgaben_milchwirtschaft_1999-2015_datenreihe_f.xlsx",
       "adms:status": "published",
       "dct:format": "XLS",
       "dct:modified": null,
-      "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/1f/1fybysudtgjvdaj8s9x4oe0odztivy/ausgaben_milchwirtschaft_1999-2015_datenreihe_f.xlsx",
+      "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/1f/1fybysudtgjvdaj8s9x4oe0odztivy/ausgaben_milchwirtschaft_1999-2015_datenreihe_f.xlsx",
       "dct:title": {
         "fr": "Dépenses économie laitière 1999-2015",
         "de": "",
@@ -83,11 +83,11 @@
     },
     {
       "dct:identifier": "17896dc5-3e6b-4f95-bfe4-96fe415920c7",
-      "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/36/r6philnbgb6ai5bz7a2slv03rf1060/ausgaben_milchwirtschaft_1999-2015_datenreihe_i.xlsx",
+      "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/36/r6philnbgb6ai5bz7a2slv03rf1060/ausgaben_milchwirtschaft_1999-2015_datenreihe_i.xlsx",
       "adms:status": "published",
       "dct:format": "XLS",
       "dct:modified": null,
-      "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/36/r6philnbgb6ai5bz7a2slv03rf1060/ausgaben_milchwirtschaft_1999-2015_datenreihe_i.xlsx",
+      "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/36/r6philnbgb6ai5bz7a2slv03rf1060/ausgaben_milchwirtschaft_1999-2015_datenreihe_i.xlsx",
       "dct:title": {
         "fr": "",
         "de": "",
