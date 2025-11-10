@@ -2169,11 +2169,11 @@
         "dcat:distribution": [
             {
                 "dct:identifier": "e6e89050-17a6-4b28-9cd6-e4157ab7a9f9",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/e4/vkyvxxp93lxb8nyjlwv5u0mgkc07ju/agrarumweltindikatoren_und-kennzahlen_auf_nationaler_ebene_datenreihe_d.xlsx",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/e4/vkyvxxp93lxb8nyjlwv5u0mgkc07ju/agrarumweltindikatoren_und-kennzahlen_auf_nationaler_ebene_datenreihe_d.xlsx",
                 "adms:status": "published",
                 "dct:format": "XLS",
                 "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/e4/vkyvxxp93lxb8nyjlwv5u0mgkc07ju/agrarumweltindikatoren_und-kennzahlen_auf_nationaler_ebene_datenreihe_d.xlsx",
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/e4/vkyvxxp93lxb8nyjlwv5u0mgkc07ju/agrarumweltindikatoren_und-kennzahlen_auf_nationaler_ebene_datenreihe_d.xlsx",
                 "dct:title": {
                     "fr": "Données et indicateurs agro-environnementaux au niveau national 1990-2015 (DE)",
                     "de": "Agrarumweltindikatoren und -kennzahlen auf nationaler Ebene 1990-2015 (DE)",
@@ -2185,10 +2185,10 @@
             },
             {
                 "dct:identifier": "3cf99f12-780a-4371-8ba1-9b5d8ff612a6",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/5a/6prgd7ife4xt6ulobdcfce8l4yjx0h/agrarumweltindikatoren_und-kennzahlen_auf_nationaler_ebene_datenreihe_f.xlsx",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/5a/6prgd7ife4xt6ulobdcfce8l4yjx0h/agrarumweltindikatoren_und-kennzahlen_auf_nationaler_ebene_datenreihe_f.xlsx",
                 "adms:status": "published",
                 "dct:format": "XLS",
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/5a/6prgd7ife4xt6ulobdcfce8l4yjx0h/agrarumweltindikatoren_und-kennzahlen_auf_nationaler_ebene_datenreihe_f.xlsx",
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/5a/6prgd7ife4xt6ulobdcfce8l4yjx0h/agrarumweltindikatoren_und-kennzahlen_auf_nationaler_ebene_datenreihe_f.xlsx",
                 "dct:title": {
                     "fr": "Données et indicateurs agro-environnementaux au niveau national 1990-2015 (FR)",
                     "de": "Agrarumweltindikatoren und -kennzahlen auf nationaler Ebene 1990-2015 (FR)",
@@ -2200,11 +2200,11 @@
             },
             {
                 "dct:identifier": "deac3770-50e2-43f9-875c-71b147bb4af9",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/d6/k20vx5dfbsvl7y7woq1m7jlje6aeed/agrarumweltindikatoren_und-kennzahlen_auf_nationaler_ebene_datenreihe_i.xlsx",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/d6/k20vx5dfbsvl7y7woq1m7jlje6aeed/agrarumweltindikatoren_und-kennzahlen_auf_nationaler_ebene_datenreihe_i.xlsx",
                 "adms:status": "published",
                 "dct:format": "XLS",
                 "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/d6/k20vx5dfbsvl7y7woq1m7jlje6aeed/agrarumweltindikatoren_und-kennzahlen_auf_nationaler_ebene_datenreihe_i.xlsx",
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/d6/k20vx5dfbsvl7y7woq1m7jlje6aeed/agrarumweltindikatoren_und-kennzahlen_auf_nationaler_ebene_datenreihe_i.xlsx",
                 "dct:title": {
                     "fr": "Données et indicateurs agro-environnementaux au niveau national 1990-2015 (IT)",
                     "de": "Agrarumweltindikatoren und -kennzahlen auf nationaler Ebene 1990-2015 (IT)",
@@ -2230,7 +2230,7 @@
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']"
         ],
-        "quality": 2847.5
+        "quality": 2826.5
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -12982,11 +12982,11 @@
         "dcat:distribution": [
             {
                 "dct:identifier": "611a50ad-0d4b-4b0f-81e0-9753cd1e0854",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/18/ha2rqb5yjze1un7d4xq31nn5uhwno6/ausbezahlte_beitraege_an_kantone_1999-2015_datenreihe_d.xlsx",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/18/ha2rqb5yjze1un7d4xq31nn5uhwno6/ausbezahlte_beitraege_an_kantone_1999-2015_datenreihe_d.xlsx",
                 "adms:status": "published",
                 "dct:format": "XLS",
                 "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/18/ha2rqb5yjze1un7d4xq31nn5uhwno6/ausbezahlte_beitraege_an_kantone_1999-2015_datenreihe_d.xlsx",
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/18/ha2rqb5yjze1un7d4xq31nn5uhwno6/ausbezahlte_beitraege_an_kantone_1999-2015_datenreihe_d.xlsx",
                 "dct:title": {
                     "fr": "",
                     "de": "An die Kantone ausbezahlte Beiträge 1999-2015",
@@ -13004,11 +13004,11 @@
             },
             {
                 "dct:identifier": "4b522bb7-e0df-4659-af22-9e924e0fa468",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/ae/uhd6hgrn5g05fgmyrv6wi3gvwwnwy2/ausbezahlte_beitraege_an_kantone_1999-2015_datenreihe_f.xlsx",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/ae/uhd6hgrn5g05fgmyrv6wi3gvwwnwy2/ausbezahlte_beitraege_an_kantone_1999-2015_datenreihe_f.xlsx",
                 "adms:status": "published",
                 "dct:format": "XLS",
                 "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/ae/uhd6hgrn5g05fgmyrv6wi3gvwwnwy2/ausbezahlte_beitraege_an_kantone_1999-2015_datenreihe_f.xlsx",
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/ae/uhd6hgrn5g05fgmyrv6wi3gvwwnwy2/ausbezahlte_beitraege_an_kantone_1999-2015_datenreihe_f.xlsx",
                 "dct:title": {
                     "fr": "Contributions versées aux cantons 1999-2015",
                     "de": "",
@@ -13026,11 +13026,11 @@
             },
             {
                 "dct:identifier": "ac2dfdc9-3dfa-483f-9db1-b929e21cfdc1",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/37/cs26uscosusgo2xpw1u4ln3vyd72mh/ausbezahlte_beitraege_an_kantone_1999-2015_datenreihe_i.xlsx",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/37/cs26uscosusgo2xpw1u4ln3vyd72mh/ausbezahlte_beitraege_an_kantone_1999-2015_datenreihe_i.xlsx",
                 "adms:status": "published",
                 "dct:format": "XLS",
                 "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/37/cs26uscosusgo2xpw1u4ln3vyd72mh/ausbezahlte_beitraege_an_kantone_1999-2015_datenreihe_i.xlsx",
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/37/cs26uscosusgo2xpw1u4ln3vyd72mh/ausbezahlte_beitraege_an_kantone_1999-2015_datenreihe_i.xlsx",
                 "dct:title": {
                     "fr": "",
                     "de": "",
@@ -13071,7 +13071,7 @@
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'"
         ],
-        "quality": 431.3636363636364
+        "quality": 427.54545454545456
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -13115,11 +13115,11 @@
         "dcat:distribution": [
             {
                 "dct:identifier": "c939e09b-430b-45f1-a6c7-1e8cb4bb2ec4",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/e6/yn5g9sr6wmi0wv3s7s4bk20oaijx3t/1_ab15_16_statdz2015_uebersicht_alle_dz_kt_einfach_neu_ehemals_33a_datenreihe_nur_2015_d_ok.xlsx",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/e6/yn5g9sr6wmi0wv3s7s4bk20oaijx3t/1_ab15_16_statdz2015_uebersicht_alle_dz_kt_einfach_neu_ehemals_33a_datenreihe_nur_2015_d_ok.xlsx",
                 "adms:status": "published",
                 "dct:format": "XLS",
                 "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/e6/yn5g9sr6wmi0wv3s7s4bk20oaijx3t/1_ab15_16_statdz2015_uebersicht_alle_dz_kt_einfach_neu_ehemals_33a_datenreihe_nur_2015_d_ok.xlsx",
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/e6/yn5g9sr6wmi0wv3s7s4bk20oaijx3t/1_ab15_16_statdz2015_uebersicht_alle_dz_kt_einfach_neu_ehemals_33a_datenreihe_nur_2015_d_ok.xlsx",
                 "dct:title": {
                     "fr": "",
                     "de": "Übersicht Direktzahlungen alle Arten nach Kantonen 2015",
@@ -13137,11 +13137,11 @@
             },
             {
                 "dct:identifier": "5e371896-fe30-4cd5-9512-d90b8fd9e505",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/28/wltyw028nqfq0zng7isdlzopx36emb/1_ab15_16_statdz2015_uebersicht_alle_dz_kt_einfach_neu_ehemals_3a_datenreihe_nur_2015_f_ok.xlsx",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/28/wltyw028nqfq0zng7isdlzopx36emb/1_ab15_16_statdz2015_uebersicht_alle_dz_kt_einfach_neu_ehemals_3a_datenreihe_nur_2015_f_ok.xlsx",
                 "adms:status": "published",
                 "dct:format": "XLS",
                 "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/28/wltyw028nqfq0zng7isdlzopx36emb/1_ab15_16_statdz2015_uebersicht_alle_dz_kt_einfach_neu_ehemals_3a_datenreihe_nur_2015_f_ok.xlsx",
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/28/wltyw028nqfq0zng7isdlzopx36emb/1_ab15_16_statdz2015_uebersicht_alle_dz_kt_einfach_neu_ehemals_3a_datenreihe_nur_2015_f_ok.xlsx",
                 "dct:title": {
                     "fr": "Aperçu paiements directs par type et canton 2015",
                     "de": "",
@@ -13159,11 +13159,11 @@
             },
             {
                 "dct:identifier": "9fdc4584-8ee8-4a59-9105-07f6d5da852e",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/de/4kl76qvuagyqeajbiglwhy5sj845bw/1_ab15_16_statdz2015_uebersicht_alle_dz_kt_einfach_neu_ehemals_33a_datenreihe_nur_2015_i_ok.xlsx",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/de/4kl76qvuagyqeajbiglwhy5sj845bw/1_ab15_16_statdz2015_uebersicht_alle_dz_kt_einfach_neu_ehemals_33a_datenreihe_nur_2015_i_ok.xlsx",
                 "adms:status": "published",
                 "dct:format": "XLS",
                 "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/de/4kl76qvuagyqeajbiglwhy5sj845bw/1_ab15_16_statdz2015_uebersicht_alle_dz_kt_einfach_neu_ehemals_33a_datenreihe_nur_2015_i_ok.xlsx",
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/de/4kl76qvuagyqeajbiglwhy5sj845bw/1_ab15_16_statdz2015_uebersicht_alle_dz_kt_einfach_neu_ehemals_33a_datenreihe_nur_2015_i_ok.xlsx",
                 "dct:title": {
                     "fr": "",
                     "de": "",
@@ -13205,7 +13205,7 @@
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'"
         ],
-        "quality": 393.0
+        "quality": 389.5
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -13249,11 +13249,11 @@
         "dcat:distribution": [
             {
                 "dct:identifier": "dd550417-4dff-4354-af19-f95fcd9b239f",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/0d/o6rvb1ksq1c0mb3l6ha51etx1c0d5x/investitionskredite_nach_massnahmenkategorie_1999-2015_datenreihe_d.xlsx",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/0d/o6rvb1ksq1c0mb3l6ha51etx1c0d5x/investitionskredite_nach_massnahmenkategorie_1999-2015_datenreihe_d.xlsx",
                 "adms:status": "published",
                 "dct:format": "XLS",
                 "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/0d/o6rvb1ksq1c0mb3l6ha51etx1c0d5x/investitionskredite_nach_massnahmenkategorie_1999-2015_datenreihe_d.xlsx",
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/0d/o6rvb1ksq1c0mb3l6ha51etx1c0d5x/investitionskredite_nach_massnahmenkategorie_1999-2015_datenreihe_d.xlsx",
                 "dct:title": {
                     "fr": "",
                     "de": "Investitionskredite nach Massnahmenkategorien 1999-2015",
@@ -13271,11 +13271,11 @@
             },
             {
                 "dct:identifier": "8a2e7d2f-e3d1-45e4-bfc9-3605eb30e0ee",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/99/d843bxr5fzdnj1rzw237r00x0xkffo/investitionskredite_nach_massnahmenkategorie_1999-2015_datenreihe_f.xlsx",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/99/d843bxr5fzdnj1rzw237r00x0xkffo/investitionskredite_nach_massnahmenkategorie_1999-2015_datenreihe_f.xlsx",
                 "adms:status": "published",
                 "dct:format": "XLS",
                 "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/99/d843bxr5fzdnj1rzw237r00x0xkffo/investitionskredite_nach_massnahmenkategorie_1999-2015_datenreihe_f.xlsx",
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/99/d843bxr5fzdnj1rzw237r00x0xkffo/investitionskredite_nach_massnahmenkategorie_1999-2015_datenreihe_f.xlsx",
                 "dct:title": {
                     "fr": "Crédits d'investissements par catégorie de mesures 1999-2015",
                     "de": "",
@@ -13293,11 +13293,11 @@
             },
             {
                 "dct:identifier": "9b26b508-4b78-4797-b263-e333775ab12b",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/1c/o30rbsdp7c2038uvyqjaa4zi58f1i1/investitionskredite_nach_massnahmenkategorie_1999-2015_datenreihe_i.xlsx",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/1c/o30rbsdp7c2038uvyqjaa4zi58f1i1/investitionskredite_nach_massnahmenkategorie_1999-2015_datenreihe_i.xlsx",
                 "adms:status": "published",
                 "dct:format": "XLS",
                 "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/1c/o30rbsdp7c2038uvyqjaa4zi58f1i1/investitionskredite_nach_massnahmenkategorie_1999-2015_datenreihe_i.xlsx",
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/1c/o30rbsdp7c2038uvyqjaa4zi58f1i1/investitionskredite_nach_massnahmenkategorie_1999-2015_datenreihe_i.xlsx",
                 "dct:title": {
                     "fr": "",
                     "de": "",
@@ -13339,7 +13339,7 @@
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'"
         ],
-        "quality": 388.0
+        "quality": 384.5
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -13515,11 +13515,11 @@
         "dcat:distribution": [
             {
                 "dct:identifier": "8d84d3b1-5080-44d5-b565-88f495c270a5",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/fd/8ukhdkdzx1yj827ok4v1ohn1m1d2lo/ausgaben_bund_fuer_landwirtschaft_und_ernaehrung_2004-2015_datenreihe_d.xlsx",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/fd/8ukhdkdzx1yj827ok4v1ohn1m1d2lo/ausgaben_bund_fuer_landwirtschaft_und_ernaehrung_2004-2015_datenreihe_d.xlsx",
                 "adms:status": "published",
                 "dct:format": "XLS",
                 "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/fd/8ukhdkdzx1yj827ok4v1ohn1m1d2lo/ausgaben_bund_fuer_landwirtschaft_und_ernaehrung_2004-2015_datenreihe_d.xlsx",
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/fd/8ukhdkdzx1yj827ok4v1ohn1m1d2lo/ausgaben_bund_fuer_landwirtschaft_und_ernaehrung_2004-2015_datenreihe_d.xlsx",
                 "dct:title": {
                     "fr": "",
                     "de": "Ausgaben Bund Landwirtschaft und Ernährung 2004-2015",
@@ -13537,11 +13537,11 @@
             },
             {
                 "dct:identifier": "8b0cc52f-a129-48c6-999d-b7818c5612a8",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/63/756yxqygrrphnk2hlm8mch65el4tbi/ausgaben_bund_fuer_landwirtschaft_und_ernaehrung_2004-2015_datenreihe_f.xlsx",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/63/756yxqygrrphnk2hlm8mch65el4tbi/ausgaben_bund_fuer_landwirtschaft_und_ernaehrung_2004-2015_datenreihe_f.xlsx",
                 "adms:status": "published",
                 "dct:format": "XLS",
                 "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/63/756yxqygrrphnk2hlm8mch65el4tbi/ausgaben_bund_fuer_landwirtschaft_und_ernaehrung_2004-2015_datenreihe_f.xlsx",
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/63/756yxqygrrphnk2hlm8mch65el4tbi/ausgaben_bund_fuer_landwirtschaft_und_ernaehrung_2004-2015_datenreihe_f.xlsx",
                 "dct:title": {
                     "fr": "Dépenses Confédération pour agriculture et alimentation 2004-2015",
                     "de": "",
@@ -13559,11 +13559,11 @@
             },
             {
                 "dct:identifier": "c9ef0f3c-0d26-4357-a7bc-a94b971b059d",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/a5/fm1w0zhkyb14otpvo1z6yffcc1vtt3/ausgaben_bund_fuer_landwirtschaft_und_ernaehrung_2004-2015_datenreihe_i.xlsx",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/a5/fm1w0zhkyb14otpvo1z6yffcc1vtt3/ausgaben_bund_fuer_landwirtschaft_und_ernaehrung_2004-2015_datenreihe_i.xlsx",
                 "adms:status": "published",
                 "dct:format": "XLS",
                 "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/a5/fm1w0zhkyb14otpvo1z6yffcc1vtt3/ausgaben_bund_fuer_landwirtschaft_und_ernaehrung_2004-2015_datenreihe_i.xlsx",
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/a5/fm1w0zhkyb14otpvo1z6yffcc1vtt3/ausgaben_bund_fuer_landwirtschaft_und_ernaehrung_2004-2015_datenreihe_i.xlsx",
                 "dct:title": {
                     "fr": "",
                     "de": "",
@@ -13605,7 +13605,7 @@
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'"
         ],
-        "quality": 379.8333333333333
+        "quality": 376.3333333333333
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -13649,11 +13649,11 @@
         "dcat:distribution": [
             {
                 "dct:identifier": "aca936ab-4027-4f18-b1c0-4293fb607c16",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/59/kx4t9dohmeqvh1oa88qcye0vcdxvuf/41_ab16_statdz2015_anhaenge_tab_ressourceneffizienz_datenreihe_d_ok.xlsx",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/57/vjt4bormi0sd5dvrhep38co48czxwh/41_ab16_statdz2015_anhaenge_tab_ressourceneffizienz_datenreihe_d_ok.xlsx",
                 "adms:status": "published",
                 "dct:format": "XLS",
                 "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/59/kx4t9dohmeqvh1oa88qcye0vcdxvuf/41_ab16_statdz2015_anhaenge_tab_ressourceneffizienz_datenreihe_d_ok.xlsx",
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/57/vjt4bormi0sd5dvrhep38co48czxwh/41_ab16_statdz2015_anhaenge_tab_ressourceneffizienz_datenreihe_d_ok.xlsx",
                 "dct:title": {
                     "fr": "",
                     "de": "Ressourceneffizienzbeiträge 2014-2015",
@@ -13671,11 +13671,11 @@
             },
             {
                 "dct:identifier": "cf726ef1-ea12-46c9-999c-e7df624069b2",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/95/chm48gs0ryar8l7rlc2hl9bg8126qr/41_ab16_statdz2015_anhaenge_tab_ressourceneffizienz_datenreihe_f_ok.xlsx",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/95/chm48gs0ryar8l7rlc2hl9bg8126qr/41_ab16_statdz2015_anhaenge_tab_ressourceneffizienz_datenreihe_f_ok.xlsx",
                 "adms:status": "published",
                 "dct:format": "XLS",
                 "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/95/chm48gs0ryar8l7rlc2hl9bg8126qr/41_ab16_statdz2015_anhaenge_tab_ressourceneffizienz_datenreihe_f_ok.xlsx",
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/95/chm48gs0ryar8l7rlc2hl9bg8126qr/41_ab16_statdz2015_anhaenge_tab_ressourceneffizienz_datenreihe_f_ok.xlsx",
                 "dct:title": {
                     "fr": "Contributions à l'utilisation efficiente des ressources 2014-2015",
                     "de": "",
@@ -13693,11 +13693,11 @@
             },
             {
                 "dct:identifier": "543bc13a-9a7c-4bfc-9730-7ccba8ab1d35",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/b4/czitrqsrjf9p2d8x1gi5qmfqr4f3u5/41_ab16_statdz2015_anhaenge_tab_ressourceneffizienz_datenreihe_i_ok.xlsx",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/b4/czitrqsrjf9p2d8x1gi5qmfqr4f3u5/41_ab16_statdz2015_anhaenge_tab_ressourceneffizienz_datenreihe_i_ok.xlsx",
                 "adms:status": "published",
                 "dct:format": "XLS",
                 "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/b4/czitrqsrjf9p2d8x1gi5qmfqr4f3u5/41_ab16_statdz2015_anhaenge_tab_ressourceneffizienz_datenreihe_i_ok.xlsx",
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/b4/czitrqsrjf9p2d8x1gi5qmfqr4f3u5/41_ab16_statdz2015_anhaenge_tab_ressourceneffizienz_datenreihe_i_ok.xlsx",
                 "dct:title": {
                     "fr": "",
                     "de": "",
@@ -13739,141 +13739,7 @@
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'"
         ],
-        "quality": 378.75
-    },
-    {
-        "rdf:type": "dcat:Dataset",
-        "dct:identifier": "3ff52744-9fc6-423d-b0bf-91faf913291a",
-        "dct:title": {
-            "fr": "Contributions à la sécurité de l'approvisionnement 2014-2015",
-            "de": "Versorgungssicherheitsbeiträge 2014-2015",
-            "en": "",
-            "it": "Contributi per la sicurezza dell'approvvigionamento 2014-2015"
-        },
-        "dct:description": {
-            "fr": "",
-            "en": "",
-            "de": "Versorgungssicherheitsbeiträge nach Kantonen und Zonen (Anzahl Betriebe, Fläche in Hektaren, Beitrag in CHF)",
-            "it": ""
-        },
-        "dct:accessRights": "PUBLIC",
-        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
-        "dcat:contactPoint": {
-            "schema:email": "alessandro.rossi@blw.admin.ch",
-            "schema:name": "Bundesamt für Landwirtschaft"
-        },
-        "dct:issued": "2016-11-08",
-        "dct:accrualPeriodicity": "ANNUAL",
-        "dct:modified": null,
-        "adms:status": "published",
-        "bv:classification": "none",
-        "bv:personalData": "none",
-        "bv:archivalValue": false,
-        "bv:typeOfData": "thematicData",
-        "dcat:keyword": [],
-        "dcat:theme": [
-            "agriculture"
-        ],
-        "dcat:landingPage": "https://www.blw.admin.ch/blw/de/home/instrumente/direktzahlungen.html",
-        "foaf:page": [],
-        "dcatap:applicableLegislation": [
-            "https://www.admin.ch/opc/de/classified-compilation/19983446/index.html#a11"
-        ],
-        "schema:comment": "Imported from opendata.swiss on 2025-03-10",
-        "dcat:distribution": [
-            {
-                "dct:identifier": "8a4d519f-52a6-4396-822a-9a05ed795126",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/authenticated/download/documents/c9/3k8k62nsdhr43wfhznoeycnoi9f31b/10_ab16_statdz2015_anhaenge_tab_versorgungsicherheit_datenreihe_d_ok.xlsx",
-                "adms:status": "published",
-                "dct:format": "XLS",
-                "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/authenticated/download/documents/c9/3k8k62nsdhr43wfhznoeycnoi9f31b/10_ab16_statdz2015_anhaenge_tab_versorgungsicherheit_datenreihe_d_ok.xlsx",
-                "dct:title": {
-                    "fr": "",
-                    "de": "Versorgungssicherheitsbeiträge 2014-2015",
-                    "en": "",
-                    "it": ""
-                },
-                "dct:description": {
-                    "fr": "",
-                    "de": "",
-                    "en": "",
-                    "it": ""
-                },
-                "dct:license": "terms_by",
-                "schema:comment": "ID for this distribution on opendata.swiss: 26136999-c88f-41ad-97bc-03d4aaca3311"
-            },
-            {
-                "dct:identifier": "f214d26a-25f0-4831-ab74-5baaa3254141",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/authenticated/download/documents/ab/sb4yuj6vjemqktfpzshu2syobgzqfw/9_ab16_statdz2015_anhaenge_tab_kulturlandii_soemmerungiii_datenreihe_f_ok.xlsx",
-                "adms:status": "published",
-                "dct:format": "XLS",
-                "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/authenticated/download/documents/ab/sb4yuj6vjemqktfpzshu2syobgzqfw/9_ab16_statdz2015_anhaenge_tab_kulturlandii_soemmerungiii_datenreihe_f_ok.xlsx",
-                "dct:title": {
-                    "fr": "Contributions à la sécurité de l'approvisionnement 2014-2015",
-                    "de": "",
-                    "en": "",
-                    "it": ""
-                },
-                "dct:description": {
-                    "fr": "",
-                    "de": "",
-                    "en": "",
-                    "it": ""
-                },
-                "dct:license": "terms_by",
-                "schema:comment": "ID for this distribution on opendata.swiss: bd18fd26-9755-4ec9-94a9-a4fad9f211f7"
-            },
-            {
-                "dct:identifier": "bf21230a-a906-4ec6-bbdd-d2d1db0b3cdb",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/authenticated/download/documents/d1/snia6vpvy1o2jx2tss8oc97t7159fw/10_ab16_statdz2015_anhaenge_tab_versorgungsicherheit_datenreihe_i_ok.xlsx",
-                "adms:status": "published",
-                "dct:format": "XLS",
-                "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/authenticated/download/documents/d1/snia6vpvy1o2jx2tss8oc97t7159fw/10_ab16_statdz2015_anhaenge_tab_versorgungsicherheit_datenreihe_i_ok.xlsx",
-                "dct:title": {
-                    "fr": "",
-                    "de": "",
-                    "en": "",
-                    "it": "Contributi per la sicurezza dell'approvvigionamento 2014-2015"
-                },
-                "dct:description": {
-                    "fr": "",
-                    "de": "",
-                    "en": "",
-                    "it": ""
-                },
-                "dct:license": "terms_by",
-                "schema:comment": "ID for this distribution on opendata.swiss: 567b98c8-c134-4ac9-ab15-e7a064156231"
-            }
-        ],
-        "dct:temporal": {
-            "dcat:start_date": "2014-01-01",
-            "dcat:end_date": "2015-12-31"
-        },
-        "bv:externalCatalogs": [
-            {
-                "dcat:catalog": "opendata.swiss",
-                "dct:identifier": "74ca4ec5-9df1-4e9d-beaf-80c78295862a"
-            }
-        ],
-        "businessDataOwner": null,
-        "schemaViolations": 11,
-        "schemaViolationMessages": [
-            "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
-            "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
-            "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
-            "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
-            "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
-            "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
-            "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
-            "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
-            "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
-            "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
-            "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'"
-        ],
-        "quality": 377.8333333333333
+        "quality": 375.25
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -13917,11 +13783,11 @@
         "dcat:distribution": [
             {
                 "dct:identifier": "9b255cb7-fe4c-44f5-84b8-c2d84f0af30a",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/authenticated/download/documents/41/q3a2ugh9ik1h87usyh1yk11689oioe/6_ab16_statdz2015_anhaenge_tab_kulturlandi_datenreihe_d_ok.xlsx",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/authenticated/download/documents/41/q3a2ugh9ik1h87usyh1yk11689oioe/6_ab16_statdz2015_anhaenge_tab_kulturlandi_datenreihe_d_ok.xlsx",
                 "adms:status": "published",
                 "dct:format": "XLS",
                 "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/authenticated/download/documents/41/q3a2ugh9ik1h87usyh1yk11689oioe/6_ab16_statdz2015_anhaenge_tab_kulturlandi_datenreihe_d_ok.xlsx",
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/authenticated/download/documents/41/q3a2ugh9ik1h87usyh1yk11689oioe/6_ab16_statdz2015_anhaenge_tab_kulturlandi_datenreihe_d_ok.xlsx",
                 "dct:title": {
                     "fr": "",
                     "de": "Kulturlandschaftsbeiträge 2014-2015",
@@ -13939,11 +13805,11 @@
             },
             {
                 "dct:identifier": "e983edb9-2628-46ac-ad86-70e4ed06119c",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/authenticated/download/documents/66/4a8e8wa9n0f0oflusfv7f841fjqeg9/6_ab16_statdz2015_anhaenge_tab_kulturlandi_datenreihe_f_ok.xlsx",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/authenticated/download/documents/66/4a8e8wa9n0f0oflusfv7f841fjqeg9/6_ab16_statdz2015_anhaenge_tab_kulturlandi_datenreihe_f_ok.xlsx",
                 "adms:status": "published",
                 "dct:format": "XLS",
                 "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/authenticated/download/documents/66/4a8e8wa9n0f0oflusfv7f841fjqeg9/6_ab16_statdz2015_anhaenge_tab_kulturlandi_datenreihe_f_ok.xlsx",
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/authenticated/download/documents/66/4a8e8wa9n0f0oflusfv7f841fjqeg9/6_ab16_statdz2015_anhaenge_tab_kulturlandi_datenreihe_f_ok.xlsx",
                 "dct:title": {
                     "fr": "Contributions au paysage cultivé 2014-2015",
                     "de": "",
@@ -13961,11 +13827,11 @@
             },
             {
                 "dct:identifier": "0592033a-1b55-41d4-9a46-83d712af27f3",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/authenticated/download/documents/fc/t3tfinmgbnlp707s0w36aattglw43h/6_ab16_statdz2015_anhaenge_tab_kulturlandi_datenreihe_i_ok.xlsx",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/authenticated/download/documents/fc/t3tfinmgbnlp707s0w36aattglw43h/6_ab16_statdz2015_anhaenge_tab_kulturlandi_datenreihe_i_ok.xlsx",
                 "adms:status": "published",
                 "dct:format": "XLS",
                 "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/authenticated/download/documents/fc/t3tfinmgbnlp707s0w36aattglw43h/6_ab16_statdz2015_anhaenge_tab_kulturlandi_datenreihe_i_ok.xlsx",
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/authenticated/download/documents/fc/t3tfinmgbnlp707s0w36aattglw43h/6_ab16_statdz2015_anhaenge_tab_kulturlandi_datenreihe_i_ok.xlsx",
                 "dct:title": {
                     "fr": "",
                     "de": "",
@@ -14007,7 +13873,7 @@
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'"
         ],
-        "quality": 372.6666666666667
+        "quality": 369.1666666666667
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -14051,11 +13917,11 @@
         "dcat:distribution": [
             {
                 "dct:identifier": "081acd2c-da8e-4fcb-8c3e-ef5e9a7983d3",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/98/eakeg0jthapzdz10rnrv5b2vefzsfc/landwirtschaftliche_nutzflaeche_nach_nutzungsarten_datenreihe_d.xlsx",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/98/eakeg0jthapzdz10rnrv5b2vefzsfc/landwirtschaftliche_nutzflaeche_nach_nutzungsarten_datenreihe_d.xlsx",
                 "adms:status": "published",
                 "dct:format": "XLS",
                 "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/98/eakeg0jthapzdz10rnrv5b2vefzsfc/landwirtschaftliche_nutzflaeche_nach_nutzungsarten_datenreihe_d.xlsx",
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/98/eakeg0jthapzdz10rnrv5b2vefzsfc/landwirtschaftliche_nutzflaeche_nach_nutzungsarten_datenreihe_d.xlsx",
                 "dct:title": {
                     "fr": "",
                     "de": "Landwirtschaftliche Nutzfläche nach Nutzungsarten 1990/92-2015",
@@ -14073,11 +13939,11 @@
             },
             {
                 "dct:identifier": "f88fbd3d-dfa5-4387-8525-af40408f0fe7",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/14/50vi8k8rj48xula3kt2xpdjg5t86i4/landwirtschaftliche_nutzflaeche_nach_nutzungsarten_datenreihe_f.xlsx",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/14/50vi8k8rj48xula3kt2xpdjg5t86i4/landwirtschaftliche_nutzflaeche_nach_nutzungsarten_datenreihe_f.xlsx",
                 "adms:status": "published",
                 "dct:format": "XLS",
                 "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/14/50vi8k8rj48xula3kt2xpdjg5t86i4/landwirtschaftliche_nutzflaeche_nach_nutzungsarten_datenreihe_f.xlsx",
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/14/50vi8k8rj48xula3kt2xpdjg5t86i4/landwirtschaftliche_nutzflaeche_nach_nutzungsarten_datenreihe_f.xlsx",
                 "dct:title": {
                     "fr": "Surface agricole utile en fonction des modes d'utilisation 1990/92-2015",
                     "de": "",
@@ -14095,11 +13961,11 @@
             },
             {
                 "dct:identifier": "dd7fd764-b2d1-4d23-bda2-6a31c0a267cf",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/d5/eb0e422basbpysg29kq0g66yxq5f64/landwirtschaftliche_nutzflaeche_nach_nutzungsarten_datenreihe_i.xlsx",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/d5/eb0e422basbpysg29kq0g66yxq5f64/landwirtschaftliche_nutzflaeche_nach_nutzungsarten_datenreihe_i.xlsx",
                 "adms:status": "published",
                 "dct:format": "XLS",
                 "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/d5/eb0e422basbpysg29kq0g66yxq5f64/landwirtschaftliche_nutzflaeche_nach_nutzungsarten_datenreihe_i.xlsx",
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/d5/eb0e422basbpysg29kq0g66yxq5f64/landwirtschaftliche_nutzflaeche_nach_nutzungsarten_datenreihe_i.xlsx",
                 "dct:title": {
                     "fr": "",
                     "de": "",
@@ -14141,7 +14007,7 @@
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'"
         ],
-        "quality": 372.5
+        "quality": 369.0
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -14185,11 +14051,11 @@
         "dcat:distribution": [
             {
                 "dct:identifier": "adc5e356-3fd3-4044-90cd-091097f0ffb1",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/49/ozq85jiokzlrtyq2dgju9kjb7l0urk/35_ab16_statdz2015_anhaenge_tab_produktionssys_i_datenreihe_d_ok.xlsx",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/49/ozq85jiokzlrtyq2dgju9kjb7l0urk/35_ab16_statdz2015_anhaenge_tab_produktionssys_i_datenreihe_d_ok.xlsx",
                 "adms:status": "published",
                 "dct:format": "XLS",
                 "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/49/ozq85jiokzlrtyq2dgju9kjb7l0urk/35_ab16_statdz2015_anhaenge_tab_produktionssys_i_datenreihe_d_ok.xlsx",
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/49/ozq85jiokzlrtyq2dgju9kjb7l0urk/35_ab16_statdz2015_anhaenge_tab_produktionssys_i_datenreihe_d_ok.xlsx",
                 "dct:title": {
                     "fr": "",
                     "de": "Produktionssystembeiträge 2014-2015",
@@ -14207,11 +14073,11 @@
             },
             {
                 "dct:identifier": "5f5d6ca5-8dda-4a15-8afc-8f5388931553",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/20/dbt09f8xc8tvan36g6c2fd9fhg1mwd/35_ab16_statdz2015_anhaenge_tab_produktionssysi_datenreihe_f_ok.xlsx",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/20/dbt09f8xc8tvan36g6c2fd9fhg1mwd/35_ab16_statdz2015_anhaenge_tab_produktionssysi_datenreihe_f_ok.xlsx",
                 "adms:status": "published",
                 "dct:format": "XLS",
                 "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/20/dbt09f8xc8tvan36g6c2fd9fhg1mwd/35_ab16_statdz2015_anhaenge_tab_produktionssysi_datenreihe_f_ok.xlsx",
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/20/dbt09f8xc8tvan36g6c2fd9fhg1mwd/35_ab16_statdz2015_anhaenge_tab_produktionssysi_datenreihe_f_ok.xlsx",
                 "dct:title": {
                     "fr": "Contributions au système de production 2014-2015",
                     "de": "",
@@ -14229,11 +14095,11 @@
             },
             {
                 "dct:identifier": "f0f8df6e-9eb7-4e62-b3f0-ad25d7e6fea3",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/ac/x5v9coz9lzuwm6c232hkwjatovyyk7/35_ab16_statdz2015_anhaenge_tab_produktionssysi_datenreihe_i_ok.xlsx",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/ac/x5v9coz9lzuwm6c232hkwjatovyyk7/35_ab16_statdz2015_anhaenge_tab_produktionssysi_datenreihe_i_ok.xlsx",
                 "adms:status": "published",
                 "dct:format": "XLS",
                 "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/ac/x5v9coz9lzuwm6c232hkwjatovyyk7/35_ab16_statdz2015_anhaenge_tab_produktionssysi_datenreihe_i_ok.xlsx",
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/ac/x5v9coz9lzuwm6c232hkwjatovyyk7/35_ab16_statdz2015_anhaenge_tab_produktionssysi_datenreihe_i_ok.xlsx",
                 "dct:title": {
                     "fr": "",
                     "de": "",
@@ -14275,7 +14141,7 @@
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'"
         ],
-        "quality": 372.0
+        "quality": 368.5
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -14319,11 +14185,11 @@
         "dcat:distribution": [
             {
                 "dct:identifier": "5e0111e3-68fd-4b18-9fa8-79e723e6f027",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/3e/suk3lh9caztnzdftucchh50tqehs9x/erzeugung_landwirtschaftliche_wirtschaftsbereich_2000_02_2016_datenreihe_d.xlsx",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/3e/suk3lh9caztnzdftucchh50tqehs9x/erzeugung_landwirtschaftliche_wirtschaftsbereich_2000_02_2016_datenreihe_d.xlsx",
                 "adms:status": "published",
                 "dct:format": "XLS",
                 "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/3e/suk3lh9caztnzdftucchh50tqehs9x/erzeugung_landwirtschaftliche_wirtschaftsbereich_2000_02_2016_datenreihe_d.xlsx",
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/3e/suk3lh9caztnzdftucchh50tqehs9x/erzeugung_landwirtschaftliche_wirtschaftsbereich_2000_02_2016_datenreihe_d.xlsx",
                 "dct:title": {
                     "fr": "",
                     "de": "Erzeugung landwirtschaftliche Wirtschaftsbereich",
@@ -14341,11 +14207,11 @@
             },
             {
                 "dct:identifier": "6ce98cc1-da5a-4e9d-9794-976ae2ad0b96",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/c3/jusb5vwfv9qe3lsyx34vx3wswaeuzb/erzeugung_landwirtschaftliche_wirtschaftsbereich_2000_02_2016_datenreihe_f.xlsx",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/c3/jusb5vwfv9qe3lsyx34vx3wswaeuzb/erzeugung_landwirtschaftliche_wirtschaftsbereich_2000_02_2016_datenreihe_f.xlsx",
                 "adms:status": "published",
                 "dct:format": "XLS",
                 "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/c3/jusb5vwfv9qe3lsyx34vx3wswaeuzb/erzeugung_landwirtschaftliche_wirtschaftsbereich_2000_02_2016_datenreihe_f.xlsx",
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/c3/jusb5vwfv9qe3lsyx34vx3wswaeuzb/erzeugung_landwirtschaftliche_wirtschaftsbereich_2000_02_2016_datenreihe_f.xlsx",
                 "dct:title": {
                     "fr": "Production branche agricole",
                     "de": "",
@@ -14363,11 +14229,11 @@
             },
             {
                 "dct:identifier": "761739ae-829a-4954-827b-0a5eb0787569",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/45/98bs0q0nphkepnf7wkzeh9x62opln4/erzeugung_landwirtschaftliche_wirtschaftsbereich_2000_02_2016_datenreihe_i.xlsx",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/45/98bs0q0nphkepnf7wkzeh9x62opln4/erzeugung_landwirtschaftliche_wirtschaftsbereich_2000_02_2016_datenreihe_i.xlsx",
                 "adms:status": "published",
                 "dct:format": "XLS",
                 "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/45/98bs0q0nphkepnf7wkzeh9x62opln4/erzeugung_landwirtschaftliche_wirtschaftsbereich_2000_02_2016_datenreihe_i.xlsx",
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/45/98bs0q0nphkepnf7wkzeh9x62opln4/erzeugung_landwirtschaftliche_wirtschaftsbereich_2000_02_2016_datenreihe_i.xlsx",
                 "dct:title": {
                     "fr": "",
                     "de": "",
@@ -14409,7 +14275,7 @@
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'"
         ],
-        "quality": 369.6666666666667
+        "quality": 366.1666666666667
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -14453,11 +14319,11 @@
         "dcat:distribution": [
             {
                 "dct:identifier": "353aa2ec-ef0d-40db-aa23-e723fd3a8101",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/d7/lkhk2zn5xcxdt5cdzc2310w1fg2v6f/landwirtschaftliche_gesamtrechung_2000_02__2016_datenreihe_d.xlsx",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/d7/lkhk2zn5xcxdt5cdzc2310w1fg2v6f/landwirtschaftliche_gesamtrechung_2000_02__2016_datenreihe_d.xlsx",
                 "adms:status": "published",
                 "dct:format": "XLS",
                 "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/d7/lkhk2zn5xcxdt5cdzc2310w1fg2v6f/landwirtschaftliche_gesamtrechung_2000_02__2016_datenreihe_d.xlsx",
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/d7/lkhk2zn5xcxdt5cdzc2310w1fg2v6f/landwirtschaftliche_gesamtrechung_2000_02__2016_datenreihe_d.xlsx",
                 "dct:title": {
                     "fr": "",
                     "de": "Landwirtschaftliche Gesamtrechnung",
@@ -14475,11 +14341,11 @@
             },
             {
                 "dct:identifier": "b2057a6c-b551-49d2-96e4-a95c3645ab77",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/9d/nior5cgz4nrq7ac9q81up91ozkwbrh/landwirtschaftliche_gesamtrechung_2000_02__2016_datenreihe_f.xlsx",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/9d/nior5cgz4nrq7ac9q81up91ozkwbrh/landwirtschaftliche_gesamtrechung_2000_02__2016_datenreihe_f.xlsx",
                 "adms:status": "published",
                 "dct:format": "XLS",
                 "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/9d/nior5cgz4nrq7ac9q81up91ozkwbrh/landwirtschaftliche_gesamtrechung_2000_02__2016_datenreihe_f.xlsx",
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/9d/nior5cgz4nrq7ac9q81up91ozkwbrh/landwirtschaftliche_gesamtrechung_2000_02__2016_datenreihe_f.xlsx",
                 "dct:title": {
                     "fr": "Comptes économiques de l'agriculture",
                     "de": "",
@@ -14497,11 +14363,11 @@
             },
             {
                 "dct:identifier": "a4fe7f94-44aa-41d0-8e52-6ba0a7236e45",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/21/wtygkbunvulxq4wtctu7rqsab3kavc/landwirtschaftliche_gesamtrechung_2000_02__2016_datenreihe_i.xlsx",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/21/wtygkbunvulxq4wtctu7rqsab3kavc/landwirtschaftliche_gesamtrechung_2000_02__2016_datenreihe_i.xlsx",
                 "adms:status": "published",
                 "dct:format": "XLS",
                 "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/21/wtygkbunvulxq4wtctu7rqsab3kavc/landwirtschaftliche_gesamtrechung_2000_02__2016_datenreihe_i.xlsx",
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/21/wtygkbunvulxq4wtctu7rqsab3kavc/landwirtschaftliche_gesamtrechung_2000_02__2016_datenreihe_i.xlsx",
                 "dct:title": {
                     "fr": "",
                     "de": "",
@@ -14543,7 +14409,7 @@
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'"
         ],
-        "quality": 368.6666666666667
+        "quality": 365.1666666666667
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -14587,11 +14453,11 @@
         "dcat:distribution": [
             {
                 "dct:identifier": "c59de255-fcda-47d5-a3a6-4084b79b6f00",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/authenticated/download/documents/c2/tdvs9ttmjza2nr789nkvsmakf43ayu/13_ab16_statdz2015_anhaenge_tab_lq_beitraege_datenreihe_d_ok.xlsx",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/authenticated/download/documents/c2/tdvs9ttmjza2nr789nkvsmakf43ayu/13_ab16_statdz2015_anhaenge_tab_lq_beitraege_datenreihe_d_ok.xlsx",
                 "adms:status": "published",
                 "dct:format": "XLS",
                 "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/authenticated/download/documents/c2/tdvs9ttmjza2nr789nkvsmakf43ayu/13_ab16_statdz2015_anhaenge_tab_lq_beitraege_datenreihe_d_ok.xlsx",
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/authenticated/download/documents/c2/tdvs9ttmjza2nr789nkvsmakf43ayu/13_ab16_statdz2015_anhaenge_tab_lq_beitraege_datenreihe_d_ok.xlsx",
                 "dct:title": {
                     "fr": "",
                     "de": "Landschaftsqualitätsbeiträge 2014-2015",
@@ -14609,11 +14475,11 @@
             },
             {
                 "dct:identifier": "924bafca-6d1c-4428-b1e7-7a96652e9b8a",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/authenticated/download/documents/4a/6lrwr2801e6snn1xv3538o4x5yjz9c/13_ab16_statdz2015_anhaenge_tab_lq_beitraege_datenreihe_f_ok.xlsx",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/authenticated/download/documents/4a/6lrwr2801e6snn1xv3538o4x5yjz9c/13_ab16_statdz2015_anhaenge_tab_lq_beitraege_datenreihe_f_ok.xlsx",
                 "adms:status": "published",
                 "dct:format": "XLS",
                 "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/authenticated/download/documents/4a/6lrwr2801e6snn1xv3538o4x5yjz9c/13_ab16_statdz2015_anhaenge_tab_lq_beitraege_datenreihe_f_ok.xlsx",
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/authenticated/download/documents/4a/6lrwr2801e6snn1xv3538o4x5yjz9c/13_ab16_statdz2015_anhaenge_tab_lq_beitraege_datenreihe_f_ok.xlsx",
                 "dct:title": {
                     "fr": "Contributions à la qualité du paysage 2014-2015",
                     "de": "",
@@ -14631,11 +14497,11 @@
             },
             {
                 "dct:identifier": "e4b4ff57-cb35-41d1-bb71-8b9c9456b74f",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/authenticated/download/documents/0a/khw6x6rvj3lgqrt8mi482n3hg0waio/13_ab16_statdz2015_anhaenge_tab_lq_beitraege_datenreihe_i_ok.xlsx",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/authenticated/download/documents/0a/khw6x6rvj3lgqrt8mi482n3hg0waio/13_ab16_statdz2015_anhaenge_tab_lq_beitraege_datenreihe_i_ok.xlsx",
                 "adms:status": "published",
                 "dct:format": "XLS",
                 "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/authenticated/download/documents/0a/khw6x6rvj3lgqrt8mi482n3hg0waio/13_ab16_statdz2015_anhaenge_tab_lq_beitraege_datenreihe_i_ok.xlsx",
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/authenticated/download/documents/0a/khw6x6rvj3lgqrt8mi482n3hg0waio/13_ab16_statdz2015_anhaenge_tab_lq_beitraege_datenreihe_i_ok.xlsx",
                 "dct:title": {
                     "fr": "",
                     "de": "",
@@ -14677,7 +14543,7 @@
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'"
         ],
-        "quality": 368.5833333333333
+        "quality": 365.0833333333333
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -14721,11 +14587,11 @@
         "dcat:distribution": [
             {
                 "dct:identifier": "a49e9e3c-e335-4f25-9370-fd793441c87c",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/4e/4o2dfedzepam492csgzdrrlvms0v6d/selbstversorgungsgrad_neue_methode_nahrungsgsmittelbilanz_ab_2007_datenreihe_d.xlsx",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/4e/4o2dfedzepam492csgzdrrlvms0v6d/selbstversorgungsgrad_neue_methode_nahrungsgsmittelbilanz_ab_2007_datenreihe_d.xlsx",
                 "adms:status": "published",
                 "dct:format": "XLS",
                 "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/4e/4o2dfedzepam492csgzdrrlvms0v6d/selbstversorgungsgrad_neue_methode_nahrungsgsmittelbilanz_ab_2007_datenreihe_d.xlsx",
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/4e/4o2dfedzepam492csgzdrrlvms0v6d/selbstversorgungsgrad_neue_methode_nahrungsgsmittelbilanz_ab_2007_datenreihe_d.xlsx",
                 "dct:title": {
                     "fr": "",
                     "de": "Selbstversorgungsgrad 2007-2014",
@@ -14743,11 +14609,11 @@
             },
             {
                 "dct:identifier": "6f6e09f8-6012-4fc8-839a-951409e8e292",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/25/xjs2h7rdwr9nodzalbb1hl66gkx9tg/selbstversorgungsgrad_neue_methode_nahrungsgsmittelbilanz_ab_2007_datenreihe_f.xlsx",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/25/xjs2h7rdwr9nodzalbb1hl66gkx9tg/selbstversorgungsgrad_neue_methode_nahrungsgsmittelbilanz_ab_2007_datenreihe_f.xlsx",
                 "adms:status": "published",
                 "dct:format": "XLS",
                 "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/25/xjs2h7rdwr9nodzalbb1hl66gkx9tg/selbstversorgungsgrad_neue_methode_nahrungsgsmittelbilanz_ab_2007_datenreihe_f.xlsx",
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/25/xjs2h7rdwr9nodzalbb1hl66gkx9tg/selbstversorgungsgrad_neue_methode_nahrungsgsmittelbilanz_ab_2007_datenreihe_f.xlsx",
                 "dct:title": {
                     "fr": "Taux d'auto-approvisionnement 2007-2014",
                     "de": "",
@@ -14765,11 +14631,11 @@
             },
             {
                 "dct:identifier": "1f1e611b-d1d1-429b-8ad6-e91140aad949",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/33/qc27cnt43icplr3edjk90i2ww9azir/selbstversorgungsgrad_neue_methode_nahrungsgsmittelbilanz_ab_2007_datenreihe_i.xlsx",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/33/qc27cnt43icplr3edjk90i2ww9azir/selbstversorgungsgrad_neue_methode_nahrungsgsmittelbilanz_ab_2007_datenreihe_i.xlsx",
                 "adms:status": "published",
                 "dct:format": "XLS",
                 "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/33/qc27cnt43icplr3edjk90i2ww9azir/selbstversorgungsgrad_neue_methode_nahrungsgsmittelbilanz_ab_2007_datenreihe_i.xlsx",
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/33/qc27cnt43icplr3edjk90i2ww9azir/selbstversorgungsgrad_neue_methode_nahrungsgsmittelbilanz_ab_2007_datenreihe_i.xlsx",
                 "dct:title": {
                     "fr": "",
                     "de": "",
@@ -14811,7 +14677,7 @@
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'"
         ],
-        "quality": 365.0
+        "quality": 361.5
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -14855,11 +14721,11 @@
         "dcat:distribution": [
             {
                 "dct:identifier": "91e903f1-2077-47a0-b1c1-063557b9f1ed",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/0b/fzb1vjiw71bt60zkl5u5pijblw0dul/beschaeftigte_in_der_landwirtschaft_1990-2015_datenreihe_d.xlsx",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/0b/fzb1vjiw71bt60zkl5u5pijblw0dul/beschaeftigte_in_der_landwirtschaft_1990-2015_datenreihe_d.xlsx",
                 "adms:status": "published",
                 "dct:format": "XLS",
                 "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/0b/fzb1vjiw71bt60zkl5u5pijblw0dul/beschaeftigte_in_der_landwirtschaft_1990-2015_datenreihe_d.xlsx",
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/0b/fzb1vjiw71bt60zkl5u5pijblw0dul/beschaeftigte_in_der_landwirtschaft_1990-2015_datenreihe_d.xlsx",
                 "dct:title": {
                     "fr": "Personnes occupées dans l'agriculture",
                     "de": "Beschäftigte in der Landwirtschaft",
@@ -14877,11 +14743,11 @@
             },
             {
                 "dct:identifier": "0a9dda64-68cc-4958-a99d-02ccf1c398e6",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/a9/vg7mee20m3mchdsdvveinssn9djbfv/beschaeftigte_in_der_landwirtschaft_1990-2015_datenreihe_f.xlsx",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/a9/vg7mee20m3mchdsdvveinssn9djbfv/beschaeftigte_in_der_landwirtschaft_1990-2015_datenreihe_f.xlsx",
                 "adms:status": "published",
                 "dct:format": "XLS",
                 "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/a9/vg7mee20m3mchdsdvveinssn9djbfv/beschaeftigte_in_der_landwirtschaft_1990-2015_datenreihe_f.xlsx",
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/a9/vg7mee20m3mchdsdvveinssn9djbfv/beschaeftigte_in_der_landwirtschaft_1990-2015_datenreihe_f.xlsx",
                 "dct:title": {
                     "fr": "",
                     "de": "",
@@ -14899,11 +14765,11 @@
             },
             {
                 "dct:identifier": "b3b56b10-5c1b-4663-8fa0-491a6b8288ca",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/90/ijbv2rom3llxzad8cb7fb0bklgobnr/beschaeftigte_in_der_landwirtschaft_1990-2015_datenreihe_i.xlsx",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/90/ijbv2rom3llxzad8cb7fb0bklgobnr/beschaeftigte_in_der_landwirtschaft_1990-2015_datenreihe_i.xlsx",
                 "adms:status": "published",
                 "dct:format": "XLS",
                 "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/90/ijbv2rom3llxzad8cb7fb0bklgobnr/beschaeftigte_in_der_landwirtschaft_1990-2015_datenreihe_i.xlsx",
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/90/ijbv2rom3llxzad8cb7fb0bklgobnr/beschaeftigte_in_der_landwirtschaft_1990-2015_datenreihe_i.xlsx",
                 "dct:title": {
                     "fr": "",
                     "de": "",
@@ -14945,7 +14811,141 @@
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'"
         ],
-        "quality": 362.9166666666667
+        "quality": 359.4166666666667
+    },
+    {
+        "rdf:type": "dcat:Dataset",
+        "dct:identifier": "3ff52744-9fc6-423d-b0bf-91faf913291a",
+        "dct:title": {
+            "fr": "Contributions à la sécurité de l'approvisionnement 2014-2015",
+            "de": "Versorgungssicherheitsbeiträge 2014-2015",
+            "en": "",
+            "it": "Contributi per la sicurezza dell'approvvigionamento 2014-2015"
+        },
+        "dct:description": {
+            "fr": "",
+            "en": "",
+            "de": "Versorgungssicherheitsbeiträge nach Kantonen und Zonen (Anzahl Betriebe, Fläche in Hektaren, Beitrag in CHF)",
+            "it": ""
+        },
+        "dct:accessRights": "PUBLIC",
+        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+        "dcat:contactPoint": {
+            "schema:email": "alessandro.rossi@blw.admin.ch",
+            "schema:name": "Bundesamt für Landwirtschaft"
+        },
+        "dct:issued": "2016-11-08",
+        "dct:accrualPeriodicity": "ANNUAL",
+        "dct:modified": null,
+        "adms:status": "published",
+        "bv:classification": "none",
+        "bv:personalData": "none",
+        "bv:archivalValue": false,
+        "bv:typeOfData": "thematicData",
+        "dcat:keyword": [],
+        "dcat:theme": [
+            "agriculture"
+        ],
+        "dcat:landingPage": "https://www.blw.admin.ch/blw/de/home/instrumente/direktzahlungen.html",
+        "foaf:page": [],
+        "dcatap:applicableLegislation": [
+            "https://www.admin.ch/opc/de/classified-compilation/19983446/index.html#a11"
+        ],
+        "schema:comment": "Imported from opendata.swiss on 2025-03-10",
+        "dcat:distribution": [
+            {
+                "dct:identifier": "8a4d519f-52a6-4396-822a-9a05ed795126",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/authenticated/download/documents/c9/3k8k62nsdhr43wfhznoeycnoi9f31b/10_ab16_statdz2015_anhaenge_tab_versorgungsicherheit_datenreihe_d_ok.xlsx",
+                "adms:status": "published",
+                "dct:format": "XLS",
+                "dct:modified": null,
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/authenticated/download/documents/c9/3k8k62nsdhr43wfhznoeycnoi9f31b/10_ab16_statdz2015_anhaenge_tab_versorgungsicherheit_datenreihe_d_ok.xlsx",
+                "dct:title": {
+                    "fr": "",
+                    "de": "Versorgungssicherheitsbeiträge 2014-2015",
+                    "en": "",
+                    "it": ""
+                },
+                "dct:description": {
+                    "fr": "",
+                    "de": "",
+                    "en": "",
+                    "it": ""
+                },
+                "dct:license": "terms_by",
+                "schema:comment": "ID for this distribution on opendata.swiss: 26136999-c88f-41ad-97bc-03d4aaca3311"
+            },
+            {
+                "dct:identifier": "f214d26a-25f0-4831-ab74-5baaa3254141",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/fr/services/documentation/download-center",
+                "adms:status": "published",
+                "dct:format": "XLS",
+                "dct:modified": null,
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/fr/services/documentation/download-center",
+                "dct:title": {
+                    "fr": "Contributions à la sécurité de l'approvisionnement 2014-2015",
+                    "de": "",
+                    "en": "",
+                    "it": ""
+                },
+                "dct:description": {
+                    "fr": "",
+                    "de": "",
+                    "en": "",
+                    "it": ""
+                },
+                "dct:license": "terms_by",
+                "schema:comment": "ID for this distribution on opendata.swiss: bd18fd26-9755-4ec9-94a9-a4fad9f211f7"
+            },
+            {
+                "dct:identifier": "bf21230a-a906-4ec6-bbdd-d2d1db0b3cdb",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/authenticated/download/documents/d1/snia6vpvy1o2jx2tss8oc97t7159fw/10_ab16_statdz2015_anhaenge_tab_versorgungsicherheit_datenreihe_i_ok.xlsx",
+                "adms:status": "published",
+                "dct:format": "XLS",
+                "dct:modified": null,
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/authenticated/download/documents/d1/snia6vpvy1o2jx2tss8oc97t7159fw/10_ab16_statdz2015_anhaenge_tab_versorgungsicherheit_datenreihe_i_ok.xlsx",
+                "dct:title": {
+                    "fr": "",
+                    "de": "",
+                    "en": "",
+                    "it": "Contributi per la sicurezza dell'approvvigionamento 2014-2015"
+                },
+                "dct:description": {
+                    "fr": "",
+                    "de": "",
+                    "en": "",
+                    "it": ""
+                },
+                "dct:license": "terms_by",
+                "schema:comment": "ID for this distribution on opendata.swiss: 567b98c8-c134-4ac9-ab15-e7a064156231"
+            }
+        ],
+        "dct:temporal": {
+            "dcat:start_date": "2014-01-01",
+            "dcat:end_date": "2015-12-31"
+        },
+        "bv:externalCatalogs": [
+            {
+                "dcat:catalog": "opendata.swiss",
+                "dct:identifier": "74ca4ec5-9df1-4e9d-beaf-80c78295862a"
+            }
+        ],
+        "businessDataOwner": null,
+        "schemaViolations": 11,
+        "schemaViolationMessages": [
+            "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
+            "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
+            "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
+            "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
+            "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
+            "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
+            "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
+            "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
+            "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
+            "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
+            "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'"
+        ],
+        "quality": 357.0
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -14989,11 +14989,11 @@
         "dcat:distribution": [
             {
                 "dct:identifier": "663ff64f-a568-4c06-a272-f163f5ae7172",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/8f/t27700o6ckavt8855r625o7ew14otl/nutztierhalter_und_nutztierbestaende_datenreihe_d.xlsx",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/8f/t27700o6ckavt8855r625o7ew14otl/nutztierhalter_und_nutztierbestaende_datenreihe_d.xlsx",
                 "adms:status": "published",
                 "dct:format": "XLS",
                 "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/8f/t27700o6ckavt8855r625o7ew14otl/nutztierhalter_und_nutztierbestaende_datenreihe_d.xlsx",
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/8f/t27700o6ckavt8855r625o7ew14otl/nutztierhalter_und_nutztierbestaende_datenreihe_d.xlsx",
                 "dct:title": {
                     "fr": "",
                     "de": "Nutztierhalter und Nutztierbestände 2000/02-2015",
@@ -15011,11 +15011,11 @@
             },
             {
                 "dct:identifier": "81b0f808-2c9e-44b7-b4b5-63295f1633a7",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/a2/6vk5n4edkk0kwah69ue3l4z030r6gf/nutztierhalter_und_nutztierbestaende_datenreihe_f.xlsx",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/a2/6vk5n4edkk0kwah69ue3l4z030r6gf/nutztierhalter_und_nutztierbestaende_datenreihe_f.xlsx",
                 "adms:status": "published",
                 "dct:format": "XLS",
                 "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/a2/6vk5n4edkk0kwah69ue3l4z030r6gf/nutztierhalter_und_nutztierbestaende_datenreihe_f.xlsx",
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/a2/6vk5n4edkk0kwah69ue3l4z030r6gf/nutztierhalter_und_nutztierbestaende_datenreihe_f.xlsx",
                 "dct:title": {
                     "fr": "Détenteurs et effectifs des animaux 2000/02-2015",
                     "de": "",
@@ -15033,11 +15033,11 @@
             },
             {
                 "dct:identifier": "5b9903af-347b-4640-b4c0-f07d04703e7d",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/83/izqb7ex5edfxmtmhibkqg1e0pjdmiy/nutztierhalter_und_nutztierbestaende_datenreihe_i.xlsx",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/83/izqb7ex5edfxmtmhibkqg1e0pjdmiy/nutztierhalter_und_nutztierbestaende_datenreihe_i.xlsx",
                 "adms:status": "published",
                 "dct:format": "XLS",
                 "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/83/izqb7ex5edfxmtmhibkqg1e0pjdmiy/nutztierhalter_und_nutztierbestaende_datenreihe_i.xlsx",
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/83/izqb7ex5edfxmtmhibkqg1e0pjdmiy/nutztierhalter_und_nutztierbestaende_datenreihe_i.xlsx",
                 "dct:title": {
                     "fr": "",
                     "de": "",
@@ -15079,7 +15079,7 @@
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'"
         ],
-        "quality": 360.4166666666667
+        "quality": 356.9166666666667
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -15123,11 +15123,11 @@
         "dcat:distribution": [
             {
                 "dct:identifier": "fdd452e9-ddf4-44b8-891a-8de2ea11e9b3",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/57/zbuykwp2gpxk2upcr18fm3uwglhhhp/42_ab16_statdz2015_anhaenge_tab_uebergangsbeitrag_datenreihe_d_ok.xlsx",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/57/zbuykwp2gpxk2upcr18fm3uwglhhhp/42_ab16_statdz2015_anhaenge_tab_uebergangsbeitrag_datenreihe_d_ok.xlsx",
                 "adms:status": "published",
                 "dct:format": "XLS",
                 "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/57/zbuykwp2gpxk2upcr18fm3uwglhhhp/42_ab16_statdz2015_anhaenge_tab_uebergangsbeitrag_datenreihe_d_ok.xlsx",
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/57/zbuykwp2gpxk2upcr18fm3uwglhhhp/42_ab16_statdz2015_anhaenge_tab_uebergangsbeitrag_datenreihe_d_ok.xlsx",
                 "dct:title": {
                     "fr": "",
                     "de": "Übergangsbeitrag 2014-2015",
@@ -15145,11 +15145,11 @@
             },
             {
                 "dct:identifier": "b0bc19d3-4e45-486e-8e78-dd955a56cb43",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/e2/v4ogorc4yv2yrufhkcgzhoykz06u1i/42_ab16_statdz2015_anhaenge_tab_uebergangsbeitrag_datenreihe_f_ok.xlsx",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/e2/v4ogorc4yv2yrufhkcgzhoykz06u1i/42_ab16_statdz2015_anhaenge_tab_uebergangsbeitrag_datenreihe_f_ok.xlsx",
                 "adms:status": "published",
                 "dct:format": "XLS",
                 "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/e2/v4ogorc4yv2yrufhkcgzhoykz06u1i/42_ab16_statdz2015_anhaenge_tab_uebergangsbeitrag_datenreihe_f_ok.xlsx",
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/e2/v4ogorc4yv2yrufhkcgzhoykz06u1i/42_ab16_statdz2015_anhaenge_tab_uebergangsbeitrag_datenreihe_f_ok.xlsx",
                 "dct:title": {
                     "fr": "Contributions de transition 2014-2015",
                     "de": "",
@@ -15167,11 +15167,11 @@
             },
             {
                 "dct:identifier": "2687bdb4-8c87-4e66-aaff-fd3c7701d4ce",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/12/ptlhrc1ls2cjyrvlscl7qd8yz82lbt/42_ab16_statdz2015_anhaenge_tab_uebergangsbeitrag_datenreihe_i_ok.xlsx",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/12/ptlhrc1ls2cjyrvlscl7qd8yz82lbt/42_ab16_statdz2015_anhaenge_tab_uebergangsbeitrag_datenreihe_i_ok.xlsx",
                 "adms:status": "published",
                 "dct:format": "XLS",
                 "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/12/ptlhrc1ls2cjyrvlscl7qd8yz82lbt/42_ab16_statdz2015_anhaenge_tab_uebergangsbeitrag_datenreihe_i_ok.xlsx",
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/12/ptlhrc1ls2cjyrvlscl7qd8yz82lbt/42_ab16_statdz2015_anhaenge_tab_uebergangsbeitrag_datenreihe_i_ok.xlsx",
                 "dct:title": {
                     "fr": "",
                     "de": "",
@@ -15213,7 +15213,7 @@
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'"
         ],
-        "quality": 358.8333333333333
+        "quality": 355.3333333333333
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -15257,11 +15257,11 @@
         "dcat:distribution": [
             {
                 "dct:identifier": "77f776a4-012a-46e0-a39b-ad0bddc10e4c",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/7b/tihijwtv7hcukxaludgglucghihage/verwertung_pflanzenbau_datenreihe_d.xlsx",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/7b/tihijwtv7hcukxaludgglucghihage/verwertung_pflanzenbau_datenreihe_d.xlsx",
                 "adms:status": "published",
                 "dct:format": "XLS",
                 "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/7b/tihijwtv7hcukxaludgglucghihage/verwertung_pflanzenbau_datenreihe_d.xlsx",
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/7b/tihijwtv7hcukxaludgglucghihage/verwertung_pflanzenbau_datenreihe_d.xlsx",
                 "dct:title": {
                     "fr": "",
                     "de": "Verwertung der Ernte im Pflanzenbau 1990/92-2015",
@@ -15279,11 +15279,11 @@
             },
             {
                 "dct:identifier": "2f7719ac-41df-4718-bde0-520aeb715b0a",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/38/7zpxmkyam4fgxvrh5divyvntfueztf/verwertung_pflanzenbau_datenreihe_f.xlsx",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/38/7zpxmkyam4fgxvrh5divyvntfueztf/verwertung_pflanzenbau_datenreihe_f.xlsx",
                 "adms:status": "published",
                 "dct:format": "XLS",
                 "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/38/7zpxmkyam4fgxvrh5divyvntfueztf/verwertung_pflanzenbau_datenreihe_f.xlsx",
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/38/7zpxmkyam4fgxvrh5divyvntfueztf/verwertung_pflanzenbau_datenreihe_f.xlsx",
                 "dct:title": {
                     "fr": "Mise en valeur de la récolte en production végétale 1990/92-2015",
                     "de": "",
@@ -15301,11 +15301,11 @@
             },
             {
                 "dct:identifier": "70fabf02-795e-45e2-9425-24666d412dcf",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/ec/70t4fw03qw1bflr58q048mnw1gev88/verwertung_pflanzenbau_datenreihe_i.xlsx",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/ec/70t4fw03qw1bflr58q048mnw1gev88/verwertung_pflanzenbau_datenreihe_i.xlsx",
                 "adms:status": "published",
                 "dct:format": "XLS",
                 "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/ec/70t4fw03qw1bflr58q048mnw1gev88/verwertung_pflanzenbau_datenreihe_i.xlsx",
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/ec/70t4fw03qw1bflr58q048mnw1gev88/verwertung_pflanzenbau_datenreihe_i.xlsx",
                 "dct:title": {
                     "fr": "",
                     "de": "",
@@ -15347,7 +15347,7 @@
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'"
         ],
-        "quality": 357.9166666666667
+        "quality": 354.4166666666667
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -15391,11 +15391,11 @@
         "dcat:distribution": [
             {
                 "dct:identifier": "347699f6-4f02-4662-8c51-6033a023dc02",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/ce/askwckku1mcxvigvrqzz0uklu7ruqz/17_ab16_statdz2015_anhaenge_tab_biodiversitaet_datenreihe_d_ok.xlsx",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/ce/askwckku1mcxvigvrqzz0uklu7ruqz/17_ab16_statdz2015_anhaenge_tab_biodiversitaet_datenreihe_d_ok.xlsx",
                 "adms:status": "published",
                 "dct:format": "XLS",
                 "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/ce/askwckku1mcxvigvrqzz0uklu7ruqz/17_ab16_statdz2015_anhaenge_tab_biodiversitaet_datenreihe_d_ok.xlsx",
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/ce/askwckku1mcxvigvrqzz0uklu7ruqz/17_ab16_statdz2015_anhaenge_tab_biodiversitaet_datenreihe_d_ok.xlsx",
                 "dct:title": {
                     "fr": "",
                     "de": "Biodiversitätsbeiträge 2014-2015",
@@ -15413,11 +15413,11 @@
             },
             {
                 "dct:identifier": "3878cbdd-2206-448c-a5f5-7fb1f4374395",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/08/ozomp9lksr4ntzbjsn1mvyertozmxq/17_ab16_statdz2015_anhaenge_tab_biodiversitaet_datenreihe_f_ok.xlsx",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/08/ozomp9lksr4ntzbjsn1mvyertozmxq/17_ab16_statdz2015_anhaenge_tab_biodiversitaet_datenreihe_f_ok.xlsx",
                 "adms:status": "published",
                 "dct:format": "XLS",
                 "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/08/ozomp9lksr4ntzbjsn1mvyertozmxq/17_ab16_statdz2015_anhaenge_tab_biodiversitaet_datenreihe_f_ok.xlsx",
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/08/ozomp9lksr4ntzbjsn1mvyertozmxq/17_ab16_statdz2015_anhaenge_tab_biodiversitaet_datenreihe_f_ok.xlsx",
                 "dct:title": {
                     "fr": "Contributions à la biodiversité 2014-2015",
                     "de": "",
@@ -15435,11 +15435,11 @@
             },
             {
                 "dct:identifier": "6a8b2f99-1c3f-4feb-9e88-37dc023366f6",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/d2/fexdqvrf3eh9xy562qa0ogd65yytki/17_ab16_statdz2015_anhaenge_tab_biodiversitaet_datenreihe_i_ok.xlsx",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/d2/fexdqvrf3eh9xy562qa0ogd65yytki/17_ab16_statdz2015_anhaenge_tab_biodiversitaet_datenreihe_i_ok.xlsx",
                 "adms:status": "published",
                 "dct:format": "XLS",
                 "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/d2/fexdqvrf3eh9xy562qa0ogd65yytki/17_ab16_statdz2015_anhaenge_tab_biodiversitaet_datenreihe_i_ok.xlsx",
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/d2/fexdqvrf3eh9xy562qa0ogd65yytki/17_ab16_statdz2015_anhaenge_tab_biodiversitaet_datenreihe_i_ok.xlsx",
                 "dct:title": {
                     "fr": "",
                     "de": "",
@@ -15481,7 +15481,7 @@
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'"
         ],
-        "quality": 357.0833333333333
+        "quality": 353.5833333333333
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -15525,11 +15525,11 @@
         "dcat:distribution": [
             {
                 "dct:identifier": "a305bc2c-0acc-42d4-bcb8-cea8483c3a98",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/ca/bielmn763zkntp6ramdyxa76ywt9e6/ausgaben_viehwirtschaft_1999-2015_datenreihe_d.xlsx",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/ca/bielmn763zkntp6ramdyxa76ywt9e6/ausgaben_viehwirtschaft_1999-2015_datenreihe_d.xlsx",
                 "adms:status": "published",
                 "dct:format": "XLS",
                 "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/ca/bielmn763zkntp6ramdyxa76ywt9e6/ausgaben_viehwirtschaft_1999-2015_datenreihe_d.xlsx",
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/ca/bielmn763zkntp6ramdyxa76ywt9e6/ausgaben_viehwirtschaft_1999-2015_datenreihe_d.xlsx",
                 "dct:title": {
                     "fr": "",
                     "de": "Ausgaben Viehwirtschaft 1999-2015",
@@ -15547,11 +15547,11 @@
             },
             {
                 "dct:identifier": "7a258c4d-43a0-4b23-bca2-8fb1e28f0c0f",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/7b/3cq2zo6g372n3b7id85gi30k6j7v6c/ausgaben_viehwirtschaft_1999-2015_datenreihe_f.xlsx",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/7b/3cq2zo6g372n3b7id85gi30k6j7v6c/ausgaben_viehwirtschaft_1999-2015_datenreihe_f.xlsx",
                 "adms:status": "published",
                 "dct:format": "XLS",
                 "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/7b/3cq2zo6g372n3b7id85gi30k6j7v6c/ausgaben_viehwirtschaft_1999-2015_datenreihe_f.xlsx",
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/7b/3cq2zo6g372n3b7id85gi30k6j7v6c/ausgaben_viehwirtschaft_1999-2015_datenreihe_f.xlsx",
                 "dct:title": {
                     "fr": "Dépenses économie animale 1999-2015",
                     "de": "",
@@ -15569,11 +15569,11 @@
             },
             {
                 "dct:identifier": "75b0f623-57ac-4abb-840d-add66dd670ca",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/3b/g9062mq2b33eezmxqm3n81g0yq6i1k/ausgaben_viehwirtschaft_1999-2015_datenreihe_i.xlsx",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/3b/g9062mq2b33eezmxqm3n81g0yq6i1k/ausgaben_viehwirtschaft_1999-2015_datenreihe_i.xlsx",
                 "adms:status": "published",
                 "dct:format": "XLS",
                 "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/3b/g9062mq2b33eezmxqm3n81g0yq6i1k/ausgaben_viehwirtschaft_1999-2015_datenreihe_i.xlsx",
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/3b/g9062mq2b33eezmxqm3n81g0yq6i1k/ausgaben_viehwirtschaft_1999-2015_datenreihe_i.xlsx",
                 "dct:title": {
                     "fr": "",
                     "de": "",
@@ -15615,7 +15615,7 @@
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'"
         ],
-        "quality": 356.5833333333333
+        "quality": 353.0833333333333
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -15659,11 +15659,11 @@
         "dcat:distribution": [
             {
                 "dct:identifier": "34cf7699-ab5a-4c97-b887-fd0d877b5f3f",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/d4/kjoriwrpnugm81s066eeiqfyhxgpwv/ausgaben_milchwirtschaft_1999-2015_datenreihe_d.xlsx",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/d4/kjoriwrpnugm81s066eeiqfyhxgpwv/ausgaben_milchwirtschaft_1999-2015_datenreihe_d.xlsx",
                 "adms:status": "published",
                 "dct:format": "XLS",
                 "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/d4/kjoriwrpnugm81s066eeiqfyhxgpwv/ausgaben_milchwirtschaft_1999-2015_datenreihe_d.xlsx",
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/d4/kjoriwrpnugm81s066eeiqfyhxgpwv/ausgaben_milchwirtschaft_1999-2015_datenreihe_d.xlsx",
                 "dct:title": {
                     "fr": "",
                     "de": "Ausgaben Milchwirtschaft 1999-2015",
@@ -15681,11 +15681,11 @@
             },
             {
                 "dct:identifier": "4fd0bc0c-6eff-408e-af9c-041c15bbd0b0",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/1f/1fybysudtgjvdaj8s9x4oe0odztivy/ausgaben_milchwirtschaft_1999-2015_datenreihe_f.xlsx",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/1f/1fybysudtgjvdaj8s9x4oe0odztivy/ausgaben_milchwirtschaft_1999-2015_datenreihe_f.xlsx",
                 "adms:status": "published",
                 "dct:format": "XLS",
                 "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/1f/1fybysudtgjvdaj8s9x4oe0odztivy/ausgaben_milchwirtschaft_1999-2015_datenreihe_f.xlsx",
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/1f/1fybysudtgjvdaj8s9x4oe0odztivy/ausgaben_milchwirtschaft_1999-2015_datenreihe_f.xlsx",
                 "dct:title": {
                     "fr": "Dépenses économie laitière 1999-2015",
                     "de": "",
@@ -15703,11 +15703,11 @@
             },
             {
                 "dct:identifier": "17896dc5-3e6b-4f95-bfe4-96fe415920c7",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/36/r6philnbgb6ai5bz7a2slv03rf1060/ausgaben_milchwirtschaft_1999-2015_datenreihe_i.xlsx",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/36/r6philnbgb6ai5bz7a2slv03rf1060/ausgaben_milchwirtschaft_1999-2015_datenreihe_i.xlsx",
                 "adms:status": "published",
                 "dct:format": "XLS",
                 "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/36/r6philnbgb6ai5bz7a2slv03rf1060/ausgaben_milchwirtschaft_1999-2015_datenreihe_i.xlsx",
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/36/r6philnbgb6ai5bz7a2slv03rf1060/ausgaben_milchwirtschaft_1999-2015_datenreihe_i.xlsx",
                 "dct:title": {
                     "fr": "",
                     "de": "",
@@ -15749,7 +15749,7 @@
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'"
         ],
-        "quality": 352.1666666666667
+        "quality": 348.6666666666667
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -15793,11 +15793,11 @@
         "dcat:distribution": [
             {
                 "dct:identifier": "b04d466d-8909-445c-872f-9f1582caaabe",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/2a/po3w02zxj25e8b50j07w07a23l1gfo/landwirtschaftliche_nutzflaeche_1990-2015_datenreihe_d.xlsx",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/2a/po3w02zxj25e8b50j07w07a23l1gfo/landwirtschaftliche_nutzflaeche_1990-2015_datenreihe_d.xlsx",
                 "adms:status": "published",
                 "dct:format": "XLS",
                 "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/2a/po3w02zxj25e8b50j07w07a23l1gfo/landwirtschaftliche_nutzflaeche_1990-2015_datenreihe_d.xlsx",
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/2a/po3w02zxj25e8b50j07w07a23l1gfo/landwirtschaftliche_nutzflaeche_1990-2015_datenreihe_d.xlsx",
                 "dct:title": {
                     "fr": "",
                     "de": "Landwirtschaftliche Nutzfläche",
@@ -15815,11 +15815,11 @@
             },
             {
                 "dct:identifier": "7d080bbd-8b76-4de4-8540-1984d24d711a",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/eb/gfzt3asmg68au9ldneirdvmm7g0nv5/landwirtschaftliche_nutzflaeche_1990-2015_datenreihe_f.xlsx",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/eb/gfzt3asmg68au9ldneirdvmm7g0nv5/landwirtschaftliche_nutzflaeche_1990-2015_datenreihe_f.xlsx",
                 "adms:status": "published",
                 "dct:format": "XLS",
                 "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/eb/gfzt3asmg68au9ldneirdvmm7g0nv5/landwirtschaftliche_nutzflaeche_1990-2015_datenreihe_f.xlsx",
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/eb/gfzt3asmg68au9ldneirdvmm7g0nv5/landwirtschaftliche_nutzflaeche_1990-2015_datenreihe_f.xlsx",
                 "dct:title": {
                     "fr": "Surface agricole utile",
                     "de": "",
@@ -15837,11 +15837,11 @@
             },
             {
                 "dct:identifier": "284d9995-b102-4522-bbc6-86d4a52224f7",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/c5/0n6lcpamjiwnx4qmbxw4o6pyc3hrjs/landwirtschaftliche_nutzflaeche_1990-2015_datenreihe_i.xlsx",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/c5/0n6lcpamjiwnx4qmbxw4o6pyc3hrjs/landwirtschaftliche_nutzflaeche_1990-2015_datenreihe_i.xlsx",
                 "adms:status": "published",
                 "dct:format": "XLS",
                 "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/c5/0n6lcpamjiwnx4qmbxw4o6pyc3hrjs/landwirtschaftliche_nutzflaeche_1990-2015_datenreihe_i.xlsx",
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/c5/0n6lcpamjiwnx4qmbxw4o6pyc3hrjs/landwirtschaftliche_nutzflaeche_1990-2015_datenreihe_i.xlsx",
                 "dct:title": {
                     "fr": "",
                     "de": "",
@@ -15883,7 +15883,7 @@
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'"
         ],
-        "quality": 349.4166666666667
+        "quality": 345.9166666666667
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -15927,11 +15927,11 @@
         "dcat:distribution": [
             {
                 "dct:identifier": "e1e5dede-bb65-419a-be4b-5df65c3d92dd",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/33/kpjoe7ka20ji64g6yozoo29e3k31wj/ausgaben_tierzucht_1999-2015_datenreihe_d.xlsx",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/33/kpjoe7ka20ji64g6yozoo29e3k31wj/ausgaben_tierzucht_1999-2015_datenreihe_d.xlsx",
                 "adms:status": "published",
                 "dct:format": "XLS",
                 "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/33/kpjoe7ka20ji64g6yozoo29e3k31wj/ausgaben_tierzucht_1999-2015_datenreihe_d.xlsx",
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/33/kpjoe7ka20ji64g6yozoo29e3k31wj/ausgaben_tierzucht_1999-2015_datenreihe_d.xlsx",
                 "dct:title": {
                     "fr": "",
                     "de": "Ausgaben Tierzucht 1999-2015",
@@ -15949,11 +15949,11 @@
             },
             {
                 "dct:identifier": "e2b93b20-9b30-4e62-9c89-3444a961b7ad",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/94/uyrz2ermsb94q8flxnap1pt0xrr0b2/ausgaben_tierzucht_1999-2015_datenreihe_f.xlsx",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/94/uyrz2ermsb94q8flxnap1pt0xrr0b2/ausgaben_tierzucht_1999-2015_datenreihe_f.xlsx",
                 "adms:status": "published",
                 "dct:format": "XLS",
                 "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/94/uyrz2ermsb94q8flxnap1pt0xrr0b2/ausgaben_tierzucht_1999-2015_datenreihe_f.xlsx",
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/94/uyrz2ermsb94q8flxnap1pt0xrr0b2/ausgaben_tierzucht_1999-2015_datenreihe_f.xlsx",
                 "dct:title": {
                     "fr": "Dépenses élevage 1999-2015",
                     "de": "",
@@ -15971,11 +15971,11 @@
             },
             {
                 "dct:identifier": "f34d4f01-1a21-482c-830a-e6c032eb598d",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/43/q564zgqmy07gqycww25zgs3wtoqwm2/ausgaben_tierzucht_1999-2015_datenreihe_i.xlsx",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/43/q564zgqmy07gqycww25zgs3wtoqwm2/ausgaben_tierzucht_1999-2015_datenreihe_i.xlsx",
                 "adms:status": "published",
                 "dct:format": "XLS",
                 "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/43/q564zgqmy07gqycww25zgs3wtoqwm2/ausgaben_tierzucht_1999-2015_datenreihe_i.xlsx",
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/43/q564zgqmy07gqycww25zgs3wtoqwm2/ausgaben_tierzucht_1999-2015_datenreihe_i.xlsx",
                 "dct:title": {
                     "fr": "",
                     "de": "",
@@ -16017,7 +16017,7 @@
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'"
         ],
-        "quality": 349.25
+        "quality": 345.75
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -16061,11 +16061,11 @@
         "dcat:distribution": [
             {
                 "dct:identifier": "077aa833-f4af-469e-8048-9567a6e3f527",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/c9/h6a6zm9o6hobbt2p4i73m2ijgr5mn6/produktion_milchprodukte_datenreihe_d.xlsx",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/c9/h6a6zm9o6hobbt2p4i73m2ijgr5mn6/produktion_milchprodukte_datenreihe_d.xlsx",
                 "adms:status": "published",
                 "dct:format": "XLS",
                 "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/c9/h6a6zm9o6hobbt2p4i73m2ijgr5mn6/produktion_milchprodukte_datenreihe_d.xlsx",
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/c9/h6a6zm9o6hobbt2p4i73m2ijgr5mn6/produktion_milchprodukte_datenreihe_d.xlsx",
                 "dct:title": {
                     "fr": "",
                     "de": "Produktion Milchprodukte 1990/92-2015",
@@ -16083,11 +16083,11 @@
             },
             {
                 "dct:identifier": "81b390ed-184a-42f4-996e-116ca9865de3",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/9c/ioo7duk8lnzoq2i3r4bs5vqbzrr969/produktion_milchprodukte_datenreihe_f.xlsx",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/9c/ioo7duk8lnzoq2i3r4bs5vqbzrr969/produktion_milchprodukte_datenreihe_f.xlsx",
                 "adms:status": "published",
                 "dct:format": "XLS",
                 "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/9c/ioo7duk8lnzoq2i3r4bs5vqbzrr969/produktion_milchprodukte_datenreihe_f.xlsx",
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/9c/ioo7duk8lnzoq2i3r4bs5vqbzrr969/produktion_milchprodukte_datenreihe_f.xlsx",
                 "dct:title": {
                     "fr": "Production de produits laitiers 1990/92-2015",
                     "de": "",
@@ -16105,11 +16105,11 @@
             },
             {
                 "dct:identifier": "f82660ea-5d57-439c-b744-8f4d74a3824e",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/12/p3ev7y61yzj6jbga6cv1oap75nc9vw/produktion_milchprodukte_datenreihe_i.xlsx",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/12/p3ev7y61yzj6jbga6cv1oap75nc9vw/produktion_milchprodukte_datenreihe_i.xlsx",
                 "adms:status": "published",
                 "dct:format": "XLS",
                 "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/12/p3ev7y61yzj6jbga6cv1oap75nc9vw/produktion_milchprodukte_datenreihe_i.xlsx",
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/12/p3ev7y61yzj6jbga6cv1oap75nc9vw/produktion_milchprodukte_datenreihe_i.xlsx",
                 "dct:title": {
                     "fr": "",
                     "de": "",
@@ -16151,7 +16151,7 @@
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'"
         ],
-        "quality": 347.75
+        "quality": 344.25
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -16195,11 +16195,11 @@
         "dcat:distribution": [
             {
                 "dct:identifier": "8854f3ab-f964-490e-b459-e6edd0173505",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/9e/8w3q4c4i1po1h7xemk2ywe7961xd2p/kpreise_konv_datenreihe_d.xlsx",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/9e/8w3q4c4i1po1h7xemk2ywe7961xd2p/kpreise_konv_datenreihe_d.xlsx",
                 "adms:status": "published",
                 "dct:format": "XLS",
                 "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/9e/8w3q4c4i1po1h7xemk2ywe7961xd2p/kpreise_konv_datenreihe_d.xlsx",
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/9e/8w3q4c4i1po1h7xemk2ywe7961xd2p/kpreise_konv_datenreihe_d.xlsx",
                 "dct:title": {
                     "fr": "",
                     "de": "Konsumentenpreise konventionell 2002/04-2015",
@@ -16217,11 +16217,11 @@
             },
             {
                 "dct:identifier": "d6868e0c-f3a5-4b92-8b4a-0d7a27d63fb8",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/23/70k5id9xcthfx2264yrk5tkb4i64zw/kpreise_konv_datenreihe_f.xlsx",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/23/70k5id9xcthfx2264yrk5tkb4i64zw/kpreise_konv_datenreihe_f.xlsx",
                 "adms:status": "published",
                 "dct:format": "XLS",
                 "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/23/70k5id9xcthfx2264yrk5tkb4i64zw/kpreise_konv_datenreihe_f.xlsx",
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/23/70k5id9xcthfx2264yrk5tkb4i64zw/kpreise_konv_datenreihe_f.xlsx",
                 "dct:title": {
                     "fr": "Prix à la consommation sans le bio 2002/04-2015",
                     "de": "",
@@ -16239,11 +16239,11 @@
             },
             {
                 "dct:identifier": "ca413be2-4a4f-4f57-892d-34b3daf72f28",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/12/hpv9k3aldbscduaqvcxv3pk0t2ejw1/kpreise_konv_datenreihe_i.xlsx",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/12/hpv9k3aldbscduaqvcxv3pk0t2ejw1/kpreise_konv_datenreihe_i.xlsx",
                 "adms:status": "published",
                 "dct:format": "XLS",
                 "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/12/hpv9k3aldbscduaqvcxv3pk0t2ejw1/kpreise_konv_datenreihe_i.xlsx",
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/12/hpv9k3aldbscduaqvcxv3pk0t2ejw1/kpreise_konv_datenreihe_i.xlsx",
                 "dct:title": {
                     "fr": "",
                     "de": "",
@@ -16285,7 +16285,7 @@
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'"
         ],
-        "quality": 347.1666666666667
+        "quality": 343.6666666666667
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -16329,11 +16329,11 @@
         "dcat:distribution": [
             {
                 "dct:identifier": "97a7a669-ad33-4deb-8faf-15298851f945",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/76/n0fh2ncv0uio3dwyt12jysn87st8bj/ppreise_konv_datenreihe_d.xlsx",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/76/n0fh2ncv0uio3dwyt12jysn87st8bj/ppreise_konv_datenreihe_d.xlsx",
                 "adms:status": "published",
                 "dct:format": "XLS",
                 "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/76/n0fh2ncv0uio3dwyt12jysn87st8bj/ppreise_konv_datenreihe_d.xlsx",
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/76/n0fh2ncv0uio3dwyt12jysn87st8bj/ppreise_konv_datenreihe_d.xlsx",
                 "dct:title": {
                     "fr": "",
                     "de": "Produzentenpreise konventionell 2002/04-2015",
@@ -16351,11 +16351,11 @@
             },
             {
                 "dct:identifier": "0136563c-8a30-4130-b172-cf2071bcaaab",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/77/pckl80crdxx1ptp63ma8loqhn84i1r/ppreise_konv_datenreihe_f.xlsx",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/77/pckl80crdxx1ptp63ma8loqhn84i1r/ppreise_konv_datenreihe_f.xlsx",
                 "adms:status": "published",
                 "dct:format": "XLS",
                 "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/77/pckl80crdxx1ptp63ma8loqhn84i1r/ppreise_konv_datenreihe_f.xlsx",
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/77/pckl80crdxx1ptp63ma8loqhn84i1r/ppreise_konv_datenreihe_f.xlsx",
                 "dct:title": {
                     "fr": "Prix à la production sans le bio 2002/04-2015",
                     "de": "",
@@ -16373,11 +16373,11 @@
             },
             {
                 "dct:identifier": "5623056c-9880-4041-b915-46e8242aa1bb",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/11/plb3odngmob4wx4ugam1ryc9w6v1o3/ppreise_konv_datenreihe_i.xlsx",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/11/plb3odngmob4wx4ugam1ryc9w6v1o3/ppreise_konv_datenreihe_i.xlsx",
                 "adms:status": "published",
                 "dct:format": "XLS",
                 "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/11/plb3odngmob4wx4ugam1ryc9w6v1o3/ppreise_konv_datenreihe_i.xlsx",
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/11/plb3odngmob4wx4ugam1ryc9w6v1o3/ppreise_konv_datenreihe_i.xlsx",
                 "dct:title": {
                     "fr": "",
                     "de": "",
@@ -16419,7 +16419,7 @@
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'"
         ],
-        "quality": 347.0
+        "quality": 343.5
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -16463,11 +16463,11 @@
         "dcat:distribution": [
             {
                 "dct:identifier": "58fb589b-81d2-4622-8ccf-a67a6149588f",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/05/42b67e1a2xm7swnt1et18cn8qhpb2g/aussenhandel_datenreihe_d.xlsx",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/05/42b67e1a2xm7swnt1et18cn8qhpb2g/aussenhandel_datenreihe_d.xlsx",
                 "adms:status": "published",
                 "dct:format": "XLS",
                 "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/05/42b67e1a2xm7swnt1et18cn8qhpb2g/aussenhandel_datenreihe_d.xlsx",
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/05/42b67e1a2xm7swnt1et18cn8qhpb2g/aussenhandel_datenreihe_d.xlsx",
                 "dct:title": {
                     "fr": "",
                     "de": "Aussenhandel 1990/92-2015",
@@ -16485,11 +16485,11 @@
             },
             {
                 "dct:identifier": "fefa0fb3-a520-4c52-8120-172b189ae924",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/44/pn33gyni8s4gkmc98f8ub1srv8m4uv/aussenhandel_datenreihe_f.xlsx",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/44/pn33gyni8s4gkmc98f8ub1srv8m4uv/aussenhandel_datenreihe_f.xlsx",
                 "adms:status": "published",
                 "dct:format": "XLS",
                 "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/44/pn33gyni8s4gkmc98f8ub1srv8m4uv/aussenhandel_datenreihe_f.xlsx",
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/44/pn33gyni8s4gkmc98f8ub1srv8m4uv/aussenhandel_datenreihe_f.xlsx",
                 "dct:title": {
                     "fr": "Commerce extérieur 1990/92-2015",
                     "de": "",
@@ -16507,11 +16507,11 @@
             },
             {
                 "dct:identifier": "5043ee1b-5d75-4cee-9834-e075fb09b62d",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/9e/k10zdlez7wiamzk19rl3m4lrpfbq9j/aussenhandel_datenreihe_i.xlsx",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/9e/k10zdlez7wiamzk19rl3m4lrpfbq9j/aussenhandel_datenreihe_i.xlsx",
                 "adms:status": "published",
                 "dct:format": "XLS",
                 "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/9e/k10zdlez7wiamzk19rl3m4lrpfbq9j/aussenhandel_datenreihe_i.xlsx",
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/9e/k10zdlez7wiamzk19rl3m4lrpfbq9j/aussenhandel_datenreihe_i.xlsx",
                 "dct:title": {
                     "fr": "",
                     "de": "",
@@ -16553,7 +16553,7 @@
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'"
         ],
-        "quality": 344.0
+        "quality": 340.5
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -16597,11 +16597,11 @@
         "dcat:distribution": [
             {
                 "dct:identifier": "5a35a5c2-f7fd-4ee4-ac4d-bce59bd8f68b",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/68/t3dif1ozl54dnkrk4szmqmxh6fzag6/landwirtschaftsbetriebe_1990-2015_datenreihe_d.xlsx",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/68/t3dif1ozl54dnkrk4szmqmxh6fzag6/landwirtschaftsbetriebe_1990-2015_datenreihe_d.xlsx",
                 "adms:status": "published",
                 "dct:format": "XLS",
                 "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/68/t3dif1ozl54dnkrk4szmqmxh6fzag6/landwirtschaftsbetriebe_1990-2015_datenreihe_d.xlsx",
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/68/t3dif1ozl54dnkrk4szmqmxh6fzag6/landwirtschaftsbetriebe_1990-2015_datenreihe_d.xlsx",
                 "dct:title": {
                     "fr": "",
                     "de": "Landwirtschaftsbetriebe",
@@ -16619,11 +16619,11 @@
             },
             {
                 "dct:identifier": "ccfaad69-2638-4eeb-81ff-c914527e6e26",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/90/x5yo57b71j7f93n5drmkyq47vysa2j/landwirtschaftsbetriebe_1990-2015_datenreihe_f.xlsx",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/90/x5yo57b71j7f93n5drmkyq47vysa2j/landwirtschaftsbetriebe_1990-2015_datenreihe_f.xlsx",
                 "adms:status": "published",
                 "dct:format": "XLS",
                 "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/90/x5yo57b71j7f93n5drmkyq47vysa2j/landwirtschaftsbetriebe_1990-2015_datenreihe_f.xlsx",
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/90/x5yo57b71j7f93n5drmkyq47vysa2j/landwirtschaftsbetriebe_1990-2015_datenreihe_f.xlsx",
                 "dct:title": {
                     "fr": "Exploitations agricoles",
                     "de": "",
@@ -16641,11 +16641,11 @@
             },
             {
                 "dct:identifier": "70c216c1-5ceb-48c4-8957-ebcd2545e08b",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/1c/8qm09yi3p5e3tgt1cs1e4y2k8qjjk9/landwirtschaftsbetriebe_1990-2015_datenreihe_i.xlsx",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/1c/8qm09yi3p5e3tgt1cs1e4y2k8qjjk9/landwirtschaftsbetriebe_1990-2015_datenreihe_i.xlsx",
                 "adms:status": "published",
                 "dct:format": "XLS",
                 "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/1c/8qm09yi3p5e3tgt1cs1e4y2k8qjjk9/landwirtschaftsbetriebe_1990-2015_datenreihe_i.xlsx",
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/1c/8qm09yi3p5e3tgt1cs1e4y2k8qjjk9/landwirtschaftsbetriebe_1990-2015_datenreihe_i.xlsx",
                 "dct:title": {
                     "fr": "",
                     "de": "",
@@ -16687,7 +16687,7 @@
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'"
         ],
-        "quality": 342.0
+        "quality": 338.5
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -16731,11 +16731,11 @@
         "dcat:distribution": [
             {
                 "dct:identifier": "1f4777ca-a6f8-41c5-9584-93abf35dd9f2",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/e0/2055l7gtshz53dq8daut8n6drptn3d/pro-kopf-konsum_datenreihe_d.xlsx",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/e0/2055l7gtshz53dq8daut8n6drptn3d/pro-kopf-konsum_datenreihe_d.xlsx",
                 "adms:status": "published",
                 "dct:format": "XLS",
                 "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/e0/2055l7gtshz53dq8daut8n6drptn3d/pro-kopf-konsum_datenreihe_d.xlsx",
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/e0/2055l7gtshz53dq8daut8n6drptn3d/pro-kopf-konsum_datenreihe_d.xlsx",
                 "dct:title": {
                     "fr": "",
                     "de": "Pro-Kopf-Konsum 1990/92-2015",
@@ -16753,11 +16753,11 @@
             },
             {
                 "dct:identifier": "22d18246-c19a-4d06-a840-f9ed67395567",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/f7/kjk8becyfhtlaalobiqfm37p89nk87/pro-kopf-konsum_datenreihe_f.xlsx",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/f7/kjk8becyfhtlaalobiqfm37p89nk87/pro-kopf-konsum_datenreihe_f.xlsx",
                 "adms:status": "published",
                 "dct:format": "XLS",
                 "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/f7/kjk8becyfhtlaalobiqfm37p89nk87/pro-kopf-konsum_datenreihe_f.xlsx",
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/f7/kjk8becyfhtlaalobiqfm37p89nk87/pro-kopf-konsum_datenreihe_f.xlsx",
                 "dct:title": {
                     "fr": "Consommation par habitant 1990/92-2015",
                     "de": "",
@@ -16775,11 +16775,11 @@
             },
             {
                 "dct:identifier": "8ef51d6f-3549-490f-88ea-bc6b210edb7b",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/a9/buvct75qdg1f1gcslopkkrz1a470tr/pro-kopf-konsum_datenreihe_i.xlsx",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/a9/buvct75qdg1f1gcslopkkrz1a470tr/pro-kopf-konsum_datenreihe_i.xlsx",
                 "adms:status": "published",
                 "dct:format": "XLS",
                 "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/a9/buvct75qdg1f1gcslopkkrz1a470tr/pro-kopf-konsum_datenreihe_i.xlsx",
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/a9/buvct75qdg1f1gcslopkkrz1a470tr/pro-kopf-konsum_datenreihe_i.xlsx",
                 "dct:title": {
                     "fr": "",
                     "de": "",
@@ -16821,7 +16821,7 @@
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'"
         ],
-        "quality": 341.6666666666667
+        "quality": 338.1666666666667
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -16865,11 +16865,11 @@
         "dcat:distribution": [
             {
                 "dct:identifier": "c2d89fcb-384a-4763-b5f4-e5c103abd412",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/97/ehi2gllksyjmm95bi08n7h0llqpcy5/grossvieheinheiten_1990-2015_datenreihe_d.xlsx",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/97/ehi2gllksyjmm95bi08n7h0llqpcy5/grossvieheinheiten_1990-2015_datenreihe_d.xlsx",
                 "adms:status": "published",
                 "dct:format": "XLS",
                 "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/97/ehi2gllksyjmm95bi08n7h0llqpcy5/grossvieheinheiten_1990-2015_datenreihe_d.xlsx",
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/97/ehi2gllksyjmm95bi08n7h0llqpcy5/grossvieheinheiten_1990-2015_datenreihe_d.xlsx",
                 "dct:title": {
                     "fr": "",
                     "de": "Grossvieheinheiten",
@@ -16887,11 +16887,11 @@
             },
             {
                 "dct:identifier": "e7cab61e-7329-4d2b-aa50-e6394ff7ca3c",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/3c/ct225goo9syp4zj7xn50utyk9rii9o/grossvieheinheiten_1990-2015_datenreihe_f.xlsx",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/3c/ct225goo9syp4zj7xn50utyk9rii9o/grossvieheinheiten_1990-2015_datenreihe_f.xlsx",
                 "adms:status": "published",
                 "dct:format": "XLS",
                 "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/3c/ct225goo9syp4zj7xn50utyk9rii9o/grossvieheinheiten_1990-2015_datenreihe_f.xlsx",
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/3c/ct225goo9syp4zj7xn50utyk9rii9o/grossvieheinheiten_1990-2015_datenreihe_f.xlsx",
                 "dct:title": {
                     "fr": "Unités de gros bétail",
                     "de": "",
@@ -16909,11 +16909,11 @@
             },
             {
                 "dct:identifier": "329c7dd6-49a6-43d7-b69e-df04270643f0",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/23/q0gcoa7v020x3cft5w9zosb6bc9a4r/grossvieheinheiten_1990-2015_datenreihe_i.xlsx",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/23/q0gcoa7v020x3cft5w9zosb6bc9a4r/grossvieheinheiten_1990-2015_datenreihe_i.xlsx",
                 "adms:status": "published",
                 "dct:format": "XLS",
                 "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/23/q0gcoa7v020x3cft5w9zosb6bc9a4r/grossvieheinheiten_1990-2015_datenreihe_i.xlsx",
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/23/q0gcoa7v020x3cft5w9zosb6bc9a4r/grossvieheinheiten_1990-2015_datenreihe_i.xlsx",
                 "dct:title": {
                     "fr": "",
                     "de": "",
@@ -16955,7 +16955,7 @@
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'"
         ],
-        "quality": 340.4166666666667
+        "quality": 336.9166666666667
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -16999,11 +16999,11 @@
         "dcat:distribution": [
             {
                 "dct:identifier": "948c5ab8-be2c-4e7c-8a88-282acd65b940",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/9b/n5o41eokh3l1runwj6tg8hnj7mal7t/ppreise_bio_datenreihe_d.xlsx",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/9b/n5o41eokh3l1runwj6tg8hnj7mal7t/ppreise_bio_datenreihe_d.xlsx",
                 "adms:status": "published",
                 "dct:format": "XLS",
                 "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/9b/n5o41eokh3l1runwj6tg8hnj7mal7t/ppreise_bio_datenreihe_d.xlsx",
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/9b/n5o41eokh3l1runwj6tg8hnj7mal7t/ppreise_bio_datenreihe_d.xlsx",
                 "dct:title": {
                     "fr": "",
                     "de": "Produzentenpreise Bio 2002/04-2015",
@@ -17021,11 +17021,11 @@
             },
             {
                 "dct:identifier": "16ae6c64-6b4e-4ab7-9659-e1934952ee13",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/bc/q5wtnqtps2q0pmjlkyqdc2i3cfyxd0/ppreise_bio_datenreihe_f.xlsx",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/bc/q5wtnqtps2q0pmjlkyqdc2i3cfyxd0/ppreise_bio_datenreihe_f.xlsx",
                 "adms:status": "published",
                 "dct:format": "XLS",
                 "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/bc/q5wtnqtps2q0pmjlkyqdc2i3cfyxd0/ppreise_bio_datenreihe_f.xlsx",
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/bc/q5wtnqtps2q0pmjlkyqdc2i3cfyxd0/ppreise_bio_datenreihe_f.xlsx",
                 "dct:title": {
                     "fr": "Prix à la production bio 2002/04-2015",
                     "de": "",
@@ -17043,11 +17043,11 @@
             },
             {
                 "dct:identifier": "cb91d805-8eb0-447b-bf78-ca79751ff9c6",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/da/juh0ghxda3y0pmwl0djnd3ex02eiu1/ppreise_bio_datenreihe_i.xlsx",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/da/juh0ghxda3y0pmwl0djnd3ex02eiu1/ppreise_bio_datenreihe_i.xlsx",
                 "adms:status": "published",
                 "dct:format": "XLS",
                 "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/da/juh0ghxda3y0pmwl0djnd3ex02eiu1/ppreise_bio_datenreihe_i.xlsx",
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/da/juh0ghxda3y0pmwl0djnd3ex02eiu1/ppreise_bio_datenreihe_i.xlsx",
                 "dct:title": {
                     "fr": "",
                     "de": "",
@@ -17089,7 +17089,7 @@
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'"
         ],
-        "quality": 339.9166666666667
+        "quality": 336.4166666666667
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -17133,11 +17133,11 @@
         "dcat:distribution": [
             {
                 "dct:identifier": "dd32f8fb-99d8-4a4d-be59-c88a1d3276ec",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/fd/xur6mtffuz2wl6uqpfsw0fafzqipd9/kpreise_bio_datenreihe_d.xlsx",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/fd/xur6mtffuz2wl6uqpfsw0fafzqipd9/kpreise_bio_datenreihe_d.xlsx",
                 "adms:status": "published",
                 "dct:format": "XLS",
                 "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/fd/xur6mtffuz2wl6uqpfsw0fafzqipd9/kpreise_bio_datenreihe_d.xlsx",
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/fd/xur6mtffuz2wl6uqpfsw0fafzqipd9/kpreise_bio_datenreihe_d.xlsx",
                 "dct:title": {
                     "fr": "",
                     "de": "Konsumentenpreise Bio 2002/04-2015",
@@ -17155,11 +17155,11 @@
             },
             {
                 "dct:identifier": "48098f7f-9287-43d8-b3ef-81bf14daabef",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/d4/m1dt4d41dicddgsvli4e6yg15flg7b/kpreise_bio_datenreihe_f.xlsx",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/d4/m1dt4d41dicddgsvli4e6yg15flg7b/kpreise_bio_datenreihe_f.xlsx",
                 "adms:status": "published",
                 "dct:format": "XLS",
                 "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/d4/m1dt4d41dicddgsvli4e6yg15flg7b/kpreise_bio_datenreihe_f.xlsx",
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/d4/m1dt4d41dicddgsvli4e6yg15flg7b/kpreise_bio_datenreihe_f.xlsx",
                 "dct:title": {
                     "fr": "Prix à la consommation bio 2002/04-2015",
                     "de": "",
@@ -17177,11 +17177,11 @@
             },
             {
                 "dct:identifier": "f0d8cac6-0155-400c-99bf-13aac994d8f7",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/0d/i954b4y4v89mk60d5ao7wv2hek47gg/kpreise_bio_datenreihe_i.xlsx",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/0d/i954b4y4v89mk60d5ao7wv2hek47gg/kpreise_bio_datenreihe_i.xlsx",
                 "adms:status": "published",
                 "dct:format": "XLS",
                 "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/0d/i954b4y4v89mk60d5ao7wv2hek47gg/kpreise_bio_datenreihe_i.xlsx",
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/0d/i954b4y4v89mk60d5ao7wv2hek47gg/kpreise_bio_datenreihe_i.xlsx",
                 "dct:title": {
                     "fr": "",
                     "de": "",
@@ -17223,7 +17223,7 @@
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'"
         ],
-        "quality": 339.0
+        "quality": 335.5
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -17267,11 +17267,11 @@
         "dcat:distribution": [
             {
                 "dct:identifier": "ba2ea4d5-38e9-4cb1-abb3-0bfd7285b79f",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/e5/v5h9v0kqp507d0ipvvytwl2jatqem4/produktion_datenreihe_d.xlsx",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/e5/v5h9v0kqp507d0ipvvytwl2jatqem4/produktion_datenreihe_d.xlsx",
                 "adms:status": "published",
                 "dct:format": "XLS",
                 "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/e5/v5h9v0kqp507d0ipvvytwl2jatqem4/produktion_datenreihe_d.xlsx",
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/e5/v5h9v0kqp507d0ipvvytwl2jatqem4/produktion_datenreihe_d.xlsx",
                 "dct:title": {
                     "fr": "",
                     "de": "Produktion 1990/92-2015",
@@ -17289,11 +17289,11 @@
             },
             {
                 "dct:identifier": "0faa589f-4b02-4a9b-b172-78ad876068bb",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/ff/k869h47uwrtwawb0i9g11zbzclkccl/produktion_datenreihe_f.xlsx",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/ff/k869h47uwrtwawb0i9g11zbzclkccl/produktion_datenreihe_f.xlsx",
                 "adms:status": "published",
                 "dct:format": "XLS",
                 "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/ff/k869h47uwrtwawb0i9g11zbzclkccl/produktion_datenreihe_f.xlsx",
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/ff/k869h47uwrtwawb0i9g11zbzclkccl/produktion_datenreihe_f.xlsx",
                 "dct:title": {
                     "fr": "Production 1990/92-2015",
                     "de": "",
@@ -17311,11 +17311,11 @@
             },
             {
                 "dct:identifier": "d183450f-83a4-4254-abf3-fdf4a88d8f62",
-                "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/64/lr4axell5nvazbkb5uqkw8zxn6yvjb/produktion_datenreihe_i.xlsx",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/64/lr4axell5nvazbkb5uqkw8zxn6yvjb/produktion_datenreihe_i.xlsx",
                 "adms:status": "published",
                 "dct:format": "XLS",
                 "dct:modified": null,
-                "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/64/lr4axell5nvazbkb5uqkw8zxn6yvjb/produktion_datenreihe_i.xlsx",
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/64/lr4axell5nvazbkb5uqkw8zxn6yvjb/produktion_datenreihe_i.xlsx",
                 "dct:title": {
                     "fr": "",
                     "de": "",
@@ -17357,7 +17357,7 @@
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'"
         ],
-        "quality": 338.0833333333333
+        "quality": 334.5833333333333
     },
     {
         "rdf:type": "dcat:Dataset",
