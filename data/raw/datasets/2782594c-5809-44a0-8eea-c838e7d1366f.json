@@ -39,11 +39,11 @@
   "dcat:distribution": [
     {
       "dct:identifier": "5a35a5c2-f7fd-4ee4-ac4d-bce59bd8f68b",
-      "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/68/t3dif1ozl54dnkrk4szmqmxh6fzag6/landwirtschaftsbetriebe_1990-2015_datenreihe_d.xlsx",
+      "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/68/t3dif1ozl54dnkrk4szmqmxh6fzag6/landwirtschaftsbetriebe_1990-2015_datenreihe_d.xlsx",
       "adms:status": "published",
       "dct:format": "XLS",
       "dct:modified": null,
-      "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/68/t3dif1ozl54dnkrk4szmqmxh6fzag6/landwirtschaftsbetriebe_1990-2015_datenreihe_d.xlsx",
+      "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/68/t3dif1ozl54dnkrk4szmqmxh6fzag6/landwirtschaftsbetriebe_1990-2015_datenreihe_d.xlsx",
       "dct:title": {
         "fr": "",
         "de": "Landwirtschaftsbetriebe",
@@ -61,11 +61,11 @@
     },
     {
       "dct:identifier": "ccfaad69-2638-4eeb-81ff-c914527e6e26",
-      "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/90/x5yo57b71j7f93n5drmkyq47vysa2j/landwirtschaftsbetriebe_1990-2015_datenreihe_f.xlsx",
+      "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/90/x5yo57b71j7f93n5drmkyq47vysa2j/landwirtschaftsbetriebe_1990-2015_datenreihe_f.xlsx",
       "adms:status": "published",
       "dct:format": "XLS",
       "dct:modified": null,
-      "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/90/x5yo57b71j7f93n5drmkyq47vysa2j/landwirtschaftsbetriebe_1990-2015_datenreihe_f.xlsx",
+      "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/90/x5yo57b71j7f93n5drmkyq47vysa2j/landwirtschaftsbetriebe_1990-2015_datenreihe_f.xlsx",
       "dct:title": {
         "fr": "Exploitations agricoles",
         "de": "",
@@ -83,11 +83,11 @@
     },
     {
       "dct:identifier": "70c216c1-5ceb-48c4-8957-ebcd2545e08b",
-      "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/1c/8qm09yi3p5e3tgt1cs1e4y2k8qjjk9/landwirtschaftsbetriebe_1990-2015_datenreihe_i.xlsx",
+      "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/1c/8qm09yi3p5e3tgt1cs1e4y2k8qjjk9/landwirtschaftsbetriebe_1990-2015_datenreihe_i.xlsx",
       "adms:status": "published",
       "dct:format": "XLS",
       "dct:modified": null,
-      "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/1c/8qm09yi3p5e3tgt1cs1e4y2k8qjjk9/landwirtschaftsbetriebe_1990-2015_datenreihe_i.xlsx",
+      "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/1c/8qm09yi3p5e3tgt1cs1e4y2k8qjjk9/landwirtschaftsbetriebe_1990-2015_datenreihe_i.xlsx",
       "dct:title": {
         "fr": "",
         "de": "",

@@ -10,7 +10,7 @@
         "dct:publisher",
         "dcat:contactPoint",
         "dct:accessRights",
-        "dcat:endopointURL",
+        "dcat:endpointURL",
         "adms:status"
     ],
     "properties": {
@@ -127,7 +127,7 @@
                 "SENSITIVE"
             ]
         },
-        "dcat:endopointURL": {
+        "dcat:endpointURL": {
             "title": "Endpoint URL",
             "type": [
                 "string",

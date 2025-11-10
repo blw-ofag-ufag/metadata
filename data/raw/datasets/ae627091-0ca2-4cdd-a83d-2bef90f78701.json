@@ -39,11 +39,11 @@
   "dcat:distribution": [
     {
       "dct:identifier": "9b255cb7-fe4c-44f5-84b8-c2d84f0af30a",
-      "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/authenticated/download/documents/41/q3a2ugh9ik1h87usyh1yk11689oioe/6_ab16_statdz2015_anhaenge_tab_kulturlandi_datenreihe_d_ok.xlsx",
+      "dcat:accessURL": "https://2016.agrarbericht.ch/authenticated/download/documents/41/q3a2ugh9ik1h87usyh1yk11689oioe/6_ab16_statdz2015_anhaenge_tab_kulturlandi_datenreihe_d_ok.xlsx",
       "adms:status": "published",
       "dct:format": "XLS",
       "dct:modified": null,
-      "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/authenticated/download/documents/41/q3a2ugh9ik1h87usyh1yk11689oioe/6_ab16_statdz2015_anhaenge_tab_kulturlandi_datenreihe_d_ok.xlsx",
+      "dcat:downloadURL": "https://2016.agrarbericht.ch/authenticated/download/documents/41/q3a2ugh9ik1h87usyh1yk11689oioe/6_ab16_statdz2015_anhaenge_tab_kulturlandi_datenreihe_d_ok.xlsx",
       "dct:title": {
         "fr": "",
         "de": "Kulturlandschaftsbeiträge 2014-2015",
@@ -61,11 +61,11 @@
     },
     {
       "dct:identifier": "e983edb9-2628-46ac-ad86-70e4ed06119c",
-      "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/authenticated/download/documents/66/4a8e8wa9n0f0oflusfv7f841fjqeg9/6_ab16_statdz2015_anhaenge_tab_kulturlandi_datenreihe_f_ok.xlsx",
+      "dcat:accessURL": "https://2016.agrarbericht.ch/authenticated/download/documents/66/4a8e8wa9n0f0oflusfv7f841fjqeg9/6_ab16_statdz2015_anhaenge_tab_kulturlandi_datenreihe_f_ok.xlsx",
       "adms:status": "published",
       "dct:format": "XLS",
       "dct:modified": null,
-      "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/authenticated/download/documents/66/4a8e8wa9n0f0oflusfv7f841fjqeg9/6_ab16_statdz2015_anhaenge_tab_kulturlandi_datenreihe_f_ok.xlsx",
+      "dcat:downloadURL": "https://2016.agrarbericht.ch/authenticated/download/documents/66/4a8e8wa9n0f0oflusfv7f841fjqeg9/6_ab16_statdz2015_anhaenge_tab_kulturlandi_datenreihe_f_ok.xlsx",
       "dct:title": {
         "fr": "Contributions au paysage cultivé 2014-2015",
         "de": "",
@@ -83,11 +83,11 @@
     },
     {
       "dct:identifier": "0592033a-1b55-41d4-9a46-83d712af27f3",
-      "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/authenticated/download/documents/fc/t3tfinmgbnlp707s0w36aattglw43h/6_ab16_statdz2015_anhaenge_tab_kulturlandi_datenreihe_i_ok.xlsx",
+      "dcat:accessURL": "https://2016.agrarbericht.ch/authenticated/download/documents/fc/t3tfinmgbnlp707s0w36aattglw43h/6_ab16_statdz2015_anhaenge_tab_kulturlandi_datenreihe_i_ok.xlsx",
       "adms:status": "published",
       "dct:format": "XLS",
       "dct:modified": null,
-      "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/authenticated/download/documents/fc/t3tfinmgbnlp707s0w36aattglw43h/6_ab16_statdz2015_anhaenge_tab_kulturlandi_datenreihe_i_ok.xlsx",
+      "dcat:downloadURL": "https://2016.agrarbericht.ch/authenticated/download/documents/fc/t3tfinmgbnlp707s0w36aattglw43h/6_ab16_statdz2015_anhaenge_tab_kulturlandi_datenreihe_i_ok.xlsx",
       "dct:title": {
         "fr": "",
         "de": "",

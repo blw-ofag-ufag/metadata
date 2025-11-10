@@ -39,11 +39,11 @@
   "dcat:distribution": [
     {
       "dct:identifier": "c2d89fcb-384a-4763-b5f4-e5c103abd412",
-      "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/97/ehi2gllksyjmm95bi08n7h0llqpcy5/grossvieheinheiten_1990-2015_datenreihe_d.xlsx",
+      "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/97/ehi2gllksyjmm95bi08n7h0llqpcy5/grossvieheinheiten_1990-2015_datenreihe_d.xlsx",
       "adms:status": "published",
       "dct:format": "XLS",
       "dct:modified": null,
-      "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/97/ehi2gllksyjmm95bi08n7h0llqpcy5/grossvieheinheiten_1990-2015_datenreihe_d.xlsx",
+      "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/97/ehi2gllksyjmm95bi08n7h0llqpcy5/grossvieheinheiten_1990-2015_datenreihe_d.xlsx",
       "dct:title": {
         "fr": "",
         "de": "Grossvieheinheiten",
@@ -61,11 +61,11 @@
     },
     {
       "dct:identifier": "e7cab61e-7329-4d2b-aa50-e6394ff7ca3c",
-      "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/3c/ct225goo9syp4zj7xn50utyk9rii9o/grossvieheinheiten_1990-2015_datenreihe_f.xlsx",
+      "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/3c/ct225goo9syp4zj7xn50utyk9rii9o/grossvieheinheiten_1990-2015_datenreihe_f.xlsx",
       "adms:status": "published",
       "dct:format": "XLS",
       "dct:modified": null,
-      "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/3c/ct225goo9syp4zj7xn50utyk9rii9o/grossvieheinheiten_1990-2015_datenreihe_f.xlsx",
+      "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/3c/ct225goo9syp4zj7xn50utyk9rii9o/grossvieheinheiten_1990-2015_datenreihe_f.xlsx",
       "dct:title": {
         "fr": "Unités de gros bétail",
         "de": "",
@@ -83,11 +83,11 @@
     },
     {
       "dct:identifier": "329c7dd6-49a6-43d7-b69e-df04270643f0",
-      "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/23/q0gcoa7v020x3cft5w9zosb6bc9a4r/grossvieheinheiten_1990-2015_datenreihe_i.xlsx",
+      "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/23/q0gcoa7v020x3cft5w9zosb6bc9a4r/grossvieheinheiten_1990-2015_datenreihe_i.xlsx",
       "adms:status": "published",
       "dct:format": "XLS",
       "dct:modified": null,
-      "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/23/q0gcoa7v020x3cft5w9zosb6bc9a4r/grossvieheinheiten_1990-2015_datenreihe_i.xlsx",
+      "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/23/q0gcoa7v020x3cft5w9zosb6bc9a4r/grossvieheinheiten_1990-2015_datenreihe_i.xlsx",
       "dct:title": {
         "fr": "",
         "de": "",

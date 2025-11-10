@@ -39,11 +39,11 @@
   "dcat:distribution": [
     {
       "dct:identifier": "1f4777ca-a6f8-41c5-9584-93abf35dd9f2",
-      "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/e0/2055l7gtshz53dq8daut8n6drptn3d/pro-kopf-konsum_datenreihe_d.xlsx",
+      "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/e0/2055l7gtshz53dq8daut8n6drptn3d/pro-kopf-konsum_datenreihe_d.xlsx",
       "adms:status": "published",
       "dct:format": "XLS",
       "dct:modified": null,
-      "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/e0/2055l7gtshz53dq8daut8n6drptn3d/pro-kopf-konsum_datenreihe_d.xlsx",
+      "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/e0/2055l7gtshz53dq8daut8n6drptn3d/pro-kopf-konsum_datenreihe_d.xlsx",
       "dct:title": {
         "fr": "",
         "de": "Pro-Kopf-Konsum 1990/92-2015",
@@ -61,11 +61,11 @@
     },
     {
       "dct:identifier": "22d18246-c19a-4d06-a840-f9ed67395567",
-      "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/f7/kjk8becyfhtlaalobiqfm37p89nk87/pro-kopf-konsum_datenreihe_f.xlsx",
+      "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/f7/kjk8becyfhtlaalobiqfm37p89nk87/pro-kopf-konsum_datenreihe_f.xlsx",
       "adms:status": "published",
       "dct:format": "XLS",
       "dct:modified": null,
-      "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/f7/kjk8becyfhtlaalobiqfm37p89nk87/pro-kopf-konsum_datenreihe_f.xlsx",
+      "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/f7/kjk8becyfhtlaalobiqfm37p89nk87/pro-kopf-konsum_datenreihe_f.xlsx",
       "dct:title": {
         "fr": "Consommation par habitant 1990/92-2015",
         "de": "",
@@ -83,11 +83,11 @@
     },
     {
       "dct:identifier": "8ef51d6f-3549-490f-88ea-bc6b210edb7b",
-      "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/a9/buvct75qdg1f1gcslopkkrz1a470tr/pro-kopf-konsum_datenreihe_i.xlsx",
+      "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/a9/buvct75qdg1f1gcslopkkrz1a470tr/pro-kopf-konsum_datenreihe_i.xlsx",
       "adms:status": "published",
       "dct:format": "XLS",
       "dct:modified": null,
-      "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/a9/buvct75qdg1f1gcslopkkrz1a470tr/pro-kopf-konsum_datenreihe_i.xlsx",
+      "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/a9/buvct75qdg1f1gcslopkkrz1a470tr/pro-kopf-konsum_datenreihe_i.xlsx",
       "dct:title": {
         "fr": "",
         "de": "",

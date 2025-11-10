@@ -39,11 +39,11 @@
   "dcat:distribution": [
     {
       "dct:identifier": "353aa2ec-ef0d-40db-aa23-e723fd3a8101",
-      "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/d7/lkhk2zn5xcxdt5cdzc2310w1fg2v6f/landwirtschaftliche_gesamtrechung_2000_02__2016_datenreihe_d.xlsx",
+      "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/d7/lkhk2zn5xcxdt5cdzc2310w1fg2v6f/landwirtschaftliche_gesamtrechung_2000_02__2016_datenreihe_d.xlsx",
       "adms:status": "published",
       "dct:format": "XLS",
       "dct:modified": null,
-      "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/d7/lkhk2zn5xcxdt5cdzc2310w1fg2v6f/landwirtschaftliche_gesamtrechung_2000_02__2016_datenreihe_d.xlsx",
+      "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/d7/lkhk2zn5xcxdt5cdzc2310w1fg2v6f/landwirtschaftliche_gesamtrechung_2000_02__2016_datenreihe_d.xlsx",
       "dct:title": {
         "fr": "",
         "de": "Landwirtschaftliche Gesamtrechnung",
@@ -61,11 +61,11 @@
     },
     {
       "dct:identifier": "b2057a6c-b551-49d2-96e4-a95c3645ab77",
-      "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/9d/nior5cgz4nrq7ac9q81up91ozkwbrh/landwirtschaftliche_gesamtrechung_2000_02__2016_datenreihe_f.xlsx",
+      "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/9d/nior5cgz4nrq7ac9q81up91ozkwbrh/landwirtschaftliche_gesamtrechung_2000_02__2016_datenreihe_f.xlsx",
       "adms:status": "published",
       "dct:format": "XLS",
       "dct:modified": null,
-      "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/9d/nior5cgz4nrq7ac9q81up91ozkwbrh/landwirtschaftliche_gesamtrechung_2000_02__2016_datenreihe_f.xlsx",
+      "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/9d/nior5cgz4nrq7ac9q81up91ozkwbrh/landwirtschaftliche_gesamtrechung_2000_02__2016_datenreihe_f.xlsx",
       "dct:title": {
         "fr": "Comptes économiques de l'agriculture",
         "de": "",
@@ -83,11 +83,11 @@
     },
     {
       "dct:identifier": "a4fe7f94-44aa-41d0-8e52-6ba0a7236e45",
-      "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/21/wtygkbunvulxq4wtctu7rqsab3kavc/landwirtschaftliche_gesamtrechung_2000_02__2016_datenreihe_i.xlsx",
+      "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/21/wtygkbunvulxq4wtctu7rqsab3kavc/landwirtschaftliche_gesamtrechung_2000_02__2016_datenreihe_i.xlsx",
       "adms:status": "published",
       "dct:format": "XLS",
       "dct:modified": null,
-      "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/21/wtygkbunvulxq4wtctu7rqsab3kavc/landwirtschaftliche_gesamtrechung_2000_02__2016_datenreihe_i.xlsx",
+      "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/21/wtygkbunvulxq4wtctu7rqsab3kavc/landwirtschaftliche_gesamtrechung_2000_02__2016_datenreihe_i.xlsx",
       "dct:title": {
         "fr": "",
         "de": "",

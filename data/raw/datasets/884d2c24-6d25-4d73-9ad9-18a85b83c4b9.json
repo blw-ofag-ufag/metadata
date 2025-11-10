@@ -39,11 +39,11 @@
   "dcat:distribution": [
     {
       "dct:identifier": "347699f6-4f02-4662-8c51-6033a023dc02",
-      "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/ce/askwckku1mcxvigvrqzz0uklu7ruqz/17_ab16_statdz2015_anhaenge_tab_biodiversitaet_datenreihe_d_ok.xlsx",
+      "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/ce/askwckku1mcxvigvrqzz0uklu7ruqz/17_ab16_statdz2015_anhaenge_tab_biodiversitaet_datenreihe_d_ok.xlsx",
       "adms:status": "published",
       "dct:format": "XLS",
       "dct:modified": null,
-      "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/ce/askwckku1mcxvigvrqzz0uklu7ruqz/17_ab16_statdz2015_anhaenge_tab_biodiversitaet_datenreihe_d_ok.xlsx",
+      "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/ce/askwckku1mcxvigvrqzz0uklu7ruqz/17_ab16_statdz2015_anhaenge_tab_biodiversitaet_datenreihe_d_ok.xlsx",
       "dct:title": {
         "fr": "",
         "de": "Biodiversitätsbeiträge 2014-2015",
@@ -61,11 +61,11 @@
     },
     {
       "dct:identifier": "3878cbdd-2206-448c-a5f5-7fb1f4374395",
-      "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/08/ozomp9lksr4ntzbjsn1mvyertozmxq/17_ab16_statdz2015_anhaenge_tab_biodiversitaet_datenreihe_f_ok.xlsx",
+      "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/08/ozomp9lksr4ntzbjsn1mvyertozmxq/17_ab16_statdz2015_anhaenge_tab_biodiversitaet_datenreihe_f_ok.xlsx",
       "adms:status": "published",
       "dct:format": "XLS",
       "dct:modified": null,
-      "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/08/ozomp9lksr4ntzbjsn1mvyertozmxq/17_ab16_statdz2015_anhaenge_tab_biodiversitaet_datenreihe_f_ok.xlsx",
+      "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/08/ozomp9lksr4ntzbjsn1mvyertozmxq/17_ab16_statdz2015_anhaenge_tab_biodiversitaet_datenreihe_f_ok.xlsx",
       "dct:title": {
         "fr": "Contributions à la biodiversité 2014-2015",
         "de": "",
@@ -83,11 +83,11 @@
     },
     {
       "dct:identifier": "6a8b2f99-1c3f-4feb-9e88-37dc023366f6",
-      "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/d2/fexdqvrf3eh9xy562qa0ogd65yytki/17_ab16_statdz2015_anhaenge_tab_biodiversitaet_datenreihe_i_ok.xlsx",
+      "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/d2/fexdqvrf3eh9xy562qa0ogd65yytki/17_ab16_statdz2015_anhaenge_tab_biodiversitaet_datenreihe_i_ok.xlsx",
       "adms:status": "published",
       "dct:format": "XLS",
       "dct:modified": null,
-      "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/d2/fexdqvrf3eh9xy562qa0ogd65yytki/17_ab16_statdz2015_anhaenge_tab_biodiversitaet_datenreihe_i_ok.xlsx",
+      "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/d2/fexdqvrf3eh9xy562qa0ogd65yytki/17_ab16_statdz2015_anhaenge_tab_biodiversitaet_datenreihe_i_ok.xlsx",
       "dct:title": {
         "fr": "",
         "de": "",

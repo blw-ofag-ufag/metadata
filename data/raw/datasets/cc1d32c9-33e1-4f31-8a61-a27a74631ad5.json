@@ -39,11 +39,11 @@
   "dcat:distribution": [
     {
       "dct:identifier": "91e903f1-2077-47a0-b1c1-063557b9f1ed",
-      "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/0b/fzb1vjiw71bt60zkl5u5pijblw0dul/beschaeftigte_in_der_landwirtschaft_1990-2015_datenreihe_d.xlsx",
+      "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/0b/fzb1vjiw71bt60zkl5u5pijblw0dul/beschaeftigte_in_der_landwirtschaft_1990-2015_datenreihe_d.xlsx",
       "adms:status": "published",
       "dct:format": "XLS",
       "dct:modified": null,
-      "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/0b/fzb1vjiw71bt60zkl5u5pijblw0dul/beschaeftigte_in_der_landwirtschaft_1990-2015_datenreihe_d.xlsx",
+      "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/0b/fzb1vjiw71bt60zkl5u5pijblw0dul/beschaeftigte_in_der_landwirtschaft_1990-2015_datenreihe_d.xlsx",
       "dct:title": {
         "fr": "Personnes occupées dans l'agriculture",
         "de": "Beschäftigte in der Landwirtschaft",
@@ -61,11 +61,11 @@
     },
     {
       "dct:identifier": "0a9dda64-68cc-4958-a99d-02ccf1c398e6",
-      "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/a9/vg7mee20m3mchdsdvveinssn9djbfv/beschaeftigte_in_der_landwirtschaft_1990-2015_datenreihe_f.xlsx",
+      "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/a9/vg7mee20m3mchdsdvveinssn9djbfv/beschaeftigte_in_der_landwirtschaft_1990-2015_datenreihe_f.xlsx",
       "adms:status": "published",
       "dct:format": "XLS",
       "dct:modified": null,
-      "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/a9/vg7mee20m3mchdsdvveinssn9djbfv/beschaeftigte_in_der_landwirtschaft_1990-2015_datenreihe_f.xlsx",
+      "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/a9/vg7mee20m3mchdsdvveinssn9djbfv/beschaeftigte_in_der_landwirtschaft_1990-2015_datenreihe_f.xlsx",
       "dct:title": {
         "fr": "",
         "de": "",
@@ -83,11 +83,11 @@
     },
     {
       "dct:identifier": "b3b56b10-5c1b-4663-8fa0-491a6b8288ca",
-      "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/90/ijbv2rom3llxzad8cb7fb0bklgobnr/beschaeftigte_in_der_landwirtschaft_1990-2015_datenreihe_i.xlsx",
+      "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/90/ijbv2rom3llxzad8cb7fb0bklgobnr/beschaeftigte_in_der_landwirtschaft_1990-2015_datenreihe_i.xlsx",
       "adms:status": "published",
       "dct:format": "XLS",
       "dct:modified": null,
-      "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/90/ijbv2rom3llxzad8cb7fb0bklgobnr/beschaeftigte_in_der_landwirtschaft_1990-2015_datenreihe_i.xlsx",
+      "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/90/ijbv2rom3llxzad8cb7fb0bklgobnr/beschaeftigte_in_der_landwirtschaft_1990-2015_datenreihe_i.xlsx",
       "dct:title": {
         "fr": "",
         "de": "",

@@ -39,11 +39,11 @@
   "dcat:distribution": [
     {
       "dct:identifier": "611a50ad-0d4b-4b0f-81e0-9753cd1e0854",
-      "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/18/ha2rqb5yjze1un7d4xq31nn5uhwno6/ausbezahlte_beitraege_an_kantone_1999-2015_datenreihe_d.xlsx",
+      "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/18/ha2rqb5yjze1un7d4xq31nn5uhwno6/ausbezahlte_beitraege_an_kantone_1999-2015_datenreihe_d.xlsx",
       "adms:status": "published",
       "dct:format": "XLS",
       "dct:modified": null,
-      "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/18/ha2rqb5yjze1un7d4xq31nn5uhwno6/ausbezahlte_beitraege_an_kantone_1999-2015_datenreihe_d.xlsx",
+      "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/18/ha2rqb5yjze1un7d4xq31nn5uhwno6/ausbezahlte_beitraege_an_kantone_1999-2015_datenreihe_d.xlsx",
       "dct:title": {
         "fr": "",
         "de": "An die Kantone ausbezahlte Beiträge 1999-2015",
@@ -61,11 +61,11 @@
     },
     {
       "dct:identifier": "4b522bb7-e0df-4659-af22-9e924e0fa468",
-      "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/ae/uhd6hgrn5g05fgmyrv6wi3gvwwnwy2/ausbezahlte_beitraege_an_kantone_1999-2015_datenreihe_f.xlsx",
+      "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/ae/uhd6hgrn5g05fgmyrv6wi3gvwwnwy2/ausbezahlte_beitraege_an_kantone_1999-2015_datenreihe_f.xlsx",
       "adms:status": "published",
       "dct:format": "XLS",
       "dct:modified": null,
-      "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/ae/uhd6hgrn5g05fgmyrv6wi3gvwwnwy2/ausbezahlte_beitraege_an_kantone_1999-2015_datenreihe_f.xlsx",
+      "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/ae/uhd6hgrn5g05fgmyrv6wi3gvwwnwy2/ausbezahlte_beitraege_an_kantone_1999-2015_datenreihe_f.xlsx",
       "dct:title": {
         "fr": "Contributions versées aux cantons 1999-2015",
         "de": "",
@@ -83,11 +83,11 @@
     },
     {
       "dct:identifier": "ac2dfdc9-3dfa-483f-9db1-b929e21cfdc1",
-      "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/37/cs26uscosusgo2xpw1u4ln3vyd72mh/ausbezahlte_beitraege_an_kantone_1999-2015_datenreihe_i.xlsx",
+      "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/37/cs26uscosusgo2xpw1u4ln3vyd72mh/ausbezahlte_beitraege_an_kantone_1999-2015_datenreihe_i.xlsx",
       "adms:status": "published",
       "dct:format": "XLS",
       "dct:modified": null,
-      "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/37/cs26uscosusgo2xpw1u4ln3vyd72mh/ausbezahlte_beitraege_an_kantone_1999-2015_datenreihe_i.xlsx",
+      "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/37/cs26uscosusgo2xpw1u4ln3vyd72mh/ausbezahlte_beitraege_an_kantone_1999-2015_datenreihe_i.xlsx",
       "dct:title": {
         "fr": "",
         "de": "",

@@ -39,11 +39,11 @@
   "dcat:distribution": [
     {
       "dct:identifier": "e1e5dede-bb65-419a-be4b-5df65c3d92dd",
-      "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/33/kpjoe7ka20ji64g6yozoo29e3k31wj/ausgaben_tierzucht_1999-2015_datenreihe_d.xlsx",
+      "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/33/kpjoe7ka20ji64g6yozoo29e3k31wj/ausgaben_tierzucht_1999-2015_datenreihe_d.xlsx",
       "adms:status": "published",
       "dct:format": "XLS",
       "dct:modified": null,
-      "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/33/kpjoe7ka20ji64g6yozoo29e3k31wj/ausgaben_tierzucht_1999-2015_datenreihe_d.xlsx",
+      "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/33/kpjoe7ka20ji64g6yozoo29e3k31wj/ausgaben_tierzucht_1999-2015_datenreihe_d.xlsx",
       "dct:title": {
         "fr": "",
         "de": "Ausgaben Tierzucht 1999-2015",
@@ -61,11 +61,11 @@
     },
     {
       "dct:identifier": "e2b93b20-9b30-4e62-9c89-3444a961b7ad",
-      "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/94/uyrz2ermsb94q8flxnap1pt0xrr0b2/ausgaben_tierzucht_1999-2015_datenreihe_f.xlsx",
+      "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/94/uyrz2ermsb94q8flxnap1pt0xrr0b2/ausgaben_tierzucht_1999-2015_datenreihe_f.xlsx",
       "adms:status": "published",
       "dct:format": "XLS",
       "dct:modified": null,
-      "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/94/uyrz2ermsb94q8flxnap1pt0xrr0b2/ausgaben_tierzucht_1999-2015_datenreihe_f.xlsx",
+      "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/94/uyrz2ermsb94q8flxnap1pt0xrr0b2/ausgaben_tierzucht_1999-2015_datenreihe_f.xlsx",
       "dct:title": {
         "fr": "Dépenses élevage 1999-2015",
         "de": "",
@@ -83,11 +83,11 @@
     },
     {
       "dct:identifier": "f34d4f01-1a21-482c-830a-e6c032eb598d",
-      "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/43/q564zgqmy07gqycww25zgs3wtoqwm2/ausgaben_tierzucht_1999-2015_datenreihe_i.xlsx",
+      "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/43/q564zgqmy07gqycww25zgs3wtoqwm2/ausgaben_tierzucht_1999-2015_datenreihe_i.xlsx",
       "adms:status": "published",
       "dct:format": "XLS",
       "dct:modified": null,
-      "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/43/q564zgqmy07gqycww25zgs3wtoqwm2/ausgaben_tierzucht_1999-2015_datenreihe_i.xlsx",
+      "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/43/q564zgqmy07gqycww25zgs3wtoqwm2/ausgaben_tierzucht_1999-2015_datenreihe_i.xlsx",
       "dct:title": {
         "fr": "",
         "de": "",

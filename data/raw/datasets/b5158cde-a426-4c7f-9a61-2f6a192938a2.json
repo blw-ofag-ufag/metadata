@@ -39,11 +39,11 @@
   "dcat:distribution": [
     {
       "dct:identifier": "58fb589b-81d2-4622-8ccf-a67a6149588f",
-      "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/05/42b67e1a2xm7swnt1et18cn8qhpb2g/aussenhandel_datenreihe_d.xlsx",
+      "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/05/42b67e1a2xm7swnt1et18cn8qhpb2g/aussenhandel_datenreihe_d.xlsx",
       "adms:status": "published",
       "dct:format": "XLS",
       "dct:modified": null,
-      "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/05/42b67e1a2xm7swnt1et18cn8qhpb2g/aussenhandel_datenreihe_d.xlsx",
+      "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/05/42b67e1a2xm7swnt1et18cn8qhpb2g/aussenhandel_datenreihe_d.xlsx",
       "dct:title": {
         "fr": "",
         "de": "Aussenhandel 1990/92-2015",
@@ -61,11 +61,11 @@
     },
     {
       "dct:identifier": "fefa0fb3-a520-4c52-8120-172b189ae924",
-      "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/44/pn33gyni8s4gkmc98f8ub1srv8m4uv/aussenhandel_datenreihe_f.xlsx",
+      "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/44/pn33gyni8s4gkmc98f8ub1srv8m4uv/aussenhandel_datenreihe_f.xlsx",
       "adms:status": "published",
       "dct:format": "XLS",
       "dct:modified": null,
-      "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/44/pn33gyni8s4gkmc98f8ub1srv8m4uv/aussenhandel_datenreihe_f.xlsx",
+      "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/44/pn33gyni8s4gkmc98f8ub1srv8m4uv/aussenhandel_datenreihe_f.xlsx",
       "dct:title": {
         "fr": "Commerce extérieur 1990/92-2015",
         "de": "",
@@ -83,11 +83,11 @@
     },
     {
       "dct:identifier": "5043ee1b-5d75-4cee-9834-e075fb09b62d",
-      "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/9e/k10zdlez7wiamzk19rl3m4lrpfbq9j/aussenhandel_datenreihe_i.xlsx",
+      "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/9e/k10zdlez7wiamzk19rl3m4lrpfbq9j/aussenhandel_datenreihe_i.xlsx",
       "adms:status": "published",
       "dct:format": "XLS",
       "dct:modified": null,
-      "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/9e/k10zdlez7wiamzk19rl3m4lrpfbq9j/aussenhandel_datenreihe_i.xlsx",
+      "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/9e/k10zdlez7wiamzk19rl3m4lrpfbq9j/aussenhandel_datenreihe_i.xlsx",
       "dct:title": {
         "fr": "",
         "de": "",

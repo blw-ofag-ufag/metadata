@@ -39,11 +39,11 @@
   "dcat:distribution": [
     {
       "dct:identifier": "a49e9e3c-e335-4f25-9370-fd793441c87c",
-      "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/4e/4o2dfedzepam492csgzdrrlvms0v6d/selbstversorgungsgrad_neue_methode_nahrungsgsmittelbilanz_ab_2007_datenreihe_d.xlsx",
+      "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/4e/4o2dfedzepam492csgzdrrlvms0v6d/selbstversorgungsgrad_neue_methode_nahrungsgsmittelbilanz_ab_2007_datenreihe_d.xlsx",
       "adms:status": "published",
       "dct:format": "XLS",
       "dct:modified": null,
-      "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/4e/4o2dfedzepam492csgzdrrlvms0v6d/selbstversorgungsgrad_neue_methode_nahrungsgsmittelbilanz_ab_2007_datenreihe_d.xlsx",
+      "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/4e/4o2dfedzepam492csgzdrrlvms0v6d/selbstversorgungsgrad_neue_methode_nahrungsgsmittelbilanz_ab_2007_datenreihe_d.xlsx",
       "dct:title": {
         "fr": "",
         "de": "Selbstversorgungsgrad 2007-2014",
@@ -61,11 +61,11 @@
     },
     {
       "dct:identifier": "6f6e09f8-6012-4fc8-839a-951409e8e292",
-      "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/25/xjs2h7rdwr9nodzalbb1hl66gkx9tg/selbstversorgungsgrad_neue_methode_nahrungsgsmittelbilanz_ab_2007_datenreihe_f.xlsx",
+      "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/25/xjs2h7rdwr9nodzalbb1hl66gkx9tg/selbstversorgungsgrad_neue_methode_nahrungsgsmittelbilanz_ab_2007_datenreihe_f.xlsx",
       "adms:status": "published",
       "dct:format": "XLS",
       "dct:modified": null,
-      "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/25/xjs2h7rdwr9nodzalbb1hl66gkx9tg/selbstversorgungsgrad_neue_methode_nahrungsgsmittelbilanz_ab_2007_datenreihe_f.xlsx",
+      "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/25/xjs2h7rdwr9nodzalbb1hl66gkx9tg/selbstversorgungsgrad_neue_methode_nahrungsgsmittelbilanz_ab_2007_datenreihe_f.xlsx",
       "dct:title": {
         "fr": "Taux d'auto-approvisionnement 2007-2014",
         "de": "",
@@ -83,11 +83,11 @@
     },
     {
       "dct:identifier": "1f1e611b-d1d1-429b-8ad6-e91140aad949",
-      "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/33/qc27cnt43icplr3edjk90i2ww9azir/selbstversorgungsgrad_neue_methode_nahrungsgsmittelbilanz_ab_2007_datenreihe_i.xlsx",
+      "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/33/qc27cnt43icplr3edjk90i2ww9azir/selbstversorgungsgrad_neue_methode_nahrungsgsmittelbilanz_ab_2007_datenreihe_i.xlsx",
       "adms:status": "published",
       "dct:format": "XLS",
       "dct:modified": null,
-      "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/33/qc27cnt43icplr3edjk90i2ww9azir/selbstversorgungsgrad_neue_methode_nahrungsgsmittelbilanz_ab_2007_datenreihe_i.xlsx",
+      "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/33/qc27cnt43icplr3edjk90i2ww9azir/selbstversorgungsgrad_neue_methode_nahrungsgsmittelbilanz_ab_2007_datenreihe_i.xlsx",
       "dct:title": {
         "fr": "",
         "de": "",

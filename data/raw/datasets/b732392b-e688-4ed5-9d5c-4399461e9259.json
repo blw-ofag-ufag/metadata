@@ -39,11 +39,11 @@
   "dcat:distribution": [
     {
       "dct:identifier": "077aa833-f4af-469e-8048-9567a6e3f527",
-      "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/c9/h6a6zm9o6hobbt2p4i73m2ijgr5mn6/produktion_milchprodukte_datenreihe_d.xlsx",
+      "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/c9/h6a6zm9o6hobbt2p4i73m2ijgr5mn6/produktion_milchprodukte_datenreihe_d.xlsx",
       "adms:status": "published",
       "dct:format": "XLS",
       "dct:modified": null,
-      "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/c9/h6a6zm9o6hobbt2p4i73m2ijgr5mn6/produktion_milchprodukte_datenreihe_d.xlsx",
+      "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/c9/h6a6zm9o6hobbt2p4i73m2ijgr5mn6/produktion_milchprodukte_datenreihe_d.xlsx",
       "dct:title": {
         "fr": "",
         "de": "Produktion Milchprodukte 1990/92-2015",
@@ -61,11 +61,11 @@
     },
     {
       "dct:identifier": "81b390ed-184a-42f4-996e-116ca9865de3",
-      "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/9c/ioo7duk8lnzoq2i3r4bs5vqbzrr969/produktion_milchprodukte_datenreihe_f.xlsx",
+      "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/9c/ioo7duk8lnzoq2i3r4bs5vqbzrr969/produktion_milchprodukte_datenreihe_f.xlsx",
       "adms:status": "published",
       "dct:format": "XLS",
       "dct:modified": null,
-      "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/9c/ioo7duk8lnzoq2i3r4bs5vqbzrr969/produktion_milchprodukte_datenreihe_f.xlsx",
+      "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/9c/ioo7duk8lnzoq2i3r4bs5vqbzrr969/produktion_milchprodukte_datenreihe_f.xlsx",
       "dct:title": {
         "fr": "Production de produits laitiers 1990/92-2015",
         "de": "",
@@ -83,11 +83,11 @@
     },
     {
       "dct:identifier": "f82660ea-5d57-439c-b744-8f4d74a3824e",
-      "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/12/p3ev7y61yzj6jbga6cv1oap75nc9vw/produktion_milchprodukte_datenreihe_i.xlsx",
+      "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/12/p3ev7y61yzj6jbga6cv1oap75nc9vw/produktion_milchprodukte_datenreihe_i.xlsx",
       "adms:status": "published",
       "dct:format": "XLS",
       "dct:modified": null,
-      "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/12/p3ev7y61yzj6jbga6cv1oap75nc9vw/produktion_milchprodukte_datenreihe_i.xlsx",
+      "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/12/p3ev7y61yzj6jbga6cv1oap75nc9vw/produktion_milchprodukte_datenreihe_i.xlsx",
       "dct:title": {
         "fr": "",
         "de": "",

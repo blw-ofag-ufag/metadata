@@ -39,11 +39,11 @@
   "dcat:distribution": [
     {
       "dct:identifier": "adc5e356-3fd3-4044-90cd-091097f0ffb1",
-      "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/49/ozq85jiokzlrtyq2dgju9kjb7l0urk/35_ab16_statdz2015_anhaenge_tab_produktionssys_i_datenreihe_d_ok.xlsx",
+      "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/49/ozq85jiokzlrtyq2dgju9kjb7l0urk/35_ab16_statdz2015_anhaenge_tab_produktionssys_i_datenreihe_d_ok.xlsx",
       "adms:status": "published",
       "dct:format": "XLS",
       "dct:modified": null,
-      "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/49/ozq85jiokzlrtyq2dgju9kjb7l0urk/35_ab16_statdz2015_anhaenge_tab_produktionssys_i_datenreihe_d_ok.xlsx",
+      "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/49/ozq85jiokzlrtyq2dgju9kjb7l0urk/35_ab16_statdz2015_anhaenge_tab_produktionssys_i_datenreihe_d_ok.xlsx",
       "dct:title": {
         "fr": "",
         "de": "Produktionssystembeiträge 2014-2015",
@@ -61,11 +61,11 @@
     },
     {
       "dct:identifier": "5f5d6ca5-8dda-4a15-8afc-8f5388931553",
-      "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/20/dbt09f8xc8tvan36g6c2fd9fhg1mwd/35_ab16_statdz2015_anhaenge_tab_produktionssysi_datenreihe_f_ok.xlsx",
+      "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/20/dbt09f8xc8tvan36g6c2fd9fhg1mwd/35_ab16_statdz2015_anhaenge_tab_produktionssysi_datenreihe_f_ok.xlsx",
       "adms:status": "published",
       "dct:format": "XLS",
       "dct:modified": null,
-      "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/20/dbt09f8xc8tvan36g6c2fd9fhg1mwd/35_ab16_statdz2015_anhaenge_tab_produktionssysi_datenreihe_f_ok.xlsx",
+      "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/20/dbt09f8xc8tvan36g6c2fd9fhg1mwd/35_ab16_statdz2015_anhaenge_tab_produktionssysi_datenreihe_f_ok.xlsx",
       "dct:title": {
         "fr": "Contributions au système de production 2014-2015",
         "de": "",
@@ -83,11 +83,11 @@
     },
     {
       "dct:identifier": "f0f8df6e-9eb7-4e62-b3f0-ad25d7e6fea3",
-      "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/ac/x5v9coz9lzuwm6c232hkwjatovyyk7/35_ab16_statdz2015_anhaenge_tab_produktionssysi_datenreihe_i_ok.xlsx",
+      "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/ac/x5v9coz9lzuwm6c232hkwjatovyyk7/35_ab16_statdz2015_anhaenge_tab_produktionssysi_datenreihe_i_ok.xlsx",
       "adms:status": "published",
       "dct:format": "XLS",
       "dct:modified": null,
-      "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/ac/x5v9coz9lzuwm6c232hkwjatovyyk7/35_ab16_statdz2015_anhaenge_tab_produktionssysi_datenreihe_i_ok.xlsx",
+      "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/ac/x5v9coz9lzuwm6c232hkwjatovyyk7/35_ab16_statdz2015_anhaenge_tab_produktionssysi_datenreihe_i_ok.xlsx",
       "dct:title": {
         "fr": "",
         "de": "",

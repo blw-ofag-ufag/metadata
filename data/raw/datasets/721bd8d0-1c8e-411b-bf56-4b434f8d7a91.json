@@ -39,11 +39,11 @@
   "dcat:distribution": [
     {
       "dct:identifier": "663ff64f-a568-4c06-a272-f163f5ae7172",
-      "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/8f/t27700o6ckavt8855r625o7ew14otl/nutztierhalter_und_nutztierbestaende_datenreihe_d.xlsx",
+      "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/8f/t27700o6ckavt8855r625o7ew14otl/nutztierhalter_und_nutztierbestaende_datenreihe_d.xlsx",
       "adms:status": "published",
       "dct:format": "XLS",
       "dct:modified": null,
-      "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/8f/t27700o6ckavt8855r625o7ew14otl/nutztierhalter_und_nutztierbestaende_datenreihe_d.xlsx",
+      "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/8f/t27700o6ckavt8855r625o7ew14otl/nutztierhalter_und_nutztierbestaende_datenreihe_d.xlsx",
       "dct:title": {
         "fr": "",
         "de": "Nutztierhalter und Nutztierbestände 2000/02-2015",
@@ -61,11 +61,11 @@
     },
     {
       "dct:identifier": "81b0f808-2c9e-44b7-b4b5-63295f1633a7",
-      "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/a2/6vk5n4edkk0kwah69ue3l4z030r6gf/nutztierhalter_und_nutztierbestaende_datenreihe_f.xlsx",
+      "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/a2/6vk5n4edkk0kwah69ue3l4z030r6gf/nutztierhalter_und_nutztierbestaende_datenreihe_f.xlsx",
       "adms:status": "published",
       "dct:format": "XLS",
       "dct:modified": null,
-      "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/a2/6vk5n4edkk0kwah69ue3l4z030r6gf/nutztierhalter_und_nutztierbestaende_datenreihe_f.xlsx",
+      "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/a2/6vk5n4edkk0kwah69ue3l4z030r6gf/nutztierhalter_und_nutztierbestaende_datenreihe_f.xlsx",
       "dct:title": {
         "fr": "Détenteurs et effectifs des animaux 2000/02-2015",
         "de": "",
@@ -83,11 +83,11 @@
     },
     {
       "dct:identifier": "5b9903af-347b-4640-b4c0-f07d04703e7d",
-      "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/83/izqb7ex5edfxmtmhibkqg1e0pjdmiy/nutztierhalter_und_nutztierbestaende_datenreihe_i.xlsx",
+      "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/83/izqb7ex5edfxmtmhibkqg1e0pjdmiy/nutztierhalter_und_nutztierbestaende_datenreihe_i.xlsx",
       "adms:status": "published",
       "dct:format": "XLS",
       "dct:modified": null,
-      "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/83/izqb7ex5edfxmtmhibkqg1e0pjdmiy/nutztierhalter_und_nutztierbestaende_datenreihe_i.xlsx",
+      "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/83/izqb7ex5edfxmtmhibkqg1e0pjdmiy/nutztierhalter_und_nutztierbestaende_datenreihe_i.xlsx",
       "dct:title": {
         "fr": "",
         "de": "",

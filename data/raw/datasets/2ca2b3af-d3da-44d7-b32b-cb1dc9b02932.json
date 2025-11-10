@@ -46,11 +46,11 @@
   "dcat:distribution": [
     {
       "dct:identifier": "e6e89050-17a6-4b28-9cd6-e4157ab7a9f9",
-      "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/e4/vkyvxxp93lxb8nyjlwv5u0mgkc07ju/agrarumweltindikatoren_und-kennzahlen_auf_nationaler_ebene_datenreihe_d.xlsx",
+      "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/e4/vkyvxxp93lxb8nyjlwv5u0mgkc07ju/agrarumweltindikatoren_und-kennzahlen_auf_nationaler_ebene_datenreihe_d.xlsx",
       "adms:status": "published",
       "dct:format": "XLS",
       "dct:modified": null,
-      "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/e4/vkyvxxp93lxb8nyjlwv5u0mgkc07ju/agrarumweltindikatoren_und-kennzahlen_auf_nationaler_ebene_datenreihe_d.xlsx",
+      "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/e4/vkyvxxp93lxb8nyjlwv5u0mgkc07ju/agrarumweltindikatoren_und-kennzahlen_auf_nationaler_ebene_datenreihe_d.xlsx",
       "dct:title": {
         "fr": "Données et indicateurs agro-environnementaux au niveau national 1990-2015 (DE)",
         "de": "Agrarumweltindikatoren und -kennzahlen auf nationaler Ebene 1990-2015 (DE)",
@@ -62,10 +62,10 @@
     },
     {
       "dct:identifier": "3cf99f12-780a-4371-8ba1-9b5d8ff612a6",
-      "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/5a/6prgd7ife4xt6ulobdcfce8l4yjx0h/agrarumweltindikatoren_und-kennzahlen_auf_nationaler_ebene_datenreihe_f.xlsx",
+      "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/5a/6prgd7ife4xt6ulobdcfce8l4yjx0h/agrarumweltindikatoren_und-kennzahlen_auf_nationaler_ebene_datenreihe_f.xlsx",
       "adms:status": "published",
       "dct:format": "XLS",
-      "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/5a/6prgd7ife4xt6ulobdcfce8l4yjx0h/agrarumweltindikatoren_und-kennzahlen_auf_nationaler_ebene_datenreihe_f.xlsx",
+      "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/5a/6prgd7ife4xt6ulobdcfce8l4yjx0h/agrarumweltindikatoren_und-kennzahlen_auf_nationaler_ebene_datenreihe_f.xlsx",
       "dct:title": {
         "fr": "Données et indicateurs agro-environnementaux au niveau national 1990-2015 (FR)",
         "de": "Agrarumweltindikatoren und -kennzahlen auf nationaler Ebene 1990-2015 (FR)",
@@ -77,11 +77,11 @@
     },
     {
       "dct:identifier": "deac3770-50e2-43f9-875c-71b147bb4af9",
-      "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/d6/k20vx5dfbsvl7y7woq1m7jlje6aeed/agrarumweltindikatoren_und-kennzahlen_auf_nationaler_ebene_datenreihe_i.xlsx",
+      "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/d6/k20vx5dfbsvl7y7woq1m7jlje6aeed/agrarumweltindikatoren_und-kennzahlen_auf_nationaler_ebene_datenreihe_i.xlsx",
       "adms:status": "published",
       "dct:format": "XLS",
       "dct:modified": null,
-      "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/d6/k20vx5dfbsvl7y7woq1m7jlje6aeed/agrarumweltindikatoren_und-kennzahlen_auf_nationaler_ebene_datenreihe_i.xlsx",
+      "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/d6/k20vx5dfbsvl7y7woq1m7jlje6aeed/agrarumweltindikatoren_und-kennzahlen_auf_nationaler_ebene_datenreihe_i.xlsx",
       "dct:title": {
         "fr": "Données et indicateurs agro-environnementaux au niveau national 1990-2015 (IT)",
         "de": "Agrarumweltindikatoren und -kennzahlen auf nationaler Ebene 1990-2015 (IT)",

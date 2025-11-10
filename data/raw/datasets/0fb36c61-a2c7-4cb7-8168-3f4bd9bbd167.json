@@ -39,11 +39,11 @@
   "dcat:distribution": [
     {
       "dct:identifier": "dd550417-4dff-4354-af19-f95fcd9b239f",
-      "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/0d/o6rvb1ksq1c0mb3l6ha51etx1c0d5x/investitionskredite_nach_massnahmenkategorie_1999-2015_datenreihe_d.xlsx",
+      "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/0d/o6rvb1ksq1c0mb3l6ha51etx1c0d5x/investitionskredite_nach_massnahmenkategorie_1999-2015_datenreihe_d.xlsx",
       "adms:status": "published",
       "dct:format": "XLS",
       "dct:modified": null,
-      "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/0d/o6rvb1ksq1c0mb3l6ha51etx1c0d5x/investitionskredite_nach_massnahmenkategorie_1999-2015_datenreihe_d.xlsx",
+      "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/0d/o6rvb1ksq1c0mb3l6ha51etx1c0d5x/investitionskredite_nach_massnahmenkategorie_1999-2015_datenreihe_d.xlsx",
       "dct:title": {
         "fr": "",
         "de": "Investitionskredite nach Massnahmenkategorien 1999-2015",
@@ -61,11 +61,11 @@
     },
     {
       "dct:identifier": "8a2e7d2f-e3d1-45e4-bfc9-3605eb30e0ee",
-      "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/99/d843bxr5fzdnj1rzw237r00x0xkffo/investitionskredite_nach_massnahmenkategorie_1999-2015_datenreihe_f.xlsx",
+      "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/99/d843bxr5fzdnj1rzw237r00x0xkffo/investitionskredite_nach_massnahmenkategorie_1999-2015_datenreihe_f.xlsx",
       "adms:status": "published",
       "dct:format": "XLS",
       "dct:modified": null,
-      "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/99/d843bxr5fzdnj1rzw237r00x0xkffo/investitionskredite_nach_massnahmenkategorie_1999-2015_datenreihe_f.xlsx",
+      "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/99/d843bxr5fzdnj1rzw237r00x0xkffo/investitionskredite_nach_massnahmenkategorie_1999-2015_datenreihe_f.xlsx",
       "dct:title": {
         "fr": "Crédits d'investissements par catégorie de mesures 1999-2015",
         "de": "",
@@ -83,11 +83,11 @@
     },
     {
       "dct:identifier": "9b26b508-4b78-4797-b263-e333775ab12b",
-      "dcat:accessURL": "http://agrarbericht-2016.cmsbox.com/download/documents/1c/o30rbsdp7c2038uvyqjaa4zi58f1i1/investitionskredite_nach_massnahmenkategorie_1999-2015_datenreihe_i.xlsx",
+      "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/1c/o30rbsdp7c2038uvyqjaa4zi58f1i1/investitionskredite_nach_massnahmenkategorie_1999-2015_datenreihe_i.xlsx",
       "adms:status": "published",
       "dct:format": "XLS",
       "dct:modified": null,
-      "dcat:downloadURL": "http://agrarbericht-2016.cmsbox.com/download/documents/1c/o30rbsdp7c2038uvyqjaa4zi58f1i1/investitionskredite_nach_massnahmenkategorie_1999-2015_datenreihe_i.xlsx",
+      "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/1c/o30rbsdp7c2038uvyqjaa4zi58f1i1/investitionskredite_nach_massnahmenkategorie_1999-2015_datenreihe_i.xlsx",
       "dct:title": {
         "fr": "",
         "de": "",
