@@ -1,11 +1,19 @@
 import os
 import json
-import re
+import re  # Ensure re is imported
 import yaml
 import requests
 import jsonschema
 import click
 from urllib.parse import urlparse
+
+# --- ADD THIS ---
+# Mimic a common browser User-Agent
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+}
+# ----------------
+
 
 def load_config_file(file_path, loader):
     """Function to load yaml-file"""
@@ -71,20 +79,36 @@ def validate_url(url):
             return f"Format Error: Invalid URL format for '{url}'"
     except ValueError:
         return f"Format Error: Invalid URL format for '{url}'"
-    # first try head request
+    
+    # --- MODIFIED HEAD REQUEST (Secure) ---
     try:
-        response = requests.head(url, allow_redirects=True, timeout=5)
+        response = requests.head(
+            url, 
+            allow_redirects=True, 
+            timeout=10,         # Increased timeout
+            headers=HEADERS     # <-- ADDED
+            # We are NOT adding verify=False, so it stays secure
+        )
         if response.ok:
             return None
     except requests.RequestException:
-        pass
-    # fallback GET request (if head fails)
+        pass  # Silently fail HEAD request and move to GET
+
+    # --- MODIFIED GET REQUEST (Secure) ---
     try:
-        response = requests.get(url, allow_redirects=True, timeout=10, stream=True)
+        response = requests.get(
+            url, 
+            allow_redirects=True, 
+            timeout=15,         # Increased timeout
+            stream=True,
+            headers=HEADERS     # <-- ADDED
+            # We are NOT adding verify=False
+        )
         if not response.ok:
             return f"Availability Error: Fallback GET failed (Status: {response.status_code}) for '{url}'"
     except requests.RequestException as e:
         return f"Availability Error: Fallback GET failed ({type(e).__name__}) for '{url}'"
+    
     return None
 
 def validate_email(email):
@@ -140,24 +164,29 @@ def calculate_distribution_scores(dist_data, mqa_metrics):
     acc_rules = mqa_metrics['accessibility']['indicators']
     access_url = get_nested_value(dist_data, acc_rules['access_url_accessibility']['path'])
     if access_url:
-        if validate_url(access_url) is None:
+        url_error = validate_url(access_url) # Store error/None
+        if url_error is None:
             scores['accessibility'] += acc_rules['access_url_accessibility']['points']
             details.append("OK: Accessibility/access_url - URL is reachable.")
         else:
-            details.append("FAIL: Accessibility/access_url - URL is not reachable.")
+            details.append(f"FAIL: Accessibility/access_url - {url_error}") # Provide error
     else:
         details.append("FAIL: Accessibility/access_url - Field is missing.")
+        
     download_url = get_nested_value(dist_data, acc_rules['download_url_presence']['path'])
     if download_url:
         scores['accessibility'] += acc_rules['download_url_presence']['points']
         details.append("OK: Accessibility/download_url_presence - Field is present.")
-        if validate_url(download_url) is None:
+        
+        url_error = validate_url(download_url) # Store error/None
+        if url_error is None:
             scores['accessibility'] += acc_rules['download_url_accessibility']['points']
             details.append("OK: Accessibility/download_url_accessibility - URL is reachable.")
         else:
-            details.append("FAIL: Accessibility/download_url_accessibility - URL is not reachable.")
+            details.append(f"FAIL: Accessibility/download_url_accessibility - {url_error}") # Provide error
     else:
         details.append("FAIL: Accessibility/download_url_presence - Field is missing.")
+        
     interop_rules = mqa_metrics['interoperability']['indicators']
     reuse_rules = mqa_metrics['reusability']['indicators']
     if check_presence(dist_data, interop_rules['format_presence']['path']):
@@ -165,11 +194,13 @@ def calculate_distribution_scores(dist_data, mqa_metrics):
         details.append("OK: Interoperability/format_presence - Field is present.")
     else:
         details.append("FAIL: Interoperability/format_presence - Field is missing.")
+        
     if check_presence(dist_data, reuse_rules['license_presence']['path']):
         scores['reusability'] += reuse_rules['license_presence']['points']
         details.append("OK: Reusability/license_presence - Field is present.")
     else:
         details.append("FAIL: Reusability/license_presence - Field is missing.")
+        
     context_rules = mqa_metrics['context']['indicators']
     if check_presence(dist_data, context_rules['issued_date_presence']['path']):
         scores['context'] += context_rules['issued_date_presence']['points']
@@ -180,7 +211,7 @@ def calculate_distribution_scores(dist_data, mqa_metrics):
 def perform_custom_validations(data, rules):
     """Performs a series of non-scoring, best-practice validations."""
     warnings = []
-    email_fields_to_check = rules.get('email_fields',)
+    email_fields_to_check = rules.get('email_fields', []) # Use default empty list
     for field_path in email_fields_to_check:
         emails = get_nested_value(data, field_path)
         if emails:
@@ -202,7 +233,7 @@ def check_dataset_mqa(dataset_path, mqa_metrics, rating_thresholds, custom_rules
             'scores_by_dimension': {},
             'total_score': 0,
             'rating': 'Insufficient',
-            'details': [],
+            'details': [f"FAIL: Core - Could not load or parse file."],
             'validation_warnings': []
         }
 
@@ -278,8 +309,18 @@ def main(config_path):
         return
     
     all_reports = []
+    
+    # Ensure data_raw_dir exists
+    if not os.path.isdir(data_raw_dir):
+        print(f"Error: data_directory not found at {data_raw_dir}")
+        return
+        
     dataset_files = [f for f in os.listdir(data_raw_dir) if f.endswith('.json')]
     
+    if not dataset_files:
+        print(f"No .json files found in {data_raw_dir}")
+        return
+
     for filename in sorted(dataset_files):
         dataset_path = os.path.join(data_raw_dir, filename)
         report = check_dataset_mqa(dataset_path, mqa_metrics, rating_thresholds, custom_rules)
