@@ -1,17 +1,23 @@
 import os
 import json
-import re  # Ensure re is imported
+import re
 import yaml
 import requests
 import jsonschema
 import click
 from urllib.parse import urlparse
+from datetime import datetime
+from requests.packages.urllib3.exceptions import InsecureRequestWarning
+import warnings  # Import the warnings module
 
 # --- ADD THIS ---
 # Mimic a common browser User-Agent
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
 }
+# Suppress only the InsecureRequestWarning if verify=False were used (though it isn't in the final secure version)
+# This line is good practice if you ever test with verify=False, but not strictly needed for the secure version.
+warnings.filterwarnings("ignore", category=InsecureRequestWarning)
 # ----------------
 
 
@@ -86,7 +92,7 @@ def validate_url(url):
             url, 
             allow_redirects=True, 
             timeout=10,         # Increased timeout
-            headers=HEADERS     # <-- ADDED
+            headers=HEADERS     # <-- Use defined HEADERS
             # We are NOT adding verify=False, so it stays secure
         )
         if response.ok:
@@ -101,7 +107,7 @@ def validate_url(url):
             allow_redirects=True, 
             timeout=15,         # Increased timeout
             stream=True,
-            headers=HEADERS     # <-- ADDED
+            headers=HEADERS     # <-- Use defined HEADERS
             # We are NOT adding verify=False
         )
         if not response.ok:
@@ -299,14 +305,18 @@ def main(config_path):
         return
 
     data_raw_dir = config.get('paths', {}).get('data_directory')
-    report_dir = config.get('paths', {}).get('report_directory')
+    # Get the base processed directory from config
+    base_report_dir = config.get('paths', {}).get('report_directory') 
     mqa_metrics = config.get('mqa_metrics', {})
     rating_thresholds = config.get('rating_thresholds', {})
     custom_rules = config.get('custom_validations', {})
 
-    if not all([data_raw_dir, report_dir, mqa_metrics, rating_thresholds]):
+    if not all([data_raw_dir, base_report_dir, mqa_metrics, rating_thresholds]):
         print("Error: One or more required keys are missing in config.yml.")
         return
+    
+    # --- MODIFIED: Create the new specific directory path ---
+    report_dir = os.path.join(base_report_dir, 'quality_reports')
     
     all_reports = []
     
@@ -328,7 +338,13 @@ def main(config_path):
 
     all_reports.sort(key=lambda r: r.get('total_score', 0), reverse=True)
 
-    report_file_path = os.path.join(report_dir, 'quality_report_mqa.json')
+    # --- MODIFIED: Create timestamped filename and use new report_dir ---
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    report_filename = f"quality_report_mqa_{timestamp}.json"
+    
+    # Use the new 'report_dir' path
+    report_file_path = os.path.join(report_dir, report_filename)
+
     os.makedirs(os.path.dirname(report_file_path), exist_ok=True)
     with open(report_file_path, 'w', encoding='utf-8') as f:
         json.dump(all_reports, f, indent=2, ensure_ascii=False)
