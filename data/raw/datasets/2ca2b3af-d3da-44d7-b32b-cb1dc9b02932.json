@@ -25,7 +25,7 @@
   "bv:classification": "none",
   "bv:personalData": "none",
   "bv:archivalValue": false,
-  "bv:typeOfData": "thematicData",
+  "bv:typeOfData": "primaryThematicData",
   "dcat:keyword": [
     "environment",
     "climate",
