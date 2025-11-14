@@ -33,7 +33,8 @@ mqa_metrics:
       # media_type_from_vocabulary is combined with format in MQA docs
       non_proprietary: { path: 'dct:format', points: 20 }
       machine_readable: { path: 'dct:format', points: 20 }
-      # Auto-awarded as per opendata.swiss documentation
+      # Auto-awarded as per data_loader interoperability.py (In the meantime, OGD team asked the value to be 100% by default.)
+
       dcat_ap_ch_conformity: { points: 30 }
 
   reusability:
@@ -45,8 +46,7 @@ mqa_metrics:
       # Dataset-level checks
       contact_point_presence: { path: 'dcat:contactPoint', points: 20 }
       publisher_presence: { path: 'dct:publisher', points: 10 }
-      # Auto-awarded as per opendata.swiss documentation
-      access_rights: { points: 15 } # Combines the two accessRights indicators (10 + 5)
+      access_rights: { path: 'dct:accessRights', points: 15 } 
 
   context:
     max_score: 20
