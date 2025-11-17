@@ -330,20 +330,10 @@ def merge_i14y_rules(md_text, base_schema, header, shacl_graph):
         portal_required.update(req)
         portal_recommended.update(rec)
 
-    # 3. Merge SHACL rules for enums/descriptions ---
-
-    if base_schema["title"] == "Dataset Schema":
-        base_schema, _, _ = merge_shacl_rules(shacl_graph, base_schema, DCAT.Dataset, update_descriptions=True)
-    elif base_schema["title"] == "Data service Schema":
-        # Note: ODS SHACL doesn't have DataService, so this will just
-        # add enums/descriptions for any properties that overlap with Dataset.
-        base_schema, _, _ = merge_shacl_rules(shacl_graph, base_schema, DCAT.Dataset, update_descriptions=True)
-
-
     # 4. Specifically find the Distribution table (it's a subsection)
     if header == "## Datensatz":
         try:
-            dist_regex = re.compile(r'### Distribution\s*.*?\n(\|.*?\n\|-.*?\n(?:\|.*?\n)+)', re.DOTALL)
+            dist_regex = re.compile(r'### Distribution\s*.*?\n(\|.*?\n\|\s*-+.*?\n(?:\|.*?\n)+)', re.DOTALL)
             dist_table_md = dist_regex.search(section_md).group(1)
             
             dist_req, dist_rec = parse_md_table(dist_table_md)
@@ -368,7 +358,6 @@ def merge_i14y_rules(md_text, base_schema, header, shacl_graph):
 
     print(f"     -> Found I14Y rules (Req: {portal_required}, Rec: {portal_recommended})")
     return base_schema, portal_required, portal_recommended
-
 
 # --- Click Command ---
 
