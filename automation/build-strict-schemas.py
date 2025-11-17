@@ -8,13 +8,12 @@ from pathlib import Path
 from rdflib import Graph, URIRef
 from rdflib.namespace import Namespace, SH, RDF
 
-
 # --- Usage ---
 # python automation/build-strict-schemas.py --input-dir data/schemas --output-dir data/schema_strict --prefix strict-ods- --portal ods ## for opendata.swiss
 # python automation/build-strict-schemas.py --input-dir data/schemas --output-dir data/schema_strict --prefix strict-i14y- --portal i14y --i14y-map automation/I14Y_dct_map.json ## for I14Y
 
 # --- Configuration ---
-SHACL_URL = "https://raw.githubusercontent.com/opendata-swiss/ogdch_checker/main/ogdch.shacl.ttl"
+SHACL_URL = "https://raw.githubusercontent.com/opendata-swiss/ogdch_checker/refs/heads/main/ogdch.shacl.ttl"
 
 # --- Define Namespaces and Mappings ---
 DCAT = Namespace("http://www.w3.org/ns/dcat#")
@@ -34,11 +33,10 @@ NAMESPACES = {
 }
 
 
-# 1. Mapping for SHACL (ODS & Base for I14Y)
+# 1. Mapping for SHACL (ODS)
 SCHEMA_TO_SHACL_CLASS = {
     "dataset.json": DCAT.Dataset,
-    "dataService.json": DCAT.DataService,
-    "catalog.json": DCAT.Catalog
+    # ODS does not import dataService or catalog
 }
 
 # 2. Mapping for I14Y OpenAPI (Release.json)
@@ -92,9 +90,12 @@ def get_shacl_shape_rules(g, shape_node, base_properties):
     required = set()
     recommended = set()
     
+    IGNORE_PATHS = {RDF.type, SKOS.inScheme}
+    
     for prop_node in g.objects(shape_node, SH.property):
         path_uri = g.value(prop_node, SH.path)
-        if not path_uri or path_uri == RDF.type: # Skip rdf:type
+        
+        if not path_uri or path_uri in IGNORE_PATHS:
             continue
             
         prop_key = shorten_uri(path_uri, NAMESPACES)
@@ -121,11 +122,18 @@ def get_shacl_shape_rules(g, shape_node, base_properties):
         elif is_recommended:
             recommended.add(prop_key)
 
+        if prop_key.startswith("http"):
+             print(f"    -> Warning: Skipping unknown IRI property {prop_key}")
+             continue
+
         properties[prop_key] = {}
         
         if is_useful_message:
             base_desc = base_properties.get(prop_key, {}).get("description", "")
-            properties[prop_key]["description"] = f"{base_desc}\n\n**Portal Requirement:** {message}"
+            if base_desc:
+                 properties[prop_key]["description"] = f"{base_desc}\n\n**Portal Requirement:** {message}"
+            else:
+                 properties[prop_key]["description"] = f"**Portal Requirement:** {message}"
         
         enum_list_node = g.value(prop_node, SH["in"])
         if enum_list_node:
@@ -153,10 +161,13 @@ def merge_shacl_rules(g, base_schema, target_class_uri):
     shacl_required = set()
     shacl_recommended = set()
     base_properties = base_schema.get("properties", {})
+    
+    IGNORE_PATHS = {RDF.type, SKOS.inScheme}
 
     for prop_node in g.objects(main_shape, SH.property):
         path_uri = g.value(prop_node, SH.path)
-        if not path_uri or path_uri == RDF.type: # Skip rdf:type
+
+        if not path_uri or path_uri in IGNORE_PATHS:
             continue
             
         prop_key = shorten_uri(path_uri, NAMESPACES)
@@ -185,10 +196,12 @@ def merge_shacl_rules(g, base_schema, target_class_uri):
         elif is_recommended:
             shacl_recommended.add(prop_key)
 
-        # Append Description Logic
         if is_useful_message and prop_key in base_properties:
             base_desc = base_properties[prop_key].get("description", "")
-            base_schema["properties"][prop_key]["description"] = f"{base_desc}\n\n**Portal Requirement:** {message}"
+            if base_desc:
+                base_schema["properties"][prop_key]["description"] = f"{base_desc}\n\n**Portal Requirement:** {message}"
+            else:
+                base_schema["properties"][prop_key]["description"] = f"**Portal Requirement:** {message}"
 
         # 2. Handle 'enum' logic
         enum_list_node = g.value(prop_node, SH["in"])
@@ -200,7 +213,6 @@ def merge_shacl_rules(g, base_schema, target_class_uri):
         
         # 3. Handle NESTED rules (for Distribution)
         nested_shape_node = g.value(prop_node, SH.node)
-        
         
         base_prop = base_properties.get(prop_key, {})
         prop_type = base_prop.get("type", "string")
@@ -215,7 +227,14 @@ def merge_shacl_rules(g, base_schema, target_class_uri):
             if "items" not in base_schema["properties"][prop_key]:
                 base_schema["properties"][prop_key]["items"] = {}
                 
-            base_schema["properties"][prop_key]["items"].update(nested_rules)
+            base_items_req = set(base_schema["properties"][prop_key]["items"].get("required", []))
+            base_items_rec = set(base_schema["properties"][prop_key]["items"].get("recommended", []))
+
+            new_req = base_items_req.union(nested_rules.get("required", []))
+            new_rec = (base_items_rec.union(nested_rules.get("recommended", []))) - new_req
+
+            base_schema["properties"][prop_key]["items"]["required"] = sorted(list(new_req))
+            base_schema["properties"][prop_key]["items"]["recommended"] = sorted(list(new_rec))
             
             if "properties" in nested_rules:
                 for nested_key, nested_prop in nested_rules["properties"].items():
@@ -226,7 +245,6 @@ def merge_shacl_rules(g, base_schema, target_class_uri):
         
         elif nested_shape_node and not is_array:
              print(f"    -> Found nested SHACL shape for non-array property '{prop_key}'. Appending message only.")
-             # This is a validation rule *on* the property (e.g., must be in a scheme)
              pass
 
     return base_schema, shacl_required, shacl_recommended
@@ -257,7 +275,7 @@ def merge_i14y_rules(spec, base_schema, model_name, translation_map):
         else:
             print(f"    -> Warning: No DCAT translation for I14Y *required* key '{flat_key}'. Skipping.")
 
-    # --- 2. Translate Recommended Keys (from I14Y map) ---
+    # --- 2. Translate Recommended Keys (from our map) ---
     i14y_dcat_recommended = set()
     recommended_translation = translation_map.get(model_name, {}).get("Recommended", {})
     for flat_key in recommended_translation:
@@ -297,7 +315,7 @@ def merge_i14y_rules(spec, base_schema, model_name, translation_map):
             dist_prop["required"] = sorted(list(dist_prop_req | dist_dcat_required))
             dist_prop["recommended"] = sorted(list((dist_prop_rec | dist_dcat_recommended) - set(dist_prop["required"])))
 
-            print(f"    -> Merged I1Failure: 4Y distribution rules (Req: {dist_dcat_required}, Rec: {dist_dcat_recommended})")
+            print(f"    -> Merged I14Y distribution rules (Req: {dist_dcat_required}, Rec: {dist_dcat_recommended})")
             
         except KeyError:
             print("    -> Warning: Could not find 'DcatDistributionInputModel' in spec.", file=sys.stderr)
@@ -367,6 +385,7 @@ def build_strict_schemas(portal, input_dir, output_dir, prefix, i14y_map, i14y_u
             sys.exit(1)
         
         rules_source = fetch_rules(i14y_url)
+        # We also load the SHACL rules, but *only* to get enums and descriptions
         shacl_rules = fetch_rules(SHACL_URL)  
         
         try:
@@ -399,7 +418,8 @@ def build_strict_schemas(portal, input_dir, output_dir, prefix, i14y_map, i14y_u
             print(f"Skipping '{f.name}' (contains 'strict').")
             continue
             
-        if f.name not in SCHEMA_TO_SHACL_CLASS:
+        # Check if the file is relevant for *either* mapping
+        if f.name not in SCHEMA_TO_SHACL_CLASS and f.name not in SCHEMA_TO_I14Y_MODEL:
             print(f"Skipping '{f.name}' (not a recognized DCAT type).")
             continue
         
@@ -416,28 +436,32 @@ def build_strict_schemas(portal, input_dir, output_dir, prefix, i14y_map, i14y_u
         
         # --- Apply Rules based on Portal ---
         if portal == 'ods':
+            if f.name not in SCHEMA_TO_SHACL_CLASS:
+                print(f"Skipping '{f.name}' (not applicable for {portal.upper()} validation).")
+                continue
             shacl_class_uri = SCHEMA_TO_SHACL_CLASS[f.name]
             base_schema, portal_req, portal_rec = merge_shacl_rules(rules_source, base_schema, shacl_class_uri)
             portal_required.update(portal_req)
             portal_recommended.update(portal_rec)
 
         elif portal == 'i14y':
-            # 1. Apply base SHACL rules first
-            shacl_class_uri = SCHEMA_TO_SHACL_CLASS[f.name]
-            base_schema, shacl_req, shacl_rec = merge_shacl_rules(shacl_rules, base_schema, shacl_class_uri)
-            portal_required.update(shacl_req)
+            # --- THIS IS THE FIX ---
+            # 1. (Optional) Run SHACL parser *only* to update descriptions/enums
+            # We will NOT use its required/recommended lists
+            if f.name in SCHEMA_TO_SHACL_CLASS:
+                shacl_class_uri = SCHEMA_TO_SHACL_CLASS[f.name]
+                base_schema, _, _ = merge_shacl_rules(shacl_rules, base_schema, shacl_class_uri)
+                # Note: We throw away the 'shacl_req' and 'shacl_rec'
             
-            # For I14Y, the SHACL recommended fields not added
-            portal_recommended.update(set()) # Start with an empty set
-            
-            # 2. Apply I14Y-specific rules on top
+            # 2. Apply I14Y-specific rules
             if f.name in mapping_dict:
                 i14y_model_name = mapping_dict[f.name]
                 base_schema, i14y_req, i14y_rec = merge_i14y_rules(rules_source, base_schema, i14y_model_name, translation_map)
                 portal_required.update(i14y_req)
                 portal_recommended.update(i14y_rec)
             else:
-                 print(f"    -> Note: '{f.name}' has no I14Y-specific API model. Using base DCAT rules.")
+                 print(f"Skipping '{f.name}' (not applicable for {portal.upper()} validation).")
+                 continue
         
         # --- Create Final 'required' and 'recommended' Lists ---
         final_required = base_required | portal_required
