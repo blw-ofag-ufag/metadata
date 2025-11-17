@@ -7,8 +7,7 @@
         "adms:status",
         "bv:classification",
         "bv:personalData",
-        "dcat:contactPoint",
-        "dcat:distribution",
+        "dct:accessRights",
         "dct:description",
         "dct:identifier",
         "dct:issued",
@@ -17,9 +16,14 @@
     ],
     "recommended": [
         "bv:archivalValue",
-        "dct:accessRights",
+        "dcat:contactPoint",
+        "dcat:keyword",
+        "dcat:landingPage",
+        "dcat:theme",
         "dct:accrualPeriodicity",
-        "dct:modified"
+        "dct:modified",
+        "dct:spatial",
+        "dct:temporal"
     ],
     "properties": {
         "schema:image": {
@@ -370,9 +374,6 @@
                     "administration",
                     "national-economy"
                 ],
-                "properties": {
-                    "skos:inScheme": {}
-                },
                 "required": [],
                 "recommended": []
             }
@@ -479,9 +480,26 @@
             "description": "Any related page, document or resource.",
             "items": {
                 "type": "object",
-                "required": [],
+                "required": [
+                    "uri"
+                ],
                 "additionalProperties": false,
-                "properties": {},
+                "properties": {
+                    "alias": {
+                        "title": "Page alias",
+                        "description": "Alias to be showed in the interface for this link.",
+                        "type": "string"
+                    },
+                    "uri": {
+                        "title": "URL",
+                        "description": "URL for the page, document or resource",
+                        "type": [
+                            "string",
+                            "null"
+                        ],
+                        "format": "uri"
+                    }
+                },
                 "recommended": []
             }
         },
@@ -536,8 +554,8 @@
             "items": {
                 "type": "object",
                 "required": [
-                    "adms:status",
                     "dcat:accessURL",
+                    "adms:status",
                     "dct:format"
                 ],
                 "additionalProperties": false,
@@ -695,8 +713,7 @@
                         },
                         "description": "Reference to data services used to provide access to the data."
                     }
-                },
-                "recommended": []
+                }
             }
         }
     },

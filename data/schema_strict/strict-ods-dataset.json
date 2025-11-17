@@ -379,9 +379,6 @@
                     "administration",
                     "national-economy"
                 ],
-                "properties": {
-                    "skos:inScheme": {}
-                },
                 "required": [],
                 "recommended": []
             }
@@ -488,9 +485,26 @@
             "description": "Any related page, document or resource.",
             "items": {
                 "type": "object",
-                "required": [],
+                "required": [
+                    "uri"
+                ],
                 "additionalProperties": false,
-                "properties": {},
+                "properties": {
+                    "alias": {
+                        "title": "Page alias",
+                        "description": "Alias to be showed in the interface for this link.",
+                        "type": "string"
+                    },
+                    "uri": {
+                        "title": "URL",
+                        "description": "URL for the page, document or resource",
+                        "type": [
+                            "string",
+                            "null"
+                        ],
+                        "format": "uri"
+                    }
+                },
                 "recommended": []
             }
         },

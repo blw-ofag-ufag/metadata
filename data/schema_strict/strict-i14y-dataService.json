@@ -299,5 +299,9 @@
             }
         }
     },
-    "recommended": []
+    "recommended": [
+        "dcat:endpointDescription",
+        "dcat:keyword",
+        "dct:license"
+    ]
 }
