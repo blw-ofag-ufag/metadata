@@ -52,7 +52,7 @@
                 "fr"
             ],
             "title": "Dataset title",
-            "description": "Title of the dataset.",
+            "description": "Title of the dataset.\n\n**Portal Requirement:** Class 'dcat:Dataset' - Property 'dct:title': Please add a title for your dataset.\n\tThe title must be provided as language-tagged strings in at least one of the following languages: de, en, fr, it.      \n        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dct-title-dcat\n\t    ",
             "properties": {
                 "de": {
                     "type": "string",
@@ -83,7 +83,7 @@
                 "fr"
             ],
             "title": "Dataset description",
-            "description": "Description of the dataset. Should go into details about the dataset content and help a non-specialist to understand what is the dataset about.",
+            "description": "Description of the dataset. Should go into details about the dataset content and help a non-specialist to understand what is the dataset about.\n\n**Portal Requirement:** Class 'dcat:Dataset' - Property 'dct:description': Please add a description for your dataset.\n\tThe description must be provided as language-tagged strings in at least one of the following languages: de, en, fr, it.\n        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dct-description-dcat\n\t    ",
             "properties": {
                 "de": {
                     "type": "string",
@@ -119,7 +119,7 @@
         "dct:publisher": {
             "title": "Publisher",
             "type": "string",
-            "description": "Federal Office responsible for the data object\n\n**Portal Requirement:** Class 'dcat:Dataset' - Property 'dct:publisher': Please provide a publisher for the dataset.\n        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher\n\t    \n\n**Portal Requirement:** Class 'dcat:Dataset' - Property 'dct:publisher': Please provide only one publisher for the dataset.\n        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher\n        for Details on this change.",
+            "description": "Federal Office responsible for the data object\n\n**Portal Requirement:** Class 'dcat:Dataset' - Property 'dct:publisher': The publisher must be provided as a foaf:Agent.\n        See https://handbook.opendata.swiss/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-publisher\n\t    ",
             "enum": [
                 "BLW-OFAG-UFAG-FOAG",
                 "BLV-OSAV-USAV-FSVO"
@@ -146,7 +146,7 @@
         },
         "dct:issued": {
             "title": "Issued date",
-            "description": "Date when the dataset was formally issued for the first time. If unknown, you may select the date of the first publication of this metadata.",
+            "description": "Date when the dataset was formally issued for the first time. If unknown, you may select the date of the first publication of this metadata.\n\n**Portal Requirement:** Class 'dcat:Dataset' - Property 'dct:issued': The issued date must be provided in ISO-8601 format \n\t as xsd:date, xsd:dateTime, xsd:gYear, or xsd:gYearMonth.\n         See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dct-issued-dcat\n         ",
             "type": [
                 "string",
                 "null"
@@ -171,7 +171,7 @@
                 "null"
             ],
             "title": "Keywords",
-            "description": "Keywords describing the dataset.",
+            "description": "Keywords describing the dataset.\n\n**Portal Requirement:** Class 'dcat:Dataset' - Property 'dcat:keyword': Keywords must be provided as language-tagged strings \n\tin at least one of the following languages: de, en, fr, it.\n        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-keyword-dcat\n\t",
             "items": {
                 "type": "string"
             }
@@ -203,7 +203,7 @@
             ],
             "format": "date",
             "title": "Last modification date",
-            "description": "**Recommended**. Modification date of the data in the dataset."
+            "description": "**Recommended**. Modification date of the data in the dataset.\n\n**Portal Requirement:** Class 'dcat:Dataset' - Property 'dct:modified': The modification date must be provided in ISO-8601 format \n\tas xsd:date, xsd:dateTime, xsd:gYear, or xsd:gYearMonth.\n        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dct-modified-dcat\n        "
         },
         "dcat:version": {
             "type": "string",
@@ -378,9 +378,7 @@
                     "tourism",
                     "administration",
                     "national-economy"
-                ],
-                "required": [],
-                "recommended": []
+                ]
             }
         },
         "dcat:landingPage": {
@@ -390,7 +388,7 @@
                 "null"
             ],
             "format": "uri",
-            "description": "Landing page or homepage for the dataset."
+            "description": "Landing page or homepage for the dataset.\n\n**Portal Requirement:** Class 'dcat:Dataset' - Property 'dcat:landingPage': The landing page must be provided as an IRI.\n        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-landingpage-dcat\n        "
         },
         "dct:spatial": {
             "title": "Spatial coverage",
@@ -400,7 +398,7 @@
         "dct:temporal": {
             "title": "Temporal coverage",
             "type": "object",
-            "description": "Temporal coverage of the dataset. For example, the first and last measurement years for a timeseries.",
+            "description": "Temporal coverage of the dataset. For example, the first and last measurement years for a timeseries.\n\n**Portal Requirement:** Class 'dcat:Dataset' - Property 'dct:temporal': The temporal property must be provided as a dct:PeriodOfTime.\n        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dct-temporal-dcat\n        ",
             "additionalProperties": false,
             "properties": {
                 "dcat:start_date": {
@@ -482,7 +480,7 @@
                 "null"
             ],
             "title": "Related resources",
-            "description": "Any related page, document or resource.",
+            "description": "Any related page, document or resource.\n\n**Portal Requirement:** Class 'dcat:Dataset' - Property 'foaf:page': The documentation of the dataset must be provided as a foaf:Document.\n        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-documentation\n\t",
             "items": {
                 "type": "object",
                 "required": [
@@ -504,8 +502,7 @@
                         ],
                         "format": "uri"
                     }
-                },
-                "recommended": []
+                }
             }
         },
         "schema:comment": {
@@ -557,168 +554,7 @@
             "title": "Distribution",
             "description": "Distribution info describing how and where to access the dataset. This class describes a specific, final, and ready-to-use format in which a dataset is made available to users. For example, the same data may be available as both a CSV file and an Excel file, each representing a separate distribution of the same dataset. Each distribution must be part of a dataset and should point to a reachable source (e.g. an URL for download). All distributions within a dataset must maintain the same level of timeliness across all channels. This means, for instance, that the 2021 CSV file should be published simultaneously with the Excel file, and vice versa.\n\n**Portal Requirement:** Class 'dcat:Dataset' - Property 'dcat:distribution': This dataset does not have any distributions. Please add a distribution for the dataset.\n        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-distribution-dcat\n\t    ",
             "items": {
-                "type": "object",
-                "required": [
-                    "dcat:accessURL",
-                    "adms:status",
-                    "dct:format"
-                ],
-                "additionalProperties": false,
-                "properties": {
-                    "dct:identifier": {
-                        "title": "Distribution identifier",
-                        "type": "string",
-                        "description": "Identifier for this distribution. If left empty, it will be automatically assigned."
-                    },
-                    "dcat:accessURL": {
-                        "title": "Access URL",
-                        "type": "string",
-                        "format": "uri",
-                        "description": "URL to a page for accessing this distribution. This must not be a direct download URL but, for example, a link to a webpage containing download links."
-                    },
-                    "adms:status": {
-                        "title": "Status",
-                        "type": "string",
-                        "description": "Current status of the distribution.",
-                        "enum": [
-                            "",
-                            "workInProgress",
-                            "validated",
-                            "published",
-                            "deleted",
-                            "archived"
-                        ]
-                    },
-                    "dcatap:availability": {
-                        "title": "Distribution availability",
-                        "description": "This property indicates how long it is planned to keep the Distribution available. You can find the available values here: <a href='http://publications.europa.eu/resource/authority/planned-availability'>Planned availability</a>.",
-                        "type": "string",
-                        "enum": [
-                            "",
-                            "AVAILABLE",
-                            "EXPERIMENTAL",
-                            "STABLE",
-                            "TEMPORARY"
-                        ]
-                    },
-                    "dct:format": {
-                        "title": "File format",
-                        "type": "string",
-                        "description": "File format for this distribution (e.g., CSV, JSON)."
-                    },
-                    "dct:modified": {
-                        "title": "Last modification date",
-                        "type": [
-                            "string",
-                            "null"
-                        ],
-                        "format": "date",
-                        "description": "Last modification date of the data in this distribution."
-                    },
-                    "dcat:downloadURL": {
-                        "title": "Download URL",
-                        "type": [
-                            "string",
-                            "null"
-                        ],
-                        "format": "uri",
-                        "description": "Direct download URL of the distribution file. This link must directly point to the file."
-                    },
-                    "dct:title": {
-                        "title": "Distribution title",
-                        "type": "object",
-                        "required": [
-                            "de",
-                            "fr"
-                        ],
-                        "description": "Title for the distribution, in multiple languages.",
-                        "properties": {
-                            "de": {
-                                "type": "string",
-                                "pattern": "[a-zA-Z0-9_\\-\\s]{10,75}",
-                                "title": "Deutsch"
-                            },
-                            "fr": {
-                                "type": "string",
-                                "pattern": "[a-zA-Z0-9_\\-\\s]{10,75}",
-                                "title": "Fran\u00e7ais"
-                            },
-                            "it": {
-                                "type": "string",
-                                "pattern": "[a-zA-Z0-9_\\-\\s]{10,75}",
-                                "title": "Italiano"
-                            },
-                            "en": {
-                                "type": "string",
-                                "pattern": "[a-zA-Z0-9_\\-\\s]{10,75}",
-                                "title": "English"
-                            }
-                        }
-                    },
-                    "dct:description": {
-                        "title": "Distribution description",
-                        "type": "object",
-                        "required": [
-                            "de",
-                            "fr"
-                        ],
-                        "description": "Description for the distribution, in multiple languages.",
-                        "properties": {
-                            "de": {
-                                "type": "string",
-                                "title": "Deutsch"
-                            },
-                            "fr": {
-                                "type": "string",
-                                "title": "Fran\u00e7ais"
-                            },
-                            "it": {
-                                "type": "string",
-                                "title": "Italiano"
-                            },
-                            "en": {
-                                "type": "string",
-                                "title": "English"
-                            }
-                        }
-                    },
-                    "dct:conformsTo": {
-                        "title": "Conforms to",
-                        "type": "string",
-                        "description": "Reference to a standard or specification the distribution conforms to."
-                    },
-                    "dct:license": {
-                        "title": "License",
-                        "type": "string",
-                        "description": "License under which this distribution is released. This is mandatory for opendata.swiss publications.",
-                        "enum": [
-                            "",
-                            "terms_open",
-                            "terms_by",
-                            "terms_ask",
-                            "terms_by_ask",
-                            "cc-zero",
-                            "cc-by/4.0",
-                            "cc-by-sa/4.0"
-                        ]
-                    },
-                    "schema:comment": {
-                        "title": "Comments",
-                        "type": "string",
-                        "description": "Additional comments about the distribution."
-                    },
-                    "dcat:accessService": {
-                        "title": "Access service",
-                        "type": [
-                            "array",
-                            "null"
-                        ],
-                        "items": {
-                            "type": "string"
-                        },
-                        "description": "Reference to data services used to provide access to the data."
-                    }
-                }
+                "$ref": "strict-ods-distribution.json"
             }
         }
     },
