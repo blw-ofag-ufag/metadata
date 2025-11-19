@@ -13,6 +13,11 @@
         "dct:publisher",
         "dct:title"
     ],
+    "recommended": [
+        "dcat:endpointDescription",
+        "dcat:keyword",
+        "dct:license"
+    ],
     "properties": {
         "schema:image": {
             "type": [
@@ -298,10 +303,5 @@
                 }
             }
         }
-    },
-    "recommended": [
-        "dcat:endpointDescription",
-        "dcat:keyword",
-        "dct:license"
-    ]
+    }
 }
