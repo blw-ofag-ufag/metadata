@@ -12,6 +12,12 @@ from pathlib import Path
 from rdflib import Graph, URIRef
 from rdflib.namespace import Namespace, SH, RDF
 
+# --- Usage ---
+# for opendata.swiss schema:
+# python automation/build-strict-schemas.py --input-dir data/schemas --output-dir data/schema_strict --prefix strict-ods- --portal ods
+# for I14Y schema:
+# python automation/build-strict-schemas.py --input-dir data/schemas --output-dir data/schema_strict --prefix strict-i14y- --portal i14y
+
 # --- Configuration ---
 SHACL_URL = "https://raw.githubusercontent.com/opendata-swiss/ogdch_checker/refs/heads/main/ogdch.shacl.ttl"
 
@@ -97,9 +103,7 @@ def merge_shacl_rules(g, base_schema, target_class_uri, update_descriptions=True
         # Normalize whitespace for reliable matching
         msg_lower = " ".join(message.lower().split())
         
-        # --- REVISED LOGIC ---
-        
-        # 1. Deprecated? (Exclude from Recommended)
+        # 1. Deprecated -> Exclude from Recommended
         is_deprecated = "deprecated" in msg_lower or "exceptional use" in msg_lower or "should now be provided under" in msg_lower
 
         # 2. Strictly Mandatory (minCount >= 1 + Violation)
