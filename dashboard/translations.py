@@ -6,13 +6,12 @@ Supported: DE (Default), FR, IT, EN.
 TRANSLATIONS = {
     "de": {
         "app_title": "BLW Metadaten-Qualitäts-Dashboard 🏆",
-        "sidebar_lang": "Sprache / Langue / Lingua",
-        "sidebar_filter": "Filteroptionen",
-        "sidebar_org": "Organisation",
-        "sidebar_all_orgs": "Alle Organisationen",
         "tab_worklist": "🔨 Arbeitsliste",
         "tab_overview": "📈 Übersicht",
         "tab_inspector": "🔍 Inspektor",
+        "tab_help": "📚 Hilfe & Methodik",
+        
+        # Columns & Metrics
         "metric_total": "Anzahl Datensätze",
         "metric_score": "Ø Qualitäts-Score",
         "metric_violations": "Schema-Verstösse",
@@ -21,25 +20,77 @@ TRANSLATIONS = {
         "col_score": "Score",
         "col_violations": "Verstösse",
         "col_id": "ID",
+        
+        # Inspector
         "inspector_select": "Datensatz auswählen",
         "inspector_raw": "Rohdaten anzeigen",
         "inspector_details": "Qualitätsdetails",
         "inspector_no_data": "Keine Daten gefunden.",
+        
+        # Charts / Severity
         "severity_high": "Hoch",
         "severity_med": "Mittel",
         "severity_low": "Tief",
         "chart_score_dist": "Verteilung der Qualitäts-Scores",
-        "chart_top_errors": "Häufigste Validierungsfehler"
+        "chart_top_errors": "Häufigste Validierungsfehler",
+
+        # --- HELP PAGE CONTENT ---
+        "help_intro": """
+        **Kernkonzept:**
+        * 🚨 **Verstösse** messen die *Legalität* (Wurde eine Regel verletzt?)
+        * ⭐ **Score** misst die *Qualität* (Wie nützlich sind die Daten?)
+        """,
+        
+        # Violations Section
+        "help_vio_title": "🚨 Schema-Verstösse",
+        "help_vio_desc": """
+        Dies sind **Binäre Fehler**. Entweder man besteht oder fällt durch.
+        Basierend auf dem offiziellen BLW JSON-Schema.
+        
+        * **Fehlende ID**: `dct:identifier` ist leer.
+        * **Fehlender Kontakt**: Keine E-Mail angegeben.
+        * **Falsches Format**: Datum ist `2023/30/30` statt `YYYY-MM-DD`.
+        """,
+        "help_vio_goal": "🎯 **Ziel:** 0 Verstösse.",
+
+        # Score Section
+        "help_score_title": "⭐ Qualitäts-Score (FAIRC)",
+        "help_score_desc": """
+        Dies ist ein **Punktesystem**. Sie erhalten Punkte, wenn Sie *mehr* tun.
+        
+        * **Auffindbarkeit:** Stichworte, Kategorien
+        * **Zugänglichkeit:** Funktionierende Links
+        * **Interoperabilität:** CSV/JSON
+        * **Wiederverwendbarkeit:** Offene Lizenz, Kontakt
+        * **Kontextualität:** Datumsangaben, Rechte
+        """,
+        "help_score_goal": "🎯 **Ziel:** Punkte maximieren (High Score).",
+
+        # Calculator Table
+        "help_calc_title": "🧮 Score-Rechner",
+        "help_table_dim": "Dimension",
+        "help_table_crit": "Kriterium",
+        "help_table_pts": "Punkte",
+        
+        # Criteria
+        "crit_keywords": "Stichworte vorhanden",
+        "crit_themes": "Kategorien vorhanden",
+        "crit_access": "Access URL erreichbar",
+        "crit_download": "Download URL vorhanden",
+        "crit_openfmt": "Offenes Format (CSV, etc.)",
+        "crit_machine": "Maschinenlesbar",
+        "crit_license": "Offene Standard-Lizenz",
+        "crit_contact": "Kontaktangabe vollständig",
+        "crit_rights": "Nutzungsrechte definiert",
+        "crit_dates": "Erstellungs-/Änderungsdatum"
     },
     "fr": {
         "app_title": "OFAG Tableau de bord Qualité des Métadonnées 🏆",
-        "sidebar_lang": "Sprache / Langue / Lingua",
-        "sidebar_filter": "Options de filtrage",
-        "sidebar_org": "Organisation",
-        "sidebar_all_orgs": "Toutes les organisations",
         "tab_worklist": "🔨 Liste de travail",
         "tab_overview": "📈 Vue d'ensemble",
         "tab_inspector": "🔍 Inspecteur",
+        "tab_help": "📚 Aide & Méthodologie",
+
         "metric_total": "Jeux de données",
         "metric_score": "Ø Score de qualité",
         "metric_violations": "Violations de schéma",
@@ -48,25 +99,75 @@ TRANSLATIONS = {
         "col_score": "Score",
         "col_violations": "Violations",
         "col_id": "ID",
+        
         "inspector_select": "Sélectionner un jeu de données",
         "inspector_raw": "Afficher les données brutes",
         "inspector_details": "Détails de qualité",
         "inspector_no_data": "Aucune donnée trouvée.",
+        
         "severity_high": "Élevée",
         "severity_med": "Moyenne",
         "severity_low": "Faible",
         "chart_score_dist": "Distribution des scores de qualité",
-        "chart_top_errors": "Erreurs de validation fréquentes"
+        "chart_top_errors": "Erreurs de validation fréquentes",
+
+        # --- HELP PAGE CONTENT ---
+        "help_intro": """
+        **Concept clé:**
+        * 🚨 **Les Violations** mesurent la *Légalité* (Une règle a-t-elle été enfreinte ?)
+        * ⭐ **Le Score** mesure la *Qualité* (Quelle est l'utilité des données ?)
+        """,
+        
+        # Violations Section
+        "help_vio_title": "🚨 Violations du Schéma",
+        "help_vio_desc": """
+        Ce sont des **Erreurs Binaires**. Soit ça passe, soit ça casse.
+        Basé sur le schéma JSON officiel de l'OFAG.
+        
+        * **ID manquant**: `dct:identifier` est vide.
+        * **Contact manquant**: Aucune adresse e-mail fournie.
+        * **Mauvais format**: La date est `2023/30/30` au lieu de `YYYY-MM-DD`.
+        """,
+        "help_vio_goal": "🎯 **Objectif:** 0 Violations.",
+
+        # Score Section
+        "help_score_title": "⭐ Score de Qualité (FAIRC)",
+        "help_score_desc": """
+        C'est un **Système de Points**. Vous gagnez des points en faisant *plus*.
+        
+        * **Retrouvabilité:** Mots-clés, Catégories
+        * **Accessibilité:** Liens fonctionnels
+        * **Interopérabilité:** CSV/JSON
+        * **Réutilisabilité:** Licence ouverte, Contact
+        * **Contextualité:** Dates, Droits
+        """,
+        "help_score_goal": "🎯 **Objectif:** Maximiser les points (High Score).",
+
+        # Calculator Table
+        "help_calc_title": "🧮 Calculateur de Score",
+        "help_table_dim": "Dimension",
+        "help_table_crit": "Critère",
+        "help_table_pts": "Points",
+        
+        # Criteria
+        "crit_keywords": "Mots-clés fournis",
+        "crit_themes": "Catégories fournies",
+        "crit_access": "URL d'accès fonctionnelle",
+        "crit_download": "URL de téléchargement fournie",
+        "crit_openfmt": "Format ouvert (CSV, etc.)",
+        "crit_machine": "Lisible par machine",
+        "crit_license": "Licence standard ouverte",
+        "crit_contact": "Contact complet",
+        "crit_rights": "Droits d'utilisation définis",
+        "crit_dates": "Date de création/modification"
     },
     "it": {
         "app_title": "UFAG Dashboard Qualità Metadati 🏆",
-        "sidebar_lang": "Sprache / Langue / Lingua",
-        "sidebar_filter": "Opzioni di filtro",
-        "sidebar_org": "Organizzazione",
-        "sidebar_all_orgs": "Tutte le organizzazioni",
         "tab_worklist": "🔨 Lista di lavoro",
         "tab_overview": "📈 Panoramica",
         "tab_inspector": "🔍 Ispettore",
+        "tab_help": "📚 Aiuto & Metodologia",
+
         "metric_total": "Dataset totali",
         "metric_score": "Ø Punteggio qualità",
         "metric_violations": "Violazioni dello schema",
@@ -75,25 +176,75 @@ TRANSLATIONS = {
         "col_score": "Punteggio",
         "col_violations": "Violazioni",
         "col_id": "ID",
+        
         "inspector_select": "Seleziona dataset",
         "inspector_raw": "Mostra dati grezzi",
         "inspector_details": "Dettagli qualità",
         "inspector_no_data": "Nessun dato trovato.",
+        
         "severity_high": "Alta",
         "severity_med": "Media",
         "severity_low": "Bassa",
         "chart_score_dist": "Distribuzione dei punteggi",
-        "chart_top_errors": "Errori di convalida frequenti"
+        "chart_top_errors": "Errori di convalida frequenti",
+
+        # --- HELP PAGE CONTENT ---
+        "help_intro": """
+        **Concetto chiave:**
+        * 🚨 **Le Violazioni** misurano la *Legalità* (È stata infranta una regola?)
+        * ⭐ **Il Punteggio** misura la *Qualità* (Quanto sono utili i dati?)
+        """,
+        
+        # Violations Section
+        "help_vio_title": "🚨 Violazioni dello Schema",
+        "help_vio_desc": """
+        Questi sono **Errori Binari**. O si passa o si fallisce.
+        Basato sullo schema JSON ufficiale dell'UFAG.
+        
+        * **ID mancante**: `dct:identifier` è vuoto.
+        * **Contatto mancante**: Nessuna e-mail fornita.
+        * **Formato errato**: La data è `2023/30/30` invece di `YYYY-MM-DD`.
+        """,
+        "help_vio_goal": "🎯 **Obiettivo:** 0 Violazioni.",
+
+        # Score Section
+        "help_score_title": "⭐ Punteggio di Qualità (FAIRC)",
+        "help_score_desc": """
+        Questo è un **Sistema a Punti**. Ottieni punti facendo *di più*.
+        
+        * **Reperibilità:** Parole chiave, Categorie
+        * **Accessibilità:** Link funzionanti
+        * **Interoperabilità:** CSV/JSON
+        * **Riutilizzabilità:** Licenza aperta, Contatto
+        * **Contestualità:** Date, Diritti
+        """,
+        "help_score_goal": "🎯 **Obiettivo:** Massimizzare i punti (Punteggio Alto).",
+
+        # Calculator Table
+        "help_calc_title": "🧮 Calcolatore del Punteggio",
+        "help_table_dim": "Dimensione",
+        "help_table_crit": "Criterio",
+        "help_table_pts": "Punti",
+        
+        # Criteria
+        "crit_keywords": "Parole chiave fornite",
+        "crit_themes": "Categorie fornite",
+        "crit_access": "URL di accesso funzionante",
+        "crit_download": "URL di download fornito",
+        "crit_openfmt": "Formato aperto (CSV, ecc.)",
+        "crit_machine": "Leggibile da macchina",
+        "crit_license": "Licenza standard aperta",
+        "crit_contact": "Contatto completo",
+        "crit_rights": "Diritti di utilizzo definiti",
+        "crit_dates": "Data di creazione/modifica"
     },
     "en": {
         "app_title": "FOAG Metadata Quality Dashboard 🏆",
-        "sidebar_lang": "Language",
-        "sidebar_filter": "Filter Options",
-        "sidebar_org": "Organization",
-        "sidebar_all_orgs": "All Organizations",
         "tab_worklist": "🔨 Worklist",
         "tab_overview": "📈 Overview",
         "tab_inspector": "🔍 Inspector",
+        "tab_help": "📚 Help & Methodology",
+
         "metric_total": "Total Datasets",
         "metric_score": "Avg Quality Score",
         "metric_violations": "Schema Violations",
@@ -102,14 +253,67 @@ TRANSLATIONS = {
         "col_score": "Score",
         "col_violations": "Violations",
         "col_id": "ID",
+        
         "inspector_select": "Select Dataset",
         "inspector_raw": "Show Raw Data",
         "inspector_details": "Quality Breakdown",
         "inspector_no_data": "No data found.",
+        
         "severity_high": "High",
         "severity_med": "Medium",
         "severity_low": "Low",
         "chart_score_dist": "Quality Score Distribution",
-        "chart_top_errors": "Top Validation Errors"
+        "chart_top_errors": "Top Validation Errors",
+
+        # --- HELP PAGE CONTENT ---
+        "help_intro": """
+        **Core Concept:**
+        * 🚨 **Violations** measure *Legality* (Did you break a rule?)
+        * ⭐ **Score** measures *Quality* (How useful is the data?)
+        """,
+        
+        # Violations Section
+        "help_vio_title": "🚨 Schema Violations",
+        "help_vio_desc": """
+        These are **Binary Errors**. You either pass or fail.
+        Based on the official BLW JSON Schema.
+        
+        * **Missing ID**: `dct:identifier` is empty.
+        * **Missing Contact**: No email provided.
+        * **Bad Format**: Date is `2023/30/30` instead of `YYYY-MM-DD`.
+        """,
+        "help_vio_goal": "🎯 **Goal:** 0 Violations.",
+
+        # Score Section
+        "help_score_title": "⭐ Quality Score (FAIRC)",
+        "help_score_desc": """
+        This is a **Points System**. You gain points for doing *more*.
+        Based on the `opendata.swiss` quality model.
+        
+        * **Findability:** Keywords, Categories
+        * **Accessibility:** Working Links
+        * **Interoperability:** CSV/JSON
+        * **Reusability:** Open License, Contact
+        * **Contextuality:** Dates, Rights
+        """,
+        "help_score_goal": "🎯 **Goal:** Maximize points (High Score).",
+
+        # Calculator Table
+        "help_calc_title": "🧮 Scoring Calculator",
+        "help_table_dim": "Dimension",
+        "help_table_crit": "Criteria",
+        "help_table_pts": "Points",
+        
+        # Criteria
+        "crit_keywords": "Keywords provided",
+        "crit_themes": "Categories provided",
+        "crit_access": "Access URL works",
+        "crit_download": "Download URL provided",
+        "crit_openfmt": "Open Format (CSV, etc.)",
+        "crit_machine": "Machine Readable",
+        "crit_license": "Open Standard License",
+        "crit_contact": "Contact Point provided",
+        "crit_rights": "Rights defined",
+        "crit_dates": "Creation/Modification Dates"
     }
 }
