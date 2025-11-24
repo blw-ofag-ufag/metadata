@@ -2,10 +2,10 @@ import streamlit as st
 import pandas as pd
 import json
 from sqlalchemy import create_engine
-
-# Add project root to path
 import sys
 import os
+
+# Add project root to path
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 # Import static translations
@@ -19,6 +19,16 @@ from src.config import settings
 # ---------------------------------------------------------------------------
 
 st.set_page_config(page_title="BLW Metadata Dashboard", layout="wide", page_icon="🏆")
+
+# --- CUSTOM CSS FOR TOP RIGHT BUTTONS ---
+st.markdown("""
+    <style>
+    /* Aligns buttons vertically with the title */
+    div[data-testid="column"] {
+        align-items: center;
+    }
+    </style>
+    """, unsafe_allow_html=True)
 
 @st.cache_resource
 def get_db_engine():
@@ -41,7 +51,7 @@ def get_localized_text(data, lang_code: str) -> str:
     if text := data.get("de"):
         return text
     
-    # 3. Fallback to first available key (e.g., 'fr' only)
+    # 3. Fallback to first available key
     if data:
         return next(iter(data.values()))
     
@@ -52,14 +62,13 @@ def load_data():
     """Fetch all datasets from SQLite into a Pandas DataFrame."""
     engine = get_db_engine()
     
-    # Using raw SQL for pandas speed.
     query = "SELECT * FROM datasets" 
     
     try:
         df = pd.read_sql(query, engine)
         
         # Parse JSON columns that came back as strings from SQLite
-        json_cols = ['title', 'description', 'keyword', 'validation_messages', 'schema_violation_messages']
+        json_cols = ['title', 'description', 'keywords', 'themes', 'schema_violation_messages']
         for col in json_cols:
             if col in df.columns:
                 df[col] = df[col].apply(
@@ -72,18 +81,55 @@ def load_data():
         return pd.DataFrame()
 
 # ---------------------------------------------------------------------------
-# 2. Sidebar & Global Config
+# 2. Header & Language Config (Top Right)
 # ---------------------------------------------------------------------------
 
-# Language Selector
-lang_options = {"Deutsch": "de", "Français": "fr", "Italiano": "it", "English": "en"}
-selected_lang_label = st.sidebar.selectbox("Sprache / Language", options=list(lang_options.keys()))
-lang_code = lang_options[selected_lang_label]
+# Initialize Session State for Language
+if 'lang' not in st.session_state:
+    st.session_state.lang = 'de'
+
+def set_lang(code):
+    """Callback to set language and force rerun"""
+    st.session_state.lang = code
+
+# Layout: Title (Left) vs Buttons (Right)
+col_header, col_spacer, col_lang = st.columns([6, 1, 2])
+
+# Language Buttons (Right Side)
+with col_lang:
+    # Create 4 small columns for the buttons
+    b_de, b_fr, b_it, b_en = st.columns(4)
+    
+    # We use buttons. If clicked, we update state.
+    # 'type="primary"' highlights the active language
+    if b_de.button("DE", type="primary" if st.session_state.lang == 'de' else "secondary", use_container_width=True):
+        set_lang('de')
+        st.rerun()
+        
+    if b_fr.button("FR", type="primary" if st.session_state.lang == 'fr' else "secondary", use_container_width=True):
+        set_lang('fr')
+        st.rerun()
+        
+    if b_it.button("IT", type="primary" if st.session_state.lang == 'it' else "secondary", use_container_width=True):
+        set_lang('it')
+        st.rerun()
+        
+    if b_en.button("EN", type="primary" if st.session_state.lang == 'en' else "secondary", use_container_width=True):
+        set_lang('en')
+        st.rerun()
+
+# Set current language context
+lang_code = st.session_state.lang
 T = TRANSLATIONS[lang_code]
 
-st.title(T["app_title"])
+# Title (Left Side) - Updated after language selection
+with col_header:
+    st.title(T["app_title"])
 
-# Load Data
+# ---------------------------------------------------------------------------
+# 3. Data Loading & Processing
+# ---------------------------------------------------------------------------
+
 df = load_data()
 
 if df.empty:
@@ -93,25 +139,11 @@ if df.empty:
 # Pre-process Localized Titles for display
 df['display_title'] = df['title'].apply(lambda x: get_localized_text(x, lang_code))
 
-# Sidebar Filters
-st.sidebar.header(T["sidebar_filter"])
-if 'publisher' in df.columns:
-    organizations = df['publisher'].dropna().unique().tolist()
-    selected_org = st.sidebar.selectbox(
-        T["sidebar_org"], 
-        options=[T["sidebar_all_orgs"]] + organizations
-    )
-    
-    # Filter Logic
-    if selected_org != T["sidebar_all_orgs"]:
-        filtered_df = df[df['publisher'] == selected_org]
-    else:
-        filtered_df = df
-else:
-    filtered_df = df
+# Filter Logic (Simplified: No Organization Filter)
+filtered_df = df
 
 # ---------------------------------------------------------------------------
-# 3. Dashboard Tabs
+# 4. Dashboard Tabs
 # ---------------------------------------------------------------------------
 
 tab1, tab2, tab3 = st.tabs([T["tab_worklist"], T["tab_overview"], T["tab_inspector"]])
@@ -121,7 +153,6 @@ with tab1:
     st.markdown(f"### {T['tab_worklist']}")
     
     # Logic: Prioritize items with Schema Violations or Low Quality
-    # Note: Using 'input_quality_score' from DB model
     def categorize_severity(row):
         if row['schema_violations_count'] > 0:
             return T["severity_high"]
@@ -175,7 +206,6 @@ with tab2:
         st.caption(T["chart_top_errors"])
         # Flatten schema validation messages to count top errors
         all_errors = []
-        # The column name in DB model is schema_violation_messages
         if 'schema_violation_messages' in filtered_df.columns:
             for msgs in filtered_df['schema_violation_messages']:
                 if isinstance(msgs, list):
