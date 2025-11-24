@@ -245,29 +245,25 @@ with tab4:
     # Core Concept
     st.info(T["help_intro"])
 
-    # ROW 1: Descriptions (Height depends on text length)
+    # ROW 1: Descriptions
     col_desc1, col_desc2 = st.columns(2)
-    
     with col_desc1:
         st.markdown(f"#### {T['help_vio_title']}")
         st.markdown(T["help_vio_desc"])
-        
     with col_desc2:
         st.markdown(f"#### {T['help_score_title']}")
         st.markdown(T["help_score_desc"])
 
-    # ROW 2: Goals (Forced Alignment)
+    # ROW 2: Goals
     col_goal1, col_goal2 = st.columns(2)
-    
     with col_goal1:
         st.success(T["help_vio_goal"])
-        
     with col_goal2:
         st.success(T["help_score_goal"])
 
     st.divider()
     
-    # The FAIRC Scoring Table
+    # TABLE: Grouped by Dimension, Sorted by Importance
     st.markdown(f"### {T['help_calc_title']}")
     
     table_md = f"""
@@ -275,14 +271,27 @@ with tab4:
 | :--- | :--- | :--- |
 | **Findability** | {T['crit_keywords']} (`dcat:keyword`) | +{settings.WEIGHT_FINDABILITY_KEYWORDS} |
 | | {T['crit_themes']} (`dcat:theme`) | +{settings.WEIGHT_FINDABILITY_CATEGORIES} |
+| | {T['crit_geo']} (`dct:spatial`) | +{settings.WEIGHT_FINDABILITY_GEO_SEARCH} |
+| | {T['crit_time']} (`dct:temporal`) | +{settings.WEIGHT_FINDABILITY_TIME_SEARCH} |
 | **Accessibility**| {T['crit_access']} (HTTP 200) | +{settings.WEIGHT_ACCESSIBILITY_ACCESS_URL} |
+| | {T['crit_download_valid']} (HTTP 200) | +{settings.WEIGHT_ACCESSIBILITY_DOWNLOAD_URL_VALID} |
 | | {T['crit_download']} | +{settings.WEIGHT_ACCESSIBILITY_DOWNLOAD_URL} |
-| **Interoperability**| {T['crit_openfmt']} | +{settings.WEIGHT_INTEROP_NON_PROPRIETARY} |
+| **Interoperability**| {T['crit_dcat']} | +{settings.WEIGHT_INTEROP_DCAT_AP} |
+| | {T['crit_format']} | +{settings.WEIGHT_INTEROP_FORMAT} |
+| | {T['crit_openfmt']} | +{settings.WEIGHT_INTEROP_NON_PROPRIETARY} |
 | | {T['crit_machine']} | +{settings.WEIGHT_INTEROP_MACHINE_READABLE} |
+| | {T['crit_media']} | +{settings.WEIGHT_INTEROP_MEDIA_TYPE} |
+| | {T['crit_vocab']} | +{settings.WEIGHT_INTEROP_VOCABULARY} |
 | **Reusability** | {T['crit_license']} | +{settings.WEIGHT_REUSE_LICENSE} |
 | | {T['crit_contact']} | +{settings.WEIGHT_REUSE_CONTACT_POINT} |
+| | {T['crit_lic_vocab']} | +{settings.WEIGHT_REUSE_LICENSE_VOCAB} |
+| | {T['crit_access_res']} | +{settings.WEIGHT_REUSE_ACCESS_RESTRICTION} |
+| | {T['crit_publisher']} | +{settings.WEIGHT_REUSE_PUBLISHER} |
+| | {T['crit_access_vocab']} | +{settings.WEIGHT_REUSE_ACCESS_RESTRICTION_VOCAB} |
 | **Contextuality** | {T['crit_rights']} | +{settings.WEIGHT_CONTEXT_RIGHTS} |
-| | {T['crit_dates']} | +{settings.WEIGHT_CONTEXT_ISSUE_DATE} |
+| | {T['crit_filesize']} | +{settings.WEIGHT_CONTEXT_FILE_SIZE} |
+| | {T['crit_issue']} | +{settings.WEIGHT_CONTEXT_ISSUE_DATE} |
+| | {T['crit_mod']} | +{settings.WEIGHT_CONTEXT_MODIFICATION_DATE} |
     """
     
     st.markdown(table_md)

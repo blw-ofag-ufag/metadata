@@ -58,31 +58,48 @@ TRANSLATIONS = {
         "help_score_desc": """
         Dies ist ein **Punktesystem**. Sie erhalten Punkte, wenn Sie *mehr* tun.
         
-        * **Auffindbarkeit:** Stichworte, Kategorien
-        * **Zugänglichkeit:** Funktionierende Links
-        * **Interoperabilität:** CSV/JSON
-        * **Wiederverwendbarkeit:** Offene Lizenz, Kontakt
+        * **Auffindbarkeit:** Stichworte, Kategorien, Geografie, Zeit
+        * **Zugänglichkeit:** Funktionierende Links, Direktdownloads
+        * **Interoperabilität:** Offene Formate, DCAT-AP
+        * **Wiederverwendbarkeit:** Lizenzen, Kontakt, Herausgeber
         * **Kontextualität:** Datumsangaben, Rechte
         """,
-        "help_score_goal": "🎯 **Ziel:** Punkte maximieren (High Score).",
+        "help_score_goal": "🚀 **Ziel:** Punkte maximieren (High Score).",
 
-        # Calculator Table
+        # Calculator Table Headers
         "help_calc_title": "🧮 Score-Rechner",
         "help_table_dim": "Dimension",
         "help_table_crit": "Kriterium",
         "help_table_pts": "Punkte",
         
-        # Criteria
+        # Detailed Scoring Criteria
         "crit_keywords": "Stichworte vorhanden",
         "crit_themes": "Kategorien vorhanden",
+        "crit_geo": "Geografische Abdeckung",
+        "crit_time": "Zeitliche Abdeckung",
+        
         "crit_access": "Access URL erreichbar",
         "crit_download": "Download URL vorhanden",
+        "crit_download_valid": "Download URL erreichbar",
+        
+        "crit_format": "Format angegeben",
+        "crit_media": "Media Type angegeben",
+        "crit_vocab": "Format/Media kontrolliert",
         "crit_openfmt": "Offenes Format (CSV, etc.)",
         "crit_machine": "Maschinenlesbar",
-        "crit_license": "Offene Standard-Lizenz",
+        "crit_dcat": "DCAT-AP Konformität",
+        
+        "crit_license": "Lizenz vorhanden",
+        "crit_lic_vocab": "Standard-Lizenz (Vokabular)",
+        "crit_access_res": "Zugangsbeschränkung",
+        "crit_access_vocab": "Standard-Zugangsbegriff",
         "crit_contact": "Kontaktangabe vollständig",
+        "crit_publisher": "Herausgeber angegeben",
+        
         "crit_rights": "Nutzungsrechte definiert",
-        "crit_dates": "Erstellungs-/Änderungsdatum"
+        "crit_filesize": "Dateigrössen angegeben",
+        "crit_issue": "Erstellungsdatum",
+        "crit_mod": "Änderungsdatum"
     },
     "fr": {
         "app_title": "OFAG Tableau de bord Qualité des Métadonnées 🏆",
@@ -135,31 +152,48 @@ TRANSLATIONS = {
         "help_score_desc": """
         C'est un **Système de Points**. Vous gagnez des points en faisant *plus*.
         
-        * **Retrouvabilité:** Mots-clés, Catégories
-        * **Accessibilité:** Liens fonctionnels
-        * **Interopérabilité:** CSV/JSON
-        * **Réutilisabilité:** Licence ouverte, Contact
+        * **Retrouvabilité:** Mots-clés, Catégories, Géographie, Temps
+        * **Accessibilité:** Liens fonctionnels, Téléchargements directs
+        * **Interopérabilité:** Formats ouverts, DCAT-AP
+        * **Réutilisabilité:** Licences, Contact, Éditeur
         * **Contextualité:** Dates, Droits
         """,
-        "help_score_goal": "🎯 **Objectif:** Maximiser les points (High Score).",
+        "help_score_goal": "🚀 **Objectif:** Maximiser les points (High Score).",
 
-        # Calculator Table
+        # Calculator Table Headers
         "help_calc_title": "🧮 Calculateur de Score",
         "help_table_dim": "Dimension",
         "help_table_crit": "Critère",
         "help_table_pts": "Points",
         
-        # Criteria
+        # Detailed Scoring Criteria
         "crit_keywords": "Mots-clés fournis",
         "crit_themes": "Catégories fournies",
+        "crit_geo": "Couverture géographique",
+        "crit_time": "Couverture temporelle",
+        
         "crit_access": "URL d'accès fonctionnelle",
         "crit_download": "URL de téléchargement fournie",
+        "crit_download_valid": "URL de téléchargement fonctionnelle",
+        
+        "crit_format": "Format déclaré",
+        "crit_media": "Type de média déclaré",
+        "crit_vocab": "Vocabulaire contrôlé (Format)",
         "crit_openfmt": "Format ouvert (CSV, etc.)",
         "crit_machine": "Lisible par machine",
-        "crit_license": "Licence standard ouverte",
+        "crit_dcat": "Conformité DCAT-AP",
+        
+        "crit_license": "Licence fournie",
+        "crit_lic_vocab": "Licence standard (Vocabulaire)",
+        "crit_access_res": "Restriction d'accès",
+        "crit_access_vocab": "Terme d'accès standard",
         "crit_contact": "Contact complet",
+        "crit_publisher": "Éditeur déclaré",
+        
         "crit_rights": "Droits d'utilisation définis",
-        "crit_dates": "Date de création/modification"
+        "crit_filesize": "Taille de fichier déclarée",
+        "crit_issue": "Date de création",
+        "crit_mod": "Date de modification"
     },
     "it": {
         "app_title": "UFAG Dashboard Qualità Metadati 🏆",
@@ -212,31 +246,48 @@ TRANSLATIONS = {
         "help_score_desc": """
         Questo è un **Sistema a Punti**. Ottieni punti facendo *di più*.
         
-        * **Reperibilità:** Parole chiave, Categorie
-        * **Accessibilità:** Link funzionanti
-        * **Interoperabilità:** CSV/JSON
-        * **Riutilizzabilità:** Licenza aperta, Contatto
+        * **Reperibilità:** Parole chiave, Categorie, Geografia, Tempo
+        * **Accessibilità:** Link funzionanti, Download diretti
+        * **Interoperabilità:** Formati aperti, DCAT-AP
+        * **Riutilizzabilità:** Licenze, Contatto, Editore
         * **Contestualità:** Date, Diritti
         """,
-        "help_score_goal": "🎯 **Obiettivo:** Massimizzare i punti (Punteggio Alto).",
+        "help_score_goal": "🚀 **Obiettivo:** Massimizzare i punti (Punteggio Alto).",
 
-        # Calculator Table
+        # Calculator Table Headers
         "help_calc_title": "🧮 Calcolatore del Punteggio",
         "help_table_dim": "Dimensione",
         "help_table_crit": "Criterio",
         "help_table_pts": "Punti",
         
-        # Criteria
+        # Detailed Scoring Criteria
         "crit_keywords": "Parole chiave fornite",
         "crit_themes": "Categorie fornite",
+        "crit_geo": "Copertura geografica",
+        "crit_time": "Copertura temporale",
+        
         "crit_access": "URL di accesso funzionante",
         "crit_download": "URL di download fornito",
+        "crit_download_valid": "URL di download funzionante",
+        
+        "crit_format": "Formato dichiarato",
+        "crit_media": "Tipo di supporto dichiarato",
+        "crit_vocab": "Vocabolario controllato (Formato)",
         "crit_openfmt": "Formato aperto (CSV, ecc.)",
         "crit_machine": "Leggibile da macchina",
-        "crit_license": "Licenza standard aperta",
+        "crit_dcat": "Conformità DCAT-AP",
+        
+        "crit_license": "Licenza fornita",
+        "crit_lic_vocab": "Licenza standard (Vocabolario)",
+        "crit_access_res": "Restrizione di accesso",
+        "crit_access_vocab": "Termine di accesso standard",
         "crit_contact": "Contatto completo",
+        "crit_publisher": "Editore dichiarato",
+        
         "crit_rights": "Diritti di utilizzo definiti",
-        "crit_dates": "Data di creazione/modifica"
+        "crit_filesize": "Dimensione file dichiarata",
+        "crit_issue": "Data di creazione",
+        "crit_mod": "Data di modifica"
     },
     "en": {
         "app_title": "FOAG Metadata Quality Dashboard 🏆",
@@ -290,30 +341,47 @@ TRANSLATIONS = {
         This is a **Points System**. You gain points for doing *more*.
         Based on the `opendata.swiss` quality model.
         
-        * **Findability:** Keywords, Categories
-        * **Accessibility:** Working Links
-        * **Interoperability:** CSV/JSON
-        * **Reusability:** Open License, Contact
+        * **Findability:** Keywords, Categories, Geo, Time
+        * **Accessibility:** Working Links, Direct Downloads
+        * **Interoperability:** Open Formats, DCAT-AP
+        * **Reusability:** Licenses, Contact, Publisher
         * **Contextuality:** Dates, Rights
         """,
-        "help_score_goal": "🎯 **Goal:** Maximize points (High Score).",
+        "help_score_goal": "🚀 **Goal:** Maximize points (High Score).",
 
-        # Calculator Table
+        # Calculator Table Headers
         "help_calc_title": "🧮 Scoring Calculator",
         "help_table_dim": "Dimension",
         "help_table_crit": "Criteria",
         "help_table_pts": "Points",
         
-        # Criteria
+        # Detailed Scoring Criteria
         "crit_keywords": "Keywords provided",
         "crit_themes": "Categories provided",
+        "crit_geo": "Geographical Coverage",
+        "crit_time": "Temporal Coverage",
+        
         "crit_access": "Access URL works",
         "crit_download": "Download URL provided",
+        "crit_download_valid": "Download URL works",
+        
+        "crit_format": "Format declared",
+        "crit_media": "Media Type declared",
+        "crit_vocab": "Controlled Vocabulary (Format)",
         "crit_openfmt": "Open Format (CSV, etc.)",
         "crit_machine": "Machine Readable",
-        "crit_license": "Open Standard License",
+        "crit_dcat": "DCAT-AP Compliance",
+        
+        "crit_license": "License provided",
+        "crit_lic_vocab": "Standard License (Vocabulary)",
+        "crit_access_res": "Access Restriction",
+        "crit_access_vocab": "Standard Access Term",
         "crit_contact": "Contact Point provided",
+        "crit_publisher": "Publisher declared",
+        
         "crit_rights": "Rights defined",
-        "crit_dates": "Creation/Modification Dates"
+        "crit_filesize": "File size declared",
+        "crit_issue": "Issue Date",
+        "crit_mod": "Modification Date"
     }
 }
