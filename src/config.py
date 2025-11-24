@@ -8,9 +8,16 @@ class Settings(BaseSettings):
     RAW_DATA_FILE: Path = DATA_DIR / "processed" / "datasets.json"
     DB_URL: str | None = None
 
-    # --- Scoring Weights ---
-    # These defaults mirror the opendata.swiss logic but allow override via .env
+    # --- Application Settings ---
+    DEBUG_MODE: bool = False
+    # Control concurrency for URL checking to avoid DOS protection triggers
+    ASYNC_PER_DOMAIN: int = 5
     
+    # Identification & Throttling
+    USER_AGENT: str = "BLW Metadata Quality Monitor (contact: kompetenzzentrumdigitaletransformation@blw.admin.ch)"
+    URL_CHECK_INTERVAL_DAYS: int = 180
+
+    # --- Scoring Weights (FAIRC) ---
     # Findability
     WEIGHT_FINDABILITY_KEYWORDS: int = 30
     WEIGHT_FINDABILITY_CATEGORIES: int = 30
@@ -44,20 +51,14 @@ class Settings(BaseSettings):
     WEIGHT_CONTEXT_ISSUE_DATE: int = 5
     WEIGHT_CONTEXT_MODIFICATION_DATE: int = 5
 
-    # --- Application Settings ---
-    DEBUG_MODE: bool = False
-    # Control concurrency for URL checking to avoid DOS protection triggers
-    ASYNC_PER_DOMAIN: int = 1 
-
     model_config = SettingsConfigDict(env_file=".env", env_file_encoding="utf-8")
 
-def model_post_init(self, __context):
+    def model_post_init(self, __context):
         """
         Automatically set the DB_URL to an absolute path inside the data/ folder
         if it wasn't provided in the .env file.
         """
         if self.DB_URL is None:
-            # On Linux (Posit), absolute paths need 4 slashes: sqlite:////home/...
             self.DB_URL = f"sqlite:///{self.DATA_DIR.absolute()}/qa.db"
 
 settings = Settings()
