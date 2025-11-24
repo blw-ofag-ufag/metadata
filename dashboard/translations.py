@@ -64,7 +64,7 @@ TRANSLATIONS = {
         * **Wiederverwendbarkeit:** Lizenzen, Kontakt, Herausgeber
         * **Kontextualität:** Datumsangaben, Rechte
         """,
-        "help_score_goal": "🚀 **Ziel:** Punkte maximieren (High Score).",
+        "help_score_goal": "🎯 **Ziel:** Punkte maximieren (High Score).",
 
         # Calculator Table Headers
         "help_calc_title": "🧮 Score-Rechner",
@@ -158,7 +158,7 @@ TRANSLATIONS = {
         * **Réutilisabilité:** Licences, Contact, Éditeur
         * **Contextualité:** Dates, Droits
         """,
-        "help_score_goal": "🚀 **Objectif:** Maximiser les points (High Score).",
+        "help_score_goal": "🎯 **Objectif:** Maximiser les points (High Score).",
 
         # Calculator Table Headers
         "help_calc_title": "🧮 Calculateur de Score",
@@ -252,7 +252,7 @@ TRANSLATIONS = {
         * **Riutilizzabilità:** Licenze, Contatto, Editore
         * **Contestualità:** Date, Diritti
         """,
-        "help_score_goal": "🚀 **Obiettivo:** Massimizzare i punti (Punteggio Alto).",
+        "help_score_goal": "🎯 **Obiettivo:** Massimizzare i punti (Punteggio Alto).",
 
         # Calculator Table Headers
         "help_calc_title": "🧮 Calcolatore del Punteggio",
@@ -347,7 +347,7 @@ TRANSLATIONS = {
         * **Reusability:** Licenses, Contact, Publisher
         * **Contextuality:** Dates, Rights
         """,
-        "help_score_goal": "🚀 **Goal:** Maximize points (High Score).",
+        "help_score_goal": "🎯 **Goal:** Maximize points (High Score).",
 
         # Calculator Table Headers
         "help_calc_title": "🧮 Scoring Calculator",
