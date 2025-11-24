@@ -146,6 +146,7 @@ class Distribution(Base):
     access_url: Mapped[str] = mapped_column(String, nullable=True)
     download_url: Mapped[str] = mapped_column(String, nullable=True)
     format_type: Mapped[str] = mapped_column(String, nullable=True)
+    media_type: Mapped[str] = mapped_column(String, nullable=True)
     license_id: Mapped[str] = mapped_column(String, nullable=True)
     
     # Audit results for this specific distribution (e.g., link status)
