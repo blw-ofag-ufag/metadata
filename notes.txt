@@ -1,5 +1,0 @@
-Comment: A quick note on the 30 auto-awarded points for dcat_ap_ch_conformity:
-
-This specific indicator is designed to check if the dataset's metadata is 100% compliant with the official Swiss DCAT-AP-CH specification. This is a very complex validation that requires a dedicated "SHACL" validator, which is not part of this script's simple checks (we mainly check for presence of keys and if URLs work).
-
-Because we don't perform this deep check, we auto-award the 30 points. This matches the behavior of the data_loader repository we based this on, which hardcodes this value to True, and ensures we don't unfairly lower a dataset's score.
