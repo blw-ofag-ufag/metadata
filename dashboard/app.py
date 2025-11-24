@@ -152,7 +152,7 @@ tab1, tab2, tab3 = st.tabs([T["tab_worklist"], T["tab_overview"], T["tab_inspect
 with tab1:
     st.markdown(f"### {T['tab_worklist']}")
     
-    # Logic: Prioritize items with Schema Violations or Low Quality
+    # 1. Logic: Prioritize items with Schema Violations or Low Quality
     def categorize_severity(row):
         if row['schema_violations_count'] > 0:
             return T["severity_high"]
@@ -162,20 +162,37 @@ with tab1:
 
     worklist_df = filtered_df.copy()
     worklist_df['severity'] = worklist_df.apply(categorize_severity, axis=1)
+
+    # 2. NEW LOGIC: Create a display column for violations
+    # This allows conditional formatting (Checkmark vs Siren)
+    def format_violations(count):
+        if count == 0:
+            return f"0 ✅" # Green check for zero errors
+        else:
+            return f"{count} 🚨" # Siren for errors
+
+    worklist_df['violations_display'] = worklist_df['schema_violations_count'].apply(format_violations)
     
-    # Columns to display
-    display_cols = ['severity', 'display_title', 'schema_violations_count', 'input_quality_score', 'id']
+    # 3. Update columns to display (swap raw count for display column)
+    display_cols = ['severity', 'display_title', 'violations_display', 'input_quality_score', 'id']
     
     st.dataframe(
         worklist_df[display_cols],
         column_config={
             "severity": st.column_config.TextColumn(T["col_severity"]),
             "display_title": st.column_config.TextColumn(T["col_title"], width="medium"),
-            "schema_violations_count": st.column_config.NumberColumn(T["col_violations"], format="%d 🚨"),
+            
+            # UPDATED CONFIGURATION
+            "violations_display": st.column_config.TextColumn(
+                T["col_violations"], 
+                help="Schema validation errors"
+            ),
+            
             "input_quality_score": st.column_config.ProgressColumn(
                 T["col_score"], 
                 format="%.0f", 
                 min_value=0, 
+                # Dynamic max value based on data
                 max_value=float(worklist_df['input_quality_score'].max()) if not worklist_df.empty else 100
             ),
             "id": st.column_config.TextColumn(T["col_id"], width="small", help="DCAT Identifier")
