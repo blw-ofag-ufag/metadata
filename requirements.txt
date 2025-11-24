@@ -4,3 +4,8 @@ requests
 pytest
 pytest-mock
 click
+pydantic>=2.0
+pydantic-settings
+sqlalchemy
+aiohttp
+pyyaml
