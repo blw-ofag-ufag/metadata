@@ -21,7 +21,6 @@ from src.config import settings
 st.set_page_config(page_title="BLW Metadata Dashboard", layout="wide", page_icon="🏆")
 
 # --- CUSTOM CSS FOR TOP RIGHT BUTTONS ---
-# added CSS to prevent text wrapping in buttons and reduce padding
 st.markdown("""
     <style>
     /* Aligns buttons vertically with the title */
@@ -97,7 +96,6 @@ def set_lang(code):
     st.session_state.lang = code
 
 # Layout: Title (Left) vs Buttons (Right)
-# Adjusted Ratio slightly to give buttons more breathing room (from [6,1,2] to [6, 0.5, 2.5])
 col_header, col_spacer, col_lang = st.columns([6, 0.5, 2.5])
 
 # Language Buttons
@@ -223,15 +221,10 @@ with tab3:
         selected_id = dataset_map[selected_display]
         record = filtered_df[filtered_df['id'] == selected_id].iloc[0]
         
-        sc1, sc2, sc3 = st.columns([1, 3, 1])
-        with sc1:
-            score = record['input_quality_score']
-            if score > 10000: st.success(f"Score: {score:.0f}")
-            elif score > 5000: st.warning(f"Score: {score:.0f}")
-            else: st.error(f"Score: {score:.0f}")
-        with sc2:
-            st.subheader(record['display_title'])
-            st.caption(f"ID: {record['id']}")
+        # UPDATED: Removed the "Internal Score" column (sc1). 
+        # Now simply displaying the Title and ID cleanly.
+        st.subheader(record['display_title'])
+        st.caption(f"ID: {record['id']}")
             
         st.divider()
         col_d1, col_d2 = st.columns(2)
@@ -247,8 +240,8 @@ with tab3:
         with col_d2:
             st.markdown("**Quality Details:**")
             if 'swiss_score' in record and record['swiss_score'] > 0:
-                 st.info(f"Swiss FAIRC Score: {record['swiss_score']:.0f} / 225")
-                 st.progress(min(record['swiss_score'] / 225.0, 1.0))
+                 # UPDATED: Removed st.progress() and corrected the denominator to 405
+                 st.info(f"FAIRC Score: {record['swiss_score']:.0f} / 405")
             else:
                  st.info("Deep quality checks pending.")
 
