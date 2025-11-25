@@ -226,11 +226,9 @@ with tab3:
     st.markdown(f"### {T['tab_inspector']}")
 
     # --- SMART SELECTION LAYOUT ---
-    # 1. Search Bar with Clear Button
     col_search, col_clear = st.columns([5, 1])
     
     with col_search:
-        # The key links this widget to st.session_state.inspector_search
         search_query = st.text_input(
             "Filter", 
             key="inspector_search",
@@ -239,12 +237,9 @@ with tab3:
         )
         
     with col_clear:
-        # UPDATED: We use on_click=clear_search
-        # This ensures the state is cleared BEFORE the script reruns, 
-        # preventing the StreamlitAPIException.
         st.button(S_TXT["clear"], type="secondary", width="stretch", on_click=clear_search)
 
-    # 2. Filter Logic
+    # Filter Logic
     if search_query:
         subset = filtered_df[
             filtered_df['display_title'].str.contains(search_query, case=False, na=False) | 
@@ -258,15 +253,16 @@ with tab3:
     else:
         subset = filtered_df
 
-    # 3. Clean Dropdown (TITLE ONLY)
-    # We map ID -> Title for display. The dropdown returns the ID.
+    # Selectbox
     if not subset.empty:
         dataset_map = {row['id']: row['display_title'] for _, row in subset.iterrows()}
         
+        # UPDATED: Added specific key to prevent tab switching on selection
         selected_id = st.selectbox(
             T["inspector_select"], 
             options=dataset_map.keys(), 
-            format_func=lambda x: dataset_map[x] # Only shows Title!
+            format_func=lambda x: dataset_map[x],
+            key="inspector_dataset_selector" 
         )
 
         # --- RECORD DISPLAY ---
@@ -275,7 +271,7 @@ with tab3:
             
             st.divider()
             
-            # Updated Header: ID top, Title Bold below
+            # Header
             st.caption("Dataset ID")
             st.markdown(f"`{record['id']}`")
             st.markdown(f"**{record['display_title']}**")
@@ -298,10 +294,8 @@ with tab3:
                 st.markdown("**Quality Details:**")
                 
                 if 'swiss_score' in record and record['swiss_score'] > 0:
-                     # Score is now inside the Quality Details column
                      st.info(f"**FAIRC Score:** {record['swiss_score']:.0f} / 405")
                      
-                     # Detailed Breakdown
                      st.markdown(f"""
                      * **Findability:** {record.get('findability_score', 0)}
                      * **Accessibility:** {record.get('accessibility_score', 0)}
