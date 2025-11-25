@@ -84,13 +84,15 @@ col_header, col_spacer, col_lang = st.columns([6, 1, 2])
 # Language Buttons
 with col_lang:
     b_de, b_fr, b_it, b_en = st.columns(4)
-    if b_de.button("DE", type="primary" if st.session_state.lang == 'de' else "secondary", use_container_width=True):
+    
+    # UPDATED: Replaced `use_container_width=True` with `width="stretch"` for all buttons
+    if b_de.button("DE", type="primary" if st.session_state.lang == 'de' else "secondary", width="stretch"):
         set_lang('de'); st.rerun()
-    if b_fr.button("FR", type="primary" if st.session_state.lang == 'fr' else "secondary", use_container_width=True):
+    if b_fr.button("FR", type="primary" if st.session_state.lang == 'fr' else "secondary", width="stretch"):
         set_lang('fr'); st.rerun()
-    if b_it.button("IT", type="primary" if st.session_state.lang == 'it' else "secondary", use_container_width=True):
+    if b_it.button("IT", type="primary" if st.session_state.lang == 'it' else "secondary", width="stretch"):
         set_lang('it'); st.rerun()
-    if b_en.button("EN", type="primary" if st.session_state.lang == 'en' else "secondary", use_container_width=True):
+    if b_en.button("EN", type="primary" if st.session_state.lang == 'en' else "secondary", width="stretch"):
         set_lang('en'); st.rerun()
 
 lang_code = st.session_state.lang
@@ -145,6 +147,7 @@ with tab1:
     worklist_df['severity'] = worklist_df.apply(categorize_severity, axis=1)
     worklist_df['violations_display'] = worklist_df['schema_violations_count'].apply(format_violations)
     
+    # UPDATED: Replaced `use_container_width=True` with `width="stretch"`
     st.dataframe(
         worklist_df[['severity', 'display_title', 'violations_display', 'input_quality_score', 'id']],
         column_config={
@@ -158,7 +161,7 @@ with tab1:
             "id": st.column_config.TextColumn(T["col_id"], width="small", help="DCAT Identifier")
         },
         hide_index=True,
-        use_container_width=True
+        width="stretch" 
     )
 
 # --- TAB 2: OVERVIEW ---
