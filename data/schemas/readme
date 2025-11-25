@@ -1,10 +1,13 @@
-this directory contains the schemas for the four relevant categories
+this directory contains the schemas for the four relevant json objects
 - dataset
-- data catalogue
+- data service
+- catalog
+- dataset series.
 
+Datasets are requiered to contain at the minimum a title, a description, an identifier, the publisher, the issue date, the status, a classification and a declaration concerning personal data. Further information can be shared such as metadata on how to use the data, who to contact, how often it is updated, when it was modified and if the data set must be archived.
+Data services are requiered to contain at the minimum a title, a description, an identifier, the publisher, the issue date, the status, the served datasets, ean endpoint, and the access rights. 
+Distributions are treated as integral part of datasets. To add an additional distribution to a dataset, you need to use PUT on the dataset.
+Data services serve datasets.
+data catalogs are at the moment not relevant for pushing to other plattforms as we push datasets or data services.
+Dataset series allows combining datasets. Thus, we are able to be consistent with businesscases such as combining datasets to reports on agricultural market data (agrarmarktdaten.ch) or political reports (i.e. Agrarbericht).
 
-and roles.
-
-these are among other thinfs relevant to be able to push to i14y and opendata.swiss
-
-TBC
