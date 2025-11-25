@@ -11,8 +11,10 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 # Import static translations
 from dashboard.translations import TRANSLATIONS
 
-# Import settings (to get DB_URL and Weights)
+# Import settings and models
 from src.config import settings
+from src.models import DatasetInput 
+from src.logic import QualityScorer
 
 # ---------------------------------------------------------------------------
 # 1. Helper Functions & Setup
@@ -70,7 +72,8 @@ def load_data():
         df = pd.read_sql("SELECT * FROM datasets", engine)
         
         # Parse JSON columns
-        json_cols = ['title', 'description', 'keywords', 'themes', 'schema_violation_messages']
+        # FIX: Added 'contact_point' to this list to prevent Pydantic validation errors
+        json_cols = ['title', 'description', 'keywords', 'themes', 'contact_point', 'schema_violation_messages']
         for col in json_cols:
             if col in df.columns:
                 df[col] = df[col].apply(
@@ -242,7 +245,7 @@ with tab3:
     # Filter Logic
     if search_query:
         subset = filtered_df[
-            filtered_df['display_title'].str.contains(search_query, case=False, na=False) | 
+            filtered_df['display_title'].str.contains(search_query, case=False, na=False) |
             filtered_df['id'].str.contains(search_query, case=False, na=False)
         ]
         match_count = len(subset)
@@ -257,7 +260,7 @@ with tab3:
     if not subset.empty:
         dataset_map = {row['id']: row['display_title'] for _, row in subset.iterrows()}
         
-        # UPDATED: Added specific key to prevent tab switching on selection
+        # Use specific key to prevent tab switching on selection
         selected_id = st.selectbox(
             T["inspector_select"], 
             options=dataset_map.keys(), 
@@ -272,9 +275,9 @@ with tab3:
             st.divider()
             
             # Header
-            st.caption("Dataset ID")
-            st.markdown(f"`{record['id']}`")
+            st.caption(T["inspector_ds_title"])
             st.markdown(f"**{record['display_title']}**")
+            st.caption(f"ID: `{record['id']}`")
 
             st.divider()
             
@@ -282,16 +285,16 @@ with tab3:
             col_d1, col_d2 = st.columns(2)
             
             with col_d1:
-                st.markdown("**Schema Violations:**")
+                st.markdown(f"**{T['metric_violations']}:**")
                 if record['schema_violations_count'] > 0:
                     msgs = record.get('schema_violation_messages', [])
                     if isinstance(msgs, list):
                         for msg in msgs: st.error(f"• {msg}")
                 else:
-                    st.success("No violations.")
+                    st.success(T.get("inspector_no_data", "No violations.")) # Reuse or add specific "No violations" string
                     
             with col_d2:
-                st.markdown("**Quality Details:**")
+                st.markdown(f"**{T['inspector_details']}:**")
                 
                 if 'swiss_score' in record and record['swiss_score'] > 0:
                      st.info(f"**FAIRC Score:** {record['swiss_score']:.0f} / 405")
@@ -305,6 +308,79 @@ with tab3:
                      """)
                 else:
                      st.caption("Deep quality checks pending.")
+
+            # --- NEW: IMPROVEMENT RECOMMENDATIONS ---
+            st.divider()
+            st.markdown(f"#### {T['inspector_improve_title']}")
+            
+            # 1. Convert Pandas Row back to Pydantic for Logic processing
+            # We filter the dict to remove DB-only fields that might confuse the Pydantic model if strict
+            try:
+                # Convert Pandas Series to dict
+                record_dict = record.to_dict()
+                
+                # Helper to map DB snake_case back to Input aliases if necessary, 
+                # but DatasetInput is robust. We might need to map 'distributions' manually if it was JSON parsed.
+                # NOTE: distributions are currently NOT fetched by the simple SELECT * FROM datasets in load_data
+                # We need to fetch them if we want to run deep analysis on distributions
+                
+                # FIX: Fetch distributions for this dataset from the DB to accurately score
+                engine = get_db_engine()
+                dists_df = pd.read_sql(f"SELECT * FROM distributions WHERE dataset_id = '{record['id']}'", engine)
+                
+                # Map DB columns back to Input keys expected by DatasetInput (which uses aliases like dcat:accessURL)
+                # OR simply create DistributionInput objects from the DF rows and attach to record_dict
+                
+                # The Pydantic model expects 'dcat:distribution'.
+                # We need to reconstruct the list of dicts for distributions
+                dist_list = []
+                for _, d_row in dists_df.iterrows():
+                    dist_obj = {
+                        "dct:identifier": d_row['identifier'],
+                        "dcat:accessURL": d_row['access_url'],
+                        "dcat:downloadURL": d_row['download_url'],
+                        "dct:format": d_row['format_type'],
+                        "dcat:mediaType": d_row['media_type'],
+                        "dct:license": d_row['license_id'],
+                        # Inject statuses for scoring logic
+                        "access_url_status": d_row['access_url_status'],
+                        "download_url_status": d_row['download_url_status']
+                    }
+                    dist_list.append(dist_obj)
+                
+                record_dict['dcat:distribution'] = dist_list
+                
+                # Map other aliased fields if they are missing in record_dict (pandas uses DB col names)
+                record_dict['dct:identifier'] = record_dict['id']
+                record_dict['dct:title'] = record_dict['title']
+                record_dict['dct:description'] = record_dict['description']
+                record_dict['dcat:keyword'] = record_dict['keywords']
+                record_dict['dcat:theme'] = record_dict['themes']
+                record_dict['dct:publisher'] = record_dict['publisher']
+                record_dict['dcat:contactPoint'] = record_dict['contact_point']
+                record_dict['dct:issued'] = record_dict['issued']
+                record_dict['dct:modified'] = record_dict['modified']
+                record_dict['dct:accessRights'] = record_dict['access_rights']
+                
+                ds_input = DatasetInput(**record_dict)
+                
+                # 2. Run Analysis
+                scorer = QualityScorer()
+                gaps = scorer.analyze_scoring_gaps(ds_input)
+                
+                if not gaps:
+                    st.balloons()
+                    st.success(T['inspector_perfect_score'])
+                else:
+                    st.caption(T['inspector_improve_desc'])
+                    for gap in gaps:
+                        # Get translated message using the key from logic
+                        msg = T.get(gap['msg_key'], gap['msg_key'])
+                        pts = f"+{gap['points']}" if isinstance(gap['points'], int) else "Fix"
+                        st.warning(f"**{gap['dim']}**: {msg} ({pts})")
+                        
+            except Exception as e:
+                st.error(f"Could not generate recommendations: {e}")
 
             with st.expander(T["inspector_raw"]):
                 raw_view = record.to_dict()

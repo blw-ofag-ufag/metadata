@@ -242,7 +242,86 @@ class QualityScorer:
         return math.floor(score)
 
     # ==========================================================================
-    # 3. UTILITIES
+    # 3. IMPROVEMENT ANALYSIS
+    # ==========================================================================
+
+    def analyze_scoring_gaps(self, ds: DatasetInput) -> List[dict]:
+        """
+        Analyzes a dataset and returns a list of actionable improvements 
+        to increase the FAIRC score.
+        
+        Returns:
+            List of dicts: [{'msg_key': 'msg_missing_keywords', 'points': 30, 'dimension': 'Findability'}]
+        """
+        gaps = []
+
+        # --- 1. Findability ---
+        if not ds.keywords:
+            gaps.append({"msg_key": "msg_missing_keywords", "points": settings.WEIGHT_FINDABILITY_KEYWORDS, "dim": "Findability"})
+        
+        if not ds.themes:
+            gaps.append({"msg_key": "msg_missing_themes", "points": settings.WEIGHT_FINDABILITY_CATEGORIES, "dim": "Findability"})
+            
+        if not (getattr(ds, "spatial", None) or getattr(ds, "dct_spatial", None)):
+            gaps.append({"msg_key": "msg_missing_geo", "points": settings.WEIGHT_FINDABILITY_GEO_SEARCH, "dim": "Findability"})
+            
+        if not getattr(ds, "temporal", None):
+            gaps.append({"msg_key": "msg_missing_time", "points": settings.WEIGHT_FINDABILITY_TIME_SEARCH, "dim": "Findability"})
+
+        # --- 2. Accessibility ---
+        # Check for broken links (simplified check: if any link is broken, suggest fixing)
+        has_broken = False
+        missing_download = False
+        if ds.distributions:
+            for d in ds.distributions:
+                # Check Access URL
+                if not self._is_http_success(getattr(d, "access_url_status", None)):
+                    has_broken = True
+                # Check Download URL
+                if d.download_url:
+                    if not self._is_http_success(getattr(d, "download_url_status", None)):
+                        has_broken = True
+                else:
+                    missing_download = True
+        
+        if has_broken:
+            gaps.append({"msg_key": "msg_broken_links", "points": "Variable", "dim": "Accessibility"})
+        if missing_download:
+            gaps.append({"msg_key": "msg_missing_download", "points": settings.WEIGHT_ACCESSIBILITY_DOWNLOAD_URL, "dim": "Accessibility"})
+
+        # --- 3. Interoperability ---
+        # We check if the calculated score matches the MAX potential score for Interop
+        current_interop = self._score_interoperability(ds)
+        max_interop = (
+            settings.WEIGHT_INTEROP_FORMAT + 
+            settings.WEIGHT_INTEROP_MEDIA_TYPE + 
+            settings.WEIGHT_INTEROP_VOCABULARY + 
+            settings.WEIGHT_INTEROP_NON_PROPRIETARY + 
+            settings.WEIGHT_INTEROP_MACHINE_READABLE + 
+            settings.WEIGHT_INTEROP_DCAT_AP
+        )
+        
+        if current_interop < max_interop:
+             gaps.append({"msg_key": "msg_formats", "points": (max_interop - current_interop), "dim": "Interoperability"})
+
+        # --- 4. Reusability ---
+        # License Check
+        if not ds.distributions or not any(d.license_id for d in ds.distributions):
+             gaps.append({"msg_key": "msg_license", "points": settings.WEIGHT_REUSE_LICENSE, "dim": "Reusability"})
+        
+        # Contact Check
+        has_contact = ds.contact_point and (ds.contact_point.get("schema:name") or ds.contact_point.get("schema:email"))
+        if not has_contact:
+             gaps.append({"msg_key": "msg_contact", "points": settings.WEIGHT_REUSE_CONTACT_POINT, "dim": "Reusability"})
+
+        # --- 5. Contextuality ---
+        if not (ds.issued or ds.modified):
+             gaps.append({"msg_key": "msg_dates", "points": settings.WEIGHT_CONTEXT_ISSUE_DATE, "dim": "Contextuality"})
+
+        return gaps
+
+    # ==========================================================================
+    # 4. UTILITIES
     # ==========================================================================
 
     def _is_http_success(self, status_code: Any) -> bool:
