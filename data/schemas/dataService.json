@@ -8,10 +8,10 @@
         "dct:title",
         "dct:description",
         "dct:publisher",
-        "dcat:contactPoint",
         "dct:accessRights",
         "dcat:endpointURL",
-        "adms:status"
+        "adms:status",
+        "dcat:servesDataset"
     ],
     "properties": {
         "schema:image": {
