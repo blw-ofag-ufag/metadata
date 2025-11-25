@@ -35,7 +35,7 @@
   "prov:qualifiedAttribution": [
     {
       "prov:agent": "p-1YVS771WP",
-      "dcat:hadRole": "businessDataOwner"
+      "dcat:hadRole": "dataOwner"
     },
     {
       "prov:agent": "p-6693814",

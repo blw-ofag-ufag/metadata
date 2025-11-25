@@ -27,7 +27,7 @@
   "prov:qualifiedAttribution": [
     {
       "prov:agent": "p-1Y4L0Y450",
-      "dcat:hadRole": "businessDataOwner"
+      "dcat:hadRole": "dataOwner"
     }
   ],
   "adms:status": "workInProgress",

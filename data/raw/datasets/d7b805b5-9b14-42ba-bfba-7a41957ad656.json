@@ -43,7 +43,7 @@
       "prov:agent": "p-8397553",
       "schema:name": "Simon Hasler",
       "schema:email": "simon.hasler@blw.admin.ch",
-      "dcat:hadRole": "businessDataOwner"
+      "dcat:hadRole": "dataOwner"
     }
   ],
   "dct:issued": "2018-11-14",

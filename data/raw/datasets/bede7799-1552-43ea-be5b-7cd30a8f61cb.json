@@ -39,13 +39,13 @@
       "prov:agent": "p-8397553",
       "schema:name": "Simon Hasler",
       "schema:email": "simon.hasler@blw.admin.ch",
-      "dcat:hadRole": "businessDataOwner"
+      "dcat:hadRole": "dataOwner"
     },
     {
       "prov:agent": "p-1142659",
       "schema:name": "Claudia Blumenstein",
       "schema:email": "claudia.blumenstein@blw.admin.ch",
-      "dcat:hadRole": "businessDataOwner"
+      "dcat:hadRole": "dataOwner"
     }
   ],
   "dct:issued": "2017-11-21",
