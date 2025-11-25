@@ -28,10 +28,7 @@ st.markdown("""
         align-items: center;
     }
     
-    /* Fix for Language Buttons on small screens:
-       1. Prevent text from wrapping (D \n E)
-       2. Reduce padding so text fits in narrow columns
-    */
+    /* Fix for Language Buttons on small screens */
     div[data-testid="stButton"] button {
         white-space: nowrap !important;
         padding-left: 4px !important;
@@ -91,9 +88,17 @@ def load_data():
 # Initialize Session State
 if 'lang' not in st.session_state:
     st.session_state.lang = 'de'
+    
+# Initialize Inspector Search State
+if 'inspector_search' not in st.session_state:
+    st.session_state.inspector_search = ""
 
 def set_lang(code):
     st.session_state.lang = code
+
+def clear_search():
+    """Callback to clear search state."""
+    st.session_state.inspector_search = ""
 
 # Layout: Title (Left) vs Buttons (Right)
 col_header, col_spacer, col_lang = st.columns([6, 0.5, 2.5])
@@ -114,13 +119,14 @@ with col_lang:
 lang_code = st.session_state.lang
 T = TRANSLATIONS[lang_code]
 
-# Quick internal translation for the new search bar
-SEARCH_LABEL = {
-    "de": "🔍 Suchen (Titel oder ID)",
-    "fr": "🔍 Rechercher (Titre ou ID)",
-    "it": "🔍 Cerca (Titolo o ID)",
-    "en": "🔍 Search (Title or ID)"
+# Quick internal translation for search components
+SEARCH_LABELS = {
+    "de": {"ph": "Filter nach Titel oder ID...", "clear": "Filter löschen"},
+    "fr": {"ph": "Filtrer par titre ou ID...", "clear": "Effacer"},
+    "it": {"ph": "Filtra per titolo o ID...", "clear": "Cancellare"},
+    "en": {"ph": "Filter by Title or ID...", "clear": "Clear Filter"}
 }
+S_TXT = SEARCH_LABELS.get(lang_code, SEARCH_LABELS["en"])
 
 with col_header:
     st.title(T["app_title"])
@@ -219,80 +225,98 @@ with tab2:
 with tab3:
     st.markdown(f"### {T['tab_inspector']}")
 
-    # --- SEARCH & SELECTION LOGIC ---
+    # --- SMART SELECTION LAYOUT ---
+    # 1. Search Bar with Clear Button
+    col_search, col_clear = st.columns([5, 1])
     
-    search_query = st.text_input(SEARCH_LABEL.get(lang_code, "Search"), placeholder="ID or Title...")
+    with col_search:
+        # The key links this widget to st.session_state.inspector_search
+        search_query = st.text_input(
+            "Filter", 
+            key="inspector_search",
+            placeholder=S_TXT["ph"], 
+            label_visibility="collapsed"
+        )
+        
+    with col_clear:
+        # UPDATED: We use on_click=clear_search
+        # This ensures the state is cleared BEFORE the script reruns, 
+        # preventing the StreamlitAPIException.
+        st.button(S_TXT["clear"], type="secondary", width="stretch", on_click=clear_search)
 
+    # 2. Filter Logic
     if search_query:
         subset = filtered_df[
             filtered_df['display_title'].str.contains(search_query, case=False, na=False) | 
             filtered_df['id'].str.contains(search_query, case=False, na=False)
         ]
+        match_count = len(subset)
+        if match_count == 0:
+            st.warning(T["inspector_no_data"])
+        else:
+            st.caption(f"{match_count} matches found.")
     else:
         subset = filtered_df
 
-    dataset_map = {row['id']: row['display_title'] for _, row in subset.iterrows()}
-    
-    if not dataset_map:
-        st.warning(T["inspector_no_data"])
-        selected_id = None
-    else:
+    # 3. Clean Dropdown (TITLE ONLY)
+    # We map ID -> Title for display. The dropdown returns the ID.
+    if not subset.empty:
+        dataset_map = {row['id']: row['display_title'] for _, row in subset.iterrows()}
+        
         selected_id = st.selectbox(
             T["inspector_select"], 
             options=dataset_map.keys(), 
-            format_func=lambda x: dataset_map[x]
+            format_func=lambda x: dataset_map[x] # Only shows Title!
         )
 
-    # --- RECORD DISPLAY ---
-    if selected_id:
-        record = filtered_df[filtered_df['id'] == selected_id].iloc[0]
-        
-        st.divider()
-        
-        # UPDATED: Simple Stacked Layout for ID and Title
-        st.caption("Dataset ID")
-        st.markdown(f"`{record['id']}`")
-        
-        st.caption("Dataset Title")
-        st.markdown(f"**{record['display_title']}**")
-
-        st.divider()
-        
-        # Content Columns
-        col_d1, col_d2 = st.columns(2)
-        
-        with col_d1:
-            st.markdown("**Schema Violations:**")
-            if record['schema_violations_count'] > 0:
-                msgs = record.get('schema_violation_messages', [])
-                if isinstance(msgs, list):
-                    for msg in msgs: st.error(f"• {msg}")
-            else:
-                st.success("No violations.")
-                
-        with col_d2:
-            st.markdown("**Quality Details:**")
+        # --- RECORD DISPLAY ---
+        if selected_id:
+            record = filtered_df[filtered_df['id'] == selected_id].iloc[0]
             
-            if 'swiss_score' in record and record['swiss_score'] > 0:
-                 # UPDATED: Moved Score here, directly under the header
-                 st.info(f"**FAIRC Score:** {record['swiss_score']:.0f} / 405")
-                 
-                 # Breakdown
-                 st.markdown(f"""
-                 * **Findability:** {record.get('findability_score', 0)}
-                 * **Accessibility:** {record.get('accessibility_score', 0)}
-                 * **Interoperability:** {record.get('interoperability_score', 0)}
-                 * **Reusability:** {record.get('reusability_score', 0)}
-                 * **Contextuality:** {record.get('contextuality_score', 0)}
-                 """)
-            else:
-                 st.caption("Deep quality checks pending.")
+            st.divider()
+            
+            # Updated Header: ID top, Title Bold below
+            st.caption("Dataset ID")
+            st.markdown(f"`{record['id']}`")
+            st.markdown(f"**{record['display_title']}**")
 
-        with st.expander(T["inspector_raw"]):
-            raw_view = record.to_dict()
-            if 'display_title' in raw_view: del raw_view['display_title']
-            if 'severity' in raw_view: del raw_view['severity']
-            st.json(raw_view)
+            st.divider()
+            
+            # Content Columns
+            col_d1, col_d2 = st.columns(2)
+            
+            with col_d1:
+                st.markdown("**Schema Violations:**")
+                if record['schema_violations_count'] > 0:
+                    msgs = record.get('schema_violation_messages', [])
+                    if isinstance(msgs, list):
+                        for msg in msgs: st.error(f"• {msg}")
+                else:
+                    st.success("No violations.")
+                    
+            with col_d2:
+                st.markdown("**Quality Details:**")
+                
+                if 'swiss_score' in record and record['swiss_score'] > 0:
+                     # Score is now inside the Quality Details column
+                     st.info(f"**FAIRC Score:** {record['swiss_score']:.0f} / 405")
+                     
+                     # Detailed Breakdown
+                     st.markdown(f"""
+                     * **Findability:** {record.get('findability_score', 0)}
+                     * **Accessibility:** {record.get('accessibility_score', 0)}
+                     * **Interoperability:** {record.get('interoperability_score', 0)}
+                     * **Reusability:** {record.get('reusability_score', 0)}
+                     * **Contextuality:** {record.get('contextuality_score', 0)}
+                     """)
+                else:
+                     st.caption("Deep quality checks pending.")
+
+            with st.expander(T["inspector_raw"]):
+                raw_view = record.to_dict()
+                if 'display_title' in raw_view: del raw_view['display_title']
+                if 'severity' in raw_view: del raw_view['severity']
+                st.json(raw_view)
 
 # --- TAB 4: HELP & METHODOLOGY ---
 with tab4:
