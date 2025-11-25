@@ -21,11 +21,29 @@ from src.config import settings
 st.set_page_config(page_title="BLW Metadata Dashboard", layout="wide", page_icon="🏆")
 
 # --- CUSTOM CSS FOR TOP RIGHT BUTTONS ---
+# added CSS to prevent text wrapping in buttons and reduce padding
 st.markdown("""
     <style>
     /* Aligns buttons vertically with the title */
     div[data-testid="column"] {
         align-items: center;
+    }
+    
+    /* Fix for Language Buttons on small screens:
+       1. Prevent text from wrapping (D \n E)
+       2. Reduce padding so text fits in narrow columns
+    */
+    div[data-testid="stButton"] button {
+        white-space: nowrap !important;
+        padding-left: 4px !important;
+        padding-right: 4px !important;
+        min-width: 0px !important;
+    }
+    
+    /* Ensure the text inside the button is centered and visible */
+    div[data-testid="stButton"] button p {
+        font-weight: bold;
+        margin: 0px;
     }
     </style>
     """, unsafe_allow_html=True)
@@ -79,13 +97,13 @@ def set_lang(code):
     st.session_state.lang = code
 
 # Layout: Title (Left) vs Buttons (Right)
-col_header, col_spacer, col_lang = st.columns([6, 1, 2])
+# Adjusted Ratio slightly to give buttons more breathing room (from [6,1,2] to [6, 0.5, 2.5])
+col_header, col_spacer, col_lang = st.columns([6, 0.5, 2.5])
 
 # Language Buttons
 with col_lang:
     b_de, b_fr, b_it, b_en = st.columns(4)
     
-    # UPDATED: Replaced `use_container_width=True` with `width="stretch"` for all buttons
     if b_de.button("DE", type="primary" if st.session_state.lang == 'de' else "secondary", width="stretch"):
         set_lang('de'); st.rerun()
     if b_fr.button("FR", type="primary" if st.session_state.lang == 'fr' else "secondary", width="stretch"):
@@ -147,7 +165,6 @@ with tab1:
     worklist_df['severity'] = worklist_df.apply(categorize_severity, axis=1)
     worklist_df['violations_display'] = worklist_df['schema_violations_count'].apply(format_violations)
     
-    # UPDATED: Replaced `use_container_width=True` with `width="stretch"`
     st.dataframe(
         worklist_df[['severity', 'display_title', 'violations_display', 'input_quality_score', 'id']],
         column_config={
@@ -161,7 +178,7 @@ with tab1:
             "id": st.column_config.TextColumn(T["col_id"], width="small", help="DCAT Identifier")
         },
         hide_index=True,
-        width="stretch" 
+        width="stretch"
     )
 
 # --- TAB 2: OVERVIEW ---
