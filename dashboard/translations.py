@@ -26,36 +26,6 @@ TRANSLATIONS = {
         "inspector_raw": "Rohdaten anzeigen",
         "inspector_details": "Qualitätsdetails",
         "inspector_no_data": "Keine Daten gefunden.",
-        "inspector_ds_title": "Datensatz-Titel",
-        
-        # Recommendations - Titles
-        "inspector_improve_title": "🚀 Verbesserungspotenzial",
-        "inspector_improve_desc": "Erfüllen Sie folgende Kriterien, um den Score zu maximieren:",
-        "inspector_perfect_score": "Perfekt! Dieser Datensatz erreicht die maximale Punktzahl.",
-        
-        # Recommendations - Messages (Strict Logic)
-        "msg_missing_keywords": "Stichworte hinzufügen (`dcat:keyword`)",
-        "msg_missing_themes": "Kategorien hinzufügen (`dcat:theme`)",
-        "msg_missing_geo": "Geografische Abdeckung angeben (`dct:spatial`)",
-        "msg_missing_time": "Zeitliche Abdeckung angeben (`dct:temporal`)",
-        "msg_broken_links": "Defekte Links reparieren (`dcat:accessURL` / `dcat:downloadURL`)",
-        "msg_missing_download": "Download-URL hinzufügen (`dcat:downloadURL`)",
-        "msg_formats": "Offene Formate verwenden (`dct:format`, `dcat:mediaType`)",
-        
-        "msg_license": "Lizenz angeben (`dct:license`)",
-        "msg_license_vocab": "Standard-Lizenz verwenden (opendata.swiss Vokabular)",
-        
-        "msg_contact": "Kontaktstelle erfassen (`dcat:contactPoint`)",
-        "msg_publisher": "Herausgeber angeben (`dct:publisher`)",
-        
-        "msg_access_rights": "Zugangsbeschränkung angeben (`dct:accessRights`)",
-        "msg_access_rights_vocab": "Standard-Zugangsbegriff verwenden (Public, etc.)",
-        
-        "msg_date_issued": "Erstellungsdatum angeben (`dct:issued`)",
-        "msg_date_modified": "Änderungsdatum angeben (`dct:modified`)",
-        
-        "msg_rights": "Nutzungsrechte angeben (`dct:rights`)",
-        "msg_byte_size": "Dateigröße angeben (`dcat:byteSize`)",
         
         # Charts / Severity
         "severity_high": "Hoch",
@@ -99,29 +69,34 @@ TRANSLATIONS = {
         "help_table_crit": "Kriterium",
         "help_table_pts": "Punkte",
         
-        "crit_keywords": "Stichworte vorhanden",
-        "crit_themes": "Kategorien vorhanden",
-        "crit_geo": "Geografische Abdeckung",
-        "crit_time": "Zeitliche Abdeckung",
-        "crit_access": "Access URL erreichbar",
-        "crit_download": "Download URL vorhanden",
-        "crit_download_valid": "Download URL erreichbar",
-        "crit_format": "Format angegeben",
-        "crit_media": "Media Type angegeben",
-        "crit_vocab": "Format/Media kontrolliert",
-        "crit_openfmt": "Offenes Format (CSV, etc.)",
+        # Detailed Scoring Criteria (Updated with Field Names)
+        "crit_keywords": "Stichworte vorhanden (`dcat:keyword`)",
+        "crit_themes": "Kategorien vorhanden (`dcat:theme`)",
+        "crit_geo": "Geografische Abdeckung (`dct:spatial`)",
+        "crit_time": "Zeitliche Abdeckung (`dct:temporal`)",
+        
+        "crit_access": "Access URL erreichbar (`dcat:accessURL`)",
+        "crit_download": "Download URL vorhanden (`dcat:downloadURL`)",
+        "crit_download_valid": "Download URL erreichbar (HTTP 200)",
+        
+        "crit_format": "Format angegeben (`dct:format`)",
+        "crit_media": "Media Type angegeben (`dcat:mediaType`)",
+        "crit_vocab": "Format/Media kontrolliert (Vokabular)",
+        "crit_openfmt": "Offenes Format (CSV, JSON, etc.)",
         "crit_machine": "Maschinenlesbar",
         "crit_dcat": "DCAT-AP Konformität",
-        "crit_license": "Lizenz vorhanden",
+        
+        "crit_license": "Lizenz vorhanden (`dct:license`)",
         "crit_lic_vocab": "Standard-Lizenz (Vokabular)",
-        "crit_access_res": "Zugangsbeschränkung",
+        "crit_access_res": "Zugangsbeschränkung (`dct:accessRights`)",
         "crit_access_vocab": "Standard-Zugangsbegriff",
-        "crit_contact": "Kontaktangabe vollständig",
-        "crit_publisher": "Herausgeber angegeben",
-        "crit_rights": "Nutzungsrechte definiert",
-        "crit_filesize": "Dateigrössen angegeben",
-        "crit_issue": "Erstellungsdatum",
-        "crit_mod": "Änderungsdatum"
+        "crit_contact": "Kontaktangabe vollständig (`dcat:contactPoint`)",
+        "crit_publisher": "Herausgeber angegeben (`dct:publisher`)",
+        
+        "crit_rights": "Nutzungsrechte definiert (`dct:rights`)",
+        "crit_filesize": "Dateigrössen angegeben (`dcat:byteSize`)",
+        "crit_issue": "Erstellungsdatum (`dct:issued`)",
+        "crit_mod": "Änderungsdatum (`dct:modified`)"
     },
     "fr": {
         "app_title": "OFAG Tableau de bord Qualité des Métadonnées 🏆",
@@ -143,36 +118,6 @@ TRANSLATIONS = {
         "inspector_raw": "Afficher les données brutes",
         "inspector_details": "Détails de qualité",
         "inspector_no_data": "Aucune donnée trouvée.",
-        "inspector_ds_title": "Titre du jeu de données",
-
-        # Recommendations
-        "inspector_improve_title": "🚀 Potentiel d'amélioration",
-        "inspector_improve_desc": "Remplissez les critères suivants pour maximiser le score :",
-        "inspector_perfect_score": "Parfait ! Ce jeu de données atteint le score maximal.",
-        
-        # Recommendation Messages
-        "msg_missing_keywords": "Ajouter des mots-clés (`dcat:keyword`)",
-        "msg_missing_themes": "Ajouter des catégories (`dcat:theme`)",
-        "msg_missing_geo": "Indiquer la couverture géographique (`dct:spatial`)",
-        "msg_missing_time": "Indiquer la couverture temporelle (`dct:temporal`)",
-        "msg_broken_links": "Réparer les liens cassés (`dcat:accessURL` / `dcat:downloadURL`)",
-        "msg_missing_download": "Ajouter une URL de téléchargement (`dcat:downloadURL`)",
-        "msg_formats": "Utiliser des formats ouverts (`dct:format`, `dcat:mediaType`)",
-        
-        "msg_license": "Indiquer une licence (`dct:license`)",
-        "msg_license_vocab": "Utiliser une licence standard (Vocabulaire)",
-        
-        "msg_contact": "Saisir le point de contact (`dcat:contactPoint`)",
-        "msg_publisher": "Indiquer l'éditeur (`dct:publisher`)",
-        
-        "msg_access_rights": "Indiquer les droits d'accès (`dct:accessRights`)",
-        "msg_access_rights_vocab": "Utiliser un terme d'accès standard (Public, etc.)",
-        
-        "msg_date_issued": "Indiquer la date de création (`dct:issued`)",
-        "msg_date_modified": "Indiquer la date de modification (`dct:modified`)",
-        
-        "msg_rights": "Indiquer les droits d'utilisation (`dct:rights`)",
-        "msg_byte_size": "Indiquer la taille du fichier (`dcat:byteSize`)",
         
         "severity_high": "Élevée",
         "severity_med": "Moyenne",
@@ -212,31 +157,36 @@ TRANSLATIONS = {
         "help_calc_title": "🧮 Calculateur de Score",
         "help_table_dim": "Dimension",
         "help_table_crit": "Critère",
-        "help_table_pts": "Punkte",
+        "help_table_pts": "Points",
         
-        "crit_keywords": "Mots-clés fournis",
-        "crit_themes": "Catégories fournies",
-        "crit_geo": "Couverture géographique",
-        "crit_time": "Couverture temporelle",
-        "crit_access": "URL d'accès fonctionnelle",
-        "crit_download": "URL de téléchargement fournie",
-        "crit_download_valid": "URL de téléchargement fonctionnelle",
-        "crit_format": "Format déclaré",
-        "crit_media": "Type de média déclaré",
+        # Detailed Scoring Criteria
+        "crit_keywords": "Mots-clés fournis (`dcat:keyword`)",
+        "crit_themes": "Catégories fournies (`dcat:theme`)",
+        "crit_geo": "Couverture géographique (`dct:spatial`)",
+        "crit_time": "Couverture temporelle (`dct:temporal`)",
+        
+        "crit_access": "URL d'accès fonctionnelle (`dcat:accessURL`)",
+        "crit_download": "URL de téléchargement fournie (`dcat:downloadURL`)",
+        "crit_download_valid": "URL de téléchargement fonctionnelle (HTTP 200)",
+        
+        "crit_format": "Format déclaré (`dct:format`)",
+        "crit_media": "Type de média déclaré (`dcat:mediaType`)",
         "crit_vocab": "Vocabulaire contrôlé (Format)",
         "crit_openfmt": "Format ouvert (CSV, etc.)",
         "crit_machine": "Lisible par machine",
         "crit_dcat": "Conformité DCAT-AP",
-        "crit_license": "Licence fournie",
+        
+        "crit_license": "Licence fournie (`dct:license`)",
         "crit_lic_vocab": "Licence standard (Vocabulaire)",
-        "crit_access_res": "Restriction d'accès",
+        "crit_access_res": "Restriction d'accès (`dct:accessRights`)",
         "crit_access_vocab": "Terme d'accès standard",
-        "crit_contact": "Contact complet",
-        "crit_publisher": "Éditeur déclaré",
-        "crit_rights": "Droits d'utilisation définis",
-        "crit_filesize": "Taille de fichier déclarée",
-        "crit_issue": "Date de création",
-        "crit_mod": "Date de modification"
+        "crit_contact": "Contact complet (`dcat:contactPoint`)",
+        "crit_publisher": "Éditeur déclaré (`dct:publisher`)",
+        
+        "crit_rights": "Droits d'utilisation définis (`dct:rights`)",
+        "crit_filesize": "Taille de fichier déclarée (`dcat:byteSize`)",
+        "crit_issue": "Date de création (`dct:issued`)",
+        "crit_mod": "Date de modification (`dct:modified`)"
     },
     "it": {
         "app_title": "UFAG Dashboard Qualità Metadati 🏆",
@@ -258,36 +208,6 @@ TRANSLATIONS = {
         "inspector_raw": "Mostra dati grezzi",
         "inspector_details": "Dettagli qualità",
         "inspector_no_data": "Nessun dato trovato.",
-        "inspector_ds_title": "Titolo del dataset",
-
-        # Recommendations
-        "inspector_improve_title": "🚀 Potenziale di miglioramento",
-        "inspector_improve_desc": "Soddisfare i seguenti criteri per massimizzare il punteggio:",
-        "inspector_perfect_score": "Perfetto! Questo dataset raggiunge il punteggio massimo.",
-        
-        # Recommendation Messages
-        "msg_missing_keywords": "Aggiungere parole chiave (`dcat:keyword`)",
-        "msg_missing_themes": "Aggiungere categorie (`dcat:theme`)",
-        "msg_missing_geo": "Indicare la copertura geografica (`dct:spatial`)",
-        "msg_missing_time": "Indicare la copertura temporale (`dct:temporal`)",
-        "msg_broken_links": "Riparare i link interrotti (`dcat:accessURL` / `dcat:downloadURL`)",
-        "msg_missing_download": "Aggiungere URL di download (`dcat:downloadURL`)",
-        "msg_formats": "Utilizzare formati aperti (`dct:format`, `dcat:mediaType`)",
-        
-        "msg_license": "Indicare una licenza (`dct:license`)",
-        "msg_license_vocab": "Utilizzare una licenza standard (Vocabolario)",
-        
-        "msg_contact": "Inserire il punto di contatto (`dcat:contactPoint`)",
-        "msg_publisher": "Indicare l'editore (`dct:publisher`)",
-        
-        "msg_access_rights": "Indicare i diritti di accesso (`dct:accessRights`)",
-        "msg_access_rights_vocab": "Utilizzare un termine di accesso standard (Public, etc.)",
-        
-        "msg_date_issued": "Indicare la data di creazione (`dct:issued`)",
-        "msg_date_modified": "Indicare la data di modifica (`dct:modified`)",
-        
-        "msg_rights": "Indicare i diritti d'uso (`dct:rights`)",
-        "msg_byte_size": "Indicare la dimensione del file (`dcat:byteSize`)",
         
         "severity_high": "Alta",
         "severity_med": "Media",
@@ -329,29 +249,34 @@ TRANSLATIONS = {
         "help_table_crit": "Criterio",
         "help_table_pts": "Punti",
         
-        "crit_keywords": "Parole chiave fornite",
-        "crit_themes": "Categorie fornite",
-        "crit_geo": "Copertura geografica",
-        "crit_time": "Copertura temporale",
-        "crit_access": "URL di accesso funzionante",
-        "crit_download": "URL di download fornito",
-        "crit_download_valid": "URL di download funzionante",
-        "crit_format": "Formato dichiarato",
-        "crit_media": "Tipo di supporto dichiarato",
+        # Detailed Scoring Criteria
+        "crit_keywords": "Parole chiave fornite (`dcat:keyword`)",
+        "crit_themes": "Categorie fornite (`dcat:theme`)",
+        "crit_geo": "Copertura geografica (`dct:spatial`)",
+        "crit_time": "Copertura temporale (`dct:temporal`)",
+        
+        "crit_access": "URL di accesso funzionante (`dcat:accessURL`)",
+        "crit_download": "URL di download fornito (`dcat:downloadURL`)",
+        "crit_download_valid": "URL di download funzionante (HTTP 200)",
+        
+        "crit_format": "Formato dichiarato (`dct:format`)",
+        "crit_media": "Tipo di supporto dichiarato (`dcat:mediaType`)",
         "crit_vocab": "Vocabolario controllato (Formato)",
         "crit_openfmt": "Formato aperto (CSV, ecc.)",
         "crit_machine": "Leggibile da macchina",
         "crit_dcat": "Conformità DCAT-AP",
-        "crit_license": "Licenza fornita",
+        
+        "crit_license": "Licenza fornita (`dct:license`)",
         "crit_lic_vocab": "Licenza standard (Vocabolario)",
-        "crit_access_res": "Restrizione di accesso",
+        "crit_access_res": "Restrizione di accesso (`dct:accessRights`)",
         "crit_access_vocab": "Termine di accesso standard",
-        "crit_contact": "Contatto completo",
-        "crit_publisher": "Editore dichiarato",
-        "crit_rights": "Diritti di utilizzo definiti",
-        "crit_filesize": "Dimensione file dichiarata",
-        "crit_issue": "Data di creazione",
-        "crit_mod": "Data di modifica"
+        "crit_contact": "Contatto completo (`dcat:contactPoint`)",
+        "crit_publisher": "Editore dichiarato (`dct:publisher`)",
+        
+        "crit_rights": "Diritti di utilizzo definiti (`dct:rights`)",
+        "crit_filesize": "Dimensione file dichiarata (`dcat:byteSize`)",
+        "crit_issue": "Data di creazione (`dct:issued`)",
+        "crit_mod": "Data di modifica (`dct:modified`)"
     },
     "en": {
         "app_title": "FOAG Metadata Quality Dashboard 🏆",
@@ -373,36 +298,6 @@ TRANSLATIONS = {
         "inspector_raw": "Show Raw Data",
         "inspector_details": "Quality Breakdown",
         "inspector_no_data": "No data found.",
-        "inspector_ds_title": "Dataset Title",
-
-        # Recommendations
-        "inspector_improve_title": "🚀 Improvement Opportunities",
-        "inspector_improve_desc": "Fulfill the following criteria to maximize your score:",
-        "inspector_perfect_score": "Perfect! This dataset achieves the maximum score.",
-        
-        # Recommendation Messages (Updated with Vocabulary)
-        "msg_missing_keywords": "Add Keywords (`dcat:keyword`)",
-        "msg_missing_themes": "Add Categories (`dcat:theme`)",
-        "msg_missing_geo": "Define Geographical Coverage (`dct:spatial`)",
-        "msg_missing_time": "Define Temporal Coverage (`dct:temporal`)",
-        "msg_broken_links": "Fix broken links (`dcat:accessURL` / `dcat:downloadURL`)",
-        "msg_missing_download": "Add Download URL (`dcat:downloadURL`)",
-        "msg_formats": "Use open, machine-readable formats (`dct:format`, `dcat:mediaType`)",
-        
-        "msg_license": "Add License (`dct:license`)",
-        "msg_license_vocab": "Use Standard License (Vocabulary)",
-        
-        "msg_contact": "Add Contact Point (`dcat:contactPoint`)",
-        "msg_publisher": "Add Publisher (`dct:publisher`)",
-        
-        "msg_access_rights": "Define Access Rights (`dct:accessRights`)",
-        "msg_access_rights_vocab": "Use Standard Access Term (Public, etc.)",
-        
-        "msg_date_issued": "Provide Issue Date (`dct:issued`)",
-        "msg_date_modified": "Provide Modification Date (`dct:modified`)",
-        
-        "msg_rights": "Define Usage Rights (`dct:rights`)",
-        "msg_byte_size": "Define File Size (`dcat:byteSize`)",
         
         "severity_high": "High",
         "severity_med": "Medium",
@@ -444,28 +339,33 @@ TRANSLATIONS = {
         "help_table_crit": "Criteria",
         "help_table_pts": "Points",
         
-        "crit_keywords": "Keywords provided",
-        "crit_themes": "Categories provided",
-        "crit_geo": "Geographical Coverage",
-        "crit_time": "Temporal Coverage",
-        "crit_access": "Access URL works",
-        "crit_download": "Download URL provided",
-        "crit_download_valid": "Download URL works",
-        "crit_format": "Format declared",
-        "crit_media": "Media Type declared",
+        # Detailed Scoring Criteria (Updated with Field Names)
+        "crit_keywords": "Keywords provided (`dcat:keyword`)",
+        "crit_themes": "Categories provided (`dcat:theme`)",
+        "crit_geo": "Geographical Coverage (`dct:spatial`)",
+        "crit_time": "Temporal Coverage (`dct:temporal`)",
+        
+        "crit_access": "Access URL works (`dcat:accessURL`)",
+        "crit_download": "Download URL provided (`dcat:downloadURL`)",
+        "crit_download_valid": "Download URL works (HTTP 200)",
+        
+        "crit_format": "Format declared (`dct:format`)",
+        "crit_media": "Media Type declared (`dcat:mediaType`)",
         "crit_vocab": "Controlled Vocabulary (Format)",
         "crit_openfmt": "Open Format (CSV, etc.)",
         "crit_machine": "Machine Readable",
         "crit_dcat": "DCAT-AP Compliance",
-        "crit_license": "License provided",
+        
+        "crit_license": "License provided (`dct:license`)",
         "crit_lic_vocab": "Standard License (Vocabulary)",
-        "crit_access_res": "Access Restriction",
+        "crit_access_res": "Access Restriction (`dct:accessRights`)",
         "crit_access_vocab": "Standard Access Term",
-        "crit_contact": "Contact Point provided",
-        "crit_publisher": "Publisher declared",
-        "crit_rights": "Rights defined",
-        "crit_filesize": "File size declared",
-        "crit_issue": "Issue Date",
-        "crit_mod": "Modification Date"
+        "crit_contact": "Contact Point provided (`dcat:contactPoint`)",
+        "crit_publisher": "Publisher declared (`dct:publisher`)",
+        
+        "crit_rights": "Rights defined (`dct:rights`)",
+        "crit_filesize": "File size declared (`dcat:byteSize`)",
+        "crit_issue": "Issue Date (`dct:issued`)",
+        "crit_mod": "Modification Date (`dct:modified`)"
     }
 }
