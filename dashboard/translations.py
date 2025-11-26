@@ -26,6 +26,7 @@ TRANSLATIONS = {
         "inspector_raw": "Rohdaten anzeigen",
         "inspector_details": "Qualitätsdetails",
         "inspector_no_data": "Keine Daten gefunden.",
+        "inspector_improvement": "Verbesserungspotenzial",
         
         # Charts / Severity
         "severity_high": "Hoch",
@@ -35,68 +36,69 @@ TRANSLATIONS = {
         "chart_top_errors": "Häufigste Validierungsfehler",
 
         # --- HELP PAGE CONTENT ---
-        "help_intro": """
-        **Kernkonzept:**
-        * 🚨 **Verstösse** messen die *Legalität* (Wurde eine Regel verletzt?)
-        * ⭐ **Score** misst die *Qualität* (Wie nützlich sind die Daten?)
-        """,
+        "help_intro": "Das Dashboard unterscheidet zwei Arten von Qualitätsproblemen:",
         
-        "help_vio_title": "🚨 Schema-Verstösse",
+        # Violations Section
+        "help_vio_title": "1. Schema-Verstösse (Pflicht)",
         "help_vio_desc": """
-        Dies sind **Binäre Fehler**. Entweder man besteht oder fällt durch.
-        Basierend auf dem offiziellen BLW JSON-Schema.
-        * **Fehlende ID**: `dct:identifier` ist leer.
-        * **Fehlender Kontakt**: Keine E-Mail angegeben.
-        * **Falsches Format**: Datum ist `2023/30/30` statt `YYYY-MM-DD`.
+        **Dies ist die Basis-Hygiene.** Ein Verstoss bedeutet, dass der Datensatz technisch ungültig ist oder gegen BLW-Regeln verstösst.
+        * **Auswirkung:** Datensätze mit Verstössen werden rot markiert.
+        * **Beispiele:** Fehlende ID, ungültiges Datumsformat, fehlender Kontakt.
         """,
-        "help_vio_goal": "🎯 **Ziel:** 0 Verstösse.",
+        "help_vio_goal": "🎯 **Ziel:** 0 Verstösse (Zwingend erforderlich).",
 
-        "help_score_title": "⭐ Qualitäts-Score (FAIRC)",
+        # Score Section
+        "help_score_title": "2. Qualitäts-Score (Kür)",
         "help_score_desc": """
-        Dies ist ein **Punktesystem**.
-        Sie erhalten Punkte, wenn Sie *mehr* tun.
+        **Dies ist ein Optimierungs-System (FAIRC).** Sobald das Schema validiert ist, können Sie Ihren Score verbessern, indem Sie die Daten nützlicher machen.
         
-        * **Auffindbarkeit:** Stichworte, Kategorien, Geografie, Zeit
-        * **Zugänglichkeit:** Funktionierende Links, Direktdownloads
-        * **Interoperabilität:** Offene Formate, DCAT-AP
-        * **Wiederverwendbarkeit:** Lizenzen, Kontakt, Herausgeber
-        * **Kontextualität:** Datumsangaben, Rechte
+        * Der maximale Score beträgt **405 Punkte**.
+        * Die Tabelle unten zeigt genau, wofür Punkte vergeben werden.
         """,
-        "help_score_goal": "🎯 **Ziel:** Punkte maximieren (High Score).",
+        "help_score_goal": "🎯 **Ziel:** Score maximieren (High Score).",
 
-        "help_calc_title": "🧮 Score-Rechner",
+        # Calculator Table Headers
+        "help_calc_title": "🧮 Wie wird der Score berechnet?",
         "help_table_dim": "Dimension",
         "help_table_crit": "Kriterium",
         "help_table_pts": "Punkte",
+        "help_table_info": "Info / Definition",
         
-        # Detailed Scoring Criteria (Updated with Field Names)
-        "crit_keywords": "Stichworte vorhanden (`dcat:keyword`)",
-        "crit_themes": "Kategorien vorhanden (`dcat:theme`)",
+        # Detailed Scoring Criteria
+        "crit_keywords": "Stichworte (`dcat:keyword`)",
+        "crit_themes": "Kategorien (`dcat:theme`)",
         "crit_geo": "Geografische Abdeckung (`dct:spatial`)",
         "crit_time": "Zeitliche Abdeckung (`dct:temporal`)",
         
-        "crit_access": "Access URL erreichbar (`dcat:accessURL`)",
-        "crit_download": "Download URL vorhanden (`dcat:downloadURL`)",
-        "crit_download_valid": "Download URL erreichbar (HTTP 200)",
+        "crit_access": "Access URL erreichbar",
+        "crit_download": "Download URL vorhanden",
+        "crit_download_valid": "Download URL erreichbar",
         
-        "crit_format": "Format angegeben (`dct:format`)",
-        "crit_media": "Media Type angegeben (`dcat:mediaType`)",
-        "crit_vocab": "Format/Media kontrolliert (Vokabular)",
-        "crit_openfmt": "Offenes Format (CSV, JSON, etc.)",
+        "crit_format": "Format angegeben",
+        "crit_media": "Media Type angegeben",
+        "crit_vocab": "Format/Media kontrolliert",
+        "crit_openfmt": "Offenes Format",
         "crit_machine": "Maschinenlesbar",
         "crit_dcat": "DCAT-AP Konformität",
         
-        "crit_license": "Lizenz vorhanden (`dct:license`)",
-        "crit_lic_vocab": "Standard-Lizenz (Vokabular)",
-        "crit_access_res": "Zugangsbeschränkung (`dct:accessRights`)",
+        "crit_license": "Lizenz vorhanden",
+        "crit_lic_vocab": "Standard-Lizenz",
+        "crit_access_res": "Zugangsbeschränkung",
         "crit_access_vocab": "Standard-Zugangsbegriff",
-        "crit_contact": "Kontaktangabe vollständig (`dcat:contactPoint`)",
-        "crit_publisher": "Herausgeber angegeben (`dct:publisher`)",
+        "crit_contact": "Kontaktangabe vollständig",
+        "crit_publisher": "Herausgeber angegeben",
         
-        "crit_rights": "Nutzungsrechte definiert (`dct:rights`)",
-        "crit_filesize": "Dateigrössen angegeben (`dcat:byteSize`)",
-        "crit_issue": "Erstellungsdatum (`dct:issued`)",
-        "crit_mod": "Änderungsdatum (`dct:modified`)"
+        "crit_rights": "Nutzungsrechte definiert",
+        "crit_filesize": "Dateigrössen angegeben",
+        "crit_issue": "Erstellungsdatum",
+        "crit_mod": "Änderungsdatum",
+
+        # Definitions/Links (Plain text only)
+        "def_machine": "CSV, JSON, XML, RDF, XLSX (Keine PDF/Bilder)",
+        "def_access": "Vokabular: PUBLIC, CONFIDENTIAL...",
+        "def_license": "Z.B. cc-by, terms_open",
+        "def_open": "Kein proprietäres Format (wie DOC, XLS)",
+        "def_http": "URL gibt HTTP Status 200 zurück"
     },
     "fr": {
         "app_title": "OFAG Tableau de bord Qualité des Métadonnées 🏆",
@@ -118,6 +120,7 @@ TRANSLATIONS = {
         "inspector_raw": "Afficher les données brutes",
         "inspector_details": "Détails de qualité",
         "inspector_no_data": "Aucune donnée trouvée.",
+        "inspector_improvement": "Opportunités d'amélioration",
         
         "severity_high": "Élevée",
         "severity_med": "Moyenne",
@@ -125,68 +128,66 @@ TRANSLATIONS = {
         "chart_score_dist": "Distribution des scores de qualité",
         "chart_top_errors": "Erreurs de validation fréquentes",
 
-        "help_intro": """
-        **Concept clé:**
-        * 🚨 **Les Violations** mesurent la *Légalité* (Une règle a-t-elle été enfreinte ?)
-        * ⭐ **Le Score** mesure la *Qualité* (Quelle est l'utilité des données ?)
-        """,
+        # --- HELP PAGE CONTENT ---
+        "help_intro": "Le tableau de bord distingue deux types de problèmes :",
         
-        "help_vio_title": "🚨 Violations du Schéma",
+        "help_vio_title": "1. Violations du Schéma (Obligatoire)",
         "help_vio_desc": """
-        Ce sont des **Erreurs Binaires**. Soit ça passe, soit ça casse.
-        Basé sur le schéma JSON officiel de l'OFAG.
-        * **ID manquant**: `dct:identifier` est vide.
-        * **Contact manquant**: Aucune adresse e-mail fournie.
-        * **Mauvais format**: La date est `2023/30/30` au lieu de `YYYY-MM-DD`.
+        **C'est l'hygiène de base.** Une violation signifie que le jeu de données est techniquement invalide.
+        * **Impact:** Les jeux de données avec violations sont marqués en rouge.
+        * **Exemples:** ID manquant, format de date invalide, contact manquant.
         """,
-        "help_vio_goal": "🎯 **Objectif:** 0 Violations.",
+        "help_vio_goal": "🎯 **Objectif:** 0 Violations (Impératif).",
 
-        "help_score_title": "⭐ Score de Qualité (FAIRC)",
+        "help_score_title": "2. Score de Qualité (Bonus)",
         "help_score_desc": """
-        C'est un **Système de Points**.
-        Vous gagnez des points en faisant *plus*.
+        **C'est un système d'optimisation (FAIRC).**
+        Une fois le schéma validé, vous pouvez améliorer votre score en rendant les données plus utiles.
         
-        * **Retrouvabilité:** Mots-clés, Catégories, Géographie, Temps
-        * **Accessibilité:** Liens fonctionnels, Téléchargements directs
-        * **Interopérabilité:** Formats ouverts, DCAT-AP
-        * **Réutilisabilité:** Licences, Contact, Éditeur
-        * **Contextualité:** Dates, Droits
+        * Le score maximum est de **405 points**.
+        * Le tableau ci-dessous montre exactement comment gagner des points.
         """,
-        "help_score_goal": "🎯 **Objectif:** Maximiser les points (High Score).",
+        "help_score_goal": "🎯 **Objectif:** Maximiser les points.",
 
-        "help_calc_title": "🧮 Calculateur de Score",
+        "help_calc_title": "🧮 Comment le score est-il calculé ?",
         "help_table_dim": "Dimension",
         "help_table_crit": "Critère",
         "help_table_pts": "Points",
+        "help_table_info": "Info / Définition",
         
-        # Detailed Scoring Criteria
-        "crit_keywords": "Mots-clés fournis (`dcat:keyword`)",
-        "crit_themes": "Catégories fournies (`dcat:theme`)",
+        "crit_keywords": "Mots-clés (`dcat:keyword`)",
+        "crit_themes": "Catégories (`dcat:theme`)",
         "crit_geo": "Couverture géographique (`dct:spatial`)",
         "crit_time": "Couverture temporelle (`dct:temporal`)",
         
-        "crit_access": "URL d'accès fonctionnelle (`dcat:accessURL`)",
-        "crit_download": "URL de téléchargement fournie (`dcat:downloadURL`)",
-        "crit_download_valid": "URL de téléchargement fonctionnelle (HTTP 200)",
+        "crit_access": "URL d'accès fonctionnelle",
+        "crit_download": "URL de téléchargement fournie",
+        "crit_download_valid": "URL de téléchargement fonctionnelle",
         
-        "crit_format": "Format déclaré (`dct:format`)",
-        "crit_media": "Type de média déclaré (`dcat:mediaType`)",
-        "crit_vocab": "Vocabulaire contrôlé (Format)",
-        "crit_openfmt": "Format ouvert (CSV, etc.)",
+        "crit_format": "Format déclaré",
+        "crit_media": "Type de média déclaré",
+        "crit_vocab": "Vocabulaire contrôlé",
+        "crit_openfmt": "Format ouvert",
         "crit_machine": "Lisible par machine",
         "crit_dcat": "Conformité DCAT-AP",
         
-        "crit_license": "Licence fournie (`dct:license`)",
-        "crit_lic_vocab": "Licence standard (Vocabulaire)",
-        "crit_access_res": "Restriction d'accès (`dct:accessRights`)",
+        "crit_license": "Licence fournie",
+        "crit_lic_vocab": "Licence standard",
+        "crit_access_res": "Restriction d'accès",
         "crit_access_vocab": "Terme d'accès standard",
-        "crit_contact": "Contact complet (`dcat:contactPoint`)",
-        "crit_publisher": "Éditeur déclaré (`dct:publisher`)",
+        "crit_contact": "Contact complet",
+        "crit_publisher": "Éditeur déclaré",
         
-        "crit_rights": "Droits d'utilisation définis (`dct:rights`)",
-        "crit_filesize": "Taille de fichier déclarée (`dcat:byteSize`)",
-        "crit_issue": "Date de création (`dct:issued`)",
-        "crit_mod": "Date de modification (`dct:modified`)"
+        "crit_rights": "Droits d'utilisation définis",
+        "crit_filesize": "Taille de fichier déclarée",
+        "crit_issue": "Date de création",
+        "crit_mod": "Date de modification",
+
+        "def_machine": "CSV, JSON, XML, RDF, XLSX (Pas de PDF/Images)",
+        "def_access": "Vocabulaire: PUBLIC, CONFIDENTIAL...",
+        "def_license": "Ex. cc-by, terms_open",
+        "def_open": "Non-propriétaire (comme CSV, JSON)",
+        "def_http": "L'URL renvoie un statut HTTP 200"
     },
     "it": {
         "app_title": "UFAG Dashboard Qualità Metadati 🏆",
@@ -208,6 +209,7 @@ TRANSLATIONS = {
         "inspector_raw": "Mostra dati grezzi",
         "inspector_details": "Dettagli qualità",
         "inspector_no_data": "Nessun dato trovato.",
+        "inspector_improvement": "Opportunità di miglioramento",
         
         "severity_high": "Alta",
         "severity_med": "Media",
@@ -215,68 +217,66 @@ TRANSLATIONS = {
         "chart_score_dist": "Distribuzione dei punteggi",
         "chart_top_errors": "Errori di convalida frequenti",
 
-        "help_intro": """
-        **Concetto chiave:**
-        * 🚨 **Le Violazioni** misurano la *Legalità* (È stata infranta una regola?)
-        * ⭐ **Il Punteggio** misura la *Qualità* (Quanto sono utili i dati?)
-        """,
+        # --- HELP PAGE CONTENT ---
+        "help_intro": "La dashboard distingue due tipi di problemi:",
         
-        "help_vio_title": "🚨 Violazioni dello Schema",
+        "help_vio_title": "1. Violazioni dello Schema (Obbligatorio)",
         "help_vio_desc": """
-        Questi sono **Errori Binari**. O si passa o si fallisce.
-        Basato sullo schema JSON ufficiale dell'UFAG.
-        * **ID mancante**: `dct:identifier` è vuoto.
-        * **Contatto mancante**: Nessuna e-mail fornita.
-        * **Formato errato**: La data è `2023/30/30` invece di `YYYY-MM-DD`.
+        **Questa è l'igiene di base.** Una violazione significa che il dataset non è tecnicamente valido.
+        * **Impatto:** I dataset con violazioni sono segnati in rosso.
+        * **Esempi:** ID mancante, formato data non valido, contatto mancante.
         """,
-        "help_vio_goal": "🎯 **Obiettivo:** 0 Violazioni.",
+        "help_vio_goal": "🎯 **Obiettivo:** 0 Violazioni (Imperativo).",
 
-        "help_score_title": "⭐ Punteggio di Qualità (FAIRC)",
+        "help_score_title": "2. Punteggio di Qualità (Bonus)",
         "help_score_desc": """
-        Questo è un **Sistema a Punti**.
-        Ottieni punti facendo *di più*.
+        **Questo è un sistema di ottimizzazione (FAIRC).**
+        Una volta validato lo schema, puoi migliorare il punteggio rendendo i dati più utili.
         
-        * **Reperibilità:** Parole chiave, Categorie, Geografia, Tempo
-        * **Accessibilità:** Link funzionanti, Download diretti
-        * **Interoperabilità:** Formati aperti, DCAT-AP
-        * **Riutilizzabilità:** Licenze, Contatto, Editore
-        * **Contestualità:** Date, Diritti
+        * Il punteggio massimo è **405 punti**.
+        * La tabella sottostante mostra esattamente come guadagnare punti.
         """,
-        "help_score_goal": "🎯 **Obiettivo:** Massimizzare i punti (Punteggio Alto).",
+        "help_score_goal": "🎯 **Obiettivo:** Massimizzare i punti.",
 
-        "help_calc_title": "🧮 Calcolatore del Punteggio",
+        "help_calc_title": "🧮 Come viene calcolato il punteggio?",
         "help_table_dim": "Dimensione",
         "help_table_crit": "Criterio",
         "help_table_pts": "Punti",
+        "help_table_info": "Info / Definizione",
         
-        # Detailed Scoring Criteria
-        "crit_keywords": "Parole chiave fornite (`dcat:keyword`)",
-        "crit_themes": "Categorie fornite (`dcat:theme`)",
+        "crit_keywords": "Parole chiave (`dcat:keyword`)",
+        "crit_themes": "Categorie (`dcat:theme`)",
         "crit_geo": "Copertura geografica (`dct:spatial`)",
         "crit_time": "Copertura temporale (`dct:temporal`)",
         
-        "crit_access": "URL di accesso funzionante (`dcat:accessURL`)",
-        "crit_download": "URL di download fornito (`dcat:downloadURL`)",
-        "crit_download_valid": "URL di download funzionante (HTTP 200)",
+        "crit_access": "URL di accesso funzionante",
+        "crit_download": "URL di download fornito",
+        "crit_download_valid": "URL di download funzionante",
         
-        "crit_format": "Formato dichiarato (`dct:format`)",
-        "crit_media": "Tipo di supporto dichiarato (`dcat:mediaType`)",
-        "crit_vocab": "Vocabolario controllato (Formato)",
-        "crit_openfmt": "Formato aperto (CSV, ecc.)",
+        "crit_format": "Formato dichiarato",
+        "crit_media": "Tipo di supporto dichiarato",
+        "crit_vocab": "Vocabolario controllato",
+        "crit_openfmt": "Formato aperto",
         "crit_machine": "Leggibile da macchina",
         "crit_dcat": "Conformità DCAT-AP",
         
-        "crit_license": "Licenza fornita (`dct:license`)",
-        "crit_lic_vocab": "Licenza standard (Vocabolario)",
-        "crit_access_res": "Restrizione di accesso (`dct:accessRights`)",
+        "crit_license": "Licenza fornita",
+        "crit_lic_vocab": "Licenza standard",
+        "crit_access_res": "Restrizione di accesso",
         "crit_access_vocab": "Termine di accesso standard",
-        "crit_contact": "Contatto completo (`dcat:contactPoint`)",
-        "crit_publisher": "Editore dichiarato (`dct:publisher`)",
+        "crit_contact": "Contatto completo",
+        "crit_publisher": "Editore dichiarato",
         
-        "crit_rights": "Diritti di utilizzo definiti (`dct:rights`)",
-        "crit_filesize": "Dimensione file dichiarata (`dcat:byteSize`)",
-        "crit_issue": "Data di creazione (`dct:issued`)",
-        "crit_mod": "Data di modifica (`dct:modified`)"
+        "crit_rights": "Diritti di utilizzo definiti",
+        "crit_filesize": "Dimensione file dichiarata",
+        "crit_issue": "Data di creazione",
+        "crit_mod": "Data di modifica",
+
+        "def_machine": "CSV, JSON, XML, RDF, XLSX (No PDF/Immagini)",
+        "def_access": "Vocabolario: PUBLIC, CONFIDENTIAL...",
+        "def_license": "Es. cc-by, terms_open",
+        "def_open": "Non proprietario (come CSV, JSON)",
+        "def_http": "URL restituisce HTTP 200"
     },
     "en": {
         "app_title": "FOAG Metadata Quality Dashboard 🏆",
@@ -298,6 +298,7 @@ TRANSLATIONS = {
         "inspector_raw": "Show Raw Data",
         "inspector_details": "Quality Breakdown",
         "inspector_no_data": "No data found.",
+        "inspector_improvement": "Improvement Opportunities",
         
         "severity_high": "High",
         "severity_med": "Medium",
@@ -305,32 +306,24 @@ TRANSLATIONS = {
         "chart_score_dist": "Quality Score Distribution",
         "chart_top_errors": "Top Validation Errors",
 
-        "help_intro": """
-        **Core Concept:**
-        * 🚨 **Violations** measure *Legality* (Did you break a rule?)
-        * ⭐ **Score** measures *Quality* (How useful is the data?)
-        """,
+        # --- HELP PAGE CONTENT ---
+        "help_intro": "The dashboard distinguishes between two types of data issues:",
         
-        "help_vio_title": "🚨 Schema Violations",
+        "help_vio_title": "1. Schema Violations (Mandatory)",
         "help_vio_desc": """
-        These are **Binary Errors**. You either pass or fail.
-        Based on the official BLW JSON Schema.
-        * **Missing ID**: `dct:identifier` is empty.
-        * **Missing Contact**: No email provided.
-        * **Bad Format**: Date is `2023/30/30` instead of `YYYY-MM-DD`.
+        **This is basic hygiene.** A violation means the dataset is technically invalid or breaks BLW rules.
+        * **Impact:** Datasets with violations are flagged red.
+        * **Examples:** Missing ID, invalid date format, missing contact email.
         """,
-        "help_vio_goal": "🎯 **Goal:** 0 Violations.",
+        "help_vio_goal": "🎯 **Goal:** 0 Violations (Mandatory).",
 
-        "help_score_title": "⭐ Quality Score (FAIRC)",
+        "help_score_title": "2. Quality Score (Optimization)",
         "help_score_desc": """
-        This is a **Points System**.
-        You gain points for doing *more*.
-        Based on the `opendata.swiss` quality model.
-        * **Findability:** Keywords, Categories, Geo, Time
-        * **Accessibility:** Working Links, Direct Downloads
-        * **Interoperability:** Open Formats, DCAT-AP
-        * **Reusability:** Licenses, Contact, Publisher
-        * **Contextuality:** Dates, Rights
+        **This is an optimization system (FAIRC).**
+        Once the schema is valid, you can improve your score by making the data more useful and accessible.
+        
+        * The maximum score is **405 points**.
+        * The table below shows exactly how points are awarded.
         """,
         "help_score_goal": "🎯 **Goal:** Maximize points (High Score).",
 
@@ -338,6 +331,7 @@ TRANSLATIONS = {
         "help_table_dim": "Dimension",
         "help_table_crit": "Criteria",
         "help_table_pts": "Points",
+        "help_table_info": "Info / Definition",
         
         # Detailed Scoring Criteria (Updated with Field Names)
         "crit_keywords": "Keywords provided (`dcat:keyword`)",
@@ -347,12 +341,12 @@ TRANSLATIONS = {
         
         "crit_access": "Access URL works (`dcat:accessURL`)",
         "crit_download": "Download URL provided (`dcat:downloadURL`)",
-        "crit_download_valid": "Download URL works (HTTP 200)",
+        "crit_download_valid": "Download URL works",
         
         "crit_format": "Format declared (`dct:format`)",
         "crit_media": "Media Type declared (`dcat:mediaType`)",
         "crit_vocab": "Controlled Vocabulary (Format)",
-        "crit_openfmt": "Open Format (CSV, etc.)",
+        "crit_openfmt": "Open Format",
         "crit_machine": "Machine Readable",
         "crit_dcat": "DCAT-AP Compliance",
         
@@ -366,6 +360,13 @@ TRANSLATIONS = {
         "crit_rights": "Rights defined (`dct:rights`)",
         "crit_filesize": "File size declared (`dcat:byteSize`)",
         "crit_issue": "Issue Date (`dct:issued`)",
-        "crit_mod": "Modification Date (`dct:modified`)"
+        "crit_mod": "Modification Date (`dct:modified`)",
+
+        # Definitions (Plain text only)
+        "def_machine": "CSV, JSON, XML, RDF, XLSX (No PDF/Images)",
+        "def_access": "Vocabulary: PUBLIC, CONFIDENTIAL...",
+        "def_license": "E.g. cc-by, terms_open",
+        "def_open": "Non-proprietary (like CSV, JSON)",
+        "def_http": "URL returns HTTP Status 200"
     }
 }

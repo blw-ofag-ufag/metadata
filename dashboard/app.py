@@ -82,27 +82,43 @@ tab1, tab2, tab3, tab4 = st.tabs([T["tab_worklist"], T["tab_overview"], T["tab_i
 
 with tab1:
     st.markdown(f"### {T['tab_worklist']}")
+    
     def categorize_severity(row):
-        if row['schema_violations_count'] > 0: return T["severity_high"]
-        elif row['input_quality_score'] < 5000: return T["severity_med"]
+        if row['schema_violations_count'] > 0:
+            return T["severity_high"]
+        elif row['swiss_score'] < 200: # Updated threshold for FAIRC scale (approx 50%)
+            return T["severity_med"]
         return T["severity_low"]
+
+    def format_violations(count):
+        if count == 0:
+            return f"0 ✅"
+        else:
+            return f"{count} 🚨"
 
     worklist_df = filtered_df.copy()
     worklist_df['severity'] = worklist_df.apply(categorize_severity, axis=1)
-    worklist_df['violations_display'] = worklist_df['schema_violations_count'].apply(lambda x: f"0 ✅" if x == 0 else f"{x} 🚨")
+    worklist_df['violations_display'] = worklist_df['schema_violations_count'].apply(format_violations)
     
+    # CHANGED: Replaced 'input_quality_score' with 'swiss_score'
     st.dataframe(
-        worklist_df[['severity', 'display_title', 'violations_display', 'input_quality_score', 'id']],
+        worklist_df[['severity', 'display_title', 'violations_display', 'swiss_score', 'id']],
         column_config={
             "severity": st.column_config.TextColumn(T["col_severity"]),
             "display_title": st.column_config.TextColumn(T["col_title"], width="medium"),
             "violations_display": st.column_config.TextColumn(T["col_violations"]),
-            "input_quality_score": st.column_config.ProgressColumn(
-                T["col_score"], format="%.0f", min_value=0, max_value=100 # normalized or raw? Keeping raw for now
+            
+            # CHANGED: Configured for 0-405 scale
+            "swiss_score": st.column_config.ProgressColumn(
+                T["col_score"], 
+                format="%.0f", 
+                min_value=0, 
+                max_value=405
             ),
-            "id": st.column_config.TextColumn(T["col_id"], width="small")
+            "id": st.column_config.TextColumn(T["col_id"], width="small", help="DCAT Identifier")
         },
-        hide_index=True, width="stretch"
+        hide_index=True,
+        width="stretch"
     )
 
 with tab2:
@@ -199,4 +215,67 @@ with tab3:
 with tab4:
     st.markdown(f"### {T['tab_help']}")
     st.info(T["help_intro"])
-    st.markdown(T["help_vio_desc"])
+    
+    # -----------------------------------------------------------------------
+    # SECTION 1: MANDATORY VIOLATIONS
+    # -----------------------------------------------------------------------
+    # Removed spacer <br> to ensure alignment
+    with st.container():
+        col_v1, col_v2 = st.columns([2, 1])
+        with col_v1:
+            st.error(f"#### {T['help_vio_title']}")
+            st.markdown(T["help_vio_desc"])
+        with col_v2:
+            st.error(T["help_vio_goal"], icon="🎯")
+
+    st.divider()
+
+    # -----------------------------------------------------------------------
+    # SECTION 2: QUALITY SCORING (FAIRC) & CALCULATOR
+    # -----------------------------------------------------------------------
+    # Removed spacer <br> to ensure alignment
+    with st.container():
+        col_s1, col_s2 = st.columns([2, 1])
+        with col_s1:
+            st.success(f"#### {T['help_score_title']}")
+            st.markdown(T["help_score_desc"])
+        with col_s2:
+            st.success(T["help_score_goal"], icon="🎯")
+
+        st.markdown(f"#### {T['help_calc_title']}")
+        
+        # Helper to create table rows with optional definitions
+        def row(dim, crit_key, weight, def_key=None):
+            definition = T[def_key] if def_key else ""
+            return f"| **{dim}** | {T[crit_key]} | +{weight} | {definition} |"
+
+        # Build the table markdown
+        table_md = f"""
+| {T['help_table_dim']} | {T['help_table_crit']} | {T['help_table_pts']} | {T['help_table_info']} |
+| :--- | :--- | :--- | :--- |
+{row('Findability', 'crit_keywords', settings.WEIGHT_FINDABILITY_KEYWORDS)}
+{row('', 'crit_themes', settings.WEIGHT_FINDABILITY_CATEGORIES)}
+{row('', 'crit_geo', settings.WEIGHT_FINDABILITY_GEO_SEARCH)}
+{row('', 'crit_time', settings.WEIGHT_FINDABILITY_TIME_SEARCH)}
+{row('Accessibility', 'crit_access', settings.WEIGHT_ACCESSIBILITY_ACCESS_URL, 'def_http')}
+{row('', 'crit_download_valid', settings.WEIGHT_ACCESSIBILITY_DOWNLOAD_URL_VALID, 'def_http')}
+{row('', 'crit_download', settings.WEIGHT_ACCESSIBILITY_DOWNLOAD_URL)}
+{row('Interoperability', 'crit_machine', settings.WEIGHT_INTEROP_MACHINE_READABLE, 'def_machine')}
+{row('', 'crit_openfmt', settings.WEIGHT_INTEROP_NON_PROPRIETARY, 'def_open')}
+{row('', 'crit_dcat', settings.WEIGHT_INTEROP_DCAT_AP)}
+{row('', 'crit_format', settings.WEIGHT_INTEROP_FORMAT)}
+{row('', 'crit_media', settings.WEIGHT_INTEROP_MEDIA_TYPE)}
+{row('', 'crit_vocab', settings.WEIGHT_INTEROP_VOCABULARY)}
+{row('Reusability', 'crit_access_vocab', settings.WEIGHT_REUSE_ACCESS_RESTRICTION_VOCAB, 'def_access')}
+{row('', 'crit_lic_vocab', settings.WEIGHT_REUSE_LICENSE_VOCAB, 'def_license')}
+{row('', 'crit_license', settings.WEIGHT_REUSE_LICENSE)}
+{row('', 'crit_access_res', settings.WEIGHT_REUSE_ACCESS_RESTRICTION)}
+{row('', 'crit_contact', settings.WEIGHT_REUSE_CONTACT_POINT)}
+{row('', 'crit_publisher', settings.WEIGHT_REUSE_PUBLISHER)}
+{row('Contextuality', 'crit_rights', settings.WEIGHT_CONTEXT_RIGHTS)}
+{row('', 'crit_filesize', settings.WEIGHT_CONTEXT_FILE_SIZE)}
+{row('', 'crit_issue', settings.WEIGHT_CONTEXT_ISSUE_DATE)}
+{row('', 'crit_mod', settings.WEIGHT_CONTEXT_MODIFICATION_DATE)}
+        """
+        
+        st.markdown(table_md)
