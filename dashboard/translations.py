@@ -28,12 +28,12 @@ TRANSLATIONS = {
         "inspector_no_data": "Keine Daten gefunden.",
         "inspector_ds_title": "Datensatz-Titel",
         
-        # Recommendations
+        # Recommendations - Titles
         "inspector_improve_title": "🚀 Verbesserungspotenzial",
         "inspector_improve_desc": "Erfüllen Sie folgende Kriterien, um den Score zu maximieren:",
         "inspector_perfect_score": "Perfekt! Dieser Datensatz erreicht die maximale Punktzahl.",
         
-        # Recommendation Messages (Updated with Vocabulary)
+        # Recommendations - Messages (Strict Logic)
         "msg_missing_keywords": "Stichworte hinzufügen (`dcat:keyword`)",
         "msg_missing_themes": "Kategorien hinzufügen (`dcat:theme`)",
         "msg_missing_geo": "Geografische Abdeckung angeben (`dct:spatial`)",
@@ -41,9 +41,21 @@ TRANSLATIONS = {
         "msg_broken_links": "Defekte Links reparieren (`dcat:accessURL` / `dcat:downloadURL`)",
         "msg_missing_download": "Download-URL hinzufügen (`dcat:downloadURL`)",
         "msg_formats": "Offene Formate verwenden (`dct:format`, `dcat:mediaType`)",
+        
         "msg_license": "Lizenz angeben (`dct:license`)",
+        "msg_license_vocab": "Standard-Lizenz verwenden (opendata.swiss Vokabular)",
+        
         "msg_contact": "Kontaktstelle erfassen (`dcat:contactPoint`)",
-        "msg_dates": "Datumsangaben pflegen (`dct:issued`, `dct:modified`)",
+        "msg_publisher": "Herausgeber angeben (`dct:publisher`)",
+        
+        "msg_access_rights": "Zugangsbeschränkung angeben (`dct:accessRights`)",
+        "msg_access_rights_vocab": "Standard-Zugangsbegriff verwenden (Public, etc.)",
+        
+        "msg_date_issued": "Erstellungsdatum angeben (`dct:issued`)",
+        "msg_date_modified": "Änderungsdatum angeben (`dct:modified`)",
+        
+        "msg_rights": "Nutzungsrechte angeben (`dct:rights`)",
+        "msg_byte_size": "Dateigröße angeben (`dcat:byteSize`)",
         
         # Charts / Severity
         "severity_high": "Hoch",
@@ -138,7 +150,7 @@ TRANSLATIONS = {
         "inspector_improve_desc": "Remplissez les critères suivants pour maximiser le score :",
         "inspector_perfect_score": "Parfait ! Ce jeu de données atteint le score maximal.",
         
-        # Recommendation Messages (Updated with Vocabulary)
+        # Recommendation Messages
         "msg_missing_keywords": "Ajouter des mots-clés (`dcat:keyword`)",
         "msg_missing_themes": "Ajouter des catégories (`dcat:theme`)",
         "msg_missing_geo": "Indiquer la couverture géographique (`dct:spatial`)",
@@ -146,9 +158,21 @@ TRANSLATIONS = {
         "msg_broken_links": "Réparer les liens cassés (`dcat:accessURL` / `dcat:downloadURL`)",
         "msg_missing_download": "Ajouter une URL de téléchargement (`dcat:downloadURL`)",
         "msg_formats": "Utiliser des formats ouverts (`dct:format`, `dcat:mediaType`)",
+        
         "msg_license": "Indiquer une licence (`dct:license`)",
+        "msg_license_vocab": "Utiliser une licence standard (Vocabulaire)",
+        
         "msg_contact": "Saisir le point de contact (`dcat:contactPoint`)",
-        "msg_dates": "Maintenir les dates (`dct:issued`, `dct:modified`)",
+        "msg_publisher": "Indiquer l'éditeur (`dct:publisher`)",
+        
+        "msg_access_rights": "Indiquer les droits d'accès (`dct:accessRights`)",
+        "msg_access_rights_vocab": "Utiliser un terme d'accès standard (Public, etc.)",
+        
+        "msg_date_issued": "Indiquer la date de création (`dct:issued`)",
+        "msg_date_modified": "Indiquer la date de modification (`dct:modified`)",
+        
+        "msg_rights": "Indiquer les droits d'utilisation (`dct:rights`)",
+        "msg_byte_size": "Indiquer la taille du fichier (`dcat:byteSize`)",
         
         "severity_high": "Élevée",
         "severity_med": "Moyenne",
@@ -188,7 +212,7 @@ TRANSLATIONS = {
         "help_calc_title": "🧮 Calculateur de Score",
         "help_table_dim": "Dimension",
         "help_table_crit": "Critère",
-        "help_table_pts": "Points",
+        "help_table_pts": "Punkte",
         
         "crit_keywords": "Mots-clés fournis",
         "crit_themes": "Catégories fournies",
@@ -241,7 +265,7 @@ TRANSLATIONS = {
         "inspector_improve_desc": "Soddisfare i seguenti criteri per massimizzare il punteggio:",
         "inspector_perfect_score": "Perfetto! Questo dataset raggiunge il punteggio massimo.",
         
-        # Recommendation Messages (Updated with Vocabulary)
+        # Recommendation Messages
         "msg_missing_keywords": "Aggiungere parole chiave (`dcat:keyword`)",
         "msg_missing_themes": "Aggiungere categorie (`dcat:theme`)",
         "msg_missing_geo": "Indicare la copertura geografica (`dct:spatial`)",
@@ -249,9 +273,21 @@ TRANSLATIONS = {
         "msg_broken_links": "Riparare i link interrotti (`dcat:accessURL` / `dcat:downloadURL`)",
         "msg_missing_download": "Aggiungere URL di download (`dcat:downloadURL`)",
         "msg_formats": "Utilizzare formati aperti (`dct:format`, `dcat:mediaType`)",
+        
         "msg_license": "Indicare una licenza (`dct:license`)",
+        "msg_license_vocab": "Utilizzare una licenza standard (Vocabolario)",
+        
         "msg_contact": "Inserire il punto di contatto (`dcat:contactPoint`)",
-        "msg_dates": "Mantenere le date (`dct:issued`, `dct:modified`)",
+        "msg_publisher": "Indicare l'editore (`dct:publisher`)",
+        
+        "msg_access_rights": "Indicare i diritti di accesso (`dct:accessRights`)",
+        "msg_access_rights_vocab": "Utilizzare un termine di accesso standard (Public, etc.)",
+        
+        "msg_date_issued": "Indicare la data di creazione (`dct:issued`)",
+        "msg_date_modified": "Indicare la data di modifica (`dct:modified`)",
+        
+        "msg_rights": "Indicare i diritti d'uso (`dct:rights`)",
+        "msg_byte_size": "Indicare la dimensione del file (`dcat:byteSize`)",
         
         "severity_high": "Alta",
         "severity_med": "Media",
@@ -352,9 +388,21 @@ TRANSLATIONS = {
         "msg_broken_links": "Fix broken links (`dcat:accessURL` / `dcat:downloadURL`)",
         "msg_missing_download": "Add Download URL (`dcat:downloadURL`)",
         "msg_formats": "Use open, machine-readable formats (`dct:format`, `dcat:mediaType`)",
+        
         "msg_license": "Add License (`dct:license`)",
+        "msg_license_vocab": "Use Standard License (Vocabulary)",
+        
         "msg_contact": "Add Contact Point (`dcat:contactPoint`)",
-        "msg_dates": "Maintain Dates (`dct:issued`, `dct:modified`)",
+        "msg_publisher": "Add Publisher (`dct:publisher`)",
+        
+        "msg_access_rights": "Define Access Rights (`dct:accessRights`)",
+        "msg_access_rights_vocab": "Use Standard Access Term (Public, etc.)",
+        
+        "msg_date_issued": "Provide Issue Date (`dct:issued`)",
+        "msg_date_modified": "Provide Modification Date (`dct:modified`)",
+        
+        "msg_rights": "Define Usage Rights (`dct:rights`)",
+        "msg_byte_size": "Define File Size (`dcat:byteSize`)",
         
         "severity_high": "High",
         "severity_med": "Medium",
