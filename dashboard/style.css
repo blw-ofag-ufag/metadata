@@ -1,0 +1,35 @@
+/* Global Alignment */
+div[data-testid="column"] { 
+    align-items: center; 
+}
+
+/* Compact Buttons inside st.dataframe or specific containers */
+div[data-testid="stButton"] button {
+    white-space: nowrap !important;
+    padding-left: 4px !important;
+    padding-right: 4px !important;
+    min-width: 0px !important;
+}
+
+div[data-testid="stButton"] button p { 
+    font-weight: bold; 
+    margin: 0px; 
+}
+
+/* --- FORCE BLUE THEME --- */
+/* Overriding System Defaults to BLW Blue (#0066CC) */
+
+/* Primary Buttons (Used for Language Selectors) */
+button[kind="primary"] {
+    background-color: #2f4356 !important;
+    border-color: #2f4356 !important;
+    color: white !important;
+}
+button[kind="primary"]:hover {
+    background-color: #2f4356 !important;
+    border-color: #2f4356 !important;
+}
+button[kind="primary"]:focus {
+    box-shadow: 0 0 0 0.2rem rgba(0, 102, 204, 0.5) !important;
+}
+
