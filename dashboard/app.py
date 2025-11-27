@@ -11,18 +11,19 @@ from src.config import settings
 
 st.set_page_config(page_title="BLW Metadata Dashboard", layout="wide", page_icon="🏆")
 
-st.markdown("""
-    <style>
-    div[data-testid="column"] { align-items: center; }
-    div[data-testid="stButton"] button {
-        white-space: nowrap !important;
-        padding-left: 4px !important;
-        padding-right: 4px !important;
-        min-width: 0px !important;
-    }
-    div[data-testid="stButton"] button p { font-weight: bold; margin: 0px; }
-    </style>
-    """, unsafe_allow_html=True)
+# 2. LOAD EXTERNAL CSS
+def load_css(file_name):
+    """Loads a CSS file relative to the current script."""
+    current_dir = os.path.dirname(__file__)
+    css_path = os.path.join(current_dir, file_name)
+    
+    try:
+        with open(css_path, "r") as f:
+            st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
+    except FileNotFoundError:
+        st.error(f"CSS file not found: {css_path}")
+
+load_css("style.css")
 
 @st.cache_resource
 def get_db_engine():
@@ -86,7 +87,7 @@ with tab1:
     def categorize_severity(row):
         if row['schema_violations_count'] > 0:
             return T["severity_high"]
-        elif row['swiss_score'] < 200: # Updated threshold for FAIRC scale (approx 50%)
+        elif row['swiss_score'] < 200:
             return T["severity_med"]
         return T["severity_low"]
 
@@ -100,7 +101,8 @@ with tab1:
     worklist_df['severity'] = worklist_df.apply(categorize_severity, axis=1)
     worklist_df['violations_display'] = worklist_df['schema_violations_count'].apply(format_violations)
     
-    # CHANGED: Replaced 'input_quality_score' with 'swiss_score'
+    # NATIVE IMPLEMENTATION
+    # We pass the raw dataframe (no Pandas .style needed)
     st.dataframe(
         worklist_df[['severity', 'display_title', 'violations_display', 'swiss_score', 'id']],
         column_config={
@@ -108,17 +110,19 @@ with tab1:
             "display_title": st.column_config.TextColumn(T["col_title"], width="medium"),
             "violations_display": st.column_config.TextColumn(T["col_violations"]),
             
-            # CHANGED: Configured for 0-405 scale
+            # NATIVE BLUE PROGRESS BAR
             "swiss_score": st.column_config.ProgressColumn(
                 T["col_score"], 
                 format="%.0f", 
                 min_value=0, 
-                max_value=405
+                max_value=405,
+                color="#3a6185" 
             ),
             "id": st.column_config.TextColumn(T["col_id"], width="small", help="DCAT Identifier")
         },
         hide_index=True,
-        width="stretch"
+        width=None,
+        use_container_width=True
     )
 
 with tab2:
@@ -127,19 +131,26 @@ with tab2:
     c1.metric(T["metric_total"], len(filtered_df))
     c2.metric(T["metric_score"], f"{filtered_df['swiss_score'].mean():.0f}")
     c3.metric(T["metric_violations"], int(filtered_df['schema_violations_count'].sum()))
+    
     st.divider()
+    
     col_chart1, col_chart2 = st.columns(2)
+    
     with col_chart1:
         st.caption(T["chart_score_dist"])
-        st.bar_chart(filtered_df['swiss_score'])
+        st.bar_chart(filtered_df['swiss_score'], color="#3a6185")
+        
     with col_chart2:
         st.caption(T["chart_top_errors"])
         all_errors = []
         if 'schema_violation_messages' in filtered_df.columns:
             for msgs in filtered_df['schema_violation_messages']:
                 if isinstance(msgs, list): all_errors.extend(msgs)
-        if all_errors: st.bar_chart(pd.Series(all_errors).value_counts().head(5))
-        else: st.info("No validation errors found.")
+        
+        if all_errors: 
+            st.bar_chart(pd.Series(all_errors).value_counts().head(5), color="#3a6185")
+        else: 
+            st.info("No validation errors found.")
 
 with tab3:
     st.markdown(f"### {T['tab_inspector']}")
