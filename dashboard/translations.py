@@ -52,7 +52,7 @@ TRANSLATIONS = {
         # Score Section
         "help_score_title": "Qualitäts-Score (Verbesserung)",
         "help_score_desc": """
-        **Dies ist ein Optimierungs-System (FAIRC).** Sobald das Schema validiert ist, können Sie Ihren Score verbessern, indem Sie die Daten nützlicher machen.
+        **Dies ist ein Optimierungssystem basierend auf den FAIRC-Prinzipien** (Auffindbarkeit, Zugänglichkeit, Interoperabilität, Wiederverwendbarkeit, Kontextualität), das dem [opendata.swiss Dashboard Scoring](https://dashboard.opendata.swiss/de/) entspricht. Sobald das Schema validiert ist, können Sie Ihren Score verbessern, indem Sie die Daten nützlicher und zugänglicher machen.
         
         * Der maximale Score beträgt **405 Punkte**.
         * Die Tabelle unten zeigt genau, wofür Punkte vergeben werden.
@@ -72,28 +72,28 @@ TRANSLATIONS = {
         "crit_geo": "Geografische Abdeckung (`dct:spatial`)",
         "crit_time": "Zeitliche Abdeckung (`dct:temporal`)",
         
-        "crit_access": "Access URL erreichbar",
-        "crit_download": "Download URL vorhanden",
+        "crit_access": "Access URL erreichbar (`dcat:accessURL`)",
+        "crit_download": "Download URL vorhanden (`dcat:downloadURL`)",
         "crit_download_valid": "Download URL erreichbar",
         
-        "crit_format": "Format angegeben",
-        "crit_media": "Media Type angegeben",
+        "crit_format": "Format angegeben (`dct:format`)",
+        "crit_media": "Media Type angegeben (`dcat:mediaType`)",
         "crit_vocab": "Format/Media kontrolliert",
         "crit_openfmt": "Offenes Format",
         "crit_machine": "Maschinenlesbar",
         "crit_dcat": "DCAT-AP Konformität",
         
-        "crit_license": "Lizenz vorhanden",
+        "crit_license": "Lizenz vorhanden (`dct:license`)",
         "crit_lic_vocab": "Standard-Lizenz",
-        "crit_access_res": "Zugangsbeschränkung",
+        "crit_access_res": "Zugangsbeschränkung (`dct:accessRights`)",
         "crit_access_vocab": "Standard-Zugangsbegriff",
-        "crit_contact": "Kontaktangabe vollständig",
-        "crit_publisher": "Herausgeber angegeben",
+        "crit_contact": "Kontaktangabe vollständig (`dcat:contactPoint`)",
+        "crit_publisher": "Herausgeber angegeben (`dct:publisher`)",
         
-        "crit_rights": "Nutzungsrechte definiert",
-        "crit_filesize": "Dateigrössen angegeben",
-        "crit_issue": "Erstellungsdatum",
-        "crit_mod": "Änderungsdatum",
+        "crit_rights": "Nutzungsrechte definiert (`dct:rights`)",
+        "crit_filesize": "Dateigrössen angegeben (`dcat:byteSize`)",
+        "crit_issue": "Erstellungsdatum (`dct:issued`)",
+        "crit_mod": "Änderungsdatum (`dct:modified`)",
 
         # Definitions/Links (Plain text only)
         "def_machine": "CSV, JSON, XML, RDF, XLSX (Keine PDF/Bilder)",
@@ -145,8 +145,7 @@ TRANSLATIONS = {
 
         "help_score_title": "Score de Qualité (Bonus)",
         "help_score_desc": """
-        **C'est un système d'optimisation (FAIRC).**
-        Une fois le schéma validé, vous pouvez améliorer votre score en rendant les données plus utiles.
+        **C'est un système d'optimisation basé sur les principes FAIRC** (Trouvabilité, Accessibilité, Interopérabilité, Réutilisabilité, Contextualité), équivalent au [scoring du tableau de bord opendata.swiss](https://dashboard.opendata.swiss/fr/). Une fois le schéma validé, vous pouvez améliorer votre score en rendant les données plus utiles et accessibles.
         
         * Le score maximum est de **405 points**.
         * Le tableau ci-dessous montre exactement comment gagner des points.
@@ -164,28 +163,28 @@ TRANSLATIONS = {
         "crit_geo": "Couverture géographique (`dct:spatial`)",
         "crit_time": "Couverture temporelle (`dct:temporal`)",
         
-        "crit_access": "URL d'accès fonctionnelle",
-        "crit_download": "URL de téléchargement fournie",
+        "crit_access": "URL d'accès fonctionnelle (`dcat:accessURL`)",
+        "crit_download": "URL de téléchargement fournie (`dcat:downloadURL`)",
         "crit_download_valid": "URL de téléchargement fonctionnelle",
         
-        "crit_format": "Format déclaré",
-        "crit_media": "Type de média déclaré",
+        "crit_format": "Format déclaré (`dct:format`)",
+        "crit_media": "Type de média déclaré (`dcat:mediaType`)",
         "crit_vocab": "Vocabulaire contrôlé",
         "crit_openfmt": "Format ouvert",
         "crit_machine": "Lisible par machine",
         "crit_dcat": "Conformité DCAT-AP",
         
-        "crit_license": "Licence fournie",
+        "crit_license": "Licence fournie (`dct:license`)",
         "crit_lic_vocab": "Licence standard",
-        "crit_access_res": "Restriction d'accès",
+        "crit_access_res": "Restriction d'accès (`dct:accessRights`)",
         "crit_access_vocab": "Terme d'accès standard",
-        "crit_contact": "Contact complet",
-        "crit_publisher": "Éditeur déclaré",
+        "crit_contact": "Contact complet (`dcat:contactPoint`)",
+        "crit_publisher": "Éditeur déclaré (`dct:publisher`)",
         
-        "crit_rights": "Droits d'utilisation définis",
-        "crit_filesize": "Taille de fichier déclarée",
-        "crit_issue": "Date de création",
-        "crit_mod": "Date de modification",
+        "crit_rights": "Droits d'utilisation définis (`dct:rights`)",
+        "crit_filesize": "Taille de fichier déclarée (`dcat:byteSize`)",
+        "crit_issue": "Date de création (`dct:issued`)",
+        "crit_mod": "Date de modification (`dct:modified`)",
 
         "def_machine": "CSV, JSON, XML, RDF, XLSX (Pas de PDF/Images)",
         "def_access": "Vocabulaire: PUBLIC, CONFIDENTIAL...",
@@ -232,12 +231,11 @@ TRANSLATIONS = {
         * **Impatto:** I dataset con violazioni sono segnati in rosso.
         * **Esempi:** ID mancante, formato data non valido, contatto mancante.
         """,
-        "help_vio_goal": "🎯 0 Violazioni (Imperativo).",
+        "help_vio_goal": "🎯 0 Violations (Imperativo).",
 
         "help_score_title": "Punteggio di Qualità (Bonus)",
         "help_score_desc": """
-        **Questo è un sistema di ottimizzazione (FAIRC).**
-        Una volta validato lo schema, puoi migliorare il punteggio rendendo i dati più utili.
+        **Questo è un sistema di ottimizzazione basato sui principi FAIRC** (Reperibilità, Accessibilità, Interoperabilità, Riutilizzabilità, Contestualità), equivalente al [punteggio della dashboard di opendata.swiss](https://dashboard.opendata.swiss/it/). Una volta validato lo schema, è possibile migliorare il punteggio rendendo i dati più utili e accessibili.
         
         * Il punteggio massimo è **405 punti**.
         * La tabella sottostante mostra esattamente come guadagnare punti.
@@ -255,28 +253,28 @@ TRANSLATIONS = {
         "crit_geo": "Copertura geografica (`dct:spatial`)",
         "crit_time": "Copertura temporale (`dct:temporal`)",
         
-        "crit_access": "URL di accesso funzionante",
-        "crit_download": "URL di download fornito",
+        "crit_access": "URL di accesso funzionante (`dcat:accessURL`)",
+        "crit_download": "URL di download fornito (`dcat:downloadURL`)",
         "crit_download_valid": "URL di download funzionante",
         
-        "crit_format": "Formato dichiarato",
-        "crit_media": "Tipo di supporto dichiarato",
+        "crit_format": "Formato dichiarato (`dct:format`)",
+        "crit_media": "Tipo di supporto dichiarato (`dcat:mediaType`)",
         "crit_vocab": "Vocabolario controllato",
         "crit_openfmt": "Formato aperto",
         "crit_machine": "Leggibile da macchina",
         "crit_dcat": "Conformità DCAT-AP",
         
-        "crit_license": "Licenza fornita",
+        "crit_license": "Licenza fornita (`dct:license`)",
         "crit_lic_vocab": "Licenza standard",
-        "crit_access_res": "Restrizione di accesso",
+        "crit_access_res": "Restrizione di accesso (`dct:accessRights`)",
         "crit_access_vocab": "Termine di accesso standard",
-        "crit_contact": "Contatto completo",
-        "crit_publisher": "Editore dichiarato",
+        "crit_contact": "Contatto completo (`dcat:contactPoint`)",
+        "crit_publisher": "Editore dichiarato (`dct:publisher`)",
         
-        "crit_rights": "Diritti di utilizzo definiti",
-        "crit_filesize": "Dimensione file dichiarata",
-        "crit_issue": "Data di creazione",
-        "crit_mod": "Data di modifica",
+        "crit_rights": "Diritti di utilizzo definiti (`dct:rights`)",
+        "crit_filesize": "Dimensione file dichiarata (`dcat:byteSize`)",
+        "crit_issue": "Data di creazione (`dct:issued`)",
+        "crit_mod": "Data di modifica (`dct:modified`)",
 
         "def_machine": "CSV, JSON, XML, RDF, XLSX (No PDF/Immagini)",
         "def_access": "Vocabolario: PUBLIC, CONFIDENTIAL...",
@@ -327,8 +325,7 @@ TRANSLATIONS = {
 
         "help_score_title": "Quality Score (Optimization)",
         "help_score_desc": """
-        **This is an optimization system (FAIRC).**
-        Once the schema is valid, you can improve your score by making the data more useful and accessible.
+        **This is an optimization system based on the FAIRC principles** (Findability, Accessibility, Interoperability, Reusability, Contextuality), equivalent to the [opendata.swiss dashboard scoring](https://dashboard.opendata.swiss/en/). Once the schema is valid, you can improve your score by making the data more useful and accessible.
         
         * The maximum score is **405 points**.
         * The table below shows exactly how points are awarded.

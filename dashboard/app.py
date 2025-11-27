@@ -268,10 +268,10 @@ with tab3:
 
 # --- TAB 4: HELP ---
 with tab4:
-    st.markdown(f"### {T['tab_help']}")
-    render_quality_card(T["help_overview"], T["help_intro"], "info")
+    st.markdown(f"#### {T['help_overview']}")
+    st.markdown(T["help_intro"])
     
-    st.divider()
+    # st.divider()
 
     with st.container():
         col_v1, col_v2 = st.columns([2, 1])
