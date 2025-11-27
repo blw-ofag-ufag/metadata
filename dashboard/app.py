@@ -269,7 +269,7 @@ with tab3:
 # --- TAB 4: HELP ---
 with tab4:
     st.markdown(f"### {T['tab_help']}")
-    render_quality_card("Overview", T["help_intro"], "info")
+    render_quality_card(T["help_overview"], T["help_intro"], "info")
     
     st.divider()
 
@@ -278,7 +278,7 @@ with tab4:
         with col_v1:
             render_quality_card(T['help_vio_title'], T["help_vio_desc"], "high")
         with col_v2:
-            render_quality_card("Goal", T["help_vio_goal"], "high")
+            render_quality_card(T["help_goal"], T["help_vio_goal"], "high")
 
     st.divider()
 
@@ -287,7 +287,7 @@ with tab4:
         with col_s1:
             render_quality_card(T['help_score_title'], T["help_score_desc"], "low")
         with col_s2:
-            render_quality_card("Goal", T["help_score_goal"], "low")
+            render_quality_card(T["help_goal"], T["help_score_goal"], "low")
 
     st.markdown(f"#### {T['help_calc_title']}")
     

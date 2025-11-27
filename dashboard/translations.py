@@ -36,6 +36,8 @@ TRANSLATIONS = {
         "chart_top_errors": "Häufigste Validierungsfehler",
 
         # --- HELP PAGE CONTENT ---
+        "help_overview": "Übersicht", 
+        "help_goal": "Ziel",          
         "help_intro": "Das Dashboard unterscheidet zwei Arten von Qualitätsproblemen:",
         
         # Violations Section
@@ -129,6 +131,8 @@ TRANSLATIONS = {
         "chart_top_errors": "Erreurs de validation fréquentes",
 
         # --- HELP PAGE CONTENT ---
+        "help_overview": "Vue d'ensemble",
+        "help_goal": "Objectif",          
         "help_intro": "Le tableau de bord distingue deux types de problèmes :",
         
         "help_vio_title": "Violations du Schéma (Obligatoire)",
@@ -218,6 +222,8 @@ TRANSLATIONS = {
         "chart_top_errors": "Errori di convalida frequenti",
 
         # --- HELP PAGE CONTENT ---
+        "help_overview": "Panoramica",
+        "help_goal": "Obiettivo",     
         "help_intro": "La dashboard distingue due tipi di problemi:",
         
         "help_vio_title": "Violazioni dello Schema (Obbligatorio)",
@@ -307,12 +313,13 @@ TRANSLATIONS = {
         "chart_top_errors": "Top Validation Errors",
 
         # --- HELP PAGE CONTENT ---
+        "help_overview": "Overview",
+        "help_goal": "Goal",        
         "help_intro": "The dashboard distinguishes between two types of data issues:",
         
         "help_vio_title": "Schema Violations (Mandatory)",
         "help_vio_desc": """
         A violation means the dataset is technically invalid or breaks BLW rules.
-        
         * **Impact:** Datasets with violations are flagged red.
         * **Examples:** Missing ID, invalid date format, missing contact email.
         """,
