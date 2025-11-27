@@ -1,15 +1,58 @@
 import streamlit as st
 import pandas as pd
 import json
+import markdown
+import textwrap
+import re
 from sqlalchemy import create_engine
 import sys
 import os
 
+# Adjust path to find src module
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from dashboard.translations import TRANSLATIONS
 from src.config import settings
 
 st.set_page_config(page_title="BLW Metadata Dashboard", layout="wide", page_icon="🏆")
+
+# --- CUSTOM UI HELPERS ---
+def render_quality_card(title: str, content: str, level: str = "info"):
+    """
+    Renders a custom HTML card using the BLW color palette defined in style.css.
+    
+    Args:
+        title: The header text.
+        content: The body text (supports Markdown).
+        level: 'high' (Red), 'med' (Orange), 'low' (Yellow), 'info' (Blue/Beige).
+    """
+    # Map levels to icons
+    icon_map = {
+        "high": "🚨",
+        "med": "⚠️",
+        "low": "💡",
+        "info": "ℹ️"
+    }
+    icon = icon_map.get(level, "")
+    
+    # 1. CLEANUP: Remove indentation from the source string
+    # This prevents the markdown parser from treating the text as a code block.
+    clean_content = textwrap.dedent(content).strip()
+    clean_content = re.sub(r'(\n)([*-] )', r'\n\n\2', clean_content)
+    
+
+    # 2. CONVERT: Markdown -> HTML
+    content_html = markdown.markdown(clean_content)
+    
+    # 3. RENDER
+    html = f"""
+    <div class="blw-card {level}">
+        <h4>{title}</h4>
+        <div class="card-content">
+            {content_html}
+        </div>
+    </div>
+    """
+    st.markdown(html, unsafe_allow_html=True)
 
 # 2. LOAD EXTERNAL CSS
 def load_css(file_name):
@@ -38,7 +81,7 @@ def load_data():
     engine = get_db_engine()
     try:
         df = pd.read_sql("SELECT * FROM datasets", engine)
-        # ADDED: quality_suggestions to the list of JSON columns
+        # Parse JSON columns
         json_cols = ['title', 'description', 'keywords', 'themes', 'schema_violation_messages', 'quality_suggestions']
         for col in json_cols:
             if col in df.columns:
@@ -56,6 +99,7 @@ if 'inspector_search' not in st.session_state: st.session_state.inspector_search
 def set_lang(code): st.session_state.lang = code
 def clear_search(): st.session_state.inspector_search = ""
 
+# --- HEADER & LANGUAGE ---
 col_header, col_spacer, col_lang = st.columns([6, 0.5, 2.5])
 with col_lang:
     b_de, b_fr, b_it, b_en = st.columns(4)
@@ -73,7 +117,7 @@ with col_header:
 
 df = load_data()
 if df.empty:
-    st.warning(T["inspector_no_data"])
+    render_quality_card("Error", T["inspector_no_data"], "high")
     st.stop()
 
 df['display_title'] = df['title'].apply(lambda x: get_localized_text(x, lang_code))
@@ -81,6 +125,7 @@ filtered_df = df
 
 tab1, tab2, tab3, tab4 = st.tabs([T["tab_worklist"], T["tab_overview"], T["tab_inspector"], T["tab_help"]])
 
+# --- TAB 1: WORKLIST ---
 with tab1:
     st.markdown(f"### {T['tab_worklist']}")
     
@@ -101,30 +146,26 @@ with tab1:
     worklist_df['severity'] = worklist_df.apply(categorize_severity, axis=1)
     worklist_df['violations_display'] = worklist_df['schema_violations_count'].apply(format_violations)
     
-    # NATIVE IMPLEMENTATION
-    # We pass the raw dataframe (no Pandas .style needed)
     st.dataframe(
         worklist_df[['severity', 'display_title', 'violations_display', 'swiss_score', 'id']],
         column_config={
             "severity": st.column_config.TextColumn(T["col_severity"]),
             "display_title": st.column_config.TextColumn(T["col_title"], width="medium"),
             "violations_display": st.column_config.TextColumn(T["col_violations"]),
-            
-            # NATIVE BLUE PROGRESS BAR
             "swiss_score": st.column_config.ProgressColumn(
                 T["col_score"], 
                 format="%.0f", 
                 min_value=0, 
                 max_value=405,
-                color="#3a6185" 
+                color="#2f4356" 
             ),
             "id": st.column_config.TextColumn(T["col_id"], width="small", help="DCAT Identifier")
         },
         hide_index=True,
-        width=None,
-        use_container_width=True
+        width="stretch"
     )
 
+# --- TAB 2: OVERVIEW ---
 with tab2:
     st.markdown(f"### {T['tab_overview']}")
     c1, c2, c3 = st.columns(3)
@@ -138,7 +179,7 @@ with tab2:
     
     with col_chart1:
         st.caption(T["chart_score_dist"])
-        st.bar_chart(filtered_df['swiss_score'], color="#3a6185")
+        st.bar_chart(filtered_df['swiss_score'], color="#2f4356")
         
     with col_chart2:
         st.caption(T["chart_top_errors"])
@@ -148,10 +189,11 @@ with tab2:
                 if isinstance(msgs, list): all_errors.extend(msgs)
         
         if all_errors: 
-            st.bar_chart(pd.Series(all_errors).value_counts().head(5), color="#3a6185")
+            st.bar_chart(pd.Series(all_errors).value_counts().head(5), color="#e42125")
         else: 
-            st.info("No validation errors found.")
+            render_quality_card("Info", "No validation errors found.", "info")
 
+# --- TAB 3: INSPECTOR ---
 with tab3:
     st.markdown(f"### {T['tab_inspector']}")
     col_search, col_clear = st.columns([5, 1])
@@ -179,14 +221,17 @@ with tab3:
             st.divider()
             
             col_d1, col_d2 = st.columns(2)
+            
             with col_d1:
-                st.markdown("**Schema Violations:**")
+                st.markdown(f"**{T['metric_violations']}:**")
                 if record['schema_violations_count'] > 0:
-                    for msg in record.get('schema_violation_messages', []): st.error(f"• {msg}")
+                    for msg in record.get('schema_violation_messages', []):
+                        render_quality_card("Schema Violation", msg, "high")
                 else:
-                    st.success("No violations.")
+                    render_quality_card("Valid", "Schema validation passed successfully.", "info")
+            
             with col_d2:
-                st.markdown("**Quality Details:**")
+                st.markdown(f"**{T['inspector_details']}:**")
                 st.info(f"**FAIRC Score:** {record.get('swiss_score', 0):.0f} / 405")
                 st.markdown(f"""
                 * **Findability:** {record.get('findability_score', 0)}
@@ -196,26 +241,24 @@ with tab3:
                 * **Contextuality:** {record.get('contextuality_score', 0)}
                 """)
 
-            # --- IMPROVEMENT OPPORTUNITIES ---
-            st.markdown("### 🚀 " + ("Improvement Opportunities" if lang_code == "en" else "Verbesserungspotenzial"))
+            st.markdown("### 🚀 " + T['inspector_improvement'])
             st.caption("Fulfill the following criteria to maximize your score:")
             
             suggestions = record.get('quality_suggestions', [])
             if suggestions and isinstance(suggestions, list) and len(suggestions) > 0:
                 for sug in suggestions:
-                    # Logic: Get translation for key, fallback to key itself
                     dim = sug.get("dimension", "General")
                     key = sug.get("key", "")
                     pts = sug.get("points", 0)
-                    text = T.get(key, key) # Try to get translation
-                    
-                    st.warning(f"**{dim}**: {text} (+{pts})")
+                    text = T.get(key, key)
+                    severity = "med" if pts >= 20 else "low"
+                    render_quality_card(f"{dim} (+{pts} pts)", text, severity)
             else:
                 if record.get('swiss_score', 0) >= 405:
                     st.balloons()
-                    st.success("Perfect Score! 🏆")
+                    render_quality_card("Perfect Score!", "All FAIRC criteria met. 🏆", "info")
                 else:
-                    st.info("No specific suggestions available.")
+                    render_quality_card("Info", "No specific suggestions available.", "info")
 
             with st.expander(T["inspector_raw"]):
                 raw_view = record.to_dict()
@@ -223,45 +266,36 @@ with tab3:
                     if k in raw_view: del raw_view[k]
                 st.json(raw_view)
 
+# --- TAB 4: HELP ---
 with tab4:
     st.markdown(f"### {T['tab_help']}")
-    st.info(T["help_intro"])
+    render_quality_card("Overview", T["help_intro"], "info")
     
-    # -----------------------------------------------------------------------
-    # SECTION 1: MANDATORY VIOLATIONS
-    # -----------------------------------------------------------------------
-    # Removed spacer <br> to ensure alignment
+    st.divider()
+
     with st.container():
         col_v1, col_v2 = st.columns([2, 1])
         with col_v1:
-            st.error(f"#### {T['help_vio_title']}")
-            st.markdown(T["help_vio_desc"])
+            render_quality_card(T['help_vio_title'], T["help_vio_desc"], "high")
         with col_v2:
-            st.error(T["help_vio_goal"], icon="🎯")
+            render_quality_card("Goal", T["help_vio_goal"], "high")
 
     st.divider()
 
-    # -----------------------------------------------------------------------
-    # SECTION 2: QUALITY SCORING (FAIRC) & CALCULATOR
-    # -----------------------------------------------------------------------
-    # Removed spacer <br> to ensure alignment
     with st.container():
         col_s1, col_s2 = st.columns([2, 1])
         with col_s1:
-            st.success(f"#### {T['help_score_title']}")
-            st.markdown(T["help_score_desc"])
+            render_quality_card(T['help_score_title'], T["help_score_desc"], "low")
         with col_s2:
-            st.success(T["help_score_goal"], icon="🎯")
+            render_quality_card("Goal", T["help_score_goal"], "low")
 
-        st.markdown(f"#### {T['help_calc_title']}")
-        
-        # Helper to create table rows with optional definitions
-        def row(dim, crit_key, weight, def_key=None):
-            definition = T[def_key] if def_key else ""
-            return f"| **{dim}** | {T[crit_key]} | +{weight} | {definition} |"
+    st.markdown(f"#### {T['help_calc_title']}")
+    
+    def row(dim, crit_key, weight, def_key=None):
+        definition = T[def_key] if def_key else ""
+        return f"| **{dim}** | {T[crit_key]} | +{weight} | {definition} |"
 
-        # Build the table markdown
-        table_md = f"""
+    table_md = f"""
 | {T['help_table_dim']} | {T['help_table_crit']} | {T['help_table_pts']} | {T['help_table_info']} |
 | :--- | :--- | :--- | :--- |
 {row('Findability', 'crit_keywords', settings.WEIGHT_FINDABILITY_KEYWORDS)}
@@ -287,6 +321,5 @@ with tab4:
 {row('', 'crit_filesize', settings.WEIGHT_CONTEXT_FILE_SIZE)}
 {row('', 'crit_issue', settings.WEIGHT_CONTEXT_ISSUE_DATE)}
 {row('', 'crit_mod', settings.WEIGHT_CONTEXT_MODIFICATION_DATE)}
-        """
-        
-        st.markdown(table_md)
+    """
+    st.markdown(table_md)

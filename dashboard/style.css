@@ -1,3 +1,7 @@
+/* ================================= */
+/* 1. EXISTING LAYOUT & BUTTONS      */
+/* ================================= */
+
 /* Global Alignment */
 div[data-testid="column"] { 
     align-items: center; 
@@ -17,7 +21,7 @@ div[data-testid="stButton"] button p {
 }
 
 /* --- FORCE BLUE THEME --- */
-/* Overriding System Defaults to BLW Blue (#0066CC) */
+/* Overriding System Defaults to BLW Blue (#2f4356) */
 
 /* Primary Buttons (Used for Language Selectors) */
 button[kind="primary"] {
@@ -26,10 +30,72 @@ button[kind="primary"] {
     color: white !important;
 }
 button[kind="primary"]:hover {
-    background-color: #2f4356 !important;
+    background-color: #2f4356 !important; /* Kept consistent */
     border-color: #2f4356 !important;
+    opacity: 0.9; /* Slight hover effect */
 }
 button[kind="primary"]:focus {
-    box-shadow: 0 0 0 0.2rem rgba(0, 102, 204, 0.5) !important;
+    box-shadow: 0 0 0 0.2rem rgba(47, 67, 86, 0.5) !important; /* Shadow matches #2f4356 */
+}
+
+/* ================================= */
+/* 2. NEW QUALITY CARDS (No Red/Green) */
+/* ================================= */
+
+/* Base Card Container */
+.blw-card {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+    border-left-width: 5px;
+    border-left-style: solid;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+    color: #2f4356; /* Dark Blue Text for high contrast */
+}
+
+/* Typography inside cards */
+.blw-card h4 {
+    margin: 0 0 0.5rem 0;
+    padding: 0;
+    color: #2f4356; /* Dark Blue Header */
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.blw-card p {
+    margin: 0;
+    font-size: 0.95rem;
+    line-height: 1.4;
+}
+
+/* --- SEVERITY LEVELS (Your Palette) --- */
+
+/* 1. HIGH SEVERITY (Violations) */
+/* Border: Swiss Red (#e42125) */
+.blw-card.high {
+    border-left-color: #e42125;
+    background-color: #fff5f5; /* Very faint red tint for readability */
+}
+
+/* 2. MEDIUM SEVERITY (Warnings) */
+/* Border: Orange (#f77f00) */
+.blw-card.med {
+    border-left-color: #f77f00;
+    background-color: #fffaf0; /* Very faint orange tint */
+}
+
+/* 3. LOW SEVERITY (Suggestions) */
+/* Border: Yellow/Gold (#fcbf49) */
+.blw-card.low {
+    border-left-color: #fcbf49;
+    background-color: #fffff0; /* Very faint yellow tint */
+}
+
+/* 4. INFO / GENERAL */
+/* Border: Dark Blue (#2f4356) */
+/* Background: Beige (#eae2b7) - Great for 'Paper' feel */
+.blw-card.info {
+    border-left-color: #2f4356;
+    background-color: #eae2b7; 
 }
 

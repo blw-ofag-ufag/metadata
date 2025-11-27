@@ -45,7 +45,7 @@ TRANSLATIONS = {
         * **Auswirkung:** Datensätze mit Verstössen werden rot markiert.
         * **Beispiele:** Fehlende ID, ungültiges Datumsformat, fehlender Kontakt.
         """,
-        "help_vio_goal": "🎯 **Ziel:** 0 Verstösse (Zwingend erforderlich).",
+        "help_vio_goal": "🎯 0 Verstösse (Zwingend erforderlich).",
 
         # Score Section
         "help_score_title": "Qualitäts-Score (Verbesserung)",
@@ -55,7 +55,7 @@ TRANSLATIONS = {
         * Der maximale Score beträgt **405 Punkte**.
         * Die Tabelle unten zeigt genau, wofür Punkte vergeben werden.
         """,
-        "help_score_goal": "🎯 **Ziel:** Score maximieren (High Score).",
+        "help_score_goal": "🎯 Score maximieren (High Score).",
 
         # Calculator Table Headers
         "help_calc_title": "🧮 Wie wird der Score berechnet?",
@@ -137,7 +137,7 @@ TRANSLATIONS = {
         * **Impact:** Les jeux de données avec violations sont marqués en rouge.
         * **Exemples:** ID manquant, format de date invalide, contact manquant.
         """,
-        "help_vio_goal": "🎯 **Objectif:** 0 Violations (Impératif).",
+        "help_vio_goal": "🎯 0 Violations (Impératif).",
 
         "help_score_title": "Score de Qualité (Bonus)",
         "help_score_desc": """
@@ -147,7 +147,7 @@ TRANSLATIONS = {
         * Le score maximum est de **405 points**.
         * Le tableau ci-dessous montre exactement comment gagner des points.
         """,
-        "help_score_goal": "🎯 **Objectif:** Maximiser les points.",
+        "help_score_goal": "🎯 Maximiser les points.",
 
         "help_calc_title": "🧮 Comment le score est-il calculé ?",
         "help_table_dim": "Dimension",
@@ -226,7 +226,7 @@ TRANSLATIONS = {
         * **Impatto:** I dataset con violazioni sono segnati in rosso.
         * **Esempi:** ID mancante, formato data non valido, contatto mancante.
         """,
-        "help_vio_goal": "🎯 **Obiettivo:** 0 Violazioni (Imperativo).",
+        "help_vio_goal": "🎯 0 Violazioni (Imperativo).",
 
         "help_score_title": "Punteggio di Qualità (Bonus)",
         "help_score_desc": """
@@ -236,7 +236,7 @@ TRANSLATIONS = {
         * Il punteggio massimo è **405 punti**.
         * La tabella sottostante mostra esattamente come guadagnare punti.
         """,
-        "help_score_goal": "🎯 **Obiettivo:** Massimizzare i punti.",
+        "help_score_goal": "🎯 Massimizzare i punti.",
 
         "help_calc_title": "🧮 Come viene calcolato il punteggio?",
         "help_table_dim": "Dimensione",
@@ -312,10 +312,11 @@ TRANSLATIONS = {
         "help_vio_title": "Schema Violations (Mandatory)",
         "help_vio_desc": """
         A violation means the dataset is technically invalid or breaks BLW rules.
+        
         * **Impact:** Datasets with violations are flagged red.
         * **Examples:** Missing ID, invalid date format, missing contact email.
         """,
-        "help_vio_goal": "🎯 **Goal:** 0 Violations (Mandatory).",
+        "help_vio_goal": "🎯 0 Violations (Mandatory).",
 
         "help_score_title": "Quality Score (Optimization)",
         "help_score_desc": """
@@ -325,7 +326,7 @@ TRANSLATIONS = {
         * The maximum score is **405 points**.
         * The table below shows exactly how points are awarded.
         """,
-        "help_score_goal": "🎯 **Goal:** Maximize points (High Score).",
+        "help_score_goal": "🎯 Maximize points (High Score).",
 
         "help_calc_title": "🧮 Scoring Calculator",
         "help_table_dim": "Dimension",
