@@ -319,7 +319,7 @@ TRANSLATIONS = {
         
         "help_vio_title": "Schema Violations (Mandatory)",
         "help_vio_desc": """
-        A violation means the dataset is technically invalid or breaks BLW rules.
+        A violation means the dataset is technically invalid or breaks FOAG rules.
         * **Impact:** Datasets with violations are flagged red.
         * **Examples:** Missing ID, invalid date format, missing contact email.
         """,
