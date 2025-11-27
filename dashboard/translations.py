@@ -39,16 +39,16 @@ TRANSLATIONS = {
         "help_intro": "Das Dashboard unterscheidet zwei Arten von Qualitätsproblemen:",
         
         # Violations Section
-        "help_vio_title": "1. Schema-Verstösse (Pflicht)",
+        "help_vio_title": "Schema-Verstösse (Pflicht)",
         "help_vio_desc": """
-        **Dies ist die Basis-Hygiene.** Ein Verstoss bedeutet, dass der Datensatz technisch ungültig ist oder gegen BLW-Regeln verstösst.
+        Ein Verstoss bedeutet, dass der Datensatz technisch ungültig ist oder gegen BLW-Regeln verstösst.
         * **Auswirkung:** Datensätze mit Verstössen werden rot markiert.
         * **Beispiele:** Fehlende ID, ungültiges Datumsformat, fehlender Kontakt.
         """,
         "help_vio_goal": "🎯 **Ziel:** 0 Verstösse (Zwingend erforderlich).",
 
         # Score Section
-        "help_score_title": "2. Qualitäts-Score (Kür)",
+        "help_score_title": "Qualitäts-Score (Verbesserung)",
         "help_score_desc": """
         **Dies ist ein Optimierungs-System (FAIRC).** Sobald das Schema validiert ist, können Sie Ihren Score verbessern, indem Sie die Daten nützlicher machen.
         
@@ -131,15 +131,15 @@ TRANSLATIONS = {
         # --- HELP PAGE CONTENT ---
         "help_intro": "Le tableau de bord distingue deux types de problèmes :",
         
-        "help_vio_title": "1. Violations du Schéma (Obligatoire)",
+        "help_vio_title": "Violations du Schéma (Obligatoire)",
         "help_vio_desc": """
-        **C'est l'hygiène de base.** Une violation signifie que le jeu de données est techniquement invalide.
+        Une violation signifie que le jeu de données est techniquement invalide.
         * **Impact:** Les jeux de données avec violations sont marqués en rouge.
         * **Exemples:** ID manquant, format de date invalide, contact manquant.
         """,
         "help_vio_goal": "🎯 **Objectif:** 0 Violations (Impératif).",
 
-        "help_score_title": "2. Score de Qualité (Bonus)",
+        "help_score_title": "Score de Qualité (Bonus)",
         "help_score_desc": """
         **C'est un système d'optimisation (FAIRC).**
         Une fois le schéma validé, vous pouvez améliorer votre score en rendant les données plus utiles.
@@ -220,15 +220,15 @@ TRANSLATIONS = {
         # --- HELP PAGE CONTENT ---
         "help_intro": "La dashboard distingue due tipi di problemi:",
         
-        "help_vio_title": "1. Violazioni dello Schema (Obbligatorio)",
+        "help_vio_title": "Violazioni dello Schema (Obbligatorio)",
         "help_vio_desc": """
-        **Questa è l'igiene di base.** Una violazione significa che il dataset non è tecnicamente valido.
+        Una violazione significa che il dataset non è tecnicamente valido.
         * **Impatto:** I dataset con violazioni sono segnati in rosso.
         * **Esempi:** ID mancante, formato data non valido, contatto mancante.
         """,
         "help_vio_goal": "🎯 **Obiettivo:** 0 Violazioni (Imperativo).",
 
-        "help_score_title": "2. Punteggio di Qualità (Bonus)",
+        "help_score_title": "Punteggio di Qualità (Bonus)",
         "help_score_desc": """
         **Questo è un sistema di ottimizzazione (FAIRC).**
         Una volta validato lo schema, puoi migliorare il punteggio rendendo i dati più utili.
@@ -309,15 +309,15 @@ TRANSLATIONS = {
         # --- HELP PAGE CONTENT ---
         "help_intro": "The dashboard distinguishes between two types of data issues:",
         
-        "help_vio_title": "1. Schema Violations (Mandatory)",
+        "help_vio_title": "Schema Violations (Mandatory)",
         "help_vio_desc": """
-        **This is basic hygiene.** A violation means the dataset is technically invalid or breaks BLW rules.
+        A violation means the dataset is technically invalid or breaks BLW rules.
         * **Impact:** Datasets with violations are flagged red.
         * **Examples:** Missing ID, invalid date format, missing contact email.
         """,
         "help_vio_goal": "🎯 **Goal:** 0 Violations (Mandatory).",
 
-        "help_score_title": "2. Quality Score (Optimization)",
+        "help_score_title": "Quality Score (Optimization)",
         "help_score_desc": """
         **This is an optimization system (FAIRC).**
         Once the schema is valid, you can improve your score by making the data more useful and accessible.
