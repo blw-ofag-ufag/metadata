@@ -127,6 +127,9 @@ def load_data():
         st.error(f"Database connection failed: {e}")
         return pd.DataFrame()
 
+if 'lang' not in st.session_state: st.session_state.lang = 'de'
+if 'inspector_search' not in st.session_state: st.session_state.inspector_search = ""
+
 def set_lang(code): st.session_state.lang = code
 def clear_search(): st.session_state.inspector_search = ""
 
