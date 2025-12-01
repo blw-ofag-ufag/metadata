@@ -99,3 +99,22 @@ button[kind="primary"]:focus {
     background-color: #eae2b7; 
 }
 
+/* ================================= */
+/* 3. RESPONSIVE BUTTON TEXT         */
+/* ================================= */
+
+/* Target the text inside ALL buttons */
+div[data-testid="stButton"] button p {
+    white-space: normal !important;       /* Allow text to wrap */
+    word-wrap: break-word !important;     /* Break long words if necessary */
+    line-height: 1.2 !important;          /* tighter line height for multi-line */
+    text-align: center;                   /* Ensure centered text */
+}
+
+/* Target the button container to grow vertically */
+div[data-testid="stButton"] button {
+    height: auto !important;              /* Allow button to grow taller */
+    min-height: 45px !important;          /* Minimum height for consistency */
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+}

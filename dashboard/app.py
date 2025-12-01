@@ -123,10 +123,42 @@ if df.empty:
 df['display_title'] = df['title'].apply(lambda x: get_localized_text(x, lang_code))
 filtered_df = df
 
-tab1, tab2, tab3, tab4 = st.tabs([T["tab_worklist"], T["tab_overview"], T["tab_inspector"], T["tab_help"]])
+# ==============================================================================
+# Responsive Button Navigation Bar
+# ==============================================================================
+
+# 1. Initialize Active Tab State
+if "active_tab_index" not in st.session_state:
+    st.session_state.active_tab_index = 0
+
+# 2. Define Options
+tab_names = [T["tab_worklist"], T["tab_overview"], T["tab_inspector"], T["tab_help"]]
+
+# 3. Layout: Constrain width first (Mimic Language Button behavior)
+col_nav, col_spacer = st.columns([3, 2]) 
+
+with col_nav:
+    # 4. Divide the constrained area into equal slots for buttons
+    nav_cols = st.columns(len(tab_names))
+    
+    for i, (col, name) in enumerate(zip(nav_cols, tab_names)):
+        
+        # Highlight the active tab with "primary" style
+        button_type = "primary" if st.session_state.active_tab_index == i else "secondary"
+        
+        # Create button filling its column slot
+        if col.button(name, key=f"nav_tab_{i}", type=button_type, use_container_width=True):
+            st.session_state.active_tab_index = i
+            st.rerun()
+
+st.divider()
+
+# ==============================================================================
+# CONTENT RENDERING
+# ==============================================================================
 
 # --- TAB 1: WORKLIST ---
-with tab1:
+if st.session_state.active_tab_index == 0:
     st.markdown(f"### {T['tab_worklist']}")
     
     def categorize_severity(row):
@@ -166,7 +198,7 @@ with tab1:
     )
 
 # --- TAB 2: OVERVIEW ---
-with tab2:
+elif st.session_state.active_tab_index == 1:
     st.markdown(f"### {T['tab_overview']}")
     c1, c2, c3 = st.columns(3)
     c1.metric(T["metric_total"], len(filtered_df))
@@ -194,7 +226,7 @@ with tab2:
             render_quality_card("Info", "No validation errors found.", "info")
 
 # --- TAB 3: INSPECTOR ---
-with tab3:
+elif st.session_state.active_tab_index == 2:
     st.markdown(f"### {T['tab_inspector']}")
     col_search, col_clear = st.columns([5, 1])
     with col_search:
@@ -209,6 +241,8 @@ with tab3:
 
     if not subset.empty:
         dataset_map = {row['id']: row['display_title'] for _, row in subset.iterrows()}
+        # Note: We must ensure options are valid. If search changes, previous selection might be invalid.
+        # This logic remains consistent with previous version.
         selected_id = st.selectbox(T["inspector_select"], options=dataset_map.keys(), format_func=lambda x: dataset_map[x], key="inspector_dataset_selector")
 
         if selected_id:
@@ -267,12 +301,10 @@ with tab3:
                 st.json(raw_view)
 
 # --- TAB 4: HELP ---
-with tab4:
+elif st.session_state.active_tab_index == 3:
     st.markdown(f"#### {T['help_overview']}")
     st.markdown(T["help_intro"])
     
-    # st.divider()
-
     with st.container():
         col_v1, col_v2 = st.columns([2, 1])
         with col_v1:
@@ -294,6 +326,7 @@ with tab4:
     def row(dim, crit_key, weight, def_key=None):
         definition = T[def_key] if def_key else ""
         return f"| **{dim}** | {T[crit_key]} | +{weight} | {definition} |"
+
 
     table_md = f"""
 | {T['help_table_dim']} | {T['help_table_crit']} | {T['help_table_pts']} | {T['help_table_info']} |
