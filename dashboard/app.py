@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+import altair as alt
 import json
 import markdown
 import textwrap
@@ -211,7 +212,44 @@ elif st.session_state.active_tab_index == 1:
     
     with col_chart1:
         st.caption(T["chart_score_dist"])
-        st.bar_chart(filtered_df['swiss_score'], color="#2f4356")
+        
+        # 1. Prepare Data: Sort descending and create a Rank column
+        # We sort by swiss_score descending so the best scores are on the left (Rank 1)
+        chart_data = filtered_df.sort_values(by="swiss_score", ascending=False).reset_index(drop=True)
+        chart_data["rank"] = chart_data.index + 1  # Create 1-based rank (1 to 145)
+
+        # 2. Build Altair Chart
+        chart = alt.Chart(chart_data).mark_bar(
+            color="#2f4356", # BLW Blue
+            stroke="white",     # Adds a border to separate bars
+            strokeWidth=0.2
+        ).encode(
+            # X-Axis: Quantitative (Q) allows it to scale nicely from 1-145
+            x=alt.X(
+                'rank:Q', 
+                title='Dataset Rank', 
+                axis=alt.Axis(tickMinStep=1), # Ensure we don't get decimals on x-axis
+                scale=alt.Scale(domainMin=0)
+            ),
+            # Y-Axis: Quantitative (Q)
+            y=alt.Y(
+                'swiss_score:Q', 
+                title='FAIRC Score',
+                # domainMin=0 ensures the axis stays at 0 even when zooming out
+                scale=alt.Scale(domainMin=0, domainMax=420) 
+            ),
+            # Tooltips: Custom hover information
+            tooltip=[
+                alt.Tooltip('rank', title='Rank'),
+                alt.Tooltip('display_title', title=T["col_title"]), # Localized Title
+                alt.Tooltip('swiss_score', title='FAIRC Score')
+            ]
+        ).properties(
+            # Make the chart responsive and high enough
+            height=300
+        ).interactive() # Enables zooming and panning
+
+        st.altair_chart(chart, use_container_width=True)
         
     with col_chart2:
         st.caption(T["chart_top_errors"])
