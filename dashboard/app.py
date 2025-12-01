@@ -133,7 +133,7 @@ if "active_tab_index" not in st.session_state:
     st.session_state.active_tab_index = 0
 
 # 2. Define Options
-tab_names = [T["tab_worklist"], T["tab_overview"], T["tab_inspector"], T["tab_help"]]
+tab_names = [T["tab_overview"], T["tab_inspector"], T["tab_help"]]
 
 # 3. Layout: Constrain width first (Mimic Language Button behavior)
 col_nav, col_spacer = st.columns([3, 2]) 
@@ -158,10 +158,86 @@ st.divider()
 # CONTENT RENDERING
 # ==============================================================================
 
-# --- TAB 1: WORKLIST ---
+# --- TAB 1: OVERVIEW ---
 if st.session_state.active_tab_index == 0:
-    st.markdown(f"### {T['tab_worklist']}")
     
+    # 1. TOP: KEY METRICS
+    c1, c2, c3 = st.columns(3)
+    c1.metric(T["metric_total"], len(filtered_df))
+    c2.metric(T["metric_score"], f"{filtered_df['swiss_score'].mean():.0f}")
+    c3.metric(T["metric_violations"], int(filtered_df['schema_violations_count'].sum()))
+    
+    st.divider()
+    
+    col_chart1, col_chart2 = st.columns(2)
+    
+    # --- LEFT: Score Distribution ---
+    with col_chart1:
+        st.markdown(f"#### {T['chart_score_dist']}")
+        
+        chart_data = filtered_df.sort_values(by="swiss_score", ascending=False).reset_index(drop=True)
+        chart_data["rank"] = chart_data.index + 1
+
+        chart_dist = alt.Chart(chart_data).mark_bar(
+            color="#2f4356",    # BLW Blue
+            stroke="white",     # Slice border
+            strokeWidth=0.2     
+        ).encode(
+            x=alt.X('rank:Q', title='Dataset Rank', axis=alt.Axis(tickMinStep=1, grid=False), scale=alt.Scale(domainMin=0) ),
+            y=alt.Y('swiss_score:Q', title='FAIRC Score', scale=alt.Scale(domainMin=0, domainMax=420)),
+            tooltip=[
+                alt.Tooltip('rank', title='Rank'),
+                alt.Tooltip('display_title', title=T["col_title"]),
+                alt.Tooltip('swiss_score', title='FAIRC Score')
+            ]
+        ).properties(
+            height=220  # <--- Reduced Height to prevent visual dominance
+        ).interactive()
+
+        st.altair_chart(chart_dist, use_container_width=True)
+        
+    # --- RIGHT: Top Errors (Horizontal) ---
+    with col_chart2:
+        st.markdown(f"#### {T['chart_top_errors']}")
+        
+        all_errors = []
+        if 'schema_violation_messages' in filtered_df.columns:
+            for msgs in filtered_df['schema_violation_messages']:
+                if isinstance(msgs, list): 
+                    all_errors.extend(msgs)
+        
+        if all_errors: 
+            error_counts = pd.Series(all_errors).value_counts().reset_index()
+            error_counts.columns = ["error_message", "count"]
+            top_errors = error_counts.head(5)
+
+            chart_err = alt.Chart(top_errors).mark_bar(
+                color="#2f4356" 
+            ).encode(
+                x=alt.X('count:Q', title='Count', axis=alt.Axis(tickMinStep=1)),
+                y=alt.Y(
+                    'error_message:N', 
+                    title=None, # Remove Y-title to save space for labels
+                    sort='-x', 
+                    axis=alt.Axis(labelLimit=250) # Limit label width to prevent overlap
+                ),
+                tooltip=[
+                    alt.Tooltip('error_message', title='Error'),
+                    alt.Tooltip('count', title='Count')
+                ]
+            ).properties(
+                height=220 # <--- Matching Height
+            ).interactive()
+
+            st.altair_chart(chart_err, use_container_width=True)
+        else: 
+            render_quality_card("Info", "No validation errors found.", "info")
+
+    st.divider()
+
+    # 3. BOTTOM: WORKLIST DATAFRAME
+    st.markdown(f"### {T['tab_worklist']}")
+
     def categorize_severity(row):
         if row['schema_violations_count'] > 0:
             return T["severity_high"]
@@ -192,77 +268,11 @@ if st.session_state.active_tab_index == 0:
                 max_value=405,
                 color="#2f4356" 
             ),
-            "id": st.column_config.TextColumn(T["col_id"], width="small", help="DCAT Identifier")
+            "id": st.column_config.TextColumn(T["col_id"], width="small")
         },
         hide_index=True,
         width="stretch"
     )
-
-# --- TAB 2: OVERVIEW ---
-elif st.session_state.active_tab_index == 1:
-    st.markdown(f"### {T['tab_overview']}")
-    c1, c2, c3 = st.columns(3)
-    c1.metric(T["metric_total"], len(filtered_df))
-    c2.metric(T["metric_score"], f"{filtered_df['swiss_score'].mean():.0f}")
-    c3.metric(T["metric_violations"], int(filtered_df['schema_violations_count'].sum()))
-    
-    st.divider()
-    
-    col_chart1, col_chart2 = st.columns(2)
-    
-    with col_chart1:
-        st.caption(T["chart_score_dist"])
-        
-        # 1. Prepare Data: Sort descending and create a Rank column
-        # We sort by swiss_score descending so the best scores are on the left (Rank 1)
-        chart_data = filtered_df.sort_values(by="swiss_score", ascending=False).reset_index(drop=True)
-        chart_data["rank"] = chart_data.index + 1  # Create 1-based rank (1 to 145)
-
-        # 2. Build Altair Chart
-        chart = alt.Chart(chart_data).mark_bar(
-            color="#2f4356", # BLW Blue
-            stroke="white",     # Adds a border to separate bars
-            strokeWidth=0.2
-        ).encode(
-            # X-Axis: Quantitative (Q) allows it to scale nicely from 1-145
-            x=alt.X(
-                'rank:Q', 
-                title='Dataset Rank', 
-                axis=alt.Axis(tickMinStep=1), # Ensure we don't get decimals on x-axis
-                scale=alt.Scale(domainMin=0)
-            ),
-            # Y-Axis: Quantitative (Q)
-            y=alt.Y(
-                'swiss_score:Q', 
-                title='FAIRC Score',
-                # domainMin=0 ensures the axis stays at 0 even when zooming out
-                scale=alt.Scale(domainMin=0, domainMax=420) 
-            ),
-            # Tooltips: Custom hover information
-            tooltip=[
-                alt.Tooltip('rank', title='Rank'),
-                alt.Tooltip('display_title', title=T["col_title"]), # Localized Title
-                alt.Tooltip('swiss_score', title='FAIRC Score')
-            ]
-        ).properties(
-            # Make the chart responsive and high enough
-            height=300
-        ).interactive() # Enables zooming and panning
-
-        st.altair_chart(chart, use_container_width=True)
-        
-    with col_chart2:
-        st.caption(T["chart_top_errors"])
-        all_errors = []
-        if 'schema_violation_messages' in filtered_df.columns:
-            for msgs in filtered_df['schema_violation_messages']:
-                if isinstance(msgs, list): all_errors.extend(msgs)
-        
-        if all_errors: 
-            st.bar_chart(pd.Series(all_errors).value_counts().head(5), color="#e42125")
-        else: 
-            render_quality_card("Info", "No validation errors found.", "info")
-
 # --- TAB 3: INSPECTOR ---
 elif st.session_state.active_tab_index == 2:
     st.markdown(f"### {T['tab_inspector']}")
