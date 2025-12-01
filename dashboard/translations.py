@@ -6,8 +6,7 @@ Supported: DE (Default), FR, IT, EN.
 TRANSLATIONS = {
     "de": {
         "app_title": "BLW Metadaten-Qualitäts-Dashboard 🏆",
-        "tab_worklist": "🔨 Arbeitsliste",
-        "tab_overview": "📈 Übersicht",
+        "tab_overview": "Übersicht & Arbeitsliste",
         "tab_inspector": "🔍 Inspektor",
         "tab_help": "📚 Hilfe & Methodik",
         
@@ -21,12 +20,37 @@ TRANSLATIONS = {
         "col_violations": "Verstösse",
         "col_id": "ID",
         
-        # Inspector
+        # Inspector - General
         "inspector_select": "Datensatz auswählen",
         "inspector_raw": "Rohdaten anzeigen",
-        "inspector_details": "Qualitätsdetails",
+        "inspector_details": "Qualitätsdetails (FAIRC)",
         "inspector_no_data": "Keine Daten gefunden.",
         "inspector_improvement": "Verbesserungspotenzial",
+        "inspector_id": "ID",
+        "inspector_overall_score": "Gesamt-Score",
+
+        # Inspector - Sections & Messages
+        "sec_schema_violations": "Schema-Verstösse",
+        "sec_link_health": "Link-Verfügbarkeit",
+        
+        "msg_valid_title": "Gültig",
+        "msg_valid_body": "Schema-Validierung erfolgreich bestanden.",
+        "msg_schema_violation": "Schema-Verstoss",
+        
+        "msg_no_dists": "Keine Distributionen für diesen Datensatz gefunden.",
+        "msg_all_ok_title": "Alles in Ordnung",
+        "msg_all_ok_body": "✅ Alle **{count}** Distributionen sind erreichbar.",
+        "msg_broken_detected": "{count} Defekte Distribution(en) erkannt",
+        "msg_view_healthy": "✅ {count} funktionierende Distributionen anzeigen",
+        
+        "lbl_access_url": "Zugriffs-URL",
+        "lbl_download_url": "Download-URL",
+        "lbl_unknown_fmt": "Unbekanntes Format",
+        
+        "msg_perfect_title": "Perfekter Score!",
+        "msg_perfect_body": "Alle FAIRC-Kriterien erfüllt. 🏆",
+        "msg_info_title": "Info",
+        "msg_no_sug_body": "Keine spezifischen Vorschläge verfügbar.",
         
         # Charts / Severity
         "severity_high": "Hoch",
@@ -52,8 +76,8 @@ TRANSLATIONS = {
         # Score Section
         "help_score_title": "Qualitäts-Score (Verbesserung)",
         "help_score_desc": """
-        **Dies ist ein Optimierungssystem basierend auf den FAIRC-Prinzipien** (Auffindbarkeit, Zugänglichkeit, Interoperabilität, Wiederverwendbarkeit, Kontextualität), das dem [opendata.swiss Dashboard Scoring](https://dashboard.opendata.swiss/de/) entspricht. Sobald das Schema validiert ist, können Sie Ihren Score verbessern, indem Sie die Daten nützlicher und zugänglicher machen.
-        
+        **Dies ist ein Optimierungssystem basierend auf den FAIRC-Prinzipien** (Auffindbarkeit, Zugänglichkeit, Interoperabilität, Wiederverwendbarkeit, Kontextualität), das dem [opendata.swiss Dashboard Scoring](https://dashboard.opendata.swiss/de/) entspricht.
+        Sobald das Schema validiert ist, können Sie Ihren Score verbessern, indem Sie die Daten nützlicher und zugänglicher machen.
         * Der maximale Score beträgt **405 Punkte**.
         * Die Tabelle unten zeigt genau, wofür Punkte vergeben werden.
         """,
@@ -104,11 +128,11 @@ TRANSLATIONS = {
     },
     "fr": {
         "app_title": "OFAG Tableau de bord Qualité des Métadonnées 🏆",
-        "tab_worklist": "🔨 Liste de travail",
-        "tab_overview": "📈 Vue d'ensemble",
+        "tab_overview": "Vue d'ensemble & Liste de travail",
         "tab_inspector": "🔍 Inspecteur",
         "tab_help": "📚 Aide & Méthodologie",
 
+        # Columns & Metrics
         "metric_total": "Jeux de données",
         "metric_score": "Ø Score de qualité",
         "metric_violations": "Violations de schéma",
@@ -118,12 +142,39 @@ TRANSLATIONS = {
         "col_violations": "Violations",
         "col_id": "ID",
         
+        # Inspector - General
         "inspector_select": "Sélectionner un jeu de données",
         "inspector_raw": "Afficher les données brutes",
-        "inspector_details": "Détails de qualité",
+        "inspector_details": "Détails de qualité (FAIRC)",
         "inspector_no_data": "Aucune donnée trouvée.",
         "inspector_improvement": "Opportunités d'amélioration",
+        "inspector_id": "ID",
+        "inspector_overall_score": "Score Global",
+
+        # Inspector - Sections & Messages
+        "sec_schema_violations": "Violations de Schéma",
+        "sec_link_health": "Disponibilité des liens",
         
+        "msg_valid_title": "Valide",
+        "msg_valid_body": "Validation du schéma réussie.",
+        "msg_schema_violation": "Violation de Schéma",
+        
+        "msg_no_dists": "Aucune distribution trouvée pour ce jeu de données.",
+        "msg_all_ok_title": "Tout est opérationnel",
+        "msg_all_ok_body": "✅ Les **{count}** distributions sont accessibles.",
+        "msg_broken_detected": "{count} Distribution(s) défectueuse(s) détectée(s)",
+        "msg_view_healthy": "✅ Voir {count} distributions saines",
+        
+        "lbl_access_url": "URL d'accès",
+        "lbl_download_url": "URL de téléchargement",
+        "lbl_unknown_fmt": "Format Inconnu",
+        
+        "msg_perfect_title": "Score Parfait !",
+        "msg_perfect_body": "Tous les critères FAIRC sont remplis. 🏆",
+        "msg_info_title": "Info",
+        "msg_no_sug_body": "Aucune suggestion spécifique disponible.",
+        
+        # Charts / Severity
         "severity_high": "Élevée",
         "severity_med": "Moyenne",
         "severity_low": "Faible",
@@ -145,8 +196,8 @@ TRANSLATIONS = {
 
         "help_score_title": "Score de Qualité (Bonus)",
         "help_score_desc": """
-        **C'est un système d'optimisation basé sur les principes FAIRC** (Trouvabilité, Accessibilité, Interopérabilité, Réutilisabilité, Contextualité), équivalent au [scoring du tableau de bord opendata.swiss](https://dashboard.opendata.swiss/fr/). Une fois le schéma validé, vous pouvez améliorer votre score en rendant les données plus utiles et accessibles.
-        
+        **C'est un système d'optimisation basé sur les principes FAIRC** (Trouvabilité, Accessibilité, Interopérabilité, Réutilisabilité, Contextualité), équivalent au [scoring du tableau de bord opendata.swiss](https://dashboard.opendata.swiss/fr/).
+        Une fois le schéma validé, vous pouvez améliorer votre score en rendant les données plus utiles et accessibles.
         * Le score maximum est de **405 points**.
         * Le tableau ci-dessous montre exactement comment gagner des points.
         """,
@@ -194,11 +245,11 @@ TRANSLATIONS = {
     },
     "it": {
         "app_title": "UFAG Dashboard Qualità Metadati 🏆",
-        "tab_worklist": "🔨 Lista di lavoro",
-        "tab_overview": "📈 Panoramica",
+        "tab_overview": "Panoramica & Lista di lavoro",
         "tab_inspector": "🔍 Ispettore",
         "tab_help": "📚 Aiuto & Metodologia",
 
+        # Columns & Metrics
         "metric_total": "Dataset totali",
         "metric_score": "Ø Punteggio qualità",
         "metric_violations": "Violazioni dello schema",
@@ -208,12 +259,39 @@ TRANSLATIONS = {
         "col_violations": "Violazioni",
         "col_id": "ID",
         
+        # Inspector - General
         "inspector_select": "Seleziona dataset",
         "inspector_raw": "Mostra dati grezzi",
-        "inspector_details": "Dettagli qualità",
+        "inspector_details": "Dettagli qualità (FAIRC)",
         "inspector_no_data": "Nessun dato trovato.",
         "inspector_improvement": "Opportunità di miglioramento",
+        "inspector_id": "ID",
+        "inspector_overall_score": "Punteggio Complessivo",
+
+        # Inspector - Sections & Messages
+        "sec_schema_violations": "Violazioni dello Schema",
+        "sec_link_health": "Disponibilità dei link",
         
+        "msg_valid_title": "Valido",
+        "msg_valid_body": "Convalida dello schema superata con successo.",
+        "msg_schema_violation": "Violazione dello Schema",
+        
+        "msg_no_dists": "Nessuna distribuzione trovata per questo dataset.",
+        "msg_all_ok_title": "Tutto ok",
+        "msg_all_ok_body": "✅ Tutte le **{count}** distribuzioni sono raggiungibili.",
+        "msg_broken_detected": "{count} Distribuzione/i interrotta/e rilevata/e",
+        "msg_view_healthy": "✅ Vedi {count} distribuzioni funzionanti",
+        
+        "lbl_access_url": "URL di accesso",
+        "lbl_download_url": "URL di download",
+        "lbl_unknown_fmt": "Formato Sconosciuto",
+        
+        "msg_perfect_title": "Punteggio Perfetto!",
+        "msg_perfect_body": "Tutti i criteri FAIRC soddisfatti. 🏆",
+        "msg_info_title": "Info",
+        "msg_no_sug_body": "Nessun suggerimento specifico disponibile.",
+        
+        # Charts / Severity
         "severity_high": "Alta",
         "severity_med": "Media",
         "severity_low": "Bassa",
@@ -235,8 +313,8 @@ TRANSLATIONS = {
 
         "help_score_title": "Punteggio di Qualità (Bonus)",
         "help_score_desc": """
-        **Questo è un sistema di ottimizzazione basato sui principi FAIRC** (Reperibilità, Accessibilità, Interoperabilità, Riutilizzabilità, Contestualità), equivalente al [punteggio della dashboard di opendata.swiss](https://dashboard.opendata.swiss/it/). Una volta validato lo schema, è possibile migliorare il punteggio rendendo i dati più utili e accessibili.
-        
+        **Questo è un sistema di ottimizzazione basato sui principi FAIRC** (Reperibilità, Accessibilità, Interoperabilità, Riutilizzabilità, Contestualità), equivalente al [punteggio della dashboard di opendata.swiss](https://dashboard.opendata.swiss/it/).
+        Una volta validato lo schema, è possibile migliorare il punteggio rendendo i dati più utili e accessibili.
         * Il punteggio massimo è **405 punti**.
         * La tabella sottostante mostra esattamente come guadagnare punti.
         """,
@@ -284,11 +362,11 @@ TRANSLATIONS = {
     },
     "en": {
         "app_title": "FOAG Metadata Quality Dashboard 🏆",
-        "tab_worklist": "🔨 Worklist",
-        "tab_overview": "📈 Overview",
+        "tab_overview": "Overview & Worklist",
         "tab_inspector": "🔍 Inspector",
         "tab_help": "📚 Help & Methodology",
 
+        # Columns & Metrics
         "metric_total": "Total Datasets",
         "metric_score": "Avg Quality Score",
         "metric_violations": "Schema Violations",
@@ -298,12 +376,39 @@ TRANSLATIONS = {
         "col_violations": "Violations",
         "col_id": "ID",
         
+        # Inspector - General
         "inspector_select": "Select Dataset",
         "inspector_raw": "Show Raw Data",
-        "inspector_details": "Quality Breakdown",
+        "inspector_details": "Quality Breakdown (FAIRC)",
         "inspector_no_data": "No data found.",
         "inspector_improvement": "Improvement Opportunities",
+        "inspector_id": "ID",
+        "inspector_overall_score": "Overall Score",
+
+        # Inspector - Sections & Messages
+        "sec_schema_violations": "Schema Violations",
+        "sec_link_health": "Link Health (Accessibility)",
         
+        "msg_valid_title": "Valid",
+        "msg_valid_body": "Schema validation passed successfully.",
+        "msg_schema_violation": "Schema Violation",
+        
+        "msg_no_dists": "No distributions found for this dataset.",
+        "msg_all_ok_title": "All Systems Go",
+        "msg_all_ok_body": "✅ All **{count}** distributions are reachable.",
+        "msg_broken_detected": "{count} Broken Distribution(s) Detected",
+        "msg_view_healthy": "✅ View {count} Healthy Distributions",
+        
+        "lbl_access_url": "Access URL",
+        "lbl_download_url": "Download URL",
+        "lbl_unknown_fmt": "Unknown Format",
+        
+        "msg_perfect_title": "Perfect Score!",
+        "msg_perfect_body": "All FAIRC criteria met. 🏆",
+        "msg_info_title": "Info",
+        "msg_no_sug_body": "No specific suggestions available.",
+        
+        # Charts / Severity
         "severity_high": "High",
         "severity_med": "Medium",
         "severity_low": "Low",
@@ -325,8 +430,8 @@ TRANSLATIONS = {
 
         "help_score_title": "Quality Score (Optimization)",
         "help_score_desc": """
-        **This is an optimization system based on the FAIRC principles** (Findability, Accessibility, Interoperability, Reusability, Contextuality), equivalent to the [opendata.swiss dashboard scoring](https://dashboard.opendata.swiss/en/). Once the schema is valid, you can improve your score by making the data more useful and accessible.
-        
+        **This is an optimization system based on the FAIRC principles** (Findability, Accessibility, Interoperability, Reusability, Contextuality), equivalent to the [opendata.swiss dashboard scoring](https://dashboard.opendata.swiss/en/).
+        Once the schema is valid, you can improve your score by making the data more useful and accessible.
         * The maximum score is **405 points**.
         * The table below shows exactly how points are awarded.
         """,
