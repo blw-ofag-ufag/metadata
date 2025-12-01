@@ -436,7 +436,6 @@ elif st.session_state.active_tab_index == 1:
                                     st.markdown(f"- **{T['lbl_download_url']}:** `HTTP {dl_s or 'Err'}`")
                                     st.caption(f"[{dist.get('download_url')}]({dist.get('download_url')})")
 
-# ... (previous code for broken_dists) ...
 
                     if healthy_dists:
                         with st.expander(T["msg_view_healthy"].format(count=len(healthy_dists))):
@@ -495,7 +494,7 @@ elif st.session_state.active_tab_index == 1:
                 st.json(raw_view)
 
 # --- TAB 3: HELP ---
-elif st.session_state.active_tab_index == 3:
+elif st.session_state.active_tab_index == 2:
     st.markdown(f"#### {T['help_overview']}")
     st.markdown(T["help_intro"])
     
