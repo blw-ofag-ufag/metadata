@@ -184,7 +184,7 @@ if st.session_state.active_tab_index == 0:
         chart_data["rank"] = chart_data.index + 1
 
         chart_dist = alt.Chart(chart_data).mark_bar(
-            color="#2f4356",
+            color="#1c83e1",
             stroke="white",
             strokeWidth=0.2     
         ).encode(
@@ -229,7 +229,7 @@ if st.session_state.active_tab_index == 0:
             top_errors = error_counts.head(5)
 
             chart_err = alt.Chart(top_errors).mark_bar(
-                color="#2f4356" 
+                color="#1c83e1" 
             ).encode(
                 x=alt.X('count:Q', title='Count', axis=alt.Axis(tickMinStep=1)),
                 y=alt.Y(
@@ -283,7 +283,7 @@ if st.session_state.active_tab_index == 0:
                 format="%.0f", 
                 min_value=0, 
                 max_value=405,
-                color="#2f4356" 
+                color="#1c83e1" 
             ),
             "id": st.column_config.TextColumn(T["col_id"], width="small")
         },

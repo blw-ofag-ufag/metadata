@@ -5,8 +5,8 @@ Supported: DE (Default), FR, IT, EN.
 
 TRANSLATIONS = {
     "de": {
-        "app_title": "BLW Metadaten-Qualitäts-Dashboard 🏆",
-        "tab_overview": "Übersicht & Arbeitsliste",
+        "app_title": "BLW Metadaten-Qualitäts-Dashboard",
+        "tab_overview": "📈 Übersicht",
         "tab_inspector": "🔍 Inspektor",
         "tab_help": "📚 Hilfe & Methodik",
         
@@ -127,8 +127,8 @@ TRANSLATIONS = {
         "def_http": "URL gibt HTTP Status 200 zurück"
     },
     "fr": {
-        "app_title": "OFAG Tableau de bord Qualité des Métadonnées 🏆",
-        "tab_overview": "Vue d'ensemble & Liste de travail",
+        "app_title": "OFAG Tableau de bord Qualité des Métadonnées",
+        "tab_overview": "📈 Vue d'ensemble",
         "tab_inspector": "🔍 Inspecteur",
         "tab_help": "📚 Aide & Méthodologie",
 
@@ -244,8 +244,8 @@ TRANSLATIONS = {
         "def_http": "L'URL renvoie un statut HTTP 200"
     },
     "it": {
-        "app_title": "UFAG Dashboard Qualità Metadati 🏆",
-        "tab_overview": "Panoramica & Lista di lavoro",
+        "app_title": "UFAG Dashboard Qualità Metadati",
+        "tab_overview": "📈 Panoramica",
         "tab_inspector": "🔍 Ispettore",
         "tab_help": "📚 Aiuto & Metodologia",
 
@@ -361,8 +361,8 @@ TRANSLATIONS = {
         "def_http": "URL restituisce HTTP 200"
     },
     "en": {
-        "app_title": "FOAG Metadata Quality Dashboard 🏆",
-        "tab_overview": "Overview & Worklist",
+        "app_title": "FOAG Metadata Quality Dashboard",
+        "tab_overview": "📈 Overview",
         "tab_inspector": "🔍 Inspector",
         "tab_help": "📚 Help & Methodology",
 
