@@ -255,40 +255,71 @@ if st.session_state.active_tab_index == 0:
     # 3. BOTTOM: WORKLIST DATAFRAME
     st.markdown(f"### {T['tab_overview']}")
 
-    def categorize_severity(row):
+    # --- 1. Logic: Define Status with Palette Icons ---
+    # Palette: High=#d62828 (Red), Med=#f77f00 (Orange), Low=#003049 (Blue)
+    # We use circles/symbols because they work in both Light/Dark mode better than text colors
+    def categorize_severity_visual(row):
         if row['schema_violations_count'] > 0:
-            return T["severity_high"]
+            # High Severity (Red)
+            return f"🔴 {T['severity_high']}" 
         elif row['swiss_score'] < 200:
-            return T["severity_med"]
-        return T["severity_low"]
+            # Medium Severity (Orange)
+            return f"🟠 {T['severity_med']}" 
+        # Low Severity (Blue - your chosen primary color)
+        return f"🔵 {T['severity_low']}" 
 
     def format_violations(count):
         if count == 0:
-            return f"0 ✅"
-        else:
-            return f"{count} 🚨"
+            return None # Returns empty cell for cleaner look
+        return f"{count}"
 
+    # --- 2. Data Prep & Sorting ---
     worklist_df = filtered_df.copy()
-    worklist_df['severity'] = worklist_df.apply(categorize_severity, axis=1)
-    worklist_df['violations_display'] = worklist_df['schema_violations_count'].apply(format_violations)
     
+    # Create display columns
+    worklist_df['severity_display'] = worklist_df.apply(categorize_severity_visual, axis=1)
+    worklist_df['violations_display'] = worklist_df['schema_violations_count'].apply(format_violations)
+
+    # SORTING: Show 'High' severity first, then by lowest score
+    # We create a helper rank column: 0=High, 1=Med, 2=Low
+    worklist_df['sev_rank'] = worklist_df['schema_violations_count'].apply(lambda x: 0 if x > 0 else 2)
+    worklist_df.loc[(worklist_df['sev_rank'] == 2) & (worklist_df['swiss_score'] < 200), 'sev_rank'] = 1
+    
+    worklist_df = worklist_df.sort_values(by=['sev_rank', 'swiss_score'], ascending=[True, True])
+
+    # --- 3. Render Dataframe ---
     st.dataframe(
-        worklist_df[['severity', 'display_title', 'violations_display', 'swiss_score', 'id']],
+        worklist_df[['display_title', 'swiss_score', 'violations_display', 'severity_display', 'id']],
         column_config={
-            "severity": st.column_config.TextColumn(T["col_severity"]),
-            "display_title": st.column_config.TextColumn(T["col_title"], width="medium"),
-            "violations_display": st.column_config.TextColumn(T["col_violations"]),
+            "display_title": st.column_config.TextColumn(
+                T["col_title"], 
+                width="large", # Give the title the most space
+                help="Dataset Title"
+            ),
             "swiss_score": st.column_config.ProgressColumn(
                 T["col_score"], 
                 format="%.0f", 
                 min_value=0, 
                 max_value=405,
-                color="#1c83e1" 
+                color="#1c83e1", # Keeping your requested blue
+                width="medium"
             ),
-            "id": st.column_config.TextColumn(T["col_id"], width="small")
+            "violations_display": st.column_config.TextColumn(
+                T["col_violations"], 
+                width="small"
+            ),
+            "severity_display": st.column_config.TextColumn(
+                T["col_severity"], 
+                width="small"
+            ),
+            "id": st.column_config.TextColumn(
+                T["col_id"], 
+                width="small",
+                help="Internal Identifier (Copyable)"
+            )
         },
         hide_index=True,
-        use_container_width=True 
+        use_container_width=True
     )
 
 # --- TAB 2: INSPECTOR ---
@@ -449,35 +480,54 @@ elif st.session_state.active_tab_index == 1:
                 if 'display_title' in raw_view: del raw_view['display_title']
                 st.json(raw_view)
 
-# --- TAB 3: HELP ---
 elif st.session_state.active_tab_index == 2:
-    st.markdown(f"#### {T['help_overview']}")
+    
+    st.markdown(f"### {T['tab_help']}")
     st.markdown(T["help_intro"])
     
-    with st.container():
-        col_v1, col_v2 = st.columns([2, 1])
-        with col_v1:
-            render_quality_card(T['help_vio_title'], T["help_vio_desc"], "high")
-        with col_v2:
-            render_quality_card(T["help_goal"], T["help_vio_goal"], "high")
+    # --- EXPANDER 1: CONCEPTS (Violations vs Score) ---
+    # We combine the overview title and goal for the header
+    with st.expander(f"ℹ️ {T['help_overview']} & {T['help_goal']}", expanded=False):
+        
+        # Card 1: Violations
+        with st.container():
+            col_v1, col_v2 = st.columns([2, 1])
+            with col_v1:
+                render_quality_card(T['help_vio_title'], T["help_vio_desc"], "high")
+            with col_v2:
+                render_quality_card(T["help_goal"], T["help_vio_goal"], "high")
 
-    st.divider()
+        st.divider()
 
-    with st.container():
-        col_s1, col_s2 = st.columns([2, 1])
-        with col_s1:
-            render_quality_card(T['help_score_title'], T["help_score_desc"], "low")
-        with col_s2:
-            render_quality_card(T["help_goal"], T["help_score_goal"], "low")
+        # Card 2: Quality Score
+        with st.container():
+            col_s1, col_s2 = st.columns([2, 1])
+            with col_s1:
+                render_quality_card(T['help_score_title'], T["help_score_desc"], "low")
+            with col_s2:
+                render_quality_card(T["help_goal"], T["help_score_goal"], "low")
 
-    st.markdown(f"#### {T['help_calc_title']}")
-    
-    def row(dim, crit_key, weight, def_key=None):
-        definition = T[def_key] if def_key else ""
-        return f"| **{dim}** | {T[crit_key]} | +{weight} | {definition} |"
+    # --- EXPANDER 2: SEVERITY LEGEND ---
+    with st.expander(T['help_sev_title'], expanded=False):
+        st.markdown(T['help_sev_desc'])
+        
+        severity_table = f"""
+|   | {T['col_severity']} | {T['help_table_info']} |
+| :--- | :--- | :--- |
+| 🔴 | **{T['severity_high']}** | {T['help_sev_high']} |
+| 🟠 | **{T['severity_med']}** | {T['help_sev_med']} |
+| 🔵 | **{T['severity_low']}** | {T['help_sev_low']} |
+        """
+        st.markdown(severity_table)
 
+    # --- EXPANDER 3: DETAILED CALCULATOR (Collapsed by default) ---
+    with st.expander(T['help_calc_title'], expanded=False):
+        
+        def row(dim, crit_key, weight, def_key=None):
+            definition = T[def_key] if def_key else ""
+            return f"| **{dim}** | {T[crit_key]} | +{weight} | {definition} |"
 
-    table_md = f"""
+        table_md = f"""
 | {T['help_table_dim']} | {T['help_table_crit']} | {T['help_table_pts']} | {T['help_table_info']} |
 | :--- | :--- | :--- | :--- |
 {row('Findability', 'crit_keywords', settings.WEIGHT_FINDABILITY_KEYWORDS)}
@@ -503,5 +553,5 @@ elif st.session_state.active_tab_index == 2:
 {row('', 'crit_filesize', settings.WEIGHT_CONTEXT_FILE_SIZE)}
 {row('', 'crit_issue', settings.WEIGHT_CONTEXT_ISSUE_DATE)}
 {row('', 'crit_mod', settings.WEIGHT_CONTEXT_MODIFICATION_DATE)}
-    """
-    st.markdown(table_md)
+        """
+        st.markdown(table_md)

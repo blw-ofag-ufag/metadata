@@ -63,6 +63,13 @@ TRANSLATIONS = {
         "help_overview": "Übersicht", 
         "help_goal": "Ziel",          
         "help_intro": "Das Dashboard unterscheidet zwei Arten von Qualitätsproblemen:",
+
+        # NEW: Severity Help Section
+        "help_sev_title": "🚦 Bedeutung der Schweregrade",
+        "help_sev_desc": "Die Arbeitsliste kategorisiert Datensätze basierend auf ihrer Dringlichkeit:",
+        "help_sev_high": "Ungültig (Schema-Verstösse vorhanden). Muss sofort korrigiert werden.",
+        "help_sev_med": "Gültig, aber niedrige Qualität (Score < 200).",
+        "help_sev_low": "Gute Qualität (Score ≥ 200). Kein dringender Handlungsbedarf.",
         
         # Violations Section
         "help_vio_title": "Schema-Verstösse (Pflicht)",
@@ -186,6 +193,14 @@ TRANSLATIONS = {
         "help_goal": "Objectif",          
         "help_intro": "Le tableau de bord distingue deux types de problèmes :",
         
+        # NEW: Severity Help Section
+        "help_sev_title": "🚦 Signification des niveaux de gravité",
+        "help_sev_desc": "La liste de travail catégorise les jeux de données selon leur urgence :",
+        "help_sev_high": "Invalide (Violations du schéma). À corriger immédiatement.",
+        "help_sev_med": "Valide, mais qualité faible (Score < 200).",
+        "help_sev_low": "Bonne qualité (Score ≥ 200). Pas d'action urgente requise.",
+
+        # Violations Section
         "help_vio_title": "Violations du Schéma (Obligatoire)",
         "help_vio_desc": """
         Une violation signifie que le jeu de données est techniquement invalide.
@@ -303,6 +318,14 @@ TRANSLATIONS = {
         "help_goal": "Obiettivo",     
         "help_intro": "La dashboard distingue due tipi di problemi:",
         
+        # NEW: Severity Help Section
+        "help_sev_title": "🚦 Significato dei livelli di gravità",
+        "help_sev_desc": "La lista di lavoro classifica i dataset in base alla loro urgenza:",
+        "help_sev_high": "Non valido (Violazioni dello schema). Da correggere subito.",
+        "help_sev_med": "Valido, ma bassa qualità (Punteggio < 200).",
+        "help_sev_low": "Buona qualità (Punteggio ≥ 200). Nessuna azione urgente.",
+
+        # Violations Section
         "help_vio_title": "Violazioni dello Schema (Obbligatorio)",
         "help_vio_desc": """
         Una violazione significa che il dataset non è tecnicamente valido.
@@ -420,6 +443,14 @@ TRANSLATIONS = {
         "help_goal": "Goal",        
         "help_intro": "The dashboard distinguishes between two types of data issues:",
         
+        # NEW: Severity Help Section
+        "help_sev_title": "🚦 Severity Levels Explained",
+        "help_sev_desc": "The worklist categorizes datasets based on urgency:",
+        "help_sev_high": "Invalid (Schema violations present). Fix immediately.",
+        "help_sev_med": "Valid, but low quality (Score < 200).",
+        "help_sev_low": "Good quality (Score ≥ 200). No urgent action needed.",
+
+        # Violations Section
         "help_vio_title": "Schema Violations (Mandatory)",
         "help_vio_desc": """
         A violation means the dataset is technically invalid or breaks FOAG rules.
