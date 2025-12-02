@@ -327,11 +327,25 @@ if st.session_state.active_tab_index == 0:
 elif st.session_state.active_tab_index == 1:
     st.markdown(f"### {T['tab_inspector']}")
     
-    col_search, col_clear = st.columns([5, 1])
+    # This forces the button to sit on the same baseline as the text input
+    col_search, col_clear = st.columns([9, 1], vertical_alignment="center", gap="small")
+    
     with col_search:
-        search_query = st.text_input("Filter", key="inspector_search", placeholder=S_TXT["ph"], label_visibility="collapsed")
+        search_query = st.text_input(
+            "Filter", 
+            key="inspector_search", 
+            placeholder=S_TXT["ph"], 
+            label_visibility="collapsed"
+        )
+        
     with col_clear:
-        st.button(S_TXT["clear"], type="secondary", width="stretch", on_click=clear_search)
+        st.button(
+            "✕", 
+            type="secondary", 
+            on_click=clear_search,
+            help="Clear filter",
+            key="btn_clear_search" 
+        )
 
     if search_query:
         subset = filtered_df[filtered_df['display_title'].str.contains(search_query, case=False, na=False) | filtered_df['id'].str.contains(search_query, case=False, na=False)]
