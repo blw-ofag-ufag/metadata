@@ -285,8 +285,10 @@ if st.session_state.active_tab_index == 0:
     
     worklist_df = worklist_df.sort_values(by=['sev_rank', 'swiss_score'], ascending=[True, True])
 
-    # --- 3. Render Dataframe with Enhanced Tooltips ---
-    st.dataframe(
+    # --- 3. Render Dataframe with Selection Event & Tooltips ---
+    
+    # We use st.dataframe with on_select to make it clickable
+    selection = st.dataframe(
         worklist_df[['display_title', 'swiss_score', 'violations_display', 'severity_display', 'id']],
         column_config={
             "display_title": st.column_config.TextColumn(
@@ -295,23 +297,23 @@ if st.session_state.active_tab_index == 0:
                 help="Dataset Title"
             ),
             "swiss_score": st.column_config.ProgressColumn(
-                f"{T['col_score']} ℹ️", 
+                f"{T['col_score']} ℹ️", # Icon in header
                 format="%.0f", 
                 min_value=0, 
                 max_value=405,
                 color="#1c83e1", 
                 width="medium",
-                help=T.get("tooltip_score", "") 
+                help=T.get("tooltip_score", "") # Tooltip text
             ),
             "violations_display": st.column_config.TextColumn(
-                f"{T['col_violations']} ℹ️", 
+                f"{T['col_violations']} ℹ️", # Icon in header
                 width="small",
-                help=T.get("tooltip_violations", "")
+                help=T.get("tooltip_violations", "") # Tooltip text
             ),
             "severity_display": st.column_config.TextColumn(
-                f"{T['col_severity']} ℹ️", 
+                f"{T['col_severity']} ℹ️", # Icon in header
                 width="small",
-                help=T.get("tooltip_severity", "") 
+                help=T.get("tooltip_severity", "") # Tooltip text
             ),
             "id": st.column_config.TextColumn(
                 T["col_id"], 
@@ -320,8 +322,28 @@ if st.session_state.active_tab_index == 0:
             )
         },
         hide_index=True,
-        width="stretch"
+        width="stretch",
+        on_select="rerun",             # Triggers rerun on click
+        selection_mode="single-row",   # Only one row selectable
+        key="overview_worklist"        # Persistence key
     )
+
+    # --- 4. Handle Selection Logic ---
+    if len(selection.selection.rows) > 0:
+        # Get integer index of selected row
+        selected_row_index = selection.selection.rows[0]
+        
+        # Get the ID from the sorted dataframe
+        selected_id = worklist_df.iloc[selected_row_index]['id']
+        
+        # 1. Switch Tab
+        st.session_state.active_tab_index = 1
+        
+        # 2. Pre-fill Inspector Search to isolate this dataset
+        st.session_state.inspector_search = selected_id
+        
+        # 3. Rerun to apply
+        st.rerun()
 
 # --- TAB 2: INSPECTOR ---
 elif st.session_state.active_tab_index == 1:
