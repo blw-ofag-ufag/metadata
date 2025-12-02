@@ -72,9 +72,13 @@ def get_localized_text(data, lang_code: str) -> str:
 def load_data():
     engine = get_db_engine()
     try:
+        # 1. Fetch Datasets (Parent Table)
         df_ds = pd.read_sql("SELECT * FROM datasets", engine)
+        
+        # 2. Fetch Distributions (Child Table)
         df_dists = pd.read_sql("SELECT * FROM distributions", engine)
         
+        # 3. Parse JSON columns in Datasets
         json_cols = ['title', 'description', 'keywords', 'themes', 'schema_violation_messages', 'quality_suggestions']
         for col in json_cols:
             if col in df_ds.columns:
@@ -82,22 +86,32 @@ def load_data():
                     lambda x: json.loads(x) if x and isinstance(x, str) else (x if isinstance(x, (dict, list)) else {})
                 )
         
+        # 4. Nest Distributions into Datasets
         if not df_dists.empty:
-            dists_grouped = df_dists.groupby('dataset_id').apply(
+            # FIX for FutureWarning: Explicitly select columns to nest, excluding the grouping key 'dataset_id'
+            # This prevents pandas from trying to include 'dataset_id' in the applied operation result, which is deprecated behavior.
+            cols_to_nest = [c for c in df_dists.columns if c != 'dataset_id']
+            
+            dists_grouped = df_dists.groupby('dataset_id')[cols_to_nest].apply(
                 lambda x: x.to_dict(orient='records')
             ).reset_index(name='distributions')
             
+            # Merge this new 'distributions' column into the main dataframe
+            # LEFT JOIN ensures we keep datasets that have 0 distributions
             df_final = pd.merge(df_ds, dists_grouped, left_on='id', right_on='dataset_id', how='left')
             
+            # Cleanup: Replace NaN (for datasets with no dists) with empty lists []
             df_final['distributions'] = df_final['distributions'].apply(
                 lambda x: x if isinstance(x, list) else []
             )
             
+            # Remove the extra joining column if present
             if 'dataset_id' in df_final.columns:
                 df_final = df_final.drop(columns=['dataset_id'])
                 
             return df_final
         else:
+            # Fallback if distributions table is empty
             df_ds['distributions'] = [[] for _ in range(len(df_ds))]
             return df_ds
 
@@ -199,19 +213,9 @@ if st.session_state.active_tab_index == 0:
             height=220
         ).interactive()
 
-        # UPDATED: Use simple container width behavior (Altair handles this internally differently, 
-        # but if St. warns about it on altair_chart, we remove/update it)
-        st.altair_chart(chart_dist, use_container_width=True) 
-        # NOTE: As of Streamlit 1.40, st.altair_chart DOES NOT accept width="stretch" yet in all contexts.
-        # If this specific line throws the error, simply remove the arg or keep use_container_width=True 
-        # only if your version forces it. 
-        # Based on your error log, it applies to st.button/checkbox/etc. 
-        # However, if you get the error here, change to: st.altair_chart(chart_dist, theme="streamlit", use_container_width=True)
-        # or just remove use_container_width if 1.40 deprecates it entirely for charts.
-        # CORRECT FIX FOR 1.40+:
-        # st.altair_chart(chart_dist, use_container_width=True) is actually still valid in 1.40 docs for charts specifically,
-        # but if you saw the error, I will leave it as use_container_width=True for charts UNLESS specifically flagged.
-        # The error log usually flags specific widgets.
+
+        st.altair_chart(chart_dist, width="stretch") 
+
         
     # --- RIGHT: Top Errors (Horizontal) ---
     with col_chart2:
@@ -246,7 +250,7 @@ if st.session_state.active_tab_index == 0:
                 height=220
             ).interactive()
 
-            st.altair_chart(chart_err, use_container_width=True)
+            st.altair_chart(chart_err, width="stretch")
         else: 
             render_quality_card("Info", "No validation errors found.", "info")
 
@@ -319,7 +323,7 @@ if st.session_state.active_tab_index == 0:
             )
         },
         hide_index=True,
-        use_container_width=True
+        width="stretch"
     )
 
 # --- TAB 2: INSPECTOR ---
