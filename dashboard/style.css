@@ -172,3 +172,33 @@ header[data-testid="stHeader"] {
     justify-content: center !important;
     width: 100% !important;
 }
+/* ================================= */
+/* 6. COMPACT CLEAR BUTTON           */
+/* ================================= */
+
+/* 1. Constrain the outer container so it doesn't stretch */
+div.st-key-btn_clear_search {
+    width: auto !important;
+    display: flex !important;
+    align-items: flex-end !important; /* Helps align with input baseline */
+}
+
+/* 2. Force the button itself to be a perfect square */
+div.st-key-btn_clear_search button {
+    /* Dimensions */
+    height: 45px !important;  /* Matches standard Streamlit input height */
+    width: 45px !important;   /* Force width to match height */
+    min-height: 0px !important;
+    min-width: 0px !important;
+    
+    /* Centering */
+    padding: 0px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    
+    /* Typography */
+    line-height: 1 !important;
+    font-size: 1.2rem !important;
+}
+
