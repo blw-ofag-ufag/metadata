@@ -8,7 +8,7 @@ TRANSLATIONS = {
         "app_title": "BLW Metadaten-Qualitäts-Dashboard",
         "tab_overview": "📈 Übersicht",
         "tab_inspector": "🔍 Inspektor",
-        "tab_help": "📚 Hilfe & Methodik",
+        "tab_help": "ℹ️ Hilfe & Methodik",
         
         # Columns & Metrics
         "metric_total": "Anzahl Datensätze",
@@ -19,6 +19,12 @@ TRANSLATIONS = {
         "col_score": "Score",
         "col_violations": "Verstösse",
         "col_id": "ID",
+
+        # Tooltips (Dataframe headers) & Popovers
+        "tooltip_severity": "🔴 Hoch: Schema-Verstösse (Muss korrigiert werden)\n🟠 Mittel: Score < 200 (Verbesserung nötig)\n🔵 Tief: Score ≥ 200 (Gute Qualität)",
+        "tooltip_score": "Der FAIRC Qualitäts-Score (0-405).\nBerechnet basierend auf Auffindbarkeit, Zugänglichkeit, Interoperabilität, Wiederverwendbarkeit und Kontextualität.",
+        "popover_chart_help": "ℹ️ Über diese Grafik",
+        "tooltip_violations": "Anzahl der technischen Validierungsfehler.\nDatensätze mit > 0 Verstössen gelten als ungültig und werden nicht publiziert.",
         
         # Inspector - General
         "inspector_select": "Datensatz auswählen",
@@ -137,7 +143,7 @@ TRANSLATIONS = {
         "app_title": "OFAG Tableau de bord Qualité des Métadonnées",
         "tab_overview": "📈 Vue d'ensemble",
         "tab_inspector": "🔍 Inspecteur",
-        "tab_help": "📚 Aide & Méthodologie",
+        "tab_help": "ℹ️ Aide & Méthodologie",
 
         # Columns & Metrics
         "metric_total": "Jeux de données",
@@ -148,6 +154,12 @@ TRANSLATIONS = {
         "col_score": "Score",
         "col_violations": "Violations",
         "col_id": "ID",
+
+        # Tooltips (Dataframe headers) & Popovers
+        "tooltip_severity": "🔴 Élevée : Violations du schéma (À corriger)\n🟠 Moyenne : Score < 200 (Amélioration nécessaire)\n🔵 Faible : Score ≥ 200 (Bonne qualité)",
+        "tooltip_score": "Le score de qualité FAIRC (0-405).\nCalculé sur la base de la Trouvabilité, Accessibilité, Interopérabilité, Réutilisabilité et Contextualité.",
+        "popover_chart_help": "ℹ️ À propos de ce graphique",
+        "tooltip_violations": "Nombre d'erreurs techniques de validation.\nLes jeux de données avec > 0 violations sont invalides et ne seront pas publiés.",
         
         # Inspector - General
         "inspector_select": "Sélectionner un jeu de données",
@@ -262,7 +274,7 @@ TRANSLATIONS = {
         "app_title": "UFAG Dashboard Qualità Metadati",
         "tab_overview": "📈 Panoramica",
         "tab_inspector": "🔍 Ispettore",
-        "tab_help": "📚 Aiuto & Metodologia",
+        "tab_help": "ℹ️ Aiuto & Metodologia",
 
         # Columns & Metrics
         "metric_total": "Dataset totali",
@@ -274,6 +286,12 @@ TRANSLATIONS = {
         "col_violations": "Violazioni",
         "col_id": "ID",
         
+        # Tooltips (Dataframe headers) & Popovers
+        "tooltip_severity": "🔴 Alta: Violazioni dello schema (Da correggere)\n🟠 Media: Punteggio < 200 (Miglioramento necessario)\n🔵 Bassa: Punteggio ≥ 200 (Buona qualità)",
+        "tooltip_score": "Il punteggio di qualità FAIRC (0-405).\nCalcolato in base a Reperibilità, Accessibilità, Interoperabilità, Riutilizzabilità e Contestualità.",
+        "popover_chart_help": "ℹ️ A proposito di questo grafico",
+        "tooltip_violations": "Numero di errori tecnici di validazione.\nI dataset con > 0 violazioni sono invalidi e non verranno pubblicati.",
+
         # Inspector - General
         "inspector_select": "Seleziona dataset",
         "inspector_raw": "Mostra dati grezzi",
@@ -387,7 +405,7 @@ TRANSLATIONS = {
         "app_title": "FOAG Metadata Quality Dashboard",
         "tab_overview": "📈 Overview",
         "tab_inspector": "🔍 Inspector",
-        "tab_help": "📚 Help & Methodology",
+        "tab_help": "ℹ️ Help & Methodology",
 
         # Columns & Metrics
         "metric_total": "Total Datasets",
@@ -398,6 +416,12 @@ TRANSLATIONS = {
         "col_score": "Score",
         "col_violations": "Violations",
         "col_id": "ID",
+
+        # Tooltips (Dataframe headers) & Popovers
+        "tooltip_severity": "🔴 High: Schema Violations (Must Fix)\n🟠 Med: Score < 200 (Improvement needed)\n🔵 Low: Score ≥ 200 (Good quality)",
+        "tooltip_score": "The FAIRC Quality Score (0-405).\nCalculated based on Findability, Accessibility, Interoperability, Reusability, and Contextuality.",
+        "popover_chart_help": "ℹ️ About this chart",
+        "tooltip_violations": "Count of technical validation errors.\nDatasets with > 0 violations are considered invalid and will not be published.",
         
         # Inspector - General
         "inspector_select": "Select Dataset",

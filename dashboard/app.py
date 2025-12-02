@@ -88,8 +88,6 @@ def load_data():
         
         # 4. Nest Distributions into Datasets
         if not df_dists.empty:
-            # FIX for FutureWarning: Explicitly select columns to nest, excluding the grouping key 'dataset_id'
-            # This prevents pandas from trying to include 'dataset_id' in the applied operation result, which is deprecated behavior.
             cols_to_nest = [c for c in df_dists.columns if c != 'dataset_id']
             
             dists_grouped = df_dists.groupby('dataset_id')[cols_to_nest].apply(
@@ -97,7 +95,6 @@ def load_data():
             ).reset_index(name='distributions')
             
             # Merge this new 'distributions' column into the main dataframe
-            # LEFT JOIN ensures we keep datasets that have 0 distributions
             df_final = pd.merge(df_ds, dists_grouped, left_on='id', right_on='dataset_id', how='left')
             
             # Cleanup: Replace NaN (for datasets with no dists) with empty lists []
@@ -108,7 +105,7 @@ def load_data():
             # Remove the extra joining column if present
             if 'dataset_id' in df_final.columns:
                 df_final = df_final.drop(columns=['dataset_id'])
-                
+            
             return df_final
         else:
             # Fallback if distributions table is empty
@@ -129,7 +126,6 @@ def clear_search(): st.session_state.inspector_search = ""
 col_header, col_spacer, col_lang = st.columns([6, 0.5, 2.5])
 with col_lang:
     b_de, b_fr, b_it, b_en = st.columns(4)
-    # UPDATED: width="stretch"
     if b_de.button("DE", type="primary" if st.session_state.lang == 'de' else "secondary", width="stretch"): set_lang('de'); st.rerun()
     if b_fr.button("FR", type="primary" if st.session_state.lang == 'fr' else "secondary", width="stretch"): set_lang('fr'); st.rerun()
     if b_it.button("IT", type="primary" if st.session_state.lang == 'it' else "secondary", width="stretch"): set_lang('it'); st.rerun()
@@ -167,7 +163,6 @@ with col_nav:
     for i, (col, name) in enumerate(zip(nav_cols, tab_names)):
         button_type = "primary" if st.session_state.active_tab_index == i else "secondary"
         
-        # UPDATED: width="stretch" instead of use_container_width=True
         if col.button(name, key=f"nav_tab_{i}", type=button_type, width="stretch"):
             st.session_state.active_tab_index = i
             st.rerun()
@@ -192,7 +187,12 @@ if st.session_state.active_tab_index == 0:
     
     # --- LEFT: Score Distribution ---
     with col_chart1:
-        st.markdown(f"#### {T['chart_score_dist']}")
+        # Header with Popover
+        h_col, p_col = st.columns([5, 1])
+        h_col.markdown(f"#### {T['chart_score_dist']}")
+        with p_col:
+            with st.popover("ℹ️", use_container_width=False):
+                st.markdown(T['help_score_desc'])
         
         chart_data = filtered_df.sort_values(by="swiss_score", ascending=False).reset_index(drop=True)
         chart_data["rank"] = chart_data.index + 1
@@ -213,13 +213,16 @@ if st.session_state.active_tab_index == 0:
             height=220
         ).interactive()
 
-
         st.altair_chart(chart_dist, width="stretch") 
 
-        
     # --- RIGHT: Top Errors (Horizontal) ---
     with col_chart2:
-        st.markdown(f"#### {T['chart_top_errors']}")
+        # Header with Popover
+        h_col, p_col = st.columns([5, 1])
+        h_col.markdown(f"#### {T['chart_top_errors']}")
+        with p_col:
+            with st.popover("ℹ️", use_container_width=False):
+                st.markdown(T['help_vio_desc'])
         
         all_errors = []
         if 'schema_violation_messages' in filtered_df.columns:
@@ -260,16 +263,11 @@ if st.session_state.active_tab_index == 0:
     st.markdown(f"### {T['tab_overview']}")
 
     # --- 1. Logic: Define Status with Palette Icons ---
-    # Palette: High=#d62828 (Red), Med=#f77f00 (Orange), Low=#003049 (Blue)
-    # We use circles/symbols because they work in both Light/Dark mode better than text colors
     def categorize_severity_visual(row):
         if row['schema_violations_count'] > 0:
-            # High Severity (Red)
             return f"🔴 {T['severity_high']}" 
         elif row['swiss_score'] < 200:
-            # Medium Severity (Orange)
             return f"🟠 {T['severity_med']}" 
-        # Low Severity (Blue - your chosen primary color)
         return f"🔵 {T['severity_low']}" 
 
     def format_violations(count):
@@ -279,22 +277,16 @@ if st.session_state.active_tab_index == 0:
 
     # --- 2. Data Prep & Sorting ---
     worklist_df = filtered_df.copy()
-    
-    # Create display columns
     worklist_df['severity_display'] = worklist_df.apply(categorize_severity_visual, axis=1)
     worklist_df['violations_display'] = worklist_df['schema_violations_count'].apply(format_violations)
 
-    # SORTING: Show 'High' severity first, then by lowest score
-    # We create a helper rank column: 0=High, 1=Med, 2=Low
     worklist_df['sev_rank'] = worklist_df['schema_violations_count'].apply(lambda x: 0 if x > 0 else 2)
     worklist_df.loc[(worklist_df['sev_rank'] == 2) & (worklist_df['swiss_score'] < 200), 'sev_rank'] = 1
     
     worklist_df = worklist_df.sort_values(by=['sev_rank', 'swiss_score'], ascending=[True, True])
 
-# --- 3. Render Dataframe with Selection Event ---
-    
-    # We need a persistent key to track the selection state
-    selection = st.dataframe(
+    # --- 3. Render Dataframe with Enhanced Tooltips ---
+    st.dataframe(
         worklist_df[['display_title', 'swiss_score', 'violations_display', 'severity_display', 'id']],
         column_config={
             "display_title": st.column_config.TextColumn(
@@ -303,79 +295,46 @@ if st.session_state.active_tab_index == 0:
                 help="Dataset Title"
             ),
             "swiss_score": st.column_config.ProgressColumn(
-                T["col_score"], 
+                f"{T['col_score']} ℹ️", 
                 format="%.0f", 
                 min_value=0, 
                 max_value=405,
                 color="#1c83e1", 
-                width="medium"
+                width="medium",
+                help=T.get("tooltip_score", "") 
             ),
             "violations_display": st.column_config.TextColumn(
-                T["col_violations"], 
-                width="small"
+                f"{T['col_violations']} ℹ️", 
+                width="small",
+                help=T.get("tooltip_violations", "")
             ),
             "severity_display": st.column_config.TextColumn(
-                T["col_severity"], 
-                width="small"
+                f"{T['col_severity']} ℹ️", 
+                width="small",
+                help=T.get("tooltip_severity", "") 
             ),
             "id": st.column_config.TextColumn(
                 T["col_id"], 
                 width="small",
-                help="Internal Identifier"
+                help="Internal Identifier (Copyable)"
             )
         },
         hide_index=True,
-        width="stretch",
-        on_select="rerun",             # Triggers a rerun immediately on click
-        selection_mode="single-row",   # Only allow selecting one dataset at a time
-        key="overview_worklist"        # Unique key is required for selection state
+        width="stretch"
     )
-
-    # --- 4. Handle Selection Logic ---
-    if len(selection.selection.rows) > 0:
-        # Get the integer index of the selected row
-        selected_row_index = selection.selection.rows[0]
-        
-        # Retrieve the actual ID from the dataframe using iloc (safe for sorted dataframes)
-        selected_id = worklist_df.iloc[selected_row_index]['id']
-        
-        # 1. Switch to Inspector Tab (Index 1)
-        st.session_state.active_tab_index = 1
-        
-        # 2. Pre-fill the Inspector Search with the ID to isolate the dataset
-        st.session_state.inspector_search = selected_id
-        
-        # 3. Rerun to reflect changes immediately
-        st.rerun()
-
 
 # --- TAB 2: INSPECTOR ---
 elif st.session_state.active_tab_index == 1:
     st.markdown(f"### {T['tab_inspector']}")
     
-    # This forces the button to sit on the same baseline as the text input
-    col_search, col_clear = st.columns([9, 1], vertical_alignment="center", gap="small")
-    
+    col_search, col_clear = st.columns([5, 1])
     with col_search:
-        search_query = st.text_input(
-            "Filter", 
-            key="inspector_search", 
-            placeholder=S_TXT["ph"], 
-            label_visibility="collapsed"
-        )
-        
+        search_query = st.text_input("Filter", key="inspector_search", placeholder=S_TXT["ph"], label_visibility="collapsed")
     with col_clear:
-        st.button(
-            "✕", 
-            type="secondary", 
-            on_click=clear_search,
-            help="Clear filter",
-            key="btn_clear_search" 
-        )
+        st.button(S_TXT["clear"], type="secondary", width="stretch", on_click=clear_search)
 
     if search_query:
-        subset = filtered_df[filtered_df['display_title'].str.contains(search_query, case=False, na=False) | 
-                             filtered_df['id'].str.contains(search_query, case=False, na=False)]
+        subset = filtered_df[filtered_df['display_title'].str.contains(search_query, case=False, na=False) | filtered_df['id'].str.contains(search_query, case=False, na=False)]
     else:
         subset = filtered_df
 
@@ -526,7 +485,6 @@ elif st.session_state.active_tab_index == 2:
     st.markdown(T["help_intro"])
     
     # --- EXPANDER 1: CONCEPTS (Violations vs Score) ---
-    # We combine the overview title and goal for the header
     with st.expander(f"ℹ️ {T['help_overview']} & {T['help_goal']}", expanded=False):
         
         # Card 1: Violations
@@ -552,12 +510,12 @@ elif st.session_state.active_tab_index == 2:
         st.markdown(T['help_sev_desc'])
         
         severity_table = f"""
-|   | {T['col_severity']} | {T['help_table_info']} |
+| | {T['col_severity']} | {T['help_table_info']} |
 | :--- | :--- | :--- |
 | 🔴 | **{T['severity_high']}** | {T['help_sev_high']} |
 | 🟠 | **{T['severity_med']}** | {T['help_sev_med']} |
 | 🔵 | **{T['severity_low']}** | {T['help_sev_low']} |
-        """
+"""
         st.markdown(severity_table)
 
     # --- EXPANDER 3: DETAILED CALCULATOR (Collapsed by default) ---
