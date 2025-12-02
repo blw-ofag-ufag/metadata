@@ -20,7 +20,7 @@ Ensure you have **Python 3.9+** installed.
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/blw-ofag-ufag/metadata.git](https://github.com/blw-ofag-ufag/metadata.git)
+    git clone https://github.com/blw-ofag-ufag/metadata.git
     cd metadata
     ```
 
