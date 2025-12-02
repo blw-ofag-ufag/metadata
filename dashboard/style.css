@@ -147,3 +147,28 @@ header[data-testid="stHeader"] {
     max-width: 1200px !important;
     margin: 0 auto !important;
 }
+
+/* ================================= */
+/* 5. CENTER METRICS                 */
+/* ================================= */
+
+/* Target the main container of the metric widget */
+[data-testid="stMetric"] {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important; /* Horizontal center */
+    text-align: center !important;  /* Text center */
+    margin: auto !important;        /* Center widget in column */
+}
+
+/* Force the inner Label (Top text) to expand and center */
+[data-testid="stMetricLabel"] {
+    justify-content: center !important;
+    width: 100% !important;
+}
+
+/* Force the inner Value (Big number) to expand and center */
+[data-testid="stMetricValue"] {
+    justify-content: center !important;
+    width: 100% !important;
+}
