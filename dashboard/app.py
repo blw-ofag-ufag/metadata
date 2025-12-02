@@ -186,7 +186,7 @@ if st.session_state.active_tab_index == 0:
         chart_dist = alt.Chart(chart_data).mark_bar(
             color="#2f4356",
             stroke="white",
-            strokeWidth=0.5     
+            strokeWidth=0.2     
         ).encode(
             x=alt.X('rank:Q', title='Dataset Rank', axis=alt.Axis(tickMinStep=1, grid=False), scale=alt.Scale(domainMin=0) ),
             y=alt.Y('swiss_score:Q', title='FAIRC Score', scale=alt.Scale(domainMin=0, domainMax=420)),

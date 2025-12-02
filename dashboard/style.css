@@ -120,9 +120,8 @@ div[data-testid="stButton"] button {
 }
 
 /* ================================= */
-/* 4. LAYOUT CONSTRAINTS (UPDATED)   */
+/* 4. LAYOUT CONSTRAINTS  */
 /* ================================= */
-
 /* Target the specific Streamlit block container using the data-testid.
    This is more robust than using class names like .main
 */
@@ -137,13 +136,13 @@ div[data-testid="stButton"] button {
     /* border: 5px solid red !important;  */
 }
 
-/* 2. Fallback: Target by Attribute (Wildcard tag) */
+/* 2. Fallback: Target by Attribute */
 [data-testid="block-container"] {
     max-width: 1200px !important;
     margin: 0 auto !important;
 }
 
-/* 3. Header Constraint (Keep this, it was working!) */
+/* 3. Header Constraint */
 header[data-testid="stHeader"] {
     max-width: 1200px !important;
     margin: 0 auto !important;
