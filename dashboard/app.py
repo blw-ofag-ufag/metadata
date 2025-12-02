@@ -291,13 +291,15 @@ if st.session_state.active_tab_index == 0:
     
     worklist_df = worklist_df.sort_values(by=['sev_rank', 'swiss_score'], ascending=[True, True])
 
-    # --- 3. Render Dataframe ---
-    st.dataframe(
+# --- 3. Render Dataframe with Selection Event ---
+    
+    # We need a persistent key to track the selection state
+    selection = st.dataframe(
         worklist_df[['display_title', 'swiss_score', 'violations_display', 'severity_display', 'id']],
         column_config={
             "display_title": st.column_config.TextColumn(
                 T["col_title"], 
-                width="large", # Give the title the most space
+                width="large", 
                 help="Dataset Title"
             ),
             "swiss_score": st.column_config.ProgressColumn(
@@ -305,7 +307,7 @@ if st.session_state.active_tab_index == 0:
                 format="%.0f", 
                 min_value=0, 
                 max_value=405,
-                color="#1c83e1", # Keeping your requested blue
+                color="#1c83e1", 
                 width="medium"
             ),
             "violations_display": st.column_config.TextColumn(
@@ -319,13 +321,33 @@ if st.session_state.active_tab_index == 0:
             "id": st.column_config.TextColumn(
                 T["col_id"], 
                 width="small",
-                help="Internal Identifier (Copyable)"
+                help="Internal Identifier"
             )
         },
         hide_index=True,
-        width="stretch"
+        width="stretch",
+        on_select="rerun",             # Triggers a rerun immediately on click
+        selection_mode="single-row",   # Only allow selecting one dataset at a time
+        key="overview_worklist"        # Unique key is required for selection state
     )
 
+    # --- 4. Handle Selection Logic ---
+    if len(selection.selection.rows) > 0:
+        # Get the integer index of the selected row
+        selected_row_index = selection.selection.rows[0]
+        
+        # Retrieve the actual ID from the dataframe using iloc (safe for sorted dataframes)
+        selected_id = worklist_df.iloc[selected_row_index]['id']
+        
+        # 1. Switch to Inspector Tab (Index 1)
+        st.session_state.active_tab_index = 1
+        
+        # 2. Pre-fill the Inspector Search with the ID to isolate the dataset
+        st.session_state.inspector_search = selected_id
+        
+        # 3. Rerun to reflect changes immediately
+        st.rerun()
+        
 # --- TAB 2: INSPECTOR ---
 elif st.session_state.active_tab_index == 1:
     st.markdown(f"### {T['tab_inspector']}")
