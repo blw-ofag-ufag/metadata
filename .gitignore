@@ -13,3 +13,8 @@ Thumbs.db
 *cache*
 .ipynb*
 testzone
+# --- Database ---
+*.db
+*.sqlite3
+*.sqlite
+data/qa.db

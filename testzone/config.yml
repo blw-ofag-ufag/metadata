@@ -1,0 +1,71 @@
+# Configuration for the data quality checks
+
+# 0. Path to the JSON schema file for basic structure validation
+paths:
+  data_directory: 'data/raw/datasets'
+  report_directory: 'data/processed'
+
+# Defines scoring logic according to MQA (also used by opendata.swiss)
+mqa_metrics:
+  findability:
+    max_score: 100
+    indicators:
+      keywords: { path: 'dcat:keyword', points: 30 }
+      categories: { path: 'dcat:theme', points: 30 }
+      spatial: { path: 'dct:spatial', points: 20 }
+      temporal: { path: 'dct:temporal', points: 20 }
+
+  accessibility:
+    max_score: 100
+    # These checks are per-distribution
+    indicators:
+      access_url_accessibility: { path: 'dcat:accessURL', points: 50 }
+      download_url_presence: { path: 'dcat:downloadURL', points: 20 }
+      download_url_accessibility: { path: 'dcat:downloadURL', points: 30 }
+
+  interoperability:
+    max_score: 110
+    # These checks are per-distribution; we take the BEST distribution's score
+    indicators:
+      format_presence: { path: 'dct:format', points: 20 }
+      media_type_presence: { path: 'dcat:mediaType', points: 10 } # Not in your schema, but in MQA
+      format_from_vocabulary: { path: 'dct:format', points: 10 }
+      # media_type_from_vocabulary is combined with format in MQA docs
+      non_proprietary: { path: 'dct:format', points: 20 }
+      machine_readable: { path: 'dct:format', points: 20 }
+      # Auto-awarded as per data_loader interoperability.py (In the meantime, OGD team asked the value to be 100% by default.)
+
+      dcat_ap_ch_conformity: { points: 30 }
+
+  reusability:
+    max_score: 75
+    indicators:
+      # Distribution-level checks
+      license_presence: { path: 'dct:license', points: 20 }
+      license_from_vocabulary: { path: 'dct:license', points: 10 }
+      # Dataset-level checks
+      contact_point_presence: { path: 'dcat:contactPoint', points: 20 }
+      publisher_presence: { path: 'dct:publisher', points: 10 }
+      access_rights: { path: 'dct:accessRights', points: 15 } 
+
+  context:
+    max_score: 20
+    indicators:
+      # Distribution-level checks
+      rights_presence: { path: 'dct:rights', points: 5 } # Not in your schema, but in MQA
+      bytesize_presence: { path: 'dcat:byteSize', points: 5 } # Not in your schema, but in MQA
+      # Dataset AND Distribution level checks
+      issued_date_presence: { path: 'dct:issued', points: 5 }
+      modified_date_presence: { path: 'dct:modified', points: 5 }
+
+# MQA rating thresholds from the documentation
+rating_thresholds:
+  - { rating: 'Excellent', min_score: 351 }
+  - { rating: 'Good', min_score: 221 }
+  - { rating: 'Sufficient', min_score: 121 }
+  - { rating: 'Insufficient', min_score: 0 }
+
+custom_validations:
+  email_fields:
+    - 'dcat:contactPoint.schema:email'
+    - 'prov:qualifiedAttribution.schema:email'

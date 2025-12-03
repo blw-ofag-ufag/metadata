@@ -21,7 +21,10 @@ jobs:
       - name: Install Dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install jsonschema
+          pip install -r requirements.txt
+
+      - name: Run Tests
+        run: pytest
 
       - name: Run Combine Datasets Script
         run: python automation/combine-datasets.py
@@ -29,13 +32,17 @@ jobs:
       - name: Extract all keywords
         run: python automation/keyword-extraction.py
 
+      - name: Run Data Quality Check
+        run: python automation/data_quality_checker.py
+
       - name: Commit and Push Changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add data/processed/datasets.json
           git add data/processed/keywords.json
-          git commit -m "Updated combined JSON files" || echo "No changes to commit"
+          git add data/processed/quality_report.json
+          git commit -m "Updated combined JSON files and quality report" || echo "No changes to commit"
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
