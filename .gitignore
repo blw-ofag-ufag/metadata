@@ -6,7 +6,7 @@
 *.Rout
 *.Rout.save
 *.Rout.fail
-*.Rapp.history
+*.Rapp.history 
 .DS_Store
 Thumbs.db
 .venv
