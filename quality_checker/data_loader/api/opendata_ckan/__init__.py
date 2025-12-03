@@ -1,1 +1,0 @@
-from .organization_show import generate_detailed_org_list
