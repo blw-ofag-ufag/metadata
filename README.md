@@ -54,5 +54,5 @@ streamlit run dashboard/app.py
 
 - Go to the PORTS tab in the bottom panel of VS Code/Editor
 - Enter Port number indicated in the terminal. For example 8501 for `Local URL: http://localhost:8501`
-- Hover over the "Forwarded Address" column
-- Click on "Preview in Editor"
+- Hover over the `Forwarded Address` column
+- Click on `Preview in Editor`
