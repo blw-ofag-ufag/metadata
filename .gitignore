@@ -12,7 +12,7 @@ Thumbs.db
 .venv
 *cache*
 .ipynb*
-testzone
+testzone/
 # --- Database ---
 *.db
 *.sqlite3
