@@ -70,7 +70,7 @@ def _schema_errors(data: dict, schema: dict) -> List[str]:
 
 def _extract_business_owner(mapping: Dict[str, Any]) -> Optional[Any]:
     for role in mapping.get("prov:qualifiedAttribution", []):
-        if role.get("dcat:hadRole") == "businessDataOwner":
+        if role.get("dcat:hadRole") == "dataOwner":
             return role.get("prov:agent")
     return None
 
@@ -108,7 +108,7 @@ def enrich_record(
     # Computed fields last
     enriched.update(
         {
-            "businessDataOwner": owner,
+            "dataOwner": owner,
             "schemaViolations": violations,
             "schemaViolationMessages": violation_messages,
             "quality": quality,

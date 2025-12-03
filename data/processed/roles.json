@@ -4,7 +4,7 @@
         "name": null,
         "roles": [
             {
-                "role": "businessDataOwner",
+                "role": "dataOwner",
                 "datasets": [
                     {
                         "dct:identifier": "19711e0b-c622-46c7-88ee-b081e1c042d4",
@@ -242,7 +242,7 @@
         "name": null,
         "roles": [
             {
-                "role": "businessDataOwner",
+                "role": "dataOwner",
                 "datasets": [
                     {
                         "dct:identifier": "82fcca67-633d-431d-853d-1bf765a70bc6",
@@ -318,7 +318,7 @@
         "name": null,
         "roles": [
             {
-                "role": "businessDataOwner",
+                "role": "dataOwner",
                 "datasets": [
                     {
                         "dct:identifier": "b7f151dc-8a3d-4d52-912b-6074be50fd70",
@@ -441,7 +441,7 @@
         "name": null,
         "roles": [
             {
-                "role": "businessDataOwner",
+                "role": "dataOwner",
                 "datasets": [
                     {
                         "dct:identifier": "83f93ff4-ef3f-43f1-af2c-83f18952283e",
@@ -501,7 +501,7 @@
         "name": null,
         "roles": [
             {
-                "role": "businessDataOwner",
+                "role": "dataOwner",
                 "datasets": [
                     {
                         "dct:identifier": "2ea8bfa1-8bb6-45ef-bee4-3b4cba52d834",
@@ -541,7 +541,7 @@
         "name": null,
         "roles": [
             {
-                "role": "businessDataOwner",
+                "role": "dataOwner",
                 "datasets": [
                     {
                         "dct:identifier": "6cfb283f-7173-4bfd-8028-f944f153de41",
@@ -561,7 +561,7 @@
         "name": null,
         "roles": [
             {
-                "role": "businessDataOwner",
+                "role": "dataOwner",
                 "datasets": [
                     {
                         "dct:identifier": "6cfb283f-7173-4bfd-8028-f944f153de41",
@@ -581,7 +581,7 @@
         "name": null,
         "roles": [
             {
-                "role": "businessDataOwner",
+                "role": "dataOwner",
                 "datasets": [
                     {
                         "dct:identifier": "19111589-d41f-4f42-b397-b8318dfb13fd",

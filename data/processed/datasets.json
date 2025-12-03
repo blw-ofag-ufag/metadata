@@ -71,7 +71,7 @@
         "bv:archivalValue": false,
         "dct:publisher": "BLW-OFAG-UFAG-FOAG",
         "bv:externalCatalogs": null,
-        "businessDataOwner": "p-0711690",
+        "dataOwner": "p-0711690",
         "schemaViolations": 0,
         "schemaViolationMessages": [],
         "quality": 11650.0
@@ -165,7 +165,7 @@
             }
         ],
         "bv:externalCatalogs": null,
-        "businessDataOwner": "p-0170309",
+        "dataOwner": "p-0170309",
         "schemaViolations": 0,
         "schemaViolationMessages": [],
         "quality": 11604.0
@@ -260,7 +260,7 @@
             }
         ],
         "bv:externalCatalogs": null,
-        "businessDataOwner": "p-5367735",
+        "dataOwner": "p-5367735",
         "schemaViolations": 0,
         "schemaViolationMessages": [],
         "quality": 8363.0
@@ -356,7 +356,7 @@
             }
         ],
         "bv:externalCatalogs": null,
-        "businessDataOwner": "p-5367735",
+        "dataOwner": "p-5367735",
         "schemaViolations": 0,
         "schemaViolationMessages": [],
         "quality": 7649.0
@@ -448,7 +448,7 @@
             }
         ],
         "bv:externalCatalogs": null,
-        "businessDataOwner": "p-5367735",
+        "dataOwner": "p-5367735",
         "schemaViolations": 0,
         "schemaViolationMessages": [],
         "quality": 7107.0
@@ -576,7 +576,7 @@
             }
         ],
         "bv:archivalValue": false,
-        "businessDataOwner": "p-8397553",
+        "dataOwner": "p-8397553",
         "schemaViolations": 0,
         "schemaViolationMessages": [],
         "quality": 5656.0
@@ -675,7 +675,7 @@
             }
         ],
         "bv:externalCatalogs": null,
-        "businessDataOwner": "p-1YVS771WP",
+        "dataOwner": "p-1YVS771WP",
         "schemaViolations": 1,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']"
@@ -775,7 +775,7 @@
             }
         ],
         "bv:externalCatalogs": null,
-        "businessDataOwner": "p-1YVS771WP",
+        "dataOwner": "p-1YVS771WP",
         "schemaViolations": 1,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']"
@@ -875,7 +875,7 @@
             }
         ],
         "bv:externalCatalogs": null,
-        "businessDataOwner": "p-1YVS771WP",
+        "dataOwner": "p-1YVS771WP",
         "schemaViolations": 1,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']"
@@ -971,7 +971,7 @@
             }
         ],
         "bv:externalCatalogs": null,
-        "businessDataOwner": "p-5367735",
+        "dataOwner": "p-5367735",
         "schemaViolations": 0,
         "schemaViolationMessages": [],
         "quality": 4689.0
@@ -1070,7 +1070,7 @@
             }
         ],
         "bv:externalCatalogs": null,
-        "businessDataOwner": "p-1YVS771WP",
+        "dataOwner": "p-1YVS771WP",
         "schemaViolations": 1,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']"
@@ -1170,7 +1170,7 @@
             }
         ],
         "bv:externalCatalogs": null,
-        "businessDataOwner": "p-1YVS771WP",
+        "dataOwner": "p-1YVS771WP",
         "schemaViolations": 1,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']"
@@ -1270,7 +1270,7 @@
             }
         ],
         "bv:externalCatalogs": null,
-        "businessDataOwner": "p-1YVS771WP",
+        "dataOwner": "p-1YVS771WP",
         "schemaViolations": 1,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']"
@@ -1351,7 +1351,7 @@
             }
         ],
         "bv:externalCatalogs": null,
-        "businessDataOwner": "p-1YVS771WP",
+        "dataOwner": "p-1YVS771WP",
         "schemaViolations": 1,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']"
@@ -1437,7 +1437,7 @@
             }
         ],
         "bv:externalCatalogs": null,
-        "businessDataOwner": "p-1YVS771WP",
+        "dataOwner": "p-1YVS771WP",
         "schemaViolations": 1,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']"
@@ -1539,7 +1539,7 @@
             }
         ],
         "bv:externalCatalogs": null,
-        "businessDataOwner": "p-1YVS771WP",
+        "dataOwner": "p-1YVS771WP",
         "schemaViolations": 1,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']"
@@ -1692,7 +1692,7 @@
                 ]
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 2,
         "schemaViolationMessages": [
             "None of [{'prov:agent': 'p-1ZPP7KQSW', 'schema:name': 'Ambrogio Foletti', 'schema:email': 'ambrogio.foletti@blw.admin.ch', 'dcat:hadRole': 'dataSteward'}, {'prov:agent': 'p-1ZFWFFNP6', 'schema:name': 'Damian Oswald', 'schema:email': 'damian.oswald@blw.admin.ch', 'dcat:hadRole': 'dataSteward'}, {'prov:agent': 'p-1YVS771WP', 'schema:name': 'Christian Wilda', 'schema:email': 'christian.wilda@blw.admin.ch', 'dcat:hadRole': 'dataCustodian'}, {'prov:agent': 'p-1ZLWBXSJD', 'schema:name': 'Pascal Hurni', 'schema:email': 'pascal.hurni@blw.admin.ch', 'dcat:hadRole': 'dataCustodian'}] are valid under the given schema",
@@ -1793,7 +1793,7 @@
             }
         ],
         "bv:externalCatalogs": null,
-        "businessDataOwner": "p-1YVS771WP",
+        "dataOwner": "p-1YVS771WP",
         "schemaViolations": 1,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']"
@@ -1876,7 +1876,7 @@
             }
         ],
         "bv:externalCatalogs": null,
-        "businessDataOwner": "p-1YVS771WP",
+        "dataOwner": "p-1YVS771WP",
         "schemaViolations": 1,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']"
@@ -1962,7 +1962,7 @@
             }
         ],
         "bv:externalCatalogs": null,
-        "businessDataOwner": "p-1YVS771WP",
+        "dataOwner": "p-1YVS771WP",
         "schemaViolations": 1,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']"
@@ -2048,7 +2048,7 @@
                 "dct:identifier": "55f48530-8f03-4058-b26e-387c23c5a48e"
             }
         ],
-        "businessDataOwner": "p-3966584",
+        "dataOwner": "p-3966584",
         "schemaViolations": 0,
         "schemaViolationMessages": [],
         "quality": 3580.0
@@ -2113,7 +2113,7 @@
         ],
         "dcat:version": "1.0",
         "bv:archivalValue": false,
-        "businessDataOwner": "p-8397553",
+        "dataOwner": "p-8397553",
         "schemaViolations": 1,
         "schemaViolationMessages": [
             "'' is not of type 'array', 'null'"
@@ -2225,7 +2225,7 @@
                 "dct:identifier": "fcd47ce3-f07d-48b4-bdc9-63088fcf514a"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 1,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']"
@@ -2343,7 +2343,7 @@
                 "dct:identifier": ""
             }
         ],
-        "businessDataOwner": "p-1ZFWFFNP6",
+        "dataOwner": "p-1ZFWFFNP6",
         "schemaViolations": 2,
         "schemaViolationMessages": [
             "'environment' is not one of ['', 'work', 'construction', 'population', 'education', 'energy', 'finances', 'geography', 'legislation', 'health', 'trade', 'industry', 'crime', 'culture', 'agriculture', 'mobility', 'public-order', 'politics', 'prices', 'territory', 'social-security', 'statistical-basis', 'tourism', 'administration', 'national-economy']",
@@ -2407,7 +2407,7 @@
         "bv:itSystem": "https://agriculture.ld.admin.ch/system-map/S9VcxLSoIIwQjoexY",
         "schema:comment": "The tables have been verified by the cantonal offices for agriculture.",
         "bv:archivalValue": false,
-        "businessDataOwner": " p-8397553",
+        "dataOwner": " p-8397553",
         "schemaViolations": 1,
         "schemaViolationMessages": [
             "'dct:issued' is a required property"
@@ -2500,7 +2500,7 @@
             }
         ],
         "bv:externalCatalogs": null,
-        "businessDataOwner": "p-0170309",
+        "dataOwner": "p-0170309",
         "schemaViolations": 3,
         "schemaViolationMessages": [
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
@@ -2596,7 +2596,7 @@
             }
         ],
         "bv:externalCatalogs": null,
-        "businessDataOwner": "p-0170309",
+        "dataOwner": "p-0170309",
         "schemaViolations": 3,
         "schemaViolationMessages": [
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
@@ -2748,7 +2748,7 @@
                 "dct:identifier": "e1a93f10-8007-4ef6-b5a9-3c617ed29c32"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 7,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -2932,7 +2932,7 @@
                 "dct:identifier": "621e488c-7a97-46ca-9635-7afc2ab5266e"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 7,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -3116,7 +3116,7 @@
                 "dct:identifier": "131b59a3-e269-4e86-a3c1-d8cee5be7aac"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 7,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -3299,7 +3299,7 @@
                 "dct:identifier": "55d1451b-9d9a-4e88-921d-b901f5b2de17"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 7,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -3483,7 +3483,7 @@
                 "dct:identifier": "c11df334-e906-44b8-8fab-22fed980958c"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 7,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -3666,7 +3666,7 @@
                 "dct:identifier": "825146b2-b989-414a-93b8-a8a8acca7fff"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 7,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -3822,7 +3822,7 @@
                 "dct:identifier": "79a82202-4743-4f99-92a6-eb42b365b19f"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 7,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -3981,7 +3981,7 @@
                 "dct:identifier": "dda337d2-fce5-4fc7-9bec-5fd9df78939b"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 7,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -4142,7 +4142,7 @@
                 "dct:identifier": "8dacb53c-fe50-4cba-98c8-cd45c362d352"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 7,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -4238,7 +4238,7 @@
                 "dct:identifier": "4b7c2e6b-07e8-4310-a262-2581bda63ac1"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 2,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -4329,7 +4329,7 @@
                 "dct:identifier": "b8368066-995a-424d-96bc-d6993720865b"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 2,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -4483,7 +4483,7 @@
                 "dct:identifier": "ccd6ff9b-b1e0-4328-acbc-dd139a79522d"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 6,
         "schemaViolationMessages": [
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
@@ -4642,7 +4642,7 @@
                 "dct:identifier": "9baf5a22-ddde-4723-a241-7848e8485261"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 7,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -4821,7 +4821,7 @@
                 "dct:identifier": "71f80b15-f866-47d1-b2b6-be96ae6d7189"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 7,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -5000,7 +5000,7 @@
                 "dct:identifier": "cf8b87c9-edac-4785-b248-34192da76723"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 7,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -5096,7 +5096,7 @@
                 "dct:identifier": "7f74b325-02a2-40de-9b2d-81f1ded24764"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 2,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -5187,7 +5187,7 @@
                 "dct:identifier": "9f78a795-0a94-4a97-91f2-813933bfbb07"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 2,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -5276,7 +5276,7 @@
                 "dct:identifier": "5a482bdf-7152-427e-9300-7fde7472f671"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 2,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -5449,7 +5449,7 @@
                 "dct:identifier": "f3ea03ee-9d4c-431f-9ca3-f38746373fc0"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 7,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -5544,7 +5544,7 @@
                 "dct:identifier": "4a778f45-2b65-4883-a1aa-6573de189c39"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 2,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -5633,7 +5633,7 @@
                 "dct:identifier": "9beadde3-caa0-4e39-9676-357d375d79ab"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 2,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -5724,7 +5724,7 @@
                 "dct:identifier": "f619166d-c5c5-47ba-86a0-352235e81249"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 2,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -5815,7 +5815,7 @@
                 "dct:identifier": "27629a23-2ee1-4344-990d-889c86780b01"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 2,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -5969,7 +5969,7 @@
                 "dct:identifier": "4e49f596-d0b6-4473-9c77-7cf4f1008969"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 7,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -6065,7 +6065,7 @@
                 "dct:identifier": "cfaa671b-dc0d-4dde-9810-413c22b0938d"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 2,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -6156,7 +6156,7 @@
                 "dct:identifier": "09bea124-7d41-40c8-bb1b-fc99afee456b"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 2,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -6247,7 +6247,7 @@
                 "dct:identifier": "d734a47b-11b4-467a-aca9-7fb88ec5a058"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 2,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -6336,7 +6336,7 @@
                 "dct:identifier": "3257332f-b970-46dd-a691-3d2949d68fe7"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 2,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -6425,7 +6425,7 @@
                 "dct:identifier": "ea8c7919-23cb-4e42-8355-ee8f64cc257d"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 2,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -6514,7 +6514,7 @@
                 "dct:identifier": "e312e906-9a9d-4d85-84e0-479c4174b4c9"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 2,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -6605,7 +6605,7 @@
                 "dct:identifier": "985819da-067a-4d87-a0d9-861f75655ced"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 2,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -6696,7 +6696,7 @@
                 "dct:identifier": "29e93ad7-f930-4e5a-af46-1c03434fc51e"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 2,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -6785,7 +6785,7 @@
                 "dct:identifier": "e6b9a0ec-6ecf-4d72-a8ce-c95e2b22235a"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 2,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -6876,7 +6876,7 @@
                 "dct:identifier": "b5be6ebc-5b78-42e9-949a-a83c7c9960f4"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 2,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -6965,7 +6965,7 @@
                 "dct:identifier": "ae43c729-da24-4d82-a3ae-01d13197833f"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 2,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -7054,7 +7054,7 @@
                 "dct:identifier": "5119fedb-89ec-448c-89a3-274bea5acd62"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 2,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -7143,7 +7143,7 @@
                 "dct:identifier": "532a5042-ff38-49ac-9748-ff3c99748581"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 2,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -7232,7 +7232,7 @@
                 "dct:identifier": "9a08809b-66f0-4010-993d-43357ccbf514"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 2,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -7321,7 +7321,7 @@
                 "dct:identifier": "dc3c96bd-6ec9-4ecd-b798-e78c62d24e25"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 2,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -7477,7 +7477,7 @@
                 "dct:identifier": "3d44c5fb-eb7f-4c9e-9422-88868f7fe60c"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 7,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -7571,7 +7571,7 @@
                 "dct:identifier": "5b1e77a6-a9cc-4364-af23-a5e12d3bf0b3"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 2,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -7660,7 +7660,7 @@
                 "dct:identifier": "0c391726-45f9-4f26-b9fd-c567e954659e"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 2,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -7833,7 +7833,7 @@
                 "dct:identifier": "7db80be0-f3b8-45af-a616-ef4bb1191996"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 7,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -7987,7 +7987,7 @@
                 "dct:identifier": "b5bdff07-74bf-4dfa-b015-7e1aa2f2b422"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 7,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -8083,7 +8083,7 @@
                 "dct:identifier": "10015a2a-933b-43d9-bb42-c4aa28d7884e"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 2,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -8172,7 +8172,7 @@
                 "dct:identifier": "c49e3861-9b41-4e77-878e-1cead201bf9c"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 2,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -8261,7 +8261,7 @@
                 "dct:identifier": "8e494087-0931-4f2c-932b-67913ed57bf1"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 2,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -8350,7 +8350,7 @@
                 "dct:identifier": "19dd763d-3978-4388-9bab-d3cbc6f535f2"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 2,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -8441,7 +8441,7 @@
                 "dct:identifier": "7f60af24-5112-4f2a-b702-4ca70eb48865"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 2,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -8532,7 +8532,7 @@
                 "dct:identifier": "889b2128-a9f9-449e-9218-3c289bbd8faa"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 2,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -8623,7 +8623,7 @@
                 "dct:identifier": "6b11c466-5282-48d3-83bb-8c8348af2bf6"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 2,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -8779,7 +8779,7 @@
                 "dct:identifier": "6cac5c48-29b1-45d0-b684-836ac6354be3"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 8,
         "schemaViolationMessages": [
             "'Hanglagen' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
@@ -8874,7 +8874,7 @@
                 "dct:identifier": "7dd7f99f-4530-49f7-b191-f18cda34b032"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 2,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -8963,7 +8963,7 @@
                 "dct:identifier": "9569ebd8-9611-4276-91d0-c3c872fe3c7f"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 2,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -9052,7 +9052,7 @@
                 "dct:identifier": "433f8e00-3d19-4006-a864-be80a6c3cc3d"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 2,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -9141,7 +9141,7 @@
                 "dct:identifier": "8a7ba17b-6cd6-47ae-bb93-441b03b9dcde"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 2,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -9230,7 +9230,7 @@
                 "dct:identifier": "0c5885ce-c147-4cfd-85cb-1279298860b0"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 2,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -9405,7 +9405,7 @@
                 "dct:identifier": "04afc289-5142-4678-9498-6f5905fef0b1"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 7,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -9584,7 +9584,7 @@
                 "dct:identifier": "3a56c453-d097-4f13-9435-531df2875d3c"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 7,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -9762,7 +9762,7 @@
                 "dct:identifier": "6d44898a-5519-4ab0-a426-9641c0741faf"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 7,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -9856,7 +9856,7 @@
                 "dct:identifier": "6b0a2fac-5a53-4320-bc1d-d39546ca4f44"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 2,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -9991,7 +9991,7 @@
                 "dct:identifier": "704b25c2-1140-4bee-9df6-11901492232a"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 7,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -10085,7 +10085,7 @@
                 "dct:identifier": "11fce6a7-6f94-4500-85dd-5b33eda6d9dc"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 2,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -10259,7 +10259,7 @@
                 "dct:identifier": "7fc087e8-ccc1-4cda-a99d-0dced5d72537"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 7,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -10438,7 +10438,7 @@
                 "dct:identifier": "c69ff9d4-991c-40f3-9078-ffb9f135666d"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 7,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -10617,7 +10617,7 @@
                 "dct:identifier": "03b7b099-23f4-41aa-a441-aea3a3cdfdb4"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 7,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -10796,7 +10796,7 @@
                 "dct:identifier": "419b5e7e-98e2-4a14-bd58-178c1c9e4338"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 7,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -10975,7 +10975,7 @@
                 "dct:identifier": "9c8fc590-4032-4356-9af9-42b7728217ae"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 7,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -11154,7 +11154,7 @@
                 "dct:identifier": "f22ad686-5387-4410-900c-8eb763dd16ce"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 7,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -11333,7 +11333,7 @@
                 "dct:identifier": "201f5121-9f69-48e0-bd7f-c22d7b9fd272"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 7,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -11509,7 +11509,7 @@
                 "dct:identifier": "4e95ecac-0c7d-45b5-bfec-844504a7aa69"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 8,
         "schemaViolationMessages": [
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
@@ -11688,7 +11688,7 @@
                 "dct:identifier": "d18a25f8-6967-41d7-8813-c4b1e486f54a"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 7,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -11866,7 +11866,7 @@
                 "dct:identifier": "03e2cfdd-40c1-4fe0-bf34-5c15e5779559"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 7,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -12044,7 +12044,7 @@
                 "dct:identifier": "1122ee8a-03c9-4007-9236-74cc2e2f5ee7"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 7,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -12200,7 +12200,7 @@
                 "dct:identifier": "48a5f275-4046-46a9-bba5-ed7a60ca3393"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 8,
         "schemaViolationMessages": [
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
@@ -12297,7 +12297,7 @@
                 "dct:identifier": "5ba84e07-f6dd-454b-bf8a-68dfad9c5fa1"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 3,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -12444,7 +12444,7 @@
                 "dct:identifier": "524a909d-6dae-4c34-8dfd-029b601b51fc"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 7,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -12528,7 +12528,7 @@
         ],
         "dct:publisher": "BLW-OFAG-UFAG-FOAG",
         "bv:externalCatalogs": null,
-        "businessDataOwner": "p-1Y4L0Y450",
+        "dataOwner": "p-1Y4L0Y450",
         "schemaViolations": 5,
         "schemaViolationMessages": [
             "'bv:classification' is a required property",
@@ -12608,7 +12608,7 @@
             }
         ],
         "bv:archivalValue": false,
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 6,
         "schemaViolationMessages": [
             "'prov:agent' is a required property",
@@ -12765,7 +12765,7 @@
                 "dct:identifier": "078e0c66-26c4-4f83-a3d3-700b8c7dfa58"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 15,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -12875,7 +12875,7 @@
             }
         ],
         "bv:externalCatalogs": null,
-        "businessDataOwner": "p-5367735",
+        "dataOwner": "p-5367735",
         "schemaViolations": 9,
         "schemaViolationMessages": [
             "'Programme/Label' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
@@ -12928,7 +12928,7 @@
         "bv:itSystem": "Agrarbericht",
         "dcat:version": "1",
         "bv:archivalValue": false,
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 2,
         "schemaViolationMessages": [
             "'fr' is a required property",
@@ -13057,7 +13057,7 @@
                 "dct:identifier": "48415b81-f623-469a-8473-c62964f53fbb"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 10,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -13190,7 +13190,7 @@
                 "dct:identifier": "c9406d6b-a108-42a2-a22b-cf8b03e95d70"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 11,
         "schemaViolationMessages": [
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
@@ -13324,7 +13324,7 @@
                 "dct:identifier": "d5122fa9-d100-4d60-b204-95742718b3ce"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 11,
         "schemaViolationMessages": [
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
@@ -13457,7 +13457,7 @@
                 "dct:identifier": "767d09e4-d0f4-4dcf-9816-91e37bfa797d"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 10,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -13590,7 +13590,7 @@
                 "dct:identifier": "9cbdfde8-508d-4697-84d1-5d21b92c4e9c"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 11,
         "schemaViolationMessages": [
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
@@ -13724,7 +13724,7 @@
                 "dct:identifier": "e70d7954-d897-44d5-be15-54b05720f89c"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 11,
         "schemaViolationMessages": [
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
@@ -13858,7 +13858,7 @@
                 "dct:identifier": "73879228-7de8-4797-89d2-c089c9a07a21"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 11,
         "schemaViolationMessages": [
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
@@ -13992,7 +13992,7 @@
                 "dct:identifier": "3fc01587-2de5-4fc8-a1dd-8c6f4aaefd4e"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 11,
         "schemaViolationMessages": [
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
@@ -14126,7 +14126,7 @@
                 "dct:identifier": "944a7136-0ee7-4bcf-b7a6-e69ae62767d5"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 11,
         "schemaViolationMessages": [
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
@@ -14260,7 +14260,7 @@
                 "dct:identifier": "86a07747-ea1e-4d58-a716-1dd72f603bed"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 11,
         "schemaViolationMessages": [
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
@@ -14394,7 +14394,7 @@
                 "dct:identifier": "0b2046ac-dbc6-467c-8456-898c8b8862f0"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 11,
         "schemaViolationMessages": [
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
@@ -14528,7 +14528,7 @@
                 "dct:identifier": "936c8f63-3d24-42ef-bcc4-75505ae7cd5d"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 11,
         "schemaViolationMessages": [
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
@@ -14662,7 +14662,7 @@
                 "dct:identifier": "bf61558b-0a54-4f22-9d58-ed4325f9007b"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 11,
         "schemaViolationMessages": [
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
@@ -14796,7 +14796,7 @@
                 "dct:identifier": "c8e2cf7b-182d-4d97-88f0-ea8e7c2b2745"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 11,
         "schemaViolationMessages": [
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
@@ -14930,7 +14930,7 @@
                 "dct:identifier": "74ca4ec5-9df1-4e9d-beaf-80c78295862a"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 11,
         "schemaViolationMessages": [
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
@@ -15064,7 +15064,7 @@
                 "dct:identifier": "234d2568-4fb1-4624-872b-ee5e35c83955"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 11,
         "schemaViolationMessages": [
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
@@ -15198,7 +15198,7 @@
                 "dct:identifier": "47f95729-05ce-4a37-9e63-fefa9bd87f9c"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 11,
         "schemaViolationMessages": [
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
@@ -15332,7 +15332,7 @@
                 "dct:identifier": "b37cdbf6-8c04-4c7b-a2b8-7c85b6c07993"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 11,
         "schemaViolationMessages": [
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
@@ -15466,7 +15466,7 @@
                 "dct:identifier": "a439114f-7fda-4a22-a486-bee05ec03984"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 11,
         "schemaViolationMessages": [
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
@@ -15600,7 +15600,7 @@
                 "dct:identifier": "30981f07-dc91-4df5-9001-f008223a5524"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 11,
         "schemaViolationMessages": [
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
@@ -15734,7 +15734,7 @@
                 "dct:identifier": "9d72dd2a-0d32-464f-ad2b-4ad82af111d6"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 11,
         "schemaViolationMessages": [
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
@@ -15868,7 +15868,7 @@
                 "dct:identifier": "dcbbfce9-e2e1-4b20-9a5b-b07cc6ecca14"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 11,
         "schemaViolationMessages": [
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
@@ -16002,7 +16002,7 @@
                 "dct:identifier": "92c28034-1619-4251-a8cc-e6e534f95a27"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 11,
         "schemaViolationMessages": [
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
@@ -16136,7 +16136,7 @@
                 "dct:identifier": "01678041-4c8d-47c9-8a9b-a83153947dfe"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 11,
         "schemaViolationMessages": [
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
@@ -16270,7 +16270,7 @@
                 "dct:identifier": "d3f7f978-fe6e-4cb3-8f10-9a4bf834f89f"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 11,
         "schemaViolationMessages": [
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
@@ -16404,7 +16404,7 @@
                 "dct:identifier": "a26b3c05-5d09-40db-a674-3f6054fd8672"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 11,
         "schemaViolationMessages": [
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
@@ -16538,7 +16538,7 @@
                 "dct:identifier": "821dc562-2643-4b74-a69d-e532d8b4f6f9"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 11,
         "schemaViolationMessages": [
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
@@ -16672,7 +16672,7 @@
                 "dct:identifier": "d407a3c3-4bd1-48c4-98cb-7ab870a16fae"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 11,
         "schemaViolationMessages": [
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
@@ -16806,7 +16806,7 @@
                 "dct:identifier": "35f63f53-db5b-4dbd-8655-b1c864bf6c6b"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 11,
         "schemaViolationMessages": [
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
@@ -16940,7 +16940,7 @@
                 "dct:identifier": "e30471dd-40ed-489b-a9d6-b2baef24f859"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 11,
         "schemaViolationMessages": [
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
@@ -17074,7 +17074,7 @@
                 "dct:identifier": "db3e2225-b8ac-4f00-950a-40a294bd88c7"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 11,
         "schemaViolationMessages": [
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
@@ -17208,7 +17208,7 @@
                 "dct:identifier": "4723dc61-dd4c-4e1a-afc1-ec16f356123e"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 11,
         "schemaViolationMessages": [
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
@@ -17342,7 +17342,7 @@
                 "dct:identifier": "f10fc517-043a-449d-9e0b-3aaf51d144b5"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 11,
         "schemaViolationMessages": [
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
@@ -17922,7 +17922,7 @@
             }
         ],
         "bv:archivalValue": false,
-        "businessDataOwner": "p-8397553",
+        "dataOwner": "p-8397553",
         "schemaViolations": 96,
         "schemaViolationMessages": [
             "'Jahr 2023' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
@@ -18071,7 +18071,7 @@
             }
         ],
         "bv:archivalValue": false,
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 7,
         "schemaViolationMessages": [
             "'dct:publisher' is a required property",
@@ -18671,7 +18671,7 @@
             }
         ],
         "bv:archivalValue": false,
-        "businessDataOwner": "p-8397553",
+        "dataOwner": "p-8397553",
         "schemaViolations": 121,
         "schemaViolationMessages": [
             "'' is not of type 'array', 'null'",
