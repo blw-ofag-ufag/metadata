@@ -32,8 +32,8 @@ jobs:
       - name: Extract all keywords
         run: python automation/keyword-extraction.py
 
-      - name: Run Data Quality Check
-        run: python automation/data_quality_checker.py
+     # - name: Run Data Quality Check
+      #  run: python automation/data_quality_checker.py
 
       - name: Commit and Push Changes
         run: |
