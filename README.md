@@ -49,3 +49,10 @@ python -m src.audit
 ```bash
 streamlit run dashboard/app.py
 ```
+
+### 3b Access the UI via posit workbench
+
+- Go to the PORTS tab in the bottom panel of VS Code/Editor
+- Enter Port number indicated in the terminal. For example 8501 for `Local URL: http://localhost:8501`
+- Hover over the "Forwarded Address" column
+- Click on "Preview in Editor"
