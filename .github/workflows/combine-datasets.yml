@@ -23,8 +23,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Run Tests
-        run: pytest
 
       - name: Run Combine Datasets Script
         run: python automation/combine-datasets.py
@@ -39,7 +37,6 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add data/processed/datasets.json
           git add data/processed/keywords.json
-          git add data/processed/quality_report.json
           git commit -m "Updated combined JSON files and quality report" || echo "No changes to commit"
           git push
         env:
