@@ -53,7 +53,7 @@
     "opendata.swiss",
     "I14Y"
   ],
-  "dcat:theme": "agriculture",
+  "dcat:theme": [ "agriculture" ],
   "dct:spatial": "Switzerland",
   "bv:retentionPeriod": 0,
   "foaf:page": [
