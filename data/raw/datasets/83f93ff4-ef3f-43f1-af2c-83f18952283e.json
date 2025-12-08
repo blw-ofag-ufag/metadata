@@ -8,10 +8,10 @@
     "en": "DigiAgriFoodCH System Map"
   },
   "dct:description": {
-    "de": "Strukturierte Informationen über IT-Systeme, die darin enthaltenen Daten und deren betreibende Organisationen im Schweizer Agrar- und Ernährungssektor.",
-    "fr": "Informations structurées sur les systèmes informatiques, les données qu'ils contiennent et les organisations qui les gèrent dans le secteur agricole et alimentaire suisse.",
-    "it": "Informazioni strutturate sui sistemi IT, i dati in essi contenuti e le organizzazioni che li gestiscono nel settore agricolo e alimentare svizzero.",
-    "en": "Structured information about IT systems, the data they contain, and the organizations that manage them in the Swiss agriculture and food sector."
+    "de": "Die DigiAgriFoodCH Systemlandkarte ist eine Datensammlung auf LINDAS, die das digitale Ökosystem des Schweizer Agrar- und Ernährungssektors kartiert. Basierend auf einer eigenen Ontologie stellt sie Organisationen, IT-Systeme und Datensammlungen dar, wobei sie alle hierarchisch organisiert sein können (z.B. mit Teilorganisationen, Teilsystemen, Teil-Datensammlungen, etc.). So wird die komplexe Vernetzung der IT-Landschaft im Schweizer Agrar- und Ernährungssektor transparent und greifbar gemacht.",
+    "fr": "La cartographie des systèmes DigiAgriFoodCH est une collection de données sur LINDAS qui modélise l'écosystème numérique du secteur agroalimentaire suisse. S'appuyant sur une ontologie dédiée, elle représente des organisations, des systèmes informatiques et des collections de données, pouvant tous être structurés de manière hiérarchique (par ex. sous-organisations, sous-systèmes, sous-collections, etc.). Cela permet de rendre transparente et intelligible la complexité des interconnexions du paysage informatique suisse dans ce secteur.",
+    "it": "La mappa dei sistemi DigiAgriFoodCH è una raccolta di dati su LINDAS che traccia l'ecosistema digitale del settore agroalimentare svizzero. Basandosi su un'ontologia dedicata, rappresenta organizzazioni, sistemi IT e raccolte di dati, i quali possono essere tutti strutturati gerarchicamente (ad es. sotto-organizzazioni, sottosistemi, sotto-raccolte, ecc.). In questo modo, la complessa interconnessione del panorama informatico nel settore agroalimentare svizzero diventa trasparente e tangibile.",
+    "en": "The DigiAgriFoodCH system map is a data collection on LINDAS that charts the digital ecosystem of the Swiss agriculture and food sector. Based on a dedicated ontology, it represents organizations, IT systems, and data collections, all of which can be organized hierarchically (e.g., sub-organizations, sub-systems, sub-collections, etc.). This makes the complex interconnectivity of the IT landscape within the Swiss agri-food sector transparent and tangible."
   },
   "dct:accessRights": "PUBLIC",
   "dct:publisher": "BLW-OFAG-UFAG-FOAG",
