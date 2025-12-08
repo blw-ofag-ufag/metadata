@@ -99,6 +99,7 @@
         "register-data",
         "registration-data",
         "reporting-unit",
+        "schlüsselwort",
         "slope-gradient",
         "software",
         "soil",
@@ -125,6 +126,7 @@
         "vineyards",
         "wastewater",
         "Zonen",
-        "zoning"
+        "zoning",
+        "zweites schlüsselwort"
     ]
 }
