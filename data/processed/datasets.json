@@ -2232,125 +2232,6 @@
     },
     {
         "rdf:type": "dcat:Dataset",
-        "dct:identifier": "83f93ff4-ef3f-43f1-af2c-83f18952283e",
-        "schema:image": "https://fal.media/files/penguin/zLmfGWbw9SuNH9pYHqE7Y_454ce31f6849495cb14b7a083875b676.jpg",
-        "dct:title": {
-            "de": "DigiAgriFoodCH Systemlandkarte",
-            "fr": "Carte du système DigiAgriFoodCH",
-            "it": "Mappa del sistema DigiAgriFoodCH",
-            "en": "DigiAgriFoodCH System Map"
-        },
-        "dct:description": {
-            "de": "Strukturierte Informationen über IT-Systeme, die darin enthaltenen Daten und deren betreibende Organisationen im Schweizer Agrar- und Ernährungssektor.",
-            "fr": "Informations structurées sur les systèmes informatiques, les données qu'ils contiennent et les organisations qui les gèrent dans le secteur agricole et alimentaire suisse.",
-            "it": "Informazioni strutturate sui sistemi IT, i dati in essi contenuti e le organizzazioni che li gestiscono nel settore agricolo e alimentare svizzero.",
-            "en": "Structured information about IT systems, the data they contain, and the organizations that manage them in the Swiss agriculture and food sector."
-        },
-        "dcat:theme": [
-            "environment",
-            "agricultureFisheriesForestryFood"
-        ],
-        "dcat:keyword": [
-            "software",
-            "data",
-            "systems",
-            "network",
-            "organization",
-            "linked-data",
-            "knowledge-graph"
-        ],
-        "adms:status": "workInProgress",
-        "dct:accessRights": "PUBLIC",
-        "dcatap:availability": "AVAILABLE",
-        "bv:classification": "none",
-        "bv:personalData": "none",
-        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
-        "dcat:contactPoint": {
-            "schema:name": "DigiAgriFoodCH",
-            "schema:email": "info@digiagrifood.ch"
-        },
-        "dct:issued": "2025-01-29",
-        "dct:modified": "2025-02-24",
-        "dct:accrualPeriodicity": "IRREG",
-        "dct:temporal": {
-            "dcat:start_date": "",
-            "dcat:end_date": ""
-        },
-        "bv:abrogation": "",
-        "foaf:page": [
-            {
-                "alias": "GitHub Repository",
-                "uri": "https://github.com/blw-ofag-ufag/system-map"
-            },
-            {
-                "alias": "Interactive visualization of the system map",
-                "uri": "https://blw-ofag-ufag.github.io/system-map/"
-            }
-        ],
-        "bv:itSystem": "https://agriculture.ld.admin.ch/system-map/SQfl1MHnNpsAj3WP",
-        "dcat:distribution": [
-            {
-                "dct:identifier": "bdd9a81c-c3f0-4696-8cb7-594bbf4e972e",
-                "dct:title": {
-                    "de": "RDF-Graph-File",
-                    "fr": "Fichier de graphe RDF",
-                    "it": "File di grafo RDF",
-                    "en": "RDF graph file"
-                },
-                "dct:description": {
-                    "de": "Ein Turtle-File (.ttl) mit allen Informationen der DigiAgriFoodCH Systemlandkarte.",
-                    "fr": "Un fichier Turtle (.ttl) contenant toutes les informations de la carte système DigiAgriFoodCH.",
-                    "it": "Un file Turtle (.ttl) con tutte le informazioni della mappa di sistema DigiAgriFoodCH.",
-                    "en": "A Turtle file (.ttl) containing all the information of the DigiAgriFoodCH system map."
-                },
-                "dcat:accessURL": "https://github.com/blw-ofag-ufag/system-map/blob/main/rdf/data.ttl",
-                "adms:status": "workInProgress",
-                "dcatap:availability": "AVAILABLE",
-                "dct:format": "RDF",
-                "dct:modified": "2025-02-24",
-                "dcat:downloadURL": "https://raw.githubusercontent.com/blw-ofag-ufag/system-map/refs/heads/main/rdf/data.ttl",
-                "dct:license": "terms_open"
-            },
-            {
-                "dct:identifier": "6e76d236-93b4-4409-9dcb-4adce1949bb9",
-                "dct:title": {
-                    "de": "SPARQL Endpunkt für Datenabfrage",
-                    "fr": "Point d'accès SPARQL pour les requêtes sur le graphe",
-                    "it": "Endpoint SPARQL per interrogazioni sul grafo",
-                    "en": "SPARQL endpoint for graph queries"
-                },
-                "dct:description": {
-                    "de": "Ein YASGUI-SPARQL-Endpunkt für eine direkte Abfrage von Daten bei LINDAS, dem Linked Data Service des Bundesarchives.",
-                    "fr": "Un point d'accès YASGUI-SPARQL pour interroger directement les données de LINDAS, le service de données liées des Archives fédérales.",
-                    "it": "Un endpoint YASGUI-SPARQL per interrogare direttamente i dati di LINDAS, il servizio di dati collegati dell'Archivio federale.",
-                    "en": "A YASGUI-SPARQL endpoint for directly querying data from LINDAS, the Linked Data Service of the Federal Archives."
-                },
-                "dcat:accessURL": "https://s.zazuko.com/3sAp7YF",
-                "adms:status": "workInProgress",
-                "dcatap:availability": "AVAILABLE",
-                "dct:format": "SPARQL-Service",
-                "dct:modified": "2025-02-24",
-                "dcat:downloadURL": "https://s.zazuko.com/3sAp7YF",
-                "dct:license": "terms_open"
-            }
-        ],
-        "bv:archivalValue": false,
-        "bv:externalCatalogs": [
-            {
-                "dcat:catalog": "opendata.swiss",
-                "dct:identifier": ""
-            }
-        ],
-        "businessDataOwner": "p-1ZFWFFNP6",
-        "schemaViolations": 2,
-        "schemaViolationMessages": [
-            "'environment' is not one of ['', 'work', 'construction', 'population', 'education', 'energy', 'finances', 'geography', 'legislation', 'health', 'trade', 'industry', 'crime', 'culture', 'agriculture', 'mobility', 'public-order', 'politics', 'prices', 'territory', 'social-security', 'statistical-basis', 'tourism', 'administration', 'national-economy']",
-            "'agricultureFisheriesForestryFood' is not one of ['', 'work', 'construction', 'population', 'education', 'energy', 'finances', 'geography', 'legislation', 'health', 'trade', 'industry', 'crime', 'culture', 'agriculture', 'mobility', 'public-order', 'politics', 'prices', 'territory', 'social-security', 'statistical-basis', 'tourism', 'administration', 'national-economy']"
-        ],
-        "quality": 1651.6666666666667
-    },
-    {
-        "rdf:type": "dcat:Dataset",
         "dct:identifier": "ec64dfdb-4388-4d59-baa4-dea173bc9e69",
         "schema:image": "https://fal.media/files/kangaroo/MplSG_GNu6ZmK7BwV-Wna_62809d3f79334984b197c233f6abdc49.jpg",
         "dct:title": {
@@ -3991,6 +3872,133 @@
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'"
         ],
         "quality": 1159.25
+    },
+    {
+        "rdf:type": "dcat:Dataset",
+        "dct:identifier": "83f93ff4-ef3f-43f1-af2c-83f18952283e",
+        "schema:image": "https://fal.media/files/penguin/zLmfGWbw9SuNH9pYHqE7Y_454ce31f6849495cb14b7a083875b676.jpg",
+        "dct:title": {
+            "de": "DigiAgriFoodCH Systemlandkarte",
+            "fr": "Carte du système DigiAgriFoodCH",
+            "it": "Mappa del sistema DigiAgriFoodCH",
+            "en": "DigiAgriFoodCH System Map"
+        },
+        "dct:description": {
+            "de": "Strukturierte Informationen über IT-Systeme, die darin enthaltenen Daten und deren betreibende Organisationen im Schweizer Agrar- und Ernährungssektor.",
+            "fr": "Informations structurées sur les systèmes informatiques, les données qu'ils contiennent et les organisations qui les gèrent dans le secteur agricole et alimentaire suisse.",
+            "it": "Informazioni strutturate sui sistemi IT, i dati in essi contenuti e le organizzazioni che li gestiscono nel settore agricolo e alimentare svizzero.",
+            "en": "Structured information about IT systems, the data they contain, and the organizations that manage them in the Swiss agriculture and food sector."
+        },
+        "dct:accessRights": "PUBLIC",
+        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+        "dcat:contactPoint": {
+            "schema:name": "DigiAgriFoodCH",
+            "schema:email": "info@digiagrifood.ch"
+        },
+        "dct:issued": "2025-01-29",
+        "dcatap:availability": "AVAILABLE",
+        "dcat:keyword": [
+            "data",
+            "knowledge-graph",
+            "linked-data",
+            "network",
+            "organization",
+            "software",
+            "systems"
+        ],
+        "dct:accrualPeriodicity": "IRREG",
+        "adms:status": "workInProgress",
+        "bv:classification": "none",
+        "bv:personalData": "none",
+        "bv:typeOfData": "secondaryThematicData",
+        "bv:archivalValue": true,
+        "bv:externalCatalogs": [
+            "opendata.swiss",
+            "I14Y"
+        ],
+        "dcat:theme": "agriculture",
+        "dct:spatial": "Switzerland",
+        "bv:retentionPeriod": 0,
+        "foaf:page": [
+            {
+                "alias": "GitHub Repository",
+                "uri": "https://github.com/blw-ofag-ufag/system-map"
+            },
+            {
+                "alias": "Interactive visualization of the system map",
+                "uri": "https://blw-ofag-ufag.github.io/system-map/"
+            }
+        ],
+        "bv:itSystem": "https://agriculture.ld.admin.ch/system-map/SQfl1MHnNpsAj3WP",
+        "dcat:distribution": [
+            {
+                "dct:identifier": "bdd9a81c-c3f0-4696-8cb7-594bbf4e972e",
+                "dcat:accessURL": "https://github.com/blw-ofag-ufag/system-map/blob/main/rdf/data.ttl",
+                "adms:status": "workInProgress",
+                "dcatap:availability": "AVAILABLE",
+                "dct:format": "RDF",
+                "dcat:downloadURL": "https://raw.githubusercontent.com/blw-ofag-ufag/system-map/refs/heads/main/rdf/data.ttl",
+                "dct:title": {
+                    "de": "RDF-Graph-File",
+                    "fr": "Fichier de graphe RDF",
+                    "it": "File di grafo RDF",
+                    "en": "RDF graph file"
+                },
+                "dct:description": {
+                    "de": "Ein Turtle-File (.ttl) mit allen Informationen der DigiAgriFoodCH Systemlandkarte.",
+                    "fr": "Un fichier Turtle (.ttl) contenant toutes les informations de la carte système DigiAgriFoodCH.",
+                    "it": "Un file Turtle (.ttl) con tutte le informazioni della mappa di sistema DigiAgriFoodCH.",
+                    "en": "A Turtle file (.ttl) containing all the information of the DigiAgriFoodCH system map."
+                },
+                "dct:license": "terms_open"
+            },
+            {
+                "dct:identifier": "6e76d236-93b4-4409-9dcb-4adce1949bb9",
+                "dcat:accessURL": "https://s.zazuko.com/3sAp7YF",
+                "adms:status": "workInProgress",
+                "dcatap:availability": "AVAILABLE",
+                "dct:format": "SPARQL-Service",
+                "dcat:downloadURL": "https://s.zazuko.com/3sAp7YF",
+                "dct:title": {
+                    "de": "SPARQL Endpunkt für Datenabfrage",
+                    "fr": "Point d'accès SPARQL pour les requêtes sur le graphe",
+                    "it": "Endpoint SPARQL per interrogazioni sul grafo",
+                    "en": "SPARQL endpoint for graph queries"
+                },
+                "dct:description": {
+                    "de": "Ein YASGUI-SPARQL-Endpunkt für eine direkte Abfrage von Daten bei LINDAS, dem Linked Data Service des Bundesarchives.",
+                    "fr": "Un point d'accès YASGUI-SPARQL pour interroger directement les données de LINDAS, le service de données liées des Archives fédérales.",
+                    "it": "Un endpoint YASGUI-SPARQL per interrogare direttamente i dati di LINDAS, il servizio di dati collegati dell'Archivio federale.",
+                    "en": "A YASGUI-SPARQL endpoint for directly querying data from LINDAS, the Linked Data Service of the Federal Archives."
+                },
+                "dct:license": "terms_open"
+            },
+            {
+                "dct:identifier": "928ccab4-addd-4441-973d-3c84cf14ccbe",
+                "dcat:accessURL": "https://s.zazuko.com/2DPmjZ2",
+                "dct:format": "SPARQL-Service",
+                "dct:title": {
+                    "de": "Anzahl der Datensätze in jedem System",
+                    "fr": "Nombre d'enregistrements dans chaque système",
+                    "en": "Number of datasets in each system"
+                },
+                "dct:description": {
+                    "de": "SPARQL Query, die die Anzahl der Datensätze in jedem System unter Berücksichtigung von Subsystemen und Unterdatensätzen herausgibt.",
+                    "fr": "Requête SPARQL qui renvoie le nombre d'enregistrements dans chaque système, en tenant compte des sous-systèmes et des sous-ensembles de données.",
+                    "en": "SPARQL query that returns the number of records in each system, taking into account subsystems and sub-records."
+                },
+                "dct:license": "terms_by"
+            }
+        ],
+        "businessDataOwner": "p-1YVS771WP",
+        "schemaViolations": 4,
+        "schemaViolationMessages": [
+            "'opendata.swiss' is not of type 'object'",
+            "'I14Y' is not of type 'object'",
+            "'agriculture' is not of type 'array', 'null'",
+            "'adms:status' is a required property"
+        ],
+        "quality": 1137.6
     },
     {
         "rdf:type": "dcat:Dataset",
