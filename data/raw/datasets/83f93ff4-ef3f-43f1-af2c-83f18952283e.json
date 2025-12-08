@@ -13,51 +13,49 @@
     "it": "Informazioni strutturate sui sistemi IT, i dati in essi contenuti e le organizzazioni che li gestiscono nel settore agricolo e alimentare svizzero.",
     "en": "Structured information about IT systems, the data they contain, and the organizations that manage them in the Swiss agriculture and food sector."
   },
-  "dcat:theme": [
-    "environment",
-    "agricultureFisheriesForestryFood"
-  ],
-  "dcat:keyword": [
-    "software",
-    "data",
-    "systems",
-    "network",
-    "organization",
-    "linked-data",
-    "knowledge-graph"
-  ],
-  "adms:status": "workInProgress",
   "dct:accessRights": "PUBLIC",
-  "dcatap:availability": "AVAILABLE",
-  "bv:classification": "none",
-  "bv:personalData": "none",
   "dct:publisher": "BLW-OFAG-UFAG-FOAG",
   "dcat:contactPoint": {
     "schema:name": "DigiAgriFoodCH",
     "schema:email": "info@digiagrifood.ch"
   },
+  "dct:issued": "2025-01-29",
+  "dcatap:availability": "AVAILABLE",
+  "dcat:keyword": [
+    "data",
+    "knowledge-graph",
+    "linked-data",
+    "network",
+    "organization",
+    "software",
+    "systems"
+  ],
+  "dct:accrualPeriodicity": "IRREG",
   "prov:qualifiedAttribution": [
     {
-      "prov:agent": "p-1ZPP7KQSW",
-      "dcat:hadRole": "dataSteward"
-    },
-    {
-      "prov:agent": "p-1ZFWFFNP6",
+      "prov:agent": "p-1YVS771WP",
+      "schema:name": "Christian Wilda",
       "dcat:hadRole": "businessDataOwner"
     },
     {
-      "prov:agent": "p-1ZLWBXSJD",
+      "prov:agent": "p-1ZFWFFNP6",
+      "schema:name": "Damian Oswald",
+      "schema:email": "damian.oswald@blw.admin.ch",
       "dcat:hadRole": "dataSteward"
     }
   ],
-  "dct:issued": "2025-01-29",
-  "dct:modified": "2025-02-24",
-  "dct:accrualPeriodicity": "IRREG",
-  "dct:temporal": {
-    "dcat:start_date": "",
-    "dcat:end_date": ""
-  },
-  "bv:abrogation": "",
+  "adms:status": "workInProgress",
+  "bv:classification": "none",
+  "bv:personalData": "none",
+  "bv:typeOfData": "secondaryThematicData",
+  "bv:archivalValue": true,
+  "bv:externalCatalogs": [
+    "opendata.swiss",
+    "I14Y"
+  ],
+  "dcat:theme": "agriculture",
+  "dct:spatial": "Switzerland",
+  "bv:retentionPeriod": 0,
   "foaf:page": [
     {
       "alias": "GitHub Repository",
@@ -72,6 +70,11 @@
   "dcat:distribution": [
     {
       "dct:identifier": "bdd9a81c-c3f0-4696-8cb7-594bbf4e972e",
+      "dcat:accessURL": "https://github.com/blw-ofag-ufag/system-map/blob/main/rdf/data.ttl",
+      "adms:status": "workInProgress",
+      "dcatap:availability": "AVAILABLE",
+      "dct:format": "RDF",
+      "dcat:downloadURL": "https://raw.githubusercontent.com/blw-ofag-ufag/system-map/refs/heads/main/rdf/data.ttl",
       "dct:title": {
         "de": "RDF-Graph-File",
         "fr": "Fichier de graphe RDF",
@@ -84,16 +87,15 @@
         "it": "Un file Turtle (.ttl) con tutte le informazioni della mappa di sistema DigiAgriFoodCH.",
         "en": "A Turtle file (.ttl) containing all the information of the DigiAgriFoodCH system map."
       },
-      "dcat:accessURL": "https://github.com/blw-ofag-ufag/system-map/blob/main/rdf/data.ttl",
-      "adms:status": "workInProgress",
-      "dcatap:availability": "AVAILABLE",
-      "dct:format": "RDF",
-      "dct:modified": "2025-02-24",
-      "dcat:downloadURL": "https://raw.githubusercontent.com/blw-ofag-ufag/system-map/refs/heads/main/rdf/data.ttl",
       "dct:license": "terms_open"
     },
     {
       "dct:identifier": "6e76d236-93b4-4409-9dcb-4adce1949bb9",
+      "dcat:accessURL": "https://s.zazuko.com/3sAp7YF",
+      "adms:status": "workInProgress",
+      "dcatap:availability": "AVAILABLE",
+      "dct:format": "SPARQL-Service",
+      "dcat:downloadURL": "https://s.zazuko.com/3sAp7YF",
       "dct:title": {
         "de": "SPARQL Endpunkt für Datenabfrage",
         "fr": "Point d'accès SPARQL pour les requêtes sur le graphe",
@@ -106,20 +108,23 @@
         "it": "Un endpoint YASGUI-SPARQL per interrogare direttamente i dati di LINDAS, il servizio di dati collegati dell'Archivio federale.",
         "en": "A YASGUI-SPARQL endpoint for directly querying data from LINDAS, the Linked Data Service of the Federal Archives."
       },
-      "dcat:accessURL": "https://s.zazuko.com/3sAp7YF",
-      "adms:status": "workInProgress",
-      "dcatap:availability": "AVAILABLE",
-      "dct:format": "SPARQL-Service",
-      "dct:modified": "2025-02-24",
-      "dcat:downloadURL": "https://s.zazuko.com/3sAp7YF",
       "dct:license": "terms_open"
-    }
-  ],
-  "bv:archivalValue": false,
-  "bv:externalCatalogs": [
+    },
     {
-      "dcat:catalog": "opendata.swiss",
-      "dct:identifier": ""
+      "dct:identifier": "928ccab4-addd-4441-973d-3c84cf14ccbe",
+      "dcat:accessURL": "https://s.zazuko.com/2DPmjZ2",
+      "dct:format": "SPARQL-Service",
+      "dct:title": {
+        "de": "Anzahl der Datensätze in jedem System",
+        "fr": "Nombre d'enregistrements dans chaque système",
+        "en": "Number of datasets in each system"
+      },
+      "dct:description": {
+        "de": "SPARQL Query, die die Anzahl der Datensätze in jedem System unter Berücksichtigung von Subsystemen und Unterdatensätzen herausgibt.",
+        "fr": "Requête SPARQL qui renvoie le nombre d'enregistrements dans chaque système, en tenant compte des sous-systèmes et des sous-ensembles de données.",
+        "en": "SPARQL query that returns the number of records in each system, taking into account subsystems and sub-records."
+      },
+      "dct:license": "terms_by"
     }
   ]
 }
