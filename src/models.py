@@ -1,7 +1,8 @@
 from typing import Optional, List, Dict, Any
-from pydantic import BaseModel, Field, HttpUrl, field_validator, ConfigDict
+from pydantic import BaseModel, Field, HttpUrl, field_validator, model_validator, ConfigDict
 from sqlalchemy import String, Float, Integer, ForeignKey, JSON, Boolean, Text
 from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column, relationship
+
 
 # ==========================================
 # 1. Pydantic Parsing Models (Input Layer)
@@ -23,6 +24,7 @@ class DistributionInput(BaseModel):
     description: Optional[MultilingualText] = Field(alias="dct:description", default=None)
     access_url: Optional[str] = Field(alias="dcat:accessURL", default=None)
     download_url: Optional[str] = Field(alias="dcat:downloadURL", default=None)
+    internal_path: Optional[str] = Field(alias="bv:internalPath", default=None)
     format_type: Optional[str] = Field(alias="dct:format", default=None)
     media_type: Optional[str] = Field(alias="dcat:mediaType", default=None)
     license_id: Optional[str] = Field(alias="dct:license", default=None)
@@ -33,6 +35,16 @@ class DistributionInput(BaseModel):
     # Helper to hold audit results temporarily (not in raw JSON)
     access_url_status: Optional[int] = None
     download_url_status: Optional[int] = None
+
+    @model_validator(mode='after')
+    def check_exclusivity(self):
+        # We access the values directly from the model instance (self)
+        url = self.access_url
+        path = self.internal_path
+        
+        if url and path:
+            raise ValueError(f"Distribution '{self.identifier or 'unknown'}' cannot have both an Access URL and an Internal Path. Please choose one.")
+        return self
 
 class DatasetInput(BaseModel):
     """
