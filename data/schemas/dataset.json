@@ -542,6 +542,12 @@
                         "format": "uri",
                         "description": "URL to a page for accessing this distribution. This must not be a direct download URL but, for example, a link to a webpage containing download links."
                     },
+                    "bv:internalPath": {
+                        "title": "Internal File Path",
+                        "type": "string",
+                        "pattern": "^([a-zA-Z]:\\\\|\\\\\\\\).*",
+                        "description": "Internal network path (e.g. M:\\path\\to\\file). Mutually exclusive with Access URL. This distribution cannot be published externally."
+                    },
                     "adms:status": {
                         "title": "Status",
                         "type": "string",
