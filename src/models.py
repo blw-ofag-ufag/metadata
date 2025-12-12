@@ -90,6 +90,19 @@ class DatasetInput(BaseModel):
     def handle_null_distributions(cls, v):
         return v or []
 
+    @field_validator('keywords', 'themes', mode='before')
+    @classmethod
+    def coerce_to_list(cls, v):
+        """
+        Fixes cases where a single string is provided instead of a list.
+        Example: "agriculture" -> ["agriculture"]
+        """
+        if v is None:
+            return []
+        if isinstance(v, str):
+            return [v]
+        return v
+
 # ==========================================
 # 2. SQLAlchemy Database Models (Storage Layer)
 # ==========================================
