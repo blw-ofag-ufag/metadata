@@ -432,22 +432,6 @@
                 "format": "uri"
             }
         },
-        "prov:wasGeneratedBy": {
-            "title": "Business process",
-            "type": [
-                "array",
-                "null"
-            ],
-            "description": "Related business process or context.",
-            "items": {
-                "type": "string"
-            }
-        },
-        "bv:retentionPeriod": {
-            "title": "Retention period",
-            "type": "integer",
-            "description": "Retention period for the dataset. That is, the time that the dataset must legally be available after the end of its active use."
-        },
         "dcat:catalog": {
             "title": "Catalog",
             "type": "string",
@@ -513,11 +497,6 @@
             ],
             "format": "date",
             "description": "Indicates when the dataset was abrogated or replaced."
-        },
-        "bv:itSystem": {
-            "title": "IT system",
-            "type": "string",
-            "description": "Name of the IT system managing this dataset."
         },
         "dcat:inSeries": {
             "title": "In dataset series",
