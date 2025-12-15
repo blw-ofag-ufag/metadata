@@ -2,7 +2,7 @@
   "dct:identifier": "c41ed3f8-507f-43b1-bf9e-9b3d21495a0c",
   "schema:image": "https://fal.media/files/koala/gs2FKBa1oOpMotKhD2FGZ_9119f08e0c2f4496aee9281fea080337.jpg",
   "dct:title": {
-    "de": "Vollständiges Datenprodukt mit allen Attributen für Testzwecke",
+    "de": "__Vollständiges Datenprodukt mit allen Attributen für Testzwecke",
     "fr": "Produit de données complet avec tous les attributs à des fins de test",
     "it": "Prodotto dati completo con tutti gli attributi per scopi di test",
     "en": "Complete data product with all attributes for testing purposes"
@@ -13,39 +13,41 @@
     "it": "Questo è un dataset completo creato per scopi di test. Include tutti gli attributi necessari per valutare i flussi di elaborazione dei dati e convalidare il funzionamento del sistema. Ogni campo è popolato con valori rappresentativi che riflettono scenari realistici. Gli utenti possono utilizzare questo dataset per eseguire test di integrazione, controlli di qualità e dimostrazioni. Metadati dettagliati accompagnano ogni record per facilitare la comprensione della struttura e della semantica dei dati.",
     "en": "This is a comprehensive dataset created for testing purposes. It contains every attribute needed to assess data processing workflows and validate system behavior. All fields are populated with representative values that mirror realistic scenarios. Users can leverage this dataset for integration tests, quality assurance checks, and demonstrations. Detailed metadata accompanies each record to help understand the data structure and semantics."
   },
-  "dcat:theme": [
-    "agriculture",
-    "geography"
-  ],
-  "dcat:keyword": [
-    "test",
-    "time-series",
-    "agricultural-policy",
-    "AGIS",
-    "FMIS",
-    "DCAT"
-  ],
-  "adms:status": "published",
   "dct:accessRights": "NON_PUBLIC",
-  "dcatap:availability": "STABLE",
-  "bv:classification": "internal",
-  "bv:personalData": "none",
-  "bv:typeOfData": "masterData",
-  "bv:archivalValue": true,
-  "bv:retentionPeriod": 30,
-  "bv:externalCatalogs": [
-    {
-      "dcat:catalog": "I14Y"
-    },
-    {
-      "dcat:catalog": "opendata.swiss"
-    }
-  ],
   "dct:publisher": "BLW-OFAG-UFAG-FOAG",
   "dcat:contactPoint": {
     "schema:name": "GR-KDT",
     "schema:email": "kompetenzzentrumdigitaletransformation@blw.admin.ch"
   },
+  "dct:issued": "2025-05-12",
+  "dcatap:availability": "STABLE",
+  "dcat:keyword": {
+    "test": {
+      "de": "keyword 1",
+      "fr": "keyword 1",
+      "en": "test"
+    },
+    "time_series": {
+      "de": "keyword 2",
+      "en": "time-series"
+    },
+    "agricultural_policy": {
+      "fr": "keyword3",
+      "en": "agricultural-policy"
+    },
+    "agis": {
+      "en": "AGIS"
+    },
+    "fmis": {
+      "en": "FMIS"
+    },
+    "dcat": {
+      "en": "DCAT"
+    }
+  },
+  "dct:accrualPeriodicity": "IRREG",
+  "dct:modified": "2025-05-12",
+  "dcat:version": "2.1.1",
   "prov:qualifiedAttribution": [
     {
       "prov:agent": "p-1ZPP7KQSW",
@@ -57,7 +59,7 @@
       "prov:agent": "p-1ZFWFFNP6",
       "schema:name": "Damian Oswald",
       "schema:email": "damian.oswald@blw.admin.ch",
-      "dcat:hadRole": "dataSteward"
+      "dcat:hadRole": "businessDataOwner"
     },
     {
       "prov:agent": "p-1YVS771WP",
@@ -72,16 +74,34 @@
       "dcat:hadRole": "dataCustodian"
     }
   ],
-  "dct:issued": "2025-05-12",
-  "dct:modified": "2025-05-12",
-  "dct:accrualPeriodicity": "IRREG",
+  "adms:status": "published",
+  "bv:classification": "internal",
+  "bv:personalData": "none",
+  "bv:typeOfData": "masterData",
+  "bv:archivalValue": true,
+  "dcat:theme": [
+    "agriculture",
+    "geography"
+  ],
+  "dcat:landingPage": "https://www.blw.admin.ch/de",
+  "dct:spatial": "https://geo.ld.admin.ch/boundaries/country/CH",
   "dct:temporal": {
     "dcat:start_date": "2023-01-01",
     "dcat:end_date": "2025-05-16"
   },
-  "bv:abrogation": "2025-05-16",
-  "dct:spatial": "https://geo.ld.admin.ch/boundaries/country/CH",
-  "dcat:landingPage": "https://www.blw.admin.ch/de",
+  "dcatap:applicableLegislation": [
+    "https://www.fedlex.admin.ch/eli/oc/2022/491/de#art_5",
+    "https://www.fedlex.admin.ch/eli/oc/2022/491/de#art_12"
+  ],
+  "prov:wasGeneratedBy": [
+    "Named business process",
+    "https://intranet.blw.admin.ch/intrablw/de/home/dbdd/digitale_transformation.html"
+  ],
+  "bv:retentionPeriod": 30,
+  "prov:wasDerivedFrom": [
+    "Named upstream dataset",
+    "039e1df3-fd67-45f4-9692-1c9b0e97c8f3"
+  ],
   "bv:geoIdentifier": "110.4",
   "foaf:page": [
     {
@@ -93,6 +113,9 @@
       "uri": "https://opendata.swiss/de/dataset/landwirtschaftliche-nutzflache-1990-2015"
     }
   ],
+  "schema:comment": "This comment pertains to the second distribution and offers a detailed overview of its scope and intended use. It explains how this version builds upon the initial release by incorporating additional data fields and enhanced metadata descriptions to support more complex testing scenarios. Users will find notes on data provenance, schema changes, and validation rules to ensure comprehensive quality checks. The text also highlights potential use cases—such as performance benchmarking, integration with external systems, and user acceptance testing—to demonstrate the application’s ability to handle longer, more descriptive annotations. Finally, it provides guidance on interpreting each section of the dataset and suggestions for expanding or customizing the data for specific testing requirements.",
+  "bv:abrogation": "2025-05-16",
+  "bv:itSystem": "https://agriculture.ld.admin.ch/system-map/SGdyOoksCnRRZwi2Q",
   "dcat:inSeries": [
     "51c42dfb-76b1-40dd-928a-7d82020cc588"
   ],
@@ -100,21 +123,6 @@
     "b1cfe652-688a-4898-9b29-ac0ff6bb13a7",
     "1260f14f-559f-4db2-97f7-66212441786"
   ],
-  "dcatap:applicableLegislation": [
-    "https://www.fedlex.admin.ch/eli/oc/2022/491/de#art_5",
-    "https://www.fedlex.admin.ch/eli/oc/2022/491/de#art_12"
-  ],
-  "prov:wasGeneratedBy": [
-    "Named business process",
-    "https://intranet.blw.admin.ch/intrablw/de/home/dbdd/digitale_transformation.html"
-  ],
-  "prov:wasDerivedFrom": [
-    "Named upstream dataset",
-    "039e1df3-fd67-45f4-9692-1c9b0e97c8f3"
-  ],
-  "bv:itSystem": "https://agriculture.ld.admin.ch/system-map/SGdyOoksCnRRZwi2Q",
-  "dcat:version": "2.1.1",
-  "schema:comment": "This comment pertains to the second distribution and offers a detailed overview of its scope and intended use. It explains how this version builds upon the initial release by incorporating additional data fields and enhanced metadata descriptions to support more complex testing scenarios. Users will find notes on data provenance, schema changes, and validation rules to ensure comprehensive quality checks. The text also highlights potential use cases—such as performance benchmarking, integration with external systems, and user acceptance testing—to demonstrate the application’s ability to handle longer, more descriptive annotations. Finally, it provides guidance on interpreting each section of the dataset and suggestions for expanding or customizing the data for specific testing requirements.",
   "dcat:distribution": [
     {
       "dct:identifier": "257b58ee-9637-46e2-b70c-19a74c144c5c",
@@ -138,8 +146,7 @@
       "dcat:downloadURL": "https://raw.githubusercontent.com/blw-ofag-ufag/blw-ogd-data/refs/heads/main/data/plant_varieties_in_switzerland.json",
       "dct:conformsTo": "eCH-0262",
       "dct:license": "terms_by",
-      "schema:comment": "Comment to Distribution 1",
-      "dcat:accessService": ""
+      "schema:comment": "Comment to Distribution 1"
     },
     {
       "dct:identifier": "3979c7bd-0862-499b-81e4-ffaddb9ae091",
