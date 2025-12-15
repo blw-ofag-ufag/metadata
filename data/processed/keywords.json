@@ -35,7 +35,6 @@
         "dairy-product",
         "data",
         "data-standard",
-        "DCAT",
         "deliveries",
         "deprecated",
         "direct-payments",
@@ -53,7 +52,6 @@
         "fertiliser",
         "fertilizer",
         "finances",
-        "FMIS",
         "food",
         "FSDI",
         "gradient",
@@ -115,8 +113,6 @@
         "sustainability",
         "swiss agriculture",
         "systems",
-        "test",
-        "time-series",
         "transitional contribution",
         "TVD",
         "UID",
@@ -127,6 +123,7 @@
         "wastewater",
         "Zonen",
         "zoning",
-        "zweites schlüsselwort"
+        "zweites schlüsselwort",
+        "{'test': {'de': 'keyword 1', 'fr': 'keyword 1', 'en': 'test'}, 'time_series': {'de': 'keyword 2', 'en': 'time-series'}, 'agricultural_policy': {'fr': 'keyword3', 'en': 'agricultural-policy'}, 'agis': {'en': 'AGIS'}, 'fmis': {'en': 'FMIS'}, 'dcat': {'en': 'DCAT'}}"
     ]
 }

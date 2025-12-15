@@ -455,6 +455,166 @@
     },
     {
         "rdf:type": "dcat:Dataset",
+        "dct:identifier": "c41ed3f8-507f-43b1-bf9e-9b3d21495a0c",
+        "schema:image": "https://fal.media/files/koala/gs2FKBa1oOpMotKhD2FGZ_9119f08e0c2f4496aee9281fea080337.jpg",
+        "dct:title": {
+            "de": "__Vollständiges Datenprodukt mit allen Attributen für Testzwecke",
+            "fr": "Produit de données complet avec tous les attributs à des fins de test",
+            "it": "Prodotto dati completo con tutti gli attributi per scopi di test",
+            "en": "Complete data product with all attributes for testing purposes"
+        },
+        "dct:description": {
+            "de": "Dies ist ein vollständiges Dataset, das für Testzwecke entwickelt wurde. Es enthält alle erforderlichen Attribute, um Datenverarbeitungsabläufe zu überprüfen und das Systemverhalten zu validieren. Alle Felder sind mit repräsentativen Werten gefüllt, die realistische Szenarien widerspiegeln. Anwender können dieses Dataset für Integrationstests, Qualitätssicherungsprüfungen und Demonstrationen nutzen. Jede Datensatzbeschreibung wird von detaillierten Metadaten begleitet, um die Struktur und Semantik der Daten zu erläutern.",
+            "fr": "Il s'agit d'un jeu de données complet conçu à des fins de test. Il comprend l'ensemble des attributs nécessaires pour évaluer les processus de traitement des données et valider le comportement du système. Tous les champs sont renseignés avec des valeurs représentatives reflétant des scénarios réalistes. Les utilisateurs peuvent exploiter ce jeu de données pour effectuer des tests d'intégration, des contrôles qualité et des démonstrations. Des métadonnées détaillées accompagnent chaque enregistrement afin de faciliter la compréhension de la structure et de la sémantique des données.",
+            "it": "Questo è un dataset completo creato per scopi di test. Include tutti gli attributi necessari per valutare i flussi di elaborazione dei dati e convalidare il funzionamento del sistema. Ogni campo è popolato con valori rappresentativi che riflettono scenari realistici. Gli utenti possono utilizzare questo dataset per eseguire test di integrazione, controlli di qualità e dimostrazioni. Metadati dettagliati accompagnano ogni record per facilitare la comprensione della struttura e della semantica dei dati.",
+            "en": "This is a comprehensive dataset created for testing purposes. It contains every attribute needed to assess data processing workflows and validate system behavior. All fields are populated with representative values that mirror realistic scenarios. Users can leverage this dataset for integration tests, quality assurance checks, and demonstrations. Detailed metadata accompanies each record to help understand the data structure and semantics."
+        },
+        "dct:accessRights": "NON_PUBLIC",
+        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+        "dcat:contactPoint": {
+            "schema:name": "GR-KDT",
+            "schema:email": "kompetenzzentrumdigitaletransformation@blw.admin.ch"
+        },
+        "dct:issued": "2025-05-12",
+        "dcatap:availability": "STABLE",
+        "dcat:keyword": {
+            "test": {
+                "de": "keyword 1",
+                "fr": "keyword 1",
+                "en": "test"
+            },
+            "time_series": {
+                "de": "keyword 2",
+                "en": "time-series"
+            },
+            "agricultural_policy": {
+                "fr": "keyword3",
+                "en": "agricultural-policy"
+            },
+            "agis": {
+                "en": "AGIS"
+            },
+            "fmis": {
+                "en": "FMIS"
+            },
+            "dcat": {
+                "en": "DCAT"
+            }
+        },
+        "dct:accrualPeriodicity": "IRREG",
+        "dct:modified": "2025-05-12",
+        "dcat:version": "2.1.1",
+        "adms:status": "published",
+        "bv:classification": "internal",
+        "bv:personalData": "none",
+        "bv:typeOfData": "masterData",
+        "bv:archivalValue": true,
+        "dcat:theme": [
+            "agriculture",
+            "geography"
+        ],
+        "dcat:landingPage": "https://www.blw.admin.ch/de",
+        "dct:spatial": "https://geo.ld.admin.ch/boundaries/country/CH",
+        "dct:temporal": {
+            "dcat:start_date": "2023-01-01",
+            "dcat:end_date": "2025-05-16"
+        },
+        "dcatap:applicableLegislation": [
+            "https://www.fedlex.admin.ch/eli/oc/2022/491/de#art_5",
+            "https://www.fedlex.admin.ch/eli/oc/2022/491/de#art_12"
+        ],
+        "prov:wasGeneratedBy": [
+            "Named business process",
+            "https://intranet.blw.admin.ch/intrablw/de/home/dbdd/digitale_transformation.html"
+        ],
+        "bv:retentionPeriod": 30,
+        "prov:wasDerivedFrom": [
+            "Named upstream dataset",
+            "039e1df3-fd67-45f4-9692-1c9b0e97c8f3"
+        ],
+        "bv:geoIdentifier": "110.4",
+        "foaf:page": [
+            {
+                "alias": "Related page 1",
+                "uri": "https://www.blw.admin.ch/de/freihandelsabkommen"
+            },
+            {
+                "alias": "Related page 2",
+                "uri": "https://opendata.swiss/de/dataset/landwirtschaftliche-nutzflache-1990-2015"
+            }
+        ],
+        "schema:comment": "This comment pertains to the second distribution and offers a detailed overview of its scope and intended use. It explains how this version builds upon the initial release by incorporating additional data fields and enhanced metadata descriptions to support more complex testing scenarios. Users will find notes on data provenance, schema changes, and validation rules to ensure comprehensive quality checks. The text also highlights potential use cases—such as performance benchmarking, integration with external systems, and user acceptance testing—to demonstrate the application’s ability to handle longer, more descriptive annotations. Finally, it provides guidance on interpreting each section of the dataset and suggestions for expanding or customizing the data for specific testing requirements.",
+        "bv:abrogation": "2025-05-16",
+        "bv:itSystem": "https://agriculture.ld.admin.ch/system-map/SGdyOoksCnRRZwi2Q",
+        "dcat:inSeries": [
+            "51c42dfb-76b1-40dd-928a-7d82020cc588"
+        ],
+        "dct:replaces": [
+            "b1cfe652-688a-4898-9b29-ac0ff6bb13a7",
+            "1260f14f-559f-4db2-97f7-66212441786"
+        ],
+        "dcat:distribution": [
+            {
+                "dct:identifier": "257b58ee-9637-46e2-b70c-19a74c144c5c",
+                "dct:title": {
+                    "de": "Erste Verteilung des Datenprodukts für eine erste Test- und Evaluierungsrunde",
+                    "fr": "Première distribution du produit de données pour un premier cycle de test et d’évaluation",
+                    "it": "Prima distribuzione del prodotto dati per un primo ciclo di test e valutazione",
+                    "en": "Initial distribution of the data product for the first round of testing and evaluation"
+                },
+                "dct:description": {
+                    "de": "Dies ist die erste Verteilung des Datenprodukts, die speziell für eine initiale Test- und Evaluierungsphase erstellt wurde. Sie enthält alle wesentlichen Attribute und repräsentativen Werte, um die grundlegende Funktionalität zu überprüfen. Nutzer erhalten mit dieser Version einen vollständigen Datensatz, der sich ideal für einen ersten Abgleich mit den Systemanforderungen eignet. Die vorliegenden Daten unterstützen sowohl Integrationstests als auch erste Qualitätskontrollen. Ausführliche Metadaten erläutern dabei die Struktur, Herkunft und Bedeutung aller Felder.",
+                    "fr": "Il s’agit de la première distribution du produit de données, conçue pour une phase initiale de tests et d’évaluation. Cette version comprend tous les attributs essentiels et des valeurs représentatives pour vérifier les fonctionnalités de base. Elle est idéale pour une première confrontation aux exigences du système et pour valider l’intégration des flux de données. Les utilisateurs peuvent y effectuer des tests d’intégration et des contrôles qualité préliminaires. Des métadonnées détaillées accompagnent chaque champ afin de clarifier la structure, l’origine et la signification des données.",
+                    "it": "Questa è la prima distribuzione del prodotto dati, realizzata per una fase iniziale di test e valutazione. Include tutti gli attributi indispensabili e valori rappresentativi per verificarne le funzionalità fondamentali. Gli utenti possono utilizzare questa versione per un primo confronto con i requisiti di sistema e per convalidare i flussi di integrazione. È perfetta per eseguire test di integrazione preliminari e controlli di qualità iniziali. Metadati dettagliati forniscono spiegazioni sulla struttura, l’origine e il significato di ciascun campo.",
+                    "en": "This is the initial distribution of the data product, created for the first phase of testing and evaluation. It includes all key attributes and representative values to verify basic functionality. Users can leverage this version for a preliminary alignment with system requirements and to validate data integration flows. It is well suited for initial integration tests and basic quality assurance checks. Detailed metadata accompany each field, explaining the structure, origin, and meaning of the data."
+                },
+                "dcat:accessURL": "https://github.com/blw-ofag-ufag/blw-ogd-data",
+                "adms:status": "published",
+                "dcatap:availability": "EXPERIMENTAL",
+                "dct:format": "JSON",
+                "dct:modified": "2025-05-12",
+                "dcat:downloadURL": "https://raw.githubusercontent.com/blw-ofag-ufag/blw-ogd-data/refs/heads/main/data/plant_varieties_in_switzerland.json",
+                "dct:conformsTo": "eCH-0262",
+                "dct:license": "terms_by",
+                "schema:comment": "Comment to Distribution 1"
+            },
+            {
+                "dct:identifier": "3979c7bd-0862-499b-81e4-ffaddb9ae091",
+                "dct:title": {
+                    "de": "Zweite Distribution",
+                    "fr": "Deuxième distribution",
+                    "it": "Seconda distribution",
+                    "en": "Second distribution"
+                },
+                "dct:description": {
+                    "de": "Beschreibung der zweite Distribution",
+                    "fr": "Description de la deuxième distribution",
+                    "it": "Descrizione della seconda distribution",
+                    "en": "Description of second distribution"
+                },
+                "dcat:accessURL": "https://opendata.swiss/de",
+                "adms:status": "workInProgress",
+                "dcatap:availability": "EXPERIMENTAL",
+                "dct:format": "CSV",
+                "dct:modified": "2025-05-12",
+                "dcat:downloadURL": "https://opendata.fr.ch/api/explore/v2.1/catalog/datasets/07_02_exploitations_agricoles_par_systeme_d_exploitation/exports/json",
+                "dct:conformsTo": "None",
+                "dct:license": "terms_by_ask",
+                "schema:comment": "This comment pertains to the second distribution and offers a detailed overview of its scope and intended use. It explains how this version builds upon the initial release by incorporating additional data fields and enhanced metadata descriptions to support more complex testing scenarios. Users will find notes on data provenance, schema changes, and validation rules to ensure comprehensive quality checks. The text also highlights potential use cases—such as performance benchmarking, integration with external systems, and user acceptance testing—to demonstrate the application’s ability to handle longer, more descriptive annotations. Finally, it provides guidance on interpreting each section of the dataset and suggestions for expanding or customizing the data for specific testing requirements.",
+                "dcat:accessService": [
+                    "f6133063-8de9-482d-8af7-9a0033b706ea"
+                ]
+            }
+        ],
+        "businessDataOwner": "p-1ZFWFFNP6",
+        "schemaViolations": 1,
+        "schemaViolationMessages": [
+            "{'test': {'de': 'keyword 1', 'fr': 'keyword 1', 'en': 'test'}, 'time_series': {'de': 'keyword 2', 'en': 'time-series'}, 'agricultural_policy': {'fr': 'keyword3', 'en': 'agricultural-policy'}, 'agis': {'en': 'AGIS'}, 'fmis': {'en': 'FMIS'}, 'dcat': {'en': 'DCAT'}} is not of type 'array', 'null'"
+        ],
+        "quality": 5895.0
+    },
+    {
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "2ca2b3af-d3da-44d7-b32b-cb1dc9b02932",
         "schema:image": "https://fal.media/files/tiger/wRa9DHE4Hwzxa7c_1lqYQ_b2bc0df71b6a4d26935a1294876e8a3e.jpg",
         "dct:title": {
@@ -1655,160 +1815,6 @@
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']"
         ],
         "quality": 4127.5
-    },
-    {
-        "rdf:type": "dcat:Dataset",
-        "dct:identifier": "c41ed3f8-507f-43b1-bf9e-9b3d21495a0c",
-        "schema:image": "https://fal.media/files/koala/gs2FKBa1oOpMotKhD2FGZ_9119f08e0c2f4496aee9281fea080337.jpg",
-        "dct:title": {
-            "de": "Vollständiges Datenprodukt mit allen Attributen für Testzwecke",
-            "fr": "Produit de données complet avec tous les attributs à des fins de test",
-            "it": "Prodotto dati completo con tutti gli attributi per scopi di test",
-            "en": "Complete data product with all attributes for testing purposes"
-        },
-        "dct:description": {
-            "de": "Dies ist ein vollständiges Dataset, das für Testzwecke entwickelt wurde. Es enthält alle erforderlichen Attribute, um Datenverarbeitungsabläufe zu überprüfen und das Systemverhalten zu validieren. Alle Felder sind mit repräsentativen Werten gefüllt, die realistische Szenarien widerspiegeln. Anwender können dieses Dataset für Integrationstests, Qualitätssicherungsprüfungen und Demonstrationen nutzen. Jede Datensatzbeschreibung wird von detaillierten Metadaten begleitet, um die Struktur und Semantik der Daten zu erläutern.",
-            "fr": "Il s'agit d'un jeu de données complet conçu à des fins de test. Il comprend l'ensemble des attributs nécessaires pour évaluer les processus de traitement des données et valider le comportement du système. Tous les champs sont renseignés avec des valeurs représentatives reflétant des scénarios réalistes. Les utilisateurs peuvent exploiter ce jeu de données pour effectuer des tests d'intégration, des contrôles qualité et des démonstrations. Des métadonnées détaillées accompagnent chaque enregistrement afin de faciliter la compréhension de la structure et de la sémantique des données.",
-            "it": "Questo è un dataset completo creato per scopi di test. Include tutti gli attributi necessari per valutare i flussi di elaborazione dei dati e convalidare il funzionamento del sistema. Ogni campo è popolato con valori rappresentativi che riflettono scenari realistici. Gli utenti possono utilizzare questo dataset per eseguire test di integrazione, controlli di qualità e dimostrazioni. Metadati dettagliati accompagnano ogni record per facilitare la comprensione della struttura e della semantica dei dati.",
-            "en": "This is a comprehensive dataset created for testing purposes. It contains every attribute needed to assess data processing workflows and validate system behavior. All fields are populated with representative values that mirror realistic scenarios. Users can leverage this dataset for integration tests, quality assurance checks, and demonstrations. Detailed metadata accompanies each record to help understand the data structure and semantics."
-        },
-        "dcat:theme": [
-            "agriculture",
-            "geography"
-        ],
-        "dcat:keyword": [
-            "test",
-            "time-series",
-            "agricultural-policy",
-            "AGIS",
-            "FMIS",
-            "DCAT"
-        ],
-        "adms:status": "published",
-        "dct:accessRights": "NON_PUBLIC",
-        "dcatap:availability": "STABLE",
-        "bv:classification": "internal",
-        "bv:personalData": "none",
-        "bv:typeOfData": "masterData",
-        "bv:archivalValue": true,
-        "bv:retentionPeriod": 30,
-        "bv:externalCatalogs": [
-            {
-                "dcat:catalog": "I14Y"
-            },
-            {
-                "dcat:catalog": "opendata.swiss"
-            }
-        ],
-        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
-        "dcat:contactPoint": {
-            "schema:name": "GR-KDT",
-            "schema:email": "kompetenzzentrumdigitaletransformation@blw.admin.ch"
-        },
-        "dct:issued": "2025-05-12",
-        "dct:modified": "2025-05-12",
-        "dct:accrualPeriodicity": "IRREG",
-        "dct:temporal": {
-            "dcat:start_date": "2023-01-01",
-            "dcat:end_date": "2025-05-16"
-        },
-        "bv:abrogation": "2025-05-16",
-        "dct:spatial": "https://geo.ld.admin.ch/boundaries/country/CH",
-        "dcat:landingPage": "https://www.blw.admin.ch/de",
-        "bv:geoIdentifier": "110.4",
-        "foaf:page": [
-            {
-                "alias": "Related page 1",
-                "uri": "https://www.blw.admin.ch/de/freihandelsabkommen"
-            },
-            {
-                "alias": "Related page 2",
-                "uri": "https://opendata.swiss/de/dataset/landwirtschaftliche-nutzflache-1990-2015"
-            }
-        ],
-        "dcat:inSeries": [
-            "51c42dfb-76b1-40dd-928a-7d82020cc588"
-        ],
-        "dct:replaces": [
-            "b1cfe652-688a-4898-9b29-ac0ff6bb13a7",
-            "1260f14f-559f-4db2-97f7-66212441786"
-        ],
-        "dcatap:applicableLegislation": [
-            "https://www.fedlex.admin.ch/eli/oc/2022/491/de#art_5",
-            "https://www.fedlex.admin.ch/eli/oc/2022/491/de#art_12"
-        ],
-        "prov:wasGeneratedBy": [
-            "Named business process",
-            "https://intranet.blw.admin.ch/intrablw/de/home/dbdd/digitale_transformation.html"
-        ],
-        "prov:wasDerivedFrom": [
-            "Named upstream dataset",
-            "039e1df3-fd67-45f4-9692-1c9b0e97c8f3"
-        ],
-        "bv:itSystem": "https://agriculture.ld.admin.ch/system-map/SGdyOoksCnRRZwi2Q",
-        "dcat:version": "2.1.1",
-        "schema:comment": "This comment pertains to the second distribution and offers a detailed overview of its scope and intended use. It explains how this version builds upon the initial release by incorporating additional data fields and enhanced metadata descriptions to support more complex testing scenarios. Users will find notes on data provenance, schema changes, and validation rules to ensure comprehensive quality checks. The text also highlights potential use cases—such as performance benchmarking, integration with external systems, and user acceptance testing—to demonstrate the application’s ability to handle longer, more descriptive annotations. Finally, it provides guidance on interpreting each section of the dataset and suggestions for expanding or customizing the data for specific testing requirements.",
-        "dcat:distribution": [
-            {
-                "dct:identifier": "257b58ee-9637-46e2-b70c-19a74c144c5c",
-                "dct:title": {
-                    "de": "Erste Verteilung des Datenprodukts für eine erste Test- und Evaluierungsrunde",
-                    "fr": "Première distribution du produit de données pour un premier cycle de test et d’évaluation",
-                    "it": "Prima distribuzione del prodotto dati per un primo ciclo di test e valutazione",
-                    "en": "Initial distribution of the data product for the first round of testing and evaluation"
-                },
-                "dct:description": {
-                    "de": "Dies ist die erste Verteilung des Datenprodukts, die speziell für eine initiale Test- und Evaluierungsphase erstellt wurde. Sie enthält alle wesentlichen Attribute und repräsentativen Werte, um die grundlegende Funktionalität zu überprüfen. Nutzer erhalten mit dieser Version einen vollständigen Datensatz, der sich ideal für einen ersten Abgleich mit den Systemanforderungen eignet. Die vorliegenden Daten unterstützen sowohl Integrationstests als auch erste Qualitätskontrollen. Ausführliche Metadaten erläutern dabei die Struktur, Herkunft und Bedeutung aller Felder.",
-                    "fr": "Il s’agit de la première distribution du produit de données, conçue pour une phase initiale de tests et d’évaluation. Cette version comprend tous les attributs essentiels et des valeurs représentatives pour vérifier les fonctionnalités de base. Elle est idéale pour une première confrontation aux exigences du système et pour valider l’intégration des flux de données. Les utilisateurs peuvent y effectuer des tests d’intégration et des contrôles qualité préliminaires. Des métadonnées détaillées accompagnent chaque champ afin de clarifier la structure, l’origine et la signification des données.",
-                    "it": "Questa è la prima distribuzione del prodotto dati, realizzata per una fase iniziale di test e valutazione. Include tutti gli attributi indispensabili e valori rappresentativi per verificarne le funzionalità fondamentali. Gli utenti possono utilizzare questa versione per un primo confronto con i requisiti di sistema e per convalidare i flussi di integrazione. È perfetta per eseguire test di integrazione preliminari e controlli di qualità iniziali. Metadati dettagliati forniscono spiegazioni sulla struttura, l’origine e il significato di ciascun campo.",
-                    "en": "This is the initial distribution of the data product, created for the first phase of testing and evaluation. It includes all key attributes and representative values to verify basic functionality. Users can leverage this version for a preliminary alignment with system requirements and to validate data integration flows. It is well suited for initial integration tests and basic quality assurance checks. Detailed metadata accompany each field, explaining the structure, origin, and meaning of the data."
-                },
-                "dcat:accessURL": "https://github.com/blw-ofag-ufag/blw-ogd-data",
-                "adms:status": "published",
-                "dcatap:availability": "EXPERIMENTAL",
-                "dct:format": "JSON",
-                "dct:modified": "2025-05-12",
-                "dcat:downloadURL": "https://raw.githubusercontent.com/blw-ofag-ufag/blw-ogd-data/refs/heads/main/data/plant_varieties_in_switzerland.json",
-                "dct:conformsTo": "eCH-0262",
-                "dct:license": "terms_by",
-                "schema:comment": "Comment to Distribution 1",
-                "dcat:accessService": ""
-            },
-            {
-                "dct:identifier": "3979c7bd-0862-499b-81e4-ffaddb9ae091",
-                "dct:title": {
-                    "de": "Zweite Distribution",
-                    "fr": "Deuxième distribution",
-                    "it": "Seconda distribution",
-                    "en": "Second distribution"
-                },
-                "dct:description": {
-                    "de": "Beschreibung der zweite Distribution",
-                    "fr": "Description de la deuxième distribution",
-                    "it": "Descrizione della seconda distribution",
-                    "en": "Description of second distribution"
-                },
-                "dcat:accessURL": "https://opendata.swiss/de",
-                "adms:status": "workInProgress",
-                "dcatap:availability": "EXPERIMENTAL",
-                "dct:format": "CSV",
-                "dct:modified": "2025-05-12",
-                "dcat:downloadURL": "https://opendata.fr.ch/api/explore/v2.1/catalog/datasets/07_02_exploitations_agricoles_par_systeme_d_exploitation/exports/json",
-                "dct:conformsTo": "None",
-                "dct:license": "terms_by_ask",
-                "schema:comment": "This comment pertains to the second distribution and offers a detailed overview of its scope and intended use. It explains how this version builds upon the initial release by incorporating additional data fields and enhanced metadata descriptions to support more complex testing scenarios. Users will find notes on data provenance, schema changes, and validation rules to ensure comprehensive quality checks. The text also highlights potential use cases—such as performance benchmarking, integration with external systems, and user acceptance testing—to demonstrate the application’s ability to handle longer, more descriptive annotations. Finally, it provides guidance on interpreting each section of the dataset and suggestions for expanding or customizing the data for specific testing requirements.",
-                "dcat:accessService": [
-                    "f6133063-8de9-482d-8af7-9a0033b706ea"
-                ]
-            }
-        ],
-        "businessDataOwner": null,
-        "schemaViolations": 2,
-        "schemaViolationMessages": [
-            "None of [{'prov:agent': 'p-1ZPP7KQSW', 'schema:name': 'Ambrogio Foletti', 'schema:email': 'ambrogio.foletti@blw.admin.ch', 'dcat:hadRole': 'dataSteward'}, {'prov:agent': 'p-1ZFWFFNP6', 'schema:name': 'Damian Oswald', 'schema:email': 'damian.oswald@blw.admin.ch', 'dcat:hadRole': 'dataSteward'}, {'prov:agent': 'p-1YVS771WP', 'schema:name': 'Christian Wilda', 'schema:email': 'christian.wilda@blw.admin.ch', 'dcat:hadRole': 'dataCustodian'}, {'prov:agent': 'p-1ZLWBXSJD', 'schema:name': 'Pascal Hurni', 'schema:email': 'pascal.hurni@blw.admin.ch', 'dcat:hadRole': 'dataCustodian'}] are valid under the given schema",
-            "'' is not of type 'array', 'null'"
-        ],
-        "quality": 3883.3333333333335
     },
     {
         "rdf:type": "dcat:Dataset",
