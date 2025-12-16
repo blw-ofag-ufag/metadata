@@ -1,6 +1,6 @@
 from typing import Optional, List, Dict, Any
-from pydantic import BaseModel, Field, HttpUrl, field_validator, model_validator, ConfigDict
-from sqlalchemy import String, Float, Integer, ForeignKey, JSON, Boolean, Text
+from pydantic import BaseModel, Field, field_validator, model_validator, ConfigDict
+from sqlalchemy import String, Float, Integer, ForeignKey, JSON, Text
 from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column, relationship
 
 
@@ -48,7 +48,8 @@ class DistributionInput(BaseModel):
 
 class DatasetInput(BaseModel):
     """
-    The Master Parser. Maps JSON-LD fields (dct:...) to Pythonic names.
+    The Master Parser.
+    Maps JSON-LD fields (dct:...) to Pythonic names.
     """
     model_config = ConfigDict(populate_by_name=True)
 
@@ -95,12 +96,27 @@ class DatasetInput(BaseModel):
     def coerce_to_list(cls, v):
         """
         Fixes cases where a single string is provided instead of a list.
+        Also handles dictionary structures (schema change) by flattening values.
         Example: "agriculture" -> ["agriculture"]
+        Example: {"k1": {"de": "A"}, "k2": {"en": "B"}} -> ["A", "B"]
         """
         if v is None:
             return []
         if isinstance(v, str):
             return [v]
+        if isinstance(v, dict):
+            # [cite_start]Flatten dictionary values into a list of strings [cite: 1]
+            flat_list = []
+            for item in v.values():
+                if isinstance(item, dict):
+                    # Extract multilingual values
+                    flat_list.extend(item.values())
+                elif isinstance(item, str):
+                    flat_list.append(item)
+                elif isinstance(item, list):
+                    flat_list.extend(item)
+            # Remove None/Empty and duplicates
+            return list(set(filter(None, flat_list)))
         return v
 
 # ==========================================
