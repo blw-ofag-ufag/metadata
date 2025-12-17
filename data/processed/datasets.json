@@ -18133,6 +18133,34 @@
     },
     {
         "rdf:type": "dcat:Dataset",
+        "dct:identifier": "01aec909-44d6-46e3-9c11-853efda6f4d3",
+        "dct:title": {
+            "de": "discardMe_2",
+            "fr": "discardMe_2"
+        },
+        "dct:description": {
+            "de": "discardMe_2",
+            "fr": "discardMe_2"
+        },
+        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+        "dcat:keyword": {
+            "e": {
+                "de": "Exklulsiv_Deutsch"
+            }
+        },
+        "adms:status": "workInProgress",
+        "bv:classification": "none",
+        "bv:personalData": "none",
+        "businessDataOwner": "p-5699404",
+        "schemaViolations": 2,
+        "schemaViolationMessages": [
+            "'dct:issued' is a required property",
+            "{'e': {'de': 'Exklulsiv_Deutsch'}} is not of type 'array', 'null'"
+        ],
+        "quality": 209.0
+    },
+    {
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "7ffa214f-05a9-4a37-86c3-16b1b9d67746",
         "dct:title": {
             "de": "test Titel Deutsch",

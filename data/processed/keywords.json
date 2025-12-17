@@ -125,6 +125,7 @@
         "zoning",
         "zweites schlüsselwort",
         "{'discard_me': {'de': 'DISCARD ME', 'fr': 'DISCARD ME'}, 't': {'de': 'TEST', 'fr': 'TEST'}}",
+        "{'e': {'de': 'Exklulsiv_Deutsch'}}",
         "{'test': {'de': 'keyword 1', 'fr': 'keyword 1', 'en': 'test'}, 'time_series': {'de': 'keyword 2', 'en': 'time-series'}, 'agricultural_policy': {'fr': 'keyword3', 'en': 'agricultural-policy'}, 'agis': {'en': 'AGIS'}, 'fmis': {'en': 'FMIS'}, 'dcat': {'en': 'DCAT'}}"
     ]
 }
