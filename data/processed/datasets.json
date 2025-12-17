@@ -18048,6 +18048,7 @@
             "de": "DISCARD ME",
             "fr": "DISCARD ME"
         },
+        "dct:accessRights": "PUBLIC",
         "dct:publisher": "BLW-OFAG-UFAG-FOAG",
         "dcat:keyword": {
             "discard_me": {
@@ -18063,13 +18064,43 @@
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "businessDataOwner": "pipi",
-        "schemaViolations": 2,
+        "bv:externalCatalogs": [
+            "I14Y",
+            "opendata.swiss"
+        ],
+        "dcat:theme": [
+            "administration",
+            "agriculture",
+            "construction"
+        ],
+        "dcat:distribution": [
+            {
+                "dct:identifier": "identify",
+                "dcat:accessURL": "https://www.example.com",
+                "adms:status": "workInProgress",
+                "dcatap:availability": "AVAILABLE",
+                "dct:format": "csv",
+                "dcat:downloadURL": "https://www.example.com",
+                "dct:title": {
+                    "de": "DISTRO_1",
+                    "fr": "distro_1_franz"
+                },
+                "dct:description": {
+                    "de": "Beschreibung DISTRO1",
+                    "fr": "beschriebung_Distro1 franz"
+                }
+            }
+        ],
+        "businessDataOwner": "p-26",
+        "schemaViolations": 5,
         "schemaViolationMessages": [
             "'dct:issued' is a required property",
-            "{'discard_me': {'de': 'DISCARD ME', 'fr': 'DISCARD ME'}, 't': {'de': 'TEST', 'fr': 'TEST'}} is not of type 'array', 'null'"
+            "{'discard_me': {'de': 'DISCARD ME', 'fr': 'DISCARD ME'}, 't': {'de': 'TEST', 'fr': 'TEST'}} is not of type 'array', 'null'",
+            "'I14Y' is not of type 'object'",
+            "'opendata.swiss' is not of type 'object'",
+            "'DISTRO_1' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'"
         ],
-        "quality": 216.66666666666666
+        "quality": 233.33333333333334
     },
     {
         "rdf:type": "dcat:Dataset",
