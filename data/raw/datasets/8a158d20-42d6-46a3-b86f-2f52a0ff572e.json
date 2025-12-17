@@ -1,0 +1,82 @@
+{
+  "dct:identifier": "8a158d20-42d6-46a3-b86f-2f52a0ff572e",
+  "dct:title": {
+    "de": "TEST DATA: Flächen Extensive Bewirtschaftung um den Genfersee 2017-2024",
+    "fr": "TEST DATA: Extensive Bewirtschaftung um den Genfersee",
+    "it": "TEST DATA: Extensive Bewirtschaftung um den Genfersee",
+    "en": "TEST DATA: Extensive Bewirtschaftung um den Genfersee"
+  },
+  "dct:description": {
+    "de": "Die Internationale Kommission zum Schutz der Gewässer des Genfersees (CIPEL) ist eine französisch-schweizerische Organisation. Die CIPEL veröffentlicht jährlich eine Statistik zu Flächen mit extensiver landwirtschaftlicher Bewirtschaftung um den Genfersee. Die Daten welcher dieser Statistik zu Grunde liegen, sind in diesem Datenprodukt enthalten.",
+    "fr": "La Commission internationale pour la protection des eaux du Léman (CIPEL) est une organisation franco-suisse. La CIPEL publie chaque année des statistiques sur les surfaces agricoles extensives autour du lac Léman. Les données sur lesquelles se basent ces statistiques sont contenues dans ce produit de données.",
+    "it": "La Commissione internazionale per la protezione delle acque del Lago Lemano (CIPEL) è un'organizzazione franco-svizzera. La CIPEL pubblica ogni anno delle statistiche relative alle superfici coltivate in modo estensivo intorno al Lago Lemano. I dati su cui si basano queste statistiche sono contenuti in questo prodotto.",
+    "en": "The International Commission for the Protection of the Waters of Lake Geneva (CIPEL) is a Franco-Swiss organisation. CIPEL publishes annual statistics on areas of extensive agricultural use around Lake Geneva. The data underlying these statistics are contained in this data product."
+  },
+  "dct:accessRights": "PUBLIC",
+  "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+  "dcat:contactPoint": {
+    "schema:name": "Marc Beringer",
+    "schema:email": "marc.beringer@blw.admin.ch"
+  },
+  "dcat:keyword": {
+    "l": {
+      "de": "Umwelt"
+    },
+    "u": {
+      "fr": "Environnement"
+    },
+    "a": {
+      "it": "Ambiente"
+    }
+  },
+  "dct:accrualPeriodicity": "ANNUAL",
+  "dcat:version": "0.1.0",
+  "prov:qualifiedAttribution": [
+    {
+      "prov:agent": "p-2049HHGTR",
+      "schema:name": "Marc Beringer",
+      "schema:email": "marc.beringer@blw.admin.ch",
+      "dcat:hadRole": "dataSteward"
+    }
+  ],
+  "adms:status": "workInProgress",
+  "bv:classification": "none",
+  "bv:personalData": "none",
+  "bv:typeOfData": "primaryThematicData",
+  "bv:archivalValue": false,
+  "bv:externalCatalogs": [
+    "I14Y",
+    "opendata.swiss"
+  ],
+  "dcat:theme": [
+    "administration",
+    "agriculture"
+  ],
+  "dcat:landingPage": "https://www.blw.ch",
+  "dct:spatial": "Gemeinden um den Genfersee (i.e. \"CIPEL Gemeinden\" aus der Schweiz und Frankreich)",
+  "prov:wasGeneratedBy": "Datenlieferungen aus AGIS",
+  "schema:comment": "Keine Zusätzlichen Bemerkungen, da es sich um einen Test des Metadaten-Formulars handelt.",
+  "bv:itSystem": "AGIS",
+  "dcat:distribution": [
+    {
+      "dct:identifier": "LustigerTestIdentifikator1337",
+      "dcat:accessURL": "https://www.testURL.ch",
+      "adms:status": "workInProgress",
+      "dcatap:availability": "TEMPORARY",
+      "dct:format": ".xlsx",
+      "dct:title": {
+        "de": "TEST_Flächen_Extensive_Bewirtschaftung_Genfersee_2017-2024",
+        "fr": "TEST_Flächen_Extensive_Bewirtschaftung_Genfersee_2017-2024",
+        "it": "TEST_Flächen_Extensive_Bewirtschaftung_Genfersee_2017-2024",
+        "en": "TEST_Flächen_Extensive_Bewirtschaftung_Genfersee_2017-2024"
+      },
+      "dct:description": {
+        "de": "Dies ist eine Excel (.xlsx) Tabelle mit den Flächen landwirtschaftlicher Kulturen, welche in den Jahren 2017-2022 für das Direktzahlungsprogramm \"Extenso\" und ab 2023 für das Direktzahlungsprogramm \"Verzicht auf PSM im Ackerbau\", in den CIPEL-Gemeinden um den Genfersee angebaut wurden.",
+        "fr": "Il s'agit d'un tableau Excel (.xlsx) répertoriant les surfaces cultivées entre 2017 et 2022 dans le cadre du programme de paiements directs « Extenso » et, à partir de 2023, dans le cadre du programme de paiements directs « Renonciation aux PPP dans l'agriculture » dans les communes du CIPEL autour du lac Léman.",
+        "it": "Si tratta di un foglio di calcolo Excel (.xlsx) con le superfici coltivate a fini agricoli negli anni 2017-2022 per il programma di pagamenti diretti «Extenso» e, a partire dal 2023, per il programma di pagamenti diretti «Rinuncia ai prodotti fitosanitari nell'agricoltura» nei Comuni CIPEL intorno al Lago Lemano.",
+        "en": "This is an Excel (.xlsx) table showing the areas of agricultural crops cultivated in the CIPEL municipalities around Lake Geneva in the years 2017-2022 for the ‘Extenso’ direct payment programme and from 2023 onwards for the ‘Renunciation of PPPs in arable farming’ direct payment programme."
+      },
+      "dct:license": "terms_open"
+    }
+  ]
+}
