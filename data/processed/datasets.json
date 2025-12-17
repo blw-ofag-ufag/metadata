@@ -18039,6 +18039,40 @@
     },
     {
         "rdf:type": "dcat:Dataset",
+        "dct:identifier": "c48260f3-0041-4a24-926d-a379bc5a2d1c",
+        "dct:title": {
+            "de": "DISCARD ME",
+            "fr": "DISCARD ME"
+        },
+        "dct:description": {
+            "de": "DISCARD ME",
+            "fr": "DISCARD ME"
+        },
+        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+        "dcat:keyword": {
+            "discard_me": {
+                "de": "DISCARD ME",
+                "fr": "DISCARD ME"
+            },
+            "t": {
+                "de": "TEST",
+                "fr": "TEST"
+            }
+        },
+        "adms:status": "workInProgress",
+        "bv:classification": "none",
+        "bv:personalData": "none",
+        "bv:archivalValue": false,
+        "businessDataOwner": "pipi",
+        "schemaViolations": 2,
+        "schemaViolationMessages": [
+            "'dct:issued' is a required property",
+            "{'discard_me': {'de': 'DISCARD ME', 'fr': 'DISCARD ME'}, 't': {'de': 'TEST', 'fr': 'TEST'}} is not of type 'array', 'null'"
+        ],
+        "quality": 216.66666666666666
+    },
+    {
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "069f8e82-6c03-418f-9eec-b1dec6ea9c74",
         "dct:title": {
             "de": "Datenreihe Kulturlandschaftsbeiträge ab 2014, Offenthaltungsbeitrag, Hangbeitrag, Steillagenbeitrag und Alpungsbeitrag",
