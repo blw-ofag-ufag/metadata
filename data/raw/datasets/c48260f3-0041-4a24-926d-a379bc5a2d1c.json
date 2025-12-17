@@ -8,6 +8,7 @@
     "de": "DISCARD ME",
     "fr": "DISCARD ME"
   },
+  "dct:accessRights": "PUBLIC",
   "dct:publisher": "BLW-OFAG-UFAG-FOAG",
   "dcat:keyword": {
     "discard_me": {
@@ -22,11 +23,42 @@
   "prov:qualifiedAttribution": [
     {
       "prov:agent": "pipi",
+      "dcat:hadRole": "dataSteward"
+    },
+    {
+      "prov:agent": "p-26",
       "dcat:hadRole": "businessDataOwner"
     }
   ],
   "adms:status": "workInProgress",
   "bv:classification": "none",
   "bv:personalData": "none",
-  "bv:archivalValue": false
+  "bv:archivalValue": false,
+  "bv:externalCatalogs": [
+    "I14Y",
+    "opendata.swiss"
+  ],
+  "dcat:theme": [
+    "administration",
+    "agriculture",
+    "construction"
+  ],
+  "dcat:distribution": [
+    {
+      "dct:identifier": "identify",
+      "dcat:accessURL": "https://www.example.com",
+      "adms:status": "workInProgress",
+      "dcatap:availability": "AVAILABLE",
+      "dct:format": "csv",
+      "dcat:downloadURL": "https://www.example.com",
+      "dct:title": {
+        "de": "DISTRO_1",
+        "fr": "distro_1_franz"
+      },
+      "dct:description": {
+        "de": "Beschreibung DISTRO1",
+        "fr": "beschriebung_Distro1 franz"
+      }
+    }
+  ]
 }
