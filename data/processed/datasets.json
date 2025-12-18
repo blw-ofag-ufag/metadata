@@ -458,7 +458,7 @@
         "dct:identifier": "c41ed3f8-507f-43b1-bf9e-9b3d21495a0c",
         "schema:image": "https://fal.media/files/koala/gs2FKBa1oOpMotKhD2FGZ_9119f08e0c2f4496aee9281fea080337.jpg",
         "dct:title": {
-            "de": "NOCHMALS: Vollständiges Datenprodukt mit allen Attributen für Testzwecke",
+            "de": "Vollständiges Datenprodukt mit allen Attributen für Testzwecke",
             "fr": "Produit de données complet avec tous les attributs à des fins de test",
             "it": "Prodotto dati completo con tutti gli attributi per scopi di test",
             "en": "Complete data product with all attributes for testing purposes"
@@ -611,7 +611,7 @@
         "schemaViolationMessages": [
             "{'test': {'de': 'keyword 1', 'fr': 'keyword 1', 'en': 'test'}, 'time_series': {'de': 'keyword 2', 'en': 'time-series'}, 'agricultural_policy': {'fr': 'keyword3', 'en': 'agricultural-policy'}, 'agis': {'en': 'AGIS'}, 'fmis': {'en': 'FMIS'}, 'dcat': {'en': 'DCAT'}} is not of type 'array', 'null'"
         ],
-        "quality": 5917.5
+        "quality": 5912.5
     },
     {
         "rdf:type": "dcat:Dataset",
