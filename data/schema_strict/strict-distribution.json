@@ -1,0 +1,179 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "Distribution Schema",
+    "type": "object",
+    "required": [
+        "adms:status",
+        "dcat:accessURL",
+        "dct:description",
+        "dct:format",
+        "dct:license",
+        "dct:title"
+    ],
+    "recommended": [
+        "dct:modified",
+        "dct:rights"
+    ],
+    "properties": {
+        "dct:identifier": {
+            "title": "Distribution identifier",
+            "type": "string",
+            "description": "Identifier for this distribution. If left empty, it will be automatically assigned.\n\n**Portal Requirement:** Class 'dcat:Distribution' - Property 'dct:identifier': An identifier of the distribution must be provide as a sh:Literal.\n        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-distribution-identifier\n\t    "
+        },
+        "dcat:accessURL": {
+            "title": "Access URL",
+            "type": "string",
+            "format": "uri",
+            "description": "URL to a page for accessing this distribution. This must not be a direct download URL but, for example, a link to a webpage containing download links.\n\n**Portal Requirement:** Class 'dcat:Distribution' - Property 'dcat:accessURL': Please provide an access url for the distribution.\n        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-accessurl-dcat\n        "
+        },
+        "bv:internalPath": {
+            "title": "Internal File Path",
+            "type": "string",
+            "pattern": "^([a-zA-Z]:\\\\|\\\\\\\\).*",
+            "description": "Internal network path (e.g. M:\\path\\to\\file). Mutually exclusive with Access URL. This distribution cannot be published externally."
+        },
+        "adms:status": {
+            "title": "Status",
+            "type": "string",
+            "description": "Current status of the distribution.",
+            "enum": [
+                "",
+                "workInProgress",
+                "validated",
+                "published",
+                "deleted",
+                "archived"
+            ]
+        },
+        "dcatap:availability": {
+            "title": "Distribution availability",
+            "description": "This property indicates how long it is planned to keep the Distribution available. You can find the available values here: <a href='http://publications.europa.eu/resource/authority/planned-availability'>Planned availability</a>.",
+            "type": "string",
+            "enum": [
+                "",
+                "AVAILABLE",
+                "EXPERIMENTAL",
+                "STABLE",
+                "TEMPORARY"
+            ]
+        },
+        "dct:format": {
+            "title": "File format",
+            "type": "string",
+            "description": "File format for this distribution (e.g., CSV, JSON).\n\n**Portal Requirement:** Class 'dcat:Distribution' - Property 'dct:format': The distribution format must be chosen from the controlled vocabulary available at:\n        http://publications.europa.eu/resource/authority/file-type.\n        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dct-format-dcat\n        "
+        },
+        "dct:modified": {
+            "title": "Last modification date",
+            "type": [
+                "string",
+                "null"
+            ],
+            "format": "date",
+            "description": "Last modification date of the data in this distribution.\n\n**Portal Requirement:** Class 'dcat:Distribution' - Property 'dct:modified': The modification date must be provided in ISO-8601 format as xsd:date, xsd:dateTime, xsd:gYear, or xsd:gYearMonth.\n        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-distribution-modified\n        "
+        },
+        "dcat:downloadURL": {
+            "title": "Download URL",
+            "type": [
+                "string",
+                "null"
+            ],
+            "format": "uri",
+            "description": "Direct download URL of the distribution file. This link must directly point to the file."
+        },
+        "dct:title": {
+            "title": "Distribution title",
+            "type": "object",
+            "required": [
+                "de",
+                "fr"
+            ],
+            "description": "Title for the distribution, in multiple languages.\n\n**Portal Requirement:** Class 'dcat:Distribution' - Property 'dct:title': The title of the distribution must be provided as language-tagged strings in at least one of the following languages: de, en, fr, it.\n        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-distribution-title\n\t",
+            "properties": {
+                "de": {
+                    "type": "string",
+                    "pattern": "[a-zA-Z0-9_\\-\\s]{10,75}",
+                    "title": "Deutsch"
+                },
+                "fr": {
+                    "type": "string",
+                    "pattern": "[a-zA-Z0-9_\\-\\s]{10,75}",
+                    "title": "Fran\u00e7ais"
+                },
+                "it": {
+                    "type": "string",
+                    "pattern": "[a-zA-Z0-9_\\-\\s]{10,75}",
+                    "title": "Italiano"
+                },
+                "en": {
+                    "type": "string",
+                    "pattern": "[a-zA-Z0-9_\\-\\s]{10,75}",
+                    "title": "English"
+                }
+            }
+        },
+        "dct:description": {
+            "title": "Distribution description",
+            "type": "object",
+            "required": [
+                "de",
+                "fr"
+            ],
+            "description": "Description for the distribution, in multiple languages.\n\n**Portal Requirement:** Class 'dcat:Distribution' - Property 'dct:description': The description of the distribution must be provided as language-tagged strings in at least one of the following languages: de, en, fr, it.\n        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-distribution-description\n\t",
+            "properties": {
+                "de": {
+                    "type": "string",
+                    "title": "Deutsch"
+                },
+                "fr": {
+                    "type": "string",
+                    "title": "Fran\u00e7ais"
+                },
+                "it": {
+                    "type": "string",
+                    "title": "Italiano"
+                },
+                "en": {
+                    "type": "string",
+                    "title": "English"
+                }
+            }
+        },
+        "dct:conformsTo": {
+            "title": "Conforms to",
+            "type": "string",
+            "description": "Reference to a standard or specification the distribution conforms to.\n\n**Portal Requirement:** Class 'dcat:Distribution' - Property 'dct:conformsTo': The dct:conformsTo property must to be provided as an IRI.\n        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dct-conformsto-dcat\n\t"
+        },
+        "dct:license": {
+            "title": "License",
+            "type": "string",
+            "description": "License under which this distribution is released. This is mandatory for opendata.swiss publications.\n\n**Portal Requirement:** Class 'dcat:Distribution' - Property 'dct:license': The license must be chosen from the controlled vocabulary available at:\n\thttp://dcat-ap.ch/vocabulary/licenses.      \n        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dct-license-dcat\n        ",
+            "enum": [
+                "",
+                "terms_open",
+                "terms_by",
+                "terms_ask",
+                "terms_by_ask",
+                "cc-zero",
+                "cc-by/4.0",
+                "cc-by-sa/4.0"
+            ]
+        },
+        "schema:comment": {
+            "title": "Comments",
+            "type": "string",
+            "description": "Additional comments about the distribution."
+        },
+        "dcat:accessService": {
+            "title": "Access service",
+            "type": [
+                "array",
+                "null"
+            ],
+            "items": {
+                "type": "string"
+            },
+            "description": "Reference to data services used to provide access to the data.\n\n**Portal Requirement:** Class 'dcat:Distribution' - Property 'dcat:accessService': The dcat:accessService property must to be provided as an IRI.\n        See https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-accessservice-dcat\n\t"
+        }
+    },
+    "additionalProperties": false
+}

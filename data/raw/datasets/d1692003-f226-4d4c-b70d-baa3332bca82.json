@@ -1,86 +1,86 @@
 {
-  "dct:identifier": "d1692003-f226-4d4c-b70d-baa3332bca82",
-  "dct:title": {
-    "de": "Juristische und natürliche Personen aus der Schweizerischen Landwirtschaft",
-    "fr": "Personnes morales et physiques issues du secteur agricole suisse",
-    "it": "Persone giuridiche e fisiche del settore agricolo svizzero",
-    "en": "Legal and natural persons in the Swiss agricultural sector"
-  },
-  "dct:description": {
-    "de": "Dieses Datenpaket enthält von Tierhaltern und Bewirtschaftern Angaben zur Person, wie: Name, Vorname, kantonale Personennummer, Postadresse, Telefon und Email, Rechtsform und zur Person zugehöriger Betrieb. Im BLW sind auf Anfrage über die Anwendung MAF aus dem System AGIS Betriebsdaten (Person und Betrieb), Strukturdaten und Anmeldedaten zu landwirtschaftlichen Betrieben verfügbar. Zur Weitergabe der Daten müssen die Bewirtschaftenden ihre Einwilligung in der Anwendung MAF erteilen. Diese dataset entschpricht den Datenpaket R01 \"Person\" aus dem MAF PDF-Katalog.",
-    "fr": "Ce paquet de données contient des informations personnelles sur les éleveurs et les exploitants, telles que : nom, prénom, numéro cantonal personnel, adresse postale, téléphone et e-mail, forme juridique et exploitation à laquelle la personne est rattachée. Sur demande, l'OFAG met à disposition des données d'exploitation (personne et exploitation), des données structurelles et des données d'enregistrement des exploitations agricoles via l'application MAF du système AGIS. Pour que les données puissent être transmises, les exploitants doivent donner leur consentement dans l'application MAF. Cet ensemble de données correspond au paquet de données R01 « Personne » du catalogue PDF MAF.",
-    "it": "Questo pacchetto di dati contiene informazioni personali di proprietari di animali e gestori, quali: cognome, nome, numero di persona cantonale, indirizzo postale, telefono ed e-mail, forma giuridica e azienda associata alla persona. Su richiesta, tramite l'applicazione MAF del sistema AGIS, l'UFAG mette a disposizione dati aziendali (persona e azienda), dati strutturali e dati di registrazione delle aziende agricole. Per la trasmissione dei dati, gli agricoltori devono dare il loro consenso nell'applicazione MAF. Questo dataset corrisponde al pacchetto di dati R01 “Persona” dal catalogo MAF PDF.",
-    "en": "This data package contains personal information from livestock owners and managers, such as: surname, first name, cantonal personal number, postal address, telephone and email, legal form and the person's associated company. The FOAG has access to operating data (person and company), structural data and registration data on agricultural companies via the MAF application from the AGIS system. Farm managers must give their consent in the MAF application for the data to be passed on. This dataset corresponds to the data package R01 \"Person\" from the MAF PDF catalogue."
-  },
-  "dct:accessRights": "RESTRICTED",
-  "dct:issued": "2020-01-01",
-  "dct:publisher": "BLW-OFAG-UFAG-FOAG",
-  "dcat:contactPoint": {
-    "schema:name": "AV MAF, GRKDT",
-    "schema:email": "maf@blw.admin.ch"
-  },
-  "bv:archivalValue": false,
-  "dcat:keyword": [
-    "AGIS",
-    "meine-agrardaten-freigabe",
-    "MAF",
-    "operational-data",
-    "register-data",
-    "operator",
-    "UID",
-    "animal-owner",
-    "legal-form"
-  ],
-  "dct:accrualPeriodicity": "WEEKLY",
-  "dct:modified": "2025-03-25",
-  "prov:qualifiedAttribution": [
-    {
-      "prov:agent": "p-1YVS771WP",
-      "dcat:hadRole": "businessDataOwner"
-    },
-    {
-      "prov:agent": "p-6693814",
-      "dcat:hadRole": "dataSteward"
-    }
-  ],
-  "dcat:landingPage": "https://www.blw.admin.ch/de/meine-agrardatenfreigabe",
-  "foaf:page": [
-    {
-      "alias": "PDF: MAF-Verfügbare Datenpakete",
-      "uri": "https://backend.blw.admin.ch/fileservice/sdweb-docs-prod-blwch-files/files/2024/08/28/3106f5f5-1bcb-4b25-a78a-75c712f2491f.pdf"
-    }
-  ],
-  "adms:status": "published",
-  "bv:classification": "none",
-  "bv:personalData": "personalData",
-  "bv:typeOfData": "thematicData",
-  "dcat:theme": [
-    "agriculture"
-  ],
-  "dcatap:applicableLegislation": [
-    "https://www.fedlex.admin.ch/eli/cc/2013/733/de#a27"
-  ],
-  "bv:itSystem": "https://agriculture.ld.admin.ch/system-map/SYS008",
-  "dcat:distribution": [
-    {
-      "dct:identifier": "08916f4e-f185-4389-83b8-86827d936ba2",
-      "dct:title": {
+    "dct:identifier": "d1692003-f226-4d4c-b70d-baa3332bca82",
+    "dct:title": {
         "de": "Juristische und natürliche Personen aus der Schweizerischen Landwirtschaft",
         "fr": "Personnes morales et physiques issues du secteur agricole suisse",
         "it": "Persone giuridiche e fisiche del settore agricolo svizzero",
         "en": "Legal and natural persons in the Swiss agricultural sector"
-      },
-      "dct:description": {
+    },
+    "dct:description": {
         "de": "Dieses Datenpaket enthält von Tierhaltern und Bewirtschaftern Angaben zur Person, wie: Name, Vorname, kantonale Personennummer, Postadresse, Telefon und Email, Rechtsform und zur Person zugehöriger Betrieb. Im BLW sind auf Anfrage über die Anwendung MAF aus dem System AGIS Betriebsdaten (Person und Betrieb), Strukturdaten und Anmeldedaten zu landwirtschaftlichen Betrieben verfügbar. Zur Weitergabe der Daten müssen die Bewirtschaftenden ihre Einwilligung in der Anwendung MAF erteilen. Diese dataset entschpricht den Datenpaket R01 \"Person\" aus dem MAF PDF-Katalog.",
         "fr": "Ce paquet de données contient des informations personnelles sur les éleveurs et les exploitants, telles que : nom, prénom, numéro cantonal personnel, adresse postale, téléphone et e-mail, forme juridique et exploitation à laquelle la personne est rattachée. Sur demande, l'OFAG met à disposition des données d'exploitation (personne et exploitation), des données structurelles et des données d'enregistrement des exploitations agricoles via l'application MAF du système AGIS. Pour que les données puissent être transmises, les exploitants doivent donner leur consentement dans l'application MAF. Cet ensemble de données correspond au paquet de données R01 « Personne » du catalogue PDF MAF.",
         "it": "Questo pacchetto di dati contiene informazioni personali di proprietari di animali e gestori, quali: cognome, nome, numero di persona cantonale, indirizzo postale, telefono ed e-mail, forma giuridica e azienda associata alla persona. Su richiesta, tramite l'applicazione MAF del sistema AGIS, l'UFAG mette a disposizione dati aziendali (persona e azienda), dati strutturali e dati di registrazione delle aziende agricole. Per la trasmissione dei dati, gli agricoltori devono dare il loro consenso nell'applicazione MAF. Questo dataset corrisponde al pacchetto di dati R01 “Persona” dal catalogo MAF PDF.",
         "en": "This data package contains personal information from livestock owners and managers, such as: surname, first name, cantonal personal number, postal address, telephone and email, legal form and the person's associated company. The FOAG has access to operating data (person and company), structural data and registration data on agricultural companies via the MAF application from the AGIS system. Farm managers must give their consent in the MAF application for the data to be passed on. This dataset corresponds to the data package R01 \"Person\" from the MAF PDF catalogue."
-      },
-      "adms:status": "published",
-      "dct:modified": "2025-03-25",
-      "dcat:accessURL": "https://www.blw.admin.ch/de/meine-agrardatenfreigabe",
-      "dct:format": "CSV"
-    }
-  ],
-  "bv:externalCatalogs": null
+    },
+    "dct:accessRights": "RESTRICTED",
+    "dct:issued": "2020-01-01",
+    "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+    "dcat:contactPoint": {
+        "schema:name": "AV MAF, GRKDT",
+        "schema:email": "maf@blw.admin.ch"
+    },
+    "bv:archivalValue": false,
+    "dcat:keyword": [
+        "AGIS",
+        "meine-agrardaten-freigabe",
+        "MAF",
+        "operational-data",
+        "register-data",
+        "operator",
+        "UID",
+        "animal-owner",
+        "legal-form"
+    ],
+    "dct:accrualPeriodicity": "WEEKLY",
+    "dct:modified": "2025-03-25",
+    "prov:qualifiedAttribution": [
+        {
+            "prov:agent": "p-1YVS771WP",
+            "dcat:hadRole": "dataOwner"
+        },
+        {
+            "prov:agent": "p-6693814",
+            "dcat:hadRole": "dataSteward"
+        }
+    ],
+    "dcat:landingPage": "https://www.blw.admin.ch/de/meine-agrardatenfreigabe",
+    "foaf:page": [
+        {
+            "alias": "PDF: MAF-Verfügbare Datenpakete",
+            "uri": "https://backend.blw.admin.ch/fileservice/sdweb-docs-prod-blwch-files/files/2024/08/28/3106f5f5-1bcb-4b25-a78a-75c712f2491f.pdf"
+        }
+    ],
+    "adms:status": "published",
+    "bv:classification": "none",
+    "bv:personalData": "personalData",
+    "bv:typeOfData": "thematicData",
+    "dcat:theme": [
+        "agriculture"
+    ],
+    "dcatap:applicableLegislation": [
+        "https://www.fedlex.admin.ch/eli/cc/2013/733/de#a27"
+    ],
+    "bv:itSystem": "https://agriculture.ld.admin.ch/system-map/SYS008",
+    "dcat:distribution": [
+        {
+            "dct:identifier": "08916f4e-f185-4389-83b8-86827d936ba2",
+            "dct:title": {
+                "de": "Juristische und natürliche Personen aus der Schweizerischen Landwirtschaft",
+                "fr": "Personnes morales et physiques issues du secteur agricole suisse",
+                "it": "Persone giuridiche e fisiche del settore agricolo svizzero",
+                "en": "Legal and natural persons in the Swiss agricultural sector"
+            },
+            "dct:description": {
+                "de": "Dieses Datenpaket enthält von Tierhaltern und Bewirtschaftern Angaben zur Person, wie: Name, Vorname, kantonale Personennummer, Postadresse, Telefon und Email, Rechtsform und zur Person zugehöriger Betrieb. Im BLW sind auf Anfrage über die Anwendung MAF aus dem System AGIS Betriebsdaten (Person und Betrieb), Strukturdaten und Anmeldedaten zu landwirtschaftlichen Betrieben verfügbar. Zur Weitergabe der Daten müssen die Bewirtschaftenden ihre Einwilligung in der Anwendung MAF erteilen. Diese dataset entschpricht den Datenpaket R01 \"Person\" aus dem MAF PDF-Katalog.",
+                "fr": "Ce paquet de données contient des informations personnelles sur les éleveurs et les exploitants, telles que : nom, prénom, numéro cantonal personnel, adresse postale, téléphone et e-mail, forme juridique et exploitation à laquelle la personne est rattachée. Sur demande, l'OFAG met à disposition des données d'exploitation (personne et exploitation), des données structurelles et des données d'enregistrement des exploitations agricoles via l'application MAF du système AGIS. Pour que les données puissent être transmises, les exploitants doivent donner leur consentement dans l'application MAF. Cet ensemble de données correspond au paquet de données R01 « Personne » du catalogue PDF MAF.",
+                "it": "Questo pacchetto di dati contiene informazioni personali di proprietari di animali e gestori, quali: cognome, nome, numero di persona cantonale, indirizzo postale, telefono ed e-mail, forma giuridica e azienda associata alla persona. Su richiesta, tramite l'applicazione MAF del sistema AGIS, l'UFAG mette a disposizione dati aziendali (persona e azienda), dati strutturali e dati di registrazione delle aziende agricole. Per la trasmissione dei dati, gli agricoltori devono dare il loro consenso nell'applicazione MAF. Questo dataset corrisponde al pacchetto di dati R01 “Persona” dal catalogo MAF PDF.",
+                "en": "This data package contains personal information from livestock owners and managers, such as: surname, first name, cantonal personal number, postal address, telephone and email, legal form and the person's associated company. The FOAG has access to operating data (person and company), structural data and registration data on agricultural companies via the MAF application from the AGIS system. Farm managers must give their consent in the MAF application for the data to be passed on. This dataset corresponds to the data package R01 \"Person\" from the MAF PDF catalogue."
+            },
+            "adms:status": "published",
+            "dct:modified": "2025-03-25",
+            "dcat:accessURL": "https://www.blw.admin.ch/de/meine-agrardatenfreigabe",
+            "dct:format": "CSV"
+        }
+    ],
+    "bv:externalCatalogs": null
 }

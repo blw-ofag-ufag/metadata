@@ -41,7 +41,7 @@ def extract_person_roles(data):
         role = attrib.get("dcat:hadRole")
         person_name = attrib.get("schema:name")  # optional, may not exist
         
-        if agent_id and role in ("businessDataOwner", "dataSteward", "dataCustodian"):
+        if agent_id and role in ("dataOwner", "dataSteward", "dataCustodian"):
             # Build a record that indicates this person has that role
             # for the current dataset.
             record = {
@@ -68,7 +68,7 @@ def process_all_files():
     #   "p-12345": {
     #       "name": "Alice Example",
     #       "roles": {
-    #           "businessDataOwner": [
+    #           "dataOwner": [
     #               { "dct:identifier": "XYZ", "dct:title": {...} }
     #           ],
     #           "dataSteward": [...],
@@ -105,7 +105,7 @@ def process_all_files():
                     persons_dict[agent_id] = {
                         "name": rec["name"],
                         "roles": {
-                            "businessDataOwner": [],
+                            "dataOwner": [],
                             "dataSteward": [],
                             "dataCustodian": []
                         }

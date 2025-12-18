@@ -1,137 +1,137 @@
 {
-  "dct:identifier": "d7b805b5-9b14-42ba-bfba-7a41957ad656",
-  "schema:image": "https://fal.media/files/zebra/y_XJLvvdT7RGe2r7JD1eU_dec3c28e5ffd4d0593d39402df83cad8.jpg",
-  "dct:title": {
-    "de": "Kontrollen auf Ganzjahresbetrieben im Bereich Ökologischer Leistungsnachweis",
-    "fr": "Contrôles dans les exploitations à l'année dans le domaine PER",
-    "it": "Controlli in aziende gestite tutto l'anno nel settore PER",
-    "en": "Controls on year-round farms regarding proof of ecological performance"
-  },
-  "dct:description": {
-    "de": "Diese Tabelle zeigt die statistische Auswertung der Anzahl Kontrollen der Ganzjahresbetriebe sowie der Anzahl festgestellter Mängel im Bereich des ökologischen Leistungsnachweises (ÖLN). Die Angaben sind bis auf Stufe der Kantone aufgeschlüsselt.",
-    "fr": "Ce tableau présente l'analyse statistique du nombre de contrôles effectués dans les exploitations à l'année ainsi que le nombre de manquements constatés dans le domaine de la prestations écologiques requises (PER). Les données sont détaillées jusqu'au niveau cantonal.",
-    "it": "Questa tabella presenta l'analisi statistica del numero di controlli effettuati sulle azienda gestita tutto l'anno e il numero di lacune riscontrate nel settore della prova che le esigenze ecologiche sono rispettate (PER). I dati sono ripartiti fino al livello cantonale.",
-    "en": "This table shows the statistical analysis of the number of controls carried out on full-year farms and the number of non-compliances in the area of proof of ecological performance. The data is broken down to cantonal level."
-  },
-  "dcat:theme": [
-    "agriculture"
-  ],
-  "dcat:keyword": [
-    "controls",
-    "direct-payments",
-    "proof-of-ecological-performance"
-  ],
-  "adms:status": "published",
-  "dct:accessRights": "PUBLIC",
-  "dcatap:availability": "AVAILABLE",
-  "bv:classification": "none",
-  "bv:personalData": "none",
-  "bv:typeOfData": "secondaryThematicData",
-  "dct:publisher": "BLW-OFAG-UFAG-FOAG",
-  "dcat:contactPoint": {
-    "schema:name": "Fachbereich Direktzahlungsgrundlagen",
-    "schema:email": "acontrol@blw.admin.ch"
-  },
-  "prov:qualifiedAttribution": [
-    {
-      "prov:agent": "p-1142659",
-      "schema:name": "Claudia Blumenstein",
-      "schema:email": "claudia.blumenstein@blw.admin.ch",
-      "dcat:hadRole": "dataSteward"
+    "dct:identifier": "d7b805b5-9b14-42ba-bfba-7a41957ad656",
+    "schema:image": "https://fal.media/files/zebra/y_XJLvvdT7RGe2r7JD1eU_dec3c28e5ffd4d0593d39402df83cad8.jpg",
+    "dct:title": {
+        "de": "Kontrollen auf Ganzjahresbetrieben im Bereich Ökologischer Leistungsnachweis",
+        "fr": "Contrôles dans les exploitations à l'année dans le domaine PER",
+        "it": "Controlli in aziende gestite tutto l'anno nel settore PER",
+        "en": "Controls on year-round farms regarding proof of ecological performance"
     },
-    {
-      "prov:agent": "p-8397553",
-      "schema:name": "Simon Hasler",
-      "schema:email": "simon.hasler@blw.admin.ch",
-      "dcat:hadRole": "businessDataOwner"
-    }
-  ],
-  "dct:issued": "2018-11-14",
-  "dct:modified": "2024-11-14",
-  "dct:accrualPeriodicity": "ANNUAL",
-  "dct:temporal": {
-    "dcat:start_date": "2017-01-01",
-    "dcat:end_date": "2023-12-31"
-  },
-  "bv:abrogation": "",
-  "dct:spatial": "Switzerland",
-  "dcat:landingPage": "https://www.agrarbericht.ch/de/politik/direktzahlungen/vollzug",
-  "foaf:page": [
-    {
-      "alias": "Acontrol",
-      "uri": "https://www.blw.admin.ch/de/anwendung-acontrol"
-    }
-  ],
-  "dcatap:applicableLegislation": [
-    "https://www.fedlex.admin.ch/eli/cc/2013/733/de#sec_3"
-  ],
-  "prov:wasDerivedFrom": [
-    "AGIS"
-  ],
-  "bv:itSystem": "Acontrol",
-  "schema:comment": "The tables have been verified by the cantonal offices for agriculture.",
-  "dcat:distribution": [
-    {
-      "dct:identifier": "c6bbb2ff-5b27-4933-9bb3-91352d5a1b4c",
-      "dct:title": {
-        "de": "Kontrolljahr 2023",
-        "fr": "Année de contrôle 2023",
-        "it": "Anno di controllo 2023",
-        "en": "Control year 2023"
-      },
-      "dct:description": {
-        "de": "Deutsch",
-        "fr": "Allemand",
-        "it": "Tedesco",
-        "en": "German"
-      },
-      "dcat:accessURL": "https://www.agrarbericht.ch/de/politik/direktzahlungen/vollzug",
-      "adms:status": "published",
-      "dcatap:availability": "AVAILABLE",
-      "dct:format": "xlsx",
-      "dct:modified": "2024-11-14",
-      "dcat:downloadURL": "https://www.agrarbericht.ch/download/documents/ab/u98nu8us4h9uo0hsrlmjbayvqqi9cy/46_ab24_statacontrol2023_anhaenge_tab_kontrollen_auf_gjb_d.xlsx"
+    "dct:description": {
+        "de": "Diese Tabelle zeigt die statistische Auswertung der Anzahl Kontrollen der Ganzjahresbetriebe sowie der Anzahl festgestellter Mängel im Bereich des ökologischen Leistungsnachweises (ÖLN). Die Angaben sind bis auf Stufe der Kantone aufgeschlüsselt.",
+        "fr": "Ce tableau présente l'analyse statistique du nombre de contrôles effectués dans les exploitations à l'année ainsi que le nombre de manquements constatés dans le domaine de la prestations écologiques requises (PER). Les données sont détaillées jusqu'au niveau cantonal.",
+        "it": "Questa tabella presenta l'analisi statistica del numero di controlli effettuati sulle azienda gestita tutto l'anno e il numero di lacune riscontrate nel settore della prova che le esigenze ecologiche sono rispettate (PER). I dati sono ripartiti fino al livello cantonale.",
+        "en": "This table shows the statistical analysis of the number of controls carried out on full-year farms and the number of non-compliances in the area of proof of ecological performance. The data is broken down to cantonal level."
     },
-    {
-      "dct:identifier": "46c41dcc-3af9-4860-9b3b-baf6dbf625c4",
-      "dct:title": {
-        "de": "Kontrolljahr 2023",
-        "fr": "Année de contrôle 2023",
-        "it": "Anno di controllo 2023",
-        "en": "Control year 2023"
-      },
-      "dct:description": {
-        "de": "Französisch",
-        "fr": "Français",
-        "it": "Francese",
-        "en": "French"
-      },
-      "dcat:accessURL": "https://www.agrarbericht.ch/fr/politique/paiements-directs/execution",
-      "adms:status": "published",
-      "dct:format": "xlsx",
-      "dct:modified": "2024-11-14",
-      "dcat:downloadURL": "https://www.agrarbericht.ch/download/documents/5a/p56zkomfh2sojbmckcqh2meqt6wpin/46_ab24_statacontrol2023_anhaenge_tab_kontrollen_auf_gjb_f.xlsx"
+    "dcat:theme": [
+        "agriculture"
+    ],
+    "dcat:keyword": [
+        "controls",
+        "direct-payments",
+        "proof-of-ecological-performance"
+    ],
+    "adms:status": "published",
+    "dct:accessRights": "PUBLIC",
+    "dcatap:availability": "AVAILABLE",
+    "bv:classification": "none",
+    "bv:personalData": "none",
+    "bv:typeOfData": "secondaryThematicData",
+    "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+    "dcat:contactPoint": {
+        "schema:name": "Fachbereich Direktzahlungsgrundlagen",
+        "schema:email": "acontrol@blw.admin.ch"
     },
-    {
-      "dct:identifier": "f28b7600-df4f-486e-8923-531514f9c902",
-      "dct:title": {
-        "de": "Kontrolljahr 2023",
-        "fr": "Année de contrôle 2023",
-        "it": "Anno di controllo 2023",
-        "en": "Control year 2023"
-      },
-      "dct:description": {
-        "de": "Italienisch",
-        "fr": "Italien",
-        "it": "Italiano",
-        "en": "Italian"
-      },
-      "dcat:accessURL": "https://www.agrarbericht.ch/it/politica/pagamenti-diretti/esecuzione",
-      "adms:status": "published",
-      "dct:format": "xlsx",
-      "dct:modified": "2024-11-14",
-      "dcat:downloadURL": "https://www.agrarbericht.ch/download/documents/f4/x5xak92387a7ft5akfz4tkj1zsdm00/46_ab24_statacontrol2023_anhaenge_tab_kontrollen_auf_gjb_it.xlsx"
-    }
-  ],
-  "bv:archivalValue": false
+    "prov:qualifiedAttribution": [
+        {
+            "prov:agent": "p-1142659",
+            "schema:name": "Claudia Blumenstein",
+            "schema:email": "claudia.blumenstein@blw.admin.ch",
+            "dcat:hadRole": "dataSteward"
+        },
+        {
+            "prov:agent": "p-8397553",
+            "schema:name": "Simon Hasler",
+            "schema:email": "simon.hasler@blw.admin.ch",
+            "dcat:hadRole": "dataOwner"
+        }
+    ],
+    "dct:issued": "2018-11-14",
+    "dct:modified": "2024-11-14",
+    "dct:accrualPeriodicity": "ANNUAL",
+    "dct:temporal": {
+        "dcat:start_date": "2017-01-01",
+        "dcat:end_date": "2023-12-31"
+    },
+    "bv:abrogation": "",
+    "dct:spatial": "Switzerland",
+    "dcat:landingPage": "https://www.agrarbericht.ch/de/politik/direktzahlungen/vollzug",
+    "foaf:page": [
+        {
+            "alias": "Acontrol",
+            "uri": "https://www.blw.admin.ch/de/anwendung-acontrol"
+        }
+    ],
+    "dcatap:applicableLegislation": [
+        "https://www.fedlex.admin.ch/eli/cc/2013/733/de#sec_3"
+    ],
+    "prov:wasDerivedFrom": [
+        "AGIS"
+    ],
+    "bv:itSystem": "Acontrol",
+    "schema:comment": "The tables have been verified by the cantonal offices for agriculture.",
+    "dcat:distribution": [
+        {
+            "dct:identifier": "c6bbb2ff-5b27-4933-9bb3-91352d5a1b4c",
+            "dct:title": {
+                "de": "Kontrolljahr 2023",
+                "fr": "Année de contrôle 2023",
+                "it": "Anno di controllo 2023",
+                "en": "Control year 2023"
+            },
+            "dct:description": {
+                "de": "Deutsch",
+                "fr": "Allemand",
+                "it": "Tedesco",
+                "en": "German"
+            },
+            "dcat:accessURL": "https://www.agrarbericht.ch/de/politik/direktzahlungen/vollzug",
+            "adms:status": "published",
+            "dcatap:availability": "AVAILABLE",
+            "dct:format": "xlsx",
+            "dct:modified": "2024-11-14",
+            "dcat:downloadURL": "https://www.agrarbericht.ch/download/documents/ab/u98nu8us4h9uo0hsrlmjbayvqqi9cy/46_ab24_statacontrol2023_anhaenge_tab_kontrollen_auf_gjb_d.xlsx"
+        },
+        {
+            "dct:identifier": "46c41dcc-3af9-4860-9b3b-baf6dbf625c4",
+            "dct:title": {
+                "de": "Kontrolljahr 2023",
+                "fr": "Année de contrôle 2023",
+                "it": "Anno di controllo 2023",
+                "en": "Control year 2023"
+            },
+            "dct:description": {
+                "de": "Französisch",
+                "fr": "Français",
+                "it": "Francese",
+                "en": "French"
+            },
+            "dcat:accessURL": "https://www.agrarbericht.ch/fr/politique/paiements-directs/execution",
+            "adms:status": "published",
+            "dct:format": "xlsx",
+            "dct:modified": "2024-11-14",
+            "dcat:downloadURL": "https://www.agrarbericht.ch/download/documents/5a/p56zkomfh2sojbmckcqh2meqt6wpin/46_ab24_statacontrol2023_anhaenge_tab_kontrollen_auf_gjb_f.xlsx"
+        },
+        {
+            "dct:identifier": "f28b7600-df4f-486e-8923-531514f9c902",
+            "dct:title": {
+                "de": "Kontrolljahr 2023",
+                "fr": "Année de contrôle 2023",
+                "it": "Anno di controllo 2023",
+                "en": "Control year 2023"
+            },
+            "dct:description": {
+                "de": "Italienisch",
+                "fr": "Italien",
+                "it": "Italiano",
+                "en": "Italian"
+            },
+            "dcat:accessURL": "https://www.agrarbericht.ch/it/politica/pagamenti-diretti/esecuzione",
+            "adms:status": "published",
+            "dct:format": "xlsx",
+            "dct:modified": "2024-11-14",
+            "dcat:downloadURL": "https://www.agrarbericht.ch/download/documents/f4/x5xak92387a7ft5akfz4tkj1zsdm00/46_ab24_statacontrol2023_anhaenge_tab_kontrollen_auf_gjb_it.xlsx"
+        }
+    ],
+    "bv:archivalValue": false
 }

@@ -1,83 +1,6 @@
 [
     {
         "rdf:type": "dcat:Dataset",
-        "dct:identifier": "19111589-d41f-4f42-b397-b8318dfb13fd",
-        "schema:image": "https://fal.media/files/rabbit/b-j9zxhlLzInwz4JQyCFU_b4014cdc2ebc4f92b293153dc4917f95.jpg",
-        "dct:title": {
-            "de": "Pflanzensorten in der Schweiz",
-            "fr": "Variétés végétales en Suisse",
-            "it": "Varietà vegetali in Svizzera",
-            "en": "Plant varieties in Switzerland"
-        },
-        "dct:description": {
-            "de": "«Der Begriff „Art“ ist eine gebräuchlich Einheit der botanischen Klassifizierung innerhalb des Pflanzenreichs. Innerhalb einer Art gibt es jedoch natürlich zahlreiche unterschiedliche Pflanzensorten. Landwirte und Pflanzer brauchen Pflanzen mit besonderen Merkmalen, die an deren Umweltbedingungen und Anbauverfahren angepasst sind. Eine Pflanzensorte stellt eine genauer bestimmte Gruppe von Pflanzen mit gemeinsamen Merkmalen innerhalb einer Art dar.» Quelle: UPOV https://www.upov.int/overview/de/variety.html\r\n\r\nEine Pflanzensorte kann den Sortenschutz (PVR) und/oder im Sortenkatalog (NLI) eingetragen sein. Die Sortenbezeichnung ist identisch und auch die Sortenprüfung ist für beide (PVR und NLI) gleich.\r\n\r\nSortenschutz gehört wie Patente und Marken zur Familie des Geistigen Eigentums. Das Sortenschutzrecht regelt den gewerblichen Schutz neuer Pflanzenzüchtungen. Die Person, welche den Sortenschutztitel innehat, hat das Recht, ihre Sorte vor unerwünschter gewerbsmässiger Nutzung zu schützen. Dauer Sortenschutz 25 - 30 Jahre.\r\n\r\nIm Sortenkatalog werden landwirtschaftlich genutzte Pflanzenarten erfasst. Man spricht von einer Zulassung, die durch eine Verordnung (Sortenverordnung) über Kataloge und Listen geregelt wird. Agroscope sowie Branchenverbände erstellen empfohlene Sortenlisten.\r\n\r\nDie hier veröffentlichten Sorten im Sortenschutz sowie im nationalen Sortenkatalog sind derzeit unvollständig. Die Liste wird jedoch laufend aktualisiert mit neu validierten Daten.",
-            "fr": "«L’éspèce est l’une des unités les plus connues de la classification botanique dans le règne végétal. Toutefois, il est évident qu’au sein d’une même espèce peut exister un large éventail de plantes très différentes. Les agriculteurs et les producteurs ont besoin de végétaux présentant des caractères précis, qui soient adaptés à l'environnement dans lequel ils sont cultivés ainsi qu’aux méthodes de culture employées. Une variété végétale représente donc un groupe de plantes défini de façon plus précise, sélectionné à partir d'une espèce et doté d’un ensemble de caractères communs.» Source: UPOV https://www.upov.int/overview/fr/variety.html\r\n\r\nUne variété végétale peut bénéficier de la protection des obtentions végétales (PVR) et/ou être inscrite au catalogue des variétés (NLI). La dénomination de la variété est identique et l'examen de la variété est également identique pour les deux (PVR et NLI).\r\n\r\nLa protection des variétés végétales fait partie de la famille de la propriété intellectuelle, tout comme les brevets et les marques. Le droit de la protection des variétés végétales régit la protection commerciale des nouvelles obtentions végétales. La personne qui détient le titre de protection de la variété a le droit de la protéger contre une utilisation commerciale indésirable. Durée de la protection des variétés : 25 à 30 ans.\r\n\r\nLes espèces végétales utilisées en agriculture sont répertoriées dans le catalogue des variétés. On parle d'homologation. Celle-ci est régie par une ordonnance (ordonnance sur les variétés), via des catalogues et des listes. Agroscope ainsi que les associations professionnelles établissent des listes de variétés recommandées.\r\n\r\nLes variétés dans le registre et répertoriées dans le catalogue national publiées ici sont actuellement incomplètes. La liste est toutefois mise à jour en permanence avec les données nouvellement validées.",
-            "it": "«Il termine “specie” è una familiare unità di classificazione botanica all'interno del regno vegetale. Tuttavia, è chiaro che all'interno di una specie può esserci una vasta gamma di diversi tipi di piante. Gli agricoltori e i coltivatori hanno bisogno di piante con caratteristiche particolari e che siano adattate al loro ambiente e alle loro pratiche di coltivazione. Una varietà vegetale rappresenta un gruppo di piante definito in modo più preciso, selezionato all'interno di una specie, con un insieme comune di caratteristiche.» Fonte: UPOV https://www.upov.int/overview/en/variety.html\r\n\r\nUna varietà vegetale può essere protetta dal diritto di varietà vegetale (PVR) e/o registrata nel catalogo delle varietà (National Listing, NLI). La denominazione della varietà è la stessa sia per il PVR che per l'NLI, e anche l'esame della varietà è lo stesso per entrambi.\r\n\r\nLa protezione delle varietà vegetali appartiene alla stessa famiglia dei brevetti e dei marchi, il diritto di proprietà intellettuale. Il diritto di protezione delle varietà vegetali regola la protezione commerciale delle nuove varietà. La persona che detiene il titolo di protezione ha il diritto di proteggere la propria varietà da un uso commerciale indesiderato. Durata della protezione delle varietà vegetali: 25-30 anni.\r\n\r\nL'elenco nazionale (NLI) comprende le specie vegetali utilizzate in agricoltura. Esse necessitano di un'autorizzazione, che è regolata da un'ordinanza (Ordinanza sulle varietà) tramite cataloghi ed elenchi. Agroscope e le associazioni professionali stabiliscono elenchi raccomandati di varietà.\r\n\r\nLe varietà qui pubblicate sono attualmente incomplete. Tuttavia, l'elenco viene costantemente aggiornato con i dati appena convalidati.",
-            "en": "«The term \"species\" is a familiar unit of botanical classification within the plant kingdom. However, it is clear that within a species there can be a wide range of different types of plant. Farmers and growers need plants with particular characteristics and that are adapted to their environment and their cultivation practices. A plant variety represents a more precisely defined group of plants, selected from within a species, with a common set of characteristics.» Source: UPOV https://www.upov.int/overview/en/variety.html\r\n\r\nA plant variety can be protected by the plant variety right (PVR) and/or registered in the catalogue of varieties (National Listing, NLI). The variety denomination is the same for both PVR and NLI, and the variety examination is the same for both as well.\r\n\r\nPlant variety protection belongs to the same family than patents and trademarks, the intellectual property right. The plant variety protection right regulates the commercial protection of new varieties. The person who holds the protection title has the right to protect their variety from undesired commercial use. Duration of plant variety protection: 25–30 years.\r\n\r\nThe national listing (NLI) includes plant species used for agriculture. They need an authorization, which is regulated by an ordinance (Plant Variety Ordinance) via catalogues and lists. Agroscope and professional associations establish recommended lists of varieties.\r\n\r\nThe varieties published here in the plant variety protection and in the national catalogue of varieties are currently incomplete. However, the list is continuously updated with newly validated data."
-        },
-        "dcat:theme": [
-            "territory",
-            "agriculture"
-        ],
-        "dcat:keyword": [
-            "plant-variety",
-            "breeding",
-            "botany",
-            "UPOV"
-        ],
-        "adms:status": "published",
-        "dct:accessRights": "PUBLIC",
-        "bv:classification": "none",
-        "bv:personalData": "personalData",
-        "dcat:contactPoint": {
-            "schema:name": "Büro für Sortenschutz",
-            "schema:email": "sortenadmin@blw.admin.ch"
-        },
-        "dct:issued": "2025-02-20",
-        "dct:modified": "2025-04-14",
-        "dct:accrualPeriodicity": "MONTHLY",
-        "dct:temporal": {
-            "dcat:start_date": "1977-05-31",
-            "dcat:end_date": "2025-03-31"
-        },
-        "bv:abrogation": "",
-        "dcatap:applicableLegislation": [
-            "https://www.fedlex.admin.ch/eli/cc/2013/417/"
-        ],
-        "bv:itSystem": "https://agriculture.ld.admin.ch/system-map/SYS011",
-        "dcat:distribution": [
-            {
-                "dct:identifier": "2391e9ce-cb53-48be-b23f-40eb922c12e2",
-                "dct:title": {
-                    "de": "Pflanzensorten in der Schweiz",
-                    "fr": "Variétés végétales en Suisse",
-                    "it": "Varietà vegetali in Svizzera",
-                    "en": "Plant varieties in Switzerland"
-                },
-                "dct:description": {
-                    "de": "Diese JSON-Datei bietet detaillierte, strukturierte Daten zu Pflanzensorten, die sowohl die botanische Klassifikation als auch rechtliche Aspekte wie den Sortenschutz und nationale Listen umfassen. Sie enthält Datensätze für jede Sorte, Informationen zu Arten, Handels- und Markennamen, Statusverläufe sowie relevante Kontakte zu Züchtern und Eigentümern. Abgeleitet aus UPOV- und nationalen Agrarquellen unterstützt diese Verteilung sowohl die wissenschaftliche Klassifikation als auch den Schutz des geistigen Eigentums in der Pflanzenzüchtung.",
-                    "fr": "Ce fichier JSON fournit des données détaillées et structurées sur les variétés de plantes, englobant à la fois la classification botanique et les aspects juridiques tels que les droits des obtenteurs et les listes nationales. Il inclut des enregistrements pour chaque variété, des informations sur les espèces, les noms commerciaux et de marque, les historiques de statut ainsi que les contacts pertinents des obtenteurs et propriétaires. Issu de sources agricoles nationales et de l'UPOV, cette distribution soutient à la fois la classification scientifique et la protection de la propriété intellectuelle en sélection végétale.",
-                    "it": "Questo file JSON fornisce dati dettagliati e strutturati sulle varietà vegetali, comprendendo sia la classificazione botanica che gli aspetti legali, come i diritti dei costitutori e le liste nazionali. Include registri per ogni varietà, informazioni sulle specie, nomi commerciali e di marca, storici di stato e contatti pertinenti per costitutori e proprietari. Derivata da fonti agricole nazionali e dall'UPOV, questa distribuzione supporta sia la classificazione scientifica che la protezione della proprietà intellettuale nel miglioramento genetico vegetale.",
-                    "en": "This JSON file provides detailed, structured data on plant varieties, encompassing both the botanical classification and legal aspects such as plant breeders' rights and national listings. It includes records for each variety, species information, trade and brand names, status histories, and relevant contacts for breeders and owners. Derived from UPOV and national agricultural sources, this distribution supports both scientific classification and the protection of intellectual property in plant breeding."
-                },
-                "dcat:accessURL": "https://raw.githubusercontent.com/blw-ofag-ufag/blw-ogd-data/refs/heads/main/data/plant_varieties_in_switzerland.json",
-                "adms:status": "published",
-                "dct:format": "JSON",
-                "dct:modified": "2025-04-14",
-                "dcat:downloadURL": "https://raw.githubusercontent.com/blw-ofag-ufag/blw-ogd-data/refs/heads/main/data/plant_varieties_in_switzerland.json",
-                "dct:license": "terms_by"
-            }
-        ],
-        "bv:archivalValue": false,
-        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
-        "bv:externalCatalogs": null,
-        "businessDataOwner": "p-0711690",
-        "schemaViolations": 0,
-        "schemaViolationMessages": [],
-        "quality": 11650.0
-    },
-    {
-        "rdf:type": "dcat:Dataset",
         "dct:identifier": "82fcca67-633d-431d-853d-1bf765a70bc6",
         "schema:image": "https://fal.media/files/rabbit/vACOEgJZbcpfArdQzROcX_351aa26ba9134232bdc01f867502e0ef.jpg",
         "dct:title": {
@@ -165,10 +88,87 @@
             }
         ],
         "bv:externalCatalogs": null,
-        "businessDataOwner": "p-0170309",
+        "dataOwner": "p-0170309",
         "schemaViolations": 0,
         "schemaViolationMessages": [],
-        "quality": 11604.0
+        "quality": 12042.0
+    },
+    {
+        "rdf:type": "dcat:Dataset",
+        "dct:identifier": "19111589-d41f-4f42-b397-b8318dfb13fd",
+        "schema:image": "https://fal.media/files/rabbit/b-j9zxhlLzInwz4JQyCFU_b4014cdc2ebc4f92b293153dc4917f95.jpg",
+        "dct:title": {
+            "de": "Pflanzensorten in der Schweiz",
+            "fr": "Variétés végétales en Suisse",
+            "it": "Varietà vegetali in Svizzera",
+            "en": "Plant varieties in Switzerland"
+        },
+        "dct:description": {
+            "de": "«Der Begriff „Art“ ist eine gebräuchlich Einheit der botanischen Klassifizierung innerhalb des Pflanzenreichs. Innerhalb einer Art gibt es jedoch natürlich zahlreiche unterschiedliche Pflanzensorten. Landwirte und Pflanzer brauchen Pflanzen mit besonderen Merkmalen, die an deren Umweltbedingungen und Anbauverfahren angepasst sind. Eine Pflanzensorte stellt eine genauer bestimmte Gruppe von Pflanzen mit gemeinsamen Merkmalen innerhalb einer Art dar.» Quelle: UPOV https://www.upov.int/overview/de/variety.html\r\n\r\nEine Pflanzensorte kann den Sortenschutz (PVR) und/oder im Sortenkatalog (NLI) eingetragen sein. Die Sortenbezeichnung ist identisch und auch die Sortenprüfung ist für beide (PVR und NLI) gleich.\r\n\r\nSortenschutz gehört wie Patente und Marken zur Familie des Geistigen Eigentums. Das Sortenschutzrecht regelt den gewerblichen Schutz neuer Pflanzenzüchtungen. Die Person, welche den Sortenschutztitel innehat, hat das Recht, ihre Sorte vor unerwünschter gewerbsmässiger Nutzung zu schützen. Dauer Sortenschutz 25 - 30 Jahre.\r\n\r\nIm Sortenkatalog werden landwirtschaftlich genutzte Pflanzenarten erfasst. Man spricht von einer Zulassung, die durch eine Verordnung (Sortenverordnung) über Kataloge und Listen geregelt wird. Agroscope sowie Branchenverbände erstellen empfohlene Sortenlisten.\r\n\r\nDie hier veröffentlichten Sorten im Sortenschutz sowie im nationalen Sortenkatalog sind derzeit unvollständig. Die Liste wird jedoch laufend aktualisiert mit neu validierten Daten.",
+            "fr": "«L’éspèce est l’une des unités les plus connues de la classification botanique dans le règne végétal. Toutefois, il est évident qu’au sein d’une même espèce peut exister un large éventail de plantes très différentes. Les agriculteurs et les producteurs ont besoin de végétaux présentant des caractères précis, qui soient adaptés à l'environnement dans lequel ils sont cultivés ainsi qu’aux méthodes de culture employées. Une variété végétale représente donc un groupe de plantes défini de façon plus précise, sélectionné à partir d'une espèce et doté d’un ensemble de caractères communs.» Source: UPOV https://www.upov.int/overview/fr/variety.html\r\n\r\nUne variété végétale peut bénéficier de la protection des obtentions végétales (PVR) et/ou être inscrite au catalogue des variétés (NLI). La dénomination de la variété est identique et l'examen de la variété est également identique pour les deux (PVR et NLI).\r\n\r\nLa protection des variétés végétales fait partie de la famille de la propriété intellectuelle, tout comme les brevets et les marques. Le droit de la protection des variétés végétales régit la protection commerciale des nouvelles obtentions végétales. La personne qui détient le titre de protection de la variété a le droit de la protéger contre une utilisation commerciale indésirable. Durée de la protection des variétés : 25 à 30 ans.\r\n\r\nLes espèces végétales utilisées en agriculture sont répertoriées dans le catalogue des variétés. On parle d'homologation. Celle-ci est régie par une ordonnance (ordonnance sur les variétés), via des catalogues et des listes. Agroscope ainsi que les associations professionnelles établissent des listes de variétés recommandées.\r\n\r\nLes variétés dans le registre et répertoriées dans le catalogue national publiées ici sont actuellement incomplètes. La liste est toutefois mise à jour en permanence avec les données nouvellement validées.",
+            "it": "«Il termine “specie” è una familiare unità di classificazione botanica all'interno del regno vegetale. Tuttavia, è chiaro che all'interno di una specie può esserci una vasta gamma di diversi tipi di piante. Gli agricoltori e i coltivatori hanno bisogno di piante con caratteristiche particolari e che siano adattate al loro ambiente e alle loro pratiche di coltivazione. Una varietà vegetale rappresenta un gruppo di piante definito in modo più preciso, selezionato all'interno di una specie, con un insieme comune di caratteristiche.» Fonte: UPOV https://www.upov.int/overview/en/variety.html\r\n\r\nUna varietà vegetale può essere protetta dal diritto di varietà vegetale (PVR) e/o registrata nel catalogo delle varietà (National Listing, NLI). La denominazione della varietà è la stessa sia per il PVR che per l'NLI, e anche l'esame della varietà è lo stesso per entrambi.\r\n\r\nLa protezione delle varietà vegetali appartiene alla stessa famiglia dei brevetti e dei marchi, il diritto di proprietà intellettuale. Il diritto di protezione delle varietà vegetali regola la protezione commerciale delle nuove varietà. La persona che detiene il titolo di protezione ha il diritto di proteggere la propria varietà da un uso commerciale indesiderato. Durata della protezione delle varietà vegetali: 25-30 anni.\r\n\r\nL'elenco nazionale (NLI) comprende le specie vegetali utilizzate in agricoltura. Esse necessitano di un'autorizzazione, che è regolata da un'ordinanza (Ordinanza sulle varietà) tramite cataloghi ed elenchi. Agroscope e le associazioni professionali stabiliscono elenchi raccomandati di varietà.\r\n\r\nLe varietà qui pubblicate sono attualmente incomplete. Tuttavia, l'elenco viene costantemente aggiornato con i dati appena convalidati.",
+            "en": "«The term \"species\" is a familiar unit of botanical classification within the plant kingdom. However, it is clear that within a species there can be a wide range of different types of plant. Farmers and growers need plants with particular characteristics and that are adapted to their environment and their cultivation practices. A plant variety represents a more precisely defined group of plants, selected from within a species, with a common set of characteristics.» Source: UPOV https://www.upov.int/overview/en/variety.html\r\n\r\nA plant variety can be protected by the plant variety right (PVR) and/or registered in the catalogue of varieties (National Listing, NLI). The variety denomination is the same for both PVR and NLI, and the variety examination is the same for both as well.\r\n\r\nPlant variety protection belongs to the same family than patents and trademarks, the intellectual property right. The plant variety protection right regulates the commercial protection of new varieties. The person who holds the protection title has the right to protect their variety from undesired commercial use. Duration of plant variety protection: 25–30 years.\r\n\r\nThe national listing (NLI) includes plant species used for agriculture. They need an authorization, which is regulated by an ordinance (Plant Variety Ordinance) via catalogues and lists. Agroscope and professional associations establish recommended lists of varieties.\r\n\r\nThe varieties published here in the plant variety protection and in the national catalogue of varieties are currently incomplete. However, the list is continuously updated with newly validated data."
+        },
+        "dcat:theme": [
+            "territory",
+            "agriculture"
+        ],
+        "dcat:keyword": [
+            "plant-variety",
+            "breeding",
+            "botany",
+            "UPOV"
+        ],
+        "adms:status": "published",
+        "dct:accessRights": "PUBLIC",
+        "bv:classification": "none",
+        "bv:personalData": "personalData",
+        "dcat:contactPoint": {
+            "schema:name": "Büro für Sortenschutz",
+            "schema:email": "sortenadmin@blw.admin.ch"
+        },
+        "dct:issued": "2025-02-20",
+        "dct:modified": "2025-04-14",
+        "dct:accrualPeriodicity": "MONTHLY",
+        "dct:temporal": {
+            "dcat:start_date": "1977-05-31",
+            "dcat:end_date": "2025-03-31"
+        },
+        "bv:abrogation": "",
+        "dcatap:applicableLegislation": [
+            "https://www.fedlex.admin.ch/eli/cc/2013/417/"
+        ],
+        "bv:itSystem": "https://agriculture.ld.admin.ch/system-map/SYS011",
+        "dcat:distribution": [
+            {
+                "dct:identifier": "2391e9ce-cb53-48be-b23f-40eb922c12e2",
+                "dct:title": {
+                    "de": "Pflanzensorten in der Schweiz",
+                    "fr": "Variétés végétales en Suisse",
+                    "it": "Varietà vegetali in Svizzera",
+                    "en": "Plant varieties in Switzerland"
+                },
+                "dct:description": {
+                    "de": "Diese JSON-Datei bietet detaillierte, strukturierte Daten zu Pflanzensorten, die sowohl die botanische Klassifikation als auch rechtliche Aspekte wie den Sortenschutz und nationale Listen umfassen. Sie enthält Datensätze für jede Sorte, Informationen zu Arten, Handels- und Markennamen, Statusverläufe sowie relevante Kontakte zu Züchtern und Eigentümern. Abgeleitet aus UPOV- und nationalen Agrarquellen unterstützt diese Verteilung sowohl die wissenschaftliche Klassifikation als auch den Schutz des geistigen Eigentums in der Pflanzenzüchtung.",
+                    "fr": "Ce fichier JSON fournit des données détaillées et structurées sur les variétés de plantes, englobant à la fois la classification botanique et les aspects juridiques tels que les droits des obtenteurs et les listes nationales. Il inclut des enregistrements pour chaque variété, des informations sur les espèces, les noms commerciaux et de marque, les historiques de statut ainsi que les contacts pertinents des obtenteurs et propriétaires. Issu de sources agricoles nationales et de l'UPOV, cette distribution soutient à la fois la classification scientifique et la protection de la propriété intellectuelle en sélection végétale.",
+                    "it": "Questo file JSON fornisce dati dettagliati e strutturati sulle varietà vegetali, comprendendo sia la classificazione botanica che gli aspetti legali, come i diritti dei costitutori e le liste nazionali. Include registri per ogni varietà, informazioni sulle specie, nomi commerciali e di marca, storici di stato e contatti pertinenti per costitutori e proprietari. Derivata da fonti agricole nazionali e dall'UPOV, questa distribuzione supporta sia la classificazione scientifica che la protezione della proprietà intellettuale nel miglioramento genetico vegetale.",
+                    "en": "This JSON file provides detailed, structured data on plant varieties, encompassing both the botanical classification and legal aspects such as plant breeders' rights and national listings. It includes records for each variety, species information, trade and brand names, status histories, and relevant contacts for breeders and owners. Derived from UPOV and national agricultural sources, this distribution supports both scientific classification and the protection of intellectual property in plant breeding."
+                },
+                "dcat:accessURL": "https://raw.githubusercontent.com/blw-ofag-ufag/blw-ogd-data/refs/heads/main/data/plant_varieties_in_switzerland.json",
+                "adms:status": "published",
+                "dct:format": "JSON",
+                "dct:modified": "2025-04-14",
+                "dcat:downloadURL": "https://raw.githubusercontent.com/blw-ofag-ufag/blw-ogd-data/refs/heads/main/data/plant_varieties_in_switzerland.json",
+                "dct:license": "terms_by"
+            }
+        ],
+        "bv:archivalValue": false,
+        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+        "bv:externalCatalogs": null,
+        "dataOwner": "p-0711690",
+        "schemaViolations": 0,
+        "schemaViolationMessages": [],
+        "quality": 11960.0
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -260,10 +260,10 @@
             }
         ],
         "bv:externalCatalogs": null,
-        "businessDataOwner": "p-5367735",
+        "dataOwner": "p-5367735",
         "schemaViolations": 0,
         "schemaViolationMessages": [],
-        "quality": 8363.0
+        "quality": 8803.0
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -356,10 +356,10 @@
             }
         ],
         "bv:externalCatalogs": null,
-        "businessDataOwner": "p-5367735",
+        "dataOwner": "p-5367735",
         "schemaViolations": 0,
         "schemaViolationMessages": [],
-        "quality": 7649.0
+        "quality": 8093.0
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -448,10 +448,10 @@
             }
         ],
         "bv:externalCatalogs": null,
-        "businessDataOwner": "p-5367735",
+        "dataOwner": "p-5367735",
         "schemaViolations": 0,
         "schemaViolationMessages": [],
-        "quality": 7107.0
+        "quality": 7535.0
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -606,122 +606,12 @@
                 ]
             }
         ],
-        "businessDataOwner": "p-1ZFWFFNP6",
+        "dataOwner": "p-1ZFWFFNP6",
         "schemaViolations": 1,
         "schemaViolationMessages": [
             "{'test': {'de': 'keyword 1', 'fr': 'keyword 1', 'en': 'test'}, 'time_series': {'de': 'keyword 2', 'en': 'time-series'}, 'agricultural_policy': {'fr': 'keyword3', 'en': 'agricultural-policy'}, 'agis': {'en': 'AGIS'}, 'fmis': {'en': 'FMIS'}, 'dcat': {'en': 'DCAT'}} is not of type 'array', 'null'"
         ],
-        "quality": 5913.5
-    },
-    {
-        "rdf:type": "dcat:Dataset",
-        "dct:identifier": "2ca2b3af-d3da-44d7-b32b-cb1dc9b02932",
-        "schema:image": "https://fal.media/files/tiger/wRa9DHE4Hwzxa7c_1lqYQ_b2bc0df71b6a4d26935a1294876e8a3e.jpg",
-        "dct:title": {
-            "fr": "Données et indicateurs agro-environnementaux au niveau national 1990-2015",
-            "de": "Agrarumweltindikatoren und -kennzahlen auf nationaler Ebene 1990-2015",
-            "en": "Agro-environmental data and indicators at the national level 1990–2015",
-            "it": "Indicatori agro-ambientali e dati agroambientali a livello nazionale 1990-2015"
-        },
-        "dct:description": {
-            "fr": "Développement d'indicateurs et de chiffres clés agro-environnementaux (azote, phosphore, climat et énergie, biodiversité, utilisation des terres, intrants)",
-            "en": "Development of agro-environmental indicators and key figures (nitrogen, phosphorus, climate and energy, biodiversity, land use, production inputs)",
-            "de": "Entwicklung von Agrarumweltindikatoren und -kennzahlen (Stickstoff, Phosphor, Klima und Energie, Biodiversität, Bodennutzung, Produktionsmittel)",
-            "it": "Sviluppo di indicatori e dati chiave agro-ambientali (azoto, fosforo, clima ed energia, biodiversità, uso del suolo, mezzi di produzione)"
-        },
-        "dct:accessRights": "PUBLIC",
-        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
-        "dcat:contactPoint": {
-            "schema:email": "alessandro.rossi@blw.admin.ch",
-            "schema:name": "Bundesamt für Landwirtschaft"
-        },
-        "dct:issued": "2016-11-08",
-        "dct:accrualPeriodicity": "ANNUAL",
-        "adms:status": "published",
-        "bv:classification": "none",
-        "bv:personalData": "none",
-        "bv:archivalValue": false,
-        "bv:typeOfData": "primaryThematicData",
-        "dcat:keyword": [
-            "environment",
-            "climate",
-            "nitrogen",
-            "phosphorus",
-            "nutrients",
-            "energy",
-            "biodiversity"
-        ],
-        "dcat:theme": [
-            "agriculture"
-        ],
-        "dcat:landingPage": "https://www.blw.admin.ch/blw/de/home/nachhaltige-produktion/umwelt/agrarumweltmonitoring.html",
-        "dcatap:applicableLegislation": [
-            "https://www.admin.ch/opc/de/classified-compilation/19983446/index.html#a11"
-        ],
-        "schema:comment": "Imported from opendata.swiss on 2025-03-10",
-        "dcat:distribution": [
-            {
-                "dct:identifier": "e6e89050-17a6-4b28-9cd6-e4157ab7a9f9",
-                "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/e4/vkyvxxp93lxb8nyjlwv5u0mgkc07ju/agrarumweltindikatoren_und-kennzahlen_auf_nationaler_ebene_datenreihe_d.xlsx",
-                "adms:status": "published",
-                "dct:format": "XLS",
-                "dct:modified": null,
-                "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/e4/vkyvxxp93lxb8nyjlwv5u0mgkc07ju/agrarumweltindikatoren_und-kennzahlen_auf_nationaler_ebene_datenreihe_d.xlsx",
-                "dct:title": {
-                    "fr": "Données et indicateurs agro-environnementaux au niveau national 1990-2015 (DE)",
-                    "de": "Agrarumweltindikatoren und -kennzahlen auf nationaler Ebene 1990-2015 (DE)",
-                    "en": "Agro-environmental data and indicators at the national level 1990-2015 (DE)",
-                    "it": "Indicatori agro-ambientali e dati agroambientali a livello nazionale 1990-2015 (DE)"
-                },
-                "dct:license": "terms_by",
-                "schema:comment": "ID for this distribution on opendata.swiss: f750dbf4-f317-4e1d-b64e-582171901e47"
-            },
-            {
-                "dct:identifier": "3cf99f12-780a-4371-8ba1-9b5d8ff612a6",
-                "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/5a/6prgd7ife4xt6ulobdcfce8l4yjx0h/agrarumweltindikatoren_und-kennzahlen_auf_nationaler_ebene_datenreihe_f.xlsx",
-                "adms:status": "published",
-                "dct:format": "XLS",
-                "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/5a/6prgd7ife4xt6ulobdcfce8l4yjx0h/agrarumweltindikatoren_und-kennzahlen_auf_nationaler_ebene_datenreihe_f.xlsx",
-                "dct:title": {
-                    "fr": "Données et indicateurs agro-environnementaux au niveau national 1990-2015 (FR)",
-                    "de": "Agrarumweltindikatoren und -kennzahlen auf nationaler Ebene 1990-2015 (FR)",
-                    "en": "Agro-environmental data and indicators at the national level 1990-2015 (FR)",
-                    "it": "Indicatori agro-ambientali e dati agroambientali a livello nazionale 1990-2015 (FR)"
-                },
-                "dct:license": "terms_by",
-                "schema:comment": "ID for this distribution on opendata.swiss: b2e3a299-eb3b-484b-b5db-5a62cbfffe37"
-            },
-            {
-                "dct:identifier": "deac3770-50e2-43f9-875c-71b147bb4af9",
-                "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/d6/k20vx5dfbsvl7y7woq1m7jlje6aeed/agrarumweltindikatoren_und-kennzahlen_auf_nationaler_ebene_datenreihe_i.xlsx",
-                "adms:status": "published",
-                "dct:format": "XLS",
-                "dct:modified": null,
-                "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/d6/k20vx5dfbsvl7y7woq1m7jlje6aeed/agrarumweltindikatoren_und-kennzahlen_auf_nationaler_ebene_datenreihe_i.xlsx",
-                "dct:title": {
-                    "fr": "Données et indicateurs agro-environnementaux au niveau national 1990-2015 (IT)",
-                    "de": "Agrarumweltindikatoren und -kennzahlen auf nationaler Ebene 1990-2015 (IT)",
-                    "en": "Agro-environmental data and indicators at the national level 1990-2015 (IT)",
-                    "it": "Indicatori agro-ambientali e dati agroambientali a livello nazionale 1990-2015 (IT)"
-                },
-                "dct:license": "terms_by",
-                "schema:comment": "ID for this distribution on opendata.swiss: 0265babd-bb6f-4446-a5fd-909fd50d8e31"
-            }
-        ],
-        "dct:temporal": {
-            "dcat:start_date": "1990-01-01",
-            "dcat:end_date": "2015-12-31"
-        },
-        "bv:externalCatalogs": [
-            {
-                "dcat:catalog": "opendata.swiss",
-                "dct:identifier": "fcd47ce3-f07d-48b4-bdc9-63088fcf514a"
-            }
-        ],
-        "businessDataOwner": null,
-        "schemaViolations": 0,
-        "schemaViolationMessages": [],
-        "quality": 5661.0
+        "quality": 6308.5
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -846,10 +736,120 @@
             }
         ],
         "bv:archivalValue": false,
-        "businessDataOwner": "p-8397553",
+        "dataOwner": "p-8397553",
         "schemaViolations": 0,
         "schemaViolationMessages": [],
-        "quality": 5656.0
+        "quality": 6286.0
+    },
+    {
+        "rdf:type": "dcat:Dataset",
+        "dct:identifier": "2ca2b3af-d3da-44d7-b32b-cb1dc9b02932",
+        "schema:image": "https://fal.media/files/tiger/wRa9DHE4Hwzxa7c_1lqYQ_b2bc0df71b6a4d26935a1294876e8a3e.jpg",
+        "dct:title": {
+            "fr": "Données et indicateurs agro-environnementaux au niveau national 1990-2015",
+            "de": "Agrarumweltindikatoren und -kennzahlen auf nationaler Ebene 1990-2015",
+            "en": "Agro-environmental data and indicators at the national level 1990–2015",
+            "it": "Indicatori agro-ambientali e dati agroambientali a livello nazionale 1990-2015"
+        },
+        "dct:description": {
+            "fr": "Développement d'indicateurs et de chiffres clés agro-environnementaux (azote, phosphore, climat et énergie, biodiversité, utilisation des terres, intrants)",
+            "en": "Development of agro-environmental indicators and key figures (nitrogen, phosphorus, climate and energy, biodiversity, land use, production inputs)",
+            "de": "Entwicklung von Agrarumweltindikatoren und -kennzahlen (Stickstoff, Phosphor, Klima und Energie, Biodiversität, Bodennutzung, Produktionsmittel)",
+            "it": "Sviluppo di indicatori e dati chiave agro-ambientali (azoto, fosforo, clima ed energia, biodiversità, uso del suolo, mezzi di produzione)"
+        },
+        "dct:accessRights": "PUBLIC",
+        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+        "dcat:contactPoint": {
+            "schema:email": "alessandro.rossi@blw.admin.ch",
+            "schema:name": "Bundesamt für Landwirtschaft"
+        },
+        "dct:issued": "2016-11-08",
+        "dct:accrualPeriodicity": "ANNUAL",
+        "adms:status": "published",
+        "bv:classification": "none",
+        "bv:personalData": "none",
+        "bv:archivalValue": false,
+        "bv:typeOfData": "primaryThematicData",
+        "dcat:keyword": [
+            "environment",
+            "climate",
+            "nitrogen",
+            "phosphorus",
+            "nutrients",
+            "energy",
+            "biodiversity"
+        ],
+        "dcat:theme": [
+            "agriculture"
+        ],
+        "dcat:landingPage": "https://www.blw.admin.ch/blw/de/home/nachhaltige-produktion/umwelt/agrarumweltmonitoring.html",
+        "dcatap:applicableLegislation": [
+            "https://www.admin.ch/opc/de/classified-compilation/19983446/index.html#a11"
+        ],
+        "schema:comment": "Imported from opendata.swiss on 2025-03-10",
+        "dcat:distribution": [
+            {
+                "dct:identifier": "e6e89050-17a6-4b28-9cd6-e4157ab7a9f9",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/e4/vkyvxxp93lxb8nyjlwv5u0mgkc07ju/agrarumweltindikatoren_und-kennzahlen_auf_nationaler_ebene_datenreihe_d.xlsx",
+                "adms:status": "published",
+                "dct:format": "XLS",
+                "dct:modified": null,
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/e4/vkyvxxp93lxb8nyjlwv5u0mgkc07ju/agrarumweltindikatoren_und-kennzahlen_auf_nationaler_ebene_datenreihe_d.xlsx",
+                "dct:title": {
+                    "fr": "Données et indicateurs agro-environnementaux au niveau national 1990-2015 (DE)",
+                    "de": "Agrarumweltindikatoren und -kennzahlen auf nationaler Ebene 1990-2015 (DE)",
+                    "en": "Agro-environmental data and indicators at the national level 1990-2015 (DE)",
+                    "it": "Indicatori agro-ambientali e dati agroambientali a livello nazionale 1990-2015 (DE)"
+                },
+                "dct:license": "terms_by",
+                "schema:comment": "ID for this distribution on opendata.swiss: f750dbf4-f317-4e1d-b64e-582171901e47"
+            },
+            {
+                "dct:identifier": "3cf99f12-780a-4371-8ba1-9b5d8ff612a6",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/5a/6prgd7ife4xt6ulobdcfce8l4yjx0h/agrarumweltindikatoren_und-kennzahlen_auf_nationaler_ebene_datenreihe_f.xlsx",
+                "adms:status": "published",
+                "dct:format": "XLS",
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/5a/6prgd7ife4xt6ulobdcfce8l4yjx0h/agrarumweltindikatoren_und-kennzahlen_auf_nationaler_ebene_datenreihe_f.xlsx",
+                "dct:title": {
+                    "fr": "Données et indicateurs agro-environnementaux au niveau national 1990-2015 (FR)",
+                    "de": "Agrarumweltindikatoren und -kennzahlen auf nationaler Ebene 1990-2015 (FR)",
+                    "en": "Agro-environmental data and indicators at the national level 1990-2015 (FR)",
+                    "it": "Indicatori agro-ambientali e dati agroambientali a livello nazionale 1990-2015 (FR)"
+                },
+                "dct:license": "terms_by",
+                "schema:comment": "ID for this distribution on opendata.swiss: b2e3a299-eb3b-484b-b5db-5a62cbfffe37"
+            },
+            {
+                "dct:identifier": "deac3770-50e2-43f9-875c-71b147bb4af9",
+                "dcat:accessURL": "https://2016.agrarbericht.ch/download/documents/d6/k20vx5dfbsvl7y7woq1m7jlje6aeed/agrarumweltindikatoren_und-kennzahlen_auf_nationaler_ebene_datenreihe_i.xlsx",
+                "adms:status": "published",
+                "dct:format": "XLS",
+                "dct:modified": null,
+                "dcat:downloadURL": "https://2016.agrarbericht.ch/download/documents/d6/k20vx5dfbsvl7y7woq1m7jlje6aeed/agrarumweltindikatoren_und-kennzahlen_auf_nationaler_ebene_datenreihe_i.xlsx",
+                "dct:title": {
+                    "fr": "Données et indicateurs agro-environnementaux au niveau national 1990-2015 (IT)",
+                    "de": "Agrarumweltindikatoren und -kennzahlen auf nationaler Ebene 1990-2015 (IT)",
+                    "en": "Agro-environmental data and indicators at the national level 1990-2015 (IT)",
+                    "it": "Indicatori agro-ambientali e dati agroambientali a livello nazionale 1990-2015 (IT)"
+                },
+                "dct:license": "terms_by",
+                "schema:comment": "ID for this distribution on opendata.swiss: 0265babd-bb6f-4446-a5fd-909fd50d8e31"
+            }
+        ],
+        "dct:temporal": {
+            "dcat:start_date": "1990-01-01",
+            "dcat:end_date": "2015-12-31"
+        },
+        "bv:externalCatalogs": [
+            {
+                "dcat:catalog": "opendata.swiss",
+                "dct:identifier": "fcd47ce3-f07d-48b4-bdc9-63088fcf514a"
+            }
+        ],
+        "dataOwner": null,
+        "schemaViolations": 0,
+        "schemaViolationMessages": [],
+        "quality": 5661.0
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -945,12 +945,106 @@
             }
         ],
         "bv:externalCatalogs": null,
-        "businessDataOwner": "p-1YVS771WP",
+        "dataOwner": "p-1YVS771WP",
         "schemaViolations": 1,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']"
         ],
-        "quality": 4977.5
+        "quality": 5200.5
+    },
+    {
+        "rdf:type": "dcat:Dataset",
+        "dct:identifier": "db3bd925-f540-4c38-9a54-fb4fbe524609",
+        "dct:title": {
+            "de": "Flächenkategorien",
+            "fr": "Catégories de surfaces",
+            "it": "Categorie di aree",
+            "en": "Area categories"
+        },
+        "dct:description": {
+            "de": "Die «Kulturen» gemäss Direktzahlungsverordnungen werden in Flächenkategorien gegliedert. Diese Liste beschreibt die Flächenkategorien.",
+            "fr": "Les « cultures » selon les ordonnances sur les paiements directs sont réparties en catégories de surface. Cette liste décrit les catégories de surfaces.",
+            "it": "Le “colture” secondo le ordinanze sui pagamenti diretti sono suddivise in categorie di superficie. Questo elenco descrive le categorie di superficie.",
+            "en": "The “crops” according to the direct payment ordinances are divided into area categories. This list describes the area categories."
+        },
+        "dct:accessRights": "PUBLIC",
+        "dct:issued": "2024-01-01",
+        "dcat:keyword": [
+            "data-standard",
+            "eCH-0265",
+            "AGIS",
+            "direct-payments"
+        ],
+        "dct:accrualPeriodicity": "AS_NEEDED",
+        "dct:modified": "2024-01-01",
+        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+        "dcat:contactPoint": {
+            "schema:email": "agis@blw.admin.ch",
+            "schema:name": "Fachbereich Agrarinformationssysteme"
+        },
+        "bv:archivalValue": false,
+        "adms:status": "published",
+        "bv:classification": "none",
+        "bv:personalData": "none",
+        "bv:typeOfData": "referenceData",
+        "dcat:theme": [
+            "agriculture",
+            "territory",
+            "national-economy"
+        ],
+        "dcatap:applicableLegislation": [
+            "https://www.fedlex.admin.ch/eli/cc/2013/765/de"
+        ],
+        "bv:itSystem": "https://agriculture.ld.admin.ch/system-map/SvDlxaJ5YMkuZGH6k",
+        "dcat:distribution": [
+            {
+                "dct:identifier": "df0a6506-24fd-4ca7-b1d0-aad017c9ab3f",
+                "dct:title": {
+                    "de": "Flächenkategorien",
+                    "fr": "Catégories de surfaces",
+                    "it": "Categorie di aree",
+                    "en": "Area categories"
+                },
+                "dct:description": {
+                    "de": "Die «Kulturen» gemäss Direktzahlungsverordnungen werden in Flächenkategorien gegliedert. Diese Liste beschreibt die Flächenkategorien.",
+                    "fr": "Les « cultures » selon les ordonnances sur les paiements directs sont réparties en catégories de surface. Cette liste décrit les catégories de surfaces.",
+                    "it": "Le “colture” secondo le ordinanze sui pagamenti diretti sono suddivise in categorie di superficie. Questo elenco descrive le categorie di superficie.",
+                    "en": "The “crops” according to the direct payment ordinances are divided into area categories. This list describes the area categories."
+                },
+                "dct:modified": "2024-01-01",
+                "adms:status": "published",
+                "dcat:accessURL": "https://input.i14y.admin.ch/api/Metadata/concepts/byId/08dd50e5-da95-bba3-9ec9-f99d769eec6d/codeListEntries/export/json",
+                "dcat:downloadURL": "https://input.i14y.admin.ch/api/Metadata/concepts/byId/08dd50e5-da95-bba3-9ec9-f99d769eec6d/codeListEntries/export/json",
+                "dct:format": "JSON",
+                "dct:license": "terms_by"
+            },
+            {
+                "dct:identifier": "9e87f4a5-7ac0-4071-9bd6-d81ad19956d3",
+                "dct:title": {
+                    "de": "Flächenkategorien",
+                    "fr": "Catégories de surfaces",
+                    "it": "Categorie di aree",
+                    "en": "Area categories"
+                },
+                "dct:description": {
+                    "de": "Die «Kulturen» gemäss Direktzahlungsverordnungen werden in Flächenkategorien gegliedert. Diese Liste beschreibt die Flächenkategorien.",
+                    "fr": "Les « cultures » selon les ordonnances sur les paiements directs sont réparties en catégories de surface. Cette liste décrit les catégories de surfaces.",
+                    "it": "Le “colture” secondo le ordinanze sui pagamenti diretti sono suddivise in categorie di superficie. Questo elenco descrive le categorie di superficie.",
+                    "en": "The “crops” according to the direct payment ordinances are divided into area categories. This list describes the area categories."
+                },
+                "dct:modified": "2024-01-01",
+                "adms:status": "published",
+                "dcat:accessURL": "https://input.i14y.admin.ch/api/Metadata/concepts/byId/08dd50e5-da95-bba3-9ec9-f99d769eec6d/codeListEntries/export/csv",
+                "dcat:downloadURL": "https://input.i14y.admin.ch/api/Metadata/concepts/byId/08dd50e5-da95-bba3-9ec9-f99d769eec6d/codeListEntries/export/csv",
+                "dct:format": "CSV",
+                "dct:license": "terms_by"
+            }
+        ],
+        "bv:externalCatalogs": null,
+        "dataOwner": "p-5367735",
+        "schemaViolations": 0,
+        "schemaViolationMessages": [],
+        "quality": 5127.0
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -1045,12 +1139,12 @@
             }
         ],
         "bv:externalCatalogs": null,
-        "businessDataOwner": "p-1YVS771WP",
+        "dataOwner": "p-1YVS771WP",
         "schemaViolations": 1,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']"
         ],
-        "quality": 4891.0
+        "quality": 5112.0
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -1145,106 +1239,12 @@
             }
         ],
         "bv:externalCatalogs": null,
-        "businessDataOwner": "p-1YVS771WP",
+        "dataOwner": "p-1YVS771WP",
         "schemaViolations": 1,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']"
         ],
-        "quality": 4785.5
-    },
-    {
-        "rdf:type": "dcat:Dataset",
-        "dct:identifier": "db3bd925-f540-4c38-9a54-fb4fbe524609",
-        "dct:title": {
-            "de": "Flächenkategorien",
-            "fr": "Catégories de surfaces",
-            "it": "Categorie di aree",
-            "en": "Area categories"
-        },
-        "dct:description": {
-            "de": "Die «Kulturen» gemäss Direktzahlungsverordnungen werden in Flächenkategorien gegliedert. Diese Liste beschreibt die Flächenkategorien.",
-            "fr": "Les « cultures » selon les ordonnances sur les paiements directs sont réparties en catégories de surface. Cette liste décrit les catégories de surfaces.",
-            "it": "Le “colture” secondo le ordinanze sui pagamenti diretti sono suddivise in categorie di superficie. Questo elenco descrive le categorie di superficie.",
-            "en": "The “crops” according to the direct payment ordinances are divided into area categories. This list describes the area categories."
-        },
-        "dct:accessRights": "PUBLIC",
-        "dct:issued": "2024-01-01",
-        "dcat:keyword": [
-            "data-standard",
-            "eCH-0265",
-            "AGIS",
-            "direct-payments"
-        ],
-        "dct:accrualPeriodicity": "AS_NEEDED",
-        "dct:modified": "2024-01-01",
-        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
-        "dcat:contactPoint": {
-            "schema:email": "agis@blw.admin.ch",
-            "schema:name": "Fachbereich Agrarinformationssysteme"
-        },
-        "bv:archivalValue": false,
-        "adms:status": "published",
-        "bv:classification": "none",
-        "bv:personalData": "none",
-        "bv:typeOfData": "referenceData",
-        "dcat:theme": [
-            "agriculture",
-            "territory",
-            "national-economy"
-        ],
-        "dcatap:applicableLegislation": [
-            "https://www.fedlex.admin.ch/eli/cc/2013/765/de"
-        ],
-        "bv:itSystem": "https://agriculture.ld.admin.ch/system-map/SvDlxaJ5YMkuZGH6k",
-        "dcat:distribution": [
-            {
-                "dct:identifier": "df0a6506-24fd-4ca7-b1d0-aad017c9ab3f",
-                "dct:title": {
-                    "de": "Flächenkategorien",
-                    "fr": "Catégories de surfaces",
-                    "it": "Categorie di aree",
-                    "en": "Area categories"
-                },
-                "dct:description": {
-                    "de": "Die «Kulturen» gemäss Direktzahlungsverordnungen werden in Flächenkategorien gegliedert. Diese Liste beschreibt die Flächenkategorien.",
-                    "fr": "Les « cultures » selon les ordonnances sur les paiements directs sont réparties en catégories de surface. Cette liste décrit les catégories de surfaces.",
-                    "it": "Le “colture” secondo le ordinanze sui pagamenti diretti sono suddivise in categorie di superficie. Questo elenco descrive le categorie di superficie.",
-                    "en": "The “crops” according to the direct payment ordinances are divided into area categories. This list describes the area categories."
-                },
-                "dct:modified": "2024-01-01",
-                "adms:status": "published",
-                "dcat:accessURL": "https://input.i14y.admin.ch/api/Metadata/concepts/byId/08dd50e5-da95-bba3-9ec9-f99d769eec6d/codeListEntries/export/json",
-                "dcat:downloadURL": "https://input.i14y.admin.ch/api/Metadata/concepts/byId/08dd50e5-da95-bba3-9ec9-f99d769eec6d/codeListEntries/export/json",
-                "dct:format": "JSON",
-                "dct:license": "terms_by"
-            },
-            {
-                "dct:identifier": "9e87f4a5-7ac0-4071-9bd6-d81ad19956d3",
-                "dct:title": {
-                    "de": "Flächenkategorien",
-                    "fr": "Catégories de surfaces",
-                    "it": "Categorie di aree",
-                    "en": "Area categories"
-                },
-                "dct:description": {
-                    "de": "Die «Kulturen» gemäss Direktzahlungsverordnungen werden in Flächenkategorien gegliedert. Diese Liste beschreibt die Flächenkategorien.",
-                    "fr": "Les « cultures » selon les ordonnances sur les paiements directs sont réparties en catégories de surface. Cette liste décrit les catégories de surfaces.",
-                    "it": "Le “colture” secondo le ordinanze sui pagamenti diretti sono suddivise in categorie di superficie. Questo elenco descrive le categorie di superficie.",
-                    "en": "The “crops” according to the direct payment ordinances are divided into area categories. This list describes the area categories."
-                },
-                "dct:modified": "2024-01-01",
-                "adms:status": "published",
-                "dcat:accessURL": "https://input.i14y.admin.ch/api/Metadata/concepts/byId/08dd50e5-da95-bba3-9ec9-f99d769eec6d/codeListEntries/export/csv",
-                "dcat:downloadURL": "https://input.i14y.admin.ch/api/Metadata/concepts/byId/08dd50e5-da95-bba3-9ec9-f99d769eec6d/codeListEntries/export/csv",
-                "dct:format": "CSV",
-                "dct:license": "terms_by"
-            }
-        ],
-        "bv:externalCatalogs": null,
-        "businessDataOwner": "p-5367735",
-        "schemaViolations": 0,
-        "schemaViolationMessages": [],
-        "quality": 4689.0
+        "quality": 5006.5
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -1340,12 +1340,12 @@
             }
         ],
         "bv:externalCatalogs": null,
-        "businessDataOwner": "p-1YVS771WP",
+        "dataOwner": "p-1YVS771WP",
         "schemaViolations": 1,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']"
         ],
-        "quality": 4608.0
+        "quality": 4831.0
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -1440,12 +1440,12 @@
             }
         ],
         "bv:externalCatalogs": null,
-        "businessDataOwner": "p-1YVS771WP",
+        "dataOwner": "p-1YVS771WP",
         "schemaViolations": 1,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']"
         ],
-        "quality": 4582.0
+        "quality": 4803.0
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -1540,12 +1540,12 @@
             }
         ],
         "bv:externalCatalogs": null,
-        "businessDataOwner": "p-1YVS771WP",
+        "dataOwner": "p-1YVS771WP",
         "schemaViolations": 1,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']"
         ],
-        "quality": 4522.0
+        "quality": 4743.0
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -1621,12 +1621,12 @@
             }
         ],
         "bv:externalCatalogs": null,
-        "businessDataOwner": "p-1YVS771WP",
+        "dataOwner": "p-1YVS771WP",
         "schemaViolations": 1,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']"
         ],
-        "quality": 4492.5
+        "quality": 4651.5
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -1707,12 +1707,12 @@
             }
         ],
         "bv:externalCatalogs": null,
-        "businessDataOwner": "p-1YVS771WP",
+        "dataOwner": "p-1YVS771WP",
         "schemaViolations": 1,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']"
         ],
-        "quality": 4369.0
+        "quality": 4538.0
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -1809,12 +1809,12 @@
             }
         ],
         "bv:externalCatalogs": null,
-        "businessDataOwner": "p-1YVS771WP",
+        "dataOwner": "p-1YVS771WP",
         "schemaViolations": 1,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']"
         ],
-        "quality": 4127.5
+        "quality": 4352.5
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -1909,12 +1909,12 @@
             }
         ],
         "bv:externalCatalogs": null,
-        "businessDataOwner": "p-1YVS771WP",
+        "dataOwner": "p-1YVS771WP",
         "schemaViolations": 1,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']"
         ],
-        "quality": 3858.5
+        "quality": 4080.5
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -1992,12 +1992,12 @@
             }
         ],
         "bv:externalCatalogs": null,
-        "businessDataOwner": "p-1YVS771WP",
+        "dataOwner": "p-1YVS771WP",
         "schemaViolations": 1,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']"
         ],
-        "quality": 3769.0
+        "quality": 3932.0
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -2078,12 +2078,12 @@
             }
         ],
         "bv:externalCatalogs": null,
-        "businessDataOwner": "p-1YVS771WP",
+        "dataOwner": "p-1YVS771WP",
         "schemaViolations": 1,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']"
         ],
-        "quality": 3732.5
+        "quality": 3901.5
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -2164,10 +2164,10 @@
                 "dct:identifier": "55f48530-8f03-4058-b26e-387c23c5a48e"
             }
         ],
-        "businessDataOwner": "p-3966584",
+        "dataOwner": "p-3966584",
         "schemaViolations": 0,
         "schemaViolationMessages": [],
-        "quality": 3580.0
+        "quality": 3884.0
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -2229,12 +2229,12 @@
         ],
         "dcat:version": "1.0",
         "bv:archivalValue": false,
-        "businessDataOwner": "p-8397553",
+        "dataOwner": "p-8397553",
         "schemaViolations": 1,
         "schemaViolationMessages": [
             "'' is not of type 'array', 'null'"
         ],
-        "quality": 2860.0
+        "quality": 2969.0
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -2355,14 +2355,14 @@
                 "dct:license": "terms_by"
             }
         ],
-        "businessDataOwner": "p-1YVS771WP",
+        "dataOwner": "p-1YVS771WP",
         "schemaViolations": 3,
         "schemaViolationMessages": [
             "'opendata.swiss' is not of type 'object'",
             "'I14Y' is not of type 'object'",
             "'adms:status' is a required property"
         ],
-        "quality": 1773.0
+        "quality": 1928.25
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -2420,12 +2420,12 @@
         "bv:itSystem": "https://agriculture.ld.admin.ch/system-map/S9VcxLSoIIwQjoexY",
         "schema:comment": "The tables have been verified by the cantonal offices for agriculture.",
         "bv:archivalValue": false,
-        "businessDataOwner": " p-8397553",
+        "dataOwner": " p-8397553",
         "schemaViolations": 1,
         "schemaViolationMessages": [
             "'dct:issued' is a required property"
         ],
-        "quality": 1572.5
+        "quality": 1680.5
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -2513,14 +2513,14 @@
             }
         ],
         "bv:externalCatalogs": null,
-        "businessDataOwner": "p-0170309",
+        "dataOwner": "p-0170309",
         "schemaViolations": 3,
         "schemaViolationMessages": [
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'"
         ],
-        "quality": 1569.75
+        "quality": 1676.75
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -2609,14 +2609,14 @@
             }
         ],
         "bv:externalCatalogs": null,
-        "businessDataOwner": "p-0170309",
+        "dataOwner": "p-0170309",
         "schemaViolations": 3,
         "schemaViolationMessages": [
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'"
         ],
-        "quality": 1471.0
+        "quality": 1579.0
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -2761,7 +2761,7 @@
                 "dct:identifier": "e1a93f10-8007-4ef6-b5a9-3c617ed29c32"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 7,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -2945,7 +2945,7 @@
                 "dct:identifier": "621e488c-7a97-46ca-9635-7afc2ab5266e"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 7,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -3129,7 +3129,7 @@
                 "dct:identifier": "131b59a3-e269-4e86-a3c1-d8cee5be7aac"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 7,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -3312,7 +3312,7 @@
                 "dct:identifier": "55d1451b-9d9a-4e88-921d-b901f5b2de17"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 7,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -3496,7 +3496,7 @@
                 "dct:identifier": "c11df334-e906-44b8-8fab-22fed980958c"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 7,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -3679,7 +3679,7 @@
                 "dct:identifier": "825146b2-b989-414a-93b8-a8a8acca7fff"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 7,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -3835,7 +3835,7 @@
                 "dct:identifier": "79a82202-4743-4f99-92a6-eb42b365b19f"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 7,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -3994,7 +3994,7 @@
                 "dct:identifier": "dda337d2-fce5-4fc7-9bec-5fd9df78939b"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 7,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -4155,7 +4155,7 @@
                 "dct:identifier": "8dacb53c-fe50-4cba-98c8-cd45c362d352"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 7,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -4251,7 +4251,7 @@
                 "dct:identifier": "4b7c2e6b-07e8-4310-a262-2581bda63ac1"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 2,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -4342,7 +4342,7 @@
                 "dct:identifier": "b8368066-995a-424d-96bc-d6993720865b"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 2,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -4496,7 +4496,7 @@
                 "dct:identifier": "ccd6ff9b-b1e0-4328-acbc-dd139a79522d"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 6,
         "schemaViolationMessages": [
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
@@ -4655,7 +4655,7 @@
                 "dct:identifier": "9baf5a22-ddde-4723-a241-7848e8485261"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 7,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -4834,7 +4834,7 @@
                 "dct:identifier": "71f80b15-f866-47d1-b2b6-be96ae6d7189"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 7,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -5013,7 +5013,7 @@
                 "dct:identifier": "cf8b87c9-edac-4785-b248-34192da76723"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 7,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -5109,7 +5109,7 @@
                 "dct:identifier": "7f74b325-02a2-40de-9b2d-81f1ded24764"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 2,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -5200,7 +5200,7 @@
                 "dct:identifier": "9f78a795-0a94-4a97-91f2-813933bfbb07"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 2,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -5289,7 +5289,7 @@
                 "dct:identifier": "5a482bdf-7152-427e-9300-7fde7472f671"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 2,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -5462,7 +5462,7 @@
                 "dct:identifier": "f3ea03ee-9d4c-431f-9ca3-f38746373fc0"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 7,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -5557,7 +5557,7 @@
                 "dct:identifier": "4a778f45-2b65-4883-a1aa-6573de189c39"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 2,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -5646,7 +5646,7 @@
                 "dct:identifier": "9beadde3-caa0-4e39-9676-357d375d79ab"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 2,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -5737,7 +5737,7 @@
                 "dct:identifier": "f619166d-c5c5-47ba-86a0-352235e81249"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 2,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -5828,7 +5828,7 @@
                 "dct:identifier": "27629a23-2ee1-4344-990d-889c86780b01"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 2,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -5982,7 +5982,7 @@
                 "dct:identifier": "4e49f596-d0b6-4473-9c77-7cf4f1008969"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 7,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -6078,7 +6078,7 @@
                 "dct:identifier": "cfaa671b-dc0d-4dde-9810-413c22b0938d"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 2,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -6169,7 +6169,7 @@
                 "dct:identifier": "09bea124-7d41-40c8-bb1b-fc99afee456b"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 2,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -6260,7 +6260,7 @@
                 "dct:identifier": "d734a47b-11b4-467a-aca9-7fb88ec5a058"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 2,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -6349,7 +6349,7 @@
                 "dct:identifier": "3257332f-b970-46dd-a691-3d2949d68fe7"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 2,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -6438,7 +6438,7 @@
                 "dct:identifier": "ea8c7919-23cb-4e42-8355-ee8f64cc257d"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 2,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -6527,7 +6527,7 @@
                 "dct:identifier": "e312e906-9a9d-4d85-84e0-479c4174b4c9"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 2,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -6618,7 +6618,7 @@
                 "dct:identifier": "985819da-067a-4d87-a0d9-861f75655ced"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 2,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -6709,7 +6709,7 @@
                 "dct:identifier": "29e93ad7-f930-4e5a-af46-1c03434fc51e"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 2,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -6798,7 +6798,7 @@
                 "dct:identifier": "e6b9a0ec-6ecf-4d72-a8ce-c95e2b22235a"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 2,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -6889,7 +6889,7 @@
                 "dct:identifier": "b5be6ebc-5b78-42e9-949a-a83c7c9960f4"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 2,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -6978,7 +6978,7 @@
                 "dct:identifier": "ae43c729-da24-4d82-a3ae-01d13197833f"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 2,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -7067,7 +7067,7 @@
                 "dct:identifier": "5119fedb-89ec-448c-89a3-274bea5acd62"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 2,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -7156,7 +7156,7 @@
                 "dct:identifier": "532a5042-ff38-49ac-9748-ff3c99748581"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 2,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -7245,7 +7245,7 @@
                 "dct:identifier": "9a08809b-66f0-4010-993d-43357ccbf514"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 2,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -7334,7 +7334,7 @@
                 "dct:identifier": "dc3c96bd-6ec9-4ecd-b798-e78c62d24e25"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 2,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -7490,7 +7490,7 @@
                 "dct:identifier": "3d44c5fb-eb7f-4c9e-9422-88868f7fe60c"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 7,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -7584,7 +7584,7 @@
                 "dct:identifier": "5b1e77a6-a9cc-4364-af23-a5e12d3bf0b3"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 2,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -7673,7 +7673,7 @@
                 "dct:identifier": "0c391726-45f9-4f26-b9fd-c567e954659e"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 2,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -7846,7 +7846,7 @@
                 "dct:identifier": "7db80be0-f3b8-45af-a616-ef4bb1191996"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 7,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -8000,7 +8000,7 @@
                 "dct:identifier": "b5bdff07-74bf-4dfa-b015-7e1aa2f2b422"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 7,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -8096,7 +8096,7 @@
                 "dct:identifier": "10015a2a-933b-43d9-bb42-c4aa28d7884e"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 2,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -8185,7 +8185,7 @@
                 "dct:identifier": "c49e3861-9b41-4e77-878e-1cead201bf9c"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 2,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -8274,7 +8274,7 @@
                 "dct:identifier": "8e494087-0931-4f2c-932b-67913ed57bf1"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 2,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -8363,7 +8363,7 @@
                 "dct:identifier": "19dd763d-3978-4388-9bab-d3cbc6f535f2"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 2,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -8454,7 +8454,7 @@
                 "dct:identifier": "7f60af24-5112-4f2a-b702-4ca70eb48865"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 2,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -8545,7 +8545,7 @@
                 "dct:identifier": "889b2128-a9f9-449e-9218-3c289bbd8faa"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 2,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -8636,7 +8636,7 @@
                 "dct:identifier": "6b11c466-5282-48d3-83bb-8c8348af2bf6"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 2,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -8792,7 +8792,7 @@
                 "dct:identifier": "6cac5c48-29b1-45d0-b684-836ac6354be3"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 8,
         "schemaViolationMessages": [
             "'Hanglagen' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
@@ -8887,7 +8887,7 @@
                 "dct:identifier": "7dd7f99f-4530-49f7-b191-f18cda34b032"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 2,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -8976,7 +8976,7 @@
                 "dct:identifier": "9569ebd8-9611-4276-91d0-c3c872fe3c7f"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 2,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -9065,7 +9065,7 @@
                 "dct:identifier": "433f8e00-3d19-4006-a864-be80a6c3cc3d"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 2,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -9154,7 +9154,7 @@
                 "dct:identifier": "8a7ba17b-6cd6-47ae-bb93-441b03b9dcde"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 2,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -9243,7 +9243,7 @@
                 "dct:identifier": "0c5885ce-c147-4cfd-85cb-1279298860b0"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 2,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -9418,7 +9418,7 @@
                 "dct:identifier": "04afc289-5142-4678-9498-6f5905fef0b1"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 7,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -9597,7 +9597,7 @@
                 "dct:identifier": "3a56c453-d097-4f13-9435-531df2875d3c"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 7,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -9775,7 +9775,7 @@
                 "dct:identifier": "6d44898a-5519-4ab0-a426-9641c0741faf"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 7,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -9869,7 +9869,7 @@
                 "dct:identifier": "6b0a2fac-5a53-4320-bc1d-d39546ca4f44"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 2,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -10004,7 +10004,7 @@
                 "dct:identifier": "704b25c2-1140-4bee-9df6-11901492232a"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 7,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -10098,7 +10098,7 @@
                 "dct:identifier": "11fce6a7-6f94-4500-85dd-5b33eda6d9dc"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 2,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -10272,7 +10272,7 @@
                 "dct:identifier": "7fc087e8-ccc1-4cda-a99d-0dced5d72537"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 7,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -10451,7 +10451,7 @@
                 "dct:identifier": "c69ff9d4-991c-40f3-9078-ffb9f135666d"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 7,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -10630,7 +10630,7 @@
                 "dct:identifier": "03b7b099-23f4-41aa-a441-aea3a3cdfdb4"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 7,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -10809,7 +10809,7 @@
                 "dct:identifier": "419b5e7e-98e2-4a14-bd58-178c1c9e4338"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 7,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -10988,7 +10988,7 @@
                 "dct:identifier": "9c8fc590-4032-4356-9af9-42b7728217ae"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 7,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -11167,7 +11167,7 @@
                 "dct:identifier": "f22ad686-5387-4410-900c-8eb763dd16ce"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 7,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -11346,7 +11346,7 @@
                 "dct:identifier": "201f5121-9f69-48e0-bd7f-c22d7b9fd272"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 7,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -11522,7 +11522,7 @@
                 "dct:identifier": "4e95ecac-0c7d-45b5-bfec-844504a7aa69"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 8,
         "schemaViolationMessages": [
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
@@ -11701,7 +11701,7 @@
                 "dct:identifier": "d18a25f8-6967-41d7-8813-c4b1e486f54a"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 7,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -11879,7 +11879,7 @@
                 "dct:identifier": "03e2cfdd-40c1-4fe0-bf34-5c15e5779559"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 7,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -12057,7 +12057,7 @@
                 "dct:identifier": "1122ee8a-03c9-4007-9236-74cc2e2f5ee7"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 7,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -12213,7 +12213,7 @@
                 "dct:identifier": "48a5f275-4046-46a9-bba5-ed7a60ca3393"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 8,
         "schemaViolationMessages": [
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
@@ -12226,6 +12226,88 @@
             "'Map (Preview)  map.geo.admin.ch' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'"
         ],
         "quality": 821.5555555555555
+    },
+    {
+        "rdf:type": "dcat:Dataset",
+        "schema:image": "https://fal.media/files/tiger/wRa9DHE4Hwzxa7c_1lqYQ_b2bc0df71b6a4d26935a1294876e8a3e.jpg",
+        "dct:identifier": "2ea8bfa1-8bb6-45ef-bee4-3b4cba52d834",
+        "dct:title": {
+            "de": "Massnahmenmonitoring Klimastrategie Landwirtschaft und Ernährung",
+            "fr": "Suivi des mesures Stratégie Climat pour l'agriculture et l'alimentation",
+            "it": "Monitoraggio delle misure Strategia Climatica per l'Agricoltura e l'Alimentazione",
+            "en": "Monitoring Measures Climate Strategy for Agriculture and Food"
+        },
+        "dct:description": {
+            "de": "Daten zur Massnahmenumsetzung geben einen Überblick zum Umsetzungsstand der 42 Massnahmen bezüglich Klimastrategie Landwirtschaft und Ernährung. Dieser Massnahmenplan läuft bis 2030.",
+            "fr": "Les données relatives à la mise en œuvre des mesures donnent un aperçu de l'état de mise en œuvre des 42 mesures relatives à la stratégie climat pour l'agriculture et l'alimentation. Ce plan de mesures court jusqu'en 2030.",
+            "it": "I dati sull'attuazione delle misure forniscono una panoramica dello stato di attuazione delle 42 misure relative alla Strategia Climatica per l'Agricoltura e l'Alimentazione. Questo piano d'azione è valido fino al 2030.",
+            "en": "Data on the implementation of measures provide an overview of the implementation status of the 42 measures related to the Climate Strategy for Agriculture and Food. This action plan runs until 2030."
+        },
+        "dct:accessRights": "NON_PUBLIC",
+        "dct:issued": "2024-12-04",
+        "dcat:keyword": [
+            "environment",
+            "sustainability",
+            "climate",
+            "monitoring",
+            "food"
+        ],
+        "dct:accrualPeriodicity": "ANNUAL",
+        "dct:modified": "2025-01-22",
+        "adms:status": "workInProgress",
+        "bv:personalData": "none",
+        "dcat:theme": [
+            "environment",
+            "agricultureFisheriesForestryFood"
+        ],
+        "dcat:distribution": [
+            {
+                "dct:identifier": "1fbd57c8-bd87-4a61-bb34-6ae6680a69d0",
+                "dct:title": {
+                    "de": "Tabelle Massnahmenmonitoring",
+                    "fr": "Tableau de suivi des mesures",
+                    "it": "Tabella monitoraggio delle misure",
+                    "en": "Monitoring Measures Table"
+                },
+                "dct:description": {
+                    "de": "Excel-Tabelle mit den eigentlichen Daten zum Umsetzungsstand der 42 Massnahmen bezüglich Klimastrategie Landwirtschaft und Ernährung.",
+                    "fr": "Tableau Excel contenant les données réelles sur l'état d'avancement des 42 mesures relatives à la stratégie climat pour l'agriculture et l'alimentation.",
+                    "it": "Tabella Excel con i dati effettivi sullo stato di attuazione delle 42 misure relative alla Strategia Climatica per l'Agricoltura e l'Alimentazione.",
+                    "en": "Excel table with the actual data on the implementation status of the 42 measures related to the Climate Strategy for Agriculture and Food."
+                },
+                "dcat:accessURL": "https://object.gever.admin.ch:443/web/?ObjectToOpenID=%24ActaNovaDocument%7C574FDB97-8106-4294-94C3-8A121A593B9E&TenantID=123",
+                "dct:format": "XSLX"
+            },
+            {
+                "dct:identifier": "3f715618-315d-4b62-8029-88572942c839",
+                "dct:title": {
+                    "de": "PowerBI Report für das Massnahmenmonitoring",
+                    "fr": "Rapport PowerBI pour le suivi des mesures",
+                    "it": "Report PowerBI per il monitoraggio delle misure",
+                    "en": "PowerBI Report for Monitoring Measures"
+                },
+                "dct:description": {
+                    "de": "Interaktiver PowerBI-Report, welcher einen Überblick zum Umsetzungsstand der 42 Massnahmen bezüglich Klimastrategie Landwirtschaft und Ernährung gibt.",
+                    "fr": "Rapport PowerBI interactif donnant un aperçu de l'état d'avancement des 42 mesures relatives à la stratégie climat pour l'agriculture et l'alimentation.",
+                    "it": "Report PowerBI interattivo che fornisce una panoramica dello stato di attuazione delle 42 misure relative alla Strategia Climatica per l'Agricoltura e l'Alimentazione.",
+                    "en": "Interactive PowerBI report providing an overview of the implementation status of the 42 measures related to the Climate Strategy for Agriculture and Food."
+                },
+                "dcat:accessURL": "https://www.blw.admin.ch/de/klimastrategie-landwirtschaft-und-ernaehrung-2050#%C3%9Cberpr%C3%BCfung-der-Massnahmen-und-Zielerreichung",
+                "dct:format": "PowerBI Report"
+            }
+        ],
+        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+        "bv:externalCatalogs": null,
+        "dataOwner": "p-1Y4L0Y450",
+        "schemaViolations": 5,
+        "schemaViolationMessages": [
+            "'bv:classification' is a required property",
+            "'environment' is not one of ['', 'work', 'construction', 'population', 'education', 'energy', 'finances', 'geography', 'legislation', 'health', 'trade', 'industry', 'crime', 'culture', 'agriculture', 'mobility', 'public-order', 'politics', 'prices', 'territory', 'social-security', 'statistical-basis', 'tourism', 'administration', 'national-economy']",
+            "'agricultureFisheriesForestryFood' is not one of ['', 'work', 'construction', 'population', 'education', 'energy', 'finances', 'geography', 'legislation', 'health', 'trade', 'industry', 'crime', 'culture', 'agriculture', 'mobility', 'public-order', 'politics', 'prices', 'territory', 'social-security', 'statistical-basis', 'tourism', 'administration', 'national-economy']",
+            "'adms:status' is a required property",
+            "'adms:status' is a required property"
+        ],
+        "quality": 807.8333333333334
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -12310,7 +12392,7 @@
                 "dct:identifier": "5ba84e07-f6dd-454b-bf8a-68dfad9c5fa1"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 3,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -12457,7 +12539,7 @@
                 "dct:identifier": "524a909d-6dae-4c34-8dfd-029b601b51fc"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 7,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -12469,88 +12551,6 @@
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'"
         ],
         "quality": 759.625
-    },
-    {
-        "rdf:type": "dcat:Dataset",
-        "schema:image": "https://fal.media/files/tiger/wRa9DHE4Hwzxa7c_1lqYQ_b2bc0df71b6a4d26935a1294876e8a3e.jpg",
-        "dct:identifier": "2ea8bfa1-8bb6-45ef-bee4-3b4cba52d834",
-        "dct:title": {
-            "de": "Massnahmenmonitoring Klimastrategie Landwirtschaft und Ernährung",
-            "fr": "Suivi des mesures Stratégie Climat pour l'agriculture et l'alimentation",
-            "it": "Monitoraggio delle misure Strategia Climatica per l'Agricoltura e l'Alimentazione",
-            "en": "Monitoring Measures Climate Strategy for Agriculture and Food"
-        },
-        "dct:description": {
-            "de": "Daten zur Massnahmenumsetzung geben einen Überblick zum Umsetzungsstand der 42 Massnahmen bezüglich Klimastrategie Landwirtschaft und Ernährung. Dieser Massnahmenplan läuft bis 2030.",
-            "fr": "Les données relatives à la mise en œuvre des mesures donnent un aperçu de l'état de mise en œuvre des 42 mesures relatives à la stratégie climat pour l'agriculture et l'alimentation. Ce plan de mesures court jusqu'en 2030.",
-            "it": "I dati sull'attuazione delle misure forniscono una panoramica dello stato di attuazione delle 42 misure relative alla Strategia Climatica per l'Agricoltura e l'Alimentazione. Questo piano d'azione è valido fino al 2030.",
-            "en": "Data on the implementation of measures provide an overview of the implementation status of the 42 measures related to the Climate Strategy for Agriculture and Food. This action plan runs until 2030."
-        },
-        "dct:accessRights": "NON_PUBLIC",
-        "dct:issued": "2024-12-04",
-        "dcat:keyword": [
-            "environment",
-            "sustainability",
-            "climate",
-            "monitoring",
-            "food"
-        ],
-        "dct:accrualPeriodicity": "ANNUAL",
-        "dct:modified": "2025-01-22",
-        "adms:status": "workInProgress",
-        "bv:personalData": "none",
-        "dcat:theme": [
-            "environment",
-            "agricultureFisheriesForestryFood"
-        ],
-        "dcat:distribution": [
-            {
-                "dct:identifier": "1fbd57c8-bd87-4a61-bb34-6ae6680a69d0",
-                "dct:title": {
-                    "de": "Tabelle Massnahmenmonitoring",
-                    "fr": "Tableau de suivi des mesures",
-                    "it": "Tabella monitoraggio delle misure",
-                    "en": "Monitoring Measures Table"
-                },
-                "dct:description": {
-                    "de": "Excel-Tabelle mit den eigentlichen Daten zum Umsetzungsstand der 42 Massnahmen bezüglich Klimastrategie Landwirtschaft und Ernährung.",
-                    "fr": "Tableau Excel contenant les données réelles sur l'état d'avancement des 42 mesures relatives à la stratégie climat pour l'agriculture et l'alimentation.",
-                    "it": "Tabella Excel con i dati effettivi sullo stato di attuazione delle 42 misure relative alla Strategia Climatica per l'Agricoltura e l'Alimentazione.",
-                    "en": "Excel table with the actual data on the implementation status of the 42 measures related to the Climate Strategy for Agriculture and Food."
-                },
-                "dcat:accessURL": "https://object.gever.admin.ch:443/web/?ObjectToOpenID=%24ActaNovaDocument%7C574FDB97-8106-4294-94C3-8A121A593B9E&TenantID=123",
-                "dct:format": "XSLX"
-            },
-            {
-                "dct:identifier": "3f715618-315d-4b62-8029-88572942c839",
-                "dct:title": {
-                    "de": "PowerBI Report für das Massnahmenmonitoring",
-                    "fr": "Rapport PowerBI pour le suivi des mesures",
-                    "it": "Report PowerBI per il monitoraggio delle misure",
-                    "en": "PowerBI Report for Monitoring Measures"
-                },
-                "dct:description": {
-                    "de": "Interaktiver PowerBI-Report, welcher einen Überblick zum Umsetzungsstand der 42 Massnahmen bezüglich Klimastrategie Landwirtschaft und Ernährung gibt.",
-                    "fr": "Rapport PowerBI interactif donnant un aperçu de l'état d'avancement des 42 mesures relatives à la stratégie climat pour l'agriculture et l'alimentation.",
-                    "it": "Report PowerBI interattivo che fornisce una panoramica dello stato di attuazione delle 42 misure relative alla Strategia Climatica per l'Agricoltura e l'Alimentazione.",
-                    "en": "Interactive PowerBI report providing an overview of the implementation status of the 42 measures related to the Climate Strategy for Agriculture and Food."
-                },
-                "dcat:accessURL": "https://www.blw.admin.ch/de/klimastrategie-landwirtschaft-und-ernaehrung-2050#%C3%9Cberpr%C3%BCfung-der-Massnahmen-und-Zielerreichung",
-                "dct:format": "PowerBI Report"
-            }
-        ],
-        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
-        "bv:externalCatalogs": null,
-        "businessDataOwner": "p-1Y4L0Y450",
-        "schemaViolations": 5,
-        "schemaViolationMessages": [
-            "'bv:classification' is a required property",
-            "'environment' is not one of ['', 'work', 'construction', 'population', 'education', 'energy', 'finances', 'geography', 'legislation', 'health', 'trade', 'industry', 'crime', 'culture', 'agriculture', 'mobility', 'public-order', 'politics', 'prices', 'territory', 'social-security', 'statistical-basis', 'tourism', 'administration', 'national-economy']",
-            "'agricultureFisheriesForestryFood' is not one of ['', 'work', 'construction', 'population', 'education', 'energy', 'finances', 'geography', 'legislation', 'health', 'trade', 'industry', 'crime', 'culture', 'agriculture', 'mobility', 'public-order', 'politics', 'prices', 'territory', 'social-security', 'statistical-basis', 'tourism', 'administration', 'national-economy']",
-            "'adms:status' is a required property",
-            "'adms:status' is a required property"
-        ],
-        "quality": 750.5
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -12621,7 +12621,7 @@
             }
         ],
         "bv:archivalValue": false,
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 6,
         "schemaViolationMessages": [
             "'prov:agent' is a required property",
@@ -12632,6 +12632,110 @@
             "'' is not of type 'array', 'null'"
         ],
         "quality": 642.0
+    },
+    {
+        "rdf:type": "dcat:Dataset",
+        "dct:identifier": "5361e7d7-4ac9-43ab-bdb3-dbec0f030033",
+        "dct:title": {
+            "de": "Programme/Label",
+            "fr": "Programmes/labels",
+            "it": "Programmi/label",
+            "en": "Programs/labels"
+        },
+        "dct:description": {
+            "de": "Beschreibt unvollständige Liste mit privatrechtlichen Labels im Bereich Landwirtschaft und Lebensmittel. Darin enthalten sind die in der Schweiz am weitesten verbreiten Labels von Produkten, die einen Flächenbezug haben.",
+            "fr": "Décrit une liste incomplète de labels de droit privé dans le domaine de l'agriculture et des denrées alimentaires. Elle contient les labels les plus répandus en Suisse pour les produits ayant une référence à la surface.",
+            "it": "Descrive un elenco incompleto di marchi privati nel settore agricolo e alimentare. Include i marchi più utilizzati in Svizzera per i prodotti etichettati per area.",
+            "en": ""
+        },
+        "dct:accessRights": "PUBLIC",
+        "dct:issued": "2024-01-01",
+        "dcat:keyword": [
+            "data-standard",
+            "eCH-0265",
+            "AGIS",
+            "direct-payments"
+        ],
+        "dct:accrualPeriodicity": "AS_NEEDED",
+        "dct:modified": "2024-01-01",
+        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+        "dcat:contactPoint": {
+            "schema:email": "agis@blw.admin.ch",
+            "schema:name": "Fachbereich Agrarinformationssysteme"
+        },
+        "bv:archivalValue": false,
+        "adms:status": "published",
+        "bv:classification": "none",
+        "bv:personalData": "none",
+        "bv:typeOfData": "referenceData",
+        "dcat:theme": [
+            "agriculture",
+            "territory",
+            "national-economy"
+        ],
+        "dcatap:applicableLegislation": [
+            "https://www.fedlex.admin.ch/eli/cc/2013/765/de"
+        ],
+        "bv:itSystem": "https://agriculture.ld.admin.ch/system-map/SvDlxaJ5YMkuZGH6k",
+        "dcat:distribution": [
+            {
+                "dct:identifier": "a17f42a4-8d86-40e7-9e05-54eb3d932aa4",
+                "dct:title": {
+                    "de": "Programme/Label",
+                    "fr": "Programmes/labels",
+                    "it": "Programmi/label",
+                    "en": ""
+                },
+                "dct:description": {
+                    "de": "Beschreibt unvollständige Liste mit privatrechtlichen Labels im Bereich Landwirtschaft und Lebensmittel. Darin enthalten sind die in der Schweiz am weitesten verbreiten Labels von Produkten, die einen Flächenbezug haben.",
+                    "fr": "Décrit une liste incomplète de labels de droit privé dans le domaine de l'agriculture et des denrées alimentaires. Elle contient les labels les plus répandus en Suisse pour les produits ayant une référence à la surface.",
+                    "it": "Descrive un elenco incompleto di marchi privati nel settore agricolo e alimentare. Include i marchi più utilizzati in Svizzera per i prodotti etichettati per area.",
+                    "en": ""
+                },
+                "dct:modified": "2024-01-01",
+                "adms:status": "published",
+                "dcat:accessURL": "https://input.i14y.admin.ch/api/Metadata/concepts/byId/08dd3ec4-1417-9745-8b15-d386b0e448f9/codeListEntries/export/json",
+                "dcat:downloadURL": "https://input.i14y.admin.ch/api/Metadata/concepts/byId/08dd3ec4-1417-9745-8b15-d386b0e448f9/codeListEntries/export/json",
+                "dct:format": "JSON",
+                "dct:license": "terms_by"
+            },
+            {
+                "dct:identifier": "bda9a469-a331-43c0-bf9f-9b27d427fc03",
+                "dct:title": {
+                    "de": "Programme/Label",
+                    "fr": "Programmes/labels",
+                    "it": "Programmi/label",
+                    "en": ""
+                },
+                "dct:description": {
+                    "de": "Beschreibt unvollständige Liste mit privatrechtlichen Labels im Bereich Landwirtschaft und Lebensmittel. Darin enthalten sind die in der Schweiz am weitesten verbreiten Labels von Produkten, die einen Flächenbezug haben.",
+                    "fr": "Décrit une liste incomplète de labels de droit privé dans le domaine de l'agriculture et des denrées alimentaires. Elle contient les labels les plus répandus en Suisse pour les produits ayant une référence à la surface.",
+                    "it": "Descrive un elenco incompleto di marchi privati nel settore agricolo e alimentare. Include i marchi più utilizzati in Svizzera per i prodotti etichettati per area.",
+                    "en": ""
+                },
+                "dct:modified": "2024-01-01",
+                "adms:status": "published",
+                "dcat:accessURL": "https://input.i14y.admin.ch/api/Metadata/concepts/byId/08dd3ec4-1417-9745-8b15-d386b0e448f9/codeListEntries/export/csv",
+                "dcat:downloadURL": "https://input.i14y.admin.ch/api/Metadata/concepts/byId/08dd3ec4-1417-9745-8b15-d386b0e448f9/codeListEntries/export/csv",
+                "dct:format": "CSV",
+                "dct:license": "terms_by"
+            }
+        ],
+        "bv:externalCatalogs": null,
+        "dataOwner": "p-5367735",
+        "schemaViolations": 9,
+        "schemaViolationMessages": [
+            "'Programme/Label' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
+            "'Programmi/label' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
+            "'Programs/labels' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
+            "'Programme/Label' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
+            "'Programmi/label' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
+            "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
+            "'Programme/Label' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
+            "'Programmi/label' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
+            "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'"
+        ],
+        "quality": 515.4
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -12778,7 +12882,7 @@
                 "dct:identifier": "078e0c66-26c4-4f83-a3d3-700b8c7dfa58"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 15,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -12798,110 +12902,6 @@
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'"
         ],
         "quality": 489.375
-    },
-    {
-        "rdf:type": "dcat:Dataset",
-        "dct:identifier": "5361e7d7-4ac9-43ab-bdb3-dbec0f030033",
-        "dct:title": {
-            "de": "Programme/Label",
-            "fr": "Programmes/labels",
-            "it": "Programmi/label",
-            "en": "Programs/labels"
-        },
-        "dct:description": {
-            "de": "Beschreibt unvollständige Liste mit privatrechtlichen Labels im Bereich Landwirtschaft und Lebensmittel. Darin enthalten sind die in der Schweiz am weitesten verbreiten Labels von Produkten, die einen Flächenbezug haben.",
-            "fr": "Décrit une liste incomplète de labels de droit privé dans le domaine de l'agriculture et des denrées alimentaires. Elle contient les labels les plus répandus en Suisse pour les produits ayant une référence à la surface.",
-            "it": "Descrive un elenco incompleto di marchi privati nel settore agricolo e alimentare. Include i marchi più utilizzati in Svizzera per i prodotti etichettati per area.",
-            "en": ""
-        },
-        "dct:accessRights": "PUBLIC",
-        "dct:issued": "2024-01-01",
-        "dcat:keyword": [
-            "data-standard",
-            "eCH-0265",
-            "AGIS",
-            "direct-payments"
-        ],
-        "dct:accrualPeriodicity": "AS_NEEDED",
-        "dct:modified": "2024-01-01",
-        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
-        "dcat:contactPoint": {
-            "schema:email": "agis@blw.admin.ch",
-            "schema:name": "Fachbereich Agrarinformationssysteme"
-        },
-        "bv:archivalValue": false,
-        "adms:status": "published",
-        "bv:classification": "none",
-        "bv:personalData": "none",
-        "bv:typeOfData": "referenceData",
-        "dcat:theme": [
-            "agriculture",
-            "territory",
-            "national-economy"
-        ],
-        "dcatap:applicableLegislation": [
-            "https://www.fedlex.admin.ch/eli/cc/2013/765/de"
-        ],
-        "bv:itSystem": "https://agriculture.ld.admin.ch/system-map/SvDlxaJ5YMkuZGH6k",
-        "dcat:distribution": [
-            {
-                "dct:identifier": "a17f42a4-8d86-40e7-9e05-54eb3d932aa4",
-                "dct:title": {
-                    "de": "Programme/Label",
-                    "fr": "Programmes/labels",
-                    "it": "Programmi/label",
-                    "en": ""
-                },
-                "dct:description": {
-                    "de": "Beschreibt unvollständige Liste mit privatrechtlichen Labels im Bereich Landwirtschaft und Lebensmittel. Darin enthalten sind die in der Schweiz am weitesten verbreiten Labels von Produkten, die einen Flächenbezug haben.",
-                    "fr": "Décrit une liste incomplète de labels de droit privé dans le domaine de l'agriculture et des denrées alimentaires. Elle contient les labels les plus répandus en Suisse pour les produits ayant une référence à la surface.",
-                    "it": "Descrive un elenco incompleto di marchi privati nel settore agricolo e alimentare. Include i marchi più utilizzati in Svizzera per i prodotti etichettati per area.",
-                    "en": ""
-                },
-                "dct:modified": "2024-01-01",
-                "adms:status": "published",
-                "dcat:accessURL": "https://input.i14y.admin.ch/api/Metadata/concepts/byId/08dd3ec4-1417-9745-8b15-d386b0e448f9/codeListEntries/export/json",
-                "dcat:downloadURL": "https://input.i14y.admin.ch/api/Metadata/concepts/byId/08dd3ec4-1417-9745-8b15-d386b0e448f9/codeListEntries/export/json",
-                "dct:format": "JSON",
-                "dct:license": "terms_by"
-            },
-            {
-                "dct:identifier": "bda9a469-a331-43c0-bf9f-9b27d427fc03",
-                "dct:title": {
-                    "de": "Programme/Label",
-                    "fr": "Programmes/labels",
-                    "it": "Programmi/label",
-                    "en": ""
-                },
-                "dct:description": {
-                    "de": "Beschreibt unvollständige Liste mit privatrechtlichen Labels im Bereich Landwirtschaft und Lebensmittel. Darin enthalten sind die in der Schweiz am weitesten verbreiten Labels von Produkten, die einen Flächenbezug haben.",
-                    "fr": "Décrit une liste incomplète de labels de droit privé dans le domaine de l'agriculture et des denrées alimentaires. Elle contient les labels les plus répandus en Suisse pour les produits ayant une référence à la surface.",
-                    "it": "Descrive un elenco incompleto di marchi privati nel settore agricolo e alimentare. Include i marchi più utilizzati in Svizzera per i prodotti etichettati per area.",
-                    "en": ""
-                },
-                "dct:modified": "2024-01-01",
-                "adms:status": "published",
-                "dcat:accessURL": "https://input.i14y.admin.ch/api/Metadata/concepts/byId/08dd3ec4-1417-9745-8b15-d386b0e448f9/codeListEntries/export/csv",
-                "dcat:downloadURL": "https://input.i14y.admin.ch/api/Metadata/concepts/byId/08dd3ec4-1417-9745-8b15-d386b0e448f9/codeListEntries/export/csv",
-                "dct:format": "CSV",
-                "dct:license": "terms_by"
-            }
-        ],
-        "bv:externalCatalogs": null,
-        "businessDataOwner": "p-5367735",
-        "schemaViolations": 9,
-        "schemaViolationMessages": [
-            "'Programme/Label' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
-            "'Programmi/label' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
-            "'Programs/labels' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
-            "'Programme/Label' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
-            "'Programmi/label' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
-            "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
-            "'Programme/Label' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
-            "'Programmi/label' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
-            "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'"
-        ],
-        "quality": 471.6
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -12941,7 +12941,7 @@
         "bv:itSystem": "Agrarbericht",
         "dcat:version": "1",
         "bv:archivalValue": false,
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 2,
         "schemaViolationMessages": [
             "'fr' is a required property",
@@ -13070,7 +13070,7 @@
                 "dct:identifier": "48415b81-f623-469a-8473-c62964f53fbb"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 10,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -13203,7 +13203,7 @@
                 "dct:identifier": "c9406d6b-a108-42a2-a22b-cf8b03e95d70"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 11,
         "schemaViolationMessages": [
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
@@ -13337,7 +13337,7 @@
                 "dct:identifier": "d5122fa9-d100-4d60-b204-95742718b3ce"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 11,
         "schemaViolationMessages": [
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
@@ -13470,7 +13470,7 @@
                 "dct:identifier": "767d09e4-d0f4-4dcf-9816-91e37bfa797d"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 10,
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']",
@@ -13603,7 +13603,7 @@
                 "dct:identifier": "9cbdfde8-508d-4697-84d1-5d21b92c4e9c"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 11,
         "schemaViolationMessages": [
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
@@ -13737,7 +13737,7 @@
                 "dct:identifier": "e70d7954-d897-44d5-be15-54b05720f89c"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 11,
         "schemaViolationMessages": [
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
@@ -13871,7 +13871,7 @@
                 "dct:identifier": "73879228-7de8-4797-89d2-c089c9a07a21"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 11,
         "schemaViolationMessages": [
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
@@ -14005,7 +14005,7 @@
                 "dct:identifier": "3fc01587-2de5-4fc8-a1dd-8c6f4aaefd4e"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 11,
         "schemaViolationMessages": [
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
@@ -14139,7 +14139,7 @@
                 "dct:identifier": "944a7136-0ee7-4bcf-b7a6-e69ae62767d5"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 11,
         "schemaViolationMessages": [
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
@@ -14273,7 +14273,7 @@
                 "dct:identifier": "86a07747-ea1e-4d58-a716-1dd72f603bed"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 11,
         "schemaViolationMessages": [
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
@@ -14407,7 +14407,7 @@
                 "dct:identifier": "0b2046ac-dbc6-467c-8456-898c8b8862f0"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 11,
         "schemaViolationMessages": [
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
@@ -14541,7 +14541,7 @@
                 "dct:identifier": "936c8f63-3d24-42ef-bcc4-75505ae7cd5d"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 11,
         "schemaViolationMessages": [
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
@@ -14675,7 +14675,7 @@
                 "dct:identifier": "bf61558b-0a54-4f22-9d58-ed4325f9007b"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 11,
         "schemaViolationMessages": [
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
@@ -14809,7 +14809,7 @@
                 "dct:identifier": "c8e2cf7b-182d-4d97-88f0-ea8e7c2b2745"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 11,
         "schemaViolationMessages": [
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
@@ -14943,7 +14943,7 @@
                 "dct:identifier": "74ca4ec5-9df1-4e9d-beaf-80c78295862a"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 11,
         "schemaViolationMessages": [
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
@@ -15077,7 +15077,7 @@
                 "dct:identifier": "234d2568-4fb1-4624-872b-ee5e35c83955"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 11,
         "schemaViolationMessages": [
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
@@ -15211,7 +15211,7 @@
                 "dct:identifier": "47f95729-05ce-4a37-9e63-fefa9bd87f9c"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 11,
         "schemaViolationMessages": [
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
@@ -15345,7 +15345,7 @@
                 "dct:identifier": "b37cdbf6-8c04-4c7b-a2b8-7c85b6c07993"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 11,
         "schemaViolationMessages": [
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
@@ -15479,7 +15479,7 @@
                 "dct:identifier": "a439114f-7fda-4a22-a486-bee05ec03984"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 11,
         "schemaViolationMessages": [
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
@@ -15613,7 +15613,7 @@
                 "dct:identifier": "30981f07-dc91-4df5-9001-f008223a5524"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 11,
         "schemaViolationMessages": [
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
@@ -15747,7 +15747,7 @@
                 "dct:identifier": "9d72dd2a-0d32-464f-ad2b-4ad82af111d6"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 11,
         "schemaViolationMessages": [
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
@@ -15881,7 +15881,7 @@
                 "dct:identifier": "dcbbfce9-e2e1-4b20-9a5b-b07cc6ecca14"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 11,
         "schemaViolationMessages": [
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
@@ -16015,7 +16015,7 @@
                 "dct:identifier": "92c28034-1619-4251-a8cc-e6e534f95a27"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 11,
         "schemaViolationMessages": [
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
@@ -16149,7 +16149,7 @@
                 "dct:identifier": "01678041-4c8d-47c9-8a9b-a83153947dfe"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 11,
         "schemaViolationMessages": [
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
@@ -16283,7 +16283,7 @@
                 "dct:identifier": "d3f7f978-fe6e-4cb3-8f10-9a4bf834f89f"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 11,
         "schemaViolationMessages": [
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
@@ -16417,7 +16417,7 @@
                 "dct:identifier": "a26b3c05-5d09-40db-a674-3f6054fd8672"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 11,
         "schemaViolationMessages": [
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
@@ -16551,7 +16551,7 @@
                 "dct:identifier": "821dc562-2643-4b74-a69d-e532d8b4f6f9"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 11,
         "schemaViolationMessages": [
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
@@ -16685,7 +16685,7 @@
                 "dct:identifier": "d407a3c3-4bd1-48c4-98cb-7ab870a16fae"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 11,
         "schemaViolationMessages": [
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
@@ -16819,7 +16819,7 @@
                 "dct:identifier": "35f63f53-db5b-4dbd-8655-b1c864bf6c6b"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 11,
         "schemaViolationMessages": [
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
@@ -16953,7 +16953,7 @@
                 "dct:identifier": "e30471dd-40ed-489b-a9d6-b2baef24f859"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 11,
         "schemaViolationMessages": [
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
@@ -17087,7 +17087,7 @@
                 "dct:identifier": "db3e2225-b8ac-4f00-950a-40a294bd88c7"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 11,
         "schemaViolationMessages": [
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
@@ -17221,7 +17221,7 @@
                 "dct:identifier": "4723dc61-dd4c-4e1a-afc1-ec16f356123e"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 11,
         "schemaViolationMessages": [
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
@@ -17355,7 +17355,7 @@
                 "dct:identifier": "f10fc517-043a-449d-9e0b-3aaf51d144b5"
             }
         ],
-        "businessDataOwner": null,
+        "dataOwner": null,
         "schemaViolations": 11,
         "schemaViolationMessages": [
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
@@ -17371,6 +17371,71 @@
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'"
         ],
         "quality": 334.5833333333333
+    },
+    {
+        "rdf:type": "dcat:Dataset",
+        "dct:identifier": "c48260f3-0041-4a24-926d-a379bc5a2d1c",
+        "dct:title": {
+            "de": "DISCARD ME",
+            "fr": "DISCARD ME"
+        },
+        "dct:description": {
+            "de": "DISCARD ME",
+            "fr": "DISCARD ME"
+        },
+        "dct:accessRights": "PUBLIC",
+        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+        "dcat:keyword": {
+            "discard_me": {
+                "de": "DISCARD ME",
+                "fr": "DISCARD ME"
+            },
+            "t": {
+                "de": "TEST",
+                "fr": "TEST"
+            }
+        },
+        "adms:status": "workInProgress",
+        "bv:classification": "none",
+        "bv:personalData": "none",
+        "bv:archivalValue": false,
+        "bv:externalCatalogs": [
+            "I14Y",
+            "opendata.swiss"
+        ],
+        "dcat:theme": [
+            "administration",
+            "agriculture",
+            "construction"
+        ],
+        "dcat:distribution": [
+            {
+                "dct:identifier": "identify",
+                "dcat:accessURL": "https://www.example.com",
+                "adms:status": "workInProgress",
+                "dcatap:availability": "AVAILABLE",
+                "dct:format": "csv",
+                "dcat:downloadURL": "https://www.example.com",
+                "dct:title": {
+                    "de": "DISTRO_1",
+                    "fr": "distro_1_franz"
+                },
+                "dct:description": {
+                    "de": "Beschreibung DISTRO1",
+                    "fr": "beschriebung_Distro1 franz"
+                }
+            }
+        ],
+        "dataOwner": "p-26",
+        "schemaViolations": 5,
+        "schemaViolationMessages": [
+            "'dct:issued' is a required property",
+            "{'discard_me': {'de': 'DISCARD ME', 'fr': 'DISCARD ME'}, 't': {'de': 'TEST', 'fr': 'TEST'}} is not of type 'array', 'null'",
+            "'I14Y' is not of type 'object'",
+            "'opendata.swiss' is not of type 'object'",
+            "'DISTRO_1' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'"
+        ],
+        "quality": 275.0
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -17935,7 +18000,7 @@
             }
         ],
         "bv:archivalValue": false,
-        "businessDataOwner": "p-8397553",
+        "dataOwner": "p-8397553",
         "schemaViolations": 96,
         "schemaViolationMessages": [
             "'Jahr 2023' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
@@ -18035,132 +18100,7 @@
             "'Anno 2016' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
             "'Year 2016' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'"
         ],
-        "quality": 237.77319587628867
-    },
-    {
-        "rdf:type": "dcat:Dataset",
-        "dct:identifier": "c48260f3-0041-4a24-926d-a379bc5a2d1c",
-        "dct:title": {
-            "de": "DISCARD ME",
-            "fr": "DISCARD ME"
-        },
-        "dct:description": {
-            "de": "DISCARD ME",
-            "fr": "DISCARD ME"
-        },
-        "dct:accessRights": "PUBLIC",
-        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
-        "dcat:keyword": {
-            "discard_me": {
-                "de": "DISCARD ME",
-                "fr": "DISCARD ME"
-            },
-            "t": {
-                "de": "TEST",
-                "fr": "TEST"
-            }
-        },
-        "adms:status": "workInProgress",
-        "bv:classification": "none",
-        "bv:personalData": "none",
-        "bv:archivalValue": false,
-        "bv:externalCatalogs": [
-            "I14Y",
-            "opendata.swiss"
-        ],
-        "dcat:theme": [
-            "administration",
-            "agriculture",
-            "construction"
-        ],
-        "dcat:distribution": [
-            {
-                "dct:identifier": "identify",
-                "dcat:accessURL": "https://www.example.com",
-                "adms:status": "workInProgress",
-                "dcatap:availability": "AVAILABLE",
-                "dct:format": "csv",
-                "dcat:downloadURL": "https://www.example.com",
-                "dct:title": {
-                    "de": "DISTRO_1",
-                    "fr": "distro_1_franz"
-                },
-                "dct:description": {
-                    "de": "Beschreibung DISTRO1",
-                    "fr": "beschriebung_Distro1 franz"
-                }
-            }
-        ],
-        "businessDataOwner": "p-26",
-        "schemaViolations": 5,
-        "schemaViolationMessages": [
-            "'dct:issued' is a required property",
-            "{'discard_me': {'de': 'DISCARD ME', 'fr': 'DISCARD ME'}, 't': {'de': 'TEST', 'fr': 'TEST'}} is not of type 'array', 'null'",
-            "'I14Y' is not of type 'object'",
-            "'opendata.swiss' is not of type 'object'",
-            "'DISTRO_1' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'"
-        ],
-        "quality": 233.33333333333334
-    },
-    {
-        "rdf:type": "dcat:Dataset",
-        "dct:identifier": "069f8e82-6c03-418f-9eec-b1dec6ea9c74",
-        "dct:title": {
-            "de": "Datenreihe Kulturlandschaftsbeiträge ab 2014, Offenthaltungsbeitrag, Hangbeitrag, Steillagenbeitrag und Alpungsbeitrag",
-            "fr": "Contributions au paysage cultivé depuis 2014: contribution pour le maintien d’un paysage ouvert, contribution pour surfaces en pente, contribution pour surfaces en forte pente, contribution pour surfaces viticoles en pente, contribution de mise à l’alpage",
-            "it": "Statistica sull’estivazione: aziende e carichi normali per Cantone"
-        },
-        "dct:description": {
-            "de": "Die Statistik zeigt die Anzahl Ganzjahresbetriebe und Hektaren pro Kanton, welche von den entsprechenden Beiträgen profitieren. Zudem finden wir die Aufteilung auf Zonen und Kantone. Nicht berücksichtigt sind die Sömmerungsbeiträge. "
-        },
-        "dcat:theme": [
-            "agriculture"
-        ],
-        "dcat:keyword": [
-            "cultural-landscape",
-            "direct-payments",
-            "Zonen",
-            "Offenhaltung"
-        ],
-        "adms:status": "published",
-        "dct:accessRights": "PUBLIC",
-        "dcatap:availability": "STABLE",
-        "bv:classification": "none",
-        "bv:personalData": "none",
-        "bv:typeOfData": "secondaryThematicData",
-        "dcat:contactPoint": {
-            "schema:name": "Andrea Koch ",
-            "schema:email": "andrea.koch@blw.admin.ch"
-        },
-        "dct:issued": "2015-01-01",
-        "dct:modified": "",
-        "dct:accrualPeriodicity": "ANNUAL",
-        "dct:temporal": {
-            "dcat:start_date": "",
-            "dcat:end_date": ""
-        },
-        "bv:abrogation": "",
-        "dcat:inSeries": "",
-        "dcat:distribution": [
-            {
-                "dct:identifier": "14229c31-bcdd-4eae-aa18-e7d0a6b795d3",
-                "dct:modified": "",
-                "dcat:accessService": ""
-            }
-        ],
-        "bv:archivalValue": false,
-        "businessDataOwner": null,
-        "schemaViolations": 7,
-        "schemaViolationMessages": [
-            "'dct:publisher' is a required property",
-            "'fr' is a required property",
-            "'' is not of type 'array', 'null'",
-            "'dcat:accessURL' is a required property",
-            "'adms:status' is a required property",
-            "'dct:format' is a required property",
-            "'' is not of type 'array', 'null'"
-        ],
-        "quality": 214.375
+        "quality": 274.1443298969072
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -18182,46 +18122,13 @@
         "adms:status": "workInProgress",
         "bv:classification": "none",
         "bv:personalData": "none",
-        "businessDataOwner": "p-5699404",
+        "dataOwner": "p-5699404",
         "schemaViolations": 2,
         "schemaViolationMessages": [
             "'dct:issued' is a required property",
             "{'e': {'de': 'Exklulsiv_Deutsch'}} is not of type 'array', 'null'"
         ],
-        "quality": 209.0
-    },
-    {
-        "rdf:type": "dcat:Dataset",
-        "dct:identifier": "7ffa214f-05a9-4a37-86c3-16b1b9d67746",
-        "dct:title": {
-            "de": "test Titel Deutsch",
-            "fr": "Test Titel Franz"
-        },
-        "dct:description": {
-            "de": "Beschreibung de",
-            "fr": "Beschreinung Franz"
-        },
-        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
-        "dcat:contactPoint": {
-            "schema:name": "ph",
-            "schema:email": "ph"
-        },
-        "dcat:keyword": [
-            "schlüsselwort",
-            "zweites schlüsselwort"
-        ],
-        "adms:status": "workInProgress",
-        "bv:classification": "none",
-        "bv:personalData": "none",
-        "bv:archivalValue": false,
-        "dcat:theme": "agriculture",
-        "businessDataOwner": null,
-        "schemaViolations": 2,
-        "schemaViolationMessages": [
-            "'dct:issued' is a required property",
-            "'agriculture' is not of type 'array', 'null'"
-        ],
-        "quality": 195.33333333333334
+        "quality": 238.33333333333334
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -18810,7 +18717,7 @@
             }
         ],
         "bv:archivalValue": false,
-        "businessDataOwner": "p-8397553",
+        "dataOwner": "p-8397553",
         "schemaViolations": 121,
         "schemaViolationMessages": [
             "'' is not of type 'array', 'null'",
@@ -18935,6 +18842,99 @@
             "'Year 2016' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
             "'' is not of type 'array', 'null'"
         ],
-        "quality": 194.99180327868854
+        "quality": 225.12295081967213
+    },
+    {
+        "rdf:type": "dcat:Dataset",
+        "dct:identifier": "069f8e82-6c03-418f-9eec-b1dec6ea9c74",
+        "dct:title": {
+            "de": "Datenreihe Kulturlandschaftsbeiträge ab 2014, Offenthaltungsbeitrag, Hangbeitrag, Steillagenbeitrag und Alpungsbeitrag",
+            "fr": "Contributions au paysage cultivé depuis 2014: contribution pour le maintien d’un paysage ouvert, contribution pour surfaces en pente, contribution pour surfaces en forte pente, contribution pour surfaces viticoles en pente, contribution de mise à l’alpage",
+            "it": "Statistica sull’estivazione: aziende e carichi normali per Cantone"
+        },
+        "dct:description": {
+            "de": "Die Statistik zeigt die Anzahl Ganzjahresbetriebe und Hektaren pro Kanton, welche von den entsprechenden Beiträgen profitieren. Zudem finden wir die Aufteilung auf Zonen und Kantone. Nicht berücksichtigt sind die Sömmerungsbeiträge. "
+        },
+        "dcat:theme": [
+            "agriculture"
+        ],
+        "dcat:keyword": [
+            "cultural-landscape",
+            "direct-payments",
+            "Zonen",
+            "Offenhaltung"
+        ],
+        "adms:status": "published",
+        "dct:accessRights": "PUBLIC",
+        "dcatap:availability": "STABLE",
+        "bv:classification": "none",
+        "bv:personalData": "none",
+        "bv:typeOfData": "secondaryThematicData",
+        "dcat:contactPoint": {
+            "schema:name": "Andrea Koch ",
+            "schema:email": "andrea.koch@blw.admin.ch"
+        },
+        "dct:issued": "2015-01-01",
+        "dct:modified": "",
+        "dct:accrualPeriodicity": "ANNUAL",
+        "dct:temporal": {
+            "dcat:start_date": "",
+            "dcat:end_date": ""
+        },
+        "bv:abrogation": "",
+        "dcat:inSeries": "",
+        "dcat:distribution": [
+            {
+                "dct:identifier": "14229c31-bcdd-4eae-aa18-e7d0a6b795d3",
+                "dct:modified": "",
+                "dcat:accessService": ""
+            }
+        ],
+        "bv:archivalValue": false,
+        "dataOwner": null,
+        "schemaViolations": 7,
+        "schemaViolationMessages": [
+            "'dct:publisher' is a required property",
+            "'fr' is a required property",
+            "'' is not of type 'array', 'null'",
+            "'dcat:accessURL' is a required property",
+            "'adms:status' is a required property",
+            "'dct:format' is a required property",
+            "'' is not of type 'array', 'null'"
+        ],
+        "quality": 214.375
+    },
+    {
+        "rdf:type": "dcat:Dataset",
+        "dct:identifier": "7ffa214f-05a9-4a37-86c3-16b1b9d67746",
+        "dct:title": {
+            "de": "test Titel Deutsch",
+            "fr": "Test Titel Franz"
+        },
+        "dct:description": {
+            "de": "Beschreibung de",
+            "fr": "Beschreinung Franz"
+        },
+        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+        "dcat:contactPoint": {
+            "schema:name": "ph",
+            "schema:email": "ph"
+        },
+        "dcat:keyword": [
+            "schlüsselwort",
+            "zweites schlüsselwort"
+        ],
+        "adms:status": "workInProgress",
+        "bv:classification": "none",
+        "bv:personalData": "none",
+        "bv:archivalValue": false,
+        "dcat:theme": "agriculture",
+        "dataOwner": null,
+        "schemaViolations": 2,
+        "schemaViolationMessages": [
+            "'dct:issued' is a required property",
+            "'agriculture' is not of type 'array', 'null'"
+        ],
+        "quality": 195.33333333333334
     }
 ]

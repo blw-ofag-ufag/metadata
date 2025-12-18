@@ -1,72 +1,72 @@
 {
-  "dct:identifier": "4ef1675b-529a-484b-9d7d-e3bd078f2ac6",
-  "schema:image": "https://fal.media/files/panda/cG6k1Wc-cTObENvKUulaJ_bfd16908431249a296b2fd2cab350caa.jpg",
-  "dct:title": {
-    "de": "Schweizer Betriebsinspektionsdaten zu Compliance-Ergebnissen und betrieblichen Strukturindikatoren",
-    "fr": "Données d’inspections agricoles suisses sur les résultats de conformité et les indicateurs structurels des exploitations",
-    "it": "Dati svizzeri sulle ispezioni aziendali: risultati di conformità e indicatori strutturali delle aziende agricole",
-    "en": "Swiss farm-inspections data about compliance outcomes and farm structural indicators"
-  },
-  "dct:description": {
-    "de": "Diese Datensammlung enthält 593000 pseudonymisierte Inspektionsdatensätze auf Betrieb-Jahr-Ebene, die zwischen 2019 und 2025 in allen Schweizer Kantonen erhoben wurden. Jede Zeile beschreibt eine Vor-Ort-Kontrolle und verknüpft Datum, Typ, thematischen Schwerpunkt und Pass/Fail-Resultat mit über 70 Strukturmerkmalen wie Flächennutzung, Tierbestand, Arbeitskapazität (SAK), Nährstoffbilanzen sowie der Anspruchsberechtigung für Direktzahlungen oder Biobeiträge. Gehashte Kennungen wahren die Anonymität, ermöglichen jedoch Längsschnittanalysen desselben Betriebs und Kontrollthemas. Die umfassende Variablenbasis unterstützt Forschungen zu Compliance-Dynamiken, risikobasierten Stichprobenstrategien und der digitalen Transformation des Schweizer Agrar- und Lebensmittelsektors.",
-    "fr": "Cet ensemble de données comprend 593000 enregistrements d’inspections, pseudonymisés au niveau exploitation-année, recueillis dans l’ensemble des cantons suisses entre 2019 et 2025. Chaque ligne représente une visite de contrôle sur site et associe la date, le type, le thème d’inspection et le résultat «Pass»/«Fail» à plus de 70 attributs structurels tels que la composition de l’usage des terres, la structure du cheptel, la capacité de travail (UST), les bilans de nutriments et l’éligibilité aux paiements directs ou aux primes biologiques. Des identifiants hachés préservent l’anonymat tout en permettant des analyses longitudinales des mêmes exploitations et thèmes de contrôle. La richesse des variables favorise la recherche sur les dynamiques de conformité réglementaire, les stratégies d’échantillonnage fondées sur les risques et la transformation numérique du secteur agroalimentaire suisse.",
-    "it": "Questo dataset contiene 593000 record anonimizzati di ispezioni azienda-anno raccolti in tutti i cantoni svizzeri tra il 2019 e il 2025. Ogni riga rappresenta un controllo in azienda e collega data, tipologia, tema dell’ispezione ed esito «Pass»/«Fail» a oltre 70 attributi strutturali quali composizione dell’uso del suolo, consistenza del bestiame, capacità lavorativa (UTA), bilanci nutritivi e ammissibilità ai pagamenti diretti o ai premi biologici. Gli identificatori hash mantengono l’anonimato pur consentendo analisi longitudinali degli stessi soggetti e temi di controllo. L’ampiezza delle variabili supporta ricerche sulle dinamiche di conformità normativa, sulle strategie di campionamento basate sul rischio e sulla trasformazione digitale del settore agro-alimentare svizzero.",
-    "en": "This dataset contains 593000 de-identified, farm-year inspection records gathered across all Swiss cantons between 2019 and 2025. Each row represents one on-farm control visit and links the inspection’s date, type, thematic focus and pass/fail outcome with 70+ structural attributes such as land use composition, herd structure, labour capacity (SAK), nutrient-balance indicators and eligibility for direct payments or organic premiums. Hashed IDs preserve anonymity while enabling longitudinal analyses of the same holdings and control themes. The breadth of variables supports research into regulatory compliance dynamics, risk-based sampling strategies and the ongoing digital transformation of Switzerland’s agri-food sector."
-  },
-  "dcat:theme": [
-    "agriculture",
-    "administration"
-  ],
-  "dcat:keyword": [
-    "farm-inspections",
-    "machine-learning",
-    "statistical-learning",
-    "structural-data",
-    "AGIS",
-    "Acontrol",
-    "TVD",
-    "HODUFLU"
-  ],
-  "adms:status": "workInProgress",
-  "dct:accessRights": "CONFIDENTIAL",
-  "dcatap:availability": "EXPERIMENTAL",
-  "bv:classification": "internal",
-  "bv:personalData": "sensitivePersonalData",
-  "bv:typeOfData": "secondaryThematicData",
-  "dct:publisher": "BLW-OFAG-UFAG-FOAG",
-  "dcat:contactPoint": {
-    "schema:name": "Kompetenzzentrum für die digitale Transformation",
-    "schema:email": "kompetenzzentrumdigitaletransformation@blw.admin.ch"
-  },
-  "prov:qualifiedAttribution": [
-    {
-      "prov:agent": "p-8397553",
-      "dcat:hadRole": "businessDataOwner"
+    "dct:identifier": "4ef1675b-529a-484b-9d7d-e3bd078f2ac6",
+    "schema:image": "https://fal.media/files/panda/cG6k1Wc-cTObENvKUulaJ_bfd16908431249a296b2fd2cab350caa.jpg",
+    "dct:title": {
+        "de": "Schweizer Betriebsinspektionsdaten zu Compliance-Ergebnissen und betrieblichen Strukturindikatoren",
+        "fr": "Données d’inspections agricoles suisses sur les résultats de conformité et les indicateurs structurels des exploitations",
+        "it": "Dati svizzeri sulle ispezioni aziendali: risultati di conformità e indicatori strutturali delle aziende agricole",
+        "en": "Swiss farm-inspections data about compliance outcomes and farm structural indicators"
     },
-    {
-      "prov:agent": "p-1ZFWFFNP6",
-      "schema:name": "Damian Oswald",
-      "schema:email": "damian.oswald@blw.admin.ch",
-      "dcat:hadRole": "dataSteward"
-    }
-  ],
-  "dct:issued": "2025-05-23",
-  "dct:modified": "2025-05-28",
-  "dct:accrualPeriodicity": "ANNUAL",
-  "dct:temporal": {
-    "dcat:start_date": "2019-01-01",
-    "dcat:end_date": "2025-04-30"
-  },
-  "bv:abrogation": "",
-  "dct:spatial": "Switzerland",
-  "dcat:inSeries": "",
-  "prov:wasDerivedFrom": [
-    "https://agriculture.ld.admin.ch/system-map/S9VcxLSoIIwQjoexY",
-    "https://agriculture.ld.admin.ch/system-map/SvDlxaJ5YMkuZGH6k",
-    "https://agriculture.ld.admin.ch/system-map/SYOd1TkacTh6cr0xP",
-    "https://agriculture.ld.admin.ch/system-map/SlfheulBjlQDwuaIM",
-    "https://agriculture.ld.admin.ch/system-map/SU88cJmqj8nBRl2KZ"
-  ],
-  "dcat:version": "1.0",
-  "bv:archivalValue": false
+    "dct:description": {
+        "de": "Diese Datensammlung enthält 593000 pseudonymisierte Inspektionsdatensätze auf Betrieb-Jahr-Ebene, die zwischen 2019 und 2025 in allen Schweizer Kantonen erhoben wurden. Jede Zeile beschreibt eine Vor-Ort-Kontrolle und verknüpft Datum, Typ, thematischen Schwerpunkt und Pass/Fail-Resultat mit über 70 Strukturmerkmalen wie Flächennutzung, Tierbestand, Arbeitskapazität (SAK), Nährstoffbilanzen sowie der Anspruchsberechtigung für Direktzahlungen oder Biobeiträge. Gehashte Kennungen wahren die Anonymität, ermöglichen jedoch Längsschnittanalysen desselben Betriebs und Kontrollthemas. Die umfassende Variablenbasis unterstützt Forschungen zu Compliance-Dynamiken, risikobasierten Stichprobenstrategien und der digitalen Transformation des Schweizer Agrar- und Lebensmittelsektors.",
+        "fr": "Cet ensemble de données comprend 593000 enregistrements d’inspections, pseudonymisés au niveau exploitation-année, recueillis dans l’ensemble des cantons suisses entre 2019 et 2025. Chaque ligne représente une visite de contrôle sur site et associe la date, le type, le thème d’inspection et le résultat «Pass»/«Fail» à plus de 70 attributs structurels tels que la composition de l’usage des terres, la structure du cheptel, la capacité de travail (UST), les bilans de nutriments et l’éligibilité aux paiements directs ou aux primes biologiques. Des identifiants hachés préservent l’anonymat tout en permettant des analyses longitudinales des mêmes exploitations et thèmes de contrôle. La richesse des variables favorise la recherche sur les dynamiques de conformité réglementaire, les stratégies d’échantillonnage fondées sur les risques et la transformation numérique du secteur agroalimentaire suisse.",
+        "it": "Questo dataset contiene 593000 record anonimizzati di ispezioni azienda-anno raccolti in tutti i cantoni svizzeri tra il 2019 e il 2025. Ogni riga rappresenta un controllo in azienda e collega data, tipologia, tema dell’ispezione ed esito «Pass»/«Fail» a oltre 70 attributi strutturali quali composizione dell’uso del suolo, consistenza del bestiame, capacità lavorativa (UTA), bilanci nutritivi e ammissibilità ai pagamenti diretti o ai premi biologici. Gli identificatori hash mantengono l’anonimato pur consentendo analisi longitudinali degli stessi soggetti e temi di controllo. L’ampiezza delle variabili supporta ricerche sulle dinamiche di conformità normativa, sulle strategie di campionamento basate sul rischio e sulla trasformazione digitale del settore agro-alimentare svizzero.",
+        "en": "This dataset contains 593000 de-identified, farm-year inspection records gathered across all Swiss cantons between 2019 and 2025. Each row represents one on-farm control visit and links the inspection’s date, type, thematic focus and pass/fail outcome with 70+ structural attributes such as land use composition, herd structure, labour capacity (SAK), nutrient-balance indicators and eligibility for direct payments or organic premiums. Hashed IDs preserve anonymity while enabling longitudinal analyses of the same holdings and control themes. The breadth of variables supports research into regulatory compliance dynamics, risk-based sampling strategies and the ongoing digital transformation of Switzerland’s agri-food sector."
+    },
+    "dcat:theme": [
+        "agriculture",
+        "administration"
+    ],
+    "dcat:keyword": [
+        "farm-inspections",
+        "machine-learning",
+        "statistical-learning",
+        "structural-data",
+        "AGIS",
+        "Acontrol",
+        "TVD",
+        "HODUFLU"
+    ],
+    "adms:status": "workInProgress",
+    "dct:accessRights": "CONFIDENTIAL",
+    "dcatap:availability": "EXPERIMENTAL",
+    "bv:classification": "internal",
+    "bv:personalData": "sensitivePersonalData",
+    "bv:typeOfData": "secondaryThematicData",
+    "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+    "dcat:contactPoint": {
+        "schema:name": "Kompetenzzentrum für die digitale Transformation",
+        "schema:email": "kompetenzzentrumdigitaletransformation@blw.admin.ch"
+    },
+    "prov:qualifiedAttribution": [
+        {
+            "prov:agent": "p-8397553",
+            "dcat:hadRole": "dataOwner"
+        },
+        {
+            "prov:agent": "p-1ZFWFFNP6",
+            "schema:name": "Damian Oswald",
+            "schema:email": "damian.oswald@blw.admin.ch",
+            "dcat:hadRole": "dataSteward"
+        }
+    ],
+    "dct:issued": "2025-05-23",
+    "dct:modified": "2025-05-28",
+    "dct:accrualPeriodicity": "ANNUAL",
+    "dct:temporal": {
+        "dcat:start_date": "2019-01-01",
+        "dcat:end_date": "2025-04-30"
+    },
+    "bv:abrogation": "",
+    "dct:spatial": "Switzerland",
+    "dcat:inSeries": "",
+    "prov:wasDerivedFrom": [
+        "https://agriculture.ld.admin.ch/system-map/S9VcxLSoIIwQjoexY",
+        "https://agriculture.ld.admin.ch/system-map/SvDlxaJ5YMkuZGH6k",
+        "https://agriculture.ld.admin.ch/system-map/SYOd1TkacTh6cr0xP",
+        "https://agriculture.ld.admin.ch/system-map/SlfheulBjlQDwuaIM",
+        "https://agriculture.ld.admin.ch/system-map/SU88cJmqj8nBRl2KZ"
+    ],
+    "dcat:version": "1.0",
+    "bv:archivalValue": false
 }

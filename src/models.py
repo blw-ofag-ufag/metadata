@@ -66,7 +66,7 @@ class DatasetInput(BaseModel):
     # Responsible Parties
     publisher: Optional[str] = Field(alias="dct:publisher", default=None)
     contact_point: Optional[Dict[str, Any]] = Field(alias="dcat:contactPoint", default=None)
-    business_owner: Optional[str] = Field(alias="businessDataOwner", default=None)
+    business_owner: Optional[str] = Field(alias="dataOwner", default=None)
 
     # Dates & Legal
     issued: Optional[str] = Field(alias="dct:issued", default=None)
