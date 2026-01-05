@@ -635,7 +635,8 @@
         "dcat:keyword": [
             "controls",
             "direct-payments",
-            "proof-of-ecological-performance"
+            "proof-of-ecological-performance",
+            "Acontrol"
         ],
         "adms:status": "published",
         "dct:accessRights": "PUBLIC",
@@ -739,7 +740,7 @@
         "dataOwner": "p-8397553",
         "schemaViolations": 0,
         "schemaViolationMessages": [],
-        "quality": 6286.0
+        "quality": 6307.0
     },
     {
         "rdf:type": "dcat:Dataset",
