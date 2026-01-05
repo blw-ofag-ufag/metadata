@@ -2387,7 +2387,8 @@
             "controls",
             "direct-payments",
             "summer-grazing",
-            "alpine-farming"
+            "alpine-farming",
+            "ACONTROL"
         ],
         "adms:status": "published",
         "dct:accessRights": "PUBLIC",
@@ -2425,7 +2426,7 @@
         "schemaViolationMessages": [
             "'dct:issued' is a required property"
         ],
-        "quality": 1680.5
+        "quality": 1691.0
     },
     {
         "rdf:type": "dcat:Dataset",
