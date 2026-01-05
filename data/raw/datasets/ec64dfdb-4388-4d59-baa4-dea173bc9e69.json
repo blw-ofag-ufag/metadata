@@ -20,7 +20,8 @@
         "controls",
         "direct-payments",
         "summer-grazing",
-        "alpine-farming"
+        "alpine-farming",
+        "ACONTROL"
     ],
     "adms:status": "published",
     "dct:accessRights": "PUBLIC",
