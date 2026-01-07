@@ -1,0 +1,44 @@
+{
+  "dct:identifier": "1503698f-b889-45fc-944c-0465d18ad0fd",
+  "dct:title": {
+    "de": "Landwirtschaftliche Strukturdaten",
+    "fr": "Données structurelles agricoles"
+  },
+  "dct:description": {
+    "de": "Die landwirtschaftliche Strukturerhebung erfasst jährlich seit 1997 die Struktur aller Landwirtschaftsbetriebe in der Schweiz und basiert hauptsächlich auf administrativen Daten. Sie deckt nahezu 100 % der Betriebe ab und erfasst Variablen wie Betriebsgrössen, Anbauflächen, Nutztierbestände und Beschäftigte. Die Erhebung dient der statistischen Analyse der Landwirtschaft, der Aktualisierung des Betriebsregisters und der agrarpolitischen Entscheidungsfindung.",
+    "fr": "Depuis 1997, l'enquête sur la structure agricole recense chaque année la structure de toutes les exploitations agricoles en Suisse et se base principalement sur des données administratives. Elle couvre près de 100 % des exploitations et recense des variables telles que la taille des exploitations, les surfaces cultivées, les cheptels et les effectifs. L'enquête sert à l'analyse statistique de l'agriculture, à la mise à jour du registre des exploitations et à la prise de décision en matière de politique agricole."
+  },
+  "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+  "dcat:contactPoint": {
+    "schema:name": "Fachbereich Agrarinformationssysteme",
+    "schema:email": "agis@blw.admin.ch"
+  },
+  "dcat:keyword": {
+    "a": {
+      "de": "AGIS",
+      "fr": "SIPA"
+    }
+  },
+  "dct:accrualPeriodicity": "ANNUAL",
+  "prov:qualifiedAttribution": [
+    {
+      "prov:agent": "p-5367735",
+      "dcat:hadRole": "dataOwner"
+    },
+    {
+      "prov:agent": "p-2837075",
+      "dcat:hadRole": "dataSteward"
+    },
+    {
+      "prov:agent": "p-1YSGW13QG",
+      "dcat:hadRole": "dataCustodian"
+    }
+  ],
+  "adms:status": "workInProgress",
+  "bv:classification": "internal",
+  "bv:personalData": "personalData",
+  "bv:archivalValue": false,
+  "dcat:theme": [
+    "agriculture"
+  ]
+}

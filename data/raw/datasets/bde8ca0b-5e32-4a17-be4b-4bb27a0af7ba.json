@@ -1,0 +1,141 @@
+{
+  "dct:identifier": "bde8ca0b-5e32-4a17-be4b-4bb27a0af7ba",
+  "dct:title": {
+    "de": "Register Ursprungsbezeichnungen (GUB) und geografische Angaben (GGA)",
+    "fr": "Registre des appellations d'origine (AOP) et des indications géographiques ",
+    "it": "Registro delle denominazioni di origine (DOP) e delle indicazioni geografic",
+    "en": "Register of designations of origin (PDO) and geographical indications (PGI)"
+  },
+  "dct:description": {
+    "de": "Mit dem Register Ursprungsbezeichnungen (GUB) und geografischen Angaben (GGA) lassen sich die Gebietsnamen und traditionellen Bezeichnungen von landwirtschaftlichen Erzeugnissen schützen (Wein ausgenommen), deren Qualität und Haupteigenschaften durch ihre geografische Herkunft bestimmt werden. Ist ein Name geschützt, darf er nur von den Produzentinnen und Produzenten des entsprechend definierten geografischen Gebiets benutzt werden, die sich an ein detailliertes Pflichtenheft halten. Der Schutz bestimmter Bezeichnungen für Landwirtschaftsprodukte bezweckt, die Konsumentinnen und Konsumenten vor Täuschung zu schützen und - im Interesse der Bäuerinnen und Bauern - den unlauteren Wettbewerb in der Verwendung dieser Begriffe zu verhindern. Die Regelungen in diesem Bereich ermöglichen, die gegenseitige Anerkennung von Qualitätsprodukten zwischen der Schweiz und der Europäischen Union. Es wird zwischen den fünf Kategorien Spirituosen, pflanzlichen Produkten, Konditoreiwaren, Käse und Fleischwaren unterschieden. Aktuell sind gegen 30 verschiedene Erzeugnisse im Register Ursprungsbezeichnungen eingetragen und es kommen laufend neue dazu.\n\nDieses Geodatenprodukt enthält folgende \"Layer\", welche jeweils in mehreren Distributionen verfügbar sind:\n- Spirituosen\n- Pflanzliche Produkte\n- Konditoreiware\n- Käse\n- Fleischware",
+    "fr": "Le registre des appellations d’origine (AOP) et des indications géographiques (IGP) sert à protéger les noms géographiques et les dénominations traditionnelles qui désignent des produits agricoles (autres que le vin) dont l’identité et les principales caractéristiques sont déterminées par leur origine. Lorsqu’un nom est protégé, son utilisation est réservée aux producteurs de l’aire géographique définie, pour autant qu’ils respectent un cahier des charges détaillé. La protection de certaines désignations de produits agricoles vise à défendre les consommateurs contre la tromperie et à protéger les paysans contre la concurrence déloyale quant à l’utilisation de ces désignations. La réglementation applicable dans ce domaine permet la reconnaissance réciproque des produits de qualité entre la Suisse et l’Union européenne. Les AOP/IGP sont réparties en cinq catégories : spiritueux, produits végétaux, pâtisserie,  fromages et produits à base de viande . \n\nEnviron 30 produits sont aujourd’hui inscrits au registre des appellations d’origine, qui en accueille en permanence de nouveaux.\n\nCe produit de géodonnées contient les « couches » suivantes, qui sont chacune disponibles dans plusieurs distributions :\n- spiritueux\n- produits végétaux\n- pâtisserie\n- fromage\n- produits à base de viande",
+    "it": "Il Registro delle denominazioni di origine (DOP) e delle indicazioni geografiche (IGP) consente di tutelare i nomi geografici e tradizionali che designano prodotti agricoli (ad eccezione del vino) la cui qualità e le cui caratteristiche principali sono determinate dalla loro origine. L'utilizzo di un nome protetto è appannaggio dei produttori della zona geografica definita che ottemperano ad un dettagliato elenco degli obblighi. La protezione di determinate denominazioni di prodotti agricoli è finalizzata a tutelare i consumatori dalle frodi e a proteggere i contadini dalla concorrenza sleale dovuta all'abuso delle denominazioni. La regolamentazione applicabile in questo settore permette il reciproco riconoscimento dei prodotti di qualità tra Svizzera e UE. Le DOP/IGP sono suddivise in cinque categorie: Distillati, Prodotti vegetali, Prodotti di pasticceria, Formaggio e Prodotti carnei. Attualmente il registro delle DOP/IGP conta 30 prodotti e il numero di registrazioni è in costante aumento.\n\nQuesto prodotto di geodati contiene i seguenti “livelli”, ciascuno dei quali è disponibile in diverse distribuzioni:\n- Distillati\n- Prodotti vegetali\n- Prodotti di pasticceria\n- Formaggio\n- Prodotti carnei",
+    "en": "The register of designations of origin (PDO) and geographical indications (PGI) allows the region names and traditional designations of agricultural products to be protected (with the exception of wine), where the quality and the main characteristics of the products are determined by their geographical origin. If a name is protected, it can only be used by producers in the specified geographical region, who must comply with a detailed requirements specification. The purpose of protecting certain designations of agricultural products is to prevent consumers from being exposed to fraud and, in the interests of farmers, to stop unfair competition relating to the use of the designations. The rules in this area allow for the mutual recognition of quality products by Switzerland and the European Union. There are five categories: spirits, products of plant origin, confectionery,  cheese and meat products. The register of designations of origin currently contains around 30 different products and new ones are frequently being added.\n\nThis geodata product contains the following layers, each of which is available in several distributions:\n- spirits\n- products of plant origin\n- confectionery\n- cheese\n- meat products"
+  },
+  "dct:accessRights": "PUBLIC",
+  "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+  "dcat:contactPoint": {
+    "schema:name": "info@blw.admin.ch",
+    "schema:email": "info@blw.admin.ch"
+  },
+  "dcat:keyword": {
+    "protected_designation_of_origin": {
+      "de": "protected-designation-of-origin"
+    },
+    "protected_geographical_indication": {
+      "de": "protected-geographical-indication"
+    },
+    "processed_agricultural_produce": {
+      "de": "processed-agricultural-produce"
+    },
+    "alcohol": {
+      "de": "alcohol"
+    },
+    "distillation": {
+      "de": "distillation"
+    },
+    "area_management": {
+      "de": "area-management"
+    },
+    "zoning": {
+      "de": "zoning"
+    },
+    "reporting_unit": {
+      "de": "reporting-unit"
+    },
+    "land_use": {
+      "de": "land-use"
+    },
+    "fsdi": {
+      "de": "FSDI"
+    },
+    "crop_production": {
+      "de": "crop-production"
+    },
+    "plant_resource": {
+      "de": "plant-resource"
+    },
+    "confectionery": {
+      "de": "confectionery"
+    },
+    "dairy_product": {
+      "de": "dairy-product"
+    },
+    "meat": {
+      "de": "meat"
+    }
+  },
+  "dct:accrualPeriodicity": "UNKNOWN",
+  "prov:qualifiedAttribution": [
+    {
+      "prov:agent": "p-8109932",
+      "schema:name": "Beat Tschumi",
+      "schema:email": "beat.tschumi@blw.admin.ch",
+      "dcat:hadRole": "dataSteward"
+    },
+    {
+      "prov:agent": "p-8757693",
+      "schema:name": "Cornelia Schmid",
+      "schema:email": "cornelia.schmid@blw.admin.ch",
+      "dcat:hadRole": "dataOwner"
+    },
+    {
+      "prov:agent": "p-2837075",
+      "schema:name": "Alexandra Altorfer",
+      "schema:email": "alexandra.altorfer@blw.admin.ch",
+      "dcat:hadRole": "dataOwner"
+    }
+  ],
+  "adms:status": "published",
+  "bv:classification": "none",
+  "bv:personalData": "none",
+  "bv:typeOfData": "secondaryThematicData",
+  "bv:archivalValue": false,
+  "dcat:theme": [
+    "agriculture"
+  ],
+  "dcat:landingPage": "https://www.blw.admin.ch/blw/de/home/instrumente/kennzeichnung/ursprungsbezeichungen-und-geografische-angaben.html",
+  "dct:spatial": "Switzerland",
+  "schema:comment": "Imported from opendata.swiss on 2025-03-10",
+  "dcat:distribution": [
+    {
+      "dct:identifier": "8ecf24cb-824c-47de-8881-e1f437806f17",
+      "dcat:accessURL": "https://map.geo.admin.ch/?layers=ch.blw.ursprungsbezeichnungen-spirituosen",
+      "adms:status": "published",
+      "dcatap:availability": "AVAILABLE",
+      "dct:format": "SERVICE",
+      "dct:title": {
+        "de": "Layer \"Spirituosen\" map.geo.admin.ch",
+        "fr": "Layer  \"Spiritueux\" map.geo.admin.ch",
+        "it": "Layer \"Distillati\" map.geo.admin.ch",
+        "en": "Layer \"spirits\" map.geo.admin.ch"
+      },
+      "dct:description": {
+        "de": "Vorschau der GUB und GGA Layer Spirituosen auf map.geo.admin.ch",
+        "fr": "Aperçu du GUB et GGA Layer \"Spiritueux\" sur map.geo.admin.ch",
+        "it": "Anteprima dei layer GUB e GGA \"Distillati\" su map.geo.admin.ch",
+        "en": "Preview of the GUB and GGA Layer \"Spirits\" on map.geo.admin.ch"
+      },
+      "dct:license": "terms_by",
+      "schema:comment": "ID for this distribution on opendata.swiss: 557de072-983b-4821-a140-6c605d99a381"
+    },
+    {
+      "dct:identifier": "d2b5e687-b277-49ad-b41e-27c062b8815f",
+      "dcat:accessURL": "https://map.geo.admin.ch/?layers=ch.blw.ursprungsbezeichnungen-pflanzen",
+      "adms:status": "published",
+      "dct:format": "SERVICE",
+      "dct:title": {
+        "de": "Layer \"Pflanzliche Produkte\" map.geo.admin.ch",
+        "fr": "Layer \"produits végétaux\" map.geo.admin.ch",
+        "it": "Layer \"Prodotti vegetali\" map.geo.admin.ch",
+        "en": "Layer \"products of plant origin\" map.geo.admin.ch"
+      },
+      "dct:description": {
+        "de": "Vorschau der GUB und GGA Layer Pflanzliche Produkte auf map.geo.admin.ch ",
+        "fr": "Aperçu du GUB et GGA Layer \"produits végétaux\"",
+        "it": "Anteprima dei GUB e GGA Layer \"Prodotti vegetali\"",
+        "en": "Preview of the GUB and GGA Layer \"products of plant origin\""
+      }
+    }
+  ]
+}
