@@ -1904,53 +1904,6 @@
             "schema:name": "info@blw.admin.ch",
             "schema:email": "info@blw.admin.ch"
         },
-        "dcat:keyword": {
-            "protected_designation_of_origin": {
-                "de": "protected-designation-of-origin"
-            },
-            "protected_geographical_indication": {
-                "de": "protected-geographical-indication"
-            },
-            "processed_agricultural_produce": {
-                "de": "processed-agricultural-produce"
-            },
-            "alcohol": {
-                "de": "alcohol"
-            },
-            "distillation": {
-                "de": "distillation"
-            },
-            "area_management": {
-                "de": "area-management"
-            },
-            "zoning": {
-                "de": "zoning"
-            },
-            "reporting_unit": {
-                "de": "reporting-unit"
-            },
-            "land_use": {
-                "de": "land-use"
-            },
-            "fsdi": {
-                "de": "FSDI"
-            },
-            "crop_production": {
-                "de": "crop-production"
-            },
-            "plant_resource": {
-                "de": "plant-resource"
-            },
-            "confectionery": {
-                "de": "confectionery"
-            },
-            "dairy_product": {
-                "de": "dairy-product"
-            },
-            "meat": {
-                "de": "meat"
-            }
-        },
         "dct:accrualPeriodicity": "UNKNOWN",
         "adms:status": "published",
         "bv:classification": "none",
@@ -2005,13 +1958,12 @@
             }
         ],
         "dataOwner": "p-8757693",
-        "schemaViolations": 3,
+        "schemaViolations": 2,
         "schemaViolationMessages": [
             "'dct:issued' is a required property",
-            "{'protected_designation_of_origin': {'de': 'protected-designation-of-origin'}, 'protected_geographical_indication': {'de': 'protected-geographical-indication'}, 'processed_agricultural_produce': {'de': 'processed-agricultural-produce'}, 'alcohol': {'de': 'alcohol'}, 'distillation': {'de': 'distillation'}, 'area_management': {'de': 'area-management'}, 'zoning': {'de': 'zoning'}, 'reporting_unit': {'de': 'reporting-unit'}, 'land_use': {'de': 'land-use'}, 'fsdi': {'de': 'FSDI'}, 'crop_production': {'de': 'crop-production'}, 'plant_resource': {'de': 'plant-resource'}, 'confectionery': {'de': 'confectionery'}, 'dairy_product': {'de': 'dairy-product'}, 'meat': {'de': 'meat'}} is not of type 'array', 'null'",
             "'Layer \"spirits\" map.geo.admin.ch' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'"
         ],
-        "quality": 2451.0
+        "quality": 2954.0
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -2494,53 +2446,6 @@
             "schema:name": "info@blw.admin.ch",
             "schema:email": "info@blw.admin.ch"
         },
-        "dcat:keyword": {
-            "protected_designation_of_origin": {
-                "de": "protected-designation-of-origin"
-            },
-            "protected_geographical_indication": {
-                "de": "protected-geographical-indication"
-            },
-            "processed_agricultural_produce": {
-                "de": "processed-agricultural-produce"
-            },
-            "alcohol": {
-                "de": "alcohol"
-            },
-            "distillation": {
-                "de": "distillation"
-            },
-            "area_management": {
-                "de": "area-management"
-            },
-            "zoning": {
-                "de": "zoning"
-            },
-            "reporting_unit": {
-                "de": "reporting-unit"
-            },
-            "land_use": {
-                "de": "land-use"
-            },
-            "fsdi": {
-                "de": "FSDI"
-            },
-            "crop_production": {
-                "de": "crop-production"
-            },
-            "plant_resource": {
-                "de": "plant-resource"
-            },
-            "confectionery": {
-                "de": "confectionery"
-            },
-            "dairy_product": {
-                "de": "dairy-product"
-            },
-            "meat": {
-                "de": "meat"
-            }
-        },
         "dct:accrualPeriodicity": "UNKNOWN",
         "adms:status": "published",
         "bv:classification": "none",
@@ -2660,10 +2565,9 @@
             }
         ],
         "dataOwner": "p-8757693",
-        "schemaViolations": 8,
+        "schemaViolations": 7,
         "schemaViolationMessages": [
             "'dct:issued' is a required property",
-            "{'protected_designation_of_origin': {'de': 'protected-designation-of-origin'}, 'protected_geographical_indication': {'de': 'protected-geographical-indication'}, 'processed_agricultural_produce': {'de': 'processed-agricultural-produce'}, 'alcohol': {'de': 'alcohol'}, 'distillation': {'de': 'distillation'}, 'area_management': {'de': 'area-management'}, 'zoning': {'de': 'zoning'}, 'reporting_unit': {'de': 'reporting-unit'}, 'land_use': {'de': 'land-use'}, 'fsdi': {'de': 'FSDI'}, 'crop_production': {'de': 'crop-production'}, 'plant_resource': {'de': 'plant-resource'}, 'confectionery': {'de': 'confectionery'}, 'dairy_product': {'de': 'dairy-product'}, 'meat': {'de': 'meat'}} is not of type 'array', 'null'",
             "'Layer \"spirits\" map.geo.admin.ch' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
             "'Layer \"pâtisserie\" map.geo.admin.ch' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
             "'Layer \"Käse\" map.geo.admin.ch' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
@@ -2671,7 +2575,7 @@
             "'Layer \"Formaggio\" map.geo.admin.ch' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
             "'Layer \"cheese\" map.geo.admin.ch' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'"
         ],
-        "quality": 1410.4444444444443
+        "quality": 1469.0
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -6770,6 +6674,37 @@
     },
     {
         "rdf:type": "dcat:Dataset",
+        "dct:identifier": "1503698f-b889-45fc-944c-0465d18ad0fd",
+        "dct:title": {
+            "de": "Landwirtschaftliche Strukturdaten",
+            "fr": "Données structurelles agricoles"
+        },
+        "dct:description": {
+            "de": "Die landwirtschaftliche Strukturerhebung erfasst jährlich seit 1997 die Struktur aller Landwirtschaftsbetriebe in der Schweiz und basiert hauptsächlich auf administrativen Daten. Sie deckt nahezu 100 % der Betriebe ab und erfasst Variablen wie Betriebsgrössen, Anbauflächen, Nutztierbestände und Beschäftigte. Die Erhebung dient der statistischen Analyse der Landwirtschaft, der Aktualisierung des Betriebsregisters und der agrarpolitischen Entscheidungsfindung.",
+            "fr": "Depuis 1997, l'enquête sur la structure agricole recense chaque année la structure de toutes les exploitations agricoles en Suisse et se base principalement sur des données administratives. Elle couvre près de 100 % des exploitations et recense des variables telles que la taille des exploitations, les surfaces cultivées, les cheptels et les effectifs. L'enquête sert à l'analyse statistique de l'agriculture, à la mise à jour du registre des exploitations et à la prise de décision en matière de politique agricole."
+        },
+        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+        "dcat:contactPoint": {
+            "schema:name": "Fachbereich Agrarinformationssysteme",
+            "schema:email": "agis@blw.admin.ch"
+        },
+        "dct:accrualPeriodicity": "ANNUAL",
+        "adms:status": "workInProgress",
+        "bv:classification": "internal",
+        "bv:personalData": "personalData",
+        "bv:archivalValue": false,
+        "dcat:theme": [
+            "agriculture"
+        ],
+        "dataOwner": "p-5367735",
+        "schemaViolations": 1,
+        "schemaViolationMessages": [
+            "'dct:issued' is a required property"
+        ],
+        "quality": 949.0
+    },
+    {
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "428f6bd7-3ecf-4c95-9adc-d7d635f56449",
         "dct:title": {
             "fr": "Cartes des aptitudes climatiques pour l'agriculture en Suisse - maïs grain",
@@ -8766,44 +8701,6 @@
     },
     {
         "rdf:type": "dcat:Dataset",
-        "dct:identifier": "1503698f-b889-45fc-944c-0465d18ad0fd",
-        "dct:title": {
-            "de": "Landwirtschaftliche Strukturdaten",
-            "fr": "Données structurelles agricoles"
-        },
-        "dct:description": {
-            "de": "Die landwirtschaftliche Strukturerhebung erfasst jährlich seit 1997 die Struktur aller Landwirtschaftsbetriebe in der Schweiz und basiert hauptsächlich auf administrativen Daten. Sie deckt nahezu 100 % der Betriebe ab und erfasst Variablen wie Betriebsgrössen, Anbauflächen, Nutztierbestände und Beschäftigte. Die Erhebung dient der statistischen Analyse der Landwirtschaft, der Aktualisierung des Betriebsregisters und der agrarpolitischen Entscheidungsfindung.",
-            "fr": "Depuis 1997, l'enquête sur la structure agricole recense chaque année la structure de toutes les exploitations agricoles en Suisse et se base principalement sur des données administratives. Elle couvre près de 100 % des exploitations et recense des variables telles que la taille des exploitations, les surfaces cultivées, les cheptels et les effectifs. L'enquête sert à l'analyse statistique de l'agriculture, à la mise à jour du registre des exploitations et à la prise de décision en matière de politique agricole."
-        },
-        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
-        "dcat:contactPoint": {
-            "schema:name": "Fachbereich Agrarinformationssysteme",
-            "schema:email": "agis@blw.admin.ch"
-        },
-        "dcat:keyword": {
-            "a": {
-                "de": "AGIS",
-                "fr": "SIPA"
-            }
-        },
-        "dct:accrualPeriodicity": "ANNUAL",
-        "adms:status": "workInProgress",
-        "bv:classification": "internal",
-        "bv:personalData": "personalData",
-        "bv:archivalValue": false,
-        "dcat:theme": [
-            "agriculture"
-        ],
-        "dataOwner": "p-5367735",
-        "schemaViolations": 2,
-        "schemaViolationMessages": [
-            "'dct:issued' is a required property",
-            "{'a': {'de': 'AGIS', 'fr': 'SIPA'}} is not of type 'array', 'null'"
-        ],
-        "quality": 659.6666666666666
-    },
-    {
-        "rdf:type": "dcat:Dataset",
         "dct:identifier": "5361e7d7-4ac9-43ab-bdb3-dbec0f030033",
         "dct:title": {
             "de": "Programme/Label",
@@ -9749,21 +9646,15 @@
             "fr": "discardMe_2"
         },
         "dct:publisher": "BLW-OFAG-UFAG-FOAG",
-        "dcat:keyword": {
-            "e": {
-                "de": "Exklulsiv_Deutsch"
-            }
-        },
         "adms:status": "workInProgress",
         "bv:classification": "none",
         "bv:personalData": "none",
         "dataOwner": "p-5699404",
-        "schemaViolations": 2,
+        "schemaViolations": 1,
         "schemaViolationMessages": [
-            "'dct:issued' is a required property",
-            "{'e': {'de': 'Exklulsiv_Deutsch'}} is not of type 'array', 'null'"
+            "'dct:issued' is a required property"
         ],
-        "quality": 238.33333333333334
+        "quality": 272.5
     },
     {
         "rdf:type": "dcat:Dataset",
