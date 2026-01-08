@@ -161,7 +161,7 @@
                 "null"
             ],
             "title": "Keywords",
-            "description": "Keywords describing the dataset.",
+            "description": "Keywords describing the dataset. Here, we use keys to a dedicated keyword glossary.",
             "items": {
                 "type": "string"
             }
