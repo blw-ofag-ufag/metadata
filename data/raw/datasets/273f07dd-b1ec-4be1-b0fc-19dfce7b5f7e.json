@@ -18,53 +18,6 @@
     "schema:name": "info@blw.admin.ch",
     "schema:email": "info@blw.admin.ch"
   },
-  "dcat:keyword": {
-    "protected_designation_of_origin": {
-      "de": "protected-designation-of-origin"
-    },
-    "protected_geographical_indication": {
-      "de": "protected-geographical-indication"
-    },
-    "processed_agricultural_produce": {
-      "de": "processed-agricultural-produce"
-    },
-    "alcohol": {
-      "de": "alcohol"
-    },
-    "distillation": {
-      "de": "distillation"
-    },
-    "area_management": {
-      "de": "area-management"
-    },
-    "zoning": {
-      "de": "zoning"
-    },
-    "reporting_unit": {
-      "de": "reporting-unit"
-    },
-    "land_use": {
-      "de": "land-use"
-    },
-    "fsdi": {
-      "de": "FSDI"
-    },
-    "crop_production": {
-      "de": "crop-production"
-    },
-    "plant_resource": {
-      "de": "plant-resource"
-    },
-    "confectionery": {
-      "de": "confectionery"
-    },
-    "dairy_product": {
-      "de": "dairy-product"
-    },
-    "meat": {
-      "de": "meat"
-    }
-  },
   "dct:accrualPeriodicity": "UNKNOWN",
   "prov:qualifiedAttribution": [
     {

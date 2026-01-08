@@ -27,10 +27,6 @@ jobs:
       - name: Run Combine Datasets Script
         run: python automation/combine-datasets.py
 
-      - name: Extract all keywords
-        run: python automation/keyword-extraction.py
-
-
       - name: Commit and Push Changes
         run: |
           git config --global user.name "github-actions[bot]"
