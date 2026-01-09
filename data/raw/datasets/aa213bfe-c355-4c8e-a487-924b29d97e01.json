@@ -14,24 +14,24 @@
     "en": "The Agricultural Policy Information System (AGIS) contains the following data on aquaculture operations in Switzerland: structure and register data of the operation, the aquatic animal species, annual production volume in kg, type of husbandry, production form, type of water supply and wastewater disposal."
   },
   "dct:accessRights": "PUBLIC",
+  "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+  "dcat:contactPoint": {
+    "schema:name": "Fachbereich Agrarinformationssysteme",
+    "schema:email": "agis@blw.admin.ch"
+  },
   "dct:issued": "2025-02-01",
   "dcat:keyword": [
-    "wastewater",
+    "AGIS",
     "aquaculture",
-    "aquatic-animals"
+    "aquatic-animals",
+    "wastewater"
   ],
   "dct:accrualPeriodicity": "AS_NEEDED",
   "dct:modified": "2025-02-01",
-  "dct:publisher": "BLW-OFAG-UFAG-FOAG",
-  "dcat:contactPoint": {
-    "schema:email": "agis@blw.admin.ch",
-    "schema:name": "Fachbereich Agrarinformationssysteme"
-  },
-  "bv:archivalValue": false,
   "prov:qualifiedAttribution": [
     {
       "prov:agent": "p-5367735",
-      "dcat:hadRole": "businessDataOwner"
+      "dcat:hadRole": "dataOwner"
     },
     {
       "prov:agent": "p-2049HHGTR",
@@ -42,6 +42,7 @@
   "bv:classification": "none",
   "bv:personalData": "none",
   "bv:typeOfData": "referenceData",
+  "bv:archivalValue": false,
   "dcat:theme": [
     "agriculture"
   ],
@@ -52,6 +53,10 @@
   "dcat:distribution": [
     {
       "dct:identifier": "7f82331a-eb8a-4890-b8de-e4624ba4af4c",
+      "dcat:accessURL": "https://input.i14y.admin.ch/api/Metadata/concepts/byId/08dd50de-ea53-b497-8a45-39bd23beff61/codeListEntries/export/json",
+      "adms:status": "published",
+      "dct:format": "JSON",
+      "dcat:downloadURL": "https://input.i14y.admin.ch/api/Metadata/concepts/byId/08dd50de-ea53-b497-8a45-39bd23beff61/codeListEntries/export/json",
       "dct:title": {
         "de": "Codes für Aquakultur-Betriebe",
         "fr": "Codes pour les exploitations aquacoles",
@@ -64,15 +69,14 @@
         "it": "Il sistema d'informazione sulla politica agricola (SIPA) contiene i seguenti dati sulle aziende di acquacoltura in Svizzera: dati strutturali e di registro dell'azienda, specie acquatica, quantità di produzione annuale in kg, tipo di allevamento, forma di produzione, tipo di approvvigionamento idrico e smaltimento delle acque reflue.",
         "en": "The Agricultural Policy Information System (AGIS) contains the following data on aquaculture operations in Switzerland: structure and register data of the operation, the aquatic animal species, annual production volume in kg, type of husbandry, production form, type of water supply and wastewater disposal."
       },
-      "dct:modified": "2025-02-01",
-      "adms:status": "published",
-      "dcat:accessURL": "https://input.i14y.admin.ch/api/Metadata/concepts/byId/08dd50de-ea53-b497-8a45-39bd23beff61/codeListEntries/export/json",
-      "dcat:downloadURL": "https://input.i14y.admin.ch/api/Metadata/concepts/byId/08dd50de-ea53-b497-8a45-39bd23beff61/codeListEntries/export/json",
-      "dct:format": "JSON",
       "dct:license": "terms_by"
     },
     {
       "dct:identifier": "c994e34b-9367-448d-91e0-a5860f254620",
+      "dcat:accessURL": "https://input.i14y.admin.ch/api/Metadata/concepts/byId/08dd50de-ea53-b497-8a45-39bd23beff61/codeListEntries/export/csv",
+      "adms:status": "published",
+      "dct:format": "CSV",
+      "dcat:downloadURL": "https://input.i14y.admin.ch/api/Metadata/concepts/byId/08dd50de-ea53-b497-8a45-39bd23beff61/codeListEntries/export/csv",
       "dct:title": {
         "de": "Codes für Aquakultur-Betriebe",
         "fr": "Codes pour les exploitations aquacoles",
@@ -85,13 +89,7 @@
         "it": "Il sistema d'informazione sulla politica agricola (SIPA) contiene i seguenti dati sulle aziende di acquacoltura in Svizzera: dati strutturali e di registro dell'azienda, specie acquatica, quantità di produzione annuale in kg, tipo di allevamento, forma di produzione, tipo di approvvigionamento idrico e smaltimento delle acque reflue.",
         "en": "The Agricultural Policy Information System (AGIS) contains the following data on aquaculture operations in Switzerland: structure and register data of the operation, the aquatic animal species, annual production volume in kg, type of husbandry, production form, type of water supply and wastewater disposal."
       },
-      "dct:modified": "2025-02-01",
-      "adms:status": "published",
-      "dcat:accessURL": "https://input.i14y.admin.ch/api/Metadata/concepts/byId/08dd50de-ea53-b497-8a45-39bd23beff61/codeListEntries/export/csv",
-      "dcat:downloadURL": "https://input.i14y.admin.ch/api/Metadata/concepts/byId/08dd50de-ea53-b497-8a45-39bd23beff61/codeListEntries/export/csv",
-      "dct:format": "CSV",
       "dct:license": "terms_by"
     }
-  ],
-  "bv:externalCatalogs": null
+  ]
 }
