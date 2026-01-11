@@ -134,7 +134,6 @@ def clear_search(): st.session_state.inspector_search = ""
 col_header, col_spacer, col_lang = st.columns([6, 0.5, 2.5])
 with col_lang:
     b_de, b_fr, b_it, b_en = st.columns(4)
-    # FIX 1: Changed width="stretch" to use_container_width=True
     if b_de.button("DE", type="primary" if st.session_state.lang == 'de' else "secondary", use_container_width=True): set_lang('de'); st.rerun()
     if b_fr.button("FR", type="primary" if st.session_state.lang == 'fr' else "secondary", use_container_width=True): set_lang('fr'); st.rerun()
     if b_it.button("IT", type="primary" if st.session_state.lang == 'it' else "secondary", use_container_width=True): set_lang('it'); st.rerun()
@@ -171,7 +170,6 @@ with col_nav:
     
     for i, (col, name) in enumerate(zip(nav_cols, tab_names)):
         button_type = "primary" if st.session_state.active_tab_index == i else "secondary"
-        # FIX 2: Changed width="stretch" to use_container_width=True
         if col.button(name, key=f"nav_tab_{i}", type=button_type, use_container_width=True):
             st.session_state.active_tab_index = i
             st.rerun()
@@ -221,7 +219,6 @@ if st.session_state.active_tab_index == 0:
             height=220
         ).interactive()
 
-        # FIX 3: Changed width="stretch" to use_container_width=True
         st.altair_chart(chart_dist, use_container_width=True) 
 
     # --- RIGHT: Top Errors (Horizontal) ---
@@ -261,7 +258,6 @@ if st.session_state.active_tab_index == 0:
                 height=220
             ).interactive()
 
-            # FIX 4: Changed width="stretch" to use_container_width=True
             st.altair_chart(chart_err, use_container_width=True)
         else: 
             render_quality_card("Info", "No validation errors found.", "info")
@@ -292,7 +288,6 @@ if st.session_state.active_tab_index == 0:
     
     worklist_df = worklist_df.sort_values(by=['sev_rank', 'swiss_score'], ascending=[True, True])
 
-    # FIX 5: Changed width="stretch" to use_container_width=True
     selection = st.dataframe(
         worklist_df[['display_title', 'swiss_score', 'violations_display', 'severity_display', 'id']],
         column_config={
@@ -306,7 +301,6 @@ if st.session_state.active_tab_index == 0:
                 format="%.0f", 
                 min_value=0, 
                 max_value=405,
-                # color="#1c83e1", ## not compatible with Stlite on gh pages (requires newer version)
                 width="medium",
                 help=T.get("tooltip_score", "") 
             ),
@@ -327,7 +321,7 @@ if st.session_state.active_tab_index == 0:
             )
         },
         hide_index=True,
-        use_container_width=True, # <--- Changed here
+        use_container_width=True,
         on_select="rerun", 
         selection_mode="single-row", 
         key="overview_worklist" 
