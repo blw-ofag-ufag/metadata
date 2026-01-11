@@ -306,7 +306,7 @@ if st.session_state.active_tab_index == 0:
                 format="%.0f", 
                 min_value=0, 
                 max_value=405,
-                color="#1c83e1", 
+                # color="#1c83e1", ## not compatible with Stlite on gh pages (requires newer version)
                 width="medium",
                 help=T.get("tooltip_score", "") 
             ),
