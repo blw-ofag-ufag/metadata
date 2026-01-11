@@ -199,7 +199,7 @@ class AuditPipeline:
             output_path.parent.mkdir(parents=True, exist_ok=True)
             
             with open(output_path, "w", encoding="utf-8") as f:
-                json.dump(export_list, f, ensure_ascii=False, indent=2)
+                json.dump(export_list, f, ensure_ascii=False, indent=None, separators=(',', ':'))
             
             logger.info(f"✅ Snapshot exported to {output_path} ({len(export_list)} records)")
 
