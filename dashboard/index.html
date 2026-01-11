@@ -13,7 +13,7 @@
     <script>
       stlite.mount(
         {
-          requirements: ["streamlit", "pandas", "altair<6", "markdown"],
+          requirements: ["streamlit", "pandas", "altair==5.2.0", "markdown"],
           entrypoint: "app.py",
           files: {
             "app.py": { url: "./app.py" },
