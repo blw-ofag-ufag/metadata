@@ -9636,28 +9636,6 @@
     },
     {
         "rdf:type": "dcat:Dataset",
-        "dct:identifier": "01aec909-44d6-46e3-9c11-853efda6f4d3",
-        "dct:title": {
-            "de": "discardMe_2",
-            "fr": "discardMe_2"
-        },
-        "dct:description": {
-            "de": "discardMe_2",
-            "fr": "discardMe_2"
-        },
-        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
-        "adms:status": "workInProgress",
-        "bv:classification": "none",
-        "bv:personalData": "none",
-        "dataOwner": "p-5699404",
-        "schemaViolations": 1,
-        "schemaViolationMessages": [
-            "'dct:issued' is a required property"
-        ],
-        "quality": 272.5
-    },
-    {
-        "rdf:type": "dcat:Dataset",
         "dct:identifier": "487ad0b5-da52-4408-98da-751c890db14a",
         "schema:image": "https://fal.media/files/panda/6HkwVoS-_OIYBAl2j1zRN_5ea6b3fcaa024e41b513127a169ce8ea.jpg",
         "dct:title": {
