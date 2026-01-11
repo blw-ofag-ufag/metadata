@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>BLW Metadata Quality Dashboard 🏆</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@stlite/mountable@0.50.0/build/stlite.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+      stlite.mount(
+        {
+          requirements: ["streamlit", "pandas", "altair", "markdown"],
+          entrypoint: "app.py",
+          files: {
+            "app.py": { url: "./app.py" },
+            "translations.py": { url: "./translations.py" },
+            "style.css": { url: "./style.css" },
+            "data_snapshot.json": { url: "./data_snapshot.json" }
+          },
+        },
+        document.getElementById("root")
+      );
+    </script>
+  </body>
+</html>
