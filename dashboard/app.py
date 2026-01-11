@@ -338,7 +338,7 @@ if st.session_state.active_tab_index == 0:
 elif st.session_state.active_tab_index == 1:
     st.markdown(f"### {T['tab_inspector']}")
     
-    col_search, col_clear = st.columns([9, 1], vertical_alignment="center", gap="small")
+    col_search, col_clear = st.columns([9, 1], gap="small")
     
     with col_search:
         search_query = st.text_input(
