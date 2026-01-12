@@ -1,17 +1,12 @@
-name: Data Pipeline & Dashboard Deploy
+name: Combine Datasets
 
 on:
   push:
     branches:
       - main
-  # Allow manual trigger button in GitHub Actions tab
-  workflow_dispatch:
-
-permissions:
-  contents: write
 
 jobs:
-  process-and-deploy:
+  process_datasets:
     runs-on: ubuntu-latest
 
     steps:
@@ -28,29 +23,16 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+
       - name: Run Combine Datasets Script
         run: python automation/combine-datasets.py
 
-      # This commits the raw combined JSON back to the 'main' branch
-      # so your repo stays the "Single Source of Truth"
-      - name: Commit Combined Data to Main
+      - name: Commit and Push Changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          # Only add the data file, NOT the dashboard snapshot
           git add data/processed/datasets.json
-          git commit -m "Updated combined JSON files" || echo "No changes to commit"
+          git commit -m "Updated combined JSON files and quality report" || echo "No changes to commit"
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      # This generates 'dashboard/data_snapshot.json'
-      - name: Run Quality Audit
-        run: python -m src.audit
-
-      # Deploy Dashboard
-      - name: Deploy Dashboard to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          folder: dashboard
-          branch: gh-pages
