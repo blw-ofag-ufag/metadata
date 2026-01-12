@@ -1,0 +1,204 @@
+/* ================================= */
+/* 1. EXISTING LAYOUT & BUTTONS      */
+/* ================================= */
+
+/* Global Alignment */
+div[data-testid="column"] { 
+    align-items: center; 
+}
+
+/* Compact Buttons inside st.dataframe or specific containers */
+div[data-testid="stButton"] button {
+    white-space: nowrap !important;
+    padding-left: 4px !important;
+    padding-right: 4px !important;
+    min-width: 0px !important;
+}
+
+div[data-testid="stButton"] button p { 
+    font-weight: bold; 
+    margin: 0px; 
+}
+
+/* --- FORCE BLUE THEME --- */
+/* Overriding System Defaults to BLW Blue (#2f4356) */
+
+/* Primary Buttons (Used for Language Selectors) */
+button[kind="primary"] {
+    background-color: #2f4356 !important;
+    border-color: #2f4356 !important;
+    color: white !important;
+}
+button[kind="primary"]:hover {
+    background-color: #2f4356 !important; /* Kept consistent */
+    border-color: #2f4356 !important;
+    opacity: 0.9; /* Slight hover effect */
+}
+button[kind="primary"]:focus {
+    box-shadow: 0 0 0 0.2rem rgba(47, 67, 86, 0.5) !important; /* Shadow matches #2f4356 */
+}
+
+/* ================================= */
+/* 2. NEW QUALITY CARDS (No Red/Green) */
+/* ================================= */
+
+/* Base Card Container */
+.blw-card {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+    border-left-width: 5px;
+    border-left-style: solid;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+    color: #2f4356; /* Dark Blue Text for high contrast */
+}
+
+/* Typography inside cards */
+.blw-card h4 {
+    margin: 0 0 0.5rem 0;
+    padding: 0;
+    color: #2f4356; /* Dark Blue Header */
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.blw-card p {
+    margin: 0;
+    font-size: 0.95rem;
+    line-height: 1.4;
+}
+
+/* --- SEVERITY LEVELS (Your Palette) --- */
+
+/* 1. HIGH SEVERITY (Violations) */
+/* Border: Swiss Red (#e42125) */
+.blw-card.high {
+    border-left-color: #e42125;
+    background-color: #fff5f5; /* Very faint red tint for readability */
+}
+
+/* 2. MEDIUM SEVERITY (Warnings) */
+/* Border: Orange (#f77f00) */
+.blw-card.med {
+    border-left-color: #f77f00;
+    background-color: #fffaf0; /* Very faint orange tint */
+}
+
+/* 3. LOW SEVERITY (Suggestions) */
+/* Border: Yellow/Gold (#fcbf49) */
+.blw-card.low {
+    border-left-color: #fcbf49;
+    background-color: #fffff0; /* Very faint yellow tint */
+}
+
+/* 4. INFO / GENERAL */
+/* Border: Dark Blue (#2f4356) */
+/* Background: Beige (#eae2b7) - Great for 'Paper' feel */
+.blw-card.info {
+    border-left-color: #2f4356;
+    background-color: #eae2b7; 
+}
+
+/* ================================= */
+/* 3. RESPONSIVE BUTTON TEXT         */
+/* ================================= */
+
+/* Target the text inside ALL buttons */
+div[data-testid="stButton"] button p {
+    white-space: normal !important;       /* Allow text to wrap */
+    word-wrap: break-word !important;     /* Break long words if necessary */
+    line-height: 1.2 !important;          /* tighter line height for multi-line */
+    text-align: center;                   /* Ensure centered text */
+}
+
+/* Target the button container to grow vertically */
+div[data-testid="stButton"] button {
+    height: auto !important;              /* Allow button to grow taller */
+    min-height: 45px !important;          /* Minimum height for consistency */
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+}
+
+/* ================================= */
+/* 4. LAYOUT CONSTRAINTS  */
+/* ================================= */
+/* Target the specific Streamlit block container using the data-testid.
+   This is more robust than using class names like .main
+*/
+
+.block-container {
+    max-width: 1200px !important;
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+    margin: 0 auto !important;
+    
+    /* DEBUG: Red Border - Remove this line once it works! */
+    /* border: 5px solid red !important;  */
+}
+
+/* 2. Fallback: Target by Attribute */
+[data-testid="block-container"] {
+    max-width: 1200px !important;
+    margin: 0 auto !important;
+}
+
+/* 3. Header Constraint */
+header[data-testid="stHeader"] {
+    max-width: 1200px !important;
+    margin: 0 auto !important;
+}
+
+/* ================================= */
+/* 5. CENTER METRICS                 */
+/* ================================= */
+
+/* Target the main container of the metric widget */
+[data-testid="stMetric"] {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important; /* Horizontal center */
+    text-align: center !important;  /* Text center */
+    margin: auto !important;        /* Center widget in column */
+}
+
+/* Force the inner Label (Top text) to expand and center */
+[data-testid="stMetricLabel"] {
+    justify-content: center !important;
+    width: 100% !important;
+}
+
+/* Force the inner Value (Big number) to expand and center */
+[data-testid="stMetricValue"] {
+    justify-content: center !important;
+    width: 100% !important;
+}
+/* ================================= */
+/* 6. COMPACT CLEAR BUTTON           */
+/* ================================= */
+
+/* 1. Constrain the outer container so it doesn't stretch */
+div.st-key-btn_clear_search {
+    width: auto !important;
+    display: flex !important;
+    align-items: flex-end !important; /* Helps align with input baseline */
+}
+
+/* 2. Force the button itself to be a perfect square */
+div.st-key-btn_clear_search button {
+    /* Dimensions */
+    height: 45px !important;  /* Matches standard Streamlit input height */
+    width: 45px !important;   /* Force width to match height */
+    min-height: 0px !important;
+    min-width: 0px !important;
+    
+    /* Centering */
+    padding: 0px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    
+    /* Typography */
+    line-height: 1 !important;
+    font-size: 1.2rem !important;
+}
+
