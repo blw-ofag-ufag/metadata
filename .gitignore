@@ -18,3 +18,4 @@ testzone/
 *.sqlite3
 *.sqlite
 data/qa.db
+venv/

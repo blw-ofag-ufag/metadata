@@ -187,6 +187,10 @@ class Distribution(Base):
     media_type: Mapped[str] = mapped_column(String, nullable=True)
     license_id: Mapped[str] = mapped_column(String, nullable=True)
     
+    rights: Mapped[str] = mapped_column(String, nullable=True)
+    byte_size: Mapped[int] = mapped_column(Integer, nullable=True)
+
+
     access_url_status: Mapped[int] = mapped_column(Integer, nullable=True)
     download_url_status: Mapped[int] = mapped_column(Integer, nullable=True)
 
