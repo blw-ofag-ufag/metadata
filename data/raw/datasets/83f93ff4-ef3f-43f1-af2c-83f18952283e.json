@@ -19,7 +19,12 @@
         "schema:name": "DigiAgriFoodCH",
         "schema:email": "info@digiagrifood.ch"
     },
+    "dct:temporal": {
+        "dct:start_date": "2025-03-01",
+        "dct:end_date": "2026-01-12"
+    },
     "dct:issued": "2025-01-29",
+    "dct:modified": "2026-01-12",
     "dcatap:availability": "AVAILABLE",
     "dcat:keyword": [
         "data",
@@ -30,6 +35,7 @@
         "software",
         "systems"
     ],
+    "adms:status": "published",
     "dct:accrualPeriodicity": "IRREG",
     "prov:qualifiedAttribution": [
         {
@@ -44,15 +50,10 @@
             "dcat:hadRole": "dataSteward"
         }
     ],
-    "adms:status": "workInProgress",
     "bv:classification": "none",
     "bv:personalData": "none",
     "bv:typeOfData": "secondaryThematicData",
     "bv:archivalValue": true,
-    "bv:externalCatalogs": [
-        "opendata.swiss",
-        "I14Y"
-    ],
     "dcat:theme": [
         "agriculture"
     ],
@@ -74,6 +75,8 @@
             "dct:identifier": "bdd9a81c-c3f0-4696-8cb7-594bbf4e972e",
             "dcat:accessURL": "https://github.com/blw-ofag-ufag/system-map/blob/main/rdf/data.ttl",
             "adms:status": "workInProgress",
+            "dct:modified": "2026-01-09",
+            "dct:conformsTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
             "dcatap:availability": "AVAILABLE",
             "dct:format": "RDF",
             "dcat:downloadURL": "https://raw.githubusercontent.com/blw-ofag-ufag/system-map/refs/heads/main/rdf/data.ttl",
@@ -95,6 +98,7 @@
             "dct:identifier": "6e76d236-93b4-4409-9dcb-4adce1949bb9",
             "dcat:accessURL": "https://s.zazuko.com/3sAp7YF",
             "adms:status": "workInProgress",
+            "dct:modified": "2025-03-12",
             "dcatap:availability": "AVAILABLE",
             "dct:format": "SPARQL-Service",
             "dcat:downloadURL": "https://s.zazuko.com/3sAp7YF",
@@ -115,6 +119,8 @@
         {
             "dct:identifier": "928ccab4-addd-4441-973d-3c84cf14ccbe",
             "dcat:accessURL": "https://s.zazuko.com/2DPmjZ2",
+            "dcat:downloadURL": "https://s.zazuko.com/2DPmjZ2",
+            "adms:status": "workInProgress",
             "dct:format": "SPARQL-Service",
             "dct:title": {
                 "de": "Anzahl der Datensätze in jedem System",
