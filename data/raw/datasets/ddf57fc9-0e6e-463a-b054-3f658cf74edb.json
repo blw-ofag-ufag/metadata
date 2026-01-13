@@ -1,0 +1,54 @@
+{
+  "dct:identifier": "ddf57fc9-0e6e-463a-b054-3f658cf74edb",
+  "dct:title": {
+    "de": "Zollansätze und Tarifarten",
+    "fr": "Droits de douanes"
+  },
+  "dct:description": {
+    "de": "Übersicht der verschiedenen Zollansätze: Umfasst die WTO-Obergrenzen (konsolidierte Ansätze), die angewandten Normaltarife (Meistbegünstigung/NPF) sowie Vorzugstarife (Präferenzen) aus Freihandelsabkommen und für Entwicklungsländer (APS). Enthält zudem Informationen zu Zollerleichterungen.",
+    "fr": "Aperçu des tarifs douaniers incluant : les taux plafonds (consolidés OMC), les taux standards appliqués (NPF) et les taux préférentiels issus d'accords de libre-échange ou du Système des préférences généralisé (SPG). Comprend également les allègements douaniers."
+  },
+  "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+  "dct:accrualPeriodicity": "ANNUAL",
+  "prov:qualifiedAttribution": [
+    {
+      "prov:agent": "p-3606006",
+      "dcat:hadRole": "dataOwner"
+    },
+    {
+      "prov:agent": "p-9270058",
+      "dcat:hadRole": "dataSteward"
+    },
+    {
+      "prov:agent": "p-6407706",
+      "dcat:hadRole": "dataSteward"
+    },
+    {
+      "prov:agent": "p-9534129",
+      "dcat:hadRole": "dataSteward"
+    }
+  ],
+  "adms:status": "archived",
+  "bv:classification": "internal",
+  "bv:personalData": "none",
+  "dcat:theme": [
+    "trade"
+  ],
+  "dcat:distribution": [
+    {
+      "dct:identifier": "4c1220bc-7516-405c-badc-8785b7d5f369",
+      "dcat:accessURL": "https://www.bazg.admin.ch/bazg/de/home/dokumentation/rechtsgrundlagen/freihandelsabkommen--entwicklungslaender--aps-gps-.html",
+      "adms:status": "archived",
+      "dct:format": "rda",
+      "dcat:downloadURL": "https://www.bazg.admin.ch/bazg/de/home/dokumentation/rechtsgrundlagen/freihandelsabkommen--entwicklungslaender--aps-gps-.html",
+      "dct:title": {
+        "de": "Gesamtliste der Zollansätze",
+        "fr": "Liste complète des droits de douane"
+      },
+      "dct:description": {
+        "de": "239'041 Zeilen × 22 Spalten.\nAnmerkung: Dateien für das BLW auf Anfrage zugänglich.",
+        "fr": "239,041 lignes × 22 colonnes.\nNote: Note: Fichiers accessibles pour l’OFAG sur demande d'accès au disque."
+      }
+    }
+  ]
+}
