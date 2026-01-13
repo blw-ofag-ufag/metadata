@@ -37,10 +37,9 @@
   "dcat:distribution": [
     {
       "dct:identifier": "4c1220bc-7516-405c-badc-8785b7d5f369",
-      "dcat:accessURL": "https://www.bazg.admin.ch/bazg/de/home/dokumentation/rechtsgrundlagen/freihandelsabkommen--entwicklungslaender--aps-gps-.html",
       "adms:status": "archived",
       "dct:format": "rda",
-      "dcat:downloadURL": "https://www.bazg.admin.ch/bazg/de/home/dokumentation/rechtsgrundlagen/freihandelsabkommen--entwicklungslaender--aps-gps-.html",
+      "dcat:downloadURL": "M:\\Org\\BLW_3210_INTERN\\R\\RTables\\SAP_20251001.rda",
       "dct:title": {
         "de": "Gesamtliste der Zollansätze",
         "fr": "Liste complète des droits de douane"
