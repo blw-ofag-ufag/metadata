@@ -461,7 +461,8 @@ elif st.session_state.active_tab_index == 1:
                                     st.caption(f"[{dist.get('download_url')}]({dist.get('download_url')})")
 
                     if healthy_dists:
-                        with st.expander(T["msg_view_healthy"].format(count=len(healthy_dists))):
+                        
+                        if st.checkbox(T["msg_view_healthy"].format(count=len(healthy_dists)), key=f"toggle_healthy_{selected_id}"):
                             for i, dist in enumerate(healthy_dists):
                                 fmt = dist.get('format_type', T["lbl_unknown_fmt"])
                                 st.markdown(f"**{i+1}. {fmt}**")
