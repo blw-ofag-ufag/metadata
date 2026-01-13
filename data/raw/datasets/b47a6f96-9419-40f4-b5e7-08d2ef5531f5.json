@@ -1,0 +1,54 @@
+{
+  "dct:identifier": "b47a6f96-9419-40f4-b5e7-08d2ef5531f5",
+  "dct:title": {
+    "de": "Schweizer Agraraussenhandelsstatistik",
+    "fr": "Statistiques suisses du commerce extérieur agricole"
+  },
+  "dct:description": {
+    "de": "Schweizer Statistik des landwirtschaftlichen Aussenhandels auf Ebene der statistischen Schlüssel und nach Zollregime für den Import und den Export (2'211'794 Zeilen × 10 Spalten) von 1995 bis 2024.",
+    "fr": "Statistiques suisses du commerce extérieur agricole par clé statistique et régime douanier. Comprend l’import (4 121 326 lignes × 13 colonnes) et l’export (2 211 794 lignes × 10 colonnes) de 1995 à 2024."
+  },
+  "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+  "dct:accrualPeriodicity": "ANNUAL",
+  "prov:qualifiedAttribution": [
+    {
+      "prov:agent": "p-3606006",
+      "dcat:hadRole": "dataOwner"
+    },
+    {
+      "prov:agent": "p-9270058",
+      "dcat:hadRole": "dataSteward"
+    },
+    {
+      "prov:agent": "p-6407706",
+      "dcat:hadRole": "dataSteward"
+    },
+    {
+      "prov:agent": "p-9534129",
+      "dcat:hadRole": "dataSteward"
+    }
+  ],
+  "adms:status": "archived",
+  "bv:classification": "internal",
+  "bv:personalData": "personalData",
+  "bv:archivalValue": false,
+  "dcat:theme": [
+    "trade"
+  ],
+  "dcat:distribution": [
+    {
+      "dct:identifier": "f3e46350-b5bf-4765-82bb-daf1987a95fe",
+      "adms:status": "archived",
+      "dct:format": "rda",
+      "dcat:downloadURL": "M:\\Org\\BLW_3210_INTERN\\R\\RTables\\TN400_401_M_m.rda",
+      "dct:title": {
+        "de": "Importstatistiken",
+        "fr": "Statistiques à l'import"
+      },
+      "dct:description": {
+        "de": "4'121'326 Zeilen × 13 Spalten.\nHinweis: Dateien für das BLW auf Anfrage zugänglich.",
+        "fr": "4,121,326 lignes × 13 colonnes. \nNote: Fichiers accessibles pour l’OFAG sur demande d'accès au disque."
+      }
+    }
+  ]
+}
