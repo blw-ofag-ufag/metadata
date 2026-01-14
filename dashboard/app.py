@@ -5,23 +5,49 @@ import json
 import markdown
 import textwrap
 import re
-from sqlalchemy import create_engine
-import sys
 import os
+from translations import TRANSLATIONS
 
-# Adjust path to find src module
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-from dashboard.translations import TRANSLATIONS
-from src.config import settings
-
+# ==============================================================================
+# 1. CONFIGURATION & CONSTANTS
+# ==============================================================================
 st.set_page_config(page_title="BLW Metadata Dashboard", layout="wide", page_icon="🏆")
 
-# --- CUSTOM UI HELPERS ---
+# We hardcode weights here so the "Help" tab calculator works without importing src.config
+WEIGHTS = {
+    "WEIGHT_FINDABILITY_KEYWORDS": 30,
+    "WEIGHT_FINDABILITY_CATEGORIES": 30,
+    "WEIGHT_FINDABILITY_GEO_SEARCH": 20,
+    "WEIGHT_FINDABILITY_TIME_SEARCH": 20,
+    "WEIGHT_ACCESSIBILITY_ACCESS_URL": 50,
+    "WEIGHT_ACCESSIBILITY_DOWNLOAD_URL": 20,
+    "WEIGHT_ACCESSIBILITY_DOWNLOAD_URL_VALID": 30,
+    "WEIGHT_INTEROP_FORMAT": 20,
+    "WEIGHT_INTEROP_MEDIA_TYPE": 10,
+    "WEIGHT_INTEROP_VOCABULARY": 10,
+    "WEIGHT_INTEROP_NON_PROPRIETARY": 20,
+    "WEIGHT_INTEROP_MACHINE_READABLE": 20,
+    "WEIGHT_INTEROP_DCAT_AP": 30,
+    "WEIGHT_REUSE_LICENSE": 20,
+    "WEIGHT_REUSE_LICENSE_VOCAB": 10,
+    "WEIGHT_REUSE_ACCESS_RESTRICTION": 10,
+    "WEIGHT_REUSE_ACCESS_RESTRICTION_VOCAB": 5,
+    "WEIGHT_REUSE_CONTACT_POINT": 20,
+    "WEIGHT_REUSE_PUBLISHER": 10,
+    "WEIGHT_CONTEXT_RIGHTS": 5,
+    "WEIGHT_CONTEXT_FILE_SIZE": 5,
+    "WEIGHT_CONTEXT_ISSUE_DATE": 5,
+    "WEIGHT_CONTEXT_MODIFICATION_DATE": 5
+}
+
+# ==============================================================================
+# 2. UTILITIES
+# ==============================================================================
+
 def render_quality_card(title: str, content: str, level: str = "info"):
     """
     Renders a custom HTML card using the BLW color palette defined in style.css.
     """
-    # Map levels to icons
     icon_map = {
         "high": "🚨",
         "med": "⚠️",
@@ -30,14 +56,10 @@ def render_quality_card(title: str, content: str, level: str = "info"):
     }
     icon = icon_map.get(level, "")
     
-    # 1. CLEANUP: Remove indentation from the source string
     clean_content = textwrap.dedent(content).strip()
     clean_content = re.sub(r'(\n)([*-] )', r'\n\n\2', clean_content)
-    
-    # 2. CONVERT: Markdown -> HTML
     content_html = markdown.markdown(clean_content)
     
-    # 3. RENDER
     html = f"""
     <div class="blw-card {level}">
         <h4>{title}</h4>
@@ -48,7 +70,6 @@ def render_quality_card(title: str, content: str, level: str = "info"):
     """
     st.markdown(html, unsafe_allow_html=True)
 
-# 2. LOAD EXTERNAL CSS
 def load_css(file_name):
     current_dir = os.path.dirname(__file__)
     css_path = os.path.join(current_dir, file_name)
@@ -60,61 +81,48 @@ def load_css(file_name):
 
 load_css("style.css")
 
-@st.cache_resource
-def get_db_engine():
-    return create_engine(settings.DB_URL)
-
 def get_localized_text(data, lang_code: str) -> str:
     if not isinstance(data, dict): return str(data)
     return data.get(lang_code) or data.get("de") or next(iter(data.values()), "N/A")
 
+# ==============================================================================
+# 3. DATA LOADING (JSON MODE)
+# ==============================================================================
+
 @st.cache_data(ttl=600)
 def load_data():
-    engine = get_db_engine()
+    """
+    Loads data from the static JSON snapshot instead of SQL.
+    """
+    # Try to locate the file (it might be in current dir or dashboard dir)
+    json_path = "data_snapshot.json"
+    if not os.path.exists(json_path):
+        # Fallback if running locally from root
+        json_path = os.path.join(os.path.dirname(__file__), "data_snapshot.json")
+
+    if not os.path.exists(json_path):
+        return pd.DataFrame()
+
     try:
-        # 1. Fetch Datasets (Parent Table)
-        df_ds = pd.read_sql("SELECT * FROM datasets", engine)
+        # Load JSON directly into Pandas
+        df = pd.read_json(json_path)
         
-        # 2. Fetch Distributions (Child Table)
-        df_dists = pd.read_sql("SELECT * FROM distributions", engine)
-        
-        # 3. Parse JSON columns in Datasets
-        json_cols = ['title', 'description', 'keywords', 'themes', 'schema_violation_messages', 'quality_suggestions']
-        for col in json_cols:
-            if col in df_ds.columns:
-                df_ds[col] = df_ds[col].apply(
-                    lambda x: json.loads(x) if x and isinstance(x, str) else (x if isinstance(x, (dict, list)) else {})
-                )
-        
-        # 4. Nest Distributions into Datasets
-        if not df_dists.empty:
-            cols_to_nest = [c for c in df_dists.columns if c != 'dataset_id']
-            
-            dists_grouped = df_dists.groupby('dataset_id')[cols_to_nest].apply(
-                lambda x: x.to_dict(orient='records')
-            ).reset_index(name='distributions')
-            
-            # Merge this new 'distributions' column into the main dataframe
-            df_final = pd.merge(df_ds, dists_grouped, left_on='id', right_on='dataset_id', how='left')
-            
-            # Cleanup: Replace NaN (for datasets with no dists) with empty lists []
-            df_final['distributions'] = df_final['distributions'].apply(
+        # Ensure 'distributions' is always a list (handle NaNs if JSON was weird)
+        if 'distributions' in df.columns:
+            df['distributions'] = df['distributions'].apply(
                 lambda x: x if isinstance(x, list) else []
             )
-            
-            # Remove the extra joining column if present
-            if 'dataset_id' in df_final.columns:
-                df_final = df_final.drop(columns=['dataset_id'])
-            
-            return df_final
         else:
-            # Fallback if distributions table is empty
-            df_ds['distributions'] = [[] for _ in range(len(df_ds))]
-            return df_ds
+            df['distributions'] = [[] for _ in range(len(df))]
 
+        return df
     except Exception as e:
-        st.error(f"Database connection failed: {e}")
+        st.error(f"Error loading JSON snapshot: {e}")
         return pd.DataFrame()
+
+# ==============================================================================
+# 4. UI LOGIC
+# ==============================================================================
 
 if 'lang' not in st.session_state: st.session_state.lang = 'de'
 if 'inspector_search' not in st.session_state: st.session_state.inspector_search = ""
@@ -126,10 +134,10 @@ def clear_search(): st.session_state.inspector_search = ""
 col_header, col_spacer, col_lang = st.columns([6, 0.5, 2.5])
 with col_lang:
     b_de, b_fr, b_it, b_en = st.columns(4)
-    if b_de.button("DE", type="primary" if st.session_state.lang == 'de' else "secondary", width="stretch"): set_lang('de'); st.rerun()
-    if b_fr.button("FR", type="primary" if st.session_state.lang == 'fr' else "secondary", width="stretch"): set_lang('fr'); st.rerun()
-    if b_it.button("IT", type="primary" if st.session_state.lang == 'it' else "secondary", width="stretch"): set_lang('it'); st.rerun()
-    if b_en.button("EN", type="primary" if st.session_state.lang == 'en' else "secondary", width="stretch"): set_lang('en'); st.rerun()
+    if b_de.button("DE", type="primary" if st.session_state.lang == 'de' else "secondary", use_container_width=True): set_lang('de'); st.rerun()
+    if b_fr.button("FR", type="primary" if st.session_state.lang == 'fr' else "secondary", use_container_width=True): set_lang('fr'); st.rerun()
+    if b_it.button("IT", type="primary" if st.session_state.lang == 'it' else "secondary", use_container_width=True): set_lang('it'); st.rerun()
+    if b_en.button("EN", type="primary" if st.session_state.lang == 'en' else "secondary", use_container_width=True): set_lang('en'); st.rerun()
 
 lang_code = st.session_state.lang
 T = TRANSLATIONS[lang_code]
@@ -140,7 +148,7 @@ with col_header:
 
 df = load_data()
 if df.empty:
-    render_quality_card("Error", T["inspector_no_data"], "high")
+    st.warning("⚠️ No data loaded. Please ensure 'data_snapshot.json' is generated.")
     st.stop()
 
 df['display_title'] = df['title'].apply(lambda x: get_localized_text(x, lang_code))
@@ -162,8 +170,7 @@ with col_nav:
     
     for i, (col, name) in enumerate(zip(nav_cols, tab_names)):
         button_type = "primary" if st.session_state.active_tab_index == i else "secondary"
-        
-        if col.button(name, key=f"nav_tab_{i}", type=button_type, width="stretch"):
+        if col.button(name, key=f"nav_tab_{i}", type=button_type, use_container_width=True):
             st.session_state.active_tab_index = i
             st.rerun()
 
@@ -187,7 +194,6 @@ if st.session_state.active_tab_index == 0:
     
     # --- LEFT: Score Distribution ---
     with col_chart1:
-        # Header with Popover
         h_col, p_col = st.columns([5, 1])
         h_col.markdown(f"#### {T['chart_score_dist']}")
         with p_col:
@@ -213,11 +219,10 @@ if st.session_state.active_tab_index == 0:
             height=220
         ).interactive()
 
-        st.altair_chart(chart_dist, width="stretch") 
+        st.altair_chart(chart_dist, use_container_width=True) 
 
     # --- RIGHT: Top Errors (Horizontal) ---
     with col_chart2:
-        # Header with Popover
         h_col, p_col = st.columns([5, 1])
         h_col.markdown(f"#### {T['chart_top_errors']}")
         with p_col:
@@ -253,7 +258,7 @@ if st.session_state.active_tab_index == 0:
                 height=220
             ).interactive()
 
-            st.altair_chart(chart_err, width="stretch")
+            st.altair_chart(chart_err, use_container_width=True)
         else: 
             render_quality_card("Info", "No validation errors found.", "info")
 
@@ -262,7 +267,6 @@ if st.session_state.active_tab_index == 0:
     # 3. BOTTOM: WORKLIST DATAFRAME
     st.markdown(f"### {T['tab_overview']}")
 
-    # --- 1. Logic: Define Status with Palette Icons ---
     def categorize_severity_visual(row):
         if row['schema_violations_count'] > 0:
             return f"🔴 {T['severity_high']}" 
@@ -272,10 +276,9 @@ if st.session_state.active_tab_index == 0:
 
     def format_violations(count):
         if count == 0:
-            return None # Returns empty cell for cleaner look
+            return None 
         return f"{count}"
 
-    # --- 2. Data Prep & Sorting ---
     worklist_df = filtered_df.copy()
     worklist_df['severity_display'] = worklist_df.apply(categorize_severity_visual, axis=1)
     worklist_df['violations_display'] = worklist_df['schema_violations_count'].apply(format_violations)
@@ -285,9 +288,6 @@ if st.session_state.active_tab_index == 0:
     
     worklist_df = worklist_df.sort_values(by=['sev_rank', 'swiss_score'], ascending=[True, True])
 
-    # --- 3. Render Dataframe with Selection Event & Tooltips ---
-    
-    # We use st.dataframe with on_select to make it clickable
     selection = st.dataframe(
         worklist_df[['display_title', 'swiss_score', 'violations_display', 'severity_display', 'id']],
         column_config={
@@ -297,23 +297,22 @@ if st.session_state.active_tab_index == 0:
                 help="Dataset Title"
             ),
             "swiss_score": st.column_config.ProgressColumn(
-                f"{T['col_score']} ℹ️", # Icon in header
+                f"{T['col_score']} ℹ️", 
                 format="%.0f", 
                 min_value=0, 
                 max_value=405,
-                color="#1c83e1", 
                 width="medium",
-                help=T.get("tooltip_score", "") # Tooltip text
+                help=T.get("tooltip_score", "") 
             ),
             "violations_display": st.column_config.TextColumn(
-                f"{T['col_violations']} ℹ️", # Icon in header
+                f"{T['col_violations']} ℹ️", 
                 width="small",
-                help=T.get("tooltip_violations", "") # Tooltip text
+                help=T.get("tooltip_violations", "") 
             ),
             "severity_display": st.column_config.TextColumn(
-                f"{T['col_severity']} ℹ️", # Icon in header
+                f"{T['col_severity']} ℹ️", 
                 width="small",
-                help=T.get("tooltip_severity", "") # Tooltip text
+                help=T.get("tooltip_severity", "") 
             ),
             "id": st.column_config.TextColumn(
                 T["col_id"], 
@@ -322,35 +321,24 @@ if st.session_state.active_tab_index == 0:
             )
         },
         hide_index=True,
-        width="stretch",
-        on_select="rerun",             # Triggers rerun on click
-        selection_mode="single-row",   # Only one row selectable
-        key="overview_worklist"        # Persistence key
+        use_container_width=True,
+        on_select="rerun", 
+        selection_mode="single-row", 
+        key="overview_worklist" 
     )
 
-    # --- 4. Handle Selection Logic ---
     if len(selection.selection.rows) > 0:
-        # Get integer index of selected row
         selected_row_index = selection.selection.rows[0]
-        
-        # Get the ID from the sorted dataframe
         selected_id = worklist_df.iloc[selected_row_index]['id']
-        
-        # 1. Switch Tab
         st.session_state.active_tab_index = 1
-        
-        # 2. Pre-fill Inspector Search to isolate this dataset
         st.session_state.inspector_search = selected_id
-        
-        # 3. Rerun to apply
         st.rerun()
 
 # --- TAB 2: INSPECTOR ---
 elif st.session_state.active_tab_index == 1:
     st.markdown(f"### {T['tab_inspector']}")
     
-    # This forces the button to sit on the same baseline as the text input
-    col_search, col_clear = st.columns([9, 1], vertical_alignment="center", gap="small")
+    col_search, col_clear = st.columns([9, 1], gap="small")
     
     with col_search:
         search_query = st.text_input(
@@ -473,7 +461,8 @@ elif st.session_state.active_tab_index == 1:
                                     st.caption(f"[{dist.get('download_url')}]({dist.get('download_url')})")
 
                     if healthy_dists:
-                        with st.expander(T["msg_view_healthy"].format(count=len(healthy_dists))):
+                        
+                        if st.checkbox(T["msg_view_healthy"].format(count=len(healthy_dists)), key=f"toggle_healthy_{selected_id}"):
                             for i, dist in enumerate(healthy_dists):
                                 fmt = dist.get('format_type', T["lbl_unknown_fmt"])
                                 st.markdown(f"**{i+1}. {fmt}**")
@@ -557,35 +546,37 @@ elif st.session_state.active_tab_index == 2:
     # --- EXPANDER 3: DETAILED CALCULATOR (Collapsed by default) ---
     with st.expander(T['help_calc_title'], expanded=False):
         
-        def row(dim, crit_key, weight, def_key=None):
+        def row(dim, crit_key, weight_key, def_key=None):
+            # MODIFIED: Look up from local WEIGHTS dict instead of src.config
+            w = WEIGHTS.get(weight_key, 0)
             definition = T[def_key] if def_key else ""
-            return f"| **{dim}** | {T[crit_key]} | +{weight} | {definition} |"
+            return f"| **{dim}** | {T[crit_key]} | +{w} | {definition} |"
 
         table_md = f"""
 | {T['help_table_dim']} | {T['help_table_crit']} | {T['help_table_pts']} | {T['help_table_info']} |
 | :--- | :--- | :--- | :--- |
-{row('Findability', 'crit_keywords', settings.WEIGHT_FINDABILITY_KEYWORDS)}
-{row('', 'crit_themes', settings.WEIGHT_FINDABILITY_CATEGORIES)}
-{row('', 'crit_geo', settings.WEIGHT_FINDABILITY_GEO_SEARCH)}
-{row('', 'crit_time', settings.WEIGHT_FINDABILITY_TIME_SEARCH)}
-{row('Accessibility', 'crit_access', settings.WEIGHT_ACCESSIBILITY_ACCESS_URL, 'def_http')}
-{row('', 'crit_download_valid', settings.WEIGHT_ACCESSIBILITY_DOWNLOAD_URL_VALID, 'def_http')}
-{row('', 'crit_download', settings.WEIGHT_ACCESSIBILITY_DOWNLOAD_URL)}
-{row('Interoperability', 'crit_machine', settings.WEIGHT_INTEROP_MACHINE_READABLE, 'def_machine')}
-{row('', 'crit_openfmt', settings.WEIGHT_INTEROP_NON_PROPRIETARY, 'def_open')}
-{row('', 'crit_dcat', settings.WEIGHT_INTEROP_DCAT_AP)}
-{row('', 'crit_format', settings.WEIGHT_INTEROP_FORMAT)}
-{row('', 'crit_media', settings.WEIGHT_INTEROP_MEDIA_TYPE)}
-{row('', 'crit_vocab', settings.WEIGHT_INTEROP_VOCABULARY)}
-{row('Reusability', 'crit_access_vocab', settings.WEIGHT_REUSE_ACCESS_RESTRICTION_VOCAB, 'def_access')}
-{row('', 'crit_lic_vocab', settings.WEIGHT_REUSE_LICENSE_VOCAB, 'def_license')}
-{row('', 'crit_license', settings.WEIGHT_REUSE_LICENSE)}
-{row('', 'crit_access_res', settings.WEIGHT_REUSE_ACCESS_RESTRICTION)}
-{row('', 'crit_contact', settings.WEIGHT_REUSE_CONTACT_POINT)}
-{row('', 'crit_publisher', settings.WEIGHT_REUSE_PUBLISHER)}
-{row('Contextuality', 'crit_rights', settings.WEIGHT_CONTEXT_RIGHTS)}
-{row('', 'crit_filesize', settings.WEIGHT_CONTEXT_FILE_SIZE)}
-{row('', 'crit_issue', settings.WEIGHT_CONTEXT_ISSUE_DATE)}
-{row('', 'crit_mod', settings.WEIGHT_CONTEXT_MODIFICATION_DATE)}
+{row('Findability', 'crit_keywords', 'WEIGHT_FINDABILITY_KEYWORDS')}
+{row('', 'crit_themes', 'WEIGHT_FINDABILITY_CATEGORIES')}
+{row('', 'crit_geo', 'WEIGHT_FINDABILITY_GEO_SEARCH')}
+{row('', 'crit_time', 'WEIGHT_FINDABILITY_TIME_SEARCH')}
+{row('Accessibility', 'crit_access', 'WEIGHT_ACCESSIBILITY_ACCESS_URL', 'def_http')}
+{row('', 'crit_download_valid', 'WEIGHT_ACCESSIBILITY_DOWNLOAD_URL_VALID', 'def_http')}
+{row('', 'crit_download', 'WEIGHT_ACCESSIBILITY_DOWNLOAD_URL')}
+{row('Interoperability', 'crit_machine', 'WEIGHT_INTEROP_MACHINE_READABLE', 'def_machine')}
+{row('', 'crit_openfmt', 'WEIGHT_INTEROP_NON_PROPRIETARY', 'def_open')}
+{row('', 'crit_dcat', 'WEIGHT_INTEROP_DCAT_AP')}
+{row('', 'crit_format', 'WEIGHT_INTEROP_FORMAT')}
+{row('', 'crit_media', 'WEIGHT_INTEROP_MEDIA_TYPE')}
+{row('', 'crit_vocab', 'WEIGHT_INTEROP_VOCABULARY')}
+{row('Reusability', 'crit_access_vocab', 'WEIGHT_REUSE_ACCESS_RESTRICTION_VOCAB', 'def_access')}
+{row('', 'crit_lic_vocab', 'WEIGHT_REUSE_LICENSE_VOCAB', 'def_license')}
+{row('', 'crit_license', 'WEIGHT_REUSE_LICENSE')}
+{row('', 'crit_access_res', 'WEIGHT_REUSE_ACCESS_RESTRICTION')}
+{row('', 'crit_contact', 'WEIGHT_REUSE_CONTACT_POINT')}
+{row('', 'crit_publisher', 'WEIGHT_REUSE_PUBLISHER')}
+{row('Contextuality', 'crit_rights', 'WEIGHT_CONTEXT_RIGHTS')}
+{row('', 'crit_filesize', 'WEIGHT_CONTEXT_FILE_SIZE')}
+{row('', 'crit_issue', 'WEIGHT_CONTEXT_ISSUE_DATE')}
+{row('', 'crit_mod', 'WEIGHT_CONTEXT_MODIFICATION_DATE')}
         """
         st.markdown(table_md)

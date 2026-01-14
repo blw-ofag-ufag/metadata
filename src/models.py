@@ -1,7 +1,8 @@
 from typing import Optional, List, Dict, Any
-from pydantic import BaseModel, Field, HttpUrl, field_validator, ConfigDict
-from sqlalchemy import String, Float, Integer, ForeignKey, JSON, Boolean, Text
+from pydantic import BaseModel, Field, field_validator, model_validator, ConfigDict
+from sqlalchemy import String, Float, Integer, ForeignKey, JSON, Text
 from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column, relationship
+
 
 # ==========================================
 # 1. Pydantic Parsing Models (Input Layer)
@@ -23,6 +24,7 @@ class DistributionInput(BaseModel):
     description: Optional[MultilingualText] = Field(alias="dct:description", default=None)
     access_url: Optional[str] = Field(alias="dcat:accessURL", default=None)
     download_url: Optional[str] = Field(alias="dcat:downloadURL", default=None)
+    internal_path: Optional[str] = Field(alias="bv:internalPath", default=None)
     format_type: Optional[str] = Field(alias="dct:format", default=None)
     media_type: Optional[str] = Field(alias="dcat:mediaType", default=None)
     license_id: Optional[str] = Field(alias="dct:license", default=None)
@@ -34,9 +36,20 @@ class DistributionInput(BaseModel):
     access_url_status: Optional[int] = None
     download_url_status: Optional[int] = None
 
+    @model_validator(mode='after')
+    def check_exclusivity(self):
+        # We access the values directly from the model instance (self)
+        url = self.access_url
+        path = self.internal_path
+        
+        if url and path:
+            raise ValueError(f"Distribution '{self.identifier or 'unknown'}' cannot have both an Access URL and an Internal Path. Please choose one.")
+        return self
+
 class DatasetInput(BaseModel):
     """
-    The Master Parser. Maps JSON-LD fields (dct:...) to Pythonic names.
+    The Master Parser.
+    Maps JSON-LD fields (dct:...) to Pythonic names.
     """
     model_config = ConfigDict(populate_by_name=True)
 
@@ -53,7 +66,7 @@ class DatasetInput(BaseModel):
     # Responsible Parties
     publisher: Optional[str] = Field(alias="dct:publisher", default=None)
     contact_point: Optional[Dict[str, Any]] = Field(alias="dcat:contactPoint", default=None)
-    business_owner: Optional[str] = Field(alias="businessDataOwner", default=None)
+    business_owner: Optional[str] = Field(alias="dataOwner", default=None)
 
     # Dates & Legal
     issued: Optional[str] = Field(alias="dct:issued", default=None)
@@ -77,6 +90,34 @@ class DatasetInput(BaseModel):
     @classmethod
     def handle_null_distributions(cls, v):
         return v or []
+
+    @field_validator('keywords', 'themes', mode='before')
+    @classmethod
+    def coerce_to_list(cls, v):
+        """
+        Fixes cases where a single string is provided instead of a list.
+        Also handles dictionary structures (schema change) by flattening values.
+        Example: "agriculture" -> ["agriculture"]
+        Example: {"k1": {"de": "A"}, "k2": {"en": "B"}} -> ["A", "B"]
+        """
+        if v is None:
+            return []
+        if isinstance(v, str):
+            return [v]
+        if isinstance(v, dict):
+            # [cite_start]Flatten dictionary values into a list of strings [cite: 1]
+            flat_list = []
+            for item in v.values():
+                if isinstance(item, dict):
+                    # Extract multilingual values
+                    flat_list.extend(item.values())
+                elif isinstance(item, str):
+                    flat_list.append(item)
+                elif isinstance(item, list):
+                    flat_list.extend(item)
+            # Remove None/Empty and duplicates
+            return list(set(filter(None, flat_list)))
+        return v
 
 # ==========================================
 # 2. SQLAlchemy Database Models (Storage Layer)
@@ -146,6 +187,10 @@ class Distribution(Base):
     media_type: Mapped[str] = mapped_column(String, nullable=True)
     license_id: Mapped[str] = mapped_column(String, nullable=True)
     
+    rights: Mapped[str] = mapped_column(String, nullable=True)
+    byte_size: Mapped[int] = mapped_column(Integer, nullable=True)
+
+
     access_url_status: Mapped[int] = mapped_column(Integer, nullable=True)
     download_url_status: Mapped[int] = mapped_column(Integer, nullable=True)
 

@@ -1,0 +1,620 @@
+{
+  "Acontrol": {
+    "de": "Acontrol",
+    "fr": "Acontrol",
+    "it": "Acontrol",
+    "en": "Acontrol"
+  },
+  "AGIS": {
+    "de": "AGIS",
+    "fr": "SIPA",
+    "it": "SIPA",
+    "en": "AIMS"
+  },
+  "agriculture": {
+    "de": "Landwirtschaft",
+    "fr": "Agriculture",
+    "it": "Agricoltura",
+    "en": "Agriculture"
+  },
+  "alcohol": {
+    "de": "Alkohol",
+    "fr": "Alcool",
+    "it": "Alcol",
+    "en": "Alcohol"
+  },
+  "alpine-economy": {
+    "de": "Alpwirtschaft",
+    "fr": "Économie alpestre",
+    "it": "Economia alpestre",
+    "en": "Alpine economy"
+  },
+  "alpine-farming": {
+    "de": "Sömmerung",
+    "fr": "Estivage",
+    "it": "Estivazione",
+    "en": "Summering"
+  },
+  "animal-owner": {
+    "de": "Tierhalter",
+    "fr": "Détenteur d'animaux",
+    "it": "Detentore di animali",
+    "en": "Animal keeper"
+  },
+  "animals": {
+    "de": "Tiere",
+    "fr": "Animaux",
+    "it": "Animali",
+    "en": "Animals"
+  },
+  "aquaculture": {
+    "de": "Aquakultur",
+    "fr": "Aquaculture",
+    "it": "Acquacoltura",
+    "en": "Aquaculture"
+  },
+  "aquatic-animals": {
+    "de": "Wassertiere",
+    "fr": "Animaux aquatiques",
+    "it": "Animali acquatici",
+    "en": "Aquatic animals"
+  },
+  "archivation": {
+    "de": "Archivierung",
+    "fr": "Archivage",
+    "it": "Archiviazione",
+    "en": "Archiving"
+  },
+  "area-management": {
+    "de": "Flächenmanagement",
+    "fr": "Gestion des surfaces",
+    "it": "Gestione delle superfici",
+    "en": "Area management"
+  },
+  "BFF": {
+    "de": "Biodiversitätsförderflächen (BFF)",
+    "fr": "Surfaces de promotion de la biodiversité (SPB)",
+    "it": "Superfici per la promozione della biodiversità (SPB)",
+    "en": "Biodiversity promotion areas (BPA)"
+  },
+  "botany": {
+    "de": "Botanik",
+    "fr": "Botanique",
+    "it": "Botanica",
+    "en": "Botany"
+  },
+  "breeding": {
+    "de": "Zucht",
+    "fr": "Élevage",
+    "it": "Allevamento",
+    "en": "Breeding"
+  },
+  "BUR": {
+    "de": "Betriebs- und Unternehmensregister (BUR)",
+    "fr": "Registre des entreprises et des établissements (REE)",
+    "it": "Registro delle imprese e degli stabilimenti (RIS)",
+    "en": "Business and Enterprise Register (BER)"
+  },
+  "business-relationships": {
+    "de": "Geschäftsbeziehungen",
+    "fr": "Relations d'affaires",
+    "it": "Relazioni d'affari",
+    "en": "Business relationships"
+  },
+  "cantonal-identifier": {
+    "de": "Kantonale Kennung",
+    "fr": "Identifiant cantonal",
+    "it": "Identificatore cantonale",
+    "en": "Cantonal identifier"
+  },
+  "categorization": {
+    "de": "Kategorisierung",
+    "fr": "Catégorisation",
+    "it": "Categorizzazione",
+    "en": "Categorization"
+  },
+  "climate": {
+    "de": "Klima",
+    "fr": "Climat",
+    "it": "Clima",
+    "en": "Climate"
+  },
+  "climatic-effect": {
+    "de": "Klimawirkung",
+    "fr": "Effet climatique",
+    "it": "Effetto climatico",
+    "en": "Climatic effect"
+  },
+  "confectionery": {
+    "de": "Süsswaren",
+    "fr": "Confiserie",
+    "it": "Dolciumi",
+    "en": "Confectionery"
+  },
+  "connection-areas": {
+    "de": "Vernetzungsflächen",
+    "fr": "Surfaces de mise en réseau",
+    "it": "Superfici di interconnessione",
+    "en": "Networking areas"
+  },
+  "conservation": {
+    "de": "Erhaltung",
+    "fr": "Conservation",
+    "it": "Conservazione",
+    "en": "Conservation"
+  },
+  "contribution-year": {
+    "de": "Beitragsjahr",
+    "fr": "Année de contribution",
+    "it": "Anno di contribuzione",
+    "en": "Contribution year"
+  },
+  "control-organization": {
+    "de": "Kontrollorganisation",
+    "fr": "Organisme de contrôle",
+    "it": "Organismo di controllo",
+    "en": "Control organization"
+  },
+  "controls": {
+    "de": "Kontrollen",
+    "fr": "Contrôles",
+    "it": "Controlli",
+    "en": "Controls"
+  },
+  "crop-production": {
+    "de": "Pflanzenbau",
+    "fr": "Production végétale",
+    "it": "Produzione vegetale",
+    "en": "Crop production"
+  },
+  "crops": {
+    "de": "Kulturen",
+    "fr": "Cultures",
+    "it": "Colture",
+    "en": "Crops"
+  },
+  "cultivation-suitability": {
+    "de": "Anbaueignung",
+    "fr": "Aptitude culturale",
+    "it": "Attitudine alla coltivazione",
+    "en": "Cultivation suitability"
+  },
+  "dairy-product": {
+    "de": "Milchprodukt",
+    "fr": "Produit laitier",
+    "it": "Prodotto lattiero-caseario",
+    "en": "Dairy product"
+  },
+  "data": {
+    "de": "Daten",
+    "fr": "Données",
+    "it": "Dati",
+    "en": "Data"
+  },
+  "data-standard": {
+    "de": "Datenstandard",
+    "fr": "Norme de données",
+    "it": "Standard di dati",
+    "en": "Data standard"
+  },
+  "deliveries": {
+    "de": "Lieferungen",
+    "fr": "Livraisons",
+    "it": "Forniture",
+    "en": "Deliveries"
+  },
+  "deprecated": {
+    "de": "Veraltet",
+    "fr": "Obsolète",
+    "it": "Obsoleto",
+    "en": "Deprecated"
+  },
+  "direct-payments": {
+    "de": "Direktzahlungen",
+    "fr": "Paiements directs",
+    "it": "Pagamenti diretti",
+    "en": "Direct payments"
+  },
+  "distillation": {
+    "de": "Destillation",
+    "fr": "Distillation",
+    "it": "Distillazione",
+    "en": "Distillation"
+  },
+  "e-geoch": {
+    "de": "e-geo.ch",
+    "fr": "e-geo.ch",
+    "it": "e-geo.ch",
+    "en": "e-geo.ch"
+  },
+  "eCH-0263": {
+    "de": "eCH-0263 (Betriebsmittel)",
+    "fr": "eCH-0263 (Moyens de production)",
+    "it": "eCH-0263 (Mezzi di produzione)",
+    "en": "eCH-0263 (Means of production)"
+  },
+  "eCH-0265": {
+    "de": "eCH-0265 (Flächen)",
+    "fr": "eCH-0265 (Surfaces)",
+    "it": "eCH-0265 (Superfici)",
+    "en": "eCH-0265 (Surfaces)"
+  },
+  "environment": {
+    "de": "Umwelt",
+    "fr": "Environnement",
+    "it": "Ambiente",
+    "en": "Environment"
+  },
+  "erosion": {
+    "de": "Erosion",
+    "fr": "Érosion",
+    "it": "Erosione",
+    "en": "Erosion"
+  },
+  "farm": {
+    "de": "Betrieb",
+    "fr": "Exploitation",
+    "it": "Azienda",
+    "en": "Farm"
+  },
+  "farm-inspections": {
+    "de": "Betriebskontrollen",
+    "fr": "Contrôles d'exploitation",
+    "it": "Controlli aziendali",
+    "en": "Farm inspections"
+  },
+  "fertiliser": {
+    "de": "Dünger",
+    "fr": "Engrais",
+    "it": "Concime",
+    "en": "Fertiliser"
+  },
+  "fertilizer": {
+    "de": "Dünger",
+    "fr": "Engrais",
+    "it": "Concime",
+    "en": "Fertilizer"
+  },
+  "food": {
+    "de": "Lebensmittel",
+    "fr": "Denrées alimentaires",
+    "it": "Derrate alimentari",
+    "en": "Food"
+  },
+  "FSDI": {
+    "de": "NGDI (Geodateninfrastruktur)",
+    "fr": "IGDG (Infrastructure géographique)",
+    "it": "IGD (Infrastruttura geografica)",
+    "en": "FSDI (Federal Spatial Data Infrastructure)"
+  },
+  "gradient": {
+    "de": "Neigung",
+    "fr": "Pente",
+    "it": "Pendenza",
+    "en": "Gradient"
+  },
+  "GVE": {
+    "de": "GVE (Grossvieheinheit)",
+    "fr": "UGB (Unité de gros bétail)",
+    "it": "UBG (Unità di bestiame grosso)",
+    "en": "LU (Livestock Unit)"
+  },
+  "HODUFLU": {
+    "de": "HODUFLU",
+    "fr": "HODUFLU",
+    "it": "HODUFLU",
+    "en": "HODUFLU"
+  },
+  "knowledge-graph": {
+    "de": "Wissensgraph",
+    "fr": "Graphe de connaissances",
+    "it": "Grafo della conoscenza",
+    "en": "Knowledge graph"
+  },
+  "land-cover": {
+    "de": "Bedeckung",
+    "fr": "Couverture du sol",
+    "it": "Copertura del suolo",
+    "en": "Land cover"
+  },
+  "land-use": {
+    "de": "Landnutzung",
+    "fr": "Utilisation du sol",
+    "it": "Utilizzazione del suolo",
+    "en": "Land use"
+  },
+  "legal-form": {
+    "de": "Rechtsform",
+    "fr": "Forme juridique",
+    "it": "Forma giuridica",
+    "en": "Legal form"
+  },
+  "linked-data": {
+    "de": "Linked Data",
+    "fr": "Données liées",
+    "it": "Dati collegati",
+    "en": "Linked data"
+  },
+  "machine-learning": {
+    "de": "Maschinelles Lernen",
+    "fr": "Apprentissage automatique",
+    "it": "Apprendimento automatico",
+    "en": "Machine learning"
+  },
+  "MAF": {
+    "de": "Meine Agrardatenfreigabe (MAF)",
+    "fr": "Mes données agricoles (MAF)",
+    "it": "I miei dati agricoli (MAF)",
+    "en": "My agricultural data release (MAF)"
+  },
+  "main-crops": {
+    "de": "Hauptkulturen",
+    "fr": "Cultures principales",
+    "it": "Colture principali",
+    "en": "Main crops"
+  },
+  "meat": {
+    "de": "Fleisch",
+    "fr": "Viande",
+    "it": "Carne",
+    "en": "Meat"
+  },
+  "meine-agrardaten-freigabe": {
+    "de": "Meine Agrardatenfreigabe",
+    "fr": "Mes données agricoles (Autorisation)",
+    "it": "I miei dati agricoli (Autorizzazione)",
+    "en": "My agricultural data release"
+  },
+  "meteorology": {
+    "de": "Meteorologie",
+    "fr": "Météorologie",
+    "it": "Meteorologia",
+    "en": "Meteorology"
+  },
+  "monitoring": {
+    "de": "Überwachung",
+    "fr": "Surveillance",
+    "it": "Sorveglianza",
+    "en": "Monitoring"
+  },
+  "mountain-management": {
+    "de": "Berggebietsbewirtschaftung",
+    "fr": "Gestion des zones de montagne",
+    "it": "Gestione delle zone di montagna",
+    "en": "Mountain management"
+  },
+  "natural-risk-zones": {
+    "de": "Naturgefahrenzonen",
+    "fr": "Zones de dangers naturels",
+    "it": "Zone di pericoli naturali",
+    "en": "Natural risk zones"
+  },
+  "network": {
+    "de": "Netzwerk",
+    "fr": "Réseau",
+    "it": "Rete",
+    "en": "Network"
+  },
+  "NHG": {
+    "de": "NHG (Natur- und Heimatschutzgesetz)",
+    "fr": "LPN (Loi sur la protection de la nature)",
+    "it": "LPN (Legge sulla protezione della natura)",
+    "en": "NCHA (Nature and Cultural Heritage Act)"
+  },
+  "nutrient-content": {
+    "de": "Nährstoffgehalt",
+    "fr": "Teneur en nutriments",
+    "it": "Tenore di nutrienti",
+    "en": "Nutrient content"
+  },
+  "official-geodata": {
+    "de": "Amtliche Geodaten",
+    "fr": "Géodonnées officielles",
+    "it": "Geodati ufficiali",
+    "en": "Official geodata"
+  },
+  "operational-data": {
+    "de": "Betriebsdaten",
+    "fr": "Données d'exploitation",
+    "it": "Dati aziendali",
+    "en": "Operational data"
+  },
+  "operator": {
+    "de": "Bewirtschafter",
+    "fr": "Exploitant",
+    "it": "Gestore",
+    "en": "Operator"
+  },
+  "organization": {
+    "de": "Organisation",
+    "fr": "Organisation",
+    "it": "Organizzazione",
+    "en": "Organization"
+  },
+  "plant-resource": {
+    "de": "Pflanzliche Ressource",
+    "fr": "Ressource végétale",
+    "it": "Risorsa vegetale",
+    "en": "Plant resource"
+  },
+  "plant-variety": {
+    "de": "Pflanzensorte",
+    "fr": "Variété végétale",
+    "it": "Varietà vegetale",
+    "en": "Plant variety"
+  },
+  "processed-agricultural-produce": {
+    "de": "Verarbeitete landwirtschaftliche Erzeugnisse",
+    "fr": "Produits agricoles transformés",
+    "it": "Prodotti agricoli trasformati",
+    "en": "Processed agricultural produce"
+  },
+  "product-category": {
+    "de": "Produktkategorie",
+    "fr": "Catégorie de produits",
+    "it": "Categoria di prodotti",
+    "en": "Product category"
+  },
+  "proof-of-ecological-performance": {
+    "de": "Ökologischer Leistungsnachweis (ÖLN)",
+    "fr": "Prestations écologiques requises (PER)",
+    "it": "Prova che le esigenze ecologiche sono rispettate (PER)",
+    "en": "Proof of ecological performance (PEP)"
+  },
+  "protected-designation-of-origin": {
+    "de": "Geschützte Ursprungsbezeichnung (GUB)",
+    "fr": "Appellation d'origine protégée (AOP)",
+    "it": "Denominazione di origine protetta (DOP)",
+    "en": "Protected designation of origin (PDO)"
+  },
+  "protected-geographical-indication": {
+    "de": "Geschützte geografische Angabe (GGA)",
+    "fr": "Indication géographique protégée (IGP)",
+    "it": "Indicazione geografica protetta (IGP)",
+    "en": "Protected geographical indication (PGI)"
+  },
+  "register-data": {
+    "de": "Registerdaten",
+    "fr": "Données du registre",
+    "it": "Dati del registro",
+    "en": "Register data"
+  },
+  "registration-data": {
+    "de": "Registrierungsdaten",
+    "fr": "Données d'enregistrement",
+    "it": "Dati di registrazione",
+    "en": "Registration data"
+  },
+  "reporting-unit": {
+    "de": "Meldeeinheit",
+    "fr": "Unité de signalement",
+    "it": "Unità di notifica",
+    "en": "Reporting unit"
+  },
+  "slope-gradient": {
+    "de": "Hangneigung",
+    "fr": "Déclivité",
+    "it": "Declività",
+    "en": "Slope gradient"
+  },
+  "software": {
+    "de": "Software",
+    "fr": "Logiciel",
+    "it": "Software",
+    "en": "Software"
+  },
+  "soil": {
+    "de": "Boden",
+    "fr": "Sol",
+    "it": "Suolo",
+    "en": "Soil"
+  },
+  "soil-erosion": {
+    "de": "Bodenerosion",
+    "fr": "Érosion du sol",
+    "it": "Erosione del suolo",
+    "en": "Soil erosion"
+  },
+  "statistical-learning": {
+    "de": "Statistisches Lernen",
+    "fr": "Apprentissage statistique",
+    "it": "Apprendimento statistico",
+    "en": "Statistical learning"
+  },
+  "statistical-units": {
+    "de": "Statistische Einheiten",
+    "fr": "Unités statistiques",
+    "it": "Unità statistiche",
+    "en": "Statistical units"
+  },
+  "structural-data": {
+    "de": "Strukturdaten",
+    "fr": "Données structurelles",
+    "it": "Dati strutturali",
+    "en": "Structural data"
+  },
+  "subsidy": {
+    "de": "Subvention",
+    "fr": "Subvention",
+    "it": "Sussidio",
+    "en": "Subsidy"
+  },
+  "suisse-bilanz": {
+    "de": "Suisse-Bilanz",
+    "fr": "Suisse-Bilanz",
+    "it": "Suisse-Bilanz",
+    "en": "Suisse-Bilanz"
+  },
+  "summer-grazing": {
+    "de": "Sömmerungsweide",
+    "fr": "Pâturage d'estivage",
+    "it": "Pascolo d'estivazione",
+    "en": "Summer grazing"
+  },
+  "summering": {
+    "de": "Sömmerung",
+    "fr": "Estivage",
+    "it": "Estivazione",
+    "en": "Summering"
+  },
+  "sustainability": {
+    "de": "Nachhaltigkeit",
+    "fr": "Durabilité",
+    "it": "Sostenibilità",
+    "en": "Sustainability"
+  },
+  "systems": {
+    "de": "Systeme",
+    "fr": "Systèmes",
+    "it": "Sistemi",
+    "en": "Systems"
+  },
+  "TVD": {
+    "de": "Tierverkehrsdatenbank (TVD)",
+    "fr": "Banque de données sur le trafic des animaux (BDTA)",
+    "it": "Banca dati sul traffico di animali (BDTA)",
+    "en": "Animal Traffic Database (ATD)"
+  },
+  "UID": {
+    "de": "Unternehmens-Identifikationsnummer (UID)",
+    "fr": "Numéro d'identification des entreprises (IDE)",
+    "it": "Numero d'identificazione delle imprese (IDI)",
+    "en": "Business Identification Number (UID)"
+  },
+  "UPOV": {
+    "de": "UPOV",
+    "fr": "UPOV",
+    "it": "UPOV",
+    "en": "UPOV"
+  },
+  "utility-and-governmental-services": {
+    "de": "Versorgungs- und staatliche Dienstleistungen",
+    "fr": "Services d'utilité publique et administratifs",
+    "it": "Servizi di pubblica utilità e amministrativi",
+    "en": "Utility and governmental services"
+  },
+  "vineyard-zone": {
+    "de": "Rebbauzone",
+    "fr": "Zone viticole",
+    "it": "Zona viticola",
+    "en": "Vineyard zone"
+  },
+  "vineyards": {
+    "de": "Rebflächen",
+    "fr": "Vignobles",
+    "it": "Vigneti",
+    "en": "Vineyards"
+  },
+  "wastewater": {
+    "de": "Abwasser",
+    "fr": "Eaux usées",
+    "it": "Acque di scarico",
+    "en": "Wastewater"
+  },
+  "zoning": {
+    "de": "Zoneneinteilung",
+    "fr": "Zonage",
+    "it": "Zonizzazione",
+    "en": "Zoning"
+  }
+}

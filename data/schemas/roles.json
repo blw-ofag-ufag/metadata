@@ -20,7 +20,7 @@
             "properties": {
               "role": {
                 "type": "string",
-                "enum": ["businessDataOwner", "dataSteward", "dataCustodian"]
+                "enum": ["dataOwner", "dataSteward", "dataCustodian"]
               },
               "datasets": {
                 "type": "array",

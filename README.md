@@ -10,13 +10,21 @@ The metadata you find here is displayed in a more user-friendly way by our [data
 
 ---
 
-## Metadata Quality Dashboard
+## 🏆 Metadata Quality Dashboard
 
-This repository includes a **Quality Assurance Dashboard** built with Streamlit. It allows data stewards to audit datasets against the BLW schema, check for broken links, and calculate a "FAIRC" quality score (Findable, Accessible, Interoperable, Reusable, Contextual).
+This repository includes a **Quality Assurance Dashboard** built with Streamlit and deployed statically via **Stlite** (Python in the browser). It allows data stewards to audit datasets against the `dataset.json` schema, check for broken links, and calculate a "FAIRC" quality score.
 
-### 1. Prerequisites & Installation
+👉 **[View the Live Dashboard](https://blw-ofag-ufag.github.io/metadata/)**
 
-Ensure you have **Python 3.9+** installed.
+### Architecture
+The dashboard runs entirely in the client's browser (Serverless).
+1.  **Builder:** GitHub Actions runs `src/audit.py` to validate links and calculate scores.
+2.  **Snapshot:** The results are saved to `dashboard/data_snapshot.json`.
+3.  **Viewer:** The `dashboard/` folder is published to GitHub Pages. `index.html` loads the Stlite engine, which executes `app.py` using the JSON snapshot.
+
+### 1. Prerequisites & Installation locally
+
+Ensure you have **Python 3.12+** installed.
 
 1.  **Clone the repository:**
     ```bash
@@ -35,12 +43,13 @@ Ensure you have **Python 3.9+** installed.
     pip install -r requirements.txt
     ```
 
-### 2. Initialize the Database
+### 2. Generate Data Snapshot (The "Builder")
 
-Before running the dashboard for the first time, you must run the audit pipeline. This script processes the raw JSON data, performs asynchronous URL health checks, calculates quality scores, and populates the local SQLite database (`data/qa.db`).
+Before running the dashboard, you must generate the data. This script processes raw JSON, performs async URL health checks, and creates the static JSON snapshot.
 
 ```bash
 # Run the audit pipeline from the project root
+# Generates: dashboard/data_snapshot.json
 python -m src.audit
 ```
 
@@ -49,10 +58,3 @@ python -m src.audit
 ```bash
 streamlit run dashboard/app.py
 ```
-
-### 3b Access the UI via posit workbench
-
-- Go to the PORTS tab in the bottom panel of VS Code/Editor
-- Enter Port number indicated in the terminal. For example 8501 for `Local URL: http://localhost:8501`
-- Hover over the `Forwarded Address` column
-- Click on `Preview in Editor`

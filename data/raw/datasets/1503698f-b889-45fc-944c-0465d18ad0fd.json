@@ -13,12 +13,6 @@
     "schema:name": "Fachbereich Agrarinformationssysteme",
     "schema:email": "agis@blw.admin.ch"
   },
-  "dcat:keyword": {
-    "a": {
-      "de": "AGIS",
-      "fr": "SIPA"
-    }
-  },
   "dct:accrualPeriodicity": "ANNUAL",
   "prov:qualifiedAttribution": [
     {
