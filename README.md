@@ -14,7 +14,7 @@ The metadata you find here is displayed in a more user-friendly way by our [data
 
 This repository includes a **Quality Assurance Dashboard** built with Streamlit and deployed statically via **Stlite** (Python in the browser). It allows data stewards to audit datasets against the `dataset.json` schema, check for broken links, and calculate a "FAIRC" quality score.
 
-👉 **[View the Live Dashboard](https://blw-ofag-ufag.github.io/metadata/dashboard/)**
+👉 **[View the Live Dashboard](https://blw-ofag-ufag.github.io/metadata/)**
 
 ### Architecture
 The dashboard runs entirely in the client's browser (Serverless).
