@@ -69,8 +69,8 @@
             },
             "dct:modified": "2024-01-01",
             "adms:status": "published",
-            "dcat:accessURL": "https://input.i14y.admin.ch/api/Metadata/concepts/byId/08dd50e7-1680-fbf8-afeb-aebe0b019720/codeListEntries/export/json",
-            "dcat:downloadURL": "https://input.i14y.admin.ch/api/Metadata/concepts/byId/08dd50e7-1680-fbf8-afeb-aebe0b019720/codeListEntries/export/json",
+            "dcat:accessURL": "https://api.i14y.admin.ch/api/public/v1/concepts/08dd50e7-1680-fbf8-afeb-aebe0b019720",
+            "dcat:downloadURL": "https://api.i14y.admin.ch/api/public/v1/concepts/08dd50e7-1680-fbf8-afeb-aebe0b019720",
             "dct:format": "JSON",
             "dct:license": "terms_by"
         },
@@ -90,8 +90,8 @@
             },
             "dct:modified": "2024-01-01",
             "adms:status": "published",
-            "dcat:accessURL": "https://input.i14y.admin.ch/api/Metadata/concepts/byId/08dd50e7-1680-fbf8-afeb-aebe0b019720/codeListEntries/export/csv",
-            "dcat:downloadURL": "https://input.i14y.admin.ch/api/Metadata/concepts/byId/08dd50e7-1680-fbf8-afeb-aebe0b019720/codeListEntries/export/csv",
+            "dcat:accessURL": "https://api.i14y.admin.ch/api/public/v1/concepts/08dd50e7-1680-fbf8-afeb-aebe0b019720/codelist-entries/exports/csv",
+            "dcat:downloadURL": "https://api.i14y.admin.ch/api/public/v1/concepts/08dd50e7-1680-fbf8-afeb-aebe0b019720/codelist-entries/exports/csv",
             "dct:format": "CSV",
             "dct:license": "terms_by"
         }
