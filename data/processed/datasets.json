@@ -91,7 +91,7 @@
         "dataOwner": "p-0170309",
         "schemaViolations": 0,
         "schemaViolationMessages": [],
-        "quality": 12042.0
+        "quality": 11966.0
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -263,7 +263,7 @@
         "dataOwner": "p-5367735",
         "schemaViolations": 0,
         "schemaViolationMessages": [],
-        "quality": 8803.0
+        "quality": 8727.0
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -359,7 +359,7 @@
         "dataOwner": "p-5367735",
         "schemaViolations": 0,
         "schemaViolationMessages": [],
-        "quality": 8093.0
+        "quality": 8017.0
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -451,7 +451,7 @@
         "dataOwner": "p-5367735",
         "schemaViolations": 0,
         "schemaViolationMessages": [],
-        "quality": 7535.0
+        "quality": 7459.0
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -685,100 +685,6 @@
     },
     {
         "rdf:type": "dcat:Dataset",
-        "dct:identifier": "db3bd925-f540-4c38-9a54-fb4fbe524609",
-        "dct:title": {
-            "de": "Flächenkategorien",
-            "fr": "Catégories de surfaces",
-            "it": "Categorie di aree",
-            "en": "Area categories"
-        },
-        "dct:description": {
-            "de": "Die «Kulturen» gemäss Direktzahlungsverordnungen werden in Flächenkategorien gegliedert. Diese Liste beschreibt die Flächenkategorien.",
-            "fr": "Les « cultures » selon les ordonnances sur les paiements directs sont réparties en catégories de surface. Cette liste décrit les catégories de surfaces.",
-            "it": "Le “colture” secondo le ordinanze sui pagamenti diretti sono suddivise in categorie di superficie. Questo elenco descrive le categorie di superficie.",
-            "en": "The “crops” according to the direct payment ordinances are divided into area categories. This list describes the area categories."
-        },
-        "dct:accessRights": "PUBLIC",
-        "dct:issued": "2024-01-01",
-        "dcat:keyword": [
-            "data-standard",
-            "eCH-0265",
-            "AGIS",
-            "direct-payments"
-        ],
-        "dct:accrualPeriodicity": "AS_NEEDED",
-        "dct:modified": "2024-01-01",
-        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
-        "dcat:contactPoint": {
-            "schema:email": "agis@blw.admin.ch",
-            "schema:name": "Fachbereich Agrarinformationssysteme"
-        },
-        "bv:archivalValue": false,
-        "adms:status": "published",
-        "bv:classification": "none",
-        "bv:personalData": "none",
-        "bv:typeOfData": "referenceData",
-        "dcat:theme": [
-            "agriculture",
-            "territory",
-            "national-economy"
-        ],
-        "dcatap:applicableLegislation": [
-            "https://www.fedlex.admin.ch/eli/cc/2013/765/de"
-        ],
-        "bv:itSystem": "https://agriculture.ld.admin.ch/system-map/SvDlxaJ5YMkuZGH6k",
-        "dcat:distribution": [
-            {
-                "dct:identifier": "df0a6506-24fd-4ca7-b1d0-aad017c9ab3f",
-                "dct:title": {
-                    "de": "Flächenkategorien",
-                    "fr": "Catégories de surfaces",
-                    "it": "Categorie di aree",
-                    "en": "Area categories"
-                },
-                "dct:description": {
-                    "de": "Die «Kulturen» gemäss Direktzahlungsverordnungen werden in Flächenkategorien gegliedert. Diese Liste beschreibt die Flächenkategorien.",
-                    "fr": "Les « cultures » selon les ordonnances sur les paiements directs sont réparties en catégories de surface. Cette liste décrit les catégories de surfaces.",
-                    "it": "Le “colture” secondo le ordinanze sui pagamenti diretti sono suddivise in categorie di superficie. Questo elenco descrive le categorie di superficie.",
-                    "en": "The “crops” according to the direct payment ordinances are divided into area categories. This list describes the area categories."
-                },
-                "dct:modified": "2024-01-01",
-                "adms:status": "published",
-                "dcat:accessURL": "https://api.i14y.admin.ch/api/public/v1/concepts/08dd50e5-da95-bba3-9ec9-f99d769eec6d",
-                "dcat:downloadURL": "https://api.i14y.admin.ch/api/public/v1/concepts/08dd50e5-da95-bba3-9ec9-f99d769eec6d",
-                "dct:format": "JSON",
-                "dct:license": "terms_by"
-            },
-            {
-                "dct:identifier": "9e87f4a5-7ac0-4071-9bd6-d81ad19956d3",
-                "dct:title": {
-                    "de": "Flächenkategorien",
-                    "fr": "Catégories de surfaces",
-                    "it": "Categorie di aree",
-                    "en": "Area categories"
-                },
-                "dct:description": {
-                    "de": "Die «Kulturen» gemäss Direktzahlungsverordnungen werden in Flächenkategorien gegliedert. Diese Liste beschreibt die Flächenkategorien.",
-                    "fr": "Les « cultures » selon les ordonnances sur les paiements directs sont réparties en catégories de surface. Cette liste décrit les catégories de surfaces.",
-                    "it": "Le “colture” secondo le ordinanze sui pagamenti diretti sono suddivise in categorie di superficie. Questo elenco descrive le categorie di superficie.",
-                    "en": "The “crops” according to the direct payment ordinances are divided into area categories. This list describes the area categories."
-                },
-                "dct:modified": "2024-01-01",
-                "adms:status": "published",
-                "dcat:accessURL": "https://api.i14y.admin.ch/api/public/v1/concepts/08dd50e5-da95-bba3-9ec9-f99d769eec6d/codelist-entries/exports/csv",
-                "dcat:downloadURL": "https://api.i14y.admin.ch/api/public/v1/concepts/08dd50e5-da95-bba3-9ec9-f99d769eec6d/codelist-entries/exports/csv",
-                "dct:format": "CSV",
-                "dct:license": "terms_by"
-            }
-        ],
-        "bv:externalCatalogs": null,
-        "dataOwner": "p-5367735",
-        "schemaViolations": 0,
-        "schemaViolationMessages": [],
-        "quality": 5127.0
-    },
-    {
-        "rdf:type": "dcat:Dataset",
         "dct:identifier": "00d5f3a2-8387-432b-8f46-b49c3eb018ea",
         "schema:image": "https://fal.media/files/monkey/6gWWWqidmTPm5sPb5W59p_38800376b318474599bf6fa9638c6bae.jpg",
         "dct:title": {
@@ -876,6 +782,100 @@
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']"
         ],
         "quality": 5112.0
+    },
+    {
+        "rdf:type": "dcat:Dataset",
+        "dct:identifier": "db3bd925-f540-4c38-9a54-fb4fbe524609",
+        "dct:title": {
+            "de": "Flächenkategorien",
+            "fr": "Catégories de surfaces",
+            "it": "Categorie di aree",
+            "en": "Area categories"
+        },
+        "dct:description": {
+            "de": "Die «Kulturen» gemäss Direktzahlungsverordnungen werden in Flächenkategorien gegliedert. Diese Liste beschreibt die Flächenkategorien.",
+            "fr": "Les « cultures » selon les ordonnances sur les paiements directs sont réparties en catégories de surface. Cette liste décrit les catégories de surfaces.",
+            "it": "Le “colture” secondo le ordinanze sui pagamenti diretti sono suddivise in categorie di superficie. Questo elenco descrive le categorie di superficie.",
+            "en": "The “crops” according to the direct payment ordinances are divided into area categories. This list describes the area categories."
+        },
+        "dct:accessRights": "PUBLIC",
+        "dct:issued": "2024-01-01",
+        "dcat:keyword": [
+            "data-standard",
+            "eCH-0265",
+            "AGIS",
+            "direct-payments"
+        ],
+        "dct:accrualPeriodicity": "AS_NEEDED",
+        "dct:modified": "2024-01-01",
+        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+        "dcat:contactPoint": {
+            "schema:email": "agis@blw.admin.ch",
+            "schema:name": "Fachbereich Agrarinformationssysteme"
+        },
+        "bv:archivalValue": false,
+        "adms:status": "published",
+        "bv:classification": "none",
+        "bv:personalData": "none",
+        "bv:typeOfData": "referenceData",
+        "dcat:theme": [
+            "agriculture",
+            "territory",
+            "national-economy"
+        ],
+        "dcatap:applicableLegislation": [
+            "https://www.fedlex.admin.ch/eli/cc/2013/765/de"
+        ],
+        "bv:itSystem": "https://agriculture.ld.admin.ch/system-map/SvDlxaJ5YMkuZGH6k",
+        "dcat:distribution": [
+            {
+                "dct:identifier": "df0a6506-24fd-4ca7-b1d0-aad017c9ab3f",
+                "dct:title": {
+                    "de": "Flächenkategorien",
+                    "fr": "Catégories de surfaces",
+                    "it": "Categorie di aree",
+                    "en": "Area categories"
+                },
+                "dct:description": {
+                    "de": "Die «Kulturen» gemäss Direktzahlungsverordnungen werden in Flächenkategorien gegliedert. Diese Liste beschreibt die Flächenkategorien.",
+                    "fr": "Les « cultures » selon les ordonnances sur les paiements directs sont réparties en catégories de surface. Cette liste décrit les catégories de surfaces.",
+                    "it": "Le “colture” secondo le ordinanze sui pagamenti diretti sono suddivise in categorie di superficie. Questo elenco descrive le categorie di superficie.",
+                    "en": "The “crops” according to the direct payment ordinances are divided into area categories. This list describes the area categories."
+                },
+                "dct:modified": "2024-01-01",
+                "adms:status": "published",
+                "dcat:accessURL": "https://api.i14y.admin.ch/api/public/v1/concepts/08dd50e5-da95-bba3-9ec9-f99d769eec6d",
+                "dcat:downloadURL": "https://api.i14y.admin.ch/api/public/v1/concepts/08dd50e5-da95-bba3-9ec9-f99d769eec6d",
+                "dct:format": "JSON",
+                "dct:license": "terms_by"
+            },
+            {
+                "dct:identifier": "9e87f4a5-7ac0-4071-9bd6-d81ad19956d3",
+                "dct:title": {
+                    "de": "Flächenkategorien",
+                    "fr": "Catégories de surfaces",
+                    "it": "Categorie di aree",
+                    "en": "Area categories"
+                },
+                "dct:description": {
+                    "de": "Die «Kulturen» gemäss Direktzahlungsverordnungen werden in Flächenkategorien gegliedert. Diese Liste beschreibt die Flächenkategorien.",
+                    "fr": "Les « cultures » selon les ordonnances sur les paiements directs sont réparties en catégories de surface. Cette liste décrit les catégories de surfaces.",
+                    "it": "Le “colture” secondo le ordinanze sui pagamenti diretti sono suddivise in categorie di superficie. Questo elenco descrive le categorie di superficie.",
+                    "en": "The “crops” according to the direct payment ordinances are divided into area categories. This list describes the area categories."
+                },
+                "dct:modified": "2024-01-01",
+                "adms:status": "published",
+                "dcat:accessURL": "https://api.i14y.admin.ch/api/public/v1/concepts/08dd50e5-da95-bba3-9ec9-f99d769eec6d/codelist-entries/exports/csv",
+                "dcat:downloadURL": "https://api.i14y.admin.ch/api/public/v1/concepts/08dd50e5-da95-bba3-9ec9-f99d769eec6d/codelist-entries/exports/csv",
+                "dct:format": "CSV",
+                "dct:license": "terms_by"
+            }
+        ],
+        "bv:externalCatalogs": null,
+        "dataOwner": "p-5367735",
+        "schemaViolations": 0,
+        "schemaViolationMessages": [],
+        "quality": 5051.0
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -2343,7 +2343,7 @@
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'"
         ],
-        "quality": 1676.75
+        "quality": 1657.75
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -2439,7 +2439,7 @@
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'"
         ],
-        "quality": 1579.0
+        "quality": 1560.0
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -8717,6 +8717,108 @@
     },
     {
         "rdf:type": "dcat:Dataset",
+        "dct:identifier": "b47a6f96-9419-40f4-b5e7-08d2ef5531f5",
+        "dct:title": {
+            "de": "Schweizer Agraraussenhandelsstatistik",
+            "fr": "Statistiques suisses du commerce extérieur agricole"
+        },
+        "dct:description": {
+            "de": "Detaillierte Schweizer Agraraussenhandelsstatistik für den Zeitraum 1995 bis 2024. Der Datensatz enthält Import- und Exportdaten auf der Ebene der statistischen Schlüssel (Warendetail) und ist nach Zollregime (Verzollungsart) gegliedert. Diese hohe Granularität ermöglicht präzise Analysen der landwirtschaftlichen Warenströme über die Grenze.",
+            "fr": "Statistiques détaillées du commerce extérieur agricole suisse pour la période de 1995 à 2024. Le jeu de données contient des données d'importation et d'exportation au niveau des clés statistiques (détail des marchandises) et est ventilé par régime douanier (type de dédouanement). Cette granularité permet des analyses précises des flux de marchandises agricoles transfrontaliers."
+        },
+        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+        "dct:accrualPeriodicity": "ANNUAL",
+        "adms:status": "archived",
+        "bv:classification": "internal",
+        "bv:personalData": "personalData",
+        "bv:archivalValue": false,
+        "dcat:theme": [
+            "trade"
+        ],
+        "dcat:distribution": [
+            {
+                "dct:identifier": "f3e46350-b5bf-4765-82bb-daf1987a95fe",
+                "adms:status": "archived",
+                "dct:format": "rda",
+                "dcat:downloadURL": "M:\\Org\\BLW_3210_INTERN\\R\\RTables\\TN400_401_M_m.rda",
+                "dct:title": {
+                    "de": "Importstatistiken",
+                    "fr": "Statistiques à l'import"
+                },
+                "dct:description": {
+                    "de": "4'121'326 Zeilen × 13 Spalten.\nHinweis: Dateien für das BLW nur auf Anfrage zugänglich.",
+                    "fr": "4,121,326 lignes × 13 colonnes. \nNote: Fichiers accessibles pour l’OFAG sur demande d'accès au disque."
+                }
+            },
+            {
+                "dct:identifier": "f47de445-fbef-4a3e-9172-f96f5a1b00a7",
+                "adms:status": "archived",
+                "dct:format": "rda",
+                "dcat:downloadURL": "M:\\Org\\BLW_3210_INTERN\\R\\RTables\\TN400_401_X_m.rda",
+                "dct:title": {
+                    "de": "Exportstatistiken",
+                    "fr": "Statistiques à l'export"
+                },
+                "dct:description": {
+                    "de": "2'211'794 Zeilen × 10 Spalten.\nHinweis: Dateien für das BLW nur auf Anfrage zugänglich.",
+                    "fr": "2,211,794 lignes × 10 colonnes.\nNote: Fichiers accessibles pour l’OFAG sur demande d'accès au disque."
+                }
+            }
+        ],
+        "dataOwner": "p-3606006",
+        "schemaViolations": 3,
+        "schemaViolationMessages": [
+            "'dct:issued' is a required property",
+            "'dcat:accessURL' is a required property",
+            "'dcat:accessURL' is a required property"
+        ],
+        "quality": 707.5
+    },
+    {
+        "rdf:type": "dcat:Dataset",
+        "dct:identifier": "ddf57fc9-0e6e-463a-b054-3f658cf74edb",
+        "dct:title": {
+            "de": "Zollansätze und Tarifarten",
+            "fr": "Droits de douanes"
+        },
+        "dct:description": {
+            "de": "Übersicht der verschiedenen Zollansätze: Umfasst die WTO-Obergrenzen (konsolidierte Ansätze), die angewandten Normaltarife (Meistbegünstigung/NPF) sowie Vorzugstarife (Präferenzen) aus Freihandelsabkommen und für Entwicklungsländer (APS). Enthält zudem Informationen zu Zollerleichterungen.",
+            "fr": "Aperçu des tarifs douaniers incluant : les taux plafonds (consolidés OMC), les taux standards appliqués (NPF) et les taux préférentiels issus d'accords de libre-échange ou du Système des préférences généralisé (SPG). Comprend également les allègements douaniers."
+        },
+        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+        "dct:accrualPeriodicity": "ANNUAL",
+        "adms:status": "archived",
+        "bv:classification": "internal",
+        "bv:personalData": "none",
+        "dcat:theme": [
+            "trade"
+        ],
+        "dcat:distribution": [
+            {
+                "dct:identifier": "4c1220bc-7516-405c-badc-8785b7d5f369",
+                "adms:status": "archived",
+                "dct:format": "rda",
+                "dcat:downloadURL": "M:\\Org\\BLW_3210_INTERN\\R\\RTables\\SAP_20251001.rda",
+                "dct:title": {
+                    "de": "Gesamtliste der Zollansätze",
+                    "fr": "Liste complète des droits de douane"
+                },
+                "dct:description": {
+                    "de": "239'041 Zeilen × 22 Spalten.\nAnmerkung: Dateien für das BLW nur auf Anfrage zugänglich.",
+                    "fr": "239,041 lignes × 22 colonnes.\nNote: Note: Fichiers accessibles pour l’OFAG sur demande d'accès au disque."
+                }
+            }
+        ],
+        "dataOwner": "p-3606006",
+        "schemaViolations": 2,
+        "schemaViolationMessages": [
+            "'dct:issued' is a required property",
+            "'dcat:accessURL' is a required property"
+        ],
+        "quality": 668.3333333333334
+    },
+    {
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "5361e7d7-4ac9-43ab-bdb3-dbec0f030033",
         "dct:title": {
             "de": "Programme/Label",
@@ -8817,7 +8919,7 @@
             "'Programmi/label' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'",
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'"
         ],
-        "quality": 515.4
+        "quality": 507.8
     },
     {
         "rdf:type": "dcat:Dataset",
