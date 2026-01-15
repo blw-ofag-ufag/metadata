@@ -151,8 +151,11 @@ class AuditPipeline:
             
             logger.info("Calculating Scores & Suggestions...")
             
-            # We will build the JSON export list directly here
-            export_list = []
+            # --- SPLIT EXPORT STRATEGY ---
+            # 1. Summary List: Lightweight, for immediate table rendering.
+            # 2. Details Map: Heavyweight, lazy-loaded by ID when needed.
+            summary_list = []
+            details_map = {}
 
             for ds_input in dataset_inputs:
                 # 1. Calculate Score
@@ -186,22 +189,43 @@ class AuditPipeline:
                 dataset_orm.distributions = orm_dists
                 session.merge(dataset_orm)
 
-                # 4. Add to JSON Export List (Flattened structure for Dashboard)
-                ds_export = ds_data.copy()
-                ds_export['distributions'] = dist_export_list
-                export_list.append(ds_export)
+                # 4. EXPORT PREPARATION
+                
+                # A. DETAILS RECORD (Full Data)
+                detail_record = ds_data.copy()
+                detail_record['distributions'] = dist_export_list
+                # Store in map keyed by ID for O(1) lookup
+                details_map[ds_data['id']] = detail_record
+
+                # B. SUMMARY RECORD (Lightweight)
+                # Only fields needed for the Overview Table & Charts
+                summary_record = {
+                    'id': ds_data['id'],
+                    'title': ds_data['title'], # Keep full dict for translation
+                    'swiss_score': ds_data['swiss_score'],
+                    'schema_violations_count': ds_data['schema_violations_count'],
+                    'schema_violation_messages': ds_data['schema_violation_messages'],
+                    'modified': ds_data['modified']
+                }
+                summary_list.append(summary_record)
             
             session.commit()
             
-            # --- EXPORT TO JSON ---
-            output_path = Path("dashboard/data_snapshot.json")
-            # Ensure dashboard folder exists
-            output_path.parent.mkdir(parents=True, exist_ok=True)
+            # --- EXPORT TO JSON FILES ---
+            output_dir = Path("dashboard")
+            output_dir.mkdir(parents=True, exist_ok=True)
             
-            with open(output_path, "w", encoding="utf-8") as f:
-                json.dump(export_list, f, ensure_ascii=False, indent=None, separators=(',', ':'))
+            # 1. Write Summary (Fast Load)
+            summary_path = output_dir / "data_summary.json"
+            with open(summary_path, "w", encoding="utf-8") as f:
+                json.dump(summary_list, f, ensure_ascii=False, indent=None, separators=(',', ':'))
+
+            # 2. Write Details (Lazy Load)
+            details_path = output_dir / "data_details.json"
+            with open(details_path, "w", encoding="utf-8") as f:
+                json.dump(details_map, f, ensure_ascii=False, indent=None, separators=(',', ':'))
             
-            logger.info(f"✅ Snapshot exported to {output_path} ({len(export_list)} records)")
+            logger.info(f"✅ Exported: Summary ({len(summary_list)} items) & Details Map.")
 
 if __name__ == "__main__":
     pipeline = AuditPipeline()
