@@ -5,8 +5,8 @@
     "fr": "Statistiques suisses du commerce extérieur agricole"
   },
   "dct:description": {
-    "de": "Schweizer Agraraussenhandelsstatistik (1995–2024) für Import und Export, gegliedert nach statistischen Schlüsseln und Zollregime.",
-    "fr": "Statistiques suisses du commerce extérieur agricole par clé statistique et régime douanier. Comprend l’import et l’export de 1995 à 2024."
+    "de": "Detaillierte Schweizer Agraraussenhandelsstatistik für den Zeitraum 1995 bis 2024. Der Datensatz enthält Import- und Exportdaten auf der Ebene der statistischen Schlüssel (Warendetail) und ist nach Zollregime (Verzollungsart) gegliedert. Diese hohe Granularität ermöglicht präzise Analysen der landwirtschaftlichen Warenströme über die Grenze.",
+    "fr": "Statistiques détaillées du commerce extérieur agricole suisse pour la période de 1995 à 2024. Le jeu de données contient des données d'importation et d'exportation au niveau des clés statistiques (détail des marchandises) et est ventilé par régime douanier (type de dédouanement). Cette granularité permet des analyses précises des flux de marchandises agricoles transfrontaliers."
   },
   "dct:publisher": "BLW-OFAG-UFAG-FOAG",
   "dct:accrualPeriodicity": "ANNUAL",
@@ -46,7 +46,7 @@
         "fr": "Statistiques à l'import"
       },
       "dct:description": {
-        "de": "4'121'326 Zeilen × 13 Spalten.\nHinweis: Dateien für das BLW auf Anfrage zugänglich.",
+        "de": "4'121'326 Zeilen × 13 Spalten.\nHinweis: Dateien für das BLW nur auf Anfrage zugänglich.",
         "fr": "4,121,326 lignes × 13 colonnes. \nNote: Fichiers accessibles pour l’OFAG sur demande d'accès au disque."
       }
     },  
@@ -60,7 +60,7 @@
         "fr": "Statistiques à l'export"
       },
       "dct:description": {
-        "de": "2'211'794 Zeilen × 10 Spalten.\nHinweis: Dateien für das BLW auf Anfrage zugänglich.",
+        "de": "2'211'794 Zeilen × 10 Spalten.\nHinweis: Dateien für das BLW nur auf Anfrage zugänglich.",
         "fr": "2,211,794 lignes × 10 colonnes.\nNote: Fichiers accessibles pour l’OFAG sur demande d'accès au disque."
       }
     }
