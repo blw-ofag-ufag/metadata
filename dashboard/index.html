@@ -4,13 +4,79 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <title>BLW Metadata Quality Dashboard 🏆</title>
+    <title>FOAG Metadata Quality Dashboard 🏆</title>
     <link rel="stylesheet" href="style.css" />
     <script src="https://cdn.jsdelivr.net/npm/@stlite/mountable@0.58.0/build/stlite.js"></script>
+    
+    <style>
+      body { margin: 0; padding: 0; font-family: sans-serif; }
+      
+      /* --- Base (Light Mode) --- */
+      .stlite-loader {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #ffffff;
+        color: #2f4356; 
+        transition: background-color 0.3s ease, color 0.3s ease;
+      }
+
+      .loader-spinner {
+        width: 50px;
+        height: 50px;
+        border: 5px solid #f3f3f3; 
+        border-top: 5px solid #e42125; 
+        animation: spin 1s linear infinite;
+        margin-bottom: 20px;
+      }
+
+      .loader-text {
+        font-weight: bold;
+        font-size: 1.2rem;
+        letter-spacing: 0.5px;
+      }
+      
+      .loader-subtext {
+        margin-top: 8px;
+        font-size: 0.9rem;
+        color: #666;
+      }
+
+      @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+
+      /* --- Dark Mode Support --- */
+      @media (prefers-color-scheme: dark) {
+        .stlite-loader {
+          background-color: #0e1117; 
+          color: #fafafa; 
+        }
+        .loader-spinner {
+          border: 5px solid #262730; 
+          border-top: 5px solid #e42125; 
+        }
+        .loader-subtext {
+          color: #9ca0a6; 
+        }
+      }
+    </style>
   </head>
   <body>
-    <div id="root"></div>
+    
+    <div id="root">
+      <div class="stlite-loader">
+        <div class="loader-spinner"></div>
+        <div class="loader-text">FOAG Metadata Dashboard</div>
+        <div class="loader-subtext">Initializing analytics engine...</div>
+      </div>
+    </div>
+
     <script>
+      console.log("Mounting Stlite now...");
       stlite.mount(
         {
           requirements: [
@@ -25,7 +91,6 @@
             "app.py": { url: "./app.py" },
             "translations.py": { url: "./translations.py" },
             "style.css": { url: "./style.css" },
-            // CHANGED HERE:
             "data_summary.json": { url: "./data_summary.json" },
             "data_details.json": { url: "./data_details.json" }
           },
