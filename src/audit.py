@@ -24,9 +24,10 @@ HTTP_TIMEOUT = 408
 HTTP_SSL_ERROR = 495
 HTTP_CONNECTION_ERROR = 503
 HTTP_OTHER_ERROR = 400
+HTTP_OK_INTERNAL = 200 # We treat internal/file paths as implicitly "OK"
 
 # ==============================================================================
-# 1. ASYNC URL CHECKER (Defined INLINE to fix import error)
+# 1. ASYNC URL CHECKER
 # ==============================================================================
 class AsyncUrlChecker:
     def __init__(self):
@@ -35,24 +36,46 @@ class AsyncUrlChecker:
         self.headers = {"User-Agent": settings.USER_AGENT}
         self._results_cache: Dict[str, int] = {}
 
+    def _is_web_url(self, url: str) -> bool:
+        r"""
+        Returns True if URL implies a network request (http/https).
+        Returns False for internal paths (M:\...), ftp, or empty strings.
+        """
+        if not url: 
+            return False
+        return url.lower().startswith(("http://", "https://"))
+
     async def check_distributions(self, distributions: List[DistributionInput]):
         tasks = []
         async with aiohttp.ClientSession(headers=self.headers) as session:
             for dist in distributions:
-                # Check Access URL
-                if dist.access_url and self.should_check(dist, "access_url"):
-                    tasks.append(self._audit_url(dist, "access_url", session))
                 
-                # Check Download URL
-                if dist.download_url and self.should_check(dist, "download_url"):
-                    tasks.append(self._audit_url(dist, "download_url", session))
+                # --- CHECK ACCESS URL ---
+                if dist.access_url:
+                    if self._is_web_url(dist.access_url):
+                        # It is a web URL, check if we need to audit it
+                        if self.should_check(dist, "access_url"):
+                            tasks.append(self._audit_url(dist, "access_url", session))
+                    else:
+                        # It is an internal path (e.g. M:\...) -> Mark as OK immediately
+                        dist.access_url_status = HTTP_OK_INTERNAL
+
+                # --- CHECK DOWNLOAD URL ---
+                if dist.download_url:
+                    if self._is_web_url(dist.download_url):
+                        # It is a web URL, check if we need to audit it
+                        if self.should_check(dist, "download_url"):
+                            tasks.append(self._audit_url(dist, "download_url", session))
+                    else:
+                        # It is an internal path -> Mark as OK immediately
+                        dist.download_url_status = HTTP_OK_INTERNAL
             
             if tasks:
                 logger.info(f"Auditing {len(tasks)} URLs asynchronously...")
                 await asyncio.gather(*tasks)
 
     def should_check(self, dist: DistributionInput, url_type: str) -> bool:
-        # Only check if status is None (not cached)
+        # Only check if status is None (not cached/checked yet)
         current_status = getattr(dist, f"{url_type}_status")
         return current_status is None
 
@@ -83,7 +106,12 @@ class AsyncUrlChecker:
         except aiohttp.ClientConnectionError:
             return HTTP_CONNECTION_ERROR
         except Exception:
-            return HTTP_OTHER_ERROR
+            # Fallback: sometimes servers block HEAD, try GET
+            try:
+                async with session.get(url, timeout=10) as response:
+                    return response.status
+            except Exception:
+                return HTTP_OTHER_ERROR
 
 # ==============================================================================
 # 2. AUDIT PIPELINE
@@ -92,7 +120,7 @@ class AuditPipeline:
     def __init__(self):
         self.engine = create_engine(settings.DB_URL)
         self.SessionLocal = sessionmaker(bind=self.engine)
-        self.checker = AsyncUrlChecker() # Now this class exists!
+        self.checker = AsyncUrlChecker() 
         self.scorer = QualityScorer()
 
     def init_db(self):
