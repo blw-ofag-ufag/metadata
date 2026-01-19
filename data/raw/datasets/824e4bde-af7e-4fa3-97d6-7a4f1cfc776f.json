@@ -1,0 +1,68 @@
+{
+  "dct:identifier": "824e4bde-af7e-4fa3-97d6-7a4f1cfc776f",
+  "dct:title": {
+    "de": "Kontrollinhalte",
+    "fr": "Contenu du contrôle"
+  },
+  "dct:description": {
+    "de": "Umfassender Merkmalskatalog der landwirtschaftlichen Kontrollinhalte, welcher die normativen Vorgaben (bspw. gemäss DZV) in eine systematische Prüfstruktur übersetzt. Der Datensatz gliedert die Kontrollmaterie hierarchisch in Kontrollbereiche, Rubriken, Punktegruppen und einzelne Kontrollpunkte und stellt die entsprechenden Bezeichnungen sowie Beschreibungen als verbindliche Referenz für den Vollzug und die Erfassung der Kontrollresultate bereit. Sämtliche Beschreibungen sind auf Deutsch, Französisch sowie Italienisch vorhanden.",
+    "fr": "Catalogue complet des caractéristiques des contenus de contrôle agricole, qui traduit les exigences normatives (par exemple selon l'OPD) en une structure de contrôle systématique. L'ensemble de données structure hiérarchiquement les éléments contrôlés en domaines de contrôle, rubriques, groupes de points et points de contrôle individuels, et fournit les désignations et descriptions correspondantes comme référence obligatoire pour l'exécution et la saisie des résultats des contrôles. Toutes les descriptions sont disponibles en allemand, français et italien."
+  },
+  "dct:accessRights": "NON_PUBLIC",
+  "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+  "dcat:contactPoint": {
+    "schema:name": "Fachbereich Direktzahlungsgrundlagen",
+    "schema:email": "acontrol@blw.admin.ch"
+  },
+  "dcat:keyword": [
+    "Acontrol",
+    "controls",
+    "identifier",
+    "inspection-point"
+  ],
+  "dct:accrualPeriodicity": "ANNUAL",
+  "prov:qualifiedAttribution": [
+    {
+      "prov:agent": "p-8397553",
+      "dcat:hadRole": "dataOwner"
+    },
+    {
+      "prov:agent": "p-1142659",
+      "dcat:hadRole": "dataSteward"
+    }
+  ],
+  "adms:status": "workInProgress",
+  "bv:classification": "confidential",
+  "bv:personalData": "personalData",
+  "bv:typeOfData": "masterData",
+  "bv:archivalValue": true,
+  "bv:externalCatalogs": [
+    "I14Y",
+    "opendata.swiss"
+  ],
+  "dcat:theme": [
+    "administration",
+    "agriculture"
+  ],
+  "dcat:landingPage": "https://www.blw.admin.ch/de/anwendung-acontrol",
+  "dct:spatial": "Switzerland",
+  "bv:retentionPeriod": 0,
+  "dcat:distribution": [
+    {
+      "dct:identifier": "e5efab09-4ecc-43ba-8aea-51087053035a",
+      "dcat:accessURL": "https://www.blw.admin.ch/dam/de/sd-web/RepL-H2MQfQM/Excel-Dateien%20der%20Kontrollrubriken%202025.zip",
+      "adms:status": "published",
+      "dct:format": "XLSX",
+      "dcat:downloadURL": "https://www.blw.admin.ch/dam/de/sd-web/RepL-H2MQfQM/Excel-Dateien%20der%20Kontrollrubriken%202025.zip",
+      "dct:title": {
+        "de": "Excel-Dateien der Kontrollrubriken 2025",
+        "fr": "Fichiers Excel des rubriques de contrôle 2025"
+      },
+      "dct:description": {
+        "de": "Excel-Dateien mit allen vom BLW herausgegebenen Kontrollpunkten für das Jahr 2025.",
+        "fr": "Fichiers Excel contenant tous les points de contrôle publiés par l'OFAG pour l'année 2025."
+      },
+      "dcat:issued": "2024-10-08"
+    }
+  ]
+}
