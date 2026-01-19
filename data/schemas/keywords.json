@@ -305,6 +305,18 @@
     "it": "HODUFLU",
     "en": "HODUFLU"
   },
+  "identifier": {
+    "de": "Identifikator",
+    "fr": "Identificateur",
+    "it": "Identificatore",
+    "en": "Identifier"
+  },
+  "inspection-point": {
+    "de": "Kontrollpunkt",
+    "fr": "Point de contrôle",
+    "it": "Punto di controllo",
+    "en": "Inspection point"
+  },
   "knowledge-graph": {
     "de": "Wissensgraph",
     "fr": "Graphe de connaissances",
