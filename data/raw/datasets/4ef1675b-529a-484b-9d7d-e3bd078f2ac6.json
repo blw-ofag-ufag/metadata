@@ -31,7 +31,7 @@
     "dct:accessRights": "CONFIDENTIAL",
     "dcatap:availability": "EXPERIMENTAL",
     "bv:classification": "internal",
-    "bv:personalData": "sensitivePersonalData",
+    "bv:personalData": "personalData",
     "bv:typeOfData": "secondaryThematicData",
     "dct:publisher": "BLW-OFAG-UFAG-FOAG",
     "dcat:contactPoint": {
