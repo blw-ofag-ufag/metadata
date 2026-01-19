@@ -1904,6 +1904,44 @@
     },
     {
         "rdf:type": "dcat:Dataset",
+        "dct:identifier": "1503698f-b889-45fc-944c-0465d18ad0fd",
+        "dct:title": {
+            "de": "Landwirtschaftliche Strukturdaten",
+            "fr": "Données structurelles agricoles"
+        },
+        "dct:description": {
+            "de": "Jährlich erhobene Daten (Stichtagserhebung) zur physischen und betriebswirtschaftlichen Struktur der Betriebe. Der Datensatz umfasst detaillierte Informationen zu Flächennutzungen, Tierbeständen, Arbeitskräften und weiteren Produktionsfaktoren gemäss den Vorgaben des Bundesamtes für Statistik (BFS), des Bundesamtes für Bundesamt für Lebensmittelsicherheit und Veterinärwesen (BLV) und des BLW.",
+            "fr": "Données collectées chaque année (enquête à une date de référence) sur la structure physique et économique des exploitations. L'ensemble de données comprend des informations détaillées sur l'utilisation des surfaces, le cheptel, la main-d'œuvre et d'autres facteurs de production, conformément aux directives de l'Office fédéral de la statistique (OFS), de l'Office fédéral de la sécurité alimentaire et des affaires vétérinaires (OSAV) et de l'OFAG.",
+            "en": "Data collected annually (reference date survey) on the physical and economic structure of farms. The data set includes detailed information on land use, livestock, labour and other production factors in accordance with the specifications of the Federal Statistical Office (FSO), the Federal Food Safety and Veterinary Office (FSVO) and the FOAG."
+        },
+        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+        "dcat:contactPoint": {
+            "schema:name": "Fachbereich Agrarinformationssysteme",
+            "schema:email": "agis@blw.admin.ch"
+        },
+        "dct:issued": "1997-01-01",
+        "dcat:keyword": [
+            "AGIS",
+            "agriculture",
+            "operational-data",
+            "structural-data"
+        ],
+        "dct:accrualPeriodicity": "ANNUAL",
+        "adms:status": "published",
+        "bv:classification": "internal",
+        "bv:personalData": "personalData",
+        "bv:archivalValue": false,
+        "dcat:theme": [
+            "agriculture"
+        ],
+        "dcat:landingPage": "https://www.blw.admin.ch/de/anwendung-agis",
+        "dataOwner": "p-8757693",
+        "schemaViolations": 0,
+        "schemaViolationMessages": [],
+        "quality": 2327.0
+    },
+    {
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "de36bb9d-ce43-48ea-8a8b-26bef7dee358",
         "dct:title": {
             "de": "Landwirtschaftliche Nutzungsflächen Schweiz",
@@ -3715,44 +3753,6 @@
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'"
         ],
         "quality": 1135.875
-    },
-    {
-        "rdf:type": "dcat:Dataset",
-        "dct:identifier": "1503698f-b889-45fc-944c-0465d18ad0fd",
-        "dct:title": {
-            "de": "Landwirtschaftliche Strukturdaten",
-            "fr": "Données structurelles agricoles"
-        },
-        "dct:description": {
-            "de": "Jährlich erhobene Daten (Stichtagserhebung) zur physischen und betriebswirtschaftlichen Struktur der Betriebe. Der Datensatz umfasst detaillierte Informationen zu Flächennutzungen, Tierbeständen, Arbeitskräften und weiteren Produktionsfaktoren gemäss den Vorgaben des Bundesamtes für Statistik (BFS), des Bundesamtes für Bundesamt für Lebensmittelsicherheit und Veterinärwesen (BLV) und des BLW.",
-            "fr": "Données collectées chaque année (enquête à une date de référence) sur la structure physique et économique des exploitations. L'ensemble de données comprend des informations détaillées sur l'utilisation des surfaces, le cheptel, la main-d'œuvre et d'autres facteurs de production, conformément aux directives de l'Office fédéral de la statistique (OFS), de l'Office fédéral de la sécurité alimentaire et des affaires vétérinaires (OSAV) et de l'OFAG.",
-            "en": "Data collected annually (reference date survey) on the physical and economic structure of farms. The data set includes detailed information on land use, livestock, labour and other production factors in accordance with the specifications of the Federal Statistical Office (FSO), the Federal Food Safety and Veterinary Office (FSVO) and the FOAG."
-        },
-        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
-        "dcat:contactPoint": {
-            "schema:name": "Fachbereich Agrarinformationssysteme",
-            "schema:email": "agis@blw.admin.ch"
-        },
-        "dcat:keyword": [
-            "AGIS",
-            "agriculture",
-            "operational-data",
-            "structural-data"
-        ],
-        "dct:accrualPeriodicity": "ANNUAL",
-        "adms:status": "workInProgress",
-        "bv:classification": "internal",
-        "bv:personalData": "personalData",
-        "bv:archivalValue": false,
-        "dcat:theme": [
-            "agriculture"
-        ],
-        "dataOwner": "p-8757693",
-        "schemaViolations": 1,
-        "schemaViolationMessages": [
-            "'dct:issued' is a required property"
-        ],
-        "quality": 1117.0
     },
     {
         "rdf:type": "dcat:Dataset",
