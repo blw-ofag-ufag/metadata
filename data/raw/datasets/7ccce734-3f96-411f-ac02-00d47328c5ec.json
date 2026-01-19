@@ -43,6 +43,5 @@
   "dcat:theme": [
     "agriculture"
   ],
-  "dcat:landingPage": "https://www.blw.admin.ch/de/anwendung-agis",
-  "prov:wasDerivedFrom": "1503698f-b889-45fc-944c-0465d18ad0fd"
+  "dcat:landingPage": "https://www.blw.admin.ch/de/anwendung-agis"
 }
