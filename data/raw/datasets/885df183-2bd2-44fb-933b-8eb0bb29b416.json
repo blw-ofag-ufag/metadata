@@ -1,0 +1,48 @@
+{
+  "dct:identifier": "885df183-2bd2-44fb-933b-8eb0bb29b416",
+  "dct:title": {
+    "de": "Landwirtschaftliche Registerdaten",
+    "fr": "Données issues des registres agricoles"
+  },
+  "dct:description": {
+    "de": "Enthält grundlegende Informationen zu landwirtschaftlichen Betriebsformen und deren Bewirtschaftern der ganzen Schweiz und des Fürstentums Liechtenstein. Ein Betrieb kann von einer Natürlichen Person, einer Einfachen Gesellschaft, oder einer Juristischen Person bewirtschaftet werden.",
+    "fr": "Contient des informations fondamentales sur les types d'exploitations agricoles et leurs exploitants dans toute la Suisse et la Principauté du Liechtenstein. Une exploitation peut être gérée par une personne physique, une société simple ou une personne morale."
+  },
+  "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+  "dcat:contactPoint": {
+    "schema:name": "Fachbereich Agrarinformationssysteme",
+    "schema:email": "agis@blw.admin.ch"
+  },
+  "dct:issued": "2010-01-02",
+  "dcat:keyword": [
+    "AGIS",
+    "farm",
+    "register-data"
+  ],
+  "prov:qualifiedAttribution": [
+    {
+      "prov:agent": "p-8757693",
+      "dcat:hadRole": "dataOwner"
+    },
+    {
+      "prov:agent": "p-2837075",
+      "dcat:hadRole": "dataSteward"
+    },
+    {
+      "prov:agent": "p-3899027",
+      "dcat:hadRole": "dataSteward"
+    },
+    {
+      "prov:agent": "p-9539516",
+      "dcat:hadRole": "dataSteward"
+    }
+  ],
+  "adms:status": "published",
+  "bv:classification": "internal",
+  "bv:personalData": "personalData",
+  "bv:archivalValue": false,
+  "dcat:theme": [
+    "agriculture"
+  ],
+  "dcat:landingPage": "https://www.blw.admin.ch/de/anwendung-agis"
+}
