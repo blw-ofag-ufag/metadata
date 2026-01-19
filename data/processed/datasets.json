@@ -2140,7 +2140,8 @@
         "dct:issued": "1997-01-02",
         "dcat:keyword": [
             "AGIS",
-            "structural-data"
+            "structural-data",
+            "crop-production"
         ],
         "dct:accrualPeriodicity": "ANNUAL",
         "adms:status": "published",
@@ -2158,7 +2159,7 @@
         "dataOwner": "p-8757693",
         "schemaViolations": 0,
         "schemaViolationMessages": [],
-        "quality": 1896.0
+        "quality": 1919.0
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -6741,6 +6742,47 @@
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'"
         ],
         "quality": 946.5
+    },
+    {
+        "rdf:type": "dcat:Dataset",
+        "dct:identifier": "7ccce734-3f96-411f-ac02-00d47328c5ec",
+        "dct:title": {
+            "de": "Tierbestände pro Tierkategorie und Betrieb",
+            "fr": "Effectifs d'animaux par catégorie et par exploitation",
+            "it": "Effettivi di animali per categoria e azienda",
+            "en": "Livestock numbers per animal category and farm"
+        },
+        "dct:description": {
+            "de": "Umfasst die detaillierten Tierbestände pro Tierkategorie am Stichtag. Für Rinder und Equiden erfolgt der Abgleich über die TVD-Nummer, während andere Kategorien (z. B. Geflügel) direkt über kantonale Erhebungen gemeldet werden. Die Daten sind Teil der Strukturdatenerhebung.",
+            "fr": "Comprend les effectifs détaillés par catégorie d'animaux à la date de référence. Pour les bovins et les équidés, la comparaison s'effectue à l'aide du numéro BDTA, tandis que les autres catégories (p. ex. la volaille) sont déclarées directement via les relevés cantonaux. Les données font partie du relevé des données structurelles."
+        },
+        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+        "dcat:contactPoint": {
+            "schema:name": "Fachbereich Agrarinformationssysteme",
+            "schema:email": "agis@blw.admin.ch"
+        },
+        "dct:issued": "1997-01-02",
+        "dct:accrualPeriodicity": "ANNUAL",
+        "dcat:keyword": [
+            "AGIS",
+            "animals",
+            "structural-data",
+            "TVD"
+        ],
+        "adms:status": "published",
+        "bv:classification": "internal",
+        "bv:personalData": "personalData",
+        "dcat:theme": [
+            "agriculture"
+        ],
+        "dcat:landingPage": "https://www.blw.admin.ch/de/anwendung-agis",
+        "prov:wasDerivedFrom": "1503698f-b889-45fc-944c-0465d18ad0fd",
+        "dataOwner": "p-8757693",
+        "schemaViolations": 1,
+        "schemaViolationMessages": [
+            "'1503698f-b889-45fc-944c-0465d18ad0fd' is not of type 'array', 'null'"
+        ],
+        "quality": 945.0
     },
     {
         "rdf:type": "dcat:Dataset",
