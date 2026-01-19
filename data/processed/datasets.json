@@ -7061,6 +7061,42 @@
     },
     {
         "rdf:type": "dcat:Dataset",
+        "dct:identifier": "4f7691e1-558e-4589-9f96-abdc2fc598d3",
+        "dct:title": {
+            "de": "Anmeldungen für Direktzahlungsprogramme, den ÖLN, den NPR-Futtereinsatz und den Kontrollstellen",
+            "fr": "Inscriptions aux programmes de paiements directs, aux PER, à l'utilisation fourragère NPR et aux organes de contrôle"
+        },
+        "dct:description": {
+            "de": "Beinhaltet die jährlichen Anmeldedaten (Stichtag im August) für spezifische Direktzahlungsprogramme (z. B. BTS, RAUS, Ressourceneffizienz) sowie für den Ökologischen Leistungsnachweis (ÖLN). Der Datensatz dient primär der Koordination der landwirtschaftlichen Kontrollen im Folgejahr und der Schätzung der finanziellen Beteiligung.",
+            "fr": "Contient les données d'inscription annuelles (date de référence en août) pour des programmes de paiements directs spécifiques (p. ex. SST, SRPA, efficacité des ressources) ainsi que pour les prestations écologiques requises (PER). L'ensemble de données sert principalement à coordonner les contrôles agricoles de l'année suivante et à estimer la participation financière."
+        },
+        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+        "dcat:contactPoint": {
+            "schema:name": "Fachbereich Agrarinformationssysteme",
+            "schema:email": "agis@blw.admin.ch"
+        },
+        "dct:issued": "2014-01-02",
+        "dcat:keyword": [
+            "AGIS",
+            "direct-payments",
+            "operational-data"
+        ],
+        "adms:status": "published",
+        "bv:classification": "internal",
+        "bv:personalData": "personalData",
+        "dcat:theme": [
+            "agriculture"
+        ],
+        "dcat:landingPage": "https://www.blw.admin.ch/de/anwendung-agis",
+        "dataOwner": "p-8757693",
+        "schemaViolations": 1,
+        "schemaViolationMessages": [
+            "\"Inscriptions aux programmes de paiements directs, aux PER, à l'utilisation fourragère NPR et aux organes de contrôle\" does not match '^[a-zA-Z0-9_\\\\-\\\\s\\\\(\\\\)\\\\.\\\\,\\\\:\\\\/\\\\u00A0-\\\\u017F\\\\\\'\\\\\"\\\\?\\\\!\\\\%\\\\&\\\\+\\\\@]{10,100}$'"
+        ],
+        "quality": 940.5
+    },
+    {
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "b8cb3b68-0fb4-46d1-a309-23e4e3bbc856",
         "dct:title": {
             "fr": "Cartes des aptitudes climatiques pour l'agriculture en Suisse - vue d'ensemble",
