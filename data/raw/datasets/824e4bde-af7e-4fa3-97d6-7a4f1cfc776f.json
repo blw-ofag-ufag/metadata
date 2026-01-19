@@ -49,7 +49,6 @@
   ],
   "dcat:landingPage": "https://www.blw.admin.ch/de/anwendung-acontrol",
   "dct:spatial": "Switzerland",
-  "bv:retentionPeriod": 0,
   "dcat:distribution": [
     {
       "dct:identifier": "e5efab09-4ecc-43ba-8aea-51087053035a",
