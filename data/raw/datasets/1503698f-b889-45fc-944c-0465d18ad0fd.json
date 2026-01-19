@@ -14,6 +14,7 @@
     "schema:name": "Fachbereich Agrarinformationssysteme",
     "schema:email": "agis@blw.admin.ch"
   },
+  "dct:issued": "1997-01-01",
   "dcat:keyword": [
     "AGIS",
     "agriculture",
@@ -35,11 +36,12 @@
       "dcat:hadRole": "dataSteward"
     }
   ],
-  "adms:status": "workInProgress",
+  "adms:status": "published",
   "bv:classification": "internal",
   "bv:personalData": "personalData",
   "bv:archivalValue": false,
   "dcat:theme": [
     "agriculture"
-  ]
+  ],
+  "dcat:landingPage": "https://www.blw.admin.ch/de/anwendung-agis"
 }
