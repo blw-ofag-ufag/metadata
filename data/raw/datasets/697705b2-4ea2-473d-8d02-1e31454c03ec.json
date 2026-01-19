@@ -18,7 +18,8 @@
   "dct:issued": "1997-01-02",
   "dcat:keyword": [
     "AGIS",
-    "structural-data"
+    "structural-data",
+    "crop-production"
   ],
   "dct:accrualPeriodicity": "ANNUAL",
   "prov:qualifiedAttribution": [
