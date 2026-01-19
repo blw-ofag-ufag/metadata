@@ -1,0 +1,47 @@
+{
+  "dct:identifier": "db5d462a-c51e-4d82-8ada-24cd2e1834f1",
+  "dct:title": {
+    "de": "Finanzielle Beiträge pro Betrieb und Direktzahlungsart",
+    "fr": "Contributions financières par exploitation et type de paiement direct"
+  },
+  "dct:description": {
+    "de": "Diese Daten umfassen die berechneten finanziellen Beiträge pro Betrieb für die verschiedenen Direktzahlungsarten gemäss Art. 2 DZV (z. B. Versorgungssicherheit, Biodiversität, Produktionssystembeiträge) sowie Kürzungen von Direktzahlungen. Bestandteil davon sind sowohl die Höhe der Kürzung sowie die betroffenen Betriebe und Beitragsjahre. Die Beitragsdaten dienen der korrekten Berechnung der Endauszahlungen durch die Kantone und werden basieren auf den jährlichen Strukturdaten und Anmeldedaten von den Kantonen für die Auszahlung validiert und an AGIS übermittelt.",
+    "fr": "Ces données comprennent les contributions financières calculées par exploitation pour les différents types de paiements directs conformément à l'art. 2 OPD (p. ex. sécurité de l'approvisionnement, biodiversité, contributions au système de production) ainsi que les réductions des paiements directs. Elles comprennent à la fois le montant de la réduction, les exploitations concernées et les années de contribution. Les données relatives aux contributions servent au calcul correct des versements finaux par les cantons. Elles sont validées sur la base des données structurelles annuelles et des données d'inscription fournies par les cantons pour le versement, puis transmises à AGIS."
+  },
+  "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+  "dcatap:applicableLegislation": [
+    "https://www.fedlex.admin.ch/eli/cc/2013/765/de#art_2"
+  ],
+  "dcat:contactPoint": {
+    "schema:name": "Fachbereich Agrarinformationssysteme",
+    "schema:email": "agis@blw.admin.ch"
+  },
+  "dcat:keyword": [
+    "AGIS",
+    "direct-payments",
+    "operational-data"
+  ],
+  "dct:issued": "01-02-1999",
+  "dct:accrualPeriodicity": "ANNUAL",
+  "prov:qualifiedAttribution": [
+    {
+      "prov:agent": "p-8757693",
+      "dcat:hadRole": "dataOwner"
+    },
+    {
+      "prov:agent": "p-2837075",
+      "dcat:hadRole": "dataSteward"
+    },
+    {
+      "prov:agent": "p-1YSGW13QG",
+      "dcat:hadRole": "dataSteward"
+    }
+  ],
+  "adms:status": "published",
+  "bv:classification": "internal",
+  "bv:personalData": "personalData",
+  "dcat:theme": [
+    "agriculture"
+  ],
+  "dcat:landingPage": "https://www.blw.admin.ch/de/anwendung-agis"
+}
