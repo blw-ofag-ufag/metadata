@@ -2373,7 +2373,7 @@
         "dct:accessRights": "CONFIDENTIAL",
         "dcatap:availability": "EXPERIMENTAL",
         "bv:classification": "internal",
-        "bv:personalData": "sensitivePersonalData",
+        "bv:personalData": "personalData",
         "bv:typeOfData": "secondaryThematicData",
         "dct:publisher": "BLW-OFAG-UFAG-FOAG",
         "dcat:contactPoint": {
@@ -2406,7 +2406,7 @@
             "'Dati svizzeri sulle ispezioni aziendali: risultati di conformità e indicatori strutturali delle aziende agricole' does not match '^[a-zA-Z0-9_\\\\-\\\\s\\\\(\\\\)\\\\.\\\\,\\\\:\\\\/\\\\u00A0-\\\\u017F\\\\\\'\\\\\"\\\\?\\\\!\\\\%\\\\&\\\\+\\\\@]{10,100}$'",
             "'' is not of type 'array', 'null'"
         ],
-        "quality": 1484.5
+        "quality": 1482.5
     },
     {
         "rdf:type": "dcat:Dataset",
