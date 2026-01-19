@@ -1,0 +1,46 @@
+{
+  "dct:identifier": "697705b2-4ea2-473d-8d02-1e31454c03ec",
+  "dct:title": {
+    "de": "Flächen- und Kulturdaten",
+    "fr": "Données sur les surfaces et les cultures",
+    "it": "Dati sulle superfici e sulle colture",
+    "en": "Area and crop data"
+},
+  "dct:description": {
+    "de": "Kernbestandteil der Strukturdaten, der sämtliche landwirtschaftlichen Nutzflächen mit Hauptkulturen und Nutzungstyp (z. B. Biodiversitätsförderflächen) klassifiziert. Beinhaltet auch spezifische Attribute für Programmanmeldungen der Flächen, Hanglagen, oder Vernetzungsprojekte.",
+    "fr": "Élément central des données structurelles, qui classe toutes les surfaces agricoles utiles avec les cultures principales et le type d'utilisation (p. ex. surfaces de promotion de la biodiversité). Comprend également des attributs spécifiques pour les inscriptions au programme des surfaces, les terrains en pente ou les projets de mise en réseau."
+  },
+  "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+  "dcat:contactPoint": {
+    "schema:name": "Fachbereich Agrarinformationssysteme",
+    "schema:email": "agis@blw.admin.ch"
+  },
+  "dct:issued": "1997-01-02",
+  "dcat:keyword": [
+    "AGIS",
+    "structural-data"
+  ],
+  "dct:accrualPeriodicity": "ANNUAL",
+  "prov:qualifiedAttribution": [
+    {
+      "prov:agent": "p-8757693",
+      "dcat:hadRole": "dataOwner"
+    },
+    {
+      "prov:agent": "p-1YSGW13QG",
+      "dcat:hadRole": "dataSteward"
+    },
+    {
+      "prov:agent": "p-2837075",
+      "dcat:hadRole": "dataSteward"
+    }
+  ],
+  "adms:status": "published",
+  "bv:classification": "internal",
+  "bv:personalData": "personalData",
+  "dcat:theme": [
+    "agriculture"
+  ],
+  "dcat:landingPage": "https://www.blw.admin.ch/de/anwendung-agis",
+  "prov:wasDerivedFrom": "b7f151dc-8a3d-4d52-912b-6074be50fd70, db3bd925-f540-4c38-9a54-fb4fbe524609, 5361e7d7-4ac9-43ab-bdb3-dbec0f030033"
+}
