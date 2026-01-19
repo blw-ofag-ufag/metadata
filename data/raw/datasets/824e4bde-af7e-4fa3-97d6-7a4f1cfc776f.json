@@ -117,10 +117,10 @@
     },
     {
       "dct:identifier": "a5efab09-4efc-23ba-8aea-51087053035b",
-      "dcat:accessURL": "https://www.blw.admin.ch/dam/de/sd-web/ADu3SkIz3mIR",
+      "dcat:accessURL": "https://www.blw.admin.ch/dam/de/sd-web/KDcHFyWZPHes",
       "adms:status": "published",
       "dct:format": "XML",
-      "dcat:downloadURL": "https://www.blw.admin.ch/dam/de/sd-web/ADu3SkIz3mIR",
+      "dcat:downloadURL": "https://www.blw.admin.ch/dam/de/sd-web/KDcHFyWZPHes",
       "dct:title": {
         "de": "XML-Dateien der Kontrollrubriken 2026",
         "fr": "Fichiers XML des rubriques de contrôle 2026"
