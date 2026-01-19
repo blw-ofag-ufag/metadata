@@ -1904,6 +1904,44 @@
     },
     {
         "rdf:type": "dcat:Dataset",
+        "dct:identifier": "1503698f-b889-45fc-944c-0465d18ad0fd",
+        "dct:title": {
+            "de": "Landwirtschaftliche Strukturdaten",
+            "fr": "Données structurelles agricoles"
+        },
+        "dct:description": {
+            "de": "Jährlich erhobene Daten (Stichtagserhebung) zur physischen und betriebswirtschaftlichen Struktur der Betriebe. Der Datensatz umfasst detaillierte Informationen zu Flächennutzungen, Tierbeständen, Arbeitskräften und weiteren Produktionsfaktoren gemäss den Vorgaben des Bundesamtes für Statistik (BFS), des Bundesamtes für Bundesamt für Lebensmittelsicherheit und Veterinärwesen (BLV) und des BLW.",
+            "fr": "Données collectées chaque année (enquête à une date de référence) sur la structure physique et économique des exploitations. L'ensemble de données comprend des informations détaillées sur l'utilisation des surfaces, le cheptel, la main-d'œuvre et d'autres facteurs de production, conformément aux directives de l'Office fédéral de la statistique (OFS), de l'Office fédéral de la sécurité alimentaire et des affaires vétérinaires (OSAV) et de l'OFAG.",
+            "en": "Data collected annually (reference date survey) on the physical and economic structure of farms. The data set includes detailed information on land use, livestock, labour and other production factors in accordance with the specifications of the Federal Statistical Office (FSO), the Federal Food Safety and Veterinary Office (FSVO) and the FOAG."
+        },
+        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+        "dcat:contactPoint": {
+            "schema:name": "Fachbereich Agrarinformationssysteme",
+            "schema:email": "agis@blw.admin.ch"
+        },
+        "dct:issued": "1997-01-01",
+        "dcat:keyword": [
+            "AGIS",
+            "agriculture",
+            "operational-data",
+            "structural-data"
+        ],
+        "dct:accrualPeriodicity": "ANNUAL",
+        "adms:status": "published",
+        "bv:classification": "internal",
+        "bv:personalData": "personalData",
+        "bv:archivalValue": false,
+        "dcat:theme": [
+            "agriculture"
+        ],
+        "dcat:landingPage": "https://www.blw.admin.ch/de/anwendung-agis",
+        "dataOwner": "p-8757693",
+        "schemaViolations": 0,
+        "schemaViolationMessages": [],
+        "quality": 2327.0
+    },
+    {
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "de36bb9d-ce43-48ea-8a8b-26bef7dee358",
         "dct:title": {
             "de": "Landwirtschaftliche Nutzungsflächen Schweiz",
@@ -3715,44 +3753,6 @@
             "'' does not match '[a-zA-Z0-9_\\\\-\\\\s]{10,75}'"
         ],
         "quality": 1135.875
-    },
-    {
-        "rdf:type": "dcat:Dataset",
-        "dct:identifier": "1503698f-b889-45fc-944c-0465d18ad0fd",
-        "dct:title": {
-            "de": "Landwirtschaftliche Strukturdaten",
-            "fr": "Données structurelles agricoles"
-        },
-        "dct:description": {
-            "de": "Jährlich erhobene Daten (Stichtagserhebung) zur physischen und betriebswirtschaftlichen Struktur der Betriebe. Der Datensatz umfasst detaillierte Informationen zu Flächennutzungen, Tierbeständen, Arbeitskräften und weiteren Produktionsfaktoren gemäss den Vorgaben des Bundesamtes für Statistik (BFS), des Bundesamtes für Bundesamt für Lebensmittelsicherheit und Veterinärwesen (BLV) und des BLW.",
-            "fr": "Données collectées chaque année (enquête à une date de référence) sur la structure physique et économique des exploitations. L'ensemble de données comprend des informations détaillées sur l'utilisation des surfaces, le cheptel, la main-d'œuvre et d'autres facteurs de production, conformément aux directives de l'Office fédéral de la statistique (OFS), de l'Office fédéral de la sécurité alimentaire et des affaires vétérinaires (OSAV) et de l'OFAG.",
-            "en": "Data collected annually (reference date survey) on the physical and economic structure of farms. The data set includes detailed information on land use, livestock, labour and other production factors in accordance with the specifications of the Federal Statistical Office (FSO), the Federal Food Safety and Veterinary Office (FSVO) and the FOAG."
-        },
-        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
-        "dcat:contactPoint": {
-            "schema:name": "Fachbereich Agrarinformationssysteme",
-            "schema:email": "agis@blw.admin.ch"
-        },
-        "dcat:keyword": [
-            "AGIS",
-            "agriculture",
-            "operational-data",
-            "structural-data"
-        ],
-        "dct:accrualPeriodicity": "ANNUAL",
-        "adms:status": "workInProgress",
-        "bv:classification": "internal",
-        "bv:personalData": "personalData",
-        "bv:archivalValue": false,
-        "dcat:theme": [
-            "agriculture"
-        ],
-        "dataOwner": "p-8757693",
-        "schemaViolations": 1,
-        "schemaViolationMessages": [
-            "'dct:issued' is a required property"
-        ],
-        "quality": 1117.0
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -8416,6 +8416,113 @@
     },
     {
         "rdf:type": "dcat:Dataset",
+        "dct:identifier": "824e4bde-af7e-4fa3-97d6-7a4f1cfc776f",
+        "schema:image": "https://v3b.fal.media/files/b/0a8b034d/dfGG6qc1IaFrT-YZjsXbT.jpg",
+        "dct:title": {
+            "de": "Kontrollinhalte",
+            "fr": "Contenu du contrôle"
+        },
+        "dct:description": {
+            "de": "Umfassender Merkmalskatalog der landwirtschaftlichen Kontrollinhalte, welcher die normativen Vorgaben (bspw. gemäss DZV) in eine systematische Prüfstruktur übersetzt. Der Datensatz gliedert die Kontrollmaterie hierarchisch in Kontrollbereiche, Rubriken, Punktegruppen und einzelne Kontrollpunkte und stellt die entsprechenden Bezeichnungen sowie Beschreibungen als verbindliche Referenz für den Vollzug und die Erfassung der Kontrollresultate bereit. Sämtliche Beschreibungen sind auf Deutsch, Französisch sowie Italienisch vorhanden.",
+            "fr": "Catalogue complet des caractéristiques des contenus de contrôle agricole, qui traduit les exigences normatives (par exemple selon l'OPD) en une structure de contrôle systématique. L'ensemble de données structure hiérarchiquement les éléments contrôlés en domaines de contrôle, rubriques, groupes de points et points de contrôle individuels, et fournit les désignations et descriptions correspondantes comme référence obligatoire pour l'exécution et la saisie des résultats des contrôles. Toutes les descriptions sont disponibles en allemand, français et italien."
+        },
+        "dct:accessRights": "NON_PUBLIC",
+        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+        "dct:issued": "2009-01-01",
+        "dct:modified": "2025-09-15",
+        "dcat:contactPoint": {
+            "schema:name": "Fachbereich Direktzahlungsgrundlagen",
+            "schema:email": "acontrol@blw.admin.ch"
+        },
+        "dcat:keyword": [
+            "Acontrol",
+            "controls",
+            "identifier",
+            "inspection-point"
+        ],
+        "dct:accrualPeriodicity": "ANNUAL",
+        "adms:status": "workInProgress",
+        "bv:classification": "confidential",
+        "bv:personalData": "personalData",
+        "bv:typeOfData": "masterData",
+        "bv:archivalValue": true,
+        "bv:externalCatalogs": [
+            "I14Y",
+            "opendata.swiss"
+        ],
+        "dcat:theme": [
+            "administration",
+            "agriculture"
+        ],
+        "dcat:landingPage": "https://www.blw.admin.ch/de/anwendung-acontrol",
+        "dct:spatial": "Switzerland",
+        "bv:retentionPeriod": 0,
+        "dcat:distribution": [
+            {
+                "dct:identifier": "e5efab09-4ecc-43ba-8aea-51087053035a",
+                "dcat:accessURL": "https://www.blw.admin.ch/dam/de/sd-web/RepL-H2MQfQM",
+                "adms:status": "published",
+                "dct:format": "XLSX",
+                "dcat:downloadURL": "https://www.blw.admin.ch/dam/de/sd-web/RepL-H2MQfQM",
+                "dct:title": {
+                    "de": "Excel-Dateien der Kontrollrubriken 2025",
+                    "fr": "Fichiers Excel des rubriques de contrôle 2025"
+                },
+                "dct:description": {
+                    "de": "Excel-Dateien mit allen vom BLW herausgegebenen Kontrollpunkten für das Jahr 2025.",
+                    "fr": "Fichiers Excel contenant tous les points de contrôle publiés par l'OFAG pour l'année 2025."
+                },
+                "dcat:issued": "2024-10-08",
+                "dct:modified": "2025-09-15"
+            },
+            {
+                "dct:identifier": "e5efab09-4ecc-43ba-8aea-51087053035b",
+                "dcat:accessURL": "https://www.blw.admin.ch/dam/de/sd-web/ADu3SkIz3mIR",
+                "adms:status": "published",
+                "dct:format": "XML",
+                "dcat:downloadURL": "https://www.blw.admin.ch/dam/de/sd-web/ADu3SkIz3mIR",
+                "dct:title": {
+                    "de": "XML-Dateien der Kontrollrubriken 2025",
+                    "fr": "Fichiers XML des rubriques de contrôle 2025"
+                },
+                "dct:description": {
+                    "de": "XML-Dateien mit allen vom BLW herausgegebenen Kontrollpunkten für das Jahr 2025.",
+                    "fr": "Fichiers XML contenant tous les points de contrôle publiés par l'OFAG pour l'année 2025."
+                },
+                "dcat:issued": "2024-10-08",
+                "dct:modified": "2025-09-15"
+            },
+            {
+                "dct:identifier": "e5efab09-4ecc-43ba-8aea-51087053035c",
+                "dcat:accessURL": "https://www.blw.admin.ch/dam/de/sd-web/3njGFs6EEozy",
+                "adms:status": "published",
+                "dct:format": "PDF",
+                "dcat:downloadURL": "https://www.blw.admin.ch/dam/de/sd-web/3njGFs6EEozy",
+                "dct:title": {
+                    "de": "PDF-Dateien der Kontrollrubriken 2025",
+                    "fr": "Fichiers PDF des rubriques de contrôle 2025"
+                },
+                "dct:description": {
+                    "de": "PDF-Dateien mit allen vom BLW herausgegebenen Kontrollpunkten für das Jahr 2025.",
+                    "fr": "Fichiers PDF contenant tous les points de contrôle publiés par l'OFAG pour l'année 2025."
+                },
+                "dcat:issued": "2024-10-08",
+                "dct:modified": "2025-09-15"
+            }
+        ],
+        "dataOwner": "p-8397553",
+        "schemaViolations": 5,
+        "schemaViolationMessages": [
+            "'I14Y' is not of type 'object'",
+            "'opendata.swiss' is not of type 'object'",
+            "Additional properties are not allowed ('dcat:issued' was unexpected)",
+            "Additional properties are not allowed ('dcat:issued' was unexpected)",
+            "Additional properties are not allowed ('dcat:issued' was unexpected)"
+        ],
+        "quality": 792.5
+    },
+    {
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "13cd3427-5ddb-4d97-bab6-6be0519a6bf6",
         "dct:title": {
             "fr": "Besoins en irrigation",
@@ -8946,74 +9053,6 @@
             "'dcat:accessURL' is a required property"
         ],
         "quality": 668.3333333333334
-    },
-    {
-        "rdf:type": "dcat:Dataset",
-        "dct:identifier": "824e4bde-af7e-4fa3-97d6-7a4f1cfc776f",
-        "dct:title": {
-            "de": "Kontrollinhalte",
-            "fr": "Contenu du contrôle"
-        },
-        "dct:description": {
-            "de": "Umfassender Merkmalskatalog der landwirtschaftlichen Kontrollinhalte, welcher die normativen Vorgaben (bspw. gemäss DZV) in eine systematische Prüfstruktur übersetzt. Der Datensatz gliedert die Kontrollmaterie hierarchisch in Kontrollbereiche, Rubriken, Punktegruppen und einzelne Kontrollpunkte und stellt die entsprechenden Bezeichnungen sowie Beschreibungen als verbindliche Referenz für den Vollzug und die Erfassung der Kontrollresultate bereit. Sämtliche Beschreibungen sind auf Deutsch, Französisch sowie Italienisch vorhanden.",
-            "fr": "Catalogue complet des caractéristiques des contenus de contrôle agricole, qui traduit les exigences normatives (par exemple selon l'OPD) en une structure de contrôle systématique. L'ensemble de données structure hiérarchiquement les éléments contrôlés en domaines de contrôle, rubriques, groupes de points et points de contrôle individuels, et fournit les désignations et descriptions correspondantes comme référence obligatoire pour l'exécution et la saisie des résultats des contrôles. Toutes les descriptions sont disponibles en allemand, français et italien."
-        },
-        "dct:accessRights": "NON_PUBLIC",
-        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
-        "dcat:contactPoint": {
-            "schema:name": "Fachbereich Direktzahlungsgrundlagen",
-            "schema:email": "acontrol@blw.admin.ch"
-        },
-        "dcat:keyword": [
-            "Acontrol",
-            "controls",
-            "identifier",
-            "inspection-point"
-        ],
-        "dct:accrualPeriodicity": "ANNUAL",
-        "adms:status": "workInProgress",
-        "bv:classification": "confidential",
-        "bv:personalData": "personalData",
-        "bv:typeOfData": "masterData",
-        "bv:archivalValue": true,
-        "bv:externalCatalogs": [
-            "I14Y",
-            "opendata.swiss"
-        ],
-        "dcat:theme": [
-            "administration",
-            "agriculture"
-        ],
-        "dcat:landingPage": "https://www.blw.admin.ch/de/anwendung-acontrol",
-        "dct:spatial": "Switzerland",
-        "bv:retentionPeriod": 0,
-        "dcat:distribution": [
-            {
-                "dct:identifier": "e5efab09-4ecc-43ba-8aea-51087053035a",
-                "dcat:accessURL": "https://www.blw.admin.ch/dam/de/sd-web/RepL-H2MQfQM/Excel-Dateien%20der%20Kontrollrubriken%202025.zip",
-                "adms:status": "published",
-                "dct:format": "XLSX",
-                "dcat:downloadURL": "https://www.blw.admin.ch/dam/de/sd-web/RepL-H2MQfQM/Excel-Dateien%20der%20Kontrollrubriken%202025.zip",
-                "dct:title": {
-                    "de": "Excel-Dateien der Kontrollrubriken 2025",
-                    "fr": "Fichiers Excel des rubriques de contrôle 2025"
-                },
-                "dct:description": {
-                    "de": "Excel-Dateien mit allen vom BLW herausgegebenen Kontrollpunkten für das Jahr 2025.",
-                    "fr": "Fichiers Excel contenant tous les points de contrôle publiés par l'OFAG pour l'année 2025."
-                },
-                "dcat:issued": "2024-10-08"
-            }
-        ],
-        "dataOwner": "p-8397553",
-        "schemaViolations": 4,
-        "schemaViolationMessages": [
-            "'dct:issued' is a required property",
-            "'I14Y' is not of type 'object'",
-            "'opendata.swiss' is not of type 'object'",
-            "Additional properties are not allowed ('dcat:issued' was unexpected)"
-        ],
-        "quality": 631.4
     },
     {
         "rdf:type": "dcat:Dataset",

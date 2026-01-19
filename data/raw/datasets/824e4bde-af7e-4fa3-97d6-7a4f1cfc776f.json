@@ -1,5 +1,6 @@
 {
   "dct:identifier": "824e4bde-af7e-4fa3-97d6-7a4f1cfc776f",
+  "schema:image": "https://v3b.fal.media/files/b/0a8b034d/dfGG6qc1IaFrT-YZjsXbT.jpg",
   "dct:title": {
     "de": "Kontrollinhalte",
     "fr": "Contenu du contrôle"
@@ -10,6 +11,8 @@
   },
   "dct:accessRights": "NON_PUBLIC",
   "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+  "dct:issued": "2009-01-01",
+  "dct:modified": "2025-09-15",
   "dcat:contactPoint": {
     "schema:name": "Fachbereich Direktzahlungsgrundlagen",
     "schema:email": "acontrol@blw.admin.ch"
@@ -50,10 +53,10 @@
   "dcat:distribution": [
     {
       "dct:identifier": "e5efab09-4ecc-43ba-8aea-51087053035a",
-      "dcat:accessURL": "https://www.blw.admin.ch/dam/de/sd-web/RepL-H2MQfQM/Excel-Dateien%20der%20Kontrollrubriken%202025.zip",
+      "dcat:accessURL": "https://www.blw.admin.ch/dam/de/sd-web/RepL-H2MQfQM",
       "adms:status": "published",
       "dct:format": "XLSX",
-      "dcat:downloadURL": "https://www.blw.admin.ch/dam/de/sd-web/RepL-H2MQfQM/Excel-Dateien%20der%20Kontrollrubriken%202025.zip",
+      "dcat:downloadURL": "https://www.blw.admin.ch/dam/de/sd-web/RepL-H2MQfQM",
       "dct:title": {
         "de": "Excel-Dateien der Kontrollrubriken 2025",
         "fr": "Fichiers Excel des rubriques de contrôle 2025"
@@ -62,7 +65,42 @@
         "de": "Excel-Dateien mit allen vom BLW herausgegebenen Kontrollpunkten für das Jahr 2025.",
         "fr": "Fichiers Excel contenant tous les points de contrôle publiés par l'OFAG pour l'année 2025."
       },
-      "dcat:issued": "2024-10-08"
+      "dcat:issued": "2024-10-08",
+      "dct:modified": "2025-09-15"
+    },
+    {
+      "dct:identifier": "e5efab09-4ecc-43ba-8aea-51087053035b",
+      "dcat:accessURL": "https://www.blw.admin.ch/dam/de/sd-web/ADu3SkIz3mIR",
+      "adms:status": "published",
+      "dct:format": "XML",
+      "dcat:downloadURL": "https://www.blw.admin.ch/dam/de/sd-web/ADu3SkIz3mIR",
+      "dct:title": {
+        "de": "XML-Dateien der Kontrollrubriken 2025",
+        "fr": "Fichiers XML des rubriques de contrôle 2025"
+      },
+      "dct:description": {
+        "de": "XML-Dateien mit allen vom BLW herausgegebenen Kontrollpunkten für das Jahr 2025.",
+        "fr": "Fichiers XML contenant tous les points de contrôle publiés par l'OFAG pour l'année 2025."
+      },
+      "dcat:issued": "2024-10-08",
+      "dct:modified": "2025-09-15"
+    },
+    {
+      "dct:identifier": "e5efab09-4ecc-43ba-8aea-51087053035c",
+      "dcat:accessURL": "https://www.blw.admin.ch/dam/de/sd-web/3njGFs6EEozy",
+      "adms:status": "published",
+      "dct:format": "PDF",
+      "dcat:downloadURL": "https://www.blw.admin.ch/dam/de/sd-web/3njGFs6EEozy",
+      "dct:title": {
+        "de": "PDF-Dateien der Kontrollrubriken 2025",
+        "fr": "Fichiers PDF des rubriques de contrôle 2025"
+      },
+      "dct:description": {
+        "de": "PDF-Dateien mit allen vom BLW herausgegebenen Kontrollpunkten für das Jahr 2025.",
+        "fr": "Fichiers PDF contenant tous les points de contrôle publiés par l'OFAG pour l'année 2025."
+      },
+      "dcat:issued": "2024-10-08",
+      "dct:modified": "2025-09-15"
     }
   ]
 }
