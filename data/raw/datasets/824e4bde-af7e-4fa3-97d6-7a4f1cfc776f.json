@@ -9,7 +9,7 @@
     "de": "Umfassender Merkmalskatalog der landwirtschaftlichen Kontrollinhalte, welcher die normativen Vorgaben (bspw. gemäss DZV) in eine systematische Prüfstruktur übersetzt. Der Datensatz gliedert die Kontrollmaterie hierarchisch in Kontrollbereiche, Rubriken, Punktegruppen und einzelne Kontrollpunkte und stellt die entsprechenden Bezeichnungen sowie Beschreibungen als verbindliche Referenz für den Vollzug und die Erfassung der Kontrollresultate bereit. Sämtliche Beschreibungen sind auf Deutsch, Französisch sowie Italienisch vorhanden.",
     "fr": "Catalogue complet des caractéristiques des contenus de contrôle agricole, qui traduit les exigences normatives (par exemple selon l'OPD) en une structure de contrôle systématique. L'ensemble de données structure hiérarchiquement les éléments contrôlés en domaines de contrôle, rubriques, groupes de points et points de contrôle individuels, et fournit les désignations et descriptions correspondantes comme référence obligatoire pour l'exécution et la saisie des résultats des contrôles. Toutes les descriptions sont disponibles en allemand, français et italien."
   },
-  "dct:accessRights": "NON_PUBLIC",
+  "dct:accessRights": "PUBLIC",
   "dct:publisher": "BLW-OFAG-UFAG-FOAG",
   "dct:issued": "2009-01-01",
   "dct:modified": "2025-09-15",
@@ -34,9 +34,9 @@
       "dcat:hadRole": "dataSteward"
     }
   ],
-  "adms:status": "workInProgress",
-  "bv:classification": "confidential",
-  "bv:personalData": "personalData",
+  "adms:status": "published",
+  "bv:classification": "none",
+  "bv:personalData": "none",
   "bv:typeOfData": "masterData",
   "bv:archivalValue": true,
   "bv:externalCatalogs": [

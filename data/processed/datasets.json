@@ -8906,7 +8906,11 @@
             "de": "Umfassender Merkmalskatalog der landwirtschaftlichen Kontrollinhalte, welcher die normativen Vorgaben (bspw. gemäss DZV) in eine systematische Prüfstruktur übersetzt. Der Datensatz gliedert die Kontrollmaterie hierarchisch in Kontrollbereiche, Rubriken, Punktegruppen und einzelne Kontrollpunkte und stellt die entsprechenden Bezeichnungen sowie Beschreibungen als verbindliche Referenz für den Vollzug und die Erfassung der Kontrollresultate bereit. Sämtliche Beschreibungen sind auf Deutsch, Französisch sowie Italienisch vorhanden.",
             "fr": "Catalogue complet des caractéristiques des contenus de contrôle agricole, qui traduit les exigences normatives (par exemple selon l'OPD) en une structure de contrôle systématique. L'ensemble de données structure hiérarchiquement les éléments contrôlés en domaines de contrôle, rubriques, groupes de points et points de contrôle individuels, et fournit les désignations et descriptions correspondantes comme référence obligatoire pour l'exécution et la saisie des résultats des contrôles. Toutes les descriptions sont disponibles en allemand, français et italien."
         },
+<<<<<<< HEAD
         "dct:accessRights": "NON_PUBLIC",
+=======
+        "dct:accessRights": "PUBLIC",
+>>>>>>> 83bb32e (Add Acontrol datasets)
         "dct:publisher": "BLW-OFAG-UFAG-FOAG",
         "dct:issued": "2009-01-01",
         "dct:modified": "2025-09-15",
@@ -8921,9 +8925,15 @@
             "inspection-point"
         ],
         "dct:accrualPeriodicity": "ANNUAL",
+<<<<<<< HEAD
         "adms:status": "workInProgress",
         "bv:classification": "confidential",
         "bv:personalData": "personalData",
+=======
+        "adms:status": "published",
+        "bv:classification": "none",
+        "bv:personalData": "none",
+>>>>>>> 83bb32e (Add Acontrol datasets)
         "bv:typeOfData": "masterData",
         "bv:archivalValue": true,
         "bv:externalCatalogs": [
@@ -9046,7 +9056,11 @@
             "Additional properties are not allowed ('dcat:issued' was unexpected)",
             "Additional properties are not allowed ('dcat:issued' was unexpected)"
         ],
+<<<<<<< HEAD
         "quality": 754.6666666666666
+=======
+        "quality": 751.8888888888889
+>>>>>>> 83bb32e (Add Acontrol datasets)
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -9250,6 +9264,134 @@
             "'dcat:accessURL' is a required property"
         ],
         "quality": 668.3333333333334
+    },
+    {
+        "rdf:type": "dcat:Dataset",
+        "dct:identifier": "448c82ca-49f6-452e-94ab-06c14f154663",
+        "schema:image": "https://v3b.fal.media/files/b/0a8b034d/dfGG6qc1IaFrT-YZjsXbT.jpg",
+        "dct:title": {
+            "de": "Daten über Verwaltungsmassnahmen und strafrechtliche Sanktionen"
+        },
+        "dct:description": {
+            "de": "Dokumentation der durch die zuständige Vollzugsstelle ergriffenen Folgemassnahmen basierend auf festgestellten Mängeln. Der Datensatz differenziert zwischen direktzahlungsrelevanten Kürzungen (in CHF oder Punkten) und weiteren administrativen oder strafrechtlichen Anordnungen. Dieser Katalog umfasst Massnahmentypen wie Tierhalteverbote, Beschlagnahmungen, Sperren, Bewilligungsentzüge sowie die Einleitung von Strafverfahren oder die Verfügung von Bussen."
+        },
+        "dct:accessRights": "NON_PUBLIC",
+        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+        "dct:issued": "2009-01-01",
+        "dcat:contactPoint": {
+            "schema:name": "Fachbereich Direktzahlungsgrundlagen",
+            "schema:email": "acontrol@blw.admin.ch"
+        },
+        "dcat:keyword": [
+            "Acontrol",
+            "controls",
+            "farm"
+        ],
+        "dct:accrualPeriodicity": "DAILY",
+        "adms:status": "workInProgress",
+        "bv:classification": "confidential",
+        "bv:personalData": "personalData",
+        "bv:typeOfData": "primaryThematicData",
+        "bv:archivalValue": true,
+        "dcat:theme": [
+            "administration",
+            "agriculture"
+        ],
+        "dcat:landingPage": "https://www.blw.admin.ch/de/anwendung-acontrol",
+        "dct:spatial": "Switzerland",
+        "schema:comment": "Einordnung nach Datenschutzgesetz wurde von BLW/BLV 2025 geprüft und von \"besonders schützenswerte Personendaten\" auf \"Personendaten\" zurückgestuft.",
+        "dataOwner": "p-8397553",
+        "schemaViolations": 2,
+        "schemaViolationMessages": [
+            "'fr' is a required property",
+            "'fr' is a required property"
+        ],
+        "quality": 634.3333333333334
+    },
+    {
+        "rdf:type": "dcat:Dataset",
+        "dct:identifier": "48aa4506-40b7-490b-9a7e-2c3a207081f9",
+        "schema:image": "https://v3b.fal.media/files/b/0a8b034d/dfGG6qc1IaFrT-YZjsXbT.jpg",
+        "dct:title": {
+            "de": "Kontrollgrunddaten"
+        },
+        "dct:description": {
+            "de": "Dieser Datensatz umfasst die administrativen Metadaten eines Kontrollereignisses, die zur eindeutigen Identifizierung und Einordnung der Kontrolle selbst dienen. Dazu zählen der kontrollierte Betrieb, der grobe Kontrollinhalt (eine oder mehrere Kontrollrubriken), das Kontrolldatum, die Kontrollstelle (also die ausführende Organisation) sowie optional die Kontrolleurin oder der Kontrolleur. Inhaltlich wird die Kontrolle durch den Kontrollgrund (Grundkontrolle, Verdacht, Nachkontrolle, Zwischenkontrolle/Risikokontrolle, Laboranalysen, Andere) sowie die Kontrollart (angemeldet/unangemeldet) klassifiziert und kann durch generelle Bemerkungen erläutert werden. Der Kontrollstatus gibt den Status der Erfassung der Ergebnisse und Massnahmen an."
+        },
+        "dct:accessRights": "NON_PUBLIC",
+        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+        "dct:issued": "2009-01-01",
+        "dcat:contactPoint": {
+            "schema:name": "Fachbereich Direktzahlungsgrundlagen",
+            "schema:email": "acontrol@blw.admin.ch"
+        },
+        "dcat:keyword": [
+            "Acontrol",
+            "controls",
+            "farm"
+        ],
+        "dct:accrualPeriodicity": "DAILY",
+        "adms:status": "workInProgress",
+        "bv:classification": "confidential",
+        "bv:personalData": "personalData",
+        "bv:typeOfData": "primaryThematicData",
+        "bv:archivalValue": true,
+        "dcat:theme": [
+            "administration",
+            "agriculture"
+        ],
+        "dcat:landingPage": "https://www.blw.admin.ch/de/anwendung-acontrol",
+        "dct:spatial": "Switzerland",
+        "dataOwner": "p-8397553",
+        "schemaViolations": 2,
+        "schemaViolationMessages": [
+            "'fr' is a required property",
+            "'fr' is a required property"
+        ],
+        "quality": 627.6666666666666
+    },
+    {
+        "rdf:type": "dcat:Dataset",
+        "dct:identifier": "1dd28b58-345e-4aac-b2fe-634a876c51e5",
+        "schema:image": "https://v3b.fal.media/files/b/0a8b034d/dfGG6qc1IaFrT-YZjsXbT.jpg",
+        "dct:title": {
+            "de": "Kontrollergebnisse"
+        },
+        "dct:description": {
+            "de": "Systematische Erfassung der Prüfbefunde einer jeweiligen Kontrolle. Der Datensatz dokumentiert primär Abweichungen in Form von Mängeln unter Angabe von Schweregrad, Umfang und Wiederholung. Ergänzend können Status \"Nicht kontrolliert\" oder \"Nicht zutreffend\" ausgewiesen werden. Nicht explizit aufgeführte Kontrollpunkte gelten implizit als \"ohne Mangel\" geprüft."
+        },
+        "dct:accessRights": "NON_PUBLIC",
+        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+        "dct:issued": "2009-01-01",
+        "dcat:contactPoint": {
+            "schema:name": "Fachbereich Direktzahlungsgrundlagen",
+            "schema:email": "acontrol@blw.admin.ch"
+        },
+        "dcat:keyword": [
+            "Acontrol",
+            "controls",
+            "identifier",
+            "farm"
+        ],
+        "dct:accrualPeriodicity": "DAILY",
+        "adms:status": "workInProgress",
+        "bv:classification": "confidential",
+        "bv:personalData": "personalData",
+        "bv:typeOfData": "primaryThematicData",
+        "bv:archivalValue": true,
+        "dcat:theme": [
+            "administration",
+            "agriculture"
+        ],
+        "dcat:landingPage": "https://www.blw.admin.ch/de/anwendung-acontrol",
+        "dct:spatial": "Switzerland",
+        "dataOwner": "p-8397553",
+        "schemaViolations": 2,
+        "schemaViolationMessages": [
+            "'fr' is a required property",
+            "'fr' is a required property"
+        ],
+        "quality": 536.6666666666666
     },
     {
         "rdf:type": "dcat:Dataset",
