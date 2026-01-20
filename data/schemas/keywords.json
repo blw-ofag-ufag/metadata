@@ -420,10 +420,10 @@
     "en": "Nutrient content"
   },
   "official-geodata": {
-    "de": "Amtliche Geodaten",
-    "fr": "Géodonnées officielles",
-    "it": "Geodati ufficiali",
-    "en": "Official geodata"
+    "de": "Geodaten",
+    "fr": "Données géographiques",
+    "it": "Dati geografici",
+    "en": "Geodata"
   },
   "operational-data": {
     "de": "Betriebsdaten",
@@ -604,12 +604,6 @@
     "fr": "Services d'utilité publique et administratifs",
     "it": "Servizi di pubblica utilità e amministrativi",
     "en": "Utility and governmental services"
-  },
-  "vineyard-zone": {
-    "de": "Rebbauzone",
-    "fr": "Zone viticole",
-    "it": "Zona viticola",
-    "en": "Vineyard zone"
   },
   "vineyards": {
     "de": "Rebflächen",
