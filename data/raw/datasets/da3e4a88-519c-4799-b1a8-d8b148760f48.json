@@ -15,6 +15,7 @@
     "schema:name": "Fachbereich Agrarinformationssysteme",
     "schema:email": "agis@blw.admin.ch"
   },
+  "dct:issued" : "2006-01-02",
   "dcat:keyword": [
     "AGIS",
     "dairy-product",
