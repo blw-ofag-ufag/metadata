@@ -1415,7 +1415,6 @@
         "bv:archivalValue": false,
         "dcat:keyword": [
             "HODUFLU",
-            "meine-agrardaten-freigabe",
             "MAF",
             "deliveries",
             "nutrient-content",
@@ -1469,7 +1468,7 @@
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']"
         ],
-        "quality": 4651.5
+        "quality": 4633.0
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -1496,7 +1495,6 @@
         "bv:archivalValue": false,
         "dcat:keyword": [
             "AGIS",
-            "meine-agrardaten-freigabe",
             "MAF",
             "operational-data",
             "register-data",
@@ -1555,7 +1553,7 @@
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']"
         ],
-        "quality": 4538.0
+        "quality": 4519.5
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -1663,7 +1661,6 @@
         "bv:archivalValue": false,
         "dcat:keyword": [
             "AGIS",
-            "meine-agrardaten-freigabe",
             "MAF",
             "structural-data",
             "farm",
@@ -1736,7 +1733,7 @@
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']"
         ],
-        "quality": 4080.5
+        "quality": 4062.0
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -1763,7 +1760,6 @@
         "bv:archivalValue": false,
         "dcat:keyword": [
             "AGIS",
-            "meine-agrardaten-freigabe",
             "MAF",
             "operational-data",
             "register-data",
@@ -1819,7 +1815,7 @@
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']"
         ],
-        "quality": 3932.0
+        "quality": 3913.5
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -1846,7 +1842,6 @@
         "bv:archivalValue": false,
         "dcat:keyword": [
             "AGIS",
-            "meine-agrardaten-freigabe",
             "MAF",
             "operational-data",
             "register-data",
@@ -1905,7 +1900,7 @@
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']"
         ],
-        "quality": 3901.5
+        "quality": 3883.0
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -1933,7 +1928,6 @@
         "bv:archivalValue": false,
         "dcat:keyword": [
             "AGIS",
-            "meine-agrardaten-freigabe",
             "MAF",
             "structural-data",
             "crops",
@@ -2007,7 +2001,7 @@
             "'Flächenangaben zu Vernetzungsflächen auf einem Betrieb in der Schweizer Landwirtschaft - Provisorische Daten' does not match '^[a-zA-Z0-9_\\\\-\\\\s\\\\(\\\\)\\\\.\\\\,\\\\:\\\\/\\\\u00A0-\\\\u017F\\\\\\'\\\\\"\\\\?\\\\!\\\\%\\\\&\\\\+\\\\@]{5,100}$'",
             "'Indications de superficie pour les surfaces de mise en réseau sur une exploitation agricole suisse - données provisoires' does not match '^[a-zA-Z0-9_\\\\-\\\\s\\\\(\\\\)\\\\.\\\\,\\\\:\\\\/\\\\u00A0-\\\\u017F\\\\\\'\\\\\"\\\\?\\\\!\\\\%\\\\&\\\\+\\\\@]{5,100}$'"
         ],
-        "quality": 2503.25
+        "quality": 2494.0
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -2073,7 +2067,6 @@
         "bv:archivalValue": false,
         "dcat:keyword": [
             "AGIS",
-            "meine-agrardaten-freigabe",
             "MAF",
             "structural-data",
             "crops",
@@ -2148,7 +2141,7 @@
             "'Flächenangaben zu Rebfächen in Hanglagen auf einem Betrieb in der Schweizer Landwirtschaft - Provisorische Daten' does not match '^[a-zA-Z0-9_\\\\-\\\\s\\\\(\\\\)\\\\.\\\\,\\\\:\\\\/\\\\u00A0-\\\\u017F\\\\\\'\\\\\"\\\\?\\\\!\\\\%\\\\&\\\\+\\\\@]{5,100}$'",
             "'Indications de surface pour les vignobles en pente sur une exploitation agricole suisse - données provisoires' does not match '^[a-zA-Z0-9_\\\\-\\\\s\\\\(\\\\)\\\\.\\\\,\\\\:\\\\/\\\\u00A0-\\\\u017F\\\\\\'\\\\\"\\\\?\\\\!\\\\%\\\\&\\\\+\\\\@]{5,100}$'"
         ],
-        "quality": 2415.5
+        "quality": 2406.25
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -2176,7 +2169,6 @@
         "bv:archivalValue": false,
         "dcat:keyword": [
             "AGIS",
-            "meine-agrardaten-freigabe",
             "MAF",
             "structural-data",
             "crops",
@@ -2250,7 +2242,7 @@
             "'Flächenangaben zu Hauptkulturen auf einem Betrieb in der Schweizer Landwirtschaft - Provisorische Daten' does not match '^[a-zA-Z0-9_\\\\-\\\\s\\\\(\\\\)\\\\.\\\\,\\\\:\\\\/\\\\u00A0-\\\\u017F\\\\\\'\\\\\"\\\\?\\\\!\\\\%\\\\&\\\\+\\\\@]{5,100}$'",
             "'Données sur les surfaces des principales cultures dans une exploitation agricole suisse - données provisoires' does not match '^[a-zA-Z0-9_\\\\-\\\\s\\\\(\\\\)\\\\.\\\\,\\\\:\\\\/\\\\u00A0-\\\\u017F\\\\\\'\\\\\"\\\\?\\\\!\\\\%\\\\&\\\\+\\\\@]{5,100}$'"
         ],
-        "quality": 2401.5
+        "quality": 2392.25
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -2278,7 +2270,6 @@
         "bv:archivalValue": false,
         "dcat:keyword": [
             "AGIS",
-            "meine-agrardaten-freigabe",
             "MAF",
             "structural-data",
             "crops",
@@ -2352,7 +2343,7 @@
             "'Flächenangaben zu Fächen in Hanglagen auf einem Betrieb in der Schweizer Landwirtschaft - Provisorische Daten' does not match '^[a-zA-Z0-9_\\\\-\\\\s\\\\(\\\\)\\\\.\\\\,\\\\:\\\\/\\\\u00A0-\\\\u017F\\\\\\'\\\\\"\\\\?\\\\!\\\\%\\\\&\\\\+\\\\@]{5,100}$'",
             "\"Indications de surface pour les surfaces en pente d'une exploitation agricole suisse - données provisoires\" does not match '^[a-zA-Z0-9_\\\\-\\\\s\\\\(\\\\)\\\\.\\\\,\\\\:\\\\/\\\\u00A0-\\\\u017F\\\\\\'\\\\\"\\\\?\\\\!\\\\%\\\\&\\\\+\\\\@]{5,100}$'"
         ],
-        "quality": 2371.5
+        "quality": 2362.75
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -2559,7 +2550,6 @@
         "bv:archivalValue": false,
         "dcat:keyword": [
             "AGIS",
-            "meine-agrardaten-freigabe",
             "MAF",
             "structural-data",
             "farm",
@@ -2635,7 +2625,7 @@
             "'Art und Anzahl Nutztiere in Sömmerung auf einem Betrieb in der Schweizer Landwirtschaft - Provisorische Daten' does not match '^[a-zA-Z0-9_\\\\-\\\\s\\\\(\\\\)\\\\.\\\\,\\\\:\\\\/\\\\u00A0-\\\\u017F\\\\\\'\\\\\"\\\\?\\\\!\\\\%\\\\&\\\\+\\\\@]{5,100}$'",
             "\"Type et nombre d'animaux de rente en estivage dans une exploitation agricole suisse - données provisoires\" does not match '^[a-zA-Z0-9_\\\\-\\\\s\\\\(\\\\)\\\\.\\\\,\\\\:\\\\/\\\\u00A0-\\\\u017F\\\\\\'\\\\\"\\\\?\\\\!\\\\%\\\\&\\\\+\\\\@]{5,100}$'"
         ],
-        "quality": 2176.25
+        "quality": 2167.0
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -2705,7 +2695,6 @@
         "bv:archivalValue": false,
         "dcat:keyword": [
             "AGIS",
-            "meine-agrardaten-freigabe",
             "MAF",
             "control-organization",
             "contribution-year",
@@ -2780,7 +2769,7 @@
             "'Inscription aux programmes de paiements directs pour une exploitation agricole suisse - données provisoires.' does not match '^[a-zA-Z0-9_\\\\-\\\\s\\\\(\\\\)\\\\.\\\\,\\\\:\\\\/\\\\u00A0-\\\\u017F\\\\\\'\\\\\"\\\\?\\\\!\\\\%\\\\&\\\\+\\\\@]{5,100}$'",
             "\"Iscrizioni per programmi di pagamenti diretti per un'azienda nell'agricoltura svizzera - dati provvisori\" does not match '^[a-zA-Z0-9_\\\\-\\\\s\\\\(\\\\)\\\\.\\\\,\\\\:\\\\/\\\\u00A0-\\\\u017F\\\\\\'\\\\\"\\\\?\\\\!\\\\%\\\\&\\\\+\\\\@]{5,100}$'"
         ],
-        "quality": 2044.8
+        "quality": 2037.4
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -4246,7 +4235,7 @@
         "dcat:keyword": [
             "gradient",
             "e-geoch",
-            "vineyard-zone",
+            "vineyards",
             "official-geodata",
             "conservation",
             "archivation",
@@ -4371,7 +4360,7 @@
             "'' does not match '^[a-zA-Z0-9_\\\\-\\\\s\\\\(\\\\)\\\\.\\\\,\\\\:\\\\/\\\\u00A0-\\\\u017F\\\\\\'\\\\\"\\\\?\\\\!\\\\%\\\\&\\\\+\\\\@]{5,100}$'",
             "'' does not match '^[a-zA-Z0-9_\\\\-\\\\s\\\\(\\\\)\\\\.\\\\,\\\\:\\\\/\\\\u00A0-\\\\u017F\\\\\\'\\\\\"\\\\?\\\\!\\\\%\\\\&\\\\+\\\\@]{5,100}$'"
         ],
-        "quality": 1514.5
+        "quality": 1513.8333333333333
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -9846,7 +9835,6 @@
         "bv:archivalValue": false,
         "dcat:keyword": [
             "AGIS",
-            "meine-agrardaten-freigabe",
             "MAF",
             "structural-data",
             "crops",
@@ -9927,7 +9915,7 @@
             "\"Dati sulle superfici delle superfici per la promozione della biodiversità in un'azienda agricola in Svizzera - dati provvisori\" does not match '^[a-zA-Z0-9_\\\\-\\\\s\\\\(\\\\)\\\\.\\\\,\\\\:\\\\/\\\\u00A0-\\\\u017F\\\\\\'\\\\\"\\\\?\\\\!\\\\%\\\\&\\\\+\\\\@]{5,100}$'",
             "'Information on the area of biodiversity promotion areas on a farm in Swiss agriculture - provisional data' does not match '^[a-zA-Z0-9_\\\\-\\\\s\\\\(\\\\)\\\\.\\\\,\\\\:\\\\/\\\\u00A0-\\\\u017F\\\\\\'\\\\\"\\\\?\\\\!\\\\%\\\\&\\\\+\\\\@]{5,100}$'"
         ],
-        "quality": 1040.1
+        "quality": 1036.4
     },
     {
         "rdf:type": "dcat:Dataset",
