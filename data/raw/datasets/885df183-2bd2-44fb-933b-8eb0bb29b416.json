@@ -10,7 +10,7 @@
   },
   "dct:publisher": "BLW-OFAG-UFAG-FOAG",
   "dcat:contactPoint": {
-    "schema:name": "Fachbereich Agrarinformationssysteme",
+    "schema:name": "Gruppe Agrarinformationssystem AGIS",
     "schema:email": "agis@blw.admin.ch"
   },
   "dct:issued": "2010-01-02",

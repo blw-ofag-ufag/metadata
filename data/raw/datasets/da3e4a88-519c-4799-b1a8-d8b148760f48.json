@@ -7,12 +7,12 @@
     "en": "Annual milk production per farm"
 },
   "dct:description": {
-    "de": "Datensatz der aggregierten Milchproduktionsdaten (kg Milch) pro Betriebseinheit. Die Daten werden über eine Schnittstelle der TSM Treuhand GmbH (DB Milch) in AGIS integriert und dienen der Überwachung der Milchproduktion sowie statistischen Auswertungen.",
-    "fr": "Ensemble de données agrégées sur la production laitière (kg de lait) par unité d'exploitation. Les données sont intégrées dans AGIS via une interface de TSM Treuhand GmbH (DB Milch) et servent à surveiller la production laitière et à effectuer des analyses statistiques."
+    "de": "Datensatz der aggregierten Milchproduktionsdaten (kg Milch) pro Betriebseinheit. Die Daten werden über eine Schnittstelle der TSM Solutions GmbH (DB Milch) in AGIS integriert und dienen der Überwachung der Milchproduktion sowie statistischen Auswertungen.",
+    "fr": "Ensemble de données agrégées sur la production laitière (kg de lait) par unité d'exploitation. Les données sont intégrées dans AGIS via une interface de TSM Solutions GmbH (DB Milch) et servent à surveiller la production laitière et à effectuer des analyses statistiques."
   },
   "dct:publisher": "BLW-OFAG-UFAG-FOAG",
   "dcat:contactPoint": {
-    "schema:name": "Fachbereich Agrarinformationssysteme",
+    "schema:name": "Gruppe Agrarinformationssystem AGIS",
     "schema:email": "agis@blw.admin.ch"
   },
   "dct:issued" : "2006-01-02",

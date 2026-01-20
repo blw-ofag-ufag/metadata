@@ -5,12 +5,12 @@
     "fr": "Inscriptions aux programmes de paiements directs, aux PER, à l'utilisation fourragère NPR et aux organes de contrôle"
   },
   "dct:description": {
-    "de": "Beinhaltet die jährlichen Anmeldedaten (Stichtag im August) für spezifische Direktzahlungsprogramme (z. B. BTS, RAUS, Ressourceneffizienz) sowie für den Ökologischen Leistungsnachweis (ÖLN). Der Datensatz dient primär der Koordination der landwirtschaftlichen Kontrollen im Folgejahr und der Schätzung der finanziellen Beteiligung.",
-    "fr": "Contient les données d'inscription annuelles (date de référence en août) pour des programmes de paiements directs spécifiques (p. ex. SST, SRPA, efficacité des ressources) ainsi que pour les prestations écologiques requises (PER). L'ensemble de données sert principalement à coordonner les contrôles agricoles de l'année suivante et à estimer la participation financière."
+    "de": "Beinhaltet die jährlichen Anmeldedaten (Stichtag im August) für spezifische Direktzahlungsprogramme (z. B. BTS, RAUS, Ressourceneffizienz) sowie für den Ökologischen Leistungsnachweis (ÖLN) für das Folgejahr. Der Datensatz dient primär der Koordination der landwirtschaftlichen Kontrollen und der Schätzung der finanziellen Beteiligung.",
+    "fr": "Contient les données d'inscription annuelles (date de référence en août) pour des programmes de paiements directs spécifiques (p. ex. SST, SRPA, efficacité des ressources) ainsi que pour les prestations écologiques requises (PER) pour l'année suivante. L'ensemble de données sert principalement à coordonner les contrôles agricoles et à estimer la participation financière."
   },
   "dct:publisher": "BLW-OFAG-UFAG-FOAG",
   "dcat:contactPoint": {
-    "schema:name": "Fachbereich Agrarinformationssysteme",
+    "schema:name": "Gruppe Agrarinformationssystem AGIS",
     "schema:email": "agis@blw.admin.ch"
   },
   "dct:issued": "2014-01-02",
