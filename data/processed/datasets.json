@@ -767,7 +767,7 @@
         "dct:publisher": "BLW-OFAG-UFAG-FOAG",
         "dcat:contactPoint": {
             "schema:email": "agis@blw.admin.ch",
-            "schema:name": "Fachbereich Agrarinformationssysteme"
+            "schema:name": "Gruppe Agrarinformationssystem AGIS"
         },
         "bv:archivalValue": false,
         "adms:status": "published",
@@ -831,7 +831,7 @@
         "dataOwner": "p-5367735",
         "schemaViolations": 0,
         "schemaViolationMessages": [],
-        "quality": 8727.0
+        "quality": 8726.0
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -863,7 +863,7 @@
         "dct:publisher": "BLW-OFAG-UFAG-FOAG",
         "dcat:contactPoint": {
             "schema:email": "agis@blw.admin.ch",
-            "schema:name": "Fachbereich Agrarinformationssysteme"
+            "schema:name": "Gruppe Agrarinformationssystem AGIS"
         },
         "bv:archivalValue": false,
         "adms:status": "published",
@@ -927,7 +927,7 @@
         "dataOwner": "p-5367735",
         "schemaViolations": 0,
         "schemaViolationMessages": [],
-        "quality": 8017.0
+        "quality": 8016.0
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -957,7 +957,7 @@
         "dct:publisher": "BLW-OFAG-UFAG-FOAG",
         "dcat:contactPoint": {
             "schema:email": "agis@blw.admin.ch",
-            "schema:name": "Fachbereich Agrarinformationssysteme"
+            "schema:name": "Gruppe Agrarinformationssystem AGIS"
         },
         "bv:archivalValue": false,
         "adms:status": "published",
@@ -1019,7 +1019,7 @@
         "dataOwner": "p-5367735",
         "schemaViolations": 0,
         "schemaViolationMessages": [],
-        "quality": 7459.0
+        "quality": 7458.0
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -1324,7 +1324,7 @@
         "dct:publisher": "BLW-OFAG-UFAG-FOAG",
         "dcat:contactPoint": {
             "schema:email": "agis@blw.admin.ch",
-            "schema:name": "Fachbereich Agrarinformationssysteme"
+            "schema:name": "Gruppe Agrarinformationssystem AGIS"
         },
         "bv:archivalValue": false,
         "adms:status": "published",
@@ -1388,7 +1388,7 @@
         "dataOwner": "p-5367735",
         "schemaViolations": 0,
         "schemaViolationMessages": [],
-        "quality": 5051.0
+        "quality": 5050.0
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -2025,7 +2025,7 @@
             "https://www.fedlex.admin.ch/eli/cc/2013/765/de#art_2"
         ],
         "dcat:contactPoint": {
-            "schema:name": "Fachbereich Agrarinformationssysteme",
+            "schema:name": "Gruppe Agrarinformationssystem AGIS",
             "schema:email": "agis@blw.admin.ch"
         },
         "dcat:keyword": [
@@ -2045,7 +2045,7 @@
         "dataOwner": "p-8757693",
         "schemaViolations": 0,
         "schemaViolationMessages": [],
-        "quality": 2490.0
+        "quality": 2489.0
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -2368,7 +2368,7 @@
         },
         "dct:publisher": "BLW-OFAG-UFAG-FOAG",
         "dcat:contactPoint": {
-            "schema:name": "Fachbereich Agrarinformationssysteme",
+            "schema:name": "Gruppe Agrarinformationssystem AGIS",
             "schema:email": "agis@blw.admin.ch"
         },
         "dct:issued": "1997-01-02",
@@ -2390,7 +2390,7 @@
         "dataOwner": "p-8757693",
         "schemaViolations": 0,
         "schemaViolationMessages": [],
-        "quality": 2327.0
+        "quality": 2326.0
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -2784,6 +2784,44 @@
     },
     {
         "rdf:type": "dcat:Dataset",
+        "dct:identifier": "7ccce734-3f96-411f-ac02-00d47328c5ec",
+        "dct:title": {
+            "de": "Tierbestände pro Tierkategorie und Betrieb",
+            "fr": "Effectifs d'animaux par catégorie et par exploitation",
+            "it": "Effettivi di animali per categoria e azienda",
+            "en": "Livestock numbers per animal category and farm"
+        },
+        "dct:description": {
+            "de": "Umfasst die detaillierten Tierbestände pro Tierkategorie am Stichtag sowie den durchschnittlichen Bestand des Vorjahres. Für Rinder, Schafe, Ziegen und Equiden erfolgt der Abgleich über die TVD-Nummer, während andere Kategorien (z. B. Geflügel) direkt über kantonale Erhebungen gemeldet werden. Die Daten sind Teil der Strukturdatenerhebung.",
+            "fr": "Comprend les effectifs détaillés par catégorie d'animaux à la date de référence ainsi que l'effectif moyen de l'année précédente. Pour les bovins, les moutons, les chèvres et les équidés, la comparaison s'effectue à l'aide du numéro BDTA, tandis que les autres catégories (p. ex. la volaille) sont déclarées directement via les relevés cantonaux. Les données font partie du relevé des données structurelles."
+        },
+        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+        "dcat:contactPoint": {
+            "schema:name": "Gruppe Agrarinformationssystem AGIS",
+            "schema:email": "agis@blw.admin.ch"
+        },
+        "dct:issued": "1997-01-02",
+        "dct:accrualPeriodicity": "ANNUAL",
+        "dcat:keyword": [
+            "AGIS",
+            "animals",
+            "structural-data",
+            "TVD"
+        ],
+        "adms:status": "published",
+        "bv:classification": "internal",
+        "bv:personalData": "personalData",
+        "dcat:theme": [
+            "agriculture"
+        ],
+        "dcat:landingPage": "https://www.blw.admin.ch/de/anwendung-agis",
+        "dataOwner": "p-8757693",
+        "schemaViolations": 0,
+        "schemaViolationMessages": [],
+        "quality": 1970.0
+    },
+    {
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "697705b2-4ea2-473d-8d02-1e31454c03ec",
         "dct:title": {
             "de": "Flächen- und Kulturdaten",
@@ -2797,7 +2835,7 @@
         },
         "dct:publisher": "BLW-OFAG-UFAG-FOAG",
         "dcat:contactPoint": {
-            "schema:name": "Fachbereich Agrarinformationssysteme",
+            "schema:name": "Gruppe Agrarinformationssystem AGIS",
             "schema:email": "agis@blw.admin.ch"
         },
         "dct:issued": "1997-01-02",
@@ -2822,45 +2860,7 @@
         "dataOwner": "p-8757693",
         "schemaViolations": 0,
         "schemaViolationMessages": [],
-        "quality": 1919.0
-    },
-    {
-        "rdf:type": "dcat:Dataset",
-        "dct:identifier": "7ccce734-3f96-411f-ac02-00d47328c5ec",
-        "dct:title": {
-            "de": "Tierbestände pro Tierkategorie und Betrieb",
-            "fr": "Effectifs d'animaux par catégorie et par exploitation",
-            "it": "Effettivi di animali per categoria e azienda",
-            "en": "Livestock numbers per animal category and farm"
-        },
-        "dct:description": {
-            "de": "Umfasst die detaillierten Tierbestände pro Tierkategorie am Stichtag. Für Rinder und Equiden erfolgt der Abgleich über die TVD-Nummer, während andere Kategorien (z. B. Geflügel) direkt über kantonale Erhebungen gemeldet werden. Die Daten sind Teil der Strukturdatenerhebung.",
-            "fr": "Comprend les effectifs détaillés par catégorie d'animaux à la date de référence. Pour les bovins et les équidés, la comparaison s'effectue à l'aide du numéro BDTA, tandis que les autres catégories (p. ex. la volaille) sont déclarées directement via les relevés cantonaux. Les données font partie du relevé des données structurelles."
-        },
-        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
-        "dcat:contactPoint": {
-            "schema:name": "Fachbereich Agrarinformationssysteme",
-            "schema:email": "agis@blw.admin.ch"
-        },
-        "dct:issued": "1997-01-02",
-        "dct:accrualPeriodicity": "ANNUAL",
-        "dcat:keyword": [
-            "AGIS",
-            "animals",
-            "structural-data",
-            "TVD"
-        ],
-        "adms:status": "published",
-        "bv:classification": "internal",
-        "bv:personalData": "personalData",
-        "dcat:theme": [
-            "agriculture"
-        ],
-        "dcat:landingPage": "https://www.blw.admin.ch/de/anwendung-agis",
-        "dataOwner": "p-8757693",
-        "schemaViolations": 0,
-        "schemaViolationMessages": [],
-        "quality": 1825.0
+        "quality": 1918.0
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -3397,7 +3397,7 @@
         "dct:publisher": "BLW-OFAG-UFAG-FOAG",
         "dcat:contactPoint": {
             "schema:email": "agis@blw.admin.ch",
-            "schema:name": "Fachbereich Agrarinformationssysteme"
+            "schema:name": "Gruppe Agrarinformationssystem AGIS"
         },
         "bv:archivalValue": false,
         "adms:status": "published",
@@ -3464,7 +3464,7 @@
             "'' does not match '^[a-zA-Z0-9_\\\\-\\\\s\\\\(\\\\)\\\\.\\\\,\\\\:\\\\/\\\\u00A0-\\\\u017F\\\\\\'\\\\\"\\\\?\\\\!\\\\%\\\\&\\\\+\\\\@]{5,100}$'",
             "'' does not match '^[a-zA-Z0-9_\\\\-\\\\s\\\\(\\\\)\\\\.\\\\,\\\\:\\\\/\\\\u00A0-\\\\u017F\\\\\\'\\\\\"\\\\?\\\\!\\\\%\\\\&\\\\+\\\\@]{5,100}$'"
         ],
-        "quality": 1692.6666666666667
+        "quality": 1692.3333333333333
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -3476,12 +3476,12 @@
             "en": "Annual milk production per farm"
         },
         "dct:description": {
-            "de": "Datensatz der aggregierten Milchproduktionsdaten (kg Milch) pro Betriebseinheit. Die Daten werden über eine Schnittstelle der TSM Treuhand GmbH (DB Milch) in AGIS integriert und dienen der Überwachung der Milchproduktion sowie statistischen Auswertungen.",
-            "fr": "Ensemble de données agrégées sur la production laitière (kg de lait) par unité d'exploitation. Les données sont intégrées dans AGIS via une interface de TSM Treuhand GmbH (DB Milch) et servent à surveiller la production laitière et à effectuer des analyses statistiques."
+            "de": "Datensatz der aggregierten Milchproduktionsdaten (kg Milch) pro Betriebseinheit. Die Daten werden über eine Schnittstelle der TSM Solutions GmbH (DB Milch) in AGIS integriert und dienen der Überwachung der Milchproduktion sowie statistischen Auswertungen.",
+            "fr": "Ensemble de données agrégées sur la production laitière (kg de lait) par unité d'exploitation. Les données sont intégrées dans AGIS via une interface de TSM Solutions GmbH (DB Milch) et servent à surveiller la production laitière et à effectuer des analyses statistiques."
         },
         "dct:publisher": "BLW-OFAG-UFAG-FOAG",
         "dcat:contactPoint": {
-            "schema:name": "Fachbereich Agrarinformationssysteme",
+            "schema:name": "Gruppe Agrarinformationssystem AGIS",
             "schema:email": "agis@blw.admin.ch"
         },
         "dct:issued": "2006-01-02",
@@ -3501,7 +3501,7 @@
         "dataOwner": "p-8757693",
         "schemaViolations": 0,
         "schemaViolationMessages": [],
-        "quality": 1691.0
+        "quality": 1692.0
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -3516,7 +3516,7 @@
         },
         "dct:publisher": "BLW-OFAG-UFAG-FOAG",
         "dcat:contactPoint": {
-            "schema:name": "Fachbereich Agrarinformationssysteme",
+            "schema:name": "Gruppe Agrarinformationssystem AGIS",
             "schema:email": "agis@blw.admin.ch"
         },
         "dct:issued": "2010-01-02",
@@ -3536,7 +3536,7 @@
         "dataOwner": "p-8757693",
         "schemaViolations": 0,
         "schemaViolationMessages": [],
-        "quality": 1663.0
+        "quality": 1662.0
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -10245,12 +10245,12 @@
             "fr": "Inscriptions aux programmes de paiements directs, aux PER, à l'utilisation fourragère NPR et aux organes de contrôle"
         },
         "dct:description": {
-            "de": "Beinhaltet die jährlichen Anmeldedaten (Stichtag im August) für spezifische Direktzahlungsprogramme (z. B. BTS, RAUS, Ressourceneffizienz) sowie für den Ökologischen Leistungsnachweis (ÖLN). Der Datensatz dient primär der Koordination der landwirtschaftlichen Kontrollen im Folgejahr und der Schätzung der finanziellen Beteiligung.",
-            "fr": "Contient les données d'inscription annuelles (date de référence en août) pour des programmes de paiements directs spécifiques (p. ex. SST, SRPA, efficacité des ressources) ainsi que pour les prestations écologiques requises (PER). L'ensemble de données sert principalement à coordonner les contrôles agricoles de l'année suivante et à estimer la participation financière."
+            "de": "Beinhaltet die jährlichen Anmeldedaten (Stichtag im August) für spezifische Direktzahlungsprogramme (z. B. BTS, RAUS, Ressourceneffizienz) sowie für den Ökologischen Leistungsnachweis (ÖLN) für das Folgejahr. Der Datensatz dient primär der Koordination der landwirtschaftlichen Kontrollen und der Schätzung der finanziellen Beteiligung.",
+            "fr": "Contient les données d'inscription annuelles (date de référence en août) pour des programmes de paiements directs spécifiques (p. ex. SST, SRPA, efficacité des ressources) ainsi que pour les prestations écologiques requises (PER) pour l'année suivante. L'ensemble de données sert principalement à coordonner les contrôles agricoles et à estimer la participation financière."
         },
         "dct:publisher": "BLW-OFAG-UFAG-FOAG",
         "dcat:contactPoint": {
-            "schema:name": "Fachbereich Agrarinformationssysteme",
+            "schema:name": "Gruppe Agrarinformationssystem AGIS",
             "schema:email": "agis@blw.admin.ch"
         },
         "dct:issued": "2014-01-02",
@@ -10271,7 +10271,7 @@
         "schemaViolationMessages": [
             "\"Inscriptions aux programmes de paiements directs, aux PER, à l'utilisation fourragère NPR et aux organes de contrôle\" does not match '^[a-zA-Z0-9_\\\\-\\\\s\\\\(\\\\)\\\\.\\\\,\\\\:\\\\/\\\\u00A0-\\\\u017F\\\\\\'\\\\\"\\\\?\\\\!\\\\%\\\\&\\\\+\\\\@]{10,100}$'"
         ],
-        "quality": 940.5
+        "quality": 944.0
     },
     {
         "rdf:type": "dcat:Dataset",
