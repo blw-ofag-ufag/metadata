@@ -2639,6 +2639,48 @@
     },
     {
         "rdf:type": "dcat:Dataset",
+        "dct:identifier": "ddf57fc9-0e6e-463a-b054-3f658cf74edb",
+        "dct:title": {
+            "de": "Zollansätze und Tarifarten",
+            "fr": "Droits de douanes"
+        },
+        "dct:description": {
+            "de": "Übersicht der verschiedenen Zollansätze: Umfasst die WTO-Obergrenzen (konsolidierte Ansätze), die angewandten Normaltarife (Meistbegünstigung/NPF) sowie Vorzugstarife (Präferenzen) aus Freihandelsabkommen und für Entwicklungsländer (APS). Enthält zudem Informationen zu Zollerleichterungen.",
+            "fr": "Aperçu des tarifs douaniers incluant : les taux plafonds (consolidés OMC), les taux standards appliqués (NPF) et les taux préférentiels issus d'accords de libre-échange ou du Système des préférences généralisé (SPG). Comprend également les allègements douaniers."
+        },
+        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+        "dct:accrualPeriodicity": "ANNUAL",
+        "dct:issued": "2025-01-02",
+        "adms:status": "archived",
+        "bv:classification": "internal",
+        "bv:personalData": "none",
+        "dcat:theme": [
+            "trade"
+        ],
+        "dcat:distribution": [
+            {
+                "dct:identifier": "4c1220bc-7516-405c-badc-8785b7d5f369",
+                "adms:status": "archived",
+                "dct:format": "rda",
+                "dcat:accessURL": "M:\\Org\\BLW_3210_INTERN\\R\\RTables\\SAP_20251001.rda",
+                "dcat:downloadURL": "M:\\Org\\BLW_3210_INTERN\\R\\RTables\\SAP_20251001.rda",
+                "dct:title": {
+                    "de": "Gesamtliste der Zollansätze",
+                    "fr": "Liste complète des droits de douane"
+                },
+                "dct:description": {
+                    "de": "239'041 Zeilen × 22 Spalten.\nAnmerkung: Dateien für das BLW nur auf Anfrage zugänglich.",
+                    "fr": "239,041 lignes × 22 colonnes.\nNote: Note: Fichiers accessibles pour l’OFAG sur demande d'accès au disque."
+                }
+            }
+        ],
+        "dataOwner": "p-3606006",
+        "schemaViolations": 0,
+        "schemaViolationMessages": [],
+        "quality": 2117.0
+    },
+    {
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "00d5f3a2-8387-432b-8f46-b49c3eb018ea",
         "schema:image": "https://fal.media/files/monkey/6gWWWqidmTPm5sPb5W59p_38800376b318474599bf6fa9638c6bae.jpg",
         "dct:title": {
@@ -10038,6 +10080,67 @@
     },
     {
         "rdf:type": "dcat:Dataset",
+        "dct:identifier": "b47a6f96-9419-40f4-b5e7-08d2ef5531f5",
+        "dct:title": {
+            "de": "Schweizer Agraraussenhandelsstatistik",
+            "fr": "Statistiques suisses du commerce extérieur agricole"
+        },
+        "dct:description": {
+            "de": "Detaillierte Schweizer Agraraussenhandelsstatistik für den Zeitraum 1995 bis 2024. Der Datensatz enthält Import- und Exportdaten auf der Ebene der statistischen Schlüssel (Warendetail) und ist nach Zollregime (Verzollungsart) gegliedert. Diese hohe Granularität ermöglicht präzise Analysen der landwirtschaftlichen Warenströme über die Grenze.",
+            "fr": "Statistiques détaillées du commerce extérieur agricole suisse pour la période de 1995 à 2024. Le jeu de données contient des données d'importation et d'exportation au niveau des clés statistiques (détail des marchandises) et est ventilé par régime douanier (type de dédouanement). Cette granularité permet des analyses précises des flux de marchandises agricoles transfrontaliers."
+        },
+        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+        "dct:issued": "1995-01-02",
+        "dct:accrualPeriodicity": "ANNUAL",
+        "adms:status": "archived",
+        "bv:classification": "internal",
+        "bv:personalData": "personalData",
+        "bv:archivalValue": false,
+        "dcat:theme": [
+            "trade"
+        ],
+        "dcat:distribution": [
+            {
+                "dct:identifier": "f3e46350-b5bf-4765-82bb-daf1987a95fe",
+                "adms:status": "archived",
+                "dct:format": "rda",
+                "dcat:downloadURL": "M:\\Org\\BLW_3210_INTERN\\R\\RTables\\TN400_401_M_m.rda",
+                "dcat:accessURL": "M:\\Org\\BLW_3210_INTERN\\R\\RTables\\TN400_401_M_m.rda",
+                "dct:title": {
+                    "de": "Importstatistiken",
+                    "fr": "Statistiques à l'import"
+                },
+                "dct:description": {
+                    "de": "4'121'326 Zeilen × 13 Spalten.\nHinweis: Dateien für das BLW nur auf Anfrage zugänglich.",
+                    "fr": "4,121,326 lignes × 13 colonnes. \nNote: Fichiers accessibles pour l’OFAG sur demande d'accès au disque."
+                }
+            },
+            {
+                "dct:identifier": "f47de445-fbef-4a3e-9172-f96f5a1b00a7",
+                "adms:status": "archived",
+                "dct:format": "rda",
+                "dcat:downloadURL": "M:\\Org\\BLW_3210_INTERN\\R\\RTables\\TN400_401_X_m.rda",
+                "dct:accessURL": "M:\\Org\\BLW_3210_INTERN\\R\\RTables\\TN400_401_X_m.rda",
+                "dct:title": {
+                    "de": "Exportstatistiken",
+                    "fr": "Statistiques à l'export"
+                },
+                "dct:description": {
+                    "de": "2'211'794 Zeilen × 10 Spalten.\nHinweis: Dateien für das BLW nur auf Anfrage zugänglich.",
+                    "fr": "2,211,794 lignes × 10 colonnes.\nNote: Fichiers accessibles pour l’OFAG sur demande d'accès au disque."
+                }
+            }
+        ],
+        "dataOwner": "p-3606006",
+        "schemaViolations": 2,
+        "schemaViolationMessages": [
+            "'dcat:accessURL' is a required property",
+            "Additional properties are not allowed ('dct:accessURL' was unexpected)"
+        ],
+        "quality": 1008.3333333333334
+    },
+    {
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "a88a2dfa-f5fb-4fe2-a1c5-af392052f6a2",
         "schema:image": "https://fal.media/files/rabbit/vACOEgJZbcpfArdQzROcX_351aa26ba9134232bdc01f867502e0ef.jpg",
         "dct:title": {
@@ -10504,108 +10607,6 @@
             "Additional properties are not allowed ('dcat:issued' was unexpected)"
         ],
         "quality": 751.8888888888889
-    },
-    {
-        "rdf:type": "dcat:Dataset",
-        "dct:identifier": "b47a6f96-9419-40f4-b5e7-08d2ef5531f5",
-        "dct:title": {
-            "de": "Schweizer Agraraussenhandelsstatistik",
-            "fr": "Statistiques suisses du commerce extérieur agricole"
-        },
-        "dct:description": {
-            "de": "Detaillierte Schweizer Agraraussenhandelsstatistik für den Zeitraum 1995 bis 2024. Der Datensatz enthält Import- und Exportdaten auf der Ebene der statistischen Schlüssel (Warendetail) und ist nach Zollregime (Verzollungsart) gegliedert. Diese hohe Granularität ermöglicht präzise Analysen der landwirtschaftlichen Warenströme über die Grenze.",
-            "fr": "Statistiques détaillées du commerce extérieur agricole suisse pour la période de 1995 à 2024. Le jeu de données contient des données d'importation et d'exportation au niveau des clés statistiques (détail des marchandises) et est ventilé par régime douanier (type de dédouanement). Cette granularité permet des analyses précises des flux de marchandises agricoles transfrontaliers."
-        },
-        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
-        "dct:accrualPeriodicity": "ANNUAL",
-        "adms:status": "archived",
-        "bv:classification": "internal",
-        "bv:personalData": "personalData",
-        "bv:archivalValue": false,
-        "dcat:theme": [
-            "trade"
-        ],
-        "dcat:distribution": [
-            {
-                "dct:identifier": "f3e46350-b5bf-4765-82bb-daf1987a95fe",
-                "adms:status": "archived",
-                "dct:format": "rda",
-                "dcat:downloadURL": "M:\\Org\\BLW_3210_INTERN\\R\\RTables\\TN400_401_M_m.rda",
-                "dct:title": {
-                    "de": "Importstatistiken",
-                    "fr": "Statistiques à l'import"
-                },
-                "dct:description": {
-                    "de": "4'121'326 Zeilen × 13 Spalten.\nHinweis: Dateien für das BLW nur auf Anfrage zugänglich.",
-                    "fr": "4,121,326 lignes × 13 colonnes. \nNote: Fichiers accessibles pour l’OFAG sur demande d'accès au disque."
-                }
-            },
-            {
-                "dct:identifier": "f47de445-fbef-4a3e-9172-f96f5a1b00a7",
-                "adms:status": "archived",
-                "dct:format": "rda",
-                "dcat:downloadURL": "M:\\Org\\BLW_3210_INTERN\\R\\RTables\\TN400_401_X_m.rda",
-                "dct:title": {
-                    "de": "Exportstatistiken",
-                    "fr": "Statistiques à l'export"
-                },
-                "dct:description": {
-                    "de": "2'211'794 Zeilen × 10 Spalten.\nHinweis: Dateien für das BLW nur auf Anfrage zugänglich.",
-                    "fr": "2,211,794 lignes × 10 colonnes.\nNote: Fichiers accessibles pour l’OFAG sur demande d'accès au disque."
-                }
-            }
-        ],
-        "dataOwner": "p-3606006",
-        "schemaViolations": 3,
-        "schemaViolationMessages": [
-            "'dct:issued' is a required property",
-            "'dcat:accessURL' is a required property",
-            "'dcat:accessURL' is a required property"
-        ],
-        "quality": 707.5
-    },
-    {
-        "rdf:type": "dcat:Dataset",
-        "dct:identifier": "ddf57fc9-0e6e-463a-b054-3f658cf74edb",
-        "dct:title": {
-            "de": "Zollansätze und Tarifarten",
-            "fr": "Droits de douanes"
-        },
-        "dct:description": {
-            "de": "Übersicht der verschiedenen Zollansätze: Umfasst die WTO-Obergrenzen (konsolidierte Ansätze), die angewandten Normaltarife (Meistbegünstigung/NPF) sowie Vorzugstarife (Präferenzen) aus Freihandelsabkommen und für Entwicklungsländer (APS). Enthält zudem Informationen zu Zollerleichterungen.",
-            "fr": "Aperçu des tarifs douaniers incluant : les taux plafonds (consolidés OMC), les taux standards appliqués (NPF) et les taux préférentiels issus d'accords de libre-échange ou du Système des préférences généralisé (SPG). Comprend également les allègements douaniers."
-        },
-        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
-        "dct:accrualPeriodicity": "ANNUAL",
-        "adms:status": "archived",
-        "bv:classification": "internal",
-        "bv:personalData": "none",
-        "dcat:theme": [
-            "trade"
-        ],
-        "dcat:distribution": [
-            {
-                "dct:identifier": "4c1220bc-7516-405c-badc-8785b7d5f369",
-                "adms:status": "archived",
-                "dct:format": "rda",
-                "dcat:downloadURL": "M:\\Org\\BLW_3210_INTERN\\R\\RTables\\SAP_20251001.rda",
-                "dct:title": {
-                    "de": "Gesamtliste der Zollansätze",
-                    "fr": "Liste complète des droits de douane"
-                },
-                "dct:description": {
-                    "de": "239'041 Zeilen × 22 Spalten.\nAnmerkung: Dateien für das BLW nur auf Anfrage zugänglich.",
-                    "fr": "239,041 lignes × 22 colonnes.\nNote: Note: Fichiers accessibles pour l’OFAG sur demande d'accès au disque."
-                }
-            }
-        ],
-        "dataOwner": "p-3606006",
-        "schemaViolations": 2,
-        "schemaViolationMessages": [
-            "'dct:issued' is a required property",
-            "'dcat:accessURL' is a required property"
-        ],
-        "quality": 668.3333333333334
     },
     {
         "rdf:type": "dcat:Dataset",
