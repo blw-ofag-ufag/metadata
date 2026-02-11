@@ -1,0 +1,58 @@
+{
+  "dct:identifier": "cf998b64-8528-4b70-a88e-f1b6665e7355",
+  "dct:title": {
+    "de": "Finanzielle Mittel für die Direktzahlungen",
+    "fr": "Moyens financiers pour les paiements directs",
+    "it": "Mezzi finanziari per i pagamenti diretti"
+  },
+  "dct:description": {
+    "de": "Verteilung der jährlichen Direktzahlungen des Bundes an die Kantone aufgeschlüsselt nach Jahr, Beitragsart, Ganzjahres- oder Sömmerungsbetrieb und Zone.",
+    "fr": "Répartition des paiements directs annuels versés par la Confédération aux cantons, ventilés par année, type de contribution, exploitation à l'année ou d'estivage et zone.",
+    "it": "Ripartizione dei pagamenti diretti annuali della Confederazione ai Cantoni, suddivisi per anno, tipo di contributo, azienda a tempo pieno o di estivazione e zona."
+  },
+  "dct:accessRights": "PUBLIC",
+  "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+  "dcat:contactPoint": {
+    "schema:name": "FB Direktzahlungsgrundlagen",
+    "schema:email": "keine.direkte@organisations.mail"
+  },
+  "dct:issued": "2015-10-31T23:00:00.000Z",
+  "dcat:keyword": [
+    "AGIS",
+    "agriculture",
+    "alpine-farming",
+    "cantonal-identifier",
+    "contribution-year",
+    "zoning"
+  ],
+  "dct:accrualPeriodicity": "ANNUAL",
+  "dct:modified": "2026-02-28T23:00:00.000Z",
+  "prov:qualifiedAttribution": [
+    {
+      "prov:agent": "p-7329009",
+      "schema:name": "Mauro",
+      "schema:email": "m_r@blw.admin.ch",
+      "dcat:hadRole": "dataSteward"
+    },
+    {
+      "dcat:hadRole": "dataOwner"
+    }
+  ],
+  "adms:status": "workInProgress",
+  "bv:classification": "none",
+  "bv:personalData": "none",
+  "bv:typeOfData": "secondaryThematicData",
+  "bv:archivalValue": false,
+  "dcat:theme": [
+    "agriculture",
+    "politics"
+  ],
+  "dcat:landingPage": "https://data-blw-test.ebp.ch/de/2025-finanzielle-mittel-fuer-direktzahlungen-review",
+  "dct:spatial": "Switzerland",
+  "dct:temporal": {
+    "dcat:end_date": "2025-12-30T23:00:00.000Z"
+  },
+  "prov:wasGeneratedBy": "Datenportal",
+  "schema:comment": "Datensatz als Beispiel, wie die Datenprodukte im Datenportal erfasst werden können.\nGrundsätzlich soll ein Datensatz erfasst werden, der möglichst über lange Zeit stabil ist. \nWürden die Daten direkt aggregiert aus AGIS, wäre der BI-Report eine Distribution. Da aber aus Sicherheitsgründen ein separater Datensatz erstellt wird, muss dieser (leider) separat erfasst werden.\nWenn FBKS die Rolle als Verantwortliche für das Datenportal übernimmt, könnte ein Dataset Datenportal erstellt werden und sämtliche Datenprodukte darin als Distributionen.",
+  "bv:itSystem": "AGIS"
+}
