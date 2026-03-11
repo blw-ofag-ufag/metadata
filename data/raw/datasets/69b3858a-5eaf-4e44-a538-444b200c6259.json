@@ -1,0 +1,22 @@
+{
+  "dct:identifier": "69b3858a-5eaf-4e44-a538-444b200c6259",
+  "dct:title": {
+    "de": "testtesttest",
+    "fr": "test2test2"
+  },
+  "dct:description": {
+    "de": "test",
+    "fr": "test2"
+  },
+  "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+  "prov:qualifiedAttribution": [
+    {
+      "prov:agent": "https://admindir.verzeichnisse.admin.ch/person/p-1YVS771WP",
+      "dcat:hadRole": "dataOwner"
+    }
+  ],
+  "adms:status": "workInProgress",
+  "bv:classification": "none",
+  "bv:personalData": "none",
+  "bv:archivalValue": false
+}
