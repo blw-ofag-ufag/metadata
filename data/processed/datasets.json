@@ -10777,5 +10777,28 @@
             "'fr' is a required property"
         ],
         "quality": 536.6666666666666
+    },
+    {
+        "rdf:type": "dcat:Dataset",
+        "dct:identifier": "69b3858a-5eaf-4e44-a538-444b200c6259",
+        "dct:title": {
+            "de": "testtesttest",
+            "fr": "test2test2"
+        },
+        "dct:description": {
+            "de": "test",
+            "fr": "test2"
+        },
+        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+        "adms:status": "workInProgress",
+        "bv:classification": "none",
+        "bv:personalData": "none",
+        "bv:archivalValue": false,
+        "dataOwner": "https://admindir.verzeichnisse.admin.ch/person/p-1YVS771WP",
+        "schemaViolations": 1,
+        "schemaViolationMessages": [
+            "'dct:issued' is a required property"
+        ],
+        "quality": 264.0
     }
 ]
