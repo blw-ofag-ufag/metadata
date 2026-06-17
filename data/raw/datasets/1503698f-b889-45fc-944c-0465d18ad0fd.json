@@ -11,9 +11,10 @@
   },
   "dct:publisher": "BLW-OFAG-UFAG-FOAG",
   "dcat:contactPoint": {
-    "schema:name": "Fachbereich Agrarinformationssysteme",
+    "schema:name": "Gruppe Agrarinformationssystem AGIS",
     "schema:email": "agis@blw.admin.ch"
   },
+  "dct:issued": "1997-01-02",
   "dcat:keyword": [
     "AGIS",
     "agriculture",
@@ -35,11 +36,12 @@
       "dcat:hadRole": "dataSteward"
     }
   ],
-  "adms:status": "workInProgress",
-  "bv:classification": "internal",
+  "adms:status": "published",
+  "bv:classification": "none",
   "bv:personalData": "personalData",
   "bv:archivalValue": false,
   "dcat:theme": [
     "agriculture"
-  ]
+  ],
+  "dcat:landingPage": "https://www.blw.admin.ch/de/anwendung-agis"
 }
