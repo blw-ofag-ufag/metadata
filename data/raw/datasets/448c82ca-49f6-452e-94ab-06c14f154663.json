@@ -35,7 +35,7 @@
     }
   ],
   "adms:status": "workInProgress",
-  "bv:classification": "confidential",
+  "bv:classification": "none",
   "bv:personalData": "personalData",
   "bv:typeOfData": "primaryThematicData",
   "bv:archivalValue": true,

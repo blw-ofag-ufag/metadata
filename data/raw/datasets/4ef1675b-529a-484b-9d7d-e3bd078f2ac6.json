@@ -30,7 +30,7 @@
     "adms:status": "workInProgress",
     "dct:accessRights": "CONFIDENTIAL",
     "dcatap:availability": "EXPERIMENTAL",
-    "bv:classification": "internal",
+    "bv:classification": "none",
     "bv:personalData": "sensitivePersonalData",
     "bv:typeOfData": "secondaryThematicData",
     "dct:publisher": "BLW-OFAG-UFAG-FOAG",
