@@ -2030,7 +2030,7 @@
         "dct:issued": "01-02-1999",
         "dct:accrualPeriodicity": "ANNUAL",
         "adms:status": "published",
-        "bv:classification": "internal",
+        "bv:classification": "none",
         "bv:personalData": "personalData",
         "dcat:theme": [
             "agriculture"
@@ -2039,7 +2039,7 @@
         "dataOwner": "p-8757693",
         "schemaViolations": 0,
         "schemaViolationMessages": [],
-        "quality": 2489.0
+        "quality": 2485.0
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -4398,7 +4398,7 @@
         "adms:status": "workInProgress",
         "dct:accessRights": "CONFIDENTIAL",
         "dcatap:availability": "EXPERIMENTAL",
-        "bv:classification": "internal",
+        "bv:classification": "none",
         "bv:personalData": "sensitivePersonalData",
         "bv:typeOfData": "secondaryThematicData",
         "dct:publisher": "BLW-OFAG-UFAG-FOAG",
@@ -4432,7 +4432,7 @@
             "'Dati svizzeri sulle ispezioni aziendali: risultati di conformità e indicatori strutturali delle aziende agricole' does not match '^[a-zA-Z0-9_\\\\-\\\\s\\\\(\\\\)\\\\.\\\\,\\\\:\\\\/\\\\u00A0-\\\\u017F\\\\\\'\\\\\"\\\\?\\\\!\\\\%\\\\&\\\\+\\\\@]{10,100}$'",
             "'' is not of type 'array', 'null'"
         ],
-        "quality": 1484.75
+        "quality": 1483.75
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -10305,7 +10305,7 @@
             "operational-data"
         ],
         "adms:status": "published",
-        "bv:classification": "internal",
+        "bv:classification": "none",
         "bv:personalData": "personalData",
         "dcat:theme": [
             "agriculture"
@@ -10316,7 +10316,7 @@
         "schemaViolationMessages": [
             "\"Inscriptions aux programmes de paiements directs, aux PER, à l'utilisation fourragère NPR et aux organes de contrôle\" does not match '^[a-zA-Z0-9_\\\\-\\\\s\\\\(\\\\)\\\\.\\\\,\\\\:\\\\/\\\\u00A0-\\\\u017F\\\\\\'\\\\\"\\\\?\\\\!\\\\%\\\\&\\\\+\\\\@]{10,100}$'"
         ],
-        "quality": 944.0
+        "quality": 942.0
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -10677,7 +10677,7 @@
         ],
         "dct:accrualPeriodicity": "DAILY",
         "adms:status": "workInProgress",
-        "bv:classification": "confidential",
+        "bv:classification": "none",
         "bv:personalData": "personalData",
         "bv:typeOfData": "primaryThematicData",
         "bv:archivalValue": true,
@@ -10694,7 +10694,7 @@
             "'fr' is a required property",
             "'fr' is a required property"
         ],
-        "quality": 634.3333333333334
+        "quality": 631.6666666666666
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -10720,7 +10720,7 @@
         ],
         "dct:accrualPeriodicity": "DAILY",
         "adms:status": "workInProgress",
-        "bv:classification": "confidential",
+        "bv:classification": "none",
         "bv:personalData": "personalData",
         "bv:typeOfData": "primaryThematicData",
         "bv:archivalValue": true,
@@ -10736,7 +10736,7 @@
             "'fr' is a required property",
             "'fr' is a required property"
         ],
-        "quality": 627.6666666666666
+        "quality": 625.0
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -10763,7 +10763,7 @@
         ],
         "dct:accrualPeriodicity": "DAILY",
         "adms:status": "workInProgress",
-        "bv:classification": "confidential",
+        "bv:classification": "none",
         "bv:personalData": "personalData",
         "bv:typeOfData": "primaryThematicData",
         "bv:archivalValue": true,
@@ -10779,7 +10779,7 @@
             "'fr' is a required property",
             "'fr' is a required property"
         ],
-        "quality": 536.6666666666666
+        "quality": 534.0
     },
     {
         "rdf:type": "dcat:Dataset",
