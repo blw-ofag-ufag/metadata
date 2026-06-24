@@ -1,0 +1,44 @@
+{
+  "dct:identifier": "48aa4506-40b7-490b-9a7e-2c3a207081f9",
+  "schema:image": "https://v3b.fal.media/files/b/0a8b034d/dfGG6qc1IaFrT-YZjsXbT.jpg",
+  "dct:title": {
+    "de": "Kontrollgrunddaten"
+  },
+  "dct:description": {
+    "de": "Dieser Datensatz umfasst die administrativen Metadaten eines Kontrollereignisses, die zur eindeutigen Identifizierung und Einordnung der Kontrolle selbst dienen. Dazu zählen der kontrollierte Betrieb, der grobe Kontrollinhalt (eine oder mehrere Kontrollrubriken), das Kontrolldatum, die Kontrollstelle (also die ausführende Organisation) sowie optional die Kontrolleurin oder der Kontrolleur. Inhaltlich wird die Kontrolle durch den Kontrollgrund (Grundkontrolle, Verdacht, Nachkontrolle, Zwischenkontrolle/Risikokontrolle, Laboranalysen, Andere) sowie die Kontrollart (angemeldet/unangemeldet) klassifiziert und kann durch generelle Bemerkungen erläutert werden. Der Kontrollstatus gibt den Status der Erfassung der Ergebnisse und Massnahmen an."
+  },
+  "dct:accessRights": "NON_PUBLIC",
+  "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+  "dct:issued": "2009-01-01",
+  "dcat:contactPoint": {
+    "schema:name": "Fachbereich Direktzahlungsgrundlagen",
+    "schema:email": "acontrol@blw.admin.ch"
+  },
+  "dcat:keyword": [
+    "Acontrol",
+    "controls",
+    "farm"
+  ],
+  "dct:accrualPeriodicity": "DAILY",
+  "prov:qualifiedAttribution": [
+    {
+      "prov:agent": "p-8397553",
+      "dcat:hadRole": "dataOwner"
+    },
+    {
+      "prov:agent": "p-5495195",
+      "dcat:hadRole": "dataSteward"
+    }
+  ],
+  "adms:status": "workInProgress",
+  "bv:classification": "confidential",
+  "bv:personalData": "personalData",
+  "bv:typeOfData": "primaryThematicData",
+  "bv:archivalValue": true,
+  "dcat:theme": [
+    "administration",
+    "agriculture"
+  ],
+  "dcat:landingPage": "https://www.blw.admin.ch/de/anwendung-acontrol",
+  "dct:spatial": "Switzerland"
+}

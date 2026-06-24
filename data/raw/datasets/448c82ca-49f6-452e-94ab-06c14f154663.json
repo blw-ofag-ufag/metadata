@@ -1,0 +1,49 @@
+{
+  "dct:identifier": "448c82ca-49f6-452e-94ab-06c14f154663",
+  "schema:image": "https://v3b.fal.media/files/b/0a8b034d/dfGG6qc1IaFrT-YZjsXbT.jpg",
+  "dct:title": {
+    "de": "Daten über Verwaltungsmassnahmen und strafrechtliche Sanktionen"
+  },
+  "dct:description": {
+    "de": "Dokumentation der durch die zuständige Vollzugsstelle ergriffenen Folgemassnahmen basierend auf festgestellten Mängeln. Der Datensatz differenziert zwischen direktzahlungsrelevanten Kürzungen (in CHF oder Punkten) und weiteren administrativen oder strafrechtlichen Anordnungen. Dieser Katalog umfasst Massnahmentypen wie Tierhalteverbote, Beschlagnahmungen, Sperren, Bewilligungsentzüge sowie die Einleitung von Strafverfahren oder die Verfügung von Bussen."
+  },
+  "dct:accessRights": "NON_PUBLIC",
+  "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+  "dct:issued": "2009-01-01",
+  "dcat:contactPoint": {
+    "schema:name": "Fachbereich Direktzahlungsgrundlagen",
+    "schema:email": "acontrol@blw.admin.ch"
+  },
+  "dcat:keyword": [
+    "Acontrol",
+    "controls",
+    "farm"
+  ],
+  "dct:accrualPeriodicity": "DAILY",
+  "prov:qualifiedAttribution": [
+    {
+      "prov:agent": "p-8397553",
+      "dcat:hadRole": "dataOwner"
+    },
+    {
+      "prov:agent": "p-5495195",
+      "dcat:hadRole": "dataSteward"
+    },
+    {
+      "prov:agent": "p-1142659",
+      "dcat:hadRole": "dataSteward"
+    }
+  ],
+  "adms:status": "workInProgress",
+  "bv:classification": "confidential",
+  "bv:personalData": "personalData",
+  "bv:typeOfData": "primaryThematicData",
+  "bv:archivalValue": true,
+  "dcat:theme": [
+    "administration",
+    "agriculture"
+  ],
+  "dcat:landingPage": "https://www.blw.admin.ch/de/anwendung-acontrol",
+  "dct:spatial": "Switzerland",
+  "schema:comment": "Einordnung nach Datenschutzgesetz wurde von BLW/BLV 2025 geprüft und von \"besonders schützenswerte Personendaten\" auf \"Personendaten\" zurückgestuft."
+}

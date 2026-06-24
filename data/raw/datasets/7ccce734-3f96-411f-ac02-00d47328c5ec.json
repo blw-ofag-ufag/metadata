@@ -5,7 +5,7 @@
     "fr": "Effectifs d'animaux par catégorie et par exploitation",
     "it": "Effettivi di animali per categoria e azienda",
     "en": "Livestock numbers per animal category and farm"
-  },
+},
   "dct:description": {
     "de": "Umfasst die detaillierten Tierbestände pro Tierkategorie am Stichtag sowie den durchschnittlichen Bestand des Vorjahres. Für Rinder, Schafe, Ziegen und Equiden erfolgt der Abgleich über die TVD-Nummer, während andere Kategorien (z. B. Geflügel) direkt über kantonale Erhebungen gemeldet werden. Die Daten sind Teil der Strukturdatenerhebung.",
     "fr": "Comprend les effectifs détaillés par catégorie d'animaux à la date de référence ainsi que l'effectif moyen de l'année précédente. Pour les bovins, les moutons, les chèvres et les équidés, la comparaison s'effectue à l'aide du numéro BDTA, tandis que les autres catégories (p. ex. la volaille) sont déclarées directement via les relevés cantonaux. Les données font partie du relevé des données structurelles."
@@ -16,13 +16,13 @@
     "schema:email": "agis@blw.admin.ch"
   },
   "dct:issued": "1997-01-02",
+  "dct:accrualPeriodicity": "ANNUAL",
   "dcat:keyword": [
     "AGIS",
     "animals",
     "structural-data",
     "TVD"
   ],
-  "dct:accrualPeriodicity": "ANNUAL",
   "prov:qualifiedAttribution": [
     {
       "prov:agent": "p-8757693",

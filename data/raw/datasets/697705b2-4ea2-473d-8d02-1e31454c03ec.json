@@ -5,7 +5,7 @@
     "fr": "Données sur les surfaces et les cultures",
     "it": "Dati sulle superfici e sulle colture",
     "en": "Area and crop data"
-  },
+},
   "dct:description": {
     "de": "Kernbestandteil der Strukturdaten, der sämtliche landwirtschaftlichen Nutzflächen mit Hauptkulturen und Nutzungstyp (z. B. Biodiversitätsförderflächen) klassifiziert. Beinhaltet auch spezifische Attribute für Programmanmeldungen der Flächen, Hanglagen, oder Vernetzungsprojekte.",
     "fr": "Élément central des données structurelles, qui classe toutes les surfaces agricoles utiles avec les cultures principales et le type d'utilisation (p. ex. surfaces de promotion de la biodiversité). Comprend également des attributs spécifiques pour les inscriptions au programme des surfaces, les terrains en pente ou les projets de mise en réseau."

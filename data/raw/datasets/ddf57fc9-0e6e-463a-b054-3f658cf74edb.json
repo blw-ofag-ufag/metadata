@@ -10,6 +10,7 @@
   },
   "dct:publisher": "BLW-OFAG-UFAG-FOAG",
   "dct:accrualPeriodicity": "ANNUAL",
+  "dct:issued": "2025-01-02",
   "prov:qualifiedAttribution": [
     {
       "prov:agent": "p-3606006",
@@ -39,6 +40,7 @@
       "dct:identifier": "4c1220bc-7516-405c-badc-8785b7d5f369",
       "adms:status": "archived",
       "dct:format": "rda",
+      "dcat:accessURL": "M:\\Org\\BLW_3210_INTERN\\R\\RTables\\SAP_20251001.rda",
       "dcat:downloadURL": "M:\\Org\\BLW_3210_INTERN\\R\\RTables\\SAP_20251001.rda",
       "dct:title": {
         "de": "Gesamtliste der Zollansätze",

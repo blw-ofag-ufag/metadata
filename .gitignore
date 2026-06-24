@@ -19,3 +19,6 @@ testzone/
 *.sqlite
 data/qa.db
 venv/
+dashboard/data_snapshot.json
+dashboard/data_summary.json
+dashboard/data_details.json

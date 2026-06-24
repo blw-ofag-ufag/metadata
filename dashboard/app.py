@@ -86,39 +86,51 @@ def get_localized_text(data, lang_code: str) -> str:
     return data.get(lang_code) or data.get("de") or next(iter(data.values()), "N/A")
 
 # ==============================================================================
-# 3. DATA LOADING (JSON MODE)
+# 3. DATA LOADING (LAZY & OPTIMIZED)
 # ==============================================================================
 
 @st.cache_data(ttl=600)
-def load_data():
+def load_summary_data():
     """
-    Loads data from the static JSON snapshot instead of SQL.
+    EAGER LOAD: Loads immediately on startup.
+    Contains ONLY what is needed for the main table (ID, Title, Score).
     """
-    # Try to locate the file (it might be in current dir or dashboard dir)
-    json_path = "data_snapshot.json"
+    json_path = "data_summary.json"
     if not os.path.exists(json_path):
-        # Fallback if running locally from root
-        json_path = os.path.join(os.path.dirname(__file__), "data_snapshot.json")
+        json_path = os.path.join(os.path.dirname(__file__), "data_summary.json")
 
     if not os.path.exists(json_path):
         return pd.DataFrame()
 
     try:
-        # Load JSON directly into Pandas
-        df = pd.read_json(json_path)
-        
-        # Ensure 'distributions' is always a list (handle NaNs if JSON was weird)
-        if 'distributions' in df.columns:
-            df['distributions'] = df['distributions'].apply(
-                lambda x: x if isinstance(x, list) else []
-            )
-        else:
-            df['distributions'] = [[] for _ in range(len(df))]
-
-        return df
+        return pd.read_json(json_path)
     except Exception as e:
-        st.error(f"Error loading JSON snapshot: {e}")
+        st.error(f"Error loading summary data: {e}")
         return pd.DataFrame()
+
+@st.cache_data(ttl=600)
+def load_all_details_cached():
+    """
+    LAZY LOAD: loads the ENTIRE details map into memory ONCE.
+    We cache this function so subsequent lookups are instant.
+    """
+    json_path = "data_details.json"
+    if not os.path.exists(json_path):
+        json_path = os.path.join(os.path.dirname(__file__), "data_details.json")
+
+    try:
+        with open(json_path, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except Exception as e:
+        st.error(f"Error loading details file: {e}")
+        return {}
+
+def get_dataset_details(dataset_id: str):
+    """
+    Accessor function that calls the cached loader.
+    """
+    all_details = load_all_details_cached()
+    return all_details.get(dataset_id, None)
 
 # ==============================================================================
 # 4. UI LOGIC
@@ -146,11 +158,14 @@ S_TXT = {"de": {"ph": "Filter...", "clear": "X"}, "en": {"ph": "Filter...", "cle
 with col_header:
     st.title(T["app_title"])
 
-df = load_data()
+# LOAD SUMMARY (Fast)
+df = load_summary_data()
+
 if df.empty:
-    st.warning("⚠️ No data loaded. Please ensure 'data_snapshot.json' is generated.")
+    st.warning("⚠️ No data loaded. Please ensure 'data_summary.json' is generated.")
     st.stop()
 
+# Compute display title for the summary table
 df['display_title'] = df['title'].apply(lambda x: get_localized_text(x, lang_code))
 filtered_df = df
 
@@ -367,7 +382,16 @@ elif st.session_state.active_tab_index == 1:
         selected_id = st.selectbox(T["inspector_select"], options=dataset_map.keys(), format_func=lambda x: dataset_map[x], key="inspector_dataset_selector")
 
         if selected_id:
-            record = filtered_df[filtered_df['id'] == selected_id].iloc[0]
+            # --- LAZY LOAD: FETCH DETAILS ---
+            with st.spinner(T.get("loading_details", "Loading details...")):
+                record = get_dataset_details(selected_id)
+            
+            if not record:
+                st.error("Could not load details for this dataset.")
+                st.stop()
+            
+            
+            record['display_title'] = get_localized_text(record.get('title'), lang_code)
             
             st.divider()
             st.markdown(f"### {record['display_title']}")
@@ -399,7 +423,7 @@ elif st.session_state.active_tab_index == 1:
                     col.caption(f"**{label}**")
                     col.markdown(f"{val:.0f} pts")
 
-            has_violations = record['schema_violations_count'] > 0
+            has_violations = record.get('schema_violations_count', 0) > 0
             with st.expander(f"🚨 {T['sec_schema_violations']}", expanded=has_violations):
                 if has_violations:
                     for msg in record.get('schema_violation_messages', []):
@@ -500,7 +524,7 @@ elif st.session_state.active_tab_index == 1:
                         render_quality_card(T["msg_info_title"], T["msg_no_sug_body"], "info")
 
             with st.expander(T["inspector_raw"]):
-                raw_view = record.to_dict()
+                raw_view = record.copy()
                 if 'display_title' in raw_view: del raw_view['display_title']
                 st.json(raw_view)
 

@@ -305,6 +305,18 @@
     "it": "HODUFLU",
     "en": "HODUFLU"
   },
+  "identifier": {
+    "de": "Identifikator",
+    "fr": "Identificateur",
+    "it": "Identificatore",
+    "en": "Identifier"
+  },
+  "inspection-point": {
+    "de": "Kontrollpunkt",
+    "fr": "Point de contrôle",
+    "it": "Punto di controllo",
+    "en": "Inspection point"
+  },
   "knowledge-graph": {
     "de": "Wissensgraph",
     "fr": "Graphe de connaissances",
@@ -359,12 +371,6 @@
     "it": "Carne",
     "en": "Meat"
   },
-  "meine-agrardaten-freigabe": {
-    "de": "Meine Agrardatenfreigabe",
-    "fr": "Mes données agricoles (Autorisation)",
-    "it": "I miei dati agricoli (Autorizzazione)",
-    "en": "My agricultural data release"
-  },
   "meteorology": {
     "de": "Meteorologie",
     "fr": "Météorologie",
@@ -408,10 +414,10 @@
     "en": "Nutrient content"
   },
   "official-geodata": {
-    "de": "Amtliche Geodaten",
-    "fr": "Géodonnées officielles",
-    "it": "Geodati ufficiali",
-    "en": "Official geodata"
+    "de": "Geodaten",
+    "fr": "Données géographiques",
+    "it": "Dati geografici",
+    "en": "Geodata"
   },
   "operational-data": {
     "de": "Betriebsdaten",
@@ -592,12 +598,6 @@
     "fr": "Services d'utilité publique et administratifs",
     "it": "Servizi di pubblica utilità e amministrativi",
     "en": "Utility and governmental services"
-  },
-  "vineyard-zone": {
-    "de": "Rebbauzone",
-    "fr": "Zone viticole",
-    "it": "Zona viticola",
-    "en": "Vineyard zone"
   },
   "vineyards": {
     "de": "Rebflächen",

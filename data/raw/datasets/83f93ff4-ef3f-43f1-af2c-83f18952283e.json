@@ -73,7 +73,7 @@
     "dcat:distribution": [
         {
             "dct:identifier": "bdd9a81c-c3f0-4696-8cb7-594bbf4e972e",
-            "dcat:accessURL": "https://github.com/blw-ofag-ufag/system-map/blob/main/rdf/data.ttl",
+            "dcat:accessURL": "https://github.com/blw-ofag-ufag/system-map/blob/main/rdf/data/data.ttl",
             "adms:status": "workInProgress",
             "dct:modified": "2026-01-09",
             "dct:conformsTo": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
@@ -82,7 +82,7 @@
             "dct:rights": "https://creativecommons.org/licenses/by/4.0/",
             "dcat:mediaType": "text/turtle",
             "dcat:byteSize": 0,
-            "dcat:downloadURL": "https://raw.githubusercontent.com/blw-ofag-ufag/system-map/refs/heads/main/rdf/data.ttl",
+            "dcat:downloadURL": "https://raw.githubusercontent.com/blw-ofag-ufag/system-map/refs/heads/main/rdf/data/data.ttl",
             "dct:title": {
                 "de": "RDF-Graph-File",
                 "fr": "Fichier de graphe RDF",

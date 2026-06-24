@@ -31,17 +31,10 @@ jobs:
       - name: Run Quality Audit
         run: python -m src.audit
 
-      - name: Commit Snapshot to Main
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add dashboard/data_snapshot.json
-          git commit -m "Auto: Update dashboard snapshot" || echo "No changes to commit"
-          git push
-
       # Deploy the dashboard folder to the website
       - name: Deploy Dashboard to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: dashboard
           branch: gh-pages
+          clean: true

@@ -1,0 +1,49 @@
+{
+  "dct:identifier": "1dd28b58-345e-4aac-b2fe-634a876c51e5",
+  "schema:image": "https://v3b.fal.media/files/b/0a8b034d/dfGG6qc1IaFrT-YZjsXbT.jpg",
+  "dct:title": {
+    "de": "Kontrollergebnisse"
+  },
+  "dct:description": {
+    "de": "Systematische Erfassung der Prüfbefunde einer jeweiligen Kontrolle. Der Datensatz dokumentiert primär Abweichungen in Form von Mängeln unter Angabe von Schweregrad, Umfang und Wiederholung. Ergänzend können Status \"Nicht kontrolliert\" oder \"Nicht zutreffend\" ausgewiesen werden. Nicht explizit aufgeführte Kontrollpunkte gelten implizit als \"ohne Mangel\" geprüft."
+  },
+  "dct:accessRights": "NON_PUBLIC",
+  "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+  "dct:issued": "2009-01-01",
+  "dcat:contactPoint": {
+    "schema:name": "Fachbereich Direktzahlungsgrundlagen",
+    "schema:email": "acontrol@blw.admin.ch"
+  },
+  "dcat:keyword": [
+    "Acontrol",
+    "controls",
+    "identifier",
+    "farm"
+  ],
+  "dct:accrualPeriodicity": "DAILY",
+  "prov:qualifiedAttribution": [
+    {
+      "prov:agent": "p-8397553",
+      "dcat:hadRole": "dataOwner"
+    },
+    {
+      "prov:agent": "p-5495195",
+      "dcat:hadRole": "dataSteward"
+    },
+    {
+      "prov:agent": "p-1142659",
+      "dcat:hadRole": "dataSteward"
+    }
+  ],
+  "adms:status": "workInProgress",
+  "bv:classification": "confidential",
+  "bv:personalData": "personalData",
+  "bv:typeOfData": "primaryThematicData",
+  "bv:archivalValue": true,
+  "dcat:theme": [
+    "administration",
+    "agriculture"
+  ],
+  "dcat:landingPage": "https://www.blw.admin.ch/de/anwendung-acontrol",
+  "dct:spatial": "Switzerland"
+}

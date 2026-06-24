@@ -9,6 +9,7 @@
     "fr": "Statistiques détaillées du commerce extérieur agricole suisse pour la période de 1995 à 2024. Le jeu de données contient des données d'importation et d'exportation au niveau des clés statistiques (détail des marchandises) et est ventilé par régime douanier (type de dédouanement). Cette granularité permet des analyses précises des flux de marchandises agricoles transfrontaliers."
   },
   "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+  "dct:issued": "1995-01-02",
   "dct:accrualPeriodicity": "ANNUAL",
   "prov:qualifiedAttribution": [
     {
@@ -41,6 +42,7 @@
       "adms:status": "archived",
       "dct:format": "rda",
       "dcat:downloadURL": "M:\\Org\\BLW_3210_INTERN\\R\\RTables\\TN400_401_M_m.rda",
+      "dcat:accessURL": "M:\\Org\\BLW_3210_INTERN\\R\\RTables\\TN400_401_M_m.rda",
       "dct:title": {
         "de": "Importstatistiken",
         "fr": "Statistiques à l'import"
@@ -55,6 +57,7 @@
       "adms:status": "archived",
       "dct:format": "rda",
       "dcat:downloadURL": "M:\\Org\\BLW_3210_INTERN\\R\\RTables\\TN400_401_X_m.rda",
+      "dct:accessURL": "M:\\Org\\BLW_3210_INTERN\\R\\RTables\\TN400_401_X_m.rda",
       "dct:title": {
         "de": "Exportstatistiken",
         "fr": "Statistiques à l'export"
