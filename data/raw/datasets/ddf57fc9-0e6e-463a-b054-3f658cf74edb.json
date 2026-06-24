@@ -29,7 +29,7 @@
     }
   ],
   "adms:status": "archived",
-  "bv:classification": "internal",
+  "bv:classification": "none",
   "bv:personalData": "none",
   "dcat:theme": [
     "trade"

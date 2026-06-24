@@ -29,7 +29,7 @@
     }
   ],
   "adms:status": "archived",
-  "bv:classification": "internal",
+  "bv:classification": "none",
   "bv:personalData": "personalData",
   "bv:archivalValue": false,
   "dcat:theme": [
@@ -49,7 +49,7 @@
         "de": "4'121'326 Zeilen × 13 Spalten.\nHinweis: Dateien für das BLW nur auf Anfrage zugänglich.",
         "fr": "4,121,326 lignes × 13 colonnes. \nNote: Fichiers accessibles pour l’OFAG sur demande d'accès au disque."
       }
-    },  
+    },
     {
       "dct:identifier": "f47de445-fbef-4a3e-9172-f96f5a1b00a7",
       "adms:status": "archived",
