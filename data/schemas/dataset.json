@@ -689,6 +689,13 @@
                             "type": "string"
                         },
                         "description": "Reference to data services used to provide access to the data."
+                    },
+                    "bv:dimensions": {
+                        "title": "Distribution dimensions",
+                        "description": "Dimensions used in the distribution. A list of valid dimensions is here: https://raw.githubusercontent.com/blw-ofag-ufag/metadata/refs/heads/main/data/schemas/dimensions.json",
+                        "type": ["array", "null"],
+                        "uniqueItems": true,
+                        "items": {"string"}
                     }
                 }
             }
@@ -748,7 +755,12 @@
                 "bv:mustBePublished": true,
                 "dct:identifier": "i14y-456",
                 "dcat:accessURL": "https://i14y.ch/dataset/i14y-456"
-            }
+            },
+            "bv:dimensions": [
+                "canton",
+                "year",
+                "contributionType"
+            ]
         }
     ]
 }
