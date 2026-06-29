@@ -695,7 +695,7 @@
                         "description": "Dimensions used in the distribution. A list of valid dimensions is here: https://raw.githubusercontent.com/blw-ofag-ufag/metadata/refs/heads/main/data/schemas/dimensions.json",
                         "type": ["array", "null"],
                         "uniqueItems": true,
-                        "items": {"string"}
+                        "items": "string"
                     }
                 }
             }
