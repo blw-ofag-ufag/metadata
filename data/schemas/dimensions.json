@@ -5,38 +5,33 @@
     "it": "Acontrol",
     "en": "Year"
   },
-  {
   "contributionType": {
     "de": "Beitragsart",
     "fr": "Type de contribution",
     "it": "Tipo di contributi",
     "en": "contribution type"
   },
-  {
   "canton": {
     "de": "Kanton",
     "fr": "Canton",
     "it": "Cantone",
     "en": "canton"
   },
-  {
   "zone": {
     "de": "Zone",
     "fr": "Zone",
     "it": "Acontrol",
     "en": "zone"
   },
-  {
   "contribution": {
     "de": "Beitrag",
     "fr": "Contribution",
     "it": "Contributi",
     "en": "contribution"
   },
-  {
   "company": {
     "de": "Betriebe",
     "fr": "Exploitations",
     "it": "Aziende",
     "en": "enterprises"
-  }
+  }}
