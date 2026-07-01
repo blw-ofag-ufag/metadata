@@ -10655,6 +10655,38 @@
     },
     {
         "rdf:type": "dcat:Dataset",
+        "dct:identifier": "d5c10a66-2fc2-42d3-88f7-7c7bc617e808",
+        "dct:title": {
+            "de": "test_2026-07-01",
+            "fr": "test_2026-07-01"
+        },
+        "dct:description": {
+            "de": "Test Datensatz zur Prüfung der Issues\n- 264: dct:issued und dcatap:availability nicht gespeichert.\n- 259: dct:issued mismatch between entryform and datacatalog.\n- 238: enter dates manually\n- 224: date pickers are not localized\n\nWie getestet: Eintrag erstellt. Vergleich von\n- zur Verfügung gestellten Json-Files, \n- auf Github gepushten Files \n- aus dem Katalog herunterladbaren Files.",
+            "fr": "Test Datensatz zur Prüfung der Issues\n- 264: dct:issued und dcatap:availability nicht gespeichert.\n- 259: dct:issued mismatch between entryform and datacatalog.\n- 238: enter dates manually\n- 224: date pickers are not localized\n\nWie getestet: Eintrag erstellt. Vergleich von\n- zur Verfügung gestellten Json-Files, \n- auf Github gepushten Files \n- aus dem Katalog herunterladbaren Files."
+        },
+        "dct:accessRights": "PUBLIC",
+        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+        "dcat:keyword": [
+            "AGIS"
+        ],
+        "adms:status": "workInProgress",
+        "bv:classification": "none",
+        "bv:personalData": "none",
+        "bv:archivalValue": false,
+        "dcat:theme": [
+            "administration",
+            "agriculture",
+            "crime"
+        ],
+        "dataOwner": "p-1ZLWBXSJD",
+        "schemaViolations": 1,
+        "schemaViolationMessages": [
+            "'dct:issued' is a required property"
+        ],
+        "quality": 750.0
+    },
+    {
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "448c82ca-49f6-452e-94ab-06c14f154663",
         "schema:image": "https://v3b.fal.media/files/b/0a8b034d/dfGG6qc1IaFrT-YZjsXbT.jpg",
         "dct:title": {
