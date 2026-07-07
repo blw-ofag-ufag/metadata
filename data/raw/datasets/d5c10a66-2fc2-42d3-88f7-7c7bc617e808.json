@@ -10,9 +10,14 @@
   },
   "dct:accessRights": "PUBLIC",
   "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+  "dct:issued": "2026-07-06",
+  "dcatap:availability": "EXPERIMENTAL",
   "dcat:keyword": [
     "AGIS"
   ],
+  "dct:accrualPeriodicity": "HOURLY",
+  "dct:modified": "2026-07-07",
+  "dcat:version": "0.1",
   "prov:qualifiedAttribution": [
     {
       "prov:agent": "p-1ZLWBXSJD",
@@ -26,6 +31,7 @@
   "adms:status": "workInProgress",
   "bv:classification": "none",
   "bv:personalData": "none",
+  "bv:typeOfData": "referenceData",
   "bv:archivalValue": false,
   "dcat:theme": [
     "administration",
