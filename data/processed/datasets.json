@@ -2,7 +2,7 @@
     {
         "rdf:type": "dcat:Dataset",
         "dct:identifier": "bede7799-1552-43ea-be5b-7cd30a8f61cb",
-        "schema:image": "https://github.com/blw-ofag-ufag/data-catalog/blob/develop/src/assets/pics/K%C3%BCrzungS%C3%B6mmerungsbetriebe.jpg",
+        "schema:image": "https://fal.media/files/kangaroo/MplSG_GNu6ZmK7BwV-Wna_62809d3f79334984b197c233f6abdc49.jpg",
         "dct:title": {
             "de": "Kürzungen der Direktzahlungen bei Sömmerungsbetrieben",
             "fr": "Réductions des paiements directs dans les exploitations d'estivage",
@@ -570,7 +570,7 @@
     {
         "rdf:type": "dcat:Dataset",
         "dct:identifier": "19111589-d41f-4f42-b397-b8318dfb13fd",
-        "schema:image": "https://github.com/blw-ofag-ufag/data-catalog/blob/develop/src/assets/pics/Pflanzensorten.jpg",
+        "schema:image": "https://fal.media/files/rabbit/b-j9zxhlLzInwz4JQyCFU_b4014cdc2ebc4f92b293153dc4917f95.jpg",
         "dct:title": {
             "de": "Pflanzensorten in der Schweiz",
             "fr": "Variétés végétales en Suisse",
@@ -647,7 +647,7 @@
     {
         "rdf:type": "dcat:Dataset",
         "dct:identifier": "82fcca67-633d-431d-853d-1bf765a70bc6",
-        "schema:image": "https://github.com/blw-ofag-ufag/data-catalog/blob/develop/src/assets/pics/Produktfunktionskategorien_PFC.jpg",
+        "schema:image": "https://fal.media/files/rabbit/vACOEgJZbcpfArdQzROcX_351aa26ba9134232bdc01f867502e0ef.jpg",
         "dct:title": {
             "de": "Produktfunktionskategorien (PFC) gemäss Düngerverordnung (DüV)",
             "fr": "Catégories fonctionnelles de produits (PFC) selon l'ordonnance sur les engrais (OEng)",
@@ -741,7 +741,7 @@
     {
         "rdf:type": "dcat:Dataset",
         "dct:identifier": "4624b7bf-40c4-4249-b25a-98ce06ffa280",
-        "schema:image": "https://github.com/blw-ofag-ufag/data-catalog/blob/develop/src/assets/pics/direktzahlungsprogramme.jpg",
+        "schema:image": "https://fal.media/files/tiger/2-oCnTh1G440xQ9bVIC1s_0d28c78524fa45969b3ada26e2ef3cac.jpg",
         "dct:title": {
             "de": "Direktzahlungsprogramme",
             "fr": "Programme de paiements directs",
@@ -836,7 +836,7 @@
     {
         "rdf:type": "dcat:Dataset",
         "dct:identifier": "b7f151dc-8a3d-4d52-912b-6074be50fd70",
-        "schema:image": "https://github.com/blw-ofag-ufag/data-catalog/blob/develop/src/assets/pics/direktzahlungsprogramme.jpg",
+        "schema:image": "https://fal.media/files/koala/0iew8qQY5t1OOcbFH10v-_c45b7b211f2c45e09e8452b0f267702c.jpg",
         "dct:title": {
             "de": "Direktzahlungskultur bzw. Hauptkulturen",
             "fr": "Culture de paiement direct ou cultures principales",
@@ -932,7 +932,7 @@
     {
         "rdf:type": "dcat:Dataset",
         "dct:identifier": "aa213bfe-c355-4c8e-a487-924b29d97e01",
-        "schema:image": "https://github.com/blw-ofag-ufag/data-catalog/blob/develop/src/assets/pics/aquakulturen.jpg",
+        "schema:image": "https://fal.media/files/rabbit/EQO73x5P4yvE-rYSETyKl_6b81f3608c454cb8bd567ad92ad57918.jpg",
         "dct:title": {
             "de": "Codes für Aquakultur-Betriebe",
             "fr": "Codes pour les exploitations aquacoles",
@@ -1024,7 +1024,7 @@
     {
         "rdf:type": "dcat:Dataset",
         "dct:identifier": "d7b805b5-9b14-42ba-bfba-7a41957ad656",
-        "schema:image": "https://github.com/blw-ofag-ufag/data-catalog/blob/develop/src/assets/pics/%C3%96kologischerLeistungsnachweis.jpg",
+        "schema:image": "https://fal.media/files/zebra/y_XJLvvdT7RGe2r7JD1eU_dec3c28e5ffd4d0593d39402df83cad8.jpg",
         "dct:title": {
             "de": "Kontrollen auf Ganzjahresbetrieben im Bereich Ökologischer Leistungsnachweis",
             "fr": "Contrôles dans les exploitations à l'année dans le domaine PER",
@@ -1905,7 +1905,7 @@
     {
         "rdf:type": "dcat:Dataset",
         "dct:identifier": "7079407c-c5df-430c-b6bf-75f9216c46b3",
-        "schema:image": "https://github.com/blw-ofag-ufag/data-catalog/blob/develop/src/assets/pics/fl%C3%A4chenangaben.jpg",
+        "schema:image": "https://fal.media/files/kangaroo/zC34KxmLbmI4fsz9Cit2k_7a22cfc79d1d47c88ffd23ca3e4d99a0.jpg",
         "dct:title": {
             "de": "Flächenangaben zu Vernetzungsflächen auf einem Betrieb in der Schweizer Landwirtschaft",
             "fr": "Indications de superficie pour les surfaces de mise en réseau sur une exploitation agricole suisse",
@@ -2044,9 +2044,9 @@
     {
         "rdf:type": "dcat:Dataset",
         "dct:identifier": "e4b1f944-2f1a-433e-bcd4-7f88028800c8",
-        "schema:image": "https://github.com/blw-ofag-ufag/data-catalog/blob/develop/src/assets/pics/Rebfl%C3%A4chen.jpg",
+        "schema:image": "https://fal.media/files/rabbit/AV3NeebdflBNBMy5B0LGy_ef0855c80cb24d24828892ac5c308d61.jpg",
         "dct:title": {
-            "de": "Flächenangaben zu Rebflächen in Hanglagen auf einem Betrieb in der Schweizer Landwirtschaft",
+            "de": "Flächenangaben zu Rebfächen in Hanglagen auf einem Betrieb in der Schweizer Landwirtschaft",
             "fr": "Indications de surface pour les vignobles en pente sur une exploitation agricole suisse",
             "it": "Dati sulle superfici di vigneti in pendenza in un'azienda agricola svizzera",
             "en": "Information on the area of vineyards on slopes on a Swiss agricultural holding"
@@ -2146,7 +2146,7 @@
     {
         "rdf:type": "dcat:Dataset",
         "dct:identifier": "f2d347f7-7782-4411-b99e-666e67b6c652",
-        "schema:image": "https://github.com/blw-ofag-ufag/data-catalog/blob/develop/src/assets/pics/fl%C3%A4chenangaben.jpg",
+        "schema:image": "https://fal.media/files/koala/0iew8qQY5t1OOcbFH10v-_c45b7b211f2c45e09e8452b0f267702c.jpg",
         "dct:title": {
             "de": "Flächenangaben zu Hauptkulturen auf einem Betrieb in der Schweizer Landwirtschaft",
             "fr": "Données sur les surfaces des principales cultures dans une exploitation agricole suisse",
@@ -2247,7 +2247,7 @@
     {
         "rdf:type": "dcat:Dataset",
         "dct:identifier": "8432bc6e-262f-40dd-b380-2bc39f9efa32",
-        "schema:image": "https://github.com/blw-ofag-ufag/data-catalog/blob/develop/src/assets/pics/fl%C3%A4chenangaben.jpg",
+        "schema:image": "https://fal.media/files/kangaroo/MplSG_GNu6ZmK7BwV-Wna_62809d3f79334984b197c233f6abdc49.jpg",
         "dct:title": {
             "de": "Flächenangaben zu Fächen in Hanglagen auf einem Betrieb in der Schweizer Landwirtschaft",
             "fr": "Indications de surface pour les surfaces en pente d'une exploitation agricole suisse",
@@ -2527,7 +2527,7 @@
     {
         "rdf:type": "dcat:Dataset",
         "dct:identifier": "451e6d03-9868-49fb-8c26-ebf3acc85e43",
-        "schema:image": "https://github.com/blw-ofag-ufag/data-catalog/blob/develop/src/assets/pics/anzahlNutztiere_S%C3%B6mmerung.jpg",
+        "schema:image": "https://fal.media/files/kangaroo/wfR9lE1XS04bNDZxRP99o_ebf2d36c2f4341d0b052966613ca8376.jpg",
         "dct:title": {
             "de": "Art und Anzahl Nutztiere in Sömmerung auf einem Betrieb in der Schweizer Landwirtschaft",
             "fr": "Type et nombre d'animaux de rente en estivage dans une exploitation agricole suisse",
@@ -2672,7 +2672,7 @@
     {
         "rdf:type": "dcat:Dataset",
         "dct:identifier": "00d5f3a2-8387-432b-8f46-b49c3eb018ea",
-        "schema:image": "https://github.com/blw-ofag-ufag/data-catalog/blob/develop/src/assets/pics/anmeldungenDirektzahlungsprogramme.jpg",
+        "schema:image": "https://fal.media/files/monkey/6gWWWqidmTPm5sPb5W59p_38800376b318474599bf6fa9638c6bae.jpg",
         "dct:title": {
             "de": "Anmeldungen für Direktzahlungsprogramme zu einem Betrieb in der Schweizer Landwirtschaft",
             "fr": "Inscription aux programmes de paiements directs pour une exploitation agricole suisse",
@@ -3257,7 +3257,7 @@
     {
         "rdf:type": "dcat:Dataset",
         "dct:identifier": "83f93ff4-ef3f-43f1-af2c-83f18952283e",
-        "schema:image": "https://github.com/blw-ofag-ufag/data-catalog/blob/develop/src/assets/pics/systemmap.jpg",
+        "schema:image": "https://fal.media/files/penguin/zLmfGWbw9SuNH9pYHqE7Y_454ce31f6849495cb14b7a083875b676.jpg",
         "dct:title": {
             "de": "DigiAgriFoodCH Systemlandkarte",
             "fr": "Carte du système DigiAgriFoodCH",
@@ -4368,7 +4368,7 @@
     {
         "rdf:type": "dcat:Dataset",
         "dct:identifier": "4ef1675b-529a-484b-9d7d-e3bd078f2ac6",
-        "schema:image": "https://github.com/blw-ofag-ufag/data-catalog/blob/develop/src/assets/pics/betriebsinspektionsdaten.jpg",
+        "schema:image": "https://fal.media/files/panda/cG6k1Wc-cTObENvKUulaJ_bfd16908431249a296b2fd2cab350caa.jpg",
         "dct:title": {
             "de": "Schweizer Betriebsinspektionsdaten zu Compliance-Ergebnissen und betrieblichen Strukturindikatoren",
             "fr": "Données d’inspections agricoles suisses sur les résultats de conformité et les indicateurs structurels des exploitations",
@@ -4595,7 +4595,7 @@
     {
         "rdf:type": "dcat:Dataset",
         "dct:identifier": "b990b028-d113-42a1-9435-a7ffd0f00e48",
-        "schema:image": "https://github.com/blw-ofag-ufag/data-catalog/blob/develop/src/assets/pics/digitaleBodeneignungskarte.jpg",
+        "schema:image": "https://fal.media/files/koala/0iew8qQY5t1OOcbFH10v-_c45b7b211f2c45e09e8452b0f267702c.jpg",
         "dct:title": {
             "fr": "Carte digitale des aptitudes des sols de la Suisse - Typologies des cultures",
             "de": "Digitale Bodeneignungskarte der Schweiz - Kulturtyp",
@@ -4772,7 +4772,7 @@
     {
         "rdf:type": "dcat:Dataset",
         "dct:identifier": "3a4d63bf-574b-4318-b6af-0777485c5411",
-        "schema:image": "https://github.com/blw-ofag-ufag/data-catalog/blob/develop/src/assets/pics/digitaleBodeneignungskarte.jpg",
+        "schema:image": "https://fal.media/files/koala/YW85YuYycjct-VqmatN9r_68068353fb364883ad464fc704147274.jpg",
         "dct:title": {
             "fr": "Carte digitale des aptitudes des sols de la Suisse - Terres cultivées",
             "de": "Digitale Bodeneignungskarte der Schweiz - Kulturland",
@@ -5309,7 +5309,7 @@
     {
         "rdf:type": "dcat:Dataset",
         "dct:identifier": "8fd9f464-5421-4dba-82f7-06105d9dbeaa",
-        "schema:image": "https://github.com/blw-ofag-ufag/data-catalog/blob/develop/src/assets/pics/alpprodukte.jpg",
+        "schema:image": "https://fal.media/files/tiger/8J9uFAKj5cjs1C5er7lKT_9af1a87f760749c5b69dfe69f0ed343d.jpg",
         "dct:title": {
             "fr": "Produits d'alpage",
             "de": "Alpprodukte",
@@ -5698,7 +5698,7 @@
     {
         "rdf:type": "dcat:Dataset",
         "dct:identifier": "503810f9-bb0c-47ac-8ca2-aac2c72bfcce",
-        "schema:image": "https://github.com/blw-ofag-ufag/data-catalog/blob/develop/src/assets/pics/digitaleBodeneignungskarte.jpg",
+        "schema:image": "https://fal.media/files/panda/sMqKY3B3ZF8tvv7t_U3cm_0b2e3af82a6f44c984801e9c1074f015.jpg",
         "dct:title": {
             "fr": "Cartes des aptitudes climatiques pour l'agriculture en Suisse - Cultures spéciales",
             "de": "Klimaeignungskarte für die Landwirtschaft - Spezialkulturen",
@@ -6229,7 +6229,7 @@
     {
         "rdf:type": "dcat:Dataset",
         "dct:identifier": "bb7894e3-0dbf-4ea1-9e97-813936154238",
-        "schema:image": "https://github.com/blw-ofag-ufag/data-catalog/blob/develop/src/assets/pics/digitaleBodeneignungskarte.jpg",
+        "schema:image": "https://fal.media/files/kangaroo/MplSG_GNu6ZmK7BwV-Wna_62809d3f79334984b197c233f6abdc49.jpg",
         "dct:title": {
             "fr": "Terrains en pente",
             "de": "Hanglagen",
@@ -9096,7 +9096,7 @@
     {
         "rdf:type": "dcat:Dataset",
         "dct:identifier": "487ad0b5-da52-4408-98da-751c890db14a",
-        "schema:image": "https://github.com/blw-ofag-ufag/data-catalog/blob/develop/src/assets/pics/K%C3%BCrzungS%C3%B6mmerungsbetriebe.jpg",
+        "schema:image": "https://fal.media/files/panda/6HkwVoS-_OIYBAl2j1zRN_5ea6b3fcaa024e41b513127a169ce8ea.jpg",
         "dct:title": {
             "de": "Kürzungen der Direktzahlungen bei Ganzjahresbetrieben",
             "fr": "Réductions des paiements directs dans les exploitations à l'année",
@@ -9869,7 +9869,7 @@
     {
         "rdf:type": "dcat:Dataset",
         "dct:identifier": "ad68ced9-d7da-4817-980e-f439c7394172",
-        "schema:image": "https://github.com/blw-ofag-ufag/data-catalog/blob/develop/src/assets/pics/Biodiversit%C3%A4tsfrderfl%C3%A4chen.jpg",
+        "schema:image": "https://fal.media/files/kangaroo/zC34KxmLbmI4fsz9Cit2k_7a22cfc79d1d47c88ffd23ca3e4d99a0.jpg",
         "dct:title": {
             "de": "Flächenangaben zu Biodiversitätsfrderflächen auf einem Betrieb in der Schweizer Landwirtschaft",
             "fr": "Indications de surface pour les surfaces de promotion de la biodiversité dans une exploitation agricole suisse",
@@ -10187,7 +10187,7 @@
     {
         "rdf:type": "dcat:Dataset",
         "dct:identifier": "a88a2dfa-f5fb-4fe2-a1c5-af392052f6a2",
-        "schema:image": "https://github.com/blw-ofag-ufag/data-catalog/blob/develop/src/assets/pics/Produktfunktionskategorien_PFC.jpg",
+        "schema:image": "https://fal.media/files/rabbit/vACOEgJZbcpfArdQzROcX_351aa26ba9134232bdc01f867502e0ef.jpg",
         "dct:title": {
             "de": "Düngerkategorien gemäss Düngerverordnung (DüV) gültig vor 2024",
             "fr": "Catégories d’engrais selon l’ordonnance sur les engrais (OEng) valables avant 2024",
@@ -10321,7 +10321,7 @@
     {
         "rdf:type": "dcat:Dataset",
         "dct:identifier": "c61f6636-f09f-433e-8612-4babd5a3a9f4",
-        "schema:image": "https://github.com/blw-ofag-ufag/data-catalog/blob/develop/src/assets/pics/Produktfunktionskategorien_PFC.jpg",
+        "schema:image": "https://fal.media/files/rabbit/vACOEgJZbcpfArdQzROcX_351aa26ba9134232bdc01f867502e0ef.jpg",
         "dct:title": {
             "de": "Düngertypen gemäss Anhang 1 der Düngerverordnung (DüV) gültig vor 2024",
             "fr": "Types d'engrais selon l'annexe 1 de l'ordonnance sur les engrais (OEng) valables avant 2024",
@@ -10419,7 +10419,7 @@
     },
     {
         "rdf:type": "dcat:Dataset",
-        "schema:image": "https://github.com/blw-ofag-ufag/data-catalog/blob/develop/src/assets/pics/klimastrategie.jpg",
+        "schema:image": "https://fal.media/files/tiger/wRa9DHE4Hwzxa7c_1lqYQ_b2bc0df71b6a4d26935a1294876e8a3e.jpg",
         "dct:identifier": "2ea8bfa1-8bb6-45ef-bee4-3b4cba52d834",
         "dct:title": {
             "de": "Massnahmenmonitoring Klimastrategie Landwirtschaft und Ernährung",
@@ -10502,7 +10502,7 @@
     {
         "rdf:type": "dcat:Dataset",
         "dct:identifier": "824e4bde-af7e-4fa3-97d6-7a4f1cfc776f",
-        "schema:image": "https://github.com/blw-ofag-ufag/data-catalog/blob/develop/src/assets/pics/betriebsinspektionsdaten.jpg",
+        "schema:image": "https://v3b.fal.media/files/b/0a8b034d/dfGG6qc1IaFrT-YZjsXbT.jpg",
         "dct:title": {
             "de": "Kontrollinhalte",
             "fr": "Contenu du contrôle"
@@ -10688,7 +10688,7 @@
     {
         "rdf:type": "dcat:Dataset",
         "dct:identifier": "448c82ca-49f6-452e-94ab-06c14f154663",
-        "schema:image": "https://github.com/blw-ofag-ufag/data-catalog/blob/develop/src/assets/pics/K%C3%BCrzungS%C3%B6mmerungsbetriebe.jpg",
+        "schema:image": "https://v3b.fal.media/files/b/0a8b034d/dfGG6qc1IaFrT-YZjsXbT.jpg",
         "dct:title": {
             "de": "Daten über Verwaltungsmassnahmen und strafrechtliche Sanktionen"
         },
@@ -10731,7 +10731,7 @@
     {
         "rdf:type": "dcat:Dataset",
         "dct:identifier": "48aa4506-40b7-490b-9a7e-2c3a207081f9",
-        "schema:image": "https://github.com/blw-ofag-ufag/data-catalog/blob/develop/src/assets/pics/betriebsinspektionsdaten.jpg",
+        "schema:image": "https://v3b.fal.media/files/b/0a8b034d/dfGG6qc1IaFrT-YZjsXbT.jpg",
         "dct:title": {
             "de": "Kontrollgrunddaten"
         },
@@ -10773,7 +10773,7 @@
     {
         "rdf:type": "dcat:Dataset",
         "dct:identifier": "1dd28b58-345e-4aac-b2fe-634a876c51e5",
-        "schema:image": "https://github.com/blw-ofag-ufag/data-catalog/blob/develop/src/assets/pics/betriebsinspektionsdaten.jpg",
+        "schema:image": "https://v3b.fal.media/files/b/0a8b034d/dfGG6qc1IaFrT-YZjsXbT.jpg",
         "dct:title": {
             "de": "Kontrollergebnisse"
         },
