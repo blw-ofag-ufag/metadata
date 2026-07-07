@@ -3400,6 +3400,42 @@
     },
     {
         "rdf:type": "dcat:Dataset",
+        "dct:identifier": "d5c10a66-2fc2-42d3-88f7-7c7bc617e808",
+        "dct:title": {
+            "de": "test_2026-07-01",
+            "fr": "test_2026-07-01"
+        },
+        "dct:description": {
+            "de": "Test Datensatz zur Prüfung der Issues\n- 264: dct:issued und dcatap:availability nicht gespeichert.\n- 259: dct:issued mismatch between entryform and datacatalog.\n- 238: enter dates manually\n- 224: date pickers are not localized\n\nWie getestet: Eintrag erstellt. Vergleich von\n- zur Verfügung gestellten Json-Files, \n- auf Github gepushten Files \n- aus dem Katalog herunterladbaren Files.",
+            "fr": "Test Datensatz zur Prüfung der Issues\n- 264: dct:issued und dcatap:availability nicht gespeichert.\n- 259: dct:issued mismatch between entryform and datacatalog.\n- 238: enter dates manually\n- 224: date pickers are not localized\n\nWie getestet: Eintrag erstellt. Vergleich von\n- zur Verfügung gestellten Json-Files, \n- auf Github gepushten Files \n- aus dem Katalog herunterladbaren Files."
+        },
+        "dct:accessRights": "PUBLIC",
+        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+        "dct:issued": "2026-07-06",
+        "dcatap:availability": "EXPERIMENTAL",
+        "dcat:keyword": [
+            "AGIS"
+        ],
+        "dct:accrualPeriodicity": "HOURLY",
+        "dct:modified": "2026-07-07",
+        "dcat:version": "0.1",
+        "adms:status": "workInProgress",
+        "bv:classification": "none",
+        "bv:personalData": "none",
+        "bv:typeOfData": "referenceData",
+        "bv:archivalValue": false,
+        "dcat:theme": [
+            "administration",
+            "agriculture",
+            "crime"
+        ],
+        "dataOwner": "p-1ZLWBXSJD",
+        "schemaViolations": 0,
+        "schemaViolationMessages": [],
+        "quality": 1702.0
+    },
+    {
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "5361e7d7-4ac9-43ab-bdb3-dbec0f030033",
         "dct:title": {
             "de": "Programme/Label",
@@ -10655,35 +10691,25 @@
     },
     {
         "rdf:type": "dcat:Dataset",
-        "dct:identifier": "d5c10a66-2fc2-42d3-88f7-7c7bc617e808",
+        "dct:identifier": "e7929844-3b9d-4df0-ba05-01800320694b",
         "dct:title": {
-            "de": "test_2026-07-01",
-            "fr": "test_2026-07-01"
+            "de": "test test test",
+            "fr": "test test test"
         },
         "dct:description": {
-            "de": "Test Datensatz zur Prüfung der Issues\n- 264: dct:issued und dcatap:availability nicht gespeichert.\n- 259: dct:issued mismatch between entryform and datacatalog.\n- 238: enter dates manually\n- 224: date pickers are not localized\n\nWie getestet: Eintrag erstellt. Vergleich von\n- zur Verfügung gestellten Json-Files, \n- auf Github gepushten Files \n- aus dem Katalog herunterladbaren Files.",
-            "fr": "Test Datensatz zur Prüfung der Issues\n- 264: dct:issued und dcatap:availability nicht gespeichert.\n- 259: dct:issued mismatch between entryform and datacatalog.\n- 238: enter dates manually\n- 224: date pickers are not localized\n\nWie getestet: Eintrag erstellt. Vergleich von\n- zur Verfügung gestellten Json-Files, \n- auf Github gepushten Files \n- aus dem Katalog herunterladbaren Files."
+            "de": "ölkajseiaeöklcjöalsej awer",
+            "fr": "ölkajseiaeöklcjöalsej awer"
         },
-        "dct:accessRights": "PUBLIC",
         "dct:publisher": "BLW-OFAG-UFAG-FOAG",
-        "dcat:keyword": [
-            "AGIS"
-        ],
+        "dct:issued": "2026-06-30T22:00:00.000Z",
         "adms:status": "workInProgress",
         "bv:classification": "none",
         "bv:personalData": "none",
         "bv:archivalValue": false,
-        "dcat:theme": [
-            "administration",
-            "agriculture",
-            "crime"
-        ],
-        "dataOwner": "p-1ZLWBXSJD",
-        "schemaViolations": 1,
-        "schemaViolationMessages": [
-            "'dct:issued' is a required property"
-        ],
-        "quality": 750.0
+        "dataOwner": "p-123456",
+        "schemaViolations": 0,
+        "schemaViolationMessages": [],
+        "quality": 658.0
     },
     {
         "rdf:type": "dcat:Dataset",
