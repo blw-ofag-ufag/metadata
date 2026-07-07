@@ -1,0 +1,27 @@
+{
+  "dct:identifier": "e7929844-3b9d-4df0-ba05-01800320694b",
+  "dct:title": {
+    "de": "test test test",
+    "fr": "test test test"
+  },
+  "dct:description": {
+    "de": "ölkajseiaeöklcjöalsej awer",
+    "fr": "ölkajseiaeöklcjöalsej awer"
+  },
+  "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+  "dct:issued": "2026-06-30T22:00:00.000Z",
+  "prov:qualifiedAttribution": [
+    {
+      "prov:agent": "p-123456",
+      "dcat:hadRole": "dataOwner"
+    },
+    {
+      "prov:agent": "p-123456",
+      "dcat:hadRole": "dataSteward"
+    }
+  ],
+  "adms:status": "workInProgress",
+  "bv:classification": "none",
+  "bv:personalData": "none",
+  "bv:archivalValue": false
+}
