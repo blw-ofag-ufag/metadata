@@ -10455,6 +10455,30 @@
     },
     {
         "rdf:type": "dcat:Dataset",
+        "dct:identifier": "e7929844-3b9d-4df0-ba05-01800320694b",
+        "schema:image": "https://github.com/blw-ofag-ufag/data-catalog/blob/a0599f5dee18e495535758757cc2f7221079163e/src/assets/pics/Hauptkulturen.jpg",
+        "dct:title": {
+            "de": "test test test",
+            "fr": "test test test"
+        },
+        "dct:description": {
+            "de": "ölkajseiaeöklcjöalsej awer",
+            "fr": "ölkajseiaeöklcjöalsej awer"
+        },
+        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+        "dct:issued": "2026-07-02",
+        "dct:modified": "2026-07-05",
+        "adms:status": "workInProgress",
+        "bv:classification": "none",
+        "bv:personalData": "none",
+        "bv:archivalValue": false,
+        "dataOwner": "p-123456",
+        "schemaViolations": 0,
+        "schemaViolationMessages": [],
+        "quality": 823.0
+    },
+    {
+        "rdf:type": "dcat:Dataset",
         "schema:image": "https://fal.media/files/tiger/wRa9DHE4Hwzxa7c_1lqYQ_b2bc0df71b6a4d26935a1294876e8a3e.jpg",
         "dct:identifier": "2ea8bfa1-8bb6-45ef-bee4-3b4cba52d834",
         "dct:title": {
@@ -10688,29 +10712,6 @@
             "Additional properties are not allowed ('dcat:issued' was unexpected)"
         ],
         "quality": 751.8888888888889
-    },
-    {
-        "rdf:type": "dcat:Dataset",
-        "dct:identifier": "e7929844-3b9d-4df0-ba05-01800320694b",
-        "dct:title": {
-            "de": "test test test",
-            "fr": "test test test"
-        },
-        "dct:description": {
-            "de": "ölkajseiaeöklcjöalsej awer",
-            "fr": "ölkajseiaeöklcjöalsej awer"
-        },
-        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
-        "dct:issued": "2026-07-02",
-        "dct:modified": "2026-07-05",
-        "adms:status": "workInProgress",
-        "bv:classification": "none",
-        "bv:personalData": "none",
-        "bv:archivalValue": false,
-        "dataOwner": "p-123456",
-        "schemaViolations": 0,
-        "schemaViolationMessages": [],
-        "quality": 676.0
     },
     {
         "rdf:type": "dcat:Dataset",
