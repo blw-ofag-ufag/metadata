@@ -10701,7 +10701,8 @@
             "fr": "ölkajseiaeöklcjöalsej awer"
         },
         "dct:publisher": "BLW-OFAG-UFAG-FOAG",
-        "dct:issued": "2026-06-30T22:00:00.000Z",
+        "dct:issued": "2026-07-02",
+        "dct:modified": "2026-07-05",
         "adms:status": "workInProgress",
         "bv:classification": "none",
         "bv:personalData": "none",
@@ -10709,7 +10710,7 @@
         "dataOwner": "p-123456",
         "schemaViolations": 0,
         "schemaViolationMessages": [],
-        "quality": 658.0
+        "quality": 676.0
     },
     {
         "rdf:type": "dcat:Dataset",
