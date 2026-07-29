@@ -1,0 +1,117 @@
+{
+  "dct:identifier": "870db5d6-0cfa-4ea2-92d7-3d8b813f6149",
+  "schema:image": "https://prod-blwch-hcms-sdweb.imgix.net/dam/en/sd-web/nPO3NMseA8L3/HOME_Setzlinge_anpflanzen%20low.jpg?auto=format&w=2048",
+  "dct:title": {
+    "de": "Test Dataset 20260729 ",
+    "fr": "FR_Test Dataset 20260729",
+    "it": "IT_Test Dataset 20260729",
+    "en": "EN_Test Dataset 20260729"
+  },
+  "dct:description": {
+    "de": "Beschreibung Test Dataset 20260729",
+    "fr": "FR_Beschreibung Test Dataset 20260729",
+    "it": "IT_Beschreibung Test Dataset 20260729",
+    "en": "EN_Beschreibung Test Dataset 20260729"
+  },
+  "dct:accessRights": "PUBLIC",
+  "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+  "dcat:contactPoint": {
+    "schema:name": "kontaktstelle",
+    "schema:email": "kontaktstelle@test.test"
+  },
+  "dct:issued": "2026-07-28",
+  "dcatap:availability": "TEMPORARY",
+  "dcat:keyword": [
+    "Acontrol",
+    "AGIS"
+  ],
+  "dct:accrualPeriodicity": "UNKNOWN",
+  "dct:modified": "2026-07-29",
+  "dcat:version": "0.2",
+  "prov:qualifiedAttribution": [
+    {
+      "prov:agent": "p-1zlwbxsjd",
+      "schema:name": "vorname nachname",
+      "schema:email": "test@pascal.test",
+      "dcat:hadRole": "dataOwner"
+    },
+    {
+      "prov:agent": "p-1zlwbxsjd",
+      "schema:name": "vorname nachname",
+      "schema:email": "test@pascal.test",
+      "dcat:hadRole": "dataSteward"
+    }
+  ],
+  "adms:status": "workInProgress",
+  "bv:classification": "none",
+  "bv:personalData": "none",
+  "bv:typeOfData": "unstructuredData",
+  "bv:archivalValue": false,
+  "bv:externalCatalogs": [
+    {
+      "dcat:catalog": "I14Y"
+    },
+    {
+      "dcat:catalog": "opendata.swiss"
+    },
+    {
+      "dcat:catalog": "geocat.ch"
+    }
+  ],
+  "dcat:theme": [
+    "administration",
+    "agriculture"
+  ],
+  "dcat:landingPage": "https://www.example.com",
+  "dct:spatial": "SCHWEIZ",
+  "dct:temporal": {
+    "dcat:start_date": "2026-07-01",
+    "dcat:end_date": "2026-07-29"
+  },
+  "dcatap:applicableLegislation": "Keine",
+  "prov:wasDerivedFrom": [
+    "nirgends"
+  ],
+  "bv:geoIdentifier": "GeoIV Identifikator",
+  "schema:comment": "Zusätzliche Bemerkungen - nicht nur einsprachig?",
+  "bv:abrogation": "2026-07-31",
+  "dcat:inSeries": [
+    "test"
+  ],
+  "dct:replaces": [
+    "nichts"
+  ],
+  "dcat:distribution": [
+    {
+      "dct:identifier": "e9106efd-1303-456f-8827-8efac4ff3215",
+      "dcat:accessURL": "https://example.com",
+      "adms:status": "workInProgress",
+      "dcatap:availability": "TEMPORARY",
+      "dct:format": "test",
+      "dct:modified": "2026-07-29",
+      "dcat:downloadURL": "http://example.com",
+      "dct:title": {
+        "de": "Distribution Test Dataset",
+        "fr": "FR_Distribution Test Dataset",
+        "it": "IT_Distribution Test Dataset",
+        "en": "EN_Distribution Test Dataset"
+      },
+      "dct:description": {
+        "de": "Beschreibung Distribution Test Dataset",
+        "fr": "FR_Beschreibung Distribution Test Dataset",
+        "it": "IT_Beschreibung Distribution Test Dataset",
+        "en": "EN_Beschreibung Distribution Test Dataset"
+      },
+      "dct:conformsTo": "Entspricht nichts",
+      "dct:license": "terms_open",
+      "schema:comment": "Zusätzliche Bemerkungen Distribution. Nur Monolingual?",
+      "bv:dimensions": [
+        "canton",
+        "company",
+        "contribution",
+        "contributionType",
+        "year"
+      ]
+    }
+  ]
+}
