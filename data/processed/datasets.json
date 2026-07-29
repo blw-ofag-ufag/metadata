@@ -10800,6 +10800,34 @@
     },
     {
         "rdf:type": "dcat:Dataset",
+        "dct:identifier": "704614f6-27bd-45b4-bf16-8ae135c89122",
+        "dct:title": {
+            "de": "Test Dataset_Deutsch",
+            "fr": "Test Dataset_Français"
+        },
+        "dct:description": {
+            "de": "Beschreibung Test Dataset_Deutsch",
+            "fr": "Beschreibung Test Dataset_Français"
+        },
+        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+        "dct:issued": "2026-07-27",
+        "dcat:keyword": [
+            "software"
+        ],
+        "adms:status": "workInProgress",
+        "bv:classification": "none",
+        "bv:personalData": "none",
+        "bv:archivalValue": false,
+        "dcat:theme": [
+            "agriculture"
+        ],
+        "dataOwner": null,
+        "schemaViolations": 0,
+        "schemaViolationMessages": [],
+        "quality": 552.0
+    },
+    {
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "1dd28b58-345e-4aac-b2fe-634a876c51e5",
         "schema:image": "https://v3b.fal.media/files/b/0a8b034d/dfGG6qc1IaFrT-YZjsXbT.jpg",
         "dct:title": {
