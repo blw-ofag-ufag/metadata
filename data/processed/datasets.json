@@ -3400,6 +3400,42 @@
     },
     {
         "rdf:type": "dcat:Dataset",
+        "dct:identifier": "d5c10a66-2fc2-42d3-88f7-7c7bc617e808",
+        "dct:title": {
+            "de": "test_2026-07-01",
+            "fr": "test_2026-07-01"
+        },
+        "dct:description": {
+            "de": "Test Datensatz zur Prüfung der Issues\n- 264: dct:issued und dcatap:availability nicht gespeichert.\n- 259: dct:issued mismatch between entryform and datacatalog.\n- 238: enter dates manually\n- 224: date pickers are not localized\n\nWie getestet: Eintrag erstellt. Vergleich von\n- zur Verfügung gestellten Json-Files, \n- auf Github gepushten Files \n- aus dem Katalog herunterladbaren Files.",
+            "fr": "Test Datensatz zur Prüfung der Issues\n- 264: dct:issued und dcatap:availability nicht gespeichert.\n- 259: dct:issued mismatch between entryform and datacatalog.\n- 238: enter dates manually\n- 224: date pickers are not localized\n\nWie getestet: Eintrag erstellt. Vergleich von\n- zur Verfügung gestellten Json-Files, \n- auf Github gepushten Files \n- aus dem Katalog herunterladbaren Files."
+        },
+        "dct:accessRights": "PUBLIC",
+        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+        "dct:issued": "2026-07-06",
+        "dcatap:availability": "EXPERIMENTAL",
+        "dcat:keyword": [
+            "AGIS"
+        ],
+        "dct:accrualPeriodicity": "HOURLY",
+        "dct:modified": "2026-07-07",
+        "dcat:version": "0.1",
+        "adms:status": "workInProgress",
+        "bv:classification": "none",
+        "bv:personalData": "none",
+        "bv:typeOfData": "referenceData",
+        "bv:archivalValue": false,
+        "dcat:theme": [
+            "administration",
+            "agriculture",
+            "crime"
+        ],
+        "dataOwner": "p-1ZLWBXSJD",
+        "schemaViolations": 0,
+        "schemaViolationMessages": [],
+        "quality": 1702.0
+    },
+    {
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "5361e7d7-4ac9-43ab-bdb3-dbec0f030033",
         "dct:title": {
             "de": "Programme/Label",
@@ -10419,6 +10455,30 @@
     },
     {
         "rdf:type": "dcat:Dataset",
+        "dct:identifier": "e7929844-3b9d-4df0-ba05-01800320694b",
+        "schema:image": "https://github.com/blw-ofag-ufag/data-catalog/blob/a0599f5dee18e495535758757cc2f7221079163e/src/assets/pics/Hauptkulturen.jpg",
+        "dct:title": {
+            "de": "test test test",
+            "fr": "test test test"
+        },
+        "dct:description": {
+            "de": "ölkajseiaeöklcjöalsej awer",
+            "fr": "ölkajseiaeöklcjöalsej awer"
+        },
+        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+        "dct:issued": "2026-07-02",
+        "dct:modified": "2026-07-05",
+        "adms:status": "workInProgress",
+        "bv:classification": "none",
+        "bv:personalData": "none",
+        "bv:archivalValue": false,
+        "dataOwner": "p-123456",
+        "schemaViolations": 0,
+        "schemaViolationMessages": [],
+        "quality": 823.0
+    },
+    {
+        "rdf:type": "dcat:Dataset",
         "schema:image": "https://fal.media/files/tiger/wRa9DHE4Hwzxa7c_1lqYQ_b2bc0df71b6a4d26935a1294876e8a3e.jpg",
         "dct:identifier": "2ea8bfa1-8bb6-45ef-bee4-3b4cba52d834",
         "dct:title": {
@@ -10737,6 +10797,34 @@
             "'fr' is a required property"
         ],
         "quality": 625.0
+    },
+    {
+        "rdf:type": "dcat:Dataset",
+        "dct:identifier": "704614f6-27bd-45b4-bf16-8ae135c89122",
+        "dct:title": {
+            "de": "Test Dataset_Deutsch",
+            "fr": "Test Dataset_Français"
+        },
+        "dct:description": {
+            "de": "Beschreibung Test Dataset_Deutsch",
+            "fr": "Beschreibung Test Dataset_Français"
+        },
+        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+        "dct:issued": "2026-07-27",
+        "dcat:keyword": [
+            "software"
+        ],
+        "adms:status": "workInProgress",
+        "bv:classification": "none",
+        "bv:personalData": "none",
+        "bv:archivalValue": false,
+        "dcat:theme": [
+            "agriculture"
+        ],
+        "dataOwner": null,
+        "schemaViolations": 0,
+        "schemaViolationMessages": [],
+        "quality": 552.0
     },
     {
         "rdf:type": "dcat:Dataset",
