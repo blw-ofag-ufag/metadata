@@ -62,13 +62,14 @@
   "dcat:distribution": [
     {
       "dct:identifier": "ea0ada27-169b-4fce-8f75-50e7ffcf3903",
-      "dcat:accessURL": "https://data.blw.admin.ch/de/2025-finanzielle-mittel-fuer-direktzahlungenhttps://data.blw.admin.ch/de/2025-finanzielle-mittel-fuer-direktzahlungen",
+      "dcat:accessURL": "https://data.blw.admin.ch/de/2025-finanzielle-mittel-fuer-direktzahlungen",
       "adms:status": "published",
       "dcatap:availability": "STABLE",
       "dct:format": "csv",
       "dct:modified": "2026-06-16",
       "dct:title": {
-        "de": "Alle Daten"
+        "de": "Alle Daten",
+        "fr": "Tout données"
       },
       "dct:description": {
         "de": "Distribution enthält die kantonalen Direktzahlungsbeträge aufgeschlüsselt nach Jahr, Beitragsart, Kanton, Ganzjahresbetrieb oder Sömmerung und Zone.",
