@@ -58,7 +58,7 @@
     "dcat:start_date": "2015-01-01",
     "dcat:end_date": "2025-01-01"
   },
-  "dcatap:applicableLegislation": "https://www.fedlex.admin.ch/eli/cc/2013/765/de",
+  "dcatap:applicableLegislation": ["https://www.fedlex.admin.ch/eli/cc/2013/765/de"],
   "dcat:distribution": [
     {
       "dct:identifier": "ea0ada27-169b-4fce-8f75-50e7ffcf3903",
