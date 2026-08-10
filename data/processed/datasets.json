@@ -1,4 +1,91 @@
 [
+        {
+      "dct:identifier": "d9b36866-919c-4abb-9b2c-a03f9f951fb4",
+      "schema:image": "https://prod-blwch-hcms-sdweb.imgix.net/dam/en/sd-web/nPO3NMseA8L3/HOME_Setzlinge_anpflanzen%20low.jpg?auto=format&w=2048",
+      "dct:title": {
+        "de": "Finanzielle Mittel für Direktzahlungen",
+        "fr": "Moyens financiers pour les paiements directs",
+        "it": "Mezzi finanziari per i pagamenti diretti"
+      },
+      "dct:description": {
+        "de": "Nach Artikel 104 der Bundesverfassung hat die Landwirtschaft den Auftrag, gemeinwirtschaftliche Leistungen zu erbringen. Diese werden mit jeweils einer spezifischen Direktzahlungsart gefördert.",
+        "fr": "L’art. 104 de la Constitution fédérale donne mandat à l’agriculture de fournir des prestations d’intérêt général. Chacune de ces prestations est encouragée par un type de paiement direct spécifique.",
+        "it": "In virtù dell’articolo 104 della Costituzione federale, l’agricoltura ha il mandato legale di fornire prestazioni di interesse pubblico, ciascuna delle quali viene promossa mediante uno specifico tipo di pagamenti diretti."
+      },
+      "dct:accessRights": "PUBLIC",
+      "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+      "dcat:contactPoint": {
+        "schema:name": "Fachbereich Direktzahlungsgrundlagen"
+      },
+      "dct:issued": "2015-01-01",
+      "dcatap:availability": "STABLE",
+      "dcat:keyword": [
+        "AGIS",
+        "agriculture",
+        "alpine-farming",
+        "cantonal-identifier",
+        "mountain-management",
+        "product-category",
+        "zoning"
+      ],
+      "dct:accrualPeriodicity": "ANNUAL",
+      "dct:modified": "2026-06-16",
+      "dcat:version": "1.0",
+      "prov:qualifiedAttribution": [
+        {
+          "prov:agent": "p-4632041",
+          "schema:name": "Jonas Plattner",
+          "dcat:hadRole": "dataSteward"
+        },
+        {
+          "prov:agent": "p-8397553",
+          "schema:name": "Simon Hasler",
+          "dcat:hadRole": "dataOwner"
+        }
+      ],
+      "adms:status": "published",
+      "bv:classification": "none",
+      "bv:personalData": "none",
+      "bv:typeOfData": "secondaryThematicData",
+      "bv:archivalValue": false,
+      "dcat:theme": [
+        "agriculture",
+        "politics"
+      ],
+      "dcat:landingPage": "https://data.blw.admin.ch",
+      "dct:spatial": "Schweiz",
+      "dct:temporal": {
+        "dcat:start_date": "2015-01-01",
+        "dcat:end_date": "2025-01-01"
+      },
+      "dcatap:applicableLegislation": "https://www.fedlex.admin.ch/eli/cc/2013/765/de",
+      "dcat:distribution": [
+        {
+          "dct:identifier": "ea0ada27-169b-4fce-8f75-50e7ffcf3903",
+          "dcat:accessURL": "https://data.blw.admin.ch/de/2025-finanzielle-mittel-fuer-direktzahlungenhttps://data.blw.admin.ch/de/2025-finanzielle-mittel-fuer-direktzahlungen",
+          "adms:status": "published",
+          "dcatap:availability": "STABLE",
+          "dct:format": "csv",
+          "dct:modified": "2026-06-16",
+          "dct:title": {
+            "de": "Alle Daten"
+          },
+          "dct:description": {
+            "de": "Enthält die kantonalen Direktzahlungsbeträge aufgeschlüsselt nach Jahr, Beitragsart, Kanton, Ganzjahresbetrieb oder Sömmerung und Zone.",
+            "fr": "Contient les montants des paiements directs cantonaux, ventilés par année, type de contribution, canton, exploitation à l'année ou estivage et zone",
+            "it": "Contiene gli importi dei pagamenti diretti cantonali suddivisi per anno, tipo di contributo, cantone, azienda a regime annuale o estivazione e zona."
+          },
+          "dct:license": "terms_by",
+          "bv:dimensions": [
+            "canton",
+            "company",
+            "contribution",
+            "year",
+            "zone"
+          ]
+        }
+      ]
+    },
     {
         "rdf:type": "dcat:Dataset",
         "dct:identifier": "bede7799-1552-43ea-be5b-7cd30a8f61cb",
