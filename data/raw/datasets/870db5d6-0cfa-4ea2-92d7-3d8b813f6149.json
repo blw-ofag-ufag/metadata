@@ -68,7 +68,7 @@
     "dcat:start_date": "2026-07-01",
     "dcat:end_date": "2026-07-29"
   },
-  "dcatap:applicableLegislation": ["none"],
+  "dcatap:applicableLegislation": [],
   "prov:wasDerivedFrom": [
     "nirgends"
   ],
