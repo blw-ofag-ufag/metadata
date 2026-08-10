@@ -14,7 +14,8 @@
   "dct:accessRights": "PUBLIC",
   "dct:publisher": "BLW-OFAG-UFAG-FOAG",
   "dcat:contactPoint": {
-    "schema:name": "Fachbereich Direktzahlungsgrundlagen"
+    "schema:name": "Fachbereich Direktzahlungsgrundlagen",
+    "schema:email": "NoEmail@provid.ed"
   },
   "dct:issued": "2015-01-01",
   "dcatap:availability": "STABLE",
