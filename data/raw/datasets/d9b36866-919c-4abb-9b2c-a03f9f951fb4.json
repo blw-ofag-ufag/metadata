@@ -70,7 +70,7 @@
         "de": "Alle Daten"
       },
       "dct:description": {
-        "de": "Enthält die kantonalen Direktzahlungsbeträge aufgeschlüsselt nach Jahr, Beitragsart, Kanton, Ganzjahresbetrieb oder Sömmerung und Zone.",
+        "de": "Distribution enthält die kantonalen Direktzahlungsbeträge aufgeschlüsselt nach Jahr, Beitragsart, Kanton, Ganzjahresbetrieb oder Sömmerung und Zone.",
         "fr": "Contient les montants des paiements directs cantonaux, ventilés par année, type de contribution, canton, exploitation à l'année ou estivage et zone",
         "it": "Contiene gli importi dei pagamenti diretti cantonali suddivisi per anno, tipo di contributo, cantone, azienda a regime annuale o estivazione e zona."
       },
