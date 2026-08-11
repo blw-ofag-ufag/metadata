@@ -22,7 +22,8 @@
     "dct:creator": {
         "prov:agent": "p-1zlwbxsjd",
         "schema:name": "vorname nachname",
-        "schema:email": "test@pascal.test"
+        "schema:email": "test@pascal.test",
+        "dcat:hadRole": "dataSteward"
     },
     "adms:status": "workInProgress",
     "dcat:version": "0.1.0",
