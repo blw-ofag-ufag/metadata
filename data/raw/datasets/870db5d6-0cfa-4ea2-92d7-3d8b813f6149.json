@@ -68,19 +68,13 @@
     "dcat:start_date": "2026-07-01",
     "dcat:end_date": "2026-07-29"
   },
-  "dcatap:applicableLegislation": "Keine",
-  "prov:wasDerivedFrom": [
-    "nirgends"
-  ],
+  "dcatap:applicableLegislation": [],
+  "prov:wasDerivedFrom": [],
   "bv:geoIdentifier": "GeoIV Identifikator",
   "schema:comment": "Zusätzliche Bemerkungen - nicht nur einsprachig?",
   "bv:abrogation": "2026-07-31",
-  "dcat:inSeries": [
-    "test"
-  ],
-  "dct:replaces": [
-    "nichts"
-  ],
+  "dcat:inSeries": [],
+  "dct:replaces": [],
   "dcat:distribution": [
     {
       "dct:identifier": "e9106efd-1303-456f-8827-8efac4ff3215",

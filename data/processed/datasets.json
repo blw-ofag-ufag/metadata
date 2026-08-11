@@ -1904,6 +1904,192 @@
     },
     {
         "rdf:type": "dcat:Dataset",
+        "dct:identifier": "d9b36866-919c-4abb-9b2c-a03f9f951fb4",
+        "schema:image": "https://prod-blwch-hcms-sdweb.imgix.net/dam/en/sd-web/nPO3NMseA8L3/HOME_Setzlinge_anpflanzen%20low.jpg?auto=format&w=2048",
+        "dct:title": {
+            "de": "Finanzielle Mittel für Direktzahlungen",
+            "fr": "Moyens financiers pour les paiements directs",
+            "it": "Mezzi finanziari per i pagamenti diretti"
+        },
+        "dct:description": {
+            "de": "Nach Artikel 104 der Bundesverfassung hat die Landwirtschaft den Auftrag, gemeinwirtschaftliche Leistungen zu erbringen. Diese werden mit jeweils einer spezifischen Direktzahlungsart gefördert.",
+            "fr": "L’art. 104 de la Constitution fédérale donne mandat à l’agriculture de fournir des prestations d’intérêt général. Chacune de ces prestations est encouragée par un type de paiement direct spécifique.",
+            "it": "In virtù dell’articolo 104 della Costituzione federale, l’agricoltura ha il mandato legale di fornire prestazioni di interesse pubblico, ciascuna delle quali viene promossa mediante uno specifico tipo di pagamenti diretti."
+        },
+        "dct:accessRights": "PUBLIC",
+        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+        "dcat:contactPoint": {
+            "schema:name": "Fachbereich Direktzahlungsgrundlagen",
+            "schema:email": "NoEmail@provid.ed"
+        },
+        "dct:issued": "2015-01-01",
+        "dcatap:availability": "STABLE",
+        "dcat:keyword": [
+            "AGIS",
+            "agriculture",
+            "alpine-farming",
+            "cantonal-identifier",
+            "mountain-management",
+            "product-category",
+            "zoning"
+        ],
+        "dct:accrualPeriodicity": "ANNUAL",
+        "dct:modified": "2026-06-16",
+        "dcat:version": "1.0",
+        "adms:status": "published",
+        "bv:classification": "none",
+        "bv:personalData": "none",
+        "bv:typeOfData": "secondaryThematicData",
+        "bv:archivalValue": false,
+        "dcat:theme": [
+            "agriculture",
+            "politics"
+        ],
+        "dcat:landingPage": "https://data.blw.admin.ch",
+        "dct:spatial": "Schweiz",
+        "dct:temporal": {
+            "dcat:start_date": "2015-01-01",
+            "dcat:end_date": "2025-01-01"
+        },
+        "dcatap:applicableLegislation": [
+            "https://www.fedlex.admin.ch/eli/cc/2013/765/de"
+        ],
+        "dcat:distribution": [
+            {
+                "dct:identifier": "ea0ada27-169b-4fce-8f75-50e7ffcf3903",
+                "dcat:accessURL": "https://data.blw.admin.ch/de/2025-finanzielle-mittel-fuer-direktzahlungen",
+                "adms:status": "published",
+                "dcatap:availability": "STABLE",
+                "dct:format": "csv",
+                "dct:modified": "2026-06-16",
+                "dct:title": {
+                    "de": "Alle Daten",
+                    "fr": "Toutes les données"
+                },
+                "dct:description": {
+                    "de": "Distribution enthält die kantonalen Direktzahlungsbeträge aufgeschlüsselt nach Jahr, Beitragsart, Kanton, Ganzjahresbetrieb oder Sömmerung und Zone.",
+                    "fr": "Contient les montants des paiements directs cantonaux, ventilés par année, type de contribution, canton, exploitation à l'année ou estivage et zone",
+                    "it": "Contiene gli importi dei pagamenti diretti cantonali suddivisi per anno, tipo di contributo, cantone, azienda a regime annuale o estivazione e zona."
+                },
+                "dct:license": "terms_by",
+                "bv:dimensions": [
+                    "canton",
+                    "company",
+                    "contribution",
+                    "year",
+                    "zone"
+                ]
+            }
+        ],
+        "dataOwner": "p-8397553",
+        "schemaViolations": 0,
+        "schemaViolationMessages": [],
+        "quality": 3517.0
+    },
+    {
+        "rdf:type": "dcat:Dataset",
+        "dct:identifier": "870db5d6-0cfa-4ea2-92d7-3d8b813f6149",
+        "schema:image": "https://prod-blwch-hcms-sdweb.imgix.net/dam/en/sd-web/nPO3NMseA8L3/HOME_Setzlinge_anpflanzen%20low.jpg?auto=format&w=2048",
+        "dct:title": {
+            "de": "Test Dataset 20260729 ",
+            "fr": "FR_Test Dataset 20260729",
+            "it": "IT_Test Dataset 20260729",
+            "en": "EN_Test Dataset 20260729"
+        },
+        "dct:description": {
+            "de": "Beschreibung Test Dataset 20260729",
+            "fr": "FR_Beschreibung Test Dataset 20260729",
+            "it": "IT_Beschreibung Test Dataset 20260729",
+            "en": "EN_Beschreibung Test Dataset 20260729"
+        },
+        "dct:accessRights": "PUBLIC",
+        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+        "dcat:contactPoint": {
+            "schema:name": "kontaktstelle",
+            "schema:email": "kontaktstelle@test.test"
+        },
+        "dct:issued": "2026-07-28",
+        "dcatap:availability": "TEMPORARY",
+        "dcat:keyword": [
+            "Acontrol",
+            "AGIS"
+        ],
+        "dct:accrualPeriodicity": "UNKNOWN",
+        "dct:modified": "2026-07-29",
+        "dcat:version": "0.2",
+        "adms:status": "workInProgress",
+        "bv:classification": "none",
+        "bv:personalData": "none",
+        "bv:typeOfData": "unstructuredData",
+        "bv:archivalValue": false,
+        "bv:externalCatalogs": [
+            {
+                "dcat:catalog": "I14Y"
+            },
+            {
+                "dcat:catalog": "opendata.swiss"
+            },
+            {
+                "dcat:catalog": "geocat.ch"
+            }
+        ],
+        "dcat:theme": [
+            "administration",
+            "agriculture"
+        ],
+        "dcat:landingPage": "https://www.example.com",
+        "dct:spatial": "SCHWEIZ",
+        "dct:temporal": {
+            "dcat:start_date": "2026-07-01",
+            "dcat:end_date": "2026-07-29"
+        },
+        "dcatap:applicableLegislation": [],
+        "prov:wasDerivedFrom": [],
+        "bv:geoIdentifier": "GeoIV Identifikator",
+        "schema:comment": "Zusätzliche Bemerkungen - nicht nur einsprachig?",
+        "bv:abrogation": "2026-07-31",
+        "dcat:inSeries": [],
+        "dct:replaces": [],
+        "dcat:distribution": [
+            {
+                "dct:identifier": "e9106efd-1303-456f-8827-8efac4ff3215",
+                "dcat:accessURL": "https://example.com",
+                "adms:status": "workInProgress",
+                "dcatap:availability": "TEMPORARY",
+                "dct:format": "test",
+                "dct:modified": "2026-07-29",
+                "dcat:downloadURL": "http://example.com",
+                "dct:title": {
+                    "de": "Distribution Test Dataset",
+                    "fr": "FR_Distribution Test Dataset",
+                    "it": "IT_Distribution Test Dataset",
+                    "en": "EN_Distribution Test Dataset"
+                },
+                "dct:description": {
+                    "de": "Beschreibung Distribution Test Dataset",
+                    "fr": "FR_Beschreibung Distribution Test Dataset",
+                    "it": "IT_Beschreibung Distribution Test Dataset",
+                    "en": "EN_Beschreibung Distribution Test Dataset"
+                },
+                "dct:conformsTo": "Entspricht nichts",
+                "dct:license": "terms_open",
+                "schema:comment": "Zusätzliche Bemerkungen Distribution. Nur Monolingual?",
+                "bv:dimensions": [
+                    "canton",
+                    "company",
+                    "contribution",
+                    "contributionType",
+                    "year"
+                ]
+            }
+        ],
+        "dataOwner": "p-1zlwbxsjd",
+        "schemaViolations": 0,
+        "schemaViolationMessages": [],
+        "quality": 3333.0
+    },
+    {
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "7079407c-c5df-430c-b6bf-75f9216c46b3",
         "schema:image": "https://fal.media/files/kangaroo/zC34KxmLbmI4fsz9Cit2k_7a22cfc79d1d47c88ffd23ca3e4d99a0.jpg",
         "dct:title": {
