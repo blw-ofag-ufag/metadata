@@ -3907,7 +3907,7 @@
         "quality": 1627.0
     },
     {
-        "rdf:type": "dcat:DatasetSeries",
+        "rdf:type": "datasetSeries",
         "schema:image": "https://prod-blwch-hcms-sdweb.imgix.net/dam/en/sd-web/nPO3NMseA8L3/HOME_Setzlinge_anpflanzen%20low.jpg?auto=format&w=2048",
         "dct:identifier": "7f4a2c91-6b3e-4d8f-9a12-5c7e8b6d4f30",
         "dct:title": {
@@ -3957,7 +3957,7 @@
         "dataOwner": null,
         "schemaViolations": 0,
         "schemaViolationMessages": [],
-        "quality": 1590.0
+        "quality": 1623.0
     },
     {
         "rdf:type": "dcat:Dataset",
