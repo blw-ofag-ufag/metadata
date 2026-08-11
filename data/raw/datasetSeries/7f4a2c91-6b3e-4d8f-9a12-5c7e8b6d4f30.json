@@ -1,5 +1,6 @@
 {
     "schema:image": "https://prod-blwch-hcms-sdweb.imgix.net/dam/en/sd-web/nPO3NMseA8L3/HOME_Setzlinge_anpflanzen%20low.jpg?auto=format&w=2048",
+    "rdf:type": "datasetSeries",
     "dct:identifier": "7f4a2c91-6b3e-4d8f-9a12-5c7e8b6d4f30",
     "dct:title": {
         "de": "Test Dataset Series 20260811",
