@@ -10,8 +10,6 @@
         "dcat:contactPoint",
         "dct:publisher",
         "adms:status",
-        "bv:classification",
-        "bv:personalData",
         "dct:creator"
     ],
     "properties": {
