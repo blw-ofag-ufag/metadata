@@ -68,13 +68,17 @@
     "dcat:start_date": "2026-07-01",
     "dcat:end_date": "2026-07-29"
   },
-  "dcatap:applicableLegislation": [],
-  "prov:wasDerivedFrom": [],
+  "dcatap:applicableLegislation": "https://www.example.com",
+  "prov:wasDerivedFrom": [
+    "8fd9f464-5421-4dba-82f7-06105d9dbeaa",
+    "c61f6636-f09f-433e-8612-4babd5a3a9f4"
+  ],
   "bv:geoIdentifier": "GeoIV Identifikator",
   "schema:comment": "Zusätzliche Bemerkungen - nicht nur einsprachig?",
   "bv:abrogation": "2026-07-31",
-  "dcat:inSeries": [],
-  "dct:replaces": [],
+  "dcat:inSeries": [
+    "series-direct-payments"
+  ],
   "dcat:distribution": [
     {
       "dct:identifier": "e9106efd-1303-456f-8827-8efac4ff3215",
@@ -107,5 +111,6 @@
         "year"
       ]
     }
-  ]
+  ],
+  "productType": "dataset"
 }
