@@ -1988,108 +1988,6 @@
     },
     {
         "rdf:type": "dcat:Dataset",
-        "dct:identifier": "870db5d6-0cfa-4ea2-92d7-3d8b813f6149",
-        "schema:image": "https://prod-blwch-hcms-sdweb.imgix.net/dam/en/sd-web/nPO3NMseA8L3/HOME_Setzlinge_anpflanzen%20low.jpg?auto=format&w=2048",
-        "dct:title": {
-            "de": "Test Dataset 20260729 ",
-            "fr": "FR_Test Dataset 20260729",
-            "it": "IT_Test Dataset 20260729",
-            "en": "EN_Test Dataset 20260729"
-        },
-        "dct:description": {
-            "de": "Beschreibung Test Dataset 20260729",
-            "fr": "FR_Beschreibung Test Dataset 20260729",
-            "it": "IT_Beschreibung Test Dataset 20260729",
-            "en": "EN_Beschreibung Test Dataset 20260729"
-        },
-        "dct:accessRights": "PUBLIC",
-        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
-        "dcat:contactPoint": {
-            "schema:name": "kontaktstelle",
-            "schema:email": "kontaktstelle@test.test"
-        },
-        "dct:issued": "2026-07-28",
-        "dcatap:availability": "TEMPORARY",
-        "dcat:keyword": [
-            "Acontrol",
-            "AGIS"
-        ],
-        "dct:accrualPeriodicity": "UNKNOWN",
-        "dct:modified": "2026-07-29",
-        "dcat:version": "0.2",
-        "adms:status": "workInProgress",
-        "bv:classification": "none",
-        "bv:personalData": "none",
-        "bv:typeOfData": "unstructuredData",
-        "bv:archivalValue": false,
-        "bv:externalCatalogs": [
-            {
-                "dcat:catalog": "I14Y"
-            },
-            {
-                "dcat:catalog": "opendata.swiss"
-            },
-            {
-                "dcat:catalog": "geocat.ch"
-            }
-        ],
-        "dcat:theme": [
-            "administration",
-            "agriculture"
-        ],
-        "dcat:landingPage": "https://www.example.com",
-        "dct:spatial": "SCHWEIZ",
-        "dct:temporal": {
-            "dcat:start_date": "2026-07-01",
-            "dcat:end_date": "2026-07-29"
-        },
-        "dcatap:applicableLegislation": [],
-        "prov:wasDerivedFrom": [],
-        "bv:geoIdentifier": "GeoIV Identifikator",
-        "schema:comment": "Zusätzliche Bemerkungen - nicht nur einsprachig?",
-        "bv:abrogation": "2026-07-31",
-        "dcat:inSeries": [],
-        "dct:replaces": [],
-        "dcat:distribution": [
-            {
-                "dct:identifier": "e9106efd-1303-456f-8827-8efac4ff3215",
-                "dcat:accessURL": "https://example.com",
-                "adms:status": "workInProgress",
-                "dcatap:availability": "TEMPORARY",
-                "dct:format": "test",
-                "dct:modified": "2026-07-29",
-                "dcat:downloadURL": "http://example.com",
-                "dct:title": {
-                    "de": "Distribution Test Dataset",
-                    "fr": "FR_Distribution Test Dataset",
-                    "it": "IT_Distribution Test Dataset",
-                    "en": "EN_Distribution Test Dataset"
-                },
-                "dct:description": {
-                    "de": "Beschreibung Distribution Test Dataset",
-                    "fr": "FR_Beschreibung Distribution Test Dataset",
-                    "it": "IT_Beschreibung Distribution Test Dataset",
-                    "en": "EN_Beschreibung Distribution Test Dataset"
-                },
-                "dct:conformsTo": "Entspricht nichts",
-                "dct:license": "terms_open",
-                "schema:comment": "Zusätzliche Bemerkungen Distribution. Nur Monolingual?",
-                "bv:dimensions": [
-                    "canton",
-                    "company",
-                    "contribution",
-                    "contributionType",
-                    "year"
-                ]
-            }
-        ],
-        "dataOwner": "p-1zlwbxsjd",
-        "schemaViolations": 0,
-        "schemaViolationMessages": [],
-        "quality": 3333.0
-    },
-    {
-        "rdf:type": "dcat:Dataset",
         "dct:identifier": "7079407c-c5df-430c-b6bf-75f9216c46b3",
         "schema:image": "https://fal.media/files/kangaroo/zC34KxmLbmI4fsz9Cit2k_7a22cfc79d1d47c88ffd23ca3e4d99a0.jpg",
         "dct:title": {
@@ -3404,6 +3302,115 @@
     },
     {
         "rdf:type": "dcat:Dataset",
+        "dct:identifier": "870db5d6-0cfa-4ea2-92d7-3d8b813f6149",
+        "schema:image": "https://prod-blwch-hcms-sdweb.imgix.net/dam/en/sd-web/nPO3NMseA8L3/HOME_Setzlinge_anpflanzen%20low.jpg?auto=format&w=2048",
+        "dct:title": {
+            "de": "Test Dataset 20260729 ",
+            "fr": "FR_Test Dataset 20260729",
+            "it": "IT_Test Dataset 20260729",
+            "en": "EN_Test Dataset 20260729"
+        },
+        "dct:description": {
+            "de": "Beschreibung Test Dataset 20260729",
+            "fr": "FR_Beschreibung Test Dataset 20260729",
+            "it": "IT_Beschreibung Test Dataset 20260729",
+            "en": "EN_Beschreibung Test Dataset 20260729"
+        },
+        "dct:accessRights": "PUBLIC",
+        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+        "dcat:contactPoint": {
+            "schema:name": "kontaktstelle",
+            "schema:email": "kontaktstelle@test.test"
+        },
+        "dct:issued": "2026-07-28",
+        "dcatap:availability": "TEMPORARY",
+        "dcat:keyword": [
+            "Acontrol",
+            "AGIS"
+        ],
+        "dct:accrualPeriodicity": "UNKNOWN",
+        "dct:modified": "2026-07-29",
+        "dcat:version": "0.2",
+        "adms:status": "workInProgress",
+        "bv:classification": "none",
+        "bv:personalData": "none",
+        "bv:typeOfData": "unstructuredData",
+        "bv:archivalValue": false,
+        "bv:externalCatalogs": [
+            {
+                "dcat:catalog": "I14Y"
+            },
+            {
+                "dcat:catalog": "opendata.swiss"
+            },
+            {
+                "dcat:catalog": "geocat.ch"
+            }
+        ],
+        "dcat:theme": [
+            "administration",
+            "agriculture"
+        ],
+        "dcat:landingPage": "https://www.example.com",
+        "dct:spatial": "SCHWEIZ",
+        "dct:temporal": {
+            "dcat:start_date": "2026-07-01",
+            "dcat:end_date": "2026-07-29"
+        },
+        "dcatap:applicableLegislation": "https://www.example.com",
+        "prov:wasDerivedFrom": [
+            "8fd9f464-5421-4dba-82f7-06105d9dbeaa",
+            "c61f6636-f09f-433e-8612-4babd5a3a9f4"
+        ],
+        "bv:geoIdentifier": "GeoIV Identifikator",
+        "schema:comment": "Zusätzliche Bemerkungen - nicht nur einsprachig?",
+        "bv:abrogation": "2026-07-31",
+        "dcat:inSeries": [
+            "series-direct-payments"
+        ],
+        "dcat:distribution": [
+            {
+                "dct:identifier": "e9106efd-1303-456f-8827-8efac4ff3215",
+                "dcat:accessURL": "https://example.com",
+                "adms:status": "workInProgress",
+                "dcatap:availability": "TEMPORARY",
+                "dct:format": "test",
+                "dct:modified": "2026-07-29",
+                "dcat:downloadURL": "http://example.com",
+                "dct:title": {
+                    "de": "Distribution Test Dataset",
+                    "fr": "FR_Distribution Test Dataset",
+                    "it": "IT_Distribution Test Dataset",
+                    "en": "EN_Distribution Test Dataset"
+                },
+                "dct:description": {
+                    "de": "Beschreibung Distribution Test Dataset",
+                    "fr": "FR_Beschreibung Distribution Test Dataset",
+                    "it": "IT_Beschreibung Distribution Test Dataset",
+                    "en": "EN_Beschreibung Distribution Test Dataset"
+                },
+                "dct:conformsTo": "Entspricht nichts",
+                "dct:license": "terms_open",
+                "schema:comment": "Zusätzliche Bemerkungen Distribution. Nur Monolingual?",
+                "bv:dimensions": [
+                    "canton",
+                    "company",
+                    "contribution",
+                    "contributionType",
+                    "year"
+                ]
+            }
+        ],
+        "productType": "dataset",
+        "dataOwner": "p-1zlwbxsjd",
+        "schemaViolations": 1,
+        "schemaViolationMessages": [
+            "'https://www.example.com' is not of type 'array', 'null'"
+        ],
+        "quality": 1741.5
+    },
+    {
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "da3e4a88-519c-4799-b1a8-d8b148760f48",
         "dct:title": {
             "de": "Betriebliche Jahresmilchleistung",
@@ -3716,6 +3723,60 @@
             "'' does not match '^[a-zA-Z0-9_\\\\-\\\\s\\\\(\\\\)\\\\.\\\\,\\\\:\\\\/\\\\u00A0-\\\\u017F\\\\\\'\\\\\"\\\\?\\\\!\\\\%\\\\&\\\\+\\\\@]{5,100}$'"
         ],
         "quality": 1692.3333333333333
+    },
+    {
+        "rdf:type": "datasetSeries",
+        "schema:image": "https://prod-blwch-hcms-sdweb.imgix.net/dam/en/sd-web/nPO3NMseA8L3/HOME_Setzlinge_anpflanzen%20low.jpg?auto=format&w=2048",
+        "dct:identifier": "7f4a2c91-6b3e-4d8f-9a12-5c7e8b6d4f30",
+        "dct:title": {
+            "de": "Test Dataset Series 20260811",
+            "fr": "FR_Test Dataset Series 20260811",
+            "it": "IT_Test Dataset Series 20260811",
+            "en": "EN_Test Dataset Series 20260811"
+        },
+        "dct:description": {
+            "de": "Beschreibung Test Dataset Series 20260811",
+            "fr": "FR_Beschreibung Test Dataset Series 20260811",
+            "it": "IT_Beschreibung Test Dataset Series 20260811",
+            "en": "EN_Beschreibung Test Dataset Series 20260811"
+        },
+        "dcat:contactPoint": {
+            "schema:name": "kontaktstelle",
+            "schema:email": "kontaktstelle@test.test"
+        },
+        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+        "dct:creator": {
+            "prov:agent": "p-1zlwbxsjd",
+            "schema:name": "vorname nachname",
+            "schema:email": "test@pascal.test",
+            "dcat:hadRole": "dataSteward"
+        },
+        "adms:status": "workInProgress",
+        "dcat:version": "0.1.0",
+        "dcat:dataset": [
+            "d9b36866-919c-4abb-9b2c-a03f9f951fb4"
+        ],
+        "foaf:page": [
+            {
+                "alias": "Example website",
+                "uri": "https://www.example.com"
+            }
+        ],
+        "schema:comment": "Test dataset series for local validation.",
+        "dcat:keyword": [
+            "Acontrol",
+            "AGIS",
+            "Test"
+        ],
+        "dcatap:applicableLegislation": [
+            "https://www.fedlex.admin.ch/"
+        ],
+        "bv:classification": "none",
+        "bv:personalData": "none",
+        "dataOwner": null,
+        "schemaViolations": 0,
+        "schemaViolationMessages": [],
+        "quality": 1662.0
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -5862,60 +5923,6 @@
             "'' does not match '^[a-zA-Z0-9_\\\\-\\\\s\\\\(\\\\)\\\\.\\\\,\\\\:\\\\/\\\\u00A0-\\\\u017F\\\\\\'\\\\\"\\\\?\\\\!\\\\%\\\\&\\\\+\\\\@]{5,100}$'"
         ],
         "quality": 1363.6666666666667
-    },
-    {
-        "rdf:type": "dcat:Dataset",
-        "dct:identifier": "cf998b64-8528-4b70-a88e-f1b6665e7355",
-        "dct:title": {
-            "de": "Finanzielle Mittel für die Direktzahlungen",
-            "fr": "Moyens financiers pour les paiements directs",
-            "it": "Mezzi finanziari per i pagamenti diretti"
-        },
-        "dct:description": {
-            "de": "Verteilung der jährlichen Direktzahlungen des Bundes an die Kantone aufgeschlüsselt nach Jahr, Beitragsart, Ganzjahres- oder Sömmerungsbetrieb und Zone.",
-            "fr": "Répartition des paiements directs annuels versés par la Confédération aux cantons, ventilés par année, type de contribution, exploitation à l'année ou d'estivage et zone.",
-            "it": "Ripartizione dei pagamenti diretti annuali della Confederazione ai Cantoni, suddivisi per anno, tipo di contributo, azienda a tempo pieno o di estivazione e zona."
-        },
-        "dct:accessRights": "PUBLIC",
-        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
-        "dcat:contactPoint": {
-            "schema:name": "FB Direktzahlungsgrundlagen",
-            "schema:email": "keine.direkte@organisations.mail"
-        },
-        "dct:issued": "2015-10-31T23:00:00.000Z",
-        "dcat:keyword": [
-            "AGIS",
-            "agriculture",
-            "alpine-farming",
-            "cantonal-identifier",
-            "contribution-year",
-            "zoning"
-        ],
-        "dct:accrualPeriodicity": "ANNUAL",
-        "dct:modified": "2026-02-28T23:00:00.000Z",
-        "adms:status": "workInProgress",
-        "bv:classification": "none",
-        "bv:personalData": "none",
-        "bv:typeOfData": "secondaryThematicData",
-        "bv:archivalValue": false,
-        "dcat:theme": [
-            "agriculture",
-            "politics"
-        ],
-        "dcat:landingPage": "https://data-blw-test.ebp.ch/de/2025-finanzielle-mittel-fuer-direktzahlungen-review",
-        "dct:spatial": "Switzerland",
-        "dct:temporal": {
-            "dcat:end_date": "2025-12-30T23:00:00.000Z"
-        },
-        "prov:wasGeneratedBy": "Datenportal",
-        "schema:comment": "Datensatz als Beispiel, wie die Datenprodukte im Datenportal erfasst werden können.\nGrundsätzlich soll ein Datensatz erfasst werden, der möglichst über lange Zeit stabil ist. \nWürden die Daten direkt aggregiert aus AGIS, wäre der BI-Report eine Distribution. Da aber aus Sicherheitsgründen ein separater Datensatz erstellt wird, muss dieser (leider) separat erfasst werden.\nWenn FBKS die Rolle als Verantwortliche für das Datenportal übernimmt, könnte ein Dataset Datenportal erstellt werden und sämtliche Datenprodukte darin als Distributionen.",
-        "bv:itSystem": "AGIS",
-        "dataOwner": null,
-        "schemaViolations": 1,
-        "schemaViolationMessages": [
-            "'prov:agent' is a required property"
-        ],
-        "quality": 1310.0
     },
     {
         "rdf:type": "dcat:Dataset",
