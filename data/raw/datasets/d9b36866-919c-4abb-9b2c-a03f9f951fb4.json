@@ -14,8 +14,7 @@
   "dct:accessRights": "PUBLIC",
   "dct:publisher": "BLW-OFAG-UFAG-FOAG",
   "dcat:contactPoint": {
-    "schema:name": "Fachbereich Direktzahlungsgrundlagen",
-    "schema:email": "NoEmail@provid.ed"
+    "schema:name": "Fachbereich Direktzahlungsgrundlagen"
   },
   "dct:issued": "2015-01-01",
   "dcatap:availability": "STABLE",
@@ -33,7 +32,7 @@
   "dcat:version": "1.0",
   "prov:qualifiedAttribution": [
     {
-      "prov:agent": "p-4632041",
+      "prov:agent": "p-4632042",
       "schema:name": "Jonas Plattner",
       "dcat:hadRole": "dataSteward"
     },
