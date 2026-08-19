@@ -58,7 +58,9 @@
     "dcat:start_date": "2015-01-01",
     "dcat:end_date": "2025-01-01"
   },
-  "dcatap:applicableLegislation": ["https://www.fedlex.admin.ch/eli/cc/2013/765/de"],
+  "dcatap:applicableLegislation": [
+    "https://www.fedlex.admin.ch/eli/cc/2013/765/de"
+  ],
   "dcat:distribution": [
     {
       "dct:identifier": "ea0ada27-169b-4fce-8f75-50e7ffcf3903",
@@ -68,8 +70,9 @@
       "dct:format": "csv",
       "dct:modified": "2026-06-16",
       "dct:title": {
-        "de": "Alle Daten",
-        "fr": "Toutes les données"
+        "de": "Finanzielle Mittel für Direktzahlungen. Alle Daten",
+        "fr": "Moyens financiers pour les paiements directs. Toutes les données",
+        "it": "Mezzi finanziari per i pagamenti diretti. Tutti i dati"
       },
       "dct:description": {
         "de": "Distribution enthält die kantonalen Direktzahlungsbeträge aufgeschlüsselt nach Jahr, Beitragsart, Kanton, Ganzjahresbetrieb oder Sömmerung und Zone.",
@@ -85,5 +88,6 @@
         "zone"
       ]
     }
-  ]
+  ],
+  "productType": "dataset"
 }
