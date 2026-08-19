@@ -1963,8 +1963,9 @@
                 "dct:format": "csv",
                 "dct:modified": "2026-06-16",
                 "dct:title": {
-                    "de": "Alle Daten",
-                    "fr": "Toutes les données"
+                    "de": "Finanzielle Mittel für Direktzahlungen. Alle Daten",
+                    "fr": "Moyens financiers pour les paiements directs. Toutes les données",
+                    "it": "Mezzi finanziari per i pagamenti diretti. Tutti i dati"
                 },
                 "dct:description": {
                     "de": "Distribution enthält die kantonalen Direktzahlungsbeträge aufgeschlüsselt nach Jahr, Beitragsart, Kanton, Ganzjahresbetrieb oder Sömmerung und Zone.",
@@ -1981,10 +1982,11 @@
                 ]
             }
         ],
+        "productType": "dataset",
         "dataOwner": "p-8397553",
         "schemaViolations": 0,
         "schemaViolationMessages": [],
-        "quality": 3517.0
+        "quality": 3711.0
     },
     {
         "rdf:type": "dcat:Dataset",
