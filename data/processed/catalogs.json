@@ -1,0 +1,94 @@
+[
+    {
+        "rdf:type": "dcat:Catalog",
+        "dct:identifier": "530698ca-262a-4123-8682-ad260f3e0fec",
+        "dct:title": {
+            "de": "I14Y - Metadatenplattform für die Schweiz",
+            "fr": "I14Y - Catalogue des métadonnées de la Suisse",
+            "it": "I14Y - Catalogo svizzero dei metadati",
+            "en": "I14Y - Metadata catalog of Switzerland"
+        },
+        "dct:description": {
+            "de": "Auf der Interoperabilitätsplattform I14Y können Behörden aller föderalen Ebenen ihre Datensätze, elektronischen Schnittstellen (APIs) und Behördenleistungen mittels Metadaten beschreiben und so auffindbar machen. Über die globale Suche finden Sie alle Objekte des Metadatenkatalogs. Ausserdem werden Ihnen die Datensätze der Metadatenportalen opendata.swiss und geocat.ch angezeigt.",
+            "fr": "Les autorités de tous les niveaux de l’État fédéral peuvent décrire leurs jeux de données, leurs interfaces de programmation d’application (API) et leurs prestations sur la plateforme d’interopérabilité I14Y. La description se fait au moyen de métadonnées qui permettent de facilement trouver ces jeux de données. Avec la fonction de recherche globale, vous affichez des résultats dans l’ensemble des métadonnées I14Y ainsi que dans les jeux de données des portails opendata.swiss et geocat.ch.",
+            "it": "Sulla piattaforma di interoperabilità I14Y, attraverso i metadati le autorità di tutti i livelli federali possono descrivere i propri set di dati, interfacce elettroniche (API) e servizi pubblici offerti, e quindi renderli reperibili. Tramite la ricerca globale è possibile trovare tutti gli oggetti del catalogo di metadati. Vengono inoltre visualizzati i set di dati dei portali di metadati opendata.swiss e geocat.ch.",
+            "en": "The I14Y interoperability platform is Switzerland’s national data catalogue. It ensures the efficient exchange of data between authorities, companies and citizens. In the platform, an overview of the data collections and interfaces of the Confederation, cantons and communes is continuously expanded and their metadata are made available centrally."
+        },
+        "dct:accessRights": "PUBLIC",
+        "dct:publisher": "BFS-OFS-UST-FSO",
+        "dcat:contactPoint": {
+            "schema:name": "I14Y Contact Point",
+            "schema:email": "i14y@bfs.admin.ch"
+        },
+        "foaf:homepage": "https://www.i14y.admin.ch/",
+        "dcat:dataset": [],
+        "dcat:service": [],
+        "dataOwner": null,
+        "schemaViolations": 0,
+        "schemaViolationMessages": [],
+        "quality": 2347.0
+    },
+    {
+        "rdf:type": "dcat:Catalog",
+        "dct:identifier": "379a9779-fa7c-49ab-938d-0e9945713c43",
+        "dct:title": {
+            "de": "opendata.swiss",
+            "fr": "opendata.swiss",
+            "it": "opendata.swiss",
+            "en": "opendata.swiss"
+        },
+        "dct:description": {
+            "de": "opendata.swiss ist das zentrale Portal für offene, d.h. frei zugängliche Daten der Schweizer Behörden (Open Government Data, OGD).",
+            "fr": "opendata.swiss est le portail central répertoriant les données en libre accès («Open Government Data» ou «OGD») de l’administration publique suisse.",
+            "it": "opendata.swiss è il portale centrale in cui sono archiviati i dati liberamente accessibili («open government data» o «OGD») dell’amministrazione pubblica svizzera.",
+            "en": "opendata.swiss is the Swiss public administration’s central portal for open government data."
+        },
+        "dct:accessRights": "PUBLIC",
+        "dct:publisher": "BFS-OFS-UST-FSO",
+        "dcat:contactPoint": {
+            "schema:name": "opendata.swiss Contact Point",
+            "schema:email": "opendata@bfs.admin.ch"
+        },
+        "foaf:homepage": "https://opendata.swiss/",
+        "dcat:dataset": [],
+        "dcat:service": [],
+        "dataOwner": null,
+        "schemaViolations": 0,
+        "schemaViolationMessages": [],
+        "quality": 1150.0
+    },
+    {
+        "rdf:type": "dcat:Catalog",
+        "dct:identifier": "9dd04e9f-642a-4e2a-8664-046db10256fe",
+        "dct:title": {
+            "de": "geocat.ch",
+            "fr": "geocat.ch",
+            "it": "geocat.ch",
+            "en": "geocat.ch"
+        },
+        "dct:description": {
+            "de": "geocat.ch dokumentiert die Geodaten, die Geodienste und die Modelle von Bundesämtern, Kantonen, Gemeinden, vom Fürstentum Liechtenstein, von Forschungsinstituten, privaten Firmen. Er erlaubt eine schnelle Suche zu Informationen. Die Geometadaten, welche in geocat.ch enthalten sind, werden auch durch andere Portale genutzt, wie durch map.geo.admin.ch, opendata.swiss oder INSPIRE.",
+            "fr": "geocat.ch documente les géodonnées, les géoservices et les modèles des offices fédéraux, des cantons, des communes, de la Principauté du Liechtenstein, des instituts de recherche, des entreprises privées. Il permet une recherche rapide d'informations. Les géométadonnées contenues dans geocat.ch sont également utilisées par d'autres portails, tels que map.geo.admin.ch, opendata.swiss ou INSPIRE.",
+            "it": "geocat.ch documenta geodati, geoservizi e modelli di uffici federali, cantoni, comuni, Principato del Liechtenstein, istituti di ricerca, aziende private. Consente una ricerca rapida di informazioni. I geometadati contenuti in geocat.ch sono utilizzati anche da altri portali, come map.geo.admin.ch, opendata.swiss o INSPIRE.",
+            "en": "geocat.ch documents geodata, geoservices and models of federal offices, cantons, municipalities, the Principality of Liechtenstein, research institutes, private companies. It allows a quick search for information. The geometadata contained in geocat.ch are also used by other portals, such as map.geo.admin.ch, opendata.swiss or INSPIRE."
+        },
+        "dct:accessRights": "PUBLIC",
+        "dct:publisher": "swisstopo",
+        "dcat:contactPoint": {
+            "schema:name": "geocat.ch Contact Point",
+            "schema:email": "geocat@swisstopo.ch"
+        },
+        "foaf:homepage": "https://www.geocat.ch/",
+        "dcat:dataset": [],
+        "dcat:service": [],
+        "dataOwner": null,
+        "schemaViolations": 4,
+        "schemaViolationMessages": [
+            "'geocat.ch' does not match '^[a-zA-Z0-9_\\\\-\\\\s\\\\(\\\\)\\\\.\\\\,\\\\:\\\\/\\\\u00A0-\\\\u017F\\\\\\'\\\\\"\\\\?\\\\!\\\\%\\\\&\\\\+\\\\@]{10,100}$'",
+            "'geocat.ch' does not match '^[a-zA-Z0-9_\\\\-\\\\s\\\\(\\\\)\\\\.\\\\,\\\\:\\\\/\\\\u00A0-\\\\u017F\\\\\\'\\\\\"\\\\?\\\\!\\\\%\\\\&\\\\+\\\\@]{10,100}$'",
+            "'geocat.ch' does not match '^[a-zA-Z0-9_\\\\-\\\\s\\\\(\\\\)\\\\.\\\\,\\\\:\\\\/\\\\u00A0-\\\\u017F\\\\\\'\\\\\"\\\\?\\\\!\\\\%\\\\&\\\\+\\\\@]{10,100}$'",
+            "'geocat.ch' does not match '^[a-zA-Z0-9_\\\\-\\\\s\\\\(\\\\)\\\\.\\\\,\\\\:\\\\/\\\\u00A0-\\\\u017F\\\\\\'\\\\\"\\\\?\\\\!\\\\%\\\\&\\\\+\\\\@]{10,100}$'"
+        ],
+        "quality": 403.4
+    }
+]

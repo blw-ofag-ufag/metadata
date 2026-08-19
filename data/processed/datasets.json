@@ -3329,8 +3329,8 @@
             "AGIS"
         ],
         "dct:accrualPeriodicity": "UNKNOWN",
-        "dct:modified": "2026-07-29",
-        "dcat:version": "0.2",
+        "dct:modified": "2026-08-12",
+        "dcat:version": "0.3",
         "adms:status": "workInProgress",
         "bv:classification": "none",
         "bv:personalData": "none",
@@ -3723,60 +3723,6 @@
             "'' does not match '^[a-zA-Z0-9_\\\\-\\\\s\\\\(\\\\)\\\\.\\\\,\\\\:\\\\/\\\\u00A0-\\\\u017F\\\\\\'\\\\\"\\\\?\\\\!\\\\%\\\\&\\\\+\\\\@]{5,100}$'"
         ],
         "quality": 1692.3333333333333
-    },
-    {
-        "rdf:type": "datasetSeries",
-        "schema:image": "https://prod-blwch-hcms-sdweb.imgix.net/dam/en/sd-web/nPO3NMseA8L3/HOME_Setzlinge_anpflanzen%20low.jpg?auto=format&w=2048",
-        "dct:identifier": "7f4a2c91-6b3e-4d8f-9a12-5c7e8b6d4f30",
-        "dct:title": {
-            "de": "Test Dataset Series 20260811",
-            "fr": "FR_Test Dataset Series 20260811",
-            "it": "IT_Test Dataset Series 20260811",
-            "en": "EN_Test Dataset Series 20260811"
-        },
-        "dct:description": {
-            "de": "Beschreibung Test Dataset Series 20260811",
-            "fr": "FR_Beschreibung Test Dataset Series 20260811",
-            "it": "IT_Beschreibung Test Dataset Series 20260811",
-            "en": "EN_Beschreibung Test Dataset Series 20260811"
-        },
-        "dcat:contactPoint": {
-            "schema:name": "kontaktstelle",
-            "schema:email": "kontaktstelle@test.test"
-        },
-        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
-        "dct:creator": {
-            "prov:agent": "p-1zlwbxsjd",
-            "schema:name": "vorname nachname",
-            "schema:email": "test@pascal.test",
-            "dcat:hadRole": "dataSteward"
-        },
-        "adms:status": "workInProgress",
-        "dcat:version": "0.1.0",
-        "dcat:dataset": [
-            "d9b36866-919c-4abb-9b2c-a03f9f951fb4"
-        ],
-        "foaf:page": [
-            {
-                "alias": "Example website",
-                "uri": "https://www.example.com"
-            }
-        ],
-        "schema:comment": "Test dataset series for local validation.",
-        "dcat:keyword": [
-            "Acontrol",
-            "AGIS",
-            "Test"
-        ],
-        "dcatap:applicableLegislation": [
-            "https://www.fedlex.admin.ch/"
-        ],
-        "bv:classification": "none",
-        "bv:personalData": "none",
-        "dataOwner": null,
-        "schemaViolations": 0,
-        "schemaViolationMessages": [],
-        "quality": 1662.0
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -10546,6 +10492,102 @@
             "\"Inscriptions aux programmes de paiements directs, aux PER, à l'utilisation fourragère NPR et aux organes de contrôle\" does not match '^[a-zA-Z0-9_\\\\-\\\\s\\\\(\\\\)\\\\.\\\\,\\\\:\\\\/\\\\u00A0-\\\\u017F\\\\\\'\\\\\"\\\\?\\\\!\\\\%\\\\&\\\\+\\\\@]{10,100}$'"
         ],
         "quality": 942.0
+    },
+    {
+        "rdf:type": "dcat:Dataset",
+        "dct:identifier": "ba625f6c-34ac-4613-a5b4-d6e66a6b0d8d",
+        "schema:image": "https://data.blw.admin.ch/_ipx/f_webp&q_80&s_1920x1080/https://prod-datablwadmin-hcms-sdweb.imgix.net/2026/06/18/f0b835c5-7d0a-430d-ae49-a8594f13b8ba.jpg",
+        "dct:title": {
+            "de": "Ressourceneffizienzbeiträge",
+            "fr": "Toutes les données",
+            "it": "Contributi per l’efficienza delle risorse"
+        },
+        "dct:description": {
+            "de": "Ressourceneffizienzbeiträge unterstützen den effizienten Einsatz von Produktionsmitteln und damit die nachhaltige Nutzung natürlicher Ressourcen. 2025 wurden rund 4,2 Millionen Franken ausbezahlt.",
+            "fr": "Les contributions à l’utilisation efficiente des ressources encouragent l’utilisation efficiente des moyens de production et donc l’utilisation durable des ressources naturelles. En 2025, un montant de 4,2 millions de francs a été alloué à ces contributions.",
+            "it": "I contributi per l’efficienza delle risorse (CER) promuovono l’impiego efficiente dei mezzi di produzione e, pertanto, l’utilizzo sostenibile delle risorse naturali. Nel 2025 sono stati erogati CER per un importo di circa 4,2 milioni di franchi."
+        },
+        "dct:accessRights": "PUBLIC",
+        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+        "dcat:contactPoint": {
+            "schema:name": "Fachbereich Direktzahlungsgrundlagen"
+        },
+        "dct:issued": "2015-01-01",
+        "dcatap:availability": "STABLE",
+        "dcat:keyword": [
+            "alpine-economy",
+            "animals",
+            "cantonal-identifier",
+            "contribution-year",
+            "data",
+            "structural-data",
+            "zoning"
+        ],
+        "dct:accrualPeriodicity": "ANNUAL",
+        "dct:modified": "2026-06-16",
+        "dcat:version": "1.0",
+        "adms:status": "published",
+        "bv:classification": "none",
+        "bv:personalData": "none",
+        "bv:typeOfData": "secondaryThematicData",
+        "bv:archivalValue": false,
+        "bv:externalCatalogs": [
+            {
+                "dcat:catalog": "I14Y"
+            },
+            {
+                "dcat:catalog": "opendata.swiss"
+            }
+        ],
+        "dcat:theme": [
+            "agriculture"
+        ],
+        "dcat:landingPage": "https://data.blw.admin.ch/de/2025-ressourceneffizienzbeitraege",
+        "dct:spatial": "Schweiz",
+        "dct:temporal": {
+            "dcat:start_date": "2015-01-01",
+            "dcat:end_date": "2025-01-01"
+        },
+        "dcat:inSeries": [
+            "agrarbericht"
+        ],
+        "dcat:distribution": [
+            {
+                "dct:identifier": "2ca61f03-c48c-4c9c-9a3b-275479acdf4f",
+                "dcat:accessURL": "https://data.blw.admin.ch/de/2025-ressourceneffizienzbeitraege",
+                "adms:status": "published",
+                "dcatap:availability": "STABLE",
+                "dct:format": "csv",
+                "dct:modified": "2026-06-16",
+                "dct:title": {
+                    "de": "Ressourceneffizienzbeiträge alle Daten",
+                    "fr": "Contribution à l'utilisation efficiente des ressources toutes les données",
+                    "it": "Contributi per l’efficienza delle risorse tutti i dati"
+                },
+                "dct:description": {
+                    "de": "Distribution enthält die Ressourceneffizienzbeiträge aufgeschlüsselt nach Jahr, Beitragsart, Kanton, Zone, Betriebe, Fläche in ha und GVE.",
+                    "fr": "Contient les montants des contributions, ventilés par tannée, type de contribution, canton, zone, surface en ha et UGB",
+                    "it": "Contiene gli contributi suddivisi per anno, tipo di contributo, cantone, zona, aziende, superficie in ha e UBG."
+                },
+                "dct:license": "terms_by",
+                "bv:dimensions": [
+                    "canton",
+                    "company",
+                    "contribution",
+                    "contributionType",
+                    "year",
+                    "zone"
+                ]
+            }
+        ],
+        "dataOwner": "p-8397553",
+        "schemaViolations": 3,
+        "schemaViolationMessages": [
+            "'Contributi per l’efficienza delle risorse' does not match '^[a-zA-Z0-9_\\\\-\\\\s\\\\(\\\\)\\\\.\\\\,\\\\:\\\\/\\\\u00A0-\\\\u017F\\\\\\'\\\\\"\\\\?\\\\!\\\\%\\\\&\\\\+\\\\@]{10,100}$'",
+            "'schema:email' is a required property",
+            "'Contributi per l’efficienza delle risorse tutti i dati' does not match '^[a-zA-Z0-9_\\\\-\\\\s\\\\(\\\\)\\\\.\\\\,\\\\:\\\\/\\\\u00A0-\\\\u017F\\\\\\'\\\\\"\\\\?\\\\!\\\\%\\\\&\\\\+\\\\@]{5,100}$'"
+        ],
+        "quality": 919.75
     },
     {
         "rdf:type": "dcat:Dataset",
