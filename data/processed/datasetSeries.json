@@ -52,5 +52,40 @@
         "schemaViolations": 0,
         "schemaViolationMessages": [],
         "quality": 1662.0
+    },
+    {
+        "rdf:type": "dcat:DatasetSeries",
+        "dct:identifier": "99788c8a-7971-4745-ae41-5eeda05ae636",
+        "schema:image": "https://data.blw.admin.ch/_ipx/f_webp&q_80&s_1920x1080/https://prod-datablwadmin-hcms-sdweb.imgix.net/2026/06/19/9caf747e-8c74-4909-8e12-2c7e055fde1d.jpg",
+        "dct:title": {
+            "de": "BLW-Datenportal",
+            "fr": "Portail de données de l OFAG",
+            "it": "Portale dati dell'UFAG"
+        },
+        "dct:description": {
+            "de": "Das offizielle Datenportal des Bundesamts für Landwirtschaft (BLW) bündelt aktuelle Daten und Analysen zur Schweizer Land- und Ernährungswirtschaft.",
+            "fr": "Le portail de données officiel de l’Office fédéral de l’agriculture (OFAG) rassemble des données et des analyses actuelles sur l’agriculture et l’économie alimentaire suisses.",
+            "it": "Il portale dati ufficiale dell'Ufficio federale dell'agricoltura (UFAG) contiene dati aggiornati e analisi sulla filiera agroalimentare svizzera."
+        },
+        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+        "dcat:keyword": [
+            "data",
+            "agriculture"
+        ],
+        "dcat:version": "1.0",
+        "dcat:dataset": [
+            "d9b36866-919c-4abb-9b2c-a03f9f951fb4"
+        ],
+        "adms:status": "published",
+        "bv:classification": "none",
+        "bv:personalData": "none",
+        "dct:creator": "Sarah Kehrli",
+        "dataOwner": null,
+        "schemaViolations": 2,
+        "schemaViolationMessages": [
+            "'dcat:contactPoint' is a required property",
+            "'Sarah Kehrli' is not of type 'object'"
+        ],
+        "quality": 410.3333333333333
     }
 ]
