@@ -1,0 +1,29 @@
+{
+  "dct:identifier": "cd6941a4-4533-42cc-9353-9d7c3e7a5d5e",
+  "schema:image": "https://media.agridata.ch/Content_Digital_Feld_2298e55644.webp",
+  "dct:title": {
+    "de": "agridata.ch",
+    "fr": "agridata.ch",
+    "it": "agridata.ch"
+  },
+  "dct:description": {
+    "de": "agridata.ch ist ein Datenübertragungsdienst für den Schweizer Agrar- und Ernährungssektor. Der Datenübertragungsdienst ermöglicht den sicheren, vertrauenswürdigen Austausch von Daten zwischen Datenanbieter und Datenbezüger. Dies immer unter Vorbehalt der Zustimmung der Datenproduzenten.",
+    "fr": "agridata.ch est un service de transmission de données destiné au secteur agroalimentaire suisse. Ce service permet un échange sécurisé et fiable de données entre les fournisseurs et les utilisateurs, sous réserve de l'accord des producteurs de données.",
+    "it": "agridata.ch è un servizio di trasmissione dati per il settore agricolo e alimentare svizzero. Il servizio di trasmissione dati consente lo scambio sicuro e affidabile di dati tra fornitori e destinatari, sempre previa autorizzazione dei produttori dei dati."
+  },
+  "dct:accessRights": "RESTRICTED",
+  "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+  "dcat:contactPoint": {
+    "schema:name": "Fachbereich Datenraum und Datenmanagement",
+    "schema:email": "support@agridata.ch"
+  },
+  "dcat:version": "1.0",
+  "dcat:endpointURL": "https://api.agridata.ch/api/data-transfer/v2/product/{productId}/data",
+  "dcat:endpointDescription": "https://github.com/agridata-ch/.github/wiki/",
+  "adms:status": "published",
+  "bv:externalCatalogs": [
+    {
+      "dcat:catalog": "I14Y"
+    }
+  ]
+}
