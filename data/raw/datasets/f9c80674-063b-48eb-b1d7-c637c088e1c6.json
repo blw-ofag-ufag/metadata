@@ -1,5 +1,6 @@
 {
   "dct:identifier": "f9c80674-063b-48eb-b1d7-c637c088e1c6",
+  "schema:image": "https://data.blw.admin.ch/_ipx/f_webp&q_80&s_1920x1080/https://prod-datablwadmin-hcms-sdweb.imgix.net/2026/06/17/3e75c444-6c7e-4710-89d0-c8c18c2d197b.jpg",
   "dct:title": {
     "de": "Versorgungssicherheitsbeiträge",
     "fr": "Contributions à la sécurité de l'approvisionnement",
@@ -89,5 +90,6 @@
         "zone"
       ]
     }
-  ]
+  ],
+  "productType": "dataset"
 }
