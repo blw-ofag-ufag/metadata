@@ -75,7 +75,8 @@
         "dcat:version": "1.0",
         "dcat:dataset": [
             "d9b36866-919c-4abb-9b2c-a03f9f951fb4",
-            "ba625f6c-34ac-4613-a5b4-d6e66a6b0d8d"
+            "ba625f6c-34ac-4613-a5b4-d6e66a6b0d8d",
+            "a2d55aab-dcfb-40e9-bf4b-41cf012c8596"
         ],
         "adms:status": "published",
         "bv:classification": "none",
@@ -88,6 +89,6 @@
             "'dcat:contactPoint' is a required property",
             "'p-1YHZ3MMV2' is not of type 'object'"
         ],
-        "quality": 436.0
+        "quality": 450.6666666666667
     }
 ]
