@@ -20,7 +20,13 @@
   "dcat:dataset": [
     "d9b36866-919c-4abb-9b2c-a03f9f951fb4",
     "ba625f6c-34ac-4613-a5b4-d6e66a6b0d8d",
-    "a2d55aab-dcfb-40e9-bf4b-41cf012c8596"
+    "a2d55aab-dcfb-40e9-bf4b-41cf012c8596",
+    "a1deaa78-2313-4be7-815d-9d14dd331d39",
+    "f9c80674-063b-48eb-b1d7-c637c088e1c6",
+    "76a6ee65-066d-43a4-919f-167708dd12c4",
+    "c4ee3846-d081-40c9-aebd-4ecab0a4b614",
+    "a2d86a78-76fe-4d9b-9204-7c24e69d7682",
+    "34350fa5-d4ed-431a-b245-3365f51b8c47"
   ],
   "adms:status": "published",
   "bv:classification": "none",
