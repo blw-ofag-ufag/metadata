@@ -52,5 +52,49 @@
         "schemaViolations": 0,
         "schemaViolationMessages": [],
         "quality": 1662.0
+    },
+    {
+        "rdf:type": "dcat:DatasetSeries",
+        "dct:identifier": "99788c8a-7971-4745-ae41-5eeda05ae636",
+        "schema:image": "https://data.blw.admin.ch/_ipx/f_webp&q_80&s_1920x1080/https://prod-datablwadmin-hcms-sdweb.imgix.net/2026/06/19/9caf747e-8c74-4909-8e12-2c7e055fde1d.jpg",
+        "dct:title": {
+            "de": "BLW-Datenportal",
+            "fr": "Portail de données de l OFAG",
+            "it": "Portale dati dell'UFAG"
+        },
+        "dct:description": {
+            "de": "Das offizielle Datenportal des Bundesamts für Landwirtschaft (BLW) bündelt aktuelle Daten und Analysen zur Schweizer Land- und Ernährungswirtschaft.",
+            "fr": "Le portail de données officiel de l’Office fédéral de l’agriculture (OFAG) rassemble des données et des analyses actuelles sur l’agriculture et l’économie alimentaire suisses.",
+            "it": "Il portale dati ufficiale dell'Ufficio federale dell'agricoltura (UFAG) contiene dati aggiornati e analisi sulla filiera agroalimentare svizzera."
+        },
+        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+        "dcat:keyword": [
+            "data",
+            "agriculture"
+        ],
+        "dcat:version": "1.0",
+        "dcat:dataset": [
+            "d9b36866-919c-4abb-9b2c-a03f9f951fb4",
+            "ba625f6c-34ac-4613-a5b4-d6e66a6b0d8d",
+            "a2d55aab-dcfb-40e9-bf4b-41cf012c8596",
+            "a1deaa78-2313-4be7-815d-9d14dd331d39",
+            "f9c80674-063b-48eb-b1d7-c637c088e1c6",
+            "76a6ee65-066d-43a4-919f-167708dd12c4",
+            "c4ee3846-d081-40c9-aebd-4ecab0a4b614",
+            "a2d86a78-76fe-4d9b-9204-7c24e69d7682",
+            "34350fa5-d4ed-431a-b245-3365f51b8c47"
+        ],
+        "adms:status": "published",
+        "bv:classification": "none",
+        "bv:personalData": "none",
+        "dct:creator": "p-1YHZ3MMV2",
+        "productType": "datasetSeries",
+        "dataOwner": null,
+        "schemaViolations": 2,
+        "schemaViolationMessages": [
+            "'dcat:contactPoint' is a required property",
+            "'p-1YHZ3MMV2' is not of type 'object'"
+        ],
+        "quality": 538.6666666666666
     }
 ]

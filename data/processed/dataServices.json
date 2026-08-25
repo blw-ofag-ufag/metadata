@@ -1,1 +1,105 @@
-[]
+[
+    {
+        "rdf:type": "dcat:DataServices",
+        "dct:identifier": "cd6941a4-4533-42cc-9353-9d7c3e7a5d5e",
+        "schema:image": "https://media.agridata.ch/Content_Digital_Feld_2298e55644.webp",
+        "dct:title": {
+            "de": "agridata.ch",
+            "fr": "agridata.ch",
+            "it": "agridata.ch"
+        },
+        "dct:description": {
+            "de": "agridata.ch ist ein Datenübertragungsdienst für den Schweizer Agrar- und Ernährungssektor. Der Datenübertragungsdienst ermöglicht den sicheren, vertrauenswürdigen Austausch von Daten zwischen Datenanbieter und Datenbezüger. Dies immer unter Vorbehalt der Zustimmung der Datenproduzenten.",
+            "fr": "agridata.ch est un service de transmission de données destiné au secteur agroalimentaire suisse. Ce service permet un échange sécurisé et fiable de données entre les fournisseurs et les utilisateurs, sous réserve de l'accord des producteurs de données.",
+            "it": "agridata.ch è un servizio di trasmissione dati per il settore agricolo e alimentare svizzero. Il servizio di trasmissione dati consente lo scambio sicuro e affidabile di dati tra fornitori e destinatari, sempre previa autorizzazione dei produttori dei dati."
+        },
+        "dct:accessRights": "RESTRICTED",
+        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+        "dcat:contactPoint": {
+            "schema:name": "Fachbereich Datenraum und Datenmanagement",
+            "schema:email": "support@agridata.ch"
+        },
+        "dcat:version": "1.0",
+        "dcat:endpointURL": "https://api.agridata.ch/api/data-transfer/v2/product/{productId}/data",
+        "dcat:endpointDescription": "https://github.com/agridata-ch/.github/wiki/",
+        "adms:status": "published",
+        "bv:externalCatalogs": [
+            {
+                "dcat:catalog": "I14Y"
+            }
+        ],
+        "dataOwner": null,
+        "schemaViolations": 0,
+        "schemaViolationMessages": [],
+        "quality": 1637.0
+    },
+    {
+        "rdf:type": "dcat:DataServices",
+        "dct:identifier": "c4c494b0-0e7b-4fba-b086-898f10912fe0",
+        "schema:image": "https://www.datocms-assets.com/21252/1732545462-lebensmittel-im-detailhandel_pixabay.png?auto=format&fit=fill&h=556&w=1096",
+        "dct:title": {
+            "de": "Agrarmarktdaten.ch",
+            "fr": "https://www.donnees-agrimarche.ch/",
+            "it": "https://www.dati-agrimercato.ch/"
+        },
+        "dct:description": {
+            "de": "Dieses Datenportal stellt Ihnen laufend Informationen und Daten zum aktuellen Marktgeschehen der verschiedenen Agrar- und Lebensmittelmärkte zur Verfügung. Dabei finden Sie Preis- und Mengeninformationen entlang der Wertschöpfungskette von der Produktion bis zum Konsum. Sie können die Daten in Form von interaktiven Abbildungen oder via Datendownload für eigene Zwecke nutzen.",
+            "fr": "Ce portail de données vous fournit en continu des informations et des données sur l’évolution des différents marchés agricoles et alimentaires. Vous disposez ainsi d'informations sur les prix et les quantités tout au long des étapes de la chaîne de valeur, de la production à la consommation. Vous pouvez utiliser les données sous forme de graphiques interactifs ou via le téléchargement de données à des fins personnelles. ",
+            "it": "Questo portale di dati offre informazioni e dati correnti su quanto in atto sui vari mercati agricoli e alimentari. In tal modo si può ottenere una panoramica completa degli andamenti del mercato. Sono disponibili informazioni sui prezzi e sulle quantità a tutti i livelli della catena del valore, dalla produzione al consumo. I dati possono essere utilizzati sotto forma di grafici interattivi o scaricati per uso personale. "
+        },
+        "dct:accessRights": "PUBLIC",
+        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+        "dcat:contactPoint": {
+            "schema:name": "Fachbereich Agrardaten und Marktanalysen"
+        },
+        "dcat:version": "1.0",
+        "dcat:endpointURL": "https://www.agrarmarktdaten.ch/daten",
+        "dcat:endpointDescription": "https://www.agrarmarktdaten.ch/",
+        "adms:status": "published",
+        "bv:externalCatalogs": [
+            {
+                "dcat:catalog": "I14Y"
+            },
+            {
+                "dcat:catalog": "opendata.swiss"
+            }
+        ],
+        "dcat:landingPage": "https://www.agrarmarktdaten.ch/",
+        "dataOwner": null,
+        "schemaViolations": 2,
+        "schemaViolationMessages": [
+            "'schema:email' is a required property",
+            "'opendata.swiss' is not one of ['', 'I14Y']"
+        ],
+        "quality": 733.6666666666666
+    },
+    {
+        "rdf:type": "dcat:DataServices",
+        "dct:identifier": "a6092ba8-5084-4faa-bddf-c7f629db7001",
+        "schema:image": "https://digiagrifood.ch/wp-content/uploads/2024/07/Element-Ziellandkarte_Landwirte_ohne_webres-1024x826.png",
+        "dct:title": {
+            "de": "20260824_test_digiagrifood.ch",
+            "fr": "20260824_test_digiagrifood.ch"
+        },
+        "dct:description": {
+            "de": "test_digiagrifood.ch",
+            "fr": "test_digiagrifood.ch"
+        },
+        "dct:accessRights": "PUBLIC",
+        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+        "dcat:version": ".1",
+        "dcat:endpointURL": "https://digiagrifood.ch/",
+        "dcat:endpointDescription": "https://digiagrifood.ch/wp-content/uploads/2024/07/",
+        "dcat:servesDataset": [
+            "870db5d6-0cfa-4ea2-92d7-3d8b813f6149"
+        ],
+        "adms:status": "workInProgress",
+        "dcat:landingPage": "https://digiagrifood.ch/wp-content/",
+        "dataOwner": null,
+        "schemaViolations": 1,
+        "schemaViolationMessages": [
+            "'dcat:contactPoint' is a required property"
+        ],
+        "quality": 398.0
+    }
+]

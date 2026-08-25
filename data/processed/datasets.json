@@ -1904,90 +1904,6 @@
     },
     {
         "rdf:type": "dcat:Dataset",
-        "dct:identifier": "d9b36866-919c-4abb-9b2c-a03f9f951fb4",
-        "schema:image": "https://prod-blwch-hcms-sdweb.imgix.net/dam/en/sd-web/nPO3NMseA8L3/HOME_Setzlinge_anpflanzen%20low.jpg?auto=format&w=2048",
-        "dct:title": {
-            "de": "Finanzielle Mittel für Direktzahlungen",
-            "fr": "Moyens financiers pour les paiements directs",
-            "it": "Mezzi finanziari per i pagamenti diretti"
-        },
-        "dct:description": {
-            "de": "Nach Artikel 104 der Bundesverfassung hat die Landwirtschaft den Auftrag, gemeinwirtschaftliche Leistungen zu erbringen. Diese werden mit jeweils einer spezifischen Direktzahlungsart gefördert.",
-            "fr": "L’art. 104 de la Constitution fédérale donne mandat à l’agriculture de fournir des prestations d’intérêt général. Chacune de ces prestations est encouragée par un type de paiement direct spécifique.",
-            "it": "In virtù dell’articolo 104 della Costituzione federale, l’agricoltura ha il mandato legale di fornire prestazioni di interesse pubblico, ciascuna delle quali viene promossa mediante uno specifico tipo di pagamenti diretti."
-        },
-        "dct:accessRights": "PUBLIC",
-        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
-        "dcat:contactPoint": {
-            "schema:name": "Fachbereich Direktzahlungsgrundlagen",
-            "schema:email": "NoEmail@provid.ed"
-        },
-        "dct:issued": "2015-01-01",
-        "dcatap:availability": "STABLE",
-        "dcat:keyword": [
-            "AGIS",
-            "agriculture",
-            "alpine-farming",
-            "cantonal-identifier",
-            "mountain-management",
-            "product-category",
-            "zoning"
-        ],
-        "dct:accrualPeriodicity": "ANNUAL",
-        "dct:modified": "2026-06-16",
-        "dcat:version": "1.0",
-        "adms:status": "published",
-        "bv:classification": "none",
-        "bv:personalData": "none",
-        "bv:typeOfData": "secondaryThematicData",
-        "bv:archivalValue": false,
-        "dcat:theme": [
-            "agriculture",
-            "politics"
-        ],
-        "dcat:landingPage": "https://data.blw.admin.ch",
-        "dct:spatial": "Schweiz",
-        "dct:temporal": {
-            "dcat:start_date": "2015-01-01",
-            "dcat:end_date": "2025-01-01"
-        },
-        "dcatap:applicableLegislation": [
-            "https://www.fedlex.admin.ch/eli/cc/2013/765/de"
-        ],
-        "dcat:distribution": [
-            {
-                "dct:identifier": "ea0ada27-169b-4fce-8f75-50e7ffcf3903",
-                "dcat:accessURL": "https://data.blw.admin.ch/de/2025-finanzielle-mittel-fuer-direktzahlungen",
-                "adms:status": "published",
-                "dcatap:availability": "STABLE",
-                "dct:format": "csv",
-                "dct:modified": "2026-06-16",
-                "dct:title": {
-                    "de": "Alle Daten",
-                    "fr": "Toutes les données"
-                },
-                "dct:description": {
-                    "de": "Distribution enthält die kantonalen Direktzahlungsbeträge aufgeschlüsselt nach Jahr, Beitragsart, Kanton, Ganzjahresbetrieb oder Sömmerung und Zone.",
-                    "fr": "Contient les montants des paiements directs cantonaux, ventilés par année, type de contribution, canton, exploitation à l'année ou estivage et zone",
-                    "it": "Contiene gli importi dei pagamenti diretti cantonali suddivisi per anno, tipo di contributo, cantone, azienda a regime annuale o estivazione e zona."
-                },
-                "dct:license": "terms_by",
-                "bv:dimensions": [
-                    "canton",
-                    "company",
-                    "contribution",
-                    "year",
-                    "zone"
-                ]
-            }
-        ],
-        "dataOwner": "p-8397553",
-        "schemaViolations": 0,
-        "schemaViolationMessages": [],
-        "quality": 3517.0
-    },
-    {
-        "rdf:type": "dcat:Dataset",
         "dct:identifier": "7079407c-c5df-430c-b6bf-75f9216c46b3",
         "schema:image": "https://fal.media/files/kangaroo/zC34KxmLbmI4fsz9Cit2k_7a22cfc79d1d47c88ffd23ca3e4d99a0.jpg",
         "dct:title": {
@@ -2857,6 +2773,101 @@
     },
     {
         "rdf:type": "dcat:Dataset",
+        "dct:identifier": "34350fa5-d4ed-431a-b245-3365f51b8c47",
+        "schema:image": "https://data.blw.admin.ch/_ipx/f_webp&q_80&s_1920x1080/https://prod-datablwadmin-hcms-sdweb.imgix.net/2026/06/17/2f6998f4-022d-4c8b-bd95-908959d3f136.jpg",
+        "dct:title": {
+            "de": "Kulturlandschaftsbeiträge",
+            "fr": "Contributions au paysage cultivé",
+            "it": "Contributi per il paesaggio rurale"
+        },
+        "dct:description": {
+            "de": "Die Leistungen der Landwirtschaft zur Offenhaltung der Kulturlandschaft hat der Bund 2025 mit Kulturlandschaftsbeiträgen von 534 Millionen Franken gefördert, was rund zwei Millionen Franken weniger sind als im Vorjahr. Bei diesen Beiträgen gibt es nur geringe jährliche Veränderungen.",
+            "fr": "En 2025, la Confédération a soutenu, à l’aide de contributions au paysage cultivé, les prestations de l’agriculture pour le maintien d’un paysage cultivé ouvert pour un montant de 534 millions de francs, ce qui représente une baisse d’environ deux millions de francs par rapport à l’année précédente. Ces contributions ne varient que très peu d’une année à l’autre.",
+            "it": "Nel 2025 la Confederazione ha promosso le prestazioni fornite dall’agricoltura per la preservazione dell’apertura del paesaggio erogando 534 milioni di franchi, vale a dire circa 2 milioni in meno rispetto all’anno precedente. Per questi contributi le variazioni annuali sono esigue."
+        },
+        "dct:accessRights": "PUBLIC",
+        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+        "dcat:contactPoint": {
+            "schema:name": "Fachbereich Direktzahlungsgrundlagen"
+        },
+        "dct:issued": "2015-01-01",
+        "dcatap:availability": "STABLE",
+        "dcat:keyword": [
+            "AGIS",
+            "alpine-economy",
+            "contribution-year",
+            "data",
+            "direct-payments",
+            "cantonal-identifier",
+            "agriculture",
+            "gradient",
+            "subsidy",
+            "zoning"
+        ],
+        "dct:accrualPeriodicity": "ANNUAL",
+        "dct:modified": "2026-06-16",
+        "dcat:version": "1.0",
+        "adms:status": "published",
+        "bv:classification": "none",
+        "bv:personalData": "none",
+        "bv:typeOfData": "secondaryThematicData",
+        "bv:archivalValue": false,
+        "bv:externalCatalogs": [
+            {
+                "dcat:catalog": "I14Y"
+            },
+            {
+                "dcat:catalog": "opendata.swiss"
+            }
+        ],
+        "dcat:theme": [
+            "agriculture"
+        ],
+        "dcat:landingPage": "https://data.blw.admin.ch/de/2025-kulturlandschaftsbeitraege",
+        "dct:temporal": {
+            "dcat:start_date": "2015-01-01",
+            "dcat:end_date": "2025-01-01"
+        },
+        "dcat:inSeries": [
+            "99788c8a-7971-4745-ae41-5eeda05ae636&"
+        ],
+        "dcat:distribution": [
+            {
+                "dct:identifier": "b51989f1-b4c8-4e02-8798-d64428f54b96",
+                "dcat:accessURL": "https://data.blw.admin.ch/de/2025-kulturlandschaftsbeitraege",
+                "adms:status": "published",
+                "dcatap:availability": "STABLE",
+                "dct:format": "csb",
+                "dct:title": {
+                    "de": "Kulturlandschaftsbeiträge - alle Daten",
+                    "fr": "Contributions au paysage cultivé - toutes les données",
+                    "it": "Contributi per il paesaggio rurale - tutti i dati"
+                },
+                "dct:description": {
+                    "de": "Distribution enthält die Kulturlandschaftsbeiträge aufgeschlüsselt nach Jahr, Beitragsart, Kanton, Zone, Anzahl Betriebe, Fläche und NST.",
+                    "fr": "La distribution présente les contributions au paysage cultivé, ventilées par année, type de contribution, canton, zone, nombre d'exploitations, surface et PN.",
+                    "it": "La distribuzione contiene i contributi per il paesaggio rurale, suddivisi per anno, tipo di contributo, cantone, zona, numero di aziende, superficie e CN."
+                },
+                "dct:license": "terms_by",
+                "bv:dimensions": [
+                    "canton",
+                    "company",
+                    "contribution",
+                    "contributionType",
+                    "year",
+                    "zone"
+                ]
+            }
+        ],
+        "dataOwner": "p-8397553",
+        "schemaViolations": 1,
+        "schemaViolationMessages": [
+            "'schema:email' is a required property"
+        ],
+        "quality": 1997.0
+    },
+    {
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "7ccce734-3f96-411f-ac02-00d47328c5ec",
         "dct:title": {
             "de": "Tierbestände pro Tierkategorie und Betrieb",
@@ -2936,6 +2947,191 @@
         "schemaViolations": 0,
         "schemaViolationMessages": [],
         "quality": 1951.0
+    },
+    {
+        "rdf:type": "dcat:Dataset",
+        "dct:identifier": "d9b36866-919c-4abb-9b2c-a03f9f951fb4",
+        "schema:image": "https://prod-blwch-hcms-sdweb.imgix.net/dam/en/sd-web/nPO3NMseA8L3/HOME_Setzlinge_anpflanzen%20low.jpg?auto=format&w=2048",
+        "dct:title": {
+            "de": "Finanzielle Mittel für Direktzahlungen",
+            "fr": "Moyens financiers pour les paiements directs",
+            "it": "Mezzi finanziari per i pagamenti diretti"
+        },
+        "dct:description": {
+            "de": "Nach Artikel 104 der Bundesverfassung hat die Landwirtschaft den Auftrag, gemeinwirtschaftliche Leistungen zu erbringen. Diese werden mit jeweils einer spezifischen Direktzahlungsart gefördert.",
+            "fr": "L’art. 104 de la Constitution fédérale donne mandat à l’agriculture de fournir des prestations d’intérêt général. Chacune de ces prestations est encouragée par un type de paiement direct spécifique.",
+            "it": "In virtù dell’articolo 104 della Costituzione federale, l’agricoltura ha il mandato legale di fornire prestazioni di interesse pubblico, ciascuna delle quali viene promossa mediante uno specifico tipo di pagamenti diretti."
+        },
+        "dct:accessRights": "PUBLIC",
+        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+        "dcat:contactPoint": {
+            "schema:name": "Fachbereich Direktzahlungsgrundlagen"
+        },
+        "dct:issued": "2015-01-01",
+        "dcatap:availability": "STABLE",
+        "dcat:keyword": [
+            "AGIS",
+            "agriculture",
+            "alpine-farming",
+            "cantonal-identifier",
+            "mountain-management",
+            "product-category",
+            "zoning"
+        ],
+        "dct:accrualPeriodicity": "ANNUAL",
+        "dct:modified": "2026-06-16",
+        "dcat:version": "1.0",
+        "adms:status": "published",
+        "bv:classification": "none",
+        "bv:personalData": "none",
+        "bv:typeOfData": "secondaryThematicData",
+        "bv:archivalValue": false,
+        "bv:externalCatalogs": [
+            {
+                "dcat:catalog": "I14Y"
+            },
+            {
+                "dcat:catalog": "opendata.swiss"
+            }
+        ],
+        "dcat:theme": [
+            "agriculture",
+            "politics"
+        ],
+        "dcat:landingPage": "https://data.blw.admin.ch",
+        "dct:spatial": "Schweiz",
+        "dct:temporal": {
+            "dcat:start_date": "2015-01-01",
+            "dcat:end_date": "2025-01-01"
+        },
+        "dcatap:applicableLegislation": [
+            "https://www.fedlex.admin.ch/eli/cc/2013/765/de"
+        ],
+        "dcat:distribution": [
+            {
+                "dct:identifier": "ea0ada27-169b-4fce-8f75-50e7ffcf3903",
+                "dcat:accessURL": "https://data.blw.admin.ch/de/2025-finanzielle-mittel-fuer-direktzahlungen",
+                "adms:status": "published",
+                "dcatap:availability": "STABLE",
+                "dct:format": "csv",
+                "dct:modified": "2026-06-16",
+                "dct:title": {
+                    "de": "Finanzielle Mittel für Direktzahlungen. Alle Daten",
+                    "fr": "Moyens financiers pour les paiements directs. Toutes les données",
+                    "it": "Mezzi finanziari per i pagamenti diretti. Tutti i dati"
+                },
+                "dct:description": {
+                    "de": "Distribution enthält die kantonalen Direktzahlungsbeträge aufgeschlüsselt nach Jahr, Beitragsart, Kanton, Ganzjahresbetrieb oder Sömmerung und Zone.",
+                    "fr": "Contient les montants des paiements directs cantonaux, ventilés par année, type de contribution, canton, exploitation à l'année ou estivage et zone",
+                    "it": "Contiene gli importi dei pagamenti diretti cantonali suddivisi per anno, tipo di contributo, cantone, azienda a regime annuale o estivazione e zona."
+                },
+                "dct:license": "terms_by",
+                "bv:dimensions": [
+                    "canton",
+                    "company",
+                    "contribution",
+                    "year",
+                    "zone"
+                ]
+            }
+        ],
+        "productType": "dataset",
+        "dataOwner": "p-8397553",
+        "schemaViolations": 1,
+        "schemaViolationMessages": [
+            "'schema:email' is a required property"
+        ],
+        "quality": 1897.5
+    },
+    {
+        "rdf:type": "dcat:Dataset",
+        "dct:identifier": "a2d55aab-dcfb-40e9-bf4b-41cf012c8596",
+        "schema:image": "https://data.blw.admin.ch/_ipx/f_webp&q_80&s_1920x1080/https://prod-datablwadmin-hcms-sdweb.imgix.net/2026/06/17/ab5f089b-f942-470e-a65d-206038e06c13.jpg",
+        "dct:title": {
+            "de": "Produktionssystembeiträge",
+            "fr": "Contributions au système de production",
+            "it": "Contributi per i sistemi di produzione"
+        },
+        "dct:description": {
+            "de": "Die Produktionssystembeiträge sollen besonders dazu beitragen, die Ziele der parlamentarischen Initiative 19.475 «Das Risiko beim Einsatz von Pestiziden reduzieren» zu erreichen. Zudem sollen sie das Tierwohlniveau erhöhen und stärken.",
+            "fr": "Les contributions au système de production visent principalement à atteindre les objectifs de l’initiative parlementaire 19.475 « Réduire le risque de l’utilisation de pesticides ». Elles ont également pour but d’améliorer le bien-être des animaux. ",
+            "it": "I contributi per i sistemi di produzione (CSP) mirano in particolare a raggiungere gli obiettivi dell’iniziativa parlamentare 19.475 «Ridurre il rischio associato all’uso di pesticidi», nonché a incrementare e a potenziare il livello del benessere degli animali."
+        },
+        "dct:accessRights": "PUBLIC",
+        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+        "dcat:contactPoint": {
+            "schema:name": "Fachbereich Direktzahlungsgrundlagen"
+        },
+        "dct:issued": "2015-01-01",
+        "dcatap:availability": "STABLE",
+        "dcat:keyword": [
+            "Acontrol",
+            "AGIS",
+            "contribution-year",
+            "farm",
+            "data",
+            "direct-payments",
+            "cantonal-identifier",
+            "agriculture",
+            "animals",
+            "environment",
+            "zoning"
+        ],
+        "dct:accrualPeriodicity": "ANNUAL",
+        "dct:modified": "2026-08-16",
+        "dcat:version": "1.0",
+        "adms:status": "published",
+        "bv:classification": "none",
+        "bv:personalData": "none",
+        "bv:typeOfData": "secondaryThematicData",
+        "bv:archivalValue": false,
+        "dcat:theme": [
+            "agriculture"
+        ],
+        "dcat:landingPage": "https://data.blw.admin.ch/de/2025-produktionssystembeitraege",
+        "dct:temporal": {
+            "dcat:start_date": "2015-01-01",
+            "dcat:end_date": "2025-01-01"
+        },
+        "dcat:inSeries": [
+            "99788c8a-7971-4745-ae41-5eeda05ae636"
+        ],
+        "dcat:distribution": [
+            {
+                "dct:identifier": "produktionssystembeitraege",
+                "dcat:accessURL": "https://data.blw.admin.ch/de/2025-produktionssystembeitraege",
+                "adms:status": "published",
+                "dcatap:availability": "STABLE",
+                "dct:format": "csv",
+                "dct:modified": "2026-08-16",
+                "dct:title": {
+                    "de": "Produktionssystembeiträge - alle Daten",
+                    "fr": "Contributions au système de production - toutes les donnees",
+                    "it": "Contributi per i sistemi di produzione - tutti i dati"
+                },
+                "dct:description": {
+                    "de": "Distribution enthält die Produktionssystembeiträge aufgeschlüsselt nach Jahr, Beitragsart, Kanton, Anzahl Betriebe und Fläche.",
+                    "fr": "La distribution présente les contributions liées aux systèmes de production, ventilées par année, type de contribution, canton, nombre d'exploitations et surface.",
+                    "it": "La distribuzione contiene i contributi per i sistemi di produzione, suddivisi per anno, tipo di contributo, Cantone, numero di aziende e superficie."
+                },
+                "dct:license": "terms_by",
+                "bv:dimensions": [
+                    "canton",
+                    "company",
+                    "contribution",
+                    "contributionType",
+                    "year",
+                    "zone"
+                ]
+            }
+        ],
+        "productType": "dataset",
+        "dataOwner": "p-8397553",
+        "schemaViolations": 1,
+        "schemaViolationMessages": [
+            "'schema:email' is a required property"
+        ],
+        "quality": 1870.0
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -3121,6 +3317,90 @@
     },
     {
         "rdf:type": "dcat:Dataset",
+        "dct:identifier": "c4ee3846-d081-40c9-aebd-4ecab0a4b614",
+        "schema:image": "https://data.blw.admin.ch/_ipx/f_webp&q_80&s_1920x1080/https://prod-datablwadmin-hcms-sdweb.imgix.net/2026/06/19/9caf747e-8c74-4909-8e12-2c7e055fde1d.jpg",
+        "dct:title": {
+            "de": "Landschaftsqualitätsbeiträge",
+            "fr": "Contributions à la qualité du paysage",
+            "it": "Contributi per la qualità del paesaggio"
+        },
+        "dct:description": {
+            "de": "Für die Erhaltung, Förderung und Weiterentwicklung attraktiver Landschaften, wie den Erhalt der Waldweiden, der Pflege von Kastanienselven oder der Förderung des Bergackerbaus, hat der Bund im Jahr 2025 Landschaftsqualitätsbeiträge von 147 Millionen Franken ausgerichtet.",
+            "fr": "La Confédération a octroyé des contributions à la qualité du paysage pour un total de 147 millions de francs en 2025, afin de préserver, de promouvoir et de développer des paysages attrayants. Il s’agissait notamment de la conservation des pâturages boisés, de l’entretien des châtaigneraies ou de l’encouragement de l’agriculture de montagne.",
+            "it": "Per la preservazione, la promozione e l’ulteriore sviluppo di paesaggi attrattivi, come ad esempio la salvaguardia dei pascoli boschivi, la cura di selve castanili o la promozione della campicoltura di montagna, nel 2025 la Confederazione ha versato contributi per la qualità del paesaggio pari a 147 milioni di franchi."
+        },
+        "dct:accessRights": "PUBLIC",
+        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+        "dcat:contactPoint": {
+            "schema:name": "Fachbereich Direktzahlungsgrundlagen"
+        },
+        "dct:issued": "2015-01-01",
+        "dcatap:availability": "STABLE",
+        "dcat:keyword": [
+            "data",
+            "cantonal-identifier",
+            "agriculture"
+        ],
+        "dct:accrualPeriodicity": "ANNUAL",
+        "dct:modified": "2026-06-16",
+        "dcat:version": "1.0",
+        "adms:status": "published",
+        "bv:classification": "none",
+        "bv:personalData": "none",
+        "bv:typeOfData": "secondaryThematicData",
+        "bv:archivalValue": false,
+        "bv:externalCatalogs": [
+            {
+                "dcat:catalog": "I14Y"
+            },
+            {
+                "dcat:catalog": "opendata.swiss"
+            }
+        ],
+        "dcat:theme": [
+            "agriculture"
+        ],
+        "dct:temporal": {
+            "dcat:start_date": "2015-01-01",
+            "dcat:end_date": "2025-01-01"
+        },
+        "dcat:inSeries": [
+            "99788c8a-7971-4745-ae41-5eeda05ae636"
+        ],
+        "dcat:distribution": [
+            {
+                "dct:identifier": "6c0bdd4e-3ea8-4e9a-af49-ff0df4b9006e",
+                "dcat:accessURL": "https://data.blw.admin.ch/de/2025-landschaftsqualitaetsbeitraege",
+                "adms:status": "published",
+                "dct:format": "csv",
+                "dct:title": {
+                    "de": "Landschaftsqualitätsbeiträge - alle Daten",
+                    "fr": "Contributions à la qualité du paysage - toutes les données",
+                    "it": "Contributi per la qualità del paesaggio"
+                },
+                "dct:description": {
+                    "de": "Distribution enthält die Landschaftsqualitätsbeiträge aufgeschlüsselt nach Jahr, Projekt, Kanton, Zone und Anzahl Betriebe.",
+                    "fr": "La distribution présente les contributions à la qualité du paysage, ventilées par année, projet, canton, zone et nombre d'exploitations.",
+                    "it": "La distribuzione contiene i contributi per la qualità del paesaggio, suddivisi per anno, progetto, cantone e numero di aziende."
+                },
+                "bv:dimensions": [
+                    "canton",
+                    "company",
+                    "contribution",
+                    "year",
+                    "zone"
+                ]
+            }
+        ],
+        "dataOwner": "p-8397553",
+        "schemaViolations": 1,
+        "schemaViolationMessages": [
+            "'schema:email' is a required property"
+        ],
+        "quality": 1815.0
+    },
+    {
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "e7b5cd7a-2e4f-48dd-ab78-0c4368220310",
         "dct:title": {
             "fr": "Registre des appellations d'origine (AOP) et des indications géographiques (IGP) fromage",
@@ -3302,6 +3582,96 @@
     },
     {
         "rdf:type": "dcat:Dataset",
+        "dct:identifier": "76a6ee65-066d-43a4-919f-167708dd12c4",
+        "schema:image": "https://data.blw.admin.ch/_ipx/f_webp&q_80&s_1920x1080/https://prod-datablwadmin-hcms-sdweb.imgix.net/2026/06/18/8ea02f26-3e30-4918-9b93-0c17b2c570dc.jpg",
+        "dct:title": {
+            "de": "Kürzungen der Direktzahlungen",
+            "fr": "Réductions des paiements directs",
+            "it": "Riduzioni dei pagamenti diretti"
+        },
+        "dct:description": {
+            "de": "Wenn ein Betrieb die Bestimmungen nicht vollständig erfüllt, kürzt der Kanton die Direktzahlungen gemäss den Vorgaben des Bundes. Im Jahr 2025 wurden Direktzahlungen im Umfang von 9,6 Millionen Franken gekürzt.",
+            "fr": "Lorsqu’une exploitation ne respecte pas complètement les conditions auxquelles la loi soumet les paiements directs, le canton réduit ces paiements selon les prescriptions fédérales. En 2025, ces réductions représentaient un total de 9,6 millions de francs.",
+            "it": "Se un'azienda non adempie pienamente le disposizioni, il Cantone riduce i pagamenti diretti in base alle prescrizioni della Confederazione. Nel 2025 sono state applicate riduzioni dei pagamenti diretti per un importo totale di 9,6 milioni di franchi."
+        },
+        "dct:accessRights": "PUBLIC",
+        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+        "dcat:contactPoint": {
+            "schema:name": "Fachbereich Direktzahlungsgrundlagen"
+        },
+        "dct:issued": "2015-01-01",
+        "dcatap:availability": "STABLE",
+        "dcat:keyword": [
+            "AGIS",
+            "contribution-year",
+            "farm-inspections",
+            "data",
+            "direct-payments",
+            "controls"
+        ],
+        "dct:accrualPeriodicity": "ANNUAL",
+        "dct:modified": "2026-06-16",
+        "dcat:version": "1.0",
+        "adms:status": "published",
+        "bv:classification": "none",
+        "bv:personalData": "none",
+        "bv:typeOfData": "secondaryThematicData",
+        "bv:archivalValue": false,
+        "bv:externalCatalogs": [
+            {
+                "dcat:catalog": "I14Y"
+            },
+            {
+                "dcat:catalog": "opendata.swiss"
+            }
+        ],
+        "dcat:theme": [
+            "agriculture"
+        ],
+        "dcat:landingPage": "https://data.blw.admin.ch/",
+        "dct:temporal": {
+            "dcat:start_date": "2015-01-01",
+            "dcat:end_date": "2025-01-01"
+        },
+        "dcat:inSeries": [
+            "99788c8a-7971-4745-ae41-5eeda05ae636"
+        ],
+        "dcat:distribution": [
+            {
+                "dct:identifier": "a6cee41e-cf21-4437-b1a8-91f82c8d1231",
+                "dcat:accessURL": "https://data.blw.admin.ch/de/2025-kuerzungen-direktzahlungen",
+                "adms:status": "published",
+                "dcatap:availability": "STABLE",
+                "dct:format": "csv",
+                "dct:title": {
+                    "de": "Kürzungen der Direktzahlungen - alle Daten",
+                    "fr": "Réductions des paiements directs - toutes les données",
+                    "it": "Riduzioni dei pagamenti diretti - tutti i dati"
+                },
+                "dct:description": {
+                    "de": "Distribution enthält die Produktionssystembeiträge aufgeschlüsselt nach Jahr, Beitragsart, Kanton, Anzahl Betriebe und Fläche.",
+                    "fr": "La distribution présente les réductions des paiements directs, ventilées par année, type de contribution, canton, zone et nombre d'exploitations.",
+                    "it": "La distribuzione contiene i riduzioni dei pagamenti diretti, suddivisi per anno, tipo di contributo, cantone, zona e numero di aziende."
+                },
+                "dct:license": "terms_by",
+                "bv:dimensions": [
+                    "canton",
+                    "company",
+                    "contribution",
+                    "year",
+                    "zone"
+                ]
+            }
+        ],
+        "dataOwner": "p-8397553",
+        "schemaViolations": 1,
+        "schemaViolationMessages": [
+            "'schema:email' is a required property"
+        ],
+        "quality": 1788.0
+    },
+    {
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "870db5d6-0cfa-4ea2-92d7-3d8b813f6149",
         "schema:image": "https://prod-blwch-hcms-sdweb.imgix.net/dam/en/sd-web/nPO3NMseA8L3/HOME_Setzlinge_anpflanzen%20low.jpg?auto=format&w=2048",
         "dct:title": {
@@ -3408,6 +3778,173 @@
             "'https://www.example.com' is not of type 'array', 'null'"
         ],
         "quality": 1741.5
+    },
+    {
+        "rdf:type": "dcat:Dataset",
+        "dct:identifier": "a2d86a78-76fe-4d9b-9204-7c24e69d7682",
+        "dct:title": {
+            "de": "Biodiversitätsbeiträge",
+            "fr": "Contributions à la biodiversité",
+            "it": "Contributi per la biodiversità"
+        },
+        "dct:description": {
+            "de": "Im Jahr 2025 machten die Biodiversitätsförderflächen (BFF) durchschnittlich 20 Prozent der landwirtschaftlichen Nutzfläche aus. Dafür erhielten die Landwirtinnen und Landwirte wie schon im Vorjahr Biodiversitätsbeiträge von 433 Millionen Schweizer Franken.",
+            "fr": "En 2025, les surfaces de promotion de la biodiversité (SPB) représentaient en moyenne 20 % de la surface agricole utile. Comme l’année précédente, les agriculteurs ont reçu pour ces surfaces des contributions à la biodiversité pour un total de 433 millions de francs.",
+            "it": "Nel 2025 la quota di superfici per la promozione della biodiversità (SPB) sulla superficie agricola utile (SAU) si è attestata mediamente alI 20 %. Per le SPB gli agricoltori hanno ricevuto contributi per la biodiversità pari a 433 milioni di franchi, in linea con quelli dell’anno precedente."
+        },
+        "dct:accessRights": "PUBLIC",
+        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+        "dcat:contactPoint": {
+            "schema:name": "Fachbereich für Direktzahlungsgrundlagen"
+        },
+        "dct:issued": "2015-01-01",
+        "dcatap:availability": "STABLE",
+        "dct:accrualPeriodicity": "ANNUAL",
+        "dct:modified": "2026-06-16",
+        "dcat:version": "1.0",
+        "adms:status": "published",
+        "bv:classification": "none",
+        "bv:personalData": "none",
+        "bv:typeOfData": "secondaryThematicData",
+        "bv:archivalValue": false,
+        "bv:externalCatalogs": [
+            {
+                "dcat:catalog": "I14Y"
+            },
+            {
+                "dcat:catalog": "opendata.swiss"
+            }
+        ],
+        "dcat:landingPage": "https://data.blw.admin.ch/de/2025-biodiversitaetsbeitraege",
+        "dct:temporal": {
+            "dcat:start_date": "2015-01-01",
+            "dcat:end_date": "2025-01-01"
+        },
+        "dcat:inSeries": [
+            "99788c8a-7971-4745-ae41-5eeda05ae636"
+        ],
+        "dcat:distribution": [
+            {
+                "dct:identifier": "bc77f8ad-200c-42a6-b04d-eb6ad78564b0",
+                "dcat:accessURL": "https://data.blw.admin.ch/de/2025-biodiversitaetsbeitraege",
+                "adms:status": "published",
+                "dcatap:availability": "STABLE",
+                "dct:format": "csv",
+                "dct:title": {
+                    "de": "Biodiversitätsbeiträge - alle Daten",
+                    "fr": "Contributions à la biodiversité - tout les données",
+                    "it": "Contributi per la biodiversità - tutti i dati"
+                },
+                "dct:description": {
+                    "de": "Distribution enthält die Produktionssystembeiträge aufgeschlüsselt nach Jahr, Beitragsart, Kanton, Region, Zone, Anzahl Betriebe und Fläche.",
+                    "fr": "La distribution présente les contributions à la biodiversité - tout les données, ventilées par année, type de contribution, canton, région, zone, nombre d'exploitations et surface.",
+                    "it": "La distribuzione contiene i contributi per la biodiversità, suddivisi per anno, tipo di contributo, cantone, regione, zona, numero di aziende e superficie."
+                },
+                "dct:license": "terms_by",
+                "bv:dimensions": [
+                    "canton",
+                    "company",
+                    "contribution",
+                    "contributionType",
+                    "year",
+                    "zone"
+                ]
+            }
+        ],
+        "dataOwner": "p-8397553",
+        "schemaViolations": 1,
+        "schemaViolationMessages": [
+            "'schema:email' is a required property"
+        ],
+        "quality": 1727.5
+    },
+    {
+        "rdf:type": "dcat:Dataset",
+        "dct:identifier": "a1deaa78-2313-4be7-815d-9d14dd331d39",
+        "schema:image": "https://data.blw.admin.ch/_ipx/f_webp&q_80&s_1920x1080/https://prod-datablwadmin-hcms-sdweb.imgix.net/2026/06/17/e248d982-041b-47a2-83b3-a053efa9891f.jpg",
+        "dct:title": {
+            "de": "Übergangsbeitrag",
+            "fr": "Contribution de transition",
+            "it": "Contributo di transizione"
+        },
+        "dct:description": {
+            "de": "Mit dem Übergangsbeitrag wurde der Wechsel zur Agrarpolitik 2014–2017 sozialverträglich ausgestaltet. Für den Übergangsbeitrag hat der Bund im Jahr 2025 67,4 Millionen Franken an 37 500 Betriebe ausgerichtet.",
+            "fr": "La contribution de transition a été introduite dans le but d’assurer la viabilité sociale du passage à la Politique agricole 2014–2017. En 2025, la Confédération a octroyé 67,4 millions de francs à 37 500 exploitations au titre de la contribution de transition.",
+            "it": "Con il contributo di transizione si è garantita la transizione socialmente sostenibile alla Politica agricola 2014-2017. Nel 2025 la Confederazione ha versato un contributo di transizione a 37 500 aziende per un importo totale di 67,4 milioni di franchi."
+        },
+        "dct:accessRights": "PUBLIC",
+        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+        "dcat:contactPoint": {
+            "schema:name": "Fachbereich Direktzahlungsgrundlagen"
+        },
+        "dct:issued": "2015-01-01",
+        "dcatap:availability": "STABLE",
+        "dcat:keyword": [
+            "AGIS",
+            "data",
+            "direct-payments",
+            "agriculture",
+            "zoning"
+        ],
+        "dct:accrualPeriodicity": "ANNUAL",
+        "dct:modified": "2026-06-16",
+        "dcat:version": "1.0",
+        "adms:status": "published",
+        "bv:classification": "none",
+        "bv:personalData": "none",
+        "bv:typeOfData": "secondaryThematicData",
+        "bv:archivalValue": false,
+        "bv:externalCatalogs": [
+            {
+                "dcat:catalog": "I14Y"
+            },
+            {
+                "dcat:catalog": "opendata.swiss"
+            }
+        ],
+        "dcat:theme": [
+            "agriculture"
+        ],
+        "dcat:landingPage": "https://data.blw.admin.ch/",
+        "dct:temporal": {
+            "dcat:start_date": "2015-01-01",
+            "dcat:end_date": "2025-01-01"
+        },
+        "dcat:inSeries": [
+            "99788c8a-7971-4745-ae41-5eeda05ae636"
+        ],
+        "dcat:distribution": [
+            {
+                "dct:identifier": "b8ac459e-d0d1-438f-b4b6-e1b0eb9162c7",
+                "dcat:accessURL": "https://data.blw.admin.ch/it/2025-contributo-di-transizione",
+                "adms:status": "published",
+                "dct:format": "csv",
+                "dct:title": {
+                    "de": "Übergangsbeiträge - alle Daten",
+                    "fr": "Contribution de transition - toutes les donées",
+                    "it": "Contributo di transizione - tutti i dati"
+                },
+                "dct:description": {
+                    "de": "Distribution enthält die Übergangsbeiträge aufgeschlüsselt nach Jahr, Beitragsart, Kanton, Zone und Anzahl Betriebe.",
+                    "fr": "La distribution présente les contribution de transition, ventilées par année, type de contribution, canton, zone et nombre d'exploitations .",
+                    "it": "La distribuzione contiene i contributo di transizione, suddivisi per anno, tipo di contributo, cantone, zone e numero di aziende."
+                },
+                "bv:dimensions": [
+                    "canton",
+                    "company",
+                    "contribution",
+                    "contributionType",
+                    "year",
+                    "zone"
+                ]
+            }
+        ],
+        "dataOwner": "p-8397553",
+        "schemaViolations": 1,
+        "schemaViolationMessages": [
+            "'schema:email' is a required property"
+        ],
+        "quality": 1719.5
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -10947,6 +11484,99 @@
             "Additional properties are not allowed ('dcat:issued' was unexpected)"
         ],
         "quality": 751.8888888888889
+    },
+    {
+        "rdf:type": "dcat:Dataset",
+        "dct:identifier": "f9c80674-063b-48eb-b1d7-c637c088e1c6",
+        "dct:title": {
+            "de": "Versorgungssicherheitsbeiträge",
+            "fr": "Contributions à la sécurité de l'approvisionnement",
+            "it": "Contributi per la sicurezza dell’approvvigionamento"
+        },
+        "dct:description": {
+            "de": "Für die Aufrechterhaltung der Versorgungssicherheit hat der Bund im Jahr 2025 912 Millionen Franken Versorgungssicherheitsbeiträge ausgerichtet. Die Ausgaben sowie die Bewirtschaftung der Flächen blieben gegenüber dem Vorjahr praktisch unverändert.",
+            "fr": "La Confédération a versé des contributions à la sécurité de l’approvisionnement à hauteur de 912 millions de francs en 2025. Les dépenses, ainsi que l’exploitation des surfaces, sont restées pratiquement inchangées par rapport à l’année précédente.",
+            "it": "Nel 2025 la Confederazione ha versato 912 milioni di franchi di contributi a garanzia della sicurezza dell’approvvigionamento. Da un anno all’altro non vi sono pressoché variazioni delle uscite per questa voce né delle forme di gestione delle superfici."
+        },
+        "dct:accessRights": "PUBLIC",
+        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+        "dcat:contactPoint": {
+            "schema:name": "Fachbereich Direktzahlungsgrundlagen"
+        },
+        "dct:issued": "2015-01-01",
+        "dcatap:availability": "STABLE",
+        "dcat:keyword": [
+            "contribution-year",
+            "data",
+            "direct-payments",
+            "cantonal-identifier",
+            "agriculture",
+            "zoning"
+        ],
+        "dct:accrualPeriodicity": "ANNUAL",
+        "dct:modified": "2026-06-16",
+        "dcat:version": "1.0",
+        "adms:status": "published",
+        "bv:classification": "none",
+        "bv:personalData": "none",
+        "bv:typeOfData": "secondaryThematicData",
+        "bv:archivalValue": false,
+        "bv:externalCatalogs": [
+            {
+                "dcat:catalog": "I14Y"
+            },
+            {
+                "dcat:catalog": "opendata.swiss"
+            }
+        ],
+        "dcat:theme": [
+            "agriculture"
+        ],
+        "dcat:landingPage": "https://data.blw.admin.ch/",
+        "dct:temporal": {
+            "dcat:start_date": "2015-01-01",
+            "dcat:end_date": "2025-01-01"
+        },
+        "dcat:inSeries": [
+            "99788c8a-7971-4745-ae41-5eeda05ae636"
+        ],
+        "dcat:distribution": [
+            {
+                "dct:identifier": "fe608bbc-0802-449c-866a-800ef6c4613e",
+                "dcat:accessURL": "https://data.blw.admin.ch/de/2025-versorgungssicherheitsbeitraege",
+                "adms:status": "published",
+                "dcatap:availability": "STABLE",
+                "dct:format": "csv",
+                "dct:title": {
+                    "de": "Versorgungssicherheitsbeiträge - alle Daten",
+                    "fr": "Contributions à la sécurité de l’approvisionnement - tout les données",
+                    "it": " Contributi per la sicurezza dell’approvvigionamento - tutti i dati"
+                },
+                "dct:description": {
+                    "de": "Distribution enthält die Produktionssystembeiträge aufgeschlüsselt nach Jahr, Beitragsart, Kanton, Zone, Anzahl Betriebe und Fläche.",
+                    "fr": "La distribution présente les contributions à la sécurité de l’approvisionnement, ventilées par année, type de contribution, canton, zone, nombre d'exploitations et surface.",
+                    "it": "La distribuzione contiene i contributi per i sistemi di produzione, suddivisi per anno, tipo di contributo, Cantone, zona, numero di aziende e superficie."
+                },
+                "dct:license": "terms_by",
+                "bv:dimensions": [
+                    "canton",
+                    "company",
+                    "contribution",
+                    "contributionType",
+                    "year",
+                    "zone"
+                ]
+            }
+        ],
+        "dataOwner": "p-8397553",
+        "schemaViolations": 4,
+        "schemaViolationMessages": [
+            "'Contributi per la sicurezza dell’approvvigionamento' does not match '^[a-zA-Z0-9_\\\\-\\\\s\\\\(\\\\)\\\\.\\\\,\\\\:\\\\/\\\\u00A0-\\\\u017F\\\\\\'\\\\\"\\\\?\\\\!\\\\%\\\\&\\\\+\\\\@]{10,100}$'",
+            "'schema:email' is a required property",
+            "'Contributions à la sécurité de l’approvisionnement - tout les données' does not match '^[a-zA-Z0-9_\\\\-\\\\s\\\\(\\\\)\\\\.\\\\,\\\\:\\\\/\\\\u00A0-\\\\u017F\\\\\\'\\\\\"\\\\?\\\\!\\\\%\\\\&\\\\+\\\\@]{5,100}$'",
+            "' Contributi per la sicurezza dell’approvvigionamento - tutti i dati' does not match '^[a-zA-Z0-9_\\\\-\\\\s\\\\(\\\\)\\\\.\\\\,\\\\:\\\\/\\\\u00A0-\\\\u017F\\\\\\'\\\\\"\\\\?\\\\!\\\\%\\\\&\\\\+\\\\@]{5,100}$'"
+        ],
+        "quality": 727.2
     },
     {
         "rdf:type": "dcat:Dataset",
