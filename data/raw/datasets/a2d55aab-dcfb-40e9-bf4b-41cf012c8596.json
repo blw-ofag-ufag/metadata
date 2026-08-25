@@ -75,7 +75,7 @@
       },
       "dct:description": {
         "de": "Distribution enthält die Produktionssystembeiträge aufgeschlüsselt nach Jahr, Beitragsart, Kanton, Anzahl Betriebe und Fläche.",
-        "fr": "La distgribution présente les contributions liées aux systèmes de production, ventilées par année, type de contribution, canton, nombre d'exploitations et surface.",
+        "fr": "La distribution présente les contributions liées aux systèmes de production, ventilées par année, type de contribution, canton, nombre d'exploitations et surface.",
         "it": "La distribuzione contiene i contributi per i sistemi di produzione, suddivisi per anno, tipologia di contributo, Cantone, numero di aziende e superficie."
       },
       "dct:license": "terms_by",
@@ -88,5 +88,6 @@
         "zone"
       ]
     }
-  ]
+  ],
+  "productType": "dataset"
 }
