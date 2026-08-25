@@ -47,6 +47,14 @@
   "bv:personalData": "none",
   "bv:typeOfData": "secondaryThematicData",
   "bv:archivalValue": false,
+  "bv:externalCatalogs": [
+    {
+      "dcat:catalog": "I14Y"
+    },
+    {
+      "dcat:catalog": "opendata.swiss"
+    }
+  ],
   "dcat:theme": [
     "agriculture",
     "politics"
