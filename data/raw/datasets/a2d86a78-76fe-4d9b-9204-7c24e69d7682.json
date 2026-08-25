@@ -1,5 +1,6 @@
 {
   "dct:identifier": "a2d86a78-76fe-4d9b-9204-7c24e69d7682",
+  "schema:image": "https://data.blw.admin.ch/_ipx/f_webp&q_80&s_1920x1080/https://prod-datablwadmin-hcms-sdweb.imgix.net/2026/06/17/935b5ccf-6466-4aac-80fb-5715218148a1.jpg",
   "dct:title": {
     "de": "Biodiversitätsbeiträge",
     "fr": "Contributions à la biodiversité",
@@ -78,5 +79,6 @@
         "zone"
       ]
     }
-  ]
+  ],
+  "productType": "dataset"
 }
