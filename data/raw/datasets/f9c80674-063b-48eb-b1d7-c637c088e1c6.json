@@ -1,0 +1,93 @@
+{
+  "dct:identifier": "f9c80674-063b-48eb-b1d7-c637c088e1c6",
+  "dct:title": {
+    "de": "Versorgungssicherheitsbeiträge",
+    "fr": "Contributions à la sécurité de l'approvisionnement",
+    "it": "Contributi per la sicurezza dell’approvvigionamento"
+  },
+  "dct:description": {
+    "de": "Für die Aufrechterhaltung der Versorgungssicherheit hat der Bund im Jahr 2025 912 Millionen Franken Versorgungssicherheitsbeiträge ausgerichtet. Die Ausgaben sowie die Bewirtschaftung der Flächen blieben gegenüber dem Vorjahr praktisch unverändert.",
+    "fr": "La Confédération a versé des contributions à la sécurité de l’approvisionnement à hauteur de 912 millions de francs en 2025. Les dépenses, ainsi que l’exploitation des surfaces, sont restées pratiquement inchangées par rapport à l’année précédente.",
+    "it": "Nel 2025 la Confederazione ha versato 912 milioni di franchi di contributi a garanzia della sicurezza dell’approvvigionamento. Da un anno all’altro non vi sono pressoché variazioni delle uscite per questa voce né delle forme di gestione delle superfici."
+  },
+  "dct:accessRights": "PUBLIC",
+  "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+  "dcat:contactPoint": {
+    "schema:name": "Fachbereich Direktzahlungsgrundlagen"
+  },
+  "dct:issued": "2015-01-01",
+  "dcatap:availability": "STABLE",
+  "dcat:keyword": [
+    "contribution-year",
+    "data",
+    "direct-payments",
+    "cantonal-identifier",
+    "agriculture",
+    "zoning"
+  ],
+  "dct:accrualPeriodicity": "ANNUAL",
+  "dct:modified": "2026-06-16",
+  "dcat:version": "1.0",
+  "prov:qualifiedAttribution": [
+    {
+      "prov:agent": "p-8397553",
+      "dcat:hadRole": "dataOwner"
+    },
+    {
+      "prov:agent": "p-4632042",
+      "dcat:hadRole": "dataSteward"
+    }
+  ],
+  "adms:status": "published",
+  "bv:classification": "none",
+  "bv:personalData": "none",
+  "bv:typeOfData": "secondaryThematicData",
+  "bv:archivalValue": false,
+  "bv:externalCatalogs": [
+    {
+      "dcat:catalog": "I14Y"
+    },
+    {
+      "dcat:catalog": "opendata.swiss"
+    }
+  ],
+  "dcat:theme": [
+    "agriculture"
+  ],
+  "dcat:landingPage": "https://data.blw.admin.ch/",
+  "dct:temporal": {
+    "dcat:start_date": "2015-01-01",
+    "dcat:end_date": "2025-01-01"
+  },
+  "dcat:inSeries": [
+    "99788c8a-7971-4745-ae41-5eeda05ae636"
+  ],
+  "dcat:distribution": [
+    {
+      "dct:identifier": "fe608bbc-0802-449c-866a-800ef6c4613e",
+      "dcat:accessURL": "https://data.blw.admin.ch/de/2025-versorgungssicherheitsbeitraege",
+      "adms:status": "published",
+      "dcatap:availability": "STABLE",
+      "dct:format": "csv",
+      "dct:title": {
+        "de": "Versorgungssicherheitsbeiträge - alle Daten",
+        "fr": "Contributions à la sécurité de l’approvisionnement - tout les données",
+        "it": " Contributi per la sicurezza dell’approvvigionamento - tutti i dati"
+      },
+      "dct:description": {
+        "de": "Distribution enthält die Produktionssystembeiträge aufgeschlüsselt nach Jahr, Beitragsart, Kanton, Zone, Anzahl Betriebe und Fläche.",
+        "fr": "La distribution présente les contributions à la sécurité de l’approvisionnement, ventilées par année, type de contribution, canton, zone, nombre d'exploitations et surface.",
+        "it": "La distribuzione contiene i contributi per i sistemi di produzione, suddivisi per anno, tipo di contributo, Cantone, zona, numero di aziende e superficie."
+      },
+      "dct:license": "terms_by",
+      "bv:dimensions": [
+        "canton",
+        "company",
+        "contribution",
+        "contributionType",
+        "year",
+        "zone"
+      ]
+    }
+  ]
+}
