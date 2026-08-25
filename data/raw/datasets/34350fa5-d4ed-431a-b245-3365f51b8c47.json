@@ -1,0 +1,98 @@
+{
+  "dct:identifier": "34350fa5-d4ed-431a-b245-3365f51b8c47",
+  "schema:image": "https://data.blw.admin.ch/_ipx/f_webp&q_80&s_1920x1080/https://prod-datablwadmin-hcms-sdweb.imgix.net/2026/06/17/2f6998f4-022d-4c8b-bd95-908959d3f136.jpg",
+  "dct:title": {
+    "de": "Kulturlandschaftsbeiträge",
+    "fr": "Contributions au paysage cultivé",
+    "it": "Contributi per il paesaggio rurale"
+  },
+  "dct:description": {
+    "de": "Die Leistungen der Landwirtschaft zur Offenhaltung der Kulturlandschaft hat der Bund 2025 mit Kulturlandschaftsbeiträgen von 534 Millionen Franken gefördert, was rund zwei Millionen Franken weniger sind als im Vorjahr. Bei diesen Beiträgen gibt es nur geringe jährliche Veränderungen.",
+    "fr": "En 2025, la Confédération a soutenu, à l’aide de contributions au paysage cultivé, les prestations de l’agriculture pour le maintien d’un paysage cultivé ouvert pour un montant de 534 millions de francs, ce qui représente une baisse d’environ deux millions de francs par rapport à l’année précédente. Ces contributions ne varient que très peu d’une année à l’autre.",
+    "it": "Nel 2025 la Confederazione ha promosso le prestazioni fornite dall’agricoltura per la preservazione dell’apertura del paesaggio erogando 534 milioni di franchi, vale a dire circa 2 milioni in meno rispetto all’anno precedente. Per questi contributi le variazioni annuali sono esigue."
+  },
+  "dct:accessRights": "PUBLIC",
+  "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+  "dcat:contactPoint": {
+    "schema:name": "Fachbereich Direktzahlungsgrundlagen"
+  },
+  "dct:issued": "2015-01-01",
+  "dcatap:availability": "STABLE",
+  "dcat:keyword": [
+    "AGIS",
+    "alpine-economy",
+    "contribution-year",
+    "data",
+    "direct-payments",
+    "cantonal-identifier",
+    "agriculture",
+    "gradient",
+    "subsidy",
+    "zoning"
+  ],
+  "dct:accrualPeriodicity": "ANNUAL",
+  "dct:modified": "2026-06-16",
+  "dcat:version": "1.0",
+  "prov:qualifiedAttribution": [
+    {
+      "prov:agent": "p-8397553",
+      "dcat:hadRole": "dataOwner"
+    },
+    {
+      "prov:agent": "p-4632042",
+      "dcat:hadRole": "dataSteward"
+    }
+  ],
+  "adms:status": "published",
+  "bv:classification": "none",
+  "bv:personalData": "none",
+  "bv:typeOfData": "secondaryThematicData",
+  "bv:archivalValue": false,
+  "bv:externalCatalogs": [
+    {
+      "dcat:catalog": "I14Y"
+    },
+    {
+      "dcat:catalog": "opendata.swiss"
+    }
+  ],
+  "dcat:theme": [
+    "agriculture"
+  ],
+  "dcat:landingPage": "https://data.blw.admin.ch/de/2025-kulturlandschaftsbeitraege",
+  "dct:temporal": {
+    "dcat:start_date": "2015-01-01",
+    "dcat:end_date": "2025-01-01"
+  },
+  "dcat:inSeries": [
+    "99788c8a-7971-4745-ae41-5eeda05ae636&"
+  ],
+  "dcat:distribution": [
+    {
+      "dct:identifier": "b51989f1-b4c8-4e02-8798-d64428f54b96",
+      "dcat:accessURL": "https://data.blw.admin.ch/de/2025-kulturlandschaftsbeitraege",
+      "adms:status": "published",
+      "dcatap:availability": "STABLE",
+      "dct:format": "csb",
+      "dct:title": {
+        "de": "Kulturlandschaftsbeiträge - alle Daten",
+        "fr": "Contributions au paysage cultivé - toutes les données",
+        "it": "Contributi per il paesaggio rurale - tutti i dati"
+      },
+      "dct:description": {
+        "de": "Distribution enthält die Kulturlandschaftsbeiträge aufgeschlüsselt nach Jahr, Beitragsart, Kanton, Zone, Anzahl Betriebe, Fläche und NST.",
+        "fr": "La distribution présente les contributions au paysage cultivé, ventilées par année, type de contribution, canton, zone, nombre d'exploitations, surface et PN.",
+        "it": "La distribuzione contiene i contributi per il paesaggio rurale, suddivisi per anno, tipo di contributo, cantone, zona, numero di aziende, superficie e CN."
+      },
+      "dct:license": "terms_by",
+      "bv:dimensions": [
+        "canton",
+        "company",
+        "contribution",
+        "contributionType",
+        "year",
+        "zone"
+      ]
+    }
+  ]
+}

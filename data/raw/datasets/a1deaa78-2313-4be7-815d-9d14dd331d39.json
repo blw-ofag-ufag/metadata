@@ -1,0 +1,91 @@
+{
+  "dct:identifier": "a1deaa78-2313-4be7-815d-9d14dd331d39",
+  "schema:image": "https://data.blw.admin.ch/_ipx/f_webp&q_80&s_1920x1080/https://prod-datablwadmin-hcms-sdweb.imgix.net/2026/06/17/e248d982-041b-47a2-83b3-a053efa9891f.jpg",
+  "dct:title": {
+    "de": "Übergangsbeitrag",
+    "fr": "Contribution de transition",
+    "it": "Contributo di transizione"
+  },
+  "dct:description": {
+    "de": "Mit dem Übergangsbeitrag wurde der Wechsel zur Agrarpolitik 2014–2017 sozialverträglich ausgestaltet. Für den Übergangsbeitrag hat der Bund im Jahr 2025 67,4 Millionen Franken an 37 500 Betriebe ausgerichtet.",
+    "fr": "La contribution de transition a été introduite dans le but d’assurer la viabilité sociale du passage à la Politique agricole 2014–2017. En 2025, la Confédération a octroyé 67,4 millions de francs à 37 500 exploitations au titre de la contribution de transition.",
+    "it": "Con il contributo di transizione si è garantita la transizione socialmente sostenibile alla Politica agricola 2014-2017. Nel 2025 la Confederazione ha versato un contributo di transizione a 37 500 aziende per un importo totale di 67,4 milioni di franchi."
+  },
+  "dct:accessRights": "PUBLIC",
+  "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+  "dcat:contactPoint": {
+    "schema:name": "Fachbereich Direktzahlungsgrundlagen"
+  },
+  "dct:issued": "2015-01-01",
+  "dcatap:availability": "STABLE",
+  "dcat:keyword": [
+    "AGIS",
+    "data",
+    "direct-payments",
+    "agriculture",
+    "zoning"
+  ],
+  "dct:accrualPeriodicity": "ANNUAL",
+  "dct:modified": "2026-06-16",
+  "dcat:version": "1.0",
+  "prov:qualifiedAttribution": [
+    {
+      "prov:agent": "p-8397553",
+      "dcat:hadRole": "dataOwner"
+    },
+    {
+      "prov:agent": "p-4632042",
+      "dcat:hadRole": "dataSteward"
+    }
+  ],
+  "adms:status": "published",
+  "bv:classification": "none",
+  "bv:personalData": "none",
+  "bv:typeOfData": "secondaryThematicData",
+  "bv:archivalValue": false,
+  "bv:externalCatalogs": [
+    {
+      "dcat:catalog": "I14Y"
+    },
+    {
+      "dcat:catalog": "opendata.swiss"
+    }
+  ],
+  "dcat:theme": [
+    "agriculture"
+  ],
+  "dcat:landingPage": "https://data.blw.admin.ch/",
+  "dct:temporal": {
+    "dcat:start_date": "2015-01-01",
+    "dcat:end_date": "2025-01-01"
+  },
+  "dcat:inSeries": [
+    "99788c8a-7971-4745-ae41-5eeda05ae636"
+  ],
+  "dcat:distribution": [
+    {
+      "dct:identifier": "b8ac459e-d0d1-438f-b4b6-e1b0eb9162c7",
+      "dcat:accessURL": "https://data.blw.admin.ch/it/2025-contributo-di-transizione",
+      "adms:status": "published",
+      "dct:format": "csv",
+      "dct:title": {
+        "de": "Übergangsbeiträge - alle Daten",
+        "fr": "Contribution de transition - toutes les donées",
+        "it": "Contributo di transizione - tutti i dati"
+      },
+      "dct:description": {
+        "de": "Distribution enthält die Übergangsbeiträge aufgeschlüsselt nach Jahr, Beitragsart, Kanton, Zone und Anzahl Betriebe.",
+        "fr": "La distribution présente les contribution de transition, ventilées par année, type de contribution, canton, zone et nombre d'exploitations .",
+        "it": "La distribuzione contiene i contributo di transizione, suddivisi per anno, tipo di contributo, cantone, zone e numero di aziende."
+      },
+      "bv:dimensions": [
+        "canton",
+        "company",
+        "contribution",
+        "contributionType",
+        "year",
+        "zone"
+      ]
+    }
+  ]
+}

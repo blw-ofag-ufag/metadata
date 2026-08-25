@@ -1,0 +1,87 @@
+{
+  "dct:identifier": "c4ee3846-d081-40c9-aebd-4ecab0a4b614",
+  "schema:image": "https://data.blw.admin.ch/_ipx/f_webp&q_80&s_1920x1080/https://prod-datablwadmin-hcms-sdweb.imgix.net/2026/06/19/9caf747e-8c74-4909-8e12-2c7e055fde1d.jpg",
+  "dct:title": {
+    "de": "Landschaftsqualitätsbeiträge",
+    "fr": "Contributions à la qualité du paysage",
+    "it": "Contributi per la qualità del paesaggio"
+  },
+  "dct:description": {
+    "de": "Für die Erhaltung, Förderung und Weiterentwicklung attraktiver Landschaften, wie den Erhalt der Waldweiden, der Pflege von Kastanienselven oder der Förderung des Bergackerbaus, hat der Bund im Jahr 2025 Landschaftsqualitätsbeiträge von 147 Millionen Franken ausgerichtet.",
+    "fr": "La Confédération a octroyé des contributions à la qualité du paysage pour un total de 147 millions de francs en 2025, afin de préserver, de promouvoir et de développer des paysages attrayants. Il s’agissait notamment de la conservation des pâturages boisés, de l’entretien des châtaigneraies ou de l’encouragement de l’agriculture de montagne.",
+    "it": "Per la preservazione, la promozione e l’ulteriore sviluppo di paesaggi attrattivi, come ad esempio la salvaguardia dei pascoli boschivi, la cura di selve castanili o la promozione della campicoltura di montagna, nel 2025 la Confederazione ha versato contributi per la qualità del paesaggio pari a 147 milioni di franchi."
+  },
+  "dct:accessRights": "PUBLIC",
+  "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+  "dcat:contactPoint": {
+    "schema:name": "Fachbereich Direktzahlungsgrundlagen"
+  },
+  "dct:issued": "2015-01-01",
+  "dcatap:availability": "STABLE",
+  "dcat:keyword": [
+    "data",
+    "cantonal-identifier",
+    "agriculture"
+  ],
+  "dct:accrualPeriodicity": "ANNUAL",
+  "dct:modified": "2026-06-16",
+  "dcat:version": "1.0",
+  "prov:qualifiedAttribution": [
+    {
+      "prov:agent": "p-8397553",
+      "dcat:hadRole": "dataOwner"
+    },
+    {
+      "prov:agent": "p-4632042",
+      "dcat:hadRole": "dataSteward"
+    }
+  ],
+  "adms:status": "published",
+  "bv:classification": "none",
+  "bv:personalData": "none",
+  "bv:typeOfData": "secondaryThematicData",
+  "bv:archivalValue": false,
+  "bv:externalCatalogs": [
+    {
+      "dcat:catalog": "I14Y"
+    },
+    {
+      "dcat:catalog": "opendata.swiss"
+    }
+  ],
+  "dcat:theme": [
+    "agriculture"
+  ],
+  "dct:temporal": {
+    "dcat:start_date": "2015-01-01",
+    "dcat:end_date": "2025-01-01"
+  },
+  "dcat:inSeries": [
+    "99788c8a-7971-4745-ae41-5eeda05ae636"
+  ],
+  "dcat:distribution": [
+    {
+      "dct:identifier": "6c0bdd4e-3ea8-4e9a-af49-ff0df4b9006e",
+      "dcat:accessURL": "https://data.blw.admin.ch/de/2025-landschaftsqualitaetsbeitraege",
+      "adms:status": "published",
+      "dct:format": "csv",
+      "dct:title": {
+        "de": "Landschaftsqualitätsbeiträge - alle Daten",
+        "fr": "Contributions à la qualité du paysage - toutes les données",
+        "it": "Contributi per la qualità del paesaggio"
+      },
+      "dct:description": {
+        "de": "Distribution enthält die Landschaftsqualitätsbeiträge aufgeschlüsselt nach Jahr, Projekt, Kanton, Zone und Anzahl Betriebe.",
+        "fr": "La distribution présente les contributions à la qualité du paysage, ventilées par année, projet, canton, zone et nombre d'exploitations.",
+        "it": "La distribuzione contiene i contributi per la qualità del paesaggio, suddivisi per anno, progetto, cantone e numero di aziende."
+      },
+      "bv:dimensions": [
+        "canton",
+        "company",
+        "contribution",
+        "year",
+        "zone"
+      ]
+    }
+  ]
+}
