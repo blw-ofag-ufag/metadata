@@ -1,0 +1,92 @@
+{
+  "dct:identifier": "a2d55aab-dcfb-40e9-bf4b-41cf012c8596",
+  "schema:image": "https://data.blw.admin.ch/_ipx/f_webp&q_80&s_1920x1080/https://prod-datablwadmin-hcms-sdweb.imgix.net/2026/06/17/ab5f089b-f942-470e-a65d-206038e06c13.jpg",
+  "dct:title": {
+    "de": "Produktionssystembeiträge",
+    "fr": "Contributions au système de production",
+    "it": "Contributi per i sistemi di produzione"
+  },
+  "dct:description": {
+    "de": "Die Produktionssystembeiträge sollen besonders dazu beitragen, die Ziele der parlamentarischen Initiative 19.475 «Das Risiko beim Einsatz von Pestiziden reduzieren» zu erreichen. Zudem sollen sie das Tierwohlniveau erhöhen und stärken.",
+    "fr": "Les contributions au système de production visent principalement à atteindre les objectifs de l’initiative parlementaire 19.475 « Réduire le risque de l’utilisation de pesticides ». Elles ont également pour but d’améliorer le bien-être des animaux. ",
+    "it": "I contributi per i sistemi di produzione (CSP) mirano in particolare a raggiungere gli obiettivi dell’iniziativa parlamentare 19.475 «Ridurre il rischio associato all’uso di pesticidi», nonché a incrementare e a potenziare il livello del benessere degli animali."
+  },
+  "dct:accessRights": "PUBLIC",
+  "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+  "dcat:contactPoint": {
+    "schema:name": "Fachbereich Direktzahlungsgrundlagen"
+  },
+  "dct:issued": "2015-01-01",
+  "dcatap:availability": "STABLE",
+  "dcat:keyword": [
+    "Acontrol",
+    "AGIS",
+    "contribution-year",
+    "farm",
+    "data",
+    "direct-payments",
+    "cantonal-identifier",
+    "agriculture",
+    "animals",
+    "environment",
+    "zoning"
+  ],
+  "dct:accrualPeriodicity": "ANNUAL",
+  "dct:modified": "2026-08-16",
+  "dcat:version": "1.0",
+  "prov:qualifiedAttribution": [
+    {
+      "prov:agent": "p-8397553",
+      "dcat:hadRole": "dataOwner"
+    },
+    {
+      "prov:agent": "p-4632042",
+      "dcat:hadRole": "dataSteward"
+    }
+  ],
+  "adms:status": "published",
+  "bv:classification": "none",
+  "bv:personalData": "none",
+  "bv:typeOfData": "secondaryThematicData",
+  "bv:archivalValue": false,
+  "dcat:theme": [
+    "agriculture"
+  ],
+  "dcat:landingPage": "https://data.blw.admin.ch/de/2025-produktionssystembeitraege",
+  "dct:temporal": {
+    "dcat:start_date": "2015-01-01",
+    "dcat:end_date": "2025-01-01"
+  },
+  "dcat:inSeries": [
+    "99788c8a-7971-4745-ae41-5eeda05ae636"
+  ],
+  "dcat:distribution": [
+    {
+      "dct:identifier": "produktionssystembeitraege",
+      "dcat:accessURL": "https://data.blw.admin.ch/de/2025-produktionssystembeitraege",
+      "adms:status": "published",
+      "dcatap:availability": "STABLE",
+      "dct:format": "csv",
+      "dct:modified": "2026-08-16",
+      "dct:title": {
+        "de": "Produktionssystembeiträge - alle Daten",
+        "fr": "Contributions au système de production - toutes les donnees",
+        "it": "Contributi per i sistemi di produzione - tutti i dati"
+      },
+      "dct:description": {
+        "de": "Distribution enthält die Produktionssystembeiträge aufgeschlüsselt nach Jahr, Beitragsart, Kanton, Anzahl Betriebe und Fläche.",
+        "fr": "La distgribution présente les contributions liées aux systèmes de production, ventilées par année, type de contribution, canton, nombre d'exploitations et surface.",
+        "it": "La distribuzione contiene i contributi per i sistemi di produzione, suddivisi per anno, tipologia di contributo, Cantone, numero di aziende e superficie."
+      },
+      "dct:license": "terms_by",
+      "bv:dimensions": [
+        "canton",
+        "company",
+        "contribution",
+        "contributionType",
+        "year",
+        "zone"
+      ]
+    }
+  ]
+}
