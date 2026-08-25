@@ -1,0 +1,82 @@
+{
+  "dct:identifier": "a2d86a78-76fe-4d9b-9204-7c24e69d7682",
+  "dct:title": {
+    "de": "Biodiversitätsbeiträge",
+    "fr": "Contributions à la biodiversité",
+    "it": "Contributi per la biodiversità"
+  },
+  "dct:description": {
+    "de": "Im Jahr 2025 machten die Biodiversitätsförderflächen (BFF) durchschnittlich 20 Prozent der landwirtschaftlichen Nutzfläche aus. Dafür erhielten die Landwirtinnen und Landwirte wie schon im Vorjahr Biodiversitätsbeiträge von 433 Millionen Schweizer Franken.",
+    "fr": "En 2025, les surfaces de promotion de la biodiversité (SPB) représentaient en moyenne 20 % de la surface agricole utile. Comme l’année précédente, les agriculteurs ont reçu pour ces surfaces des contributions à la biodiversité pour un total de 433 millions de francs.",
+    "it": "Nel 2025 la quota di superfici per la promozione della biodiversità (SPB) sulla superficie agricola utile (SAU) si è attestata mediamente alI 20 %. Per le SPB gli agricoltori hanno ricevuto contributi per la biodiversità pari a 433 milioni di franchi, in linea con quelli dell’anno precedente."
+  },
+  "dct:accessRights": "PUBLIC",
+  "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+  "dcat:contactPoint": {
+    "schema:name": "Fachbereich für Direktzahlungsgrundlagen"
+  },
+  "dct:issued": "2015-01-01",
+  "dcatap:availability": "STABLE",
+  "dct:accrualPeriodicity": "ANNUAL",
+  "dct:modified": "2026-06-16",
+  "dcat:version": "1.0",
+  "prov:qualifiedAttribution": [
+    {
+      "prov:agent": "p-8397553",
+      "dcat:hadRole": "dataOwner"
+    },
+    {
+      "prov:agent": "p-4632042",
+      "dcat:hadRole": "dataSteward"
+    }
+  ],
+  "adms:status": "published",
+  "bv:classification": "none",
+  "bv:personalData": "none",
+  "bv:typeOfData": "secondaryThematicData",
+  "bv:archivalValue": false,
+  "bv:externalCatalogs": [
+    {
+      "dcat:catalog": "I14Y"
+    },
+    {
+      "dcat:catalog": "opendata.swiss"
+    }
+  ],
+  "dcat:landingPage": "https://data.blw.admin.ch/de/2025-biodiversitaetsbeitraege",
+  "dct:temporal": {
+    "dcat:start_date": "2015-01-01",
+    "dcat:end_date": "2025-01-01"
+  },
+  "dcat:inSeries": [
+    "99788c8a-7971-4745-ae41-5eeda05ae636"
+  ],
+  "dcat:distribution": [
+    {
+      "dct:identifier": "bc77f8ad-200c-42a6-b04d-eb6ad78564b0",
+      "dcat:accessURL": "https://data.blw.admin.ch/de/2025-biodiversitaetsbeitraege",
+      "adms:status": "published",
+      "dcatap:availability": "STABLE",
+      "dct:format": "csv",
+      "dct:title": {
+        "de": "Biodiversitätsbeiträge - alle Daten",
+        "fr": "Contributions à la biodiversité - tout les données",
+        "it": "Contributi per la biodiversità - tutti i dati"
+      },
+      "dct:description": {
+        "de": "Distribution enthält die Produktionssystembeiträge aufgeschlüsselt nach Jahr, Beitragsart, Kanton, Region, Zone, Anzahl Betriebe und Fläche.",
+        "fr": "La distribution présente les contributions à la biodiversité - tout les données, ventilées par année, type de contribution, canton, région, zone, nombre d'exploitations et surface.",
+        "it": "La distribuzione contiene i contributi per la biodiversità, suddivisi per anno, tipo di contributo, cantone, regione, zona, numero di aziende e superficie."
+      },
+      "dct:license": "terms_by",
+      "bv:dimensions": [
+        "canton",
+        "company",
+        "contribution",
+        "contributionType",
+        "year",
+        "zone"
+      ]
+    }
+  ]
+}
