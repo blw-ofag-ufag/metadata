@@ -6077,7 +6077,7 @@
     {
         "rdf:type": "dcat:Dataset",
         "dct:identifier": "8fd9f464-5421-4dba-82f7-06105d9dbeaa",
-        "schema:image": "https://fal.media/files/tiger/8J9uFAKj5cjs1C5er7lKT_9af1a87f760749c5b69dfe69f0ed343d.jpg",
+        "schema:image": "https://prod-blwch-hcms-sdweb.imgix.net/dam/de/sd-web/NgKi5wxgMG5e/AdobeStock_279420087n.jpeg",
         "dct:title": {
             "fr": "Produits d'alpage",
             "de": "Alpprodukte",
@@ -6231,7 +6231,7 @@
             "'' does not match '^[a-zA-Z0-9_\\\\-\\\\s\\\\(\\\\)\\\\.\\\\,\\\\:\\\\/\\\\u00A0-\\\\u017F\\\\\\'\\\\\"\\\\?\\\\!\\\\%\\\\&\\\\+\\\\@]{5,100}$'",
             "'' does not match '^[a-zA-Z0-9_\\\\-\\\\s\\\\(\\\\)\\\\.\\\\,\\\\:\\\\/\\\\u00A0-\\\\u017F\\\\\\'\\\\\"\\\\?\\\\!\\\\%\\\\&\\\\+\\\\@]{5,100}$'"
         ],
-        "quality": 1369.1666666666667
+        "quality": 1370.0
     },
     {
         "rdf:type": "dcat:Dataset",
