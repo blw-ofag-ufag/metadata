@@ -1393,6 +1393,7 @@
     {
         "rdf:type": "dcat:Dataset",
         "dct:identifier": "19711e0b-c622-46c7-88ee-b081e1c042d4",
+        "schema:image": "https://prod-blwch-hcms-sdweb.imgix.net/dam/de/sd-web/k5aeX7IsozJn/maf_de.jpg",
         "dct:title": {
             "de": "Nährstofflieferungen zwischen Betrieben in der Schweizer Landwirtschaft",
             "fr": "Livraisons de nutriments entre les exploitations agricoles suisses",
@@ -1468,11 +1469,12 @@
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']"
         ],
-        "quality": 4633.0
+        "quality": 4683.5
     },
     {
         "rdf:type": "dcat:Dataset",
         "dct:identifier": "0fb4574d-48e0-45db-989b-5692683311ef",
+        "schema:image": "https://prod-blwch-hcms-sdweb.imgix.net/dam/de/sd-web/k5aeX7IsozJn/maf_de.jpg",
         "dct:title": {
             "de": "Beziehungen zwischen Betrieben eines Bewirtschafters in der Schweizer Landwirtschaft",
             "fr": "Relations entre les exploitations d'un exploitant dans l'agriculture suisse",
@@ -1553,7 +1555,7 @@
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']"
         ],
-        "quality": 4519.5
+        "quality": 4570.0
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -1639,6 +1641,7 @@
     {
         "rdf:type": "dcat:Dataset",
         "dct:identifier": "6ce7322f-10c4-4a60-8a4b-ea5318b4b8a1",
+        "schema:image": "https://prod-blwch-hcms-sdweb.imgix.net/dam/de/sd-web/k5aeX7IsozJn/maf_de.jpg",
         "dct:title": {
             "de": "Art und Anzahl Nutztiere auf einem Betrieb in der Schweizer Landwirtschaft",
             "fr": "Type et nombre d'animaux de rente dans une exploitation agricole suisse",
@@ -1733,11 +1736,12 @@
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']"
         ],
-        "quality": 4062.0
+        "quality": 4112.5
     },
     {
         "rdf:type": "dcat:Dataset",
         "dct:identifier": "d1692003-f226-4d4c-b70d-baa3332bca82",
+        "schema:image": "https://prod-blwch-hcms-sdweb.imgix.net/dam/de/sd-web/k5aeX7IsozJn/maf_de.jpg",
         "dct:title": {
             "de": "Juristische und natürliche Personen aus der Schweizerischen Landwirtschaft",
             "fr": "Personnes morales et physiques issues du secteur agricole suisse",
@@ -1815,11 +1819,12 @@
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']"
         ],
-        "quality": 3913.5
+        "quality": 3964.0
     },
     {
         "rdf:type": "dcat:Dataset",
         "dct:identifier": "3e7fd49d-0d26-44fe-86a4-ac06240ea5d7",
+        "schema:image": "https://prod-blwch-hcms-sdweb.imgix.net/dam/de/sd-web/k5aeX7IsozJn/maf_de.jpg",
         "dct:title": {
             "de": "Betriebsangaben zu Betrieben in der Schweizer Landwirtschaft",
             "fr": "Données d'entreprises de l'agriculture suisse",
@@ -1900,12 +1905,12 @@
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']"
         ],
-        "quality": 3883.0
+        "quality": 3933.5
     },
     {
         "rdf:type": "dcat:Dataset",
         "dct:identifier": "7079407c-c5df-430c-b6bf-75f9216c46b3",
-        "schema:image": "https://fal.media/files/kangaroo/zC34KxmLbmI4fsz9Cit2k_7a22cfc79d1d47c88ffd23ca3e4d99a0.jpg",
+        "schema:image": "https://prod-blwch-hcms-sdweb.imgix.net/dam/de/sd-web/k5aeX7IsozJn/maf_de.jpg",
         "dct:title": {
             "de": "Flächenangaben zu Vernetzungsflächen auf einem Betrieb in der Schweizer Landwirtschaft",
             "fr": "Indications de superficie pour les surfaces de mise en réseau sur une exploitation agricole suisse",
@@ -2001,7 +2006,7 @@
             "'Flächenangaben zu Vernetzungsflächen auf einem Betrieb in der Schweizer Landwirtschaft - Provisorische Daten' does not match '^[a-zA-Z0-9_\\\\-\\\\s\\\\(\\\\)\\\\.\\\\,\\\\:\\\\/\\\\u00A0-\\\\u017F\\\\\\'\\\\\"\\\\?\\\\!\\\\%\\\\&\\\\+\\\\@]{5,100}$'",
             "'Indications de superficie pour les surfaces de mise en réseau sur une exploitation agricole suisse - données provisoires' does not match '^[a-zA-Z0-9_\\\\-\\\\s\\\\(\\\\)\\\\.\\\\,\\\\:\\\\/\\\\u00A0-\\\\u017F\\\\\\'\\\\\"\\\\?\\\\!\\\\%\\\\&\\\\+\\\\@]{5,100}$'"
         ],
-        "quality": 2494.0
+        "quality": 2490.5
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -2044,7 +2049,7 @@
     {
         "rdf:type": "dcat:Dataset",
         "dct:identifier": "e4b1f944-2f1a-433e-bcd4-7f88028800c8",
-        "schema:image": "https://fal.media/files/rabbit/AV3NeebdflBNBMy5B0LGy_ef0855c80cb24d24828892ac5c308d61.jpg",
+        "schema:image": "https://prod-blwch-hcms-sdweb.imgix.net/dam/de/sd-web/k5aeX7IsozJn/maf_de.jpg",
         "dct:title": {
             "de": "Flächenangaben zu Rebfächen in Hanglagen auf einem Betrieb in der Schweizer Landwirtschaft",
             "fr": "Indications de surface pour les vignobles en pente sur une exploitation agricole suisse",
@@ -2141,12 +2146,12 @@
             "'Flächenangaben zu Rebfächen in Hanglagen auf einem Betrieb in der Schweizer Landwirtschaft - Provisorische Daten' does not match '^[a-zA-Z0-9_\\\\-\\\\s\\\\(\\\\)\\\\.\\\\,\\\\:\\\\/\\\\u00A0-\\\\u017F\\\\\\'\\\\\"\\\\?\\\\!\\\\%\\\\&\\\\+\\\\@]{5,100}$'",
             "'Indications de surface pour les vignobles en pente sur une exploitation agricole suisse - données provisoires' does not match '^[a-zA-Z0-9_\\\\-\\\\s\\\\(\\\\)\\\\.\\\\,\\\\:\\\\/\\\\u00A0-\\\\u017F\\\\\\'\\\\\"\\\\?\\\\!\\\\%\\\\&\\\\+\\\\@]{5,100}$'"
         ],
-        "quality": 2406.25
+        "quality": 2403.25
     },
     {
         "rdf:type": "dcat:Dataset",
         "dct:identifier": "f2d347f7-7782-4411-b99e-666e67b6c652",
-        "schema:image": "https://fal.media/files/koala/0iew8qQY5t1OOcbFH10v-_c45b7b211f2c45e09e8452b0f267702c.jpg",
+        "schema:image": "https://prod-blwch-hcms-sdweb.imgix.net/dam/de/sd-web/k5aeX7IsozJn/maf_de.jpg",
         "dct:title": {
             "de": "Flächenangaben zu Hauptkulturen auf einem Betrieb in der Schweizer Landwirtschaft",
             "fr": "Données sur les surfaces des principales cultures dans une exploitation agricole suisse",
@@ -2242,12 +2247,12 @@
             "'Flächenangaben zu Hauptkulturen auf einem Betrieb in der Schweizer Landwirtschaft - Provisorische Daten' does not match '^[a-zA-Z0-9_\\\\-\\\\s\\\\(\\\\)\\\\.\\\\,\\\\:\\\\/\\\\u00A0-\\\\u017F\\\\\\'\\\\\"\\\\?\\\\!\\\\%\\\\&\\\\+\\\\@]{5,100}$'",
             "'Données sur les surfaces des principales cultures dans une exploitation agricole suisse - données provisoires' does not match '^[a-zA-Z0-9_\\\\-\\\\s\\\\(\\\\)\\\\.\\\\,\\\\:\\\\/\\\\u00A0-\\\\u017F\\\\\\'\\\\\"\\\\?\\\\!\\\\%\\\\&\\\\+\\\\@]{5,100}$'"
         ],
-        "quality": 2392.25
+        "quality": 2389.5
     },
     {
         "rdf:type": "dcat:Dataset",
         "dct:identifier": "8432bc6e-262f-40dd-b380-2bc39f9efa32",
-        "schema:image": "https://fal.media/files/kangaroo/MplSG_GNu6ZmK7BwV-Wna_62809d3f79334984b197c233f6abdc49.jpg",
+        "schema:image": "https://prod-blwch-hcms-sdweb.imgix.net/dam/de/sd-web/k5aeX7IsozJn/maf_de.jpg",
         "dct:title": {
             "de": "Flächenangaben zu Fächen in Hanglagen auf einem Betrieb in der Schweizer Landwirtschaft",
             "fr": "Indications de surface pour les surfaces en pente d'une exploitation agricole suisse",
@@ -2343,7 +2348,7 @@
             "'Flächenangaben zu Fächen in Hanglagen auf einem Betrieb in der Schweizer Landwirtschaft - Provisorische Daten' does not match '^[a-zA-Z0-9_\\\\-\\\\s\\\\(\\\\)\\\\.\\\\,\\\\:\\\\/\\\\u00A0-\\\\u017F\\\\\\'\\\\\"\\\\?\\\\!\\\\%\\\\&\\\\+\\\\@]{5,100}$'",
             "\"Indications de surface pour les surfaces en pente d'une exploitation agricole suisse - données provisoires\" does not match '^[a-zA-Z0-9_\\\\-\\\\s\\\\(\\\\)\\\\.\\\\,\\\\:\\\\/\\\\u00A0-\\\\u017F\\\\\\'\\\\\"\\\\?\\\\!\\\\%\\\\&\\\\+\\\\@]{5,100}$'"
         ],
-        "quality": 2362.75
+        "quality": 2359.25
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -2527,7 +2532,7 @@
     {
         "rdf:type": "dcat:Dataset",
         "dct:identifier": "451e6d03-9868-49fb-8c26-ebf3acc85e43",
-        "schema:image": "https://fal.media/files/kangaroo/wfR9lE1XS04bNDZxRP99o_ebf2d36c2f4341d0b052966613ca8376.jpg",
+        "schema:image": "https://prod-blwch-hcms-sdweb.imgix.net/dam/de/sd-web/k5aeX7IsozJn/maf_de.jpg",
         "dct:title": {
             "de": "Art und Anzahl Nutztiere in Sömmerung auf einem Betrieb in der Schweizer Landwirtschaft",
             "fr": "Type et nombre d'animaux de rente en estivage dans une exploitation agricole suisse",
@@ -2625,7 +2630,7 @@
             "'Art und Anzahl Nutztiere in Sömmerung auf einem Betrieb in der Schweizer Landwirtschaft - Provisorische Daten' does not match '^[a-zA-Z0-9_\\\\-\\\\s\\\\(\\\\)\\\\.\\\\,\\\\:\\\\/\\\\u00A0-\\\\u017F\\\\\\'\\\\\"\\\\?\\\\!\\\\%\\\\&\\\\+\\\\@]{5,100}$'",
             "\"Type et nombre d'animaux de rente en estivage dans une exploitation agricole suisse - données provisoires\" does not match '^[a-zA-Z0-9_\\\\-\\\\s\\\\(\\\\)\\\\.\\\\,\\\\:\\\\/\\\\u00A0-\\\\u017F\\\\\\'\\\\\"\\\\?\\\\!\\\\%\\\\&\\\\+\\\\@]{5,100}$'"
         ],
-        "quality": 2167.0
+        "quality": 2163.5
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -2672,7 +2677,7 @@
     {
         "rdf:type": "dcat:Dataset",
         "dct:identifier": "00d5f3a2-8387-432b-8f46-b49c3eb018ea",
-        "schema:image": "https://fal.media/files/monkey/6gWWWqidmTPm5sPb5W59p_38800376b318474599bf6fa9638c6bae.jpg",
+        "schema:image": "https://prod-blwch-hcms-sdweb.imgix.net/dam/de/sd-web/QkY4ZGWqowoI/agis_de.jpg",
         "dct:title": {
             "de": "Anmeldungen für Direktzahlungsprogramme zu einem Betrieb in der Schweizer Landwirtschaft",
             "fr": "Inscription aux programmes de paiements directs pour une exploitation agricole suisse",
@@ -2769,7 +2774,7 @@
             "'Inscription aux programmes de paiements directs pour une exploitation agricole suisse - données provisoires.' does not match '^[a-zA-Z0-9_\\\\-\\\\s\\\\(\\\\)\\\\.\\\\,\\\\:\\\\/\\\\u00A0-\\\\u017F\\\\\\'\\\\\"\\\\?\\\\!\\\\%\\\\&\\\\+\\\\@]{5,100}$'",
             "\"Iscrizioni per programmi di pagamenti diretti per un'azienda nell'agricoltura svizzera - dati provvisori\" does not match '^[a-zA-Z0-9_\\\\-\\\\s\\\\(\\\\)\\\\.\\\\,\\\\:\\\\/\\\\u00A0-\\\\u017F\\\\\\'\\\\\"\\\\?\\\\!\\\\%\\\\&\\\\+\\\\@]{5,100}$'"
         ],
-        "quality": 2037.4
+        "quality": 2035.2
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -10583,7 +10588,7 @@
     {
         "rdf:type": "dcat:Dataset",
         "dct:identifier": "ad68ced9-d7da-4817-980e-f439c7394172",
-        "schema:image": "https://fal.media/files/kangaroo/zC34KxmLbmI4fsz9Cit2k_7a22cfc79d1d47c88ffd23ca3e4d99a0.jpg",
+        "schema:image": "https://prod-blwch-hcms-sdweb.imgix.net/dam/de/sd-web/k5aeX7IsozJn/maf_de.jpg",
         "dct:title": {
             "de": "Flächenangaben zu Biodiversitätsfrderflächen auf einem Betrieb in der Schweizer Landwirtschaft",
             "fr": "Indications de surface pour les surfaces de promotion de la biodiversité dans une exploitation agricole suisse",
@@ -10686,7 +10691,44 @@
             "\"Dati sulle superfici delle superfici per la promozione della biodiversità in un'azienda agricola in Svizzera - dati provvisori\" does not match '^[a-zA-Z0-9_\\\\-\\\\s\\\\(\\\\)\\\\.\\\\,\\\\:\\\\/\\\\u00A0-\\\\u017F\\\\\\'\\\\\"\\\\?\\\\!\\\\%\\\\&\\\\+\\\\@]{5,100}$'",
             "'Information on the area of biodiversity promotion areas on a farm in Swiss agriculture - provisional data' does not match '^[a-zA-Z0-9_\\\\-\\\\s\\\\(\\\\)\\\\.\\\\,\\\\:\\\\/\\\\u00A0-\\\\u017F\\\\\\'\\\\\"\\\\?\\\\!\\\\%\\\\&\\\\+\\\\@]{5,100}$'"
         ],
-        "quality": 1036.4
+        "quality": 1035.0
+    },
+    {
+        "rdf:type": "dcat:Dataset",
+        "dct:identifier": "4f7691e1-558e-4589-9f96-abdc2fc598d3",
+        "schema:image": "https://prod-blwch-hcms-sdweb.imgix.net/dam/de/sd-web/4ZjVh8VS8gN6/Digitalisierung.jpg?rect=0%2C261%2C2508%2C1411&auto=format&w=1024",
+        "dct:title": {
+            "de": "Anmeldungen für Direktzahlungsprogramme, den ÖLN, den NPR-Futtereinsatz und den Kontrollstellen",
+            "fr": "Inscriptions aux programmes de paiements directs, aux PER, à l'utilisation fourragère NPR et aux organes de contrôle"
+        },
+        "dct:description": {
+            "de": "Beinhaltet die jährlichen Anmeldedaten (Stichtag im August) für spezifische Direktzahlungsprogramme (z. B. BTS, RAUS, Ressourceneffizienz) sowie für den Ökologischen Leistungsnachweis (ÖLN) für das Folgejahr. Der Datensatz dient primär der Koordination der landwirtschaftlichen Kontrollen und der Schätzung der finanziellen Beteiligung.",
+            "fr": "Contient les données d'inscription annuelles (date de référence en août) pour des programmes de paiements directs spécifiques (p. ex. SST, SRPA, efficacité des ressources) ainsi que pour les prestations écologiques requises (PER) pour l'année suivante. L'ensemble de données sert principalement à coordonner les contrôles agricoles et à estimer la participation financière."
+        },
+        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+        "dcat:contactPoint": {
+            "schema:name": "Gruppe Agrarinformationssystem AGIS",
+            "schema:email": "agis@blw.admin.ch"
+        },
+        "dct:issued": "2014-01-02",
+        "dcat:keyword": [
+            "AGIS",
+            "direct-payments",
+            "operational-data"
+        ],
+        "adms:status": "published",
+        "bv:classification": "none",
+        "bv:personalData": "personalData",
+        "dcat:theme": [
+            "agriculture"
+        ],
+        "dcat:landingPage": "https://www.blw.admin.ch/de/anwendung-agis",
+        "dataOwner": "p-8757693",
+        "schemaViolations": 1,
+        "schemaViolationMessages": [
+            "\"Inscriptions aux programmes de paiements directs, aux PER, à l'utilisation fourragère NPR et aux organes de contrôle\" does not match '^[a-zA-Z0-9_\\\\-\\\\s\\\\(\\\\)\\\\.\\\\,\\\\:\\\\/\\\\u00A0-\\\\u017F\\\\\\'\\\\\"\\\\?\\\\!\\\\%\\\\&\\\\+\\\\@]{10,100}$'"
+        ],
+        "quality": 1019.0
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -10995,42 +11037,6 @@
             "'' does not match '^[a-zA-Z0-9_\\\\-\\\\s\\\\(\\\\)\\\\.\\\\,\\\\:\\\\/\\\\u00A0-\\\\u017F\\\\\\'\\\\\"\\\\?\\\\!\\\\%\\\\&\\\\+\\\\@]{5,100}$'"
         ],
         "quality": 947.2857142857143
-    },
-    {
-        "rdf:type": "dcat:Dataset",
-        "dct:identifier": "4f7691e1-558e-4589-9f96-abdc2fc598d3",
-        "dct:title": {
-            "de": "Anmeldungen für Direktzahlungsprogramme, den ÖLN, den NPR-Futtereinsatz und den Kontrollstellen",
-            "fr": "Inscriptions aux programmes de paiements directs, aux PER, à l'utilisation fourragère NPR et aux organes de contrôle"
-        },
-        "dct:description": {
-            "de": "Beinhaltet die jährlichen Anmeldedaten (Stichtag im August) für spezifische Direktzahlungsprogramme (z. B. BTS, RAUS, Ressourceneffizienz) sowie für den Ökologischen Leistungsnachweis (ÖLN) für das Folgejahr. Der Datensatz dient primär der Koordination der landwirtschaftlichen Kontrollen und der Schätzung der finanziellen Beteiligung.",
-            "fr": "Contient les données d'inscription annuelles (date de référence en août) pour des programmes de paiements directs spécifiques (p. ex. SST, SRPA, efficacité des ressources) ainsi que pour les prestations écologiques requises (PER) pour l'année suivante. L'ensemble de données sert principalement à coordonner les contrôles agricoles et à estimer la participation financière."
-        },
-        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
-        "dcat:contactPoint": {
-            "schema:name": "Gruppe Agrarinformationssystem AGIS",
-            "schema:email": "agis@blw.admin.ch"
-        },
-        "dct:issued": "2014-01-02",
-        "dcat:keyword": [
-            "AGIS",
-            "direct-payments",
-            "operational-data"
-        ],
-        "adms:status": "published",
-        "bv:classification": "none",
-        "bv:personalData": "personalData",
-        "dcat:theme": [
-            "agriculture"
-        ],
-        "dcat:landingPage": "https://www.blw.admin.ch/de/anwendung-agis",
-        "dataOwner": "p-8757693",
-        "schemaViolations": 1,
-        "schemaViolationMessages": [
-            "\"Inscriptions aux programmes de paiements directs, aux PER, à l'utilisation fourragère NPR et aux organes de contrôle\" does not match '^[a-zA-Z0-9_\\\\-\\\\s\\\\(\\\\)\\\\.\\\\,\\\\:\\\\/\\\\u00A0-\\\\u017F\\\\\\'\\\\\"\\\\?\\\\!\\\\%\\\\&\\\\+\\\\@]{10,100}$'"
-        ],
-        "quality": 942.0
     },
     {
         "rdf:type": "dcat:Dataset",
