@@ -1,59 +1,5 @@
 [
     {
-        "rdf:type": "datasetSeries",
-        "schema:image": "https://prod-blwch-hcms-sdweb.imgix.net/dam/en/sd-web/nPO3NMseA8L3/HOME_Setzlinge_anpflanzen%20low.jpg?auto=format&w=2048",
-        "dct:identifier": "7f4a2c91-6b3e-4d8f-9a12-5c7e8b6d4f30",
-        "dct:title": {
-            "de": "Test Dataset Series 20260811",
-            "fr": "FR_Test Dataset Series 20260811",
-            "it": "IT_Test Dataset Series 20260811",
-            "en": "EN_Test Dataset Series 20260811"
-        },
-        "dct:description": {
-            "de": "Beschreibung Test Dataset Series 20260811",
-            "fr": "FR_Beschreibung Test Dataset Series 20260811",
-            "it": "IT_Beschreibung Test Dataset Series 20260811",
-            "en": "EN_Beschreibung Test Dataset Series 20260811"
-        },
-        "dcat:contactPoint": {
-            "schema:name": "kontaktstelle",
-            "schema:email": "kontaktstelle@test.test"
-        },
-        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
-        "dct:creator": {
-            "prov:agent": "p-1zlwbxsjd",
-            "schema:name": "vorname nachname",
-            "schema:email": "test@pascal.test",
-            "dcat:hadRole": "dataSteward"
-        },
-        "adms:status": "workInProgress",
-        "dcat:version": "0.1.0",
-        "dcat:dataset": [
-            "d9b36866-919c-4abb-9b2c-a03f9f951fb4"
-        ],
-        "foaf:page": [
-            {
-                "alias": "Example website",
-                "uri": "https://www.example.com"
-            }
-        ],
-        "schema:comment": "Test dataset series for local validation.",
-        "dcat:keyword": [
-            "Acontrol",
-            "AGIS",
-            "Test"
-        ],
-        "dcatap:applicableLegislation": [
-            "https://www.fedlex.admin.ch/"
-        ],
-        "bv:classification": "none",
-        "bv:personalData": "none",
-        "dataOwner": null,
-        "schemaViolations": 0,
-        "schemaViolationMessages": [],
-        "quality": 1662.0
-    },
-    {
         "rdf:type": "dcat:DatasetSeries",
         "dct:identifier": "99788c8a-7971-4745-ae41-5eeda05ae636",
         "schema:image": "https://data.blw.admin.ch/_ipx/f_webp&q_80&s_1920x1080/https://prod-datablwadmin-hcms-sdweb.imgix.net/2026/06/19/9caf747e-8c74-4909-8e12-2c7e055fde1d.jpg",
