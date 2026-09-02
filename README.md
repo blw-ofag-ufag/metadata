@@ -126,19 +126,19 @@ streamlit run dashboard/app.py
 
 Below are the main schema files and the notable differences between the regular (`data/schemas`) and strict (`data/schema_strict`) variants. These points reference the concrete files present in the repository.
 
-Main schema files:
+### Main schema files:
 - data/schemas/dataset.json — canonical dataset schema used for authoring / validation
 - data/schemas/dataService.json — service-level schema
 - data/schemas/datasetSeries.json — series collection schema
 - data/schemas/* (keywords.json, roles.json, catalog.json) — lookups and supporting assets
 
-Strict schema variants:
+### Strict schema variants:
 - data/schema_strict/strict-dataset.json
 - data/schema_strict/strict-distribution.json
 - data/schema_strict/strict-dataService.json
 - portal specializations: strict-i14y-*, strict-ods-* (tuned to target portals)
 
-Main differences:
+### Main differences:
 
 1. dct:accessRights is required in strict mode (line 10 in strict-dataset) but only recommended in regular mode (line 17 in dataset.json).
 
@@ -156,7 +156,7 @@ Main differences:
 
 5. Portal requirement annotations in descriptions (e.g., "Portal Requirement:...") appear only in strict schemas.
 
-Practical implications for pipeline users
+### Practical implications for pipeline users
 - Authoring & CI: Use `data/schemas/` for local schema validation during editing and transformations where a lighter-touch model helps contributors iterate.
 - Pre-publication gate: Use `data/schema_strict/` to catch portal-level requirements (missing license, missing access rights, insufficient multilingual titles/descriptions, missing distribution metadata).
 - The audit pipeline uses these schema families to decide “publishable” vs “needs changes” and the Dashboard surfaces the results to data stewards.
