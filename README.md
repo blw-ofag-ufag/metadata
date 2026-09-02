@@ -6,7 +6,7 @@
 [![GitHub last commit](https://img.shields.io/github/last-commit/blw-ofag-ufag/metadata.svg)](https://github.com/blw-ofag-ufag/metadata/commits)
 [![GitHub issues](https://img.shields.io/github/issues/blw-ofag-ufag/metadata.svg)](https://github.com/blw-ofag-ufag/metadata/issues)
 
-Welcome to the **FOAG Metadata** repository. This repository contains the canonical metadata definitions, JSON schema artifacts, the dataset validation/audit automation and a client-side (stlite/Streamlit) Quality Dashboard used by data stewards to validate and monitor dataset metadata quality.
+Welcome to the **FOAG Metadata** repository. This repository contains the canonical metadata definitions, JSON schema artifacts, the dataset validation/audit automation and a client-side Quality Dashboard used by data stewards to validate and monitor dataset metadata quality.
 
 ## Repository tree (high-level)
 
@@ -23,9 +23,7 @@ Trimmed repository layout
 │   ├── index.html
 │   ├── app.py
 │   ├── translations.py
-│   ├── style.css
-│   ├── data_summary.json        # (viewer snapshot / summary file)
-│   └── data_details.json        # (viewer snapshot / details file)
+│   └── style.css
 ├── data/
 │   ├── raw/                     # Raw metadata exports (source)
 │   ├── processed/               # Processed/normalized dataset files (generated)
@@ -82,12 +80,12 @@ This repository includes a **Quality Assurance Dashboard** built with Streamlit 
 ### Architecture
 The dashboard runs entirely in the client's browser (Serverless).
 1.  **Builder:** GitHub Actions runs `src/audit.py` to validate links and calculate scores.
-2.  **Snapshot:** The results are saved to `dashboard/data_snapshot.json`.
+2.  **Snapshot:** The results are saved to `dashboard/data_summary.json` and `dashboard/data_details.json`.
 3.  **Viewer:** The `dashboard/` folder is published to GitHub Pages. `index.html` loads the Stlite engine, which executes `app.py` using the JSON snapshot.
 
 ### 1. Prerequisites & Installation locally
 
-Ensure you have **Python 3.12+** installed.
+Ensure you have **Python 3.9+** installed.
 
 1.  **Clone the repository:**
     ```bash
@@ -112,7 +110,7 @@ Before running the dashboard, you must generate the data. This script processes 
 
 ```bash
 # Run the audit pipeline from the project root
-# Generates: dashboard/data_snapshot.json
+# Generates: dashboard/data_summary.json & dashboard/data_details.json 
 python -m src.audit
 ```
 
