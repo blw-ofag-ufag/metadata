@@ -8,6 +8,12 @@
 
 Welcome to the **FOAG Metadata** repository. This repository contains the canonical metadata definitions, JSON schema artifacts, the dataset validation/audit automation and a client-side Quality Dashboard used by data stewards to validate and monitor dataset metadata quality.
 
+## TL;DR
+- The audit pipeline in `src/` reads raw metadata (`data/raw`), validates it against schemas (`data/schemas` or `data/schema_strict` depending on target), runs link-health checks and scoring, and writes a static snapshot consumed by the dashboard.
+- The dashboard in `dashboard/` is a static stlite (Streamlit-in-the-browser) viewer that loads a JSON snapshot and renders an interactive QA UI entirely client-side.
+
+---
+
 ## Repository tree (high-level)
 
 Trimmed repository layout
@@ -50,10 +56,6 @@ Trimmed repository layout
 │   └── audit.py                 # pipeline to validate, check links and create dashboard snapshot
 └── tests/
 ```
-
-How it fits together (runtime shape)
-- The audit pipeline in `src/` reads raw metadata (`data/raw`), validates it against schemas (`data/schemas` or `data/schema_strict` depending on target), runs link-health checks and scoring, and writes a static snapshot consumed by the dashboard.
-- The dashboard in `dashboard/` is a static stlite (Streamlit-in-the-browser) viewer that loads a JSON snapshot and renders an interactive QA UI entirely client-side.
 
 ---
 
@@ -124,6 +126,16 @@ streamlit run dashboard/app.py
 
 ## Schema description: data/schemas vs data/schema_strict
 
+| Aspect | `data/schemas/` (Regular) | `data/schema_strict/` (Strict) |
+|--------|---------------------------|--------------------------------|
+| **Purpose** | Working/authoring schema; practical for contributors | Pre-publication gate; portal compliance validation |
+| **dct:accessRights** | **Recommended** | **Required** |
+| **Distribution model** | Embedded inline in dataset | Referenced via `$ref` to strict-distribution.json |
+| **Distribution required fields** | `dcat:accessURL`, `adms:status`, `dct:format` | `dcat:accessURL`, `adms:status`, `dct:format`, `dct:title`, `dct:description`, `dct:license` |
+| **Additional properties** | Allowed | Restricted (`additionalProperties: false`) |
+| **Portal requirement annotations** | Not included | Included in descriptions |
+| **Use case** | Local authoring, CI checks, transformations | Final validation before publishing to opendata.swiss, i14y |
+
 Below are the main schema files and the notable differences between the regular (`data/schemas`) and strict (`data/schema_strict`) variants. These points reference the concrete files present in the repository.
 
 ### Main schema files:
@@ -140,7 +152,7 @@ Below are the main schema files and the notable differences between the regular 
 
 ### Main differences:
 
-1. dct:accessRights is required in strict mode (line 10 in strict-dataset) but only recommended in regular mode (line 17 in dataset.json).
+1. dct:accessRights is required in strict mode but only recommended in regular mode.
 
 2. Distribution model divergence:
 
@@ -156,10 +168,7 @@ Below are the main schema files and the notable differences between the regular 
 
 5. Portal requirement annotations in descriptions (e.g., "Portal Requirement:...") appear only in strict schemas.
 
-### Practical implications for pipeline users
-- Authoring & CI: Use `data/schemas/` for local schema validation during editing and transformations where a lighter-touch model helps contributors iterate.
-- Pre-publication gate: Use `data/schema_strict/` to catch portal-level requirements (missing license, missing access rights, insufficient multilingual titles/descriptions, missing distribution metadata).
-- The audit pipeline uses these schema families to decide “publishable” vs “needs changes” and the Dashboard surfaces the results to data stewards.
+
 
 ---
 
