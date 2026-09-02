@@ -122,7 +122,7 @@ streamlit run dashboard/app.py
 
 ---
 
-## Detailed description: data/schemas vs data/schema_strict (concrete differences)
+## Schema description: data/schemas vs data/schema_strict
 
 Below are the main schema files and the notable differences between the regular (`data/schemas`) and strict (`data/schema_strict`) variants. These points reference the concrete files present in the repository.
 
@@ -138,29 +138,23 @@ Strict schema variants:
 - data/schema_strict/strict-dataService.json
 - portal specializations: strict-i14y-*, strict-ods-* (tuned to target portals)
 
-What is stricter in schema_strict (concrete differences)
+Main differences:
 
-1. Required properties (presence)
-   - strict-dataset.json requires `dct:accessRights` in addition to the fields required by the regular dataset schema. This enforces an explicit access classification for strict validation.
-   - strict-dataset.json's required list typically includes: `adms:status`, `bv:classification`, `bv:personalData`, `dct:accessRights`, `dct:description`, `dct:identifier`, `dct:issued`, `dct:publisher`, and `dct:title`.
-   - strict-distribution.json requires: `adms:status`, `dcat:accessURL`, `dct:description`, `dct:format`, `dct:license`, and `dct:title`.
-   - Practically: the strict set stops publication until access rights, license and multilingual titles/descriptions are provided.
+1. dct:accessRights is required in strict mode (line 10 in strict-dataset) but only recommended in regular mode (line 17 in dataset.json).
 
-2. Tighter value constraints (patterns, formats, minimum lengths)
-   - Titles and multilingual title patterns in strict schemas are enforced with regex patterns and minimum character expectations (e.g., distribution titles in strict distribution expect more descriptive titles than the permissive schema).
-   - Dates and URI formats are enforced consistently and documented with portal requirements in property descriptions.
+2. Distribution model divergence:
 
-3. Controlled vocabularies & typing
-   - Keywords, license terms and certain enumerated fields are more strictly documented and described in strict schemas. For example, strict schemas emphasize that `dcat:keyword` and license fields conform to portal expectations (language-tagged strings, permissible enumerations).
-   - License: strict distribution requires a license enumerated value; regular schema may allow license to be optional for non-publish scenarios.
+- Regular schema embeds distribution properties inline in the dataset
+- Strict schema uses a $ref to strict-distribution.json
 
-4. Distribution model differences
-   - Regular `data/schemas/dataset.json` contains a distribution item definition with required keys: `dcat:accessURL`, `adms:status`, `dct:format`.
-   - Strict `strict-dataset.json` references `strict-distribution.json` (via `$ref`), and that strict-distribution includes additional required properties (title, description, license), stronger documentation, and explicit portal guidance.
-   - The strict distribution file sets `additionalProperties: false` and documents portal requirements for properties such as `dct:modified` and `dct:rights`.
+3. Distribution requirements:
 
-5. Portal-specific specializations
-   - Files under `data/schema_strict/` include portal-tuned variants (e.g., `strict-i14y-*`, `strict-ods-*`) which may contain portal-specific enumerations, required portal metadata, or special rules expected by those portals.
+- Regular: only requires dcat:accessURL, adms:status, dct:format
+- Strict: requires those plus dct:title, dct:description, dct:license
+
+4. `additionalProperties: false` in strict-distribution.json restricts extra properties.
+
+5. Portal requirement annotations in descriptions (e.g., "Portal Requirement:...") appear only in strict schemas.
 
 Practical implications for pipeline users
 - Authoring & CI: Use `data/schemas/` for local schema validation during editing and transformations where a lighter-touch model helps contributors iterate.
