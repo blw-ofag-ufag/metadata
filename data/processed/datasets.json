@@ -1153,6 +1153,7 @@
     {
         "rdf:type": "dcat:Dataset",
         "dct:identifier": "273f07dd-b1ec-4be1-b0fc-19dfce7b5f7e",
+        "schema:image": "https://prod-blwch-hcms-sdweb.imgix.net/dam/de/sd-web/JRVuUKMgS1wg/CH-Karte_AOP-IGP_alle_2025.png",
         "dct:title": {
             "de": "Register Ursprungsbezeichnungen (GUB) und geografische Angaben (GGA)",
             "fr": "Registre des appellations d'origine (AOP) et des indications géographiques ",
@@ -1294,7 +1295,7 @@
         "schemaViolationMessages": [
             "'dct:issued' is a required property"
         ],
-        "quality": 5876.0
+        "quality": 5935.5
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -1393,6 +1394,7 @@
     {
         "rdf:type": "dcat:Dataset",
         "dct:identifier": "19711e0b-c622-46c7-88ee-b081e1c042d4",
+        "schema:image": "https://prod-blwch-hcms-sdweb.imgix.net/dam/de/sd-web/k5aeX7IsozJn/maf_de.jpg",
         "dct:title": {
             "de": "Nährstofflieferungen zwischen Betrieben in der Schweizer Landwirtschaft",
             "fr": "Livraisons de nutriments entre les exploitations agricoles suisses",
@@ -1468,11 +1470,12 @@
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']"
         ],
-        "quality": 4633.0
+        "quality": 4683.5
     },
     {
         "rdf:type": "dcat:Dataset",
         "dct:identifier": "0fb4574d-48e0-45db-989b-5692683311ef",
+        "schema:image": "https://prod-blwch-hcms-sdweb.imgix.net/dam/de/sd-web/k5aeX7IsozJn/maf_de.jpg",
         "dct:title": {
             "de": "Beziehungen zwischen Betrieben eines Bewirtschafters in der Schweizer Landwirtschaft",
             "fr": "Relations entre les exploitations d'un exploitant dans l'agriculture suisse",
@@ -1553,11 +1556,12 @@
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']"
         ],
-        "quality": 4519.5
+        "quality": 4570.0
     },
     {
         "rdf:type": "dcat:Dataset",
         "dct:identifier": "bde8ca0b-5e32-4a17-be4b-4bb27a0af7ba",
+        "schema:image": "https://prod-blwch-hcms-sdweb.imgix.net/dam/de/sd-web/JRVuUKMgS1wg/CH-Karte_AOP-IGP_alle_2025.png",
         "dct:title": {
             "de": "Register Ursprungsbezeichnungen (GUB) und geografische Angaben (GGA)",
             "fr": "Registre des appellations d'origine (AOP) et des indications géographiques ",
@@ -1634,11 +1638,12 @@
         "schemaViolationMessages": [
             "'dct:issued' is a required property"
         ],
-        "quality": 4431.0
+        "quality": 4490.5
     },
     {
         "rdf:type": "dcat:Dataset",
         "dct:identifier": "6ce7322f-10c4-4a60-8a4b-ea5318b4b8a1",
+        "schema:image": "https://prod-blwch-hcms-sdweb.imgix.net/dam/de/sd-web/k5aeX7IsozJn/maf_de.jpg",
         "dct:title": {
             "de": "Art und Anzahl Nutztiere auf einem Betrieb in der Schweizer Landwirtschaft",
             "fr": "Type et nombre d'animaux de rente dans une exploitation agricole suisse",
@@ -1733,11 +1738,12 @@
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']"
         ],
-        "quality": 4062.0
+        "quality": 4112.5
     },
     {
         "rdf:type": "dcat:Dataset",
         "dct:identifier": "d1692003-f226-4d4c-b70d-baa3332bca82",
+        "schema:image": "https://prod-blwch-hcms-sdweb.imgix.net/dam/de/sd-web/k5aeX7IsozJn/maf_de.jpg",
         "dct:title": {
             "de": "Juristische und natürliche Personen aus der Schweizerischen Landwirtschaft",
             "fr": "Personnes morales et physiques issues du secteur agricole suisse",
@@ -1815,11 +1821,12 @@
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']"
         ],
-        "quality": 3913.5
+        "quality": 3964.0
     },
     {
         "rdf:type": "dcat:Dataset",
         "dct:identifier": "3e7fd49d-0d26-44fe-86a4-ac06240ea5d7",
+        "schema:image": "https://prod-blwch-hcms-sdweb.imgix.net/dam/de/sd-web/k5aeX7IsozJn/maf_de.jpg",
         "dct:title": {
             "de": "Betriebsangaben zu Betrieben in der Schweizer Landwirtschaft",
             "fr": "Données d'entreprises de l'agriculture suisse",
@@ -1900,12 +1907,12 @@
         "schemaViolationMessages": [
             "'thematicData' is not one of ['', 'primaryThematicData', 'secondaryThematicData', 'referenceData', 'masterData', 'unstructuredData']"
         ],
-        "quality": 3883.0
+        "quality": 3933.5
     },
     {
         "rdf:type": "dcat:Dataset",
         "dct:identifier": "7079407c-c5df-430c-b6bf-75f9216c46b3",
-        "schema:image": "https://fal.media/files/kangaroo/zC34KxmLbmI4fsz9Cit2k_7a22cfc79d1d47c88ffd23ca3e4d99a0.jpg",
+        "schema:image": "https://prod-blwch-hcms-sdweb.imgix.net/dam/de/sd-web/k5aeX7IsozJn/maf_de.jpg",
         "dct:title": {
             "de": "Flächenangaben zu Vernetzungsflächen auf einem Betrieb in der Schweizer Landwirtschaft",
             "fr": "Indications de superficie pour les surfaces de mise en réseau sur une exploitation agricole suisse",
@@ -2001,7 +2008,7 @@
             "'Flächenangaben zu Vernetzungsflächen auf einem Betrieb in der Schweizer Landwirtschaft - Provisorische Daten' does not match '^[a-zA-Z0-9_\\\\-\\\\s\\\\(\\\\)\\\\.\\\\,\\\\:\\\\/\\\\u00A0-\\\\u017F\\\\\\'\\\\\"\\\\?\\\\!\\\\%\\\\&\\\\+\\\\@]{5,100}$'",
             "'Indications de superficie pour les surfaces de mise en réseau sur une exploitation agricole suisse - données provisoires' does not match '^[a-zA-Z0-9_\\\\-\\\\s\\\\(\\\\)\\\\.\\\\,\\\\:\\\\/\\\\u00A0-\\\\u017F\\\\\\'\\\\\"\\\\?\\\\!\\\\%\\\\&\\\\+\\\\@]{5,100}$'"
         ],
-        "quality": 2494.0
+        "quality": 2490.5
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -2044,7 +2051,7 @@
     {
         "rdf:type": "dcat:Dataset",
         "dct:identifier": "e4b1f944-2f1a-433e-bcd4-7f88028800c8",
-        "schema:image": "https://fal.media/files/rabbit/AV3NeebdflBNBMy5B0LGy_ef0855c80cb24d24828892ac5c308d61.jpg",
+        "schema:image": "https://prod-blwch-hcms-sdweb.imgix.net/dam/de/sd-web/k5aeX7IsozJn/maf_de.jpg",
         "dct:title": {
             "de": "Flächenangaben zu Rebfächen in Hanglagen auf einem Betrieb in der Schweizer Landwirtschaft",
             "fr": "Indications de surface pour les vignobles en pente sur une exploitation agricole suisse",
@@ -2141,12 +2148,12 @@
             "'Flächenangaben zu Rebfächen in Hanglagen auf einem Betrieb in der Schweizer Landwirtschaft - Provisorische Daten' does not match '^[a-zA-Z0-9_\\\\-\\\\s\\\\(\\\\)\\\\.\\\\,\\\\:\\\\/\\\\u00A0-\\\\u017F\\\\\\'\\\\\"\\\\?\\\\!\\\\%\\\\&\\\\+\\\\@]{5,100}$'",
             "'Indications de surface pour les vignobles en pente sur une exploitation agricole suisse - données provisoires' does not match '^[a-zA-Z0-9_\\\\-\\\\s\\\\(\\\\)\\\\.\\\\,\\\\:\\\\/\\\\u00A0-\\\\u017F\\\\\\'\\\\\"\\\\?\\\\!\\\\%\\\\&\\\\+\\\\@]{5,100}$'"
         ],
-        "quality": 2406.25
+        "quality": 2403.25
     },
     {
         "rdf:type": "dcat:Dataset",
         "dct:identifier": "f2d347f7-7782-4411-b99e-666e67b6c652",
-        "schema:image": "https://fal.media/files/koala/0iew8qQY5t1OOcbFH10v-_c45b7b211f2c45e09e8452b0f267702c.jpg",
+        "schema:image": "https://prod-blwch-hcms-sdweb.imgix.net/dam/de/sd-web/k5aeX7IsozJn/maf_de.jpg",
         "dct:title": {
             "de": "Flächenangaben zu Hauptkulturen auf einem Betrieb in der Schweizer Landwirtschaft",
             "fr": "Données sur les surfaces des principales cultures dans une exploitation agricole suisse",
@@ -2242,12 +2249,12 @@
             "'Flächenangaben zu Hauptkulturen auf einem Betrieb in der Schweizer Landwirtschaft - Provisorische Daten' does not match '^[a-zA-Z0-9_\\\\-\\\\s\\\\(\\\\)\\\\.\\\\,\\\\:\\\\/\\\\u00A0-\\\\u017F\\\\\\'\\\\\"\\\\?\\\\!\\\\%\\\\&\\\\+\\\\@]{5,100}$'",
             "'Données sur les surfaces des principales cultures dans une exploitation agricole suisse - données provisoires' does not match '^[a-zA-Z0-9_\\\\-\\\\s\\\\(\\\\)\\\\.\\\\,\\\\:\\\\/\\\\u00A0-\\\\u017F\\\\\\'\\\\\"\\\\?\\\\!\\\\%\\\\&\\\\+\\\\@]{5,100}$'"
         ],
-        "quality": 2392.25
+        "quality": 2389.5
     },
     {
         "rdf:type": "dcat:Dataset",
         "dct:identifier": "8432bc6e-262f-40dd-b380-2bc39f9efa32",
-        "schema:image": "https://fal.media/files/kangaroo/MplSG_GNu6ZmK7BwV-Wna_62809d3f79334984b197c233f6abdc49.jpg",
+        "schema:image": "https://prod-blwch-hcms-sdweb.imgix.net/dam/de/sd-web/k5aeX7IsozJn/maf_de.jpg",
         "dct:title": {
             "de": "Flächenangaben zu Fächen in Hanglagen auf einem Betrieb in der Schweizer Landwirtschaft",
             "fr": "Indications de surface pour les surfaces en pente d'une exploitation agricole suisse",
@@ -2343,7 +2350,7 @@
             "'Flächenangaben zu Fächen in Hanglagen auf einem Betrieb in der Schweizer Landwirtschaft - Provisorische Daten' does not match '^[a-zA-Z0-9_\\\\-\\\\s\\\\(\\\\)\\\\.\\\\,\\\\:\\\\/\\\\u00A0-\\\\u017F\\\\\\'\\\\\"\\\\?\\\\!\\\\%\\\\&\\\\+\\\\@]{5,100}$'",
             "\"Indications de surface pour les surfaces en pente d'une exploitation agricole suisse - données provisoires\" does not match '^[a-zA-Z0-9_\\\\-\\\\s\\\\(\\\\)\\\\.\\\\,\\\\:\\\\/\\\\u00A0-\\\\u017F\\\\\\'\\\\\"\\\\?\\\\!\\\\%\\\\&\\\\+\\\\@]{5,100}$'"
         ],
-        "quality": 2362.75
+        "quality": 2359.25
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -2527,7 +2534,7 @@
     {
         "rdf:type": "dcat:Dataset",
         "dct:identifier": "451e6d03-9868-49fb-8c26-ebf3acc85e43",
-        "schema:image": "https://fal.media/files/kangaroo/wfR9lE1XS04bNDZxRP99o_ebf2d36c2f4341d0b052966613ca8376.jpg",
+        "schema:image": "https://prod-blwch-hcms-sdweb.imgix.net/dam/de/sd-web/k5aeX7IsozJn/maf_de.jpg",
         "dct:title": {
             "de": "Art und Anzahl Nutztiere in Sömmerung auf einem Betrieb in der Schweizer Landwirtschaft",
             "fr": "Type et nombre d'animaux de rente en estivage dans une exploitation agricole suisse",
@@ -2625,7 +2632,7 @@
             "'Art und Anzahl Nutztiere in Sömmerung auf einem Betrieb in der Schweizer Landwirtschaft - Provisorische Daten' does not match '^[a-zA-Z0-9_\\\\-\\\\s\\\\(\\\\)\\\\.\\\\,\\\\:\\\\/\\\\u00A0-\\\\u017F\\\\\\'\\\\\"\\\\?\\\\!\\\\%\\\\&\\\\+\\\\@]{5,100}$'",
             "\"Type et nombre d'animaux de rente en estivage dans une exploitation agricole suisse - données provisoires\" does not match '^[a-zA-Z0-9_\\\\-\\\\s\\\\(\\\\)\\\\.\\\\,\\\\:\\\\/\\\\u00A0-\\\\u017F\\\\\\'\\\\\"\\\\?\\\\!\\\\%\\\\&\\\\+\\\\@]{5,100}$'"
         ],
-        "quality": 2167.0
+        "quality": 2163.5
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -2672,7 +2679,7 @@
     {
         "rdf:type": "dcat:Dataset",
         "dct:identifier": "00d5f3a2-8387-432b-8f46-b49c3eb018ea",
-        "schema:image": "https://fal.media/files/monkey/6gWWWqidmTPm5sPb5W59p_38800376b318474599bf6fa9638c6bae.jpg",
+        "schema:image": "https://prod-blwch-hcms-sdweb.imgix.net/dam/de/sd-web/QkY4ZGWqowoI/agis_de.jpg",
         "dct:title": {
             "de": "Anmeldungen für Direktzahlungsprogramme zu einem Betrieb in der Schweizer Landwirtschaft",
             "fr": "Inscription aux programmes de paiements directs pour une exploitation agricole suisse",
@@ -2769,7 +2776,7 @@
             "'Inscription aux programmes de paiements directs pour une exploitation agricole suisse - données provisoires.' does not match '^[a-zA-Z0-9_\\\\-\\\\s\\\\(\\\\)\\\\.\\\\,\\\\:\\\\/\\\\u00A0-\\\\u017F\\\\\\'\\\\\"\\\\?\\\\!\\\\%\\\\&\\\\+\\\\@]{5,100}$'",
             "\"Iscrizioni per programmi di pagamenti diretti per un'azienda nell'agricoltura svizzera - dati provvisori\" does not match '^[a-zA-Z0-9_\\\\-\\\\s\\\\(\\\\)\\\\.\\\\,\\\\:\\\\/\\\\u00A0-\\\\u017F\\\\\\'\\\\\"\\\\?\\\\!\\\\%\\\\&\\\\+\\\\@]{5,100}$'"
         ],
-        "quality": 2037.4
+        "quality": 2035.2
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -3136,6 +3143,7 @@
     {
         "rdf:type": "dcat:Dataset",
         "dct:identifier": "9416a47b-b7e2-4fca-ad5f-1f64fb230362",
+        "schema:image": "https://prod-blwch-hcms-sdweb.imgix.net/dam/de/sd-web/JRVuUKMgS1wg/CH-Karte_AOP-IGP_alle_2025.png",
         "dct:title": {
             "fr": "Registre des appellations d'origine (AOP) et des indications géographiques (IGP) spiritueux",
             "de": "Register Ursprungsbezeichnungen (GUB) und geografische Angaben (GGA) Spirituosen",
@@ -3313,34 +3321,29 @@
             "'' does not match '^[a-zA-Z0-9_\\\\-\\\\s\\\\(\\\\)\\\\.\\\\,\\\\:\\\\/\\\\u00A0-\\\\u017F\\\\\\'\\\\\"\\\\?\\\\!\\\\%\\\\&\\\\+\\\\@]{5,100}$'",
             "'' does not match '^[a-zA-Z0-9_\\\\-\\\\s\\\\(\\\\)\\\\.\\\\,\\\\:\\\\/\\\\u00A0-\\\\u017F\\\\\\'\\\\\"\\\\?\\\\!\\\\%\\\\&\\\\+\\\\@]{5,100}$'"
         ],
-        "quality": 1819.0
+        "quality": 1838.8333333333333
     },
     {
         "rdf:type": "dcat:Dataset",
-        "dct:identifier": "c4ee3846-d081-40c9-aebd-4ecab0a4b614",
-        "schema:image": "https://data.blw.admin.ch/_ipx/f_webp&q_80&s_1920x1080/https://prod-datablwadmin-hcms-sdweb.imgix.net/2026/06/19/9caf747e-8c74-4909-8e12-2c7e055fde1d.jpg",
+        "dct:identifier": "a2d86a78-76fe-4d9b-9204-7c24e69d7682",
+        "schema:image": "https://data.blw.admin.ch/_ipx/f_webp&q_80&s_1920x1080/https://prod-datablwadmin-hcms-sdweb.imgix.net/2026/06/17/935b5ccf-6466-4aac-80fb-5715218148a1.jpg",
         "dct:title": {
-            "de": "Landschaftsqualitätsbeiträge",
-            "fr": "Contributions à la qualité du paysage",
-            "it": "Contributi per la qualità del paesaggio"
+            "de": "Biodiversitätsbeiträge",
+            "fr": "Contributions à la biodiversité",
+            "it": "Contributi per la biodiversità"
         },
         "dct:description": {
-            "de": "Für die Erhaltung, Förderung und Weiterentwicklung attraktiver Landschaften, wie den Erhalt der Waldweiden, der Pflege von Kastanienselven oder der Förderung des Bergackerbaus, hat der Bund im Jahr 2025 Landschaftsqualitätsbeiträge von 147 Millionen Franken ausgerichtet.",
-            "fr": "La Confédération a octroyé des contributions à la qualité du paysage pour un total de 147 millions de francs en 2025, afin de préserver, de promouvoir et de développer des paysages attrayants. Il s’agissait notamment de la conservation des pâturages boisés, de l’entretien des châtaigneraies ou de l’encouragement de l’agriculture de montagne.",
-            "it": "Per la preservazione, la promozione e l’ulteriore sviluppo di paesaggi attrattivi, come ad esempio la salvaguardia dei pascoli boschivi, la cura di selve castanili o la promozione della campicoltura di montagna, nel 2025 la Confederazione ha versato contributi per la qualità del paesaggio pari a 147 milioni di franchi."
+            "de": "Im Jahr 2025 machten die Biodiversitätsförderflächen (BFF) durchschnittlich 20 Prozent der landwirtschaftlichen Nutzfläche aus. Dafür erhielten die Landwirtinnen und Landwirte wie schon im Vorjahr Biodiversitätsbeiträge von 433 Millionen Schweizer Franken.",
+            "fr": "En 2025, les surfaces de promotion de la biodiversité (SPB) représentaient en moyenne 20 % de la surface agricole utile. Comme l’année précédente, les agriculteurs ont reçu pour ces surfaces des contributions à la biodiversité pour un total de 433 millions de francs.",
+            "it": "Nel 2025 la quota di superfici per la promozione della biodiversità (SPB) sulla superficie agricola utile (SAU) si è attestata mediamente alI 20 %. Per le SPB gli agricoltori hanno ricevuto contributi per la biodiversità pari a 433 milioni di franchi, in linea con quelli dell’anno precedente."
         },
         "dct:accessRights": "PUBLIC",
         "dct:publisher": "BLW-OFAG-UFAG-FOAG",
         "dcat:contactPoint": {
-            "schema:name": "Fachbereich Direktzahlungsgrundlagen"
+            "schema:name": "Fachbereich für Direktzahlungsgrundlagen"
         },
         "dct:issued": "2015-01-01",
         "dcatap:availability": "STABLE",
-        "dcat:keyword": [
-            "data",
-            "cantonal-identifier",
-            "agriculture"
-        ],
         "dct:accrualPeriodicity": "ANNUAL",
         "dct:modified": "2026-06-16",
         "dcat:version": "1.0",
@@ -3357,9 +3360,7 @@
                 "dcat:catalog": "opendata.swiss"
             }
         ],
-        "dcat:theme": [
-            "agriculture"
-        ],
+        "dcat:landingPage": "https://data.blw.admin.ch/de/2025-biodiversitaetsbeitraege",
         "dct:temporal": {
             "dcat:start_date": "2015-01-01",
             "dcat:end_date": "2025-01-01"
@@ -3369,39 +3370,44 @@
         ],
         "dcat:distribution": [
             {
-                "dct:identifier": "6c0bdd4e-3ea8-4e9a-af49-ff0df4b9006e",
-                "dcat:accessURL": "https://data.blw.admin.ch/de/2025-landschaftsqualitaetsbeitraege",
+                "dct:identifier": "bc77f8ad-200c-42a6-b04d-eb6ad78564b0",
+                "dcat:accessURL": "https://data.blw.admin.ch/de/2025-biodiversitaetsbeitraege",
                 "adms:status": "published",
+                "dcatap:availability": "STABLE",
                 "dct:format": "csv",
                 "dct:title": {
-                    "de": "Landschaftsqualitätsbeiträge - alle Daten",
-                    "fr": "Contributions à la qualité du paysage - toutes les données",
-                    "it": "Contributi per la qualità del paesaggio"
+                    "de": "Biodiversitätsbeiträge - alle Daten",
+                    "fr": "Contributions à la biodiversité - tout les données",
+                    "it": "Contributi per la biodiversità - tutti i dati"
                 },
                 "dct:description": {
-                    "de": "Distribution enthält die Landschaftsqualitätsbeiträge aufgeschlüsselt nach Jahr, Projekt, Kanton, Zone und Anzahl Betriebe.",
-                    "fr": "La distribution présente les contributions à la qualité du paysage, ventilées par année, projet, canton, zone et nombre d'exploitations.",
-                    "it": "La distribuzione contiene i contributi per la qualità del paesaggio, suddivisi per anno, progetto, cantone e numero di aziende."
+                    "de": "Distribution enthält die Produktionssystembeiträge aufgeschlüsselt nach Jahr, Beitragsart, Kanton, Region, Zone, Anzahl Betriebe und Fläche.",
+                    "fr": "La distribution présente les contributions à la biodiversité - tout les données, ventilées par année, type de contribution, canton, région, zone, nombre d'exploitations et surface.",
+                    "it": "La distribuzione contiene i contributi per la biodiversità, suddivisi per anno, tipo di contributo, cantone, regione, zona, numero di aziende e superficie."
                 },
+                "dct:license": "terms_by",
                 "bv:dimensions": [
                     "canton",
                     "company",
                     "contribution",
+                    "contributionType",
                     "year",
                     "zone"
                 ]
             }
         ],
+        "productType": "dataset",
         "dataOwner": "p-8397553",
         "schemaViolations": 1,
         "schemaViolationMessages": [
             "'schema:email' is a required property"
         ],
-        "quality": 1815.0
+        "quality": 1829.0
     },
     {
         "rdf:type": "dcat:Dataset",
         "dct:identifier": "e7b5cd7a-2e4f-48dd-ab78-0c4368220310",
+        "schema:image": "https://prod-blwch-hcms-sdweb.imgix.net/dam/de/sd-web/JRVuUKMgS1wg/CH-Karte_AOP-IGP_alle_2025.png",
         "dct:title": {
             "fr": "Registre des appellations d'origine (AOP) et des indications géographiques (IGP) fromage",
             "de": "Register Ursprungsbezeichnungen (GUB) und geografische Angaben (GGA) Käse",
@@ -3578,7 +3584,91 @@
             "'' does not match '^[a-zA-Z0-9_\\\\-\\\\s\\\\(\\\\)\\\\.\\\\,\\\\:\\\\/\\\\u00A0-\\\\u017F\\\\\\'\\\\\"\\\\?\\\\!\\\\%\\\\&\\\\+\\\\@]{5,100}$'",
             "'' does not match '^[a-zA-Z0-9_\\\\-\\\\s\\\\(\\\\)\\\\.\\\\,\\\\:\\\\/\\\\u00A0-\\\\u017F\\\\\\'\\\\\"\\\\?\\\\!\\\\%\\\\&\\\\+\\\\@]{5,100}$'"
         ],
-        "quality": 1799.1666666666667
+        "quality": 1818.8333333333333
+    },
+    {
+        "rdf:type": "dcat:Dataset",
+        "dct:identifier": "c4ee3846-d081-40c9-aebd-4ecab0a4b614",
+        "schema:image": "https://data.blw.admin.ch/_ipx/f_webp&q_80&s_1920x1080/https://prod-datablwadmin-hcms-sdweb.imgix.net/2026/06/19/9caf747e-8c74-4909-8e12-2c7e055fde1d.jpg",
+        "dct:title": {
+            "de": "Landschaftsqualitätsbeiträge",
+            "fr": "Contributions à la qualité du paysage",
+            "it": "Contributi per la qualità del paesaggio"
+        },
+        "dct:description": {
+            "de": "Für die Erhaltung, Förderung und Weiterentwicklung attraktiver Landschaften, wie den Erhalt der Waldweiden, der Pflege von Kastanienselven oder der Förderung des Bergackerbaus, hat der Bund im Jahr 2025 Landschaftsqualitätsbeiträge von 147 Millionen Franken ausgerichtet.",
+            "fr": "La Confédération a octroyé des contributions à la qualité du paysage pour un total de 147 millions de francs en 2025, afin de préserver, de promouvoir et de développer des paysages attrayants. Il s’agissait notamment de la conservation des pâturages boisés, de l’entretien des châtaigneraies ou de l’encouragement de l’agriculture de montagne.",
+            "it": "Per la preservazione, la promozione e l’ulteriore sviluppo di paesaggi attrattivi, come ad esempio la salvaguardia dei pascoli boschivi, la cura di selve castanili o la promozione della campicoltura di montagna, nel 2025 la Confederazione ha versato contributi per la qualità del paesaggio pari a 147 milioni di franchi."
+        },
+        "dct:accessRights": "PUBLIC",
+        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+        "dcat:contactPoint": {
+            "schema:name": "Fachbereich Direktzahlungsgrundlagen"
+        },
+        "dct:issued": "2015-01-01",
+        "dcatap:availability": "STABLE",
+        "dcat:keyword": [
+            "data",
+            "cantonal-identifier",
+            "agriculture"
+        ],
+        "dct:accrualPeriodicity": "ANNUAL",
+        "dct:modified": "2026-06-16",
+        "dcat:version": "1.0",
+        "adms:status": "published",
+        "bv:classification": "none",
+        "bv:personalData": "none",
+        "bv:typeOfData": "secondaryThematicData",
+        "bv:archivalValue": false,
+        "bv:externalCatalogs": [
+            {
+                "dcat:catalog": "I14Y"
+            },
+            {
+                "dcat:catalog": "opendata.swiss"
+            }
+        ],
+        "dcat:theme": [
+            "agriculture"
+        ],
+        "dct:temporal": {
+            "dcat:start_date": "2015-01-01",
+            "dcat:end_date": "2025-01-01"
+        },
+        "dcat:inSeries": [
+            "99788c8a-7971-4745-ae41-5eeda05ae636"
+        ],
+        "dcat:distribution": [
+            {
+                "dct:identifier": "6c0bdd4e-3ea8-4e9a-af49-ff0df4b9006e",
+                "dcat:accessURL": "https://data.blw.admin.ch/de/2025-landschaftsqualitaetsbeitraege",
+                "adms:status": "published",
+                "dct:format": "csv",
+                "dct:title": {
+                    "de": "Landschaftsqualitätsbeiträge - alle Daten",
+                    "fr": "Contributions à la qualité du paysage - toutes les données",
+                    "it": "Contributi per la qualità del paesaggio"
+                },
+                "dct:description": {
+                    "de": "Distribution enthält die Landschaftsqualitätsbeiträge aufgeschlüsselt nach Jahr, Projekt, Kanton, Zone und Anzahl Betriebe.",
+                    "fr": "La distribution présente les contributions à la qualité du paysage, ventilées par année, projet, canton, zone et nombre d'exploitations.",
+                    "it": "La distribuzione contiene i contributi per la qualità del paesaggio, suddivisi per anno, progetto, cantone e numero di aziende."
+                },
+                "bv:dimensions": [
+                    "canton",
+                    "company",
+                    "contribution",
+                    "year",
+                    "zone"
+                ]
+            }
+        ],
+        "dataOwner": "p-8397553",
+        "schemaViolations": 1,
+        "schemaViolationMessages": [
+            "'schema:email' is a required property"
+        ],
+        "quality": 1815.0
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -3778,85 +3868,6 @@
             "'https://www.example.com' is not of type 'array', 'null'"
         ],
         "quality": 1741.5
-    },
-    {
-        "rdf:type": "dcat:Dataset",
-        "dct:identifier": "a2d86a78-76fe-4d9b-9204-7c24e69d7682",
-        "dct:title": {
-            "de": "Biodiversitätsbeiträge",
-            "fr": "Contributions à la biodiversité",
-            "it": "Contributi per la biodiversità"
-        },
-        "dct:description": {
-            "de": "Im Jahr 2025 machten die Biodiversitätsförderflächen (BFF) durchschnittlich 20 Prozent der landwirtschaftlichen Nutzfläche aus. Dafür erhielten die Landwirtinnen und Landwirte wie schon im Vorjahr Biodiversitätsbeiträge von 433 Millionen Schweizer Franken.",
-            "fr": "En 2025, les surfaces de promotion de la biodiversité (SPB) représentaient en moyenne 20 % de la surface agricole utile. Comme l’année précédente, les agriculteurs ont reçu pour ces surfaces des contributions à la biodiversité pour un total de 433 millions de francs.",
-            "it": "Nel 2025 la quota di superfici per la promozione della biodiversità (SPB) sulla superficie agricola utile (SAU) si è attestata mediamente alI 20 %. Per le SPB gli agricoltori hanno ricevuto contributi per la biodiversità pari a 433 milioni di franchi, in linea con quelli dell’anno precedente."
-        },
-        "dct:accessRights": "PUBLIC",
-        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
-        "dcat:contactPoint": {
-            "schema:name": "Fachbereich für Direktzahlungsgrundlagen"
-        },
-        "dct:issued": "2015-01-01",
-        "dcatap:availability": "STABLE",
-        "dct:accrualPeriodicity": "ANNUAL",
-        "dct:modified": "2026-06-16",
-        "dcat:version": "1.0",
-        "adms:status": "published",
-        "bv:classification": "none",
-        "bv:personalData": "none",
-        "bv:typeOfData": "secondaryThematicData",
-        "bv:archivalValue": false,
-        "bv:externalCatalogs": [
-            {
-                "dcat:catalog": "I14Y"
-            },
-            {
-                "dcat:catalog": "opendata.swiss"
-            }
-        ],
-        "dcat:landingPage": "https://data.blw.admin.ch/de/2025-biodiversitaetsbeitraege",
-        "dct:temporal": {
-            "dcat:start_date": "2015-01-01",
-            "dcat:end_date": "2025-01-01"
-        },
-        "dcat:inSeries": [
-            "99788c8a-7971-4745-ae41-5eeda05ae636"
-        ],
-        "dcat:distribution": [
-            {
-                "dct:identifier": "bc77f8ad-200c-42a6-b04d-eb6ad78564b0",
-                "dcat:accessURL": "https://data.blw.admin.ch/de/2025-biodiversitaetsbeitraege",
-                "adms:status": "published",
-                "dcatap:availability": "STABLE",
-                "dct:format": "csv",
-                "dct:title": {
-                    "de": "Biodiversitätsbeiträge - alle Daten",
-                    "fr": "Contributions à la biodiversité - tout les données",
-                    "it": "Contributi per la biodiversità - tutti i dati"
-                },
-                "dct:description": {
-                    "de": "Distribution enthält die Produktionssystembeiträge aufgeschlüsselt nach Jahr, Beitragsart, Kanton, Region, Zone, Anzahl Betriebe und Fläche.",
-                    "fr": "La distribution présente les contributions à la biodiversité - tout les données, ventilées par année, type de contribution, canton, région, zone, nombre d'exploitations et surface.",
-                    "it": "La distribuzione contiene i contributi per la biodiversità, suddivisi per anno, tipo di contributo, cantone, regione, zona, numero di aziende e superficie."
-                },
-                "dct:license": "terms_by",
-                "bv:dimensions": [
-                    "canton",
-                    "company",
-                    "contribution",
-                    "contributionType",
-                    "year",
-                    "zone"
-                ]
-            }
-        ],
-        "dataOwner": "p-8397553",
-        "schemaViolations": 1,
-        "schemaViolationMessages": [
-            "'schema:email' is a required property"
-        ],
-        "quality": 1727.5
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -4453,6 +4464,7 @@
     {
         "rdf:type": "dcat:Dataset",
         "dct:identifier": "aac232d4-3d80-44dc-a7df-ce3b72b94c20",
+        "schema:image": "https://prod-blwch-hcms-sdweb.imgix.net/dam/de/sd-web/JRVuUKMgS1wg/CH-Karte_AOP-IGP_alle_2025.png",
         "dct:title": {
             "fr": "Registre des appellations d'origine (AOP) et des indications géographiques (IGP) pâtisserie",
             "de": "Register Ursprungsbezeichnungen (GUB) und geografische Angaben (GGA) Konditoreiware",
@@ -4631,11 +4643,12 @@
             "'' does not match '^[a-zA-Z0-9_\\\\-\\\\s\\\\(\\\\)\\\\.\\\\,\\\\:\\\\/\\\\u00A0-\\\\u017F\\\\\\'\\\\\"\\\\?\\\\!\\\\%\\\\&\\\\+\\\\@]{5,100}$'",
             "'' does not match '^[a-zA-Z0-9_\\\\-\\\\s\\\\(\\\\)\\\\.\\\\,\\\\:\\\\/\\\\u00A0-\\\\u017F\\\\\\'\\\\\"\\\\?\\\\!\\\\%\\\\&\\\\+\\\\@]{5,100}$'"
         ],
-        "quality": 1577.2857142857142
+        "quality": 1594.2857142857142
     },
     {
         "rdf:type": "dcat:Dataset",
         "dct:identifier": "8884a856-8647-4943-b511-1636f27f7604",
+        "schema:image": "https://prod-blwch-hcms-sdweb.imgix.net/dam/de/sd-web/JRVuUKMgS1wg/CH-Karte_AOP-IGP_alle_2025.png",
         "dct:title": {
             "fr": "Registre des appellations d'origine (AOP) et des indications géographiques (IGP) produits à base de viande",
             "de": "Register Ursprungsbezeichnungen (GUB) und geografische Angaben (GGA) Fleischware",
@@ -4813,7 +4826,7 @@
             "'' does not match '^[a-zA-Z0-9_\\\\-\\\\s\\\\(\\\\)\\\\.\\\\,\\\\:\\\\/\\\\u00A0-\\\\u017F\\\\\\'\\\\\"\\\\?\\\\!\\\\%\\\\&\\\\+\\\\@]{5,100}$'",
             "'' does not match '^[a-zA-Z0-9_\\\\-\\\\s\\\\(\\\\)\\\\.\\\\,\\\\:\\\\/\\\\u00A0-\\\\u017F\\\\\\'\\\\\"\\\\?\\\\!\\\\%\\\\&\\\\+\\\\@]{5,100}$'"
         ],
-        "quality": 1560.5714285714287
+        "quality": 1577.5714285714287
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -5891,6 +5904,7 @@
     {
         "rdf:type": "dcat:Dataset",
         "dct:identifier": "c3d2908f-707f-43cd-95e7-d134f2059524",
+        "schema:image": "https://prod-blwch-hcms-sdweb.imgix.net/dam/de/sd-web/JRVuUKMgS1wg/CH-Karte_AOP-IGP_alle_2025.png",
         "dct:title": {
             "fr": "Registre des appellations d'origine (AOP) et des indications géographiques (IGP) produits végétaux",
             "de": "Register Ursprungsbezeichnungen (GUB) und geografische Angaben (GGA) Pflanzliche Produkte",
@@ -6070,12 +6084,12 @@
             "'' does not match '^[a-zA-Z0-9_\\\\-\\\\s\\\\(\\\\)\\\\.\\\\,\\\\:\\\\/\\\\u00A0-\\\\u017F\\\\\\'\\\\\"\\\\?\\\\!\\\\%\\\\&\\\\+\\\\@]{5,100}$'",
             "'' does not match '^[a-zA-Z0-9_\\\\-\\\\s\\\\(\\\\)\\\\.\\\\,\\\\:\\\\/\\\\u00A0-\\\\u017F\\\\\\'\\\\\"\\\\?\\\\!\\\\%\\\\&\\\\+\\\\@]{5,100}$'"
         ],
-        "quality": 1374.25
+        "quality": 1389.125
     },
     {
         "rdf:type": "dcat:Dataset",
         "dct:identifier": "8fd9f464-5421-4dba-82f7-06105d9dbeaa",
-        "schema:image": "https://fal.media/files/tiger/8J9uFAKj5cjs1C5er7lKT_9af1a87f760749c5b69dfe69f0ed343d.jpg",
+        "schema:image": "https://prod-blwch-hcms-sdweb.imgix.net/dam/de/sd-web/NgKi5wxgMG5e/AdobeStock_279420087n.jpeg",
         "dct:title": {
             "fr": "Produits d'alpage",
             "de": "Alpprodukte",
@@ -6229,7 +6243,7 @@
             "'' does not match '^[a-zA-Z0-9_\\\\-\\\\s\\\\(\\\\)\\\\.\\\\,\\\\:\\\\/\\\\u00A0-\\\\u017F\\\\\\'\\\\\"\\\\?\\\\!\\\\%\\\\&\\\\+\\\\@]{5,100}$'",
             "'' does not match '^[a-zA-Z0-9_\\\\-\\\\s\\\\(\\\\)\\\\.\\\\,\\\\:\\\\/\\\\u00A0-\\\\u017F\\\\\\'\\\\\"\\\\?\\\\!\\\\%\\\\&\\\\+\\\\@]{5,100}$'"
         ],
-        "quality": 1369.1666666666667
+        "quality": 1370.0
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -10581,7 +10595,7 @@
     {
         "rdf:type": "dcat:Dataset",
         "dct:identifier": "ad68ced9-d7da-4817-980e-f439c7394172",
-        "schema:image": "https://fal.media/files/kangaroo/zC34KxmLbmI4fsz9Cit2k_7a22cfc79d1d47c88ffd23ca3e4d99a0.jpg",
+        "schema:image": "https://prod-blwch-hcms-sdweb.imgix.net/dam/de/sd-web/k5aeX7IsozJn/maf_de.jpg",
         "dct:title": {
             "de": "Flächenangaben zu Biodiversitätsfrderflächen auf einem Betrieb in der Schweizer Landwirtschaft",
             "fr": "Indications de surface pour les surfaces de promotion de la biodiversité dans une exploitation agricole suisse",
@@ -10684,7 +10698,44 @@
             "\"Dati sulle superfici delle superfici per la promozione della biodiversità in un'azienda agricola in Svizzera - dati provvisori\" does not match '^[a-zA-Z0-9_\\\\-\\\\s\\\\(\\\\)\\\\.\\\\,\\\\:\\\\/\\\\u00A0-\\\\u017F\\\\\\'\\\\\"\\\\?\\\\!\\\\%\\\\&\\\\+\\\\@]{5,100}$'",
             "'Information on the area of biodiversity promotion areas on a farm in Swiss agriculture - provisional data' does not match '^[a-zA-Z0-9_\\\\-\\\\s\\\\(\\\\)\\\\.\\\\,\\\\:\\\\/\\\\u00A0-\\\\u017F\\\\\\'\\\\\"\\\\?\\\\!\\\\%\\\\&\\\\+\\\\@]{5,100}$'"
         ],
-        "quality": 1036.4
+        "quality": 1035.0
+    },
+    {
+        "rdf:type": "dcat:Dataset",
+        "dct:identifier": "4f7691e1-558e-4589-9f96-abdc2fc598d3",
+        "schema:image": "https://prod-blwch-hcms-sdweb.imgix.net/dam/de/sd-web/4ZjVh8VS8gN6/Digitalisierung.jpg?rect=0%2C261%2C2508%2C1411&auto=format&w=1024",
+        "dct:title": {
+            "de": "Anmeldungen für Direktzahlungsprogramme, den ÖLN, den NPR-Futtereinsatz und den Kontrollstellen",
+            "fr": "Inscriptions aux programmes de paiements directs, aux PER, à l'utilisation fourragère NPR et aux organes de contrôle"
+        },
+        "dct:description": {
+            "de": "Beinhaltet die jährlichen Anmeldedaten (Stichtag im August) für spezifische Direktzahlungsprogramme (z. B. BTS, RAUS, Ressourceneffizienz) sowie für den Ökologischen Leistungsnachweis (ÖLN) für das Folgejahr. Der Datensatz dient primär der Koordination der landwirtschaftlichen Kontrollen und der Schätzung der finanziellen Beteiligung.",
+            "fr": "Contient les données d'inscription annuelles (date de référence en août) pour des programmes de paiements directs spécifiques (p. ex. SST, SRPA, efficacité des ressources) ainsi que pour les prestations écologiques requises (PER) pour l'année suivante. L'ensemble de données sert principalement à coordonner les contrôles agricoles et à estimer la participation financière."
+        },
+        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+        "dcat:contactPoint": {
+            "schema:name": "Gruppe Agrarinformationssystem AGIS",
+            "schema:email": "agis@blw.admin.ch"
+        },
+        "dct:issued": "2014-01-02",
+        "dcat:keyword": [
+            "AGIS",
+            "direct-payments",
+            "operational-data"
+        ],
+        "adms:status": "published",
+        "bv:classification": "none",
+        "bv:personalData": "personalData",
+        "dcat:theme": [
+            "agriculture"
+        ],
+        "dcat:landingPage": "https://www.blw.admin.ch/de/anwendung-agis",
+        "dataOwner": "p-8757693",
+        "schemaViolations": 1,
+        "schemaViolationMessages": [
+            "\"Inscriptions aux programmes de paiements directs, aux PER, à l'utilisation fourragère NPR et aux organes de contrôle\" does not match '^[a-zA-Z0-9_\\\\-\\\\s\\\\(\\\\)\\\\.\\\\,\\\\:\\\\/\\\\u00A0-\\\\u017F\\\\\\'\\\\\"\\\\?\\\\!\\\\%\\\\&\\\\+\\\\@]{10,100}$'"
+        ],
+        "quality": 1019.0
     },
     {
         "rdf:type": "dcat:Dataset",
@@ -10996,42 +11047,6 @@
     },
     {
         "rdf:type": "dcat:Dataset",
-        "dct:identifier": "4f7691e1-558e-4589-9f96-abdc2fc598d3",
-        "dct:title": {
-            "de": "Anmeldungen für Direktzahlungsprogramme, den ÖLN, den NPR-Futtereinsatz und den Kontrollstellen",
-            "fr": "Inscriptions aux programmes de paiements directs, aux PER, à l'utilisation fourragère NPR et aux organes de contrôle"
-        },
-        "dct:description": {
-            "de": "Beinhaltet die jährlichen Anmeldedaten (Stichtag im August) für spezifische Direktzahlungsprogramme (z. B. BTS, RAUS, Ressourceneffizienz) sowie für den Ökologischen Leistungsnachweis (ÖLN) für das Folgejahr. Der Datensatz dient primär der Koordination der landwirtschaftlichen Kontrollen und der Schätzung der finanziellen Beteiligung.",
-            "fr": "Contient les données d'inscription annuelles (date de référence en août) pour des programmes de paiements directs spécifiques (p. ex. SST, SRPA, efficacité des ressources) ainsi que pour les prestations écologiques requises (PER) pour l'année suivante. L'ensemble de données sert principalement à coordonner les contrôles agricoles et à estimer la participation financière."
-        },
-        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
-        "dcat:contactPoint": {
-            "schema:name": "Gruppe Agrarinformationssystem AGIS",
-            "schema:email": "agis@blw.admin.ch"
-        },
-        "dct:issued": "2014-01-02",
-        "dcat:keyword": [
-            "AGIS",
-            "direct-payments",
-            "operational-data"
-        ],
-        "adms:status": "published",
-        "bv:classification": "none",
-        "bv:personalData": "personalData",
-        "dcat:theme": [
-            "agriculture"
-        ],
-        "dcat:landingPage": "https://www.blw.admin.ch/de/anwendung-agis",
-        "dataOwner": "p-8757693",
-        "schemaViolations": 1,
-        "schemaViolationMessages": [
-            "\"Inscriptions aux programmes de paiements directs, aux PER, à l'utilisation fourragère NPR et aux organes de contrôle\" does not match '^[a-zA-Z0-9_\\\\-\\\\s\\\\(\\\\)\\\\.\\\\,\\\\:\\\\/\\\\u00A0-\\\\u017F\\\\\\'\\\\\"\\\\?\\\\!\\\\%\\\\&\\\\+\\\\@]{10,100}$'"
-        ],
-        "quality": 942.0
-    },
-    {
-        "rdf:type": "dcat:Dataset",
         "dct:identifier": "ba625f6c-34ac-4613-a5b4-d6e66a6b0d8d",
         "schema:image": "https://data.blw.admin.ch/_ipx/f_webp&q_80&s_1920x1080/https://prod-datablwadmin-hcms-sdweb.imgix.net/2026/06/18/f0b835c5-7d0a-430d-ae49-a8594f13b8ba.jpg",
         "dct:title": {
@@ -11333,6 +11348,101 @@
     },
     {
         "rdf:type": "dcat:Dataset",
+        "dct:identifier": "f9c80674-063b-48eb-b1d7-c637c088e1c6",
+        "schema:image": "https://data.blw.admin.ch/_ipx/f_webp&q_80&s_1920x1080/https://prod-datablwadmin-hcms-sdweb.imgix.net/2026/06/17/3e75c444-6c7e-4710-89d0-c8c18c2d197b.jpg",
+        "dct:title": {
+            "de": "Versorgungssicherheitsbeiträge",
+            "fr": "Contributions à la sécurité de l'approvisionnement",
+            "it": "Contributi per la sicurezza dell’approvvigionamento"
+        },
+        "dct:description": {
+            "de": "Für die Aufrechterhaltung der Versorgungssicherheit hat der Bund im Jahr 2025 912 Millionen Franken Versorgungssicherheitsbeiträge ausgerichtet. Die Ausgaben sowie die Bewirtschaftung der Flächen blieben gegenüber dem Vorjahr praktisch unverändert.",
+            "fr": "La Confédération a versé des contributions à la sécurité de l’approvisionnement à hauteur de 912 millions de francs en 2025. Les dépenses, ainsi que l’exploitation des surfaces, sont restées pratiquement inchangées par rapport à l’année précédente.",
+            "it": "Nel 2025 la Confederazione ha versato 912 milioni di franchi di contributi a garanzia della sicurezza dell’approvvigionamento. Da un anno all’altro non vi sono pressoché variazioni delle uscite per questa voce né delle forme di gestione delle superfici."
+        },
+        "dct:accessRights": "PUBLIC",
+        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
+        "dcat:contactPoint": {
+            "schema:name": "Fachbereich Direktzahlungsgrundlagen"
+        },
+        "dct:issued": "2015-01-01",
+        "dcatap:availability": "STABLE",
+        "dcat:keyword": [
+            "contribution-year",
+            "data",
+            "direct-payments",
+            "cantonal-identifier",
+            "agriculture",
+            "zoning"
+        ],
+        "dct:accrualPeriodicity": "ANNUAL",
+        "dct:modified": "2026-06-16",
+        "dcat:version": "1.0",
+        "adms:status": "published",
+        "bv:classification": "none",
+        "bv:personalData": "none",
+        "bv:typeOfData": "secondaryThematicData",
+        "bv:archivalValue": false,
+        "bv:externalCatalogs": [
+            {
+                "dcat:catalog": "I14Y"
+            },
+            {
+                "dcat:catalog": "opendata.swiss"
+            }
+        ],
+        "dcat:theme": [
+            "agriculture"
+        ],
+        "dcat:landingPage": "https://data.blw.admin.ch/",
+        "dct:temporal": {
+            "dcat:start_date": "2015-01-01",
+            "dcat:end_date": "2025-01-01"
+        },
+        "dcat:inSeries": [
+            "99788c8a-7971-4745-ae41-5eeda05ae636"
+        ],
+        "dcat:distribution": [
+            {
+                "dct:identifier": "fe608bbc-0802-449c-866a-800ef6c4613e",
+                "dcat:accessURL": "https://data.blw.admin.ch/de/2025-versorgungssicherheitsbeitraege",
+                "adms:status": "published",
+                "dcatap:availability": "STABLE",
+                "dct:format": "csv",
+                "dct:title": {
+                    "de": "Versorgungssicherheitsbeiträge - alle Daten",
+                    "fr": "Contributions à la sécurité de l’approvisionnement - tout les données",
+                    "it": " Contributi per la sicurezza dell’approvvigionamento - tutti i dati"
+                },
+                "dct:description": {
+                    "de": "Distribution enthält die Produktionssystembeiträge aufgeschlüsselt nach Jahr, Beitragsart, Kanton, Zone, Anzahl Betriebe und Fläche.",
+                    "fr": "La distribution présente les contributions à la sécurité de l’approvisionnement, ventilées par année, type de contribution, canton, zone, nombre d'exploitations et surface.",
+                    "it": "La distribuzione contiene i contributi per i sistemi di produzione, suddivisi per anno, tipo di contributo, Cantone, zona, numero di aziende e superficie."
+                },
+                "dct:license": "terms_by",
+                "bv:dimensions": [
+                    "canton",
+                    "company",
+                    "contribution",
+                    "contributionType",
+                    "year",
+                    "zone"
+                ]
+            }
+        ],
+        "productType": "dataset",
+        "dataOwner": "p-8397553",
+        "schemaViolations": 4,
+        "schemaViolationMessages": [
+            "'Contributi per la sicurezza dell’approvvigionamento' does not match '^[a-zA-Z0-9_\\\\-\\\\s\\\\(\\\\)\\\\.\\\\,\\\\:\\\\/\\\\u00A0-\\\\u017F\\\\\\'\\\\\"\\\\?\\\\!\\\\%\\\\&\\\\+\\\\@]{10,100}$'",
+            "'schema:email' is a required property",
+            "'Contributions à la sécurité de l’approvisionnement - tout les données' does not match '^[a-zA-Z0-9_\\\\-\\\\s\\\\(\\\\)\\\\.\\\\,\\\\:\\\\/\\\\u00A0-\\\\u017F\\\\\\'\\\\\"\\\\?\\\\!\\\\%\\\\&\\\\+\\\\@]{5,100}$'",
+            "' Contributi per la sicurezza dell’approvvigionamento - tutti i dati' does not match '^[a-zA-Z0-9_\\\\-\\\\s\\\\(\\\\)\\\\.\\\\,\\\\:\\\\/\\\\u00A0-\\\\u017F\\\\\\'\\\\\"\\\\?\\\\!\\\\%\\\\&\\\\+\\\\@]{5,100}$'"
+        ],
+        "quality": 767.8
+    },
+    {
+        "rdf:type": "dcat:Dataset",
         "dct:identifier": "824e4bde-af7e-4fa3-97d6-7a4f1cfc776f",
         "schema:image": "https://v3b.fal.media/files/b/0a8b034d/dfGG6qc1IaFrT-YZjsXbT.jpg",
         "dct:title": {
@@ -11484,99 +11594,6 @@
             "Additional properties are not allowed ('dcat:issued' was unexpected)"
         ],
         "quality": 751.8888888888889
-    },
-    {
-        "rdf:type": "dcat:Dataset",
-        "dct:identifier": "f9c80674-063b-48eb-b1d7-c637c088e1c6",
-        "dct:title": {
-            "de": "Versorgungssicherheitsbeiträge",
-            "fr": "Contributions à la sécurité de l'approvisionnement",
-            "it": "Contributi per la sicurezza dell’approvvigionamento"
-        },
-        "dct:description": {
-            "de": "Für die Aufrechterhaltung der Versorgungssicherheit hat der Bund im Jahr 2025 912 Millionen Franken Versorgungssicherheitsbeiträge ausgerichtet. Die Ausgaben sowie die Bewirtschaftung der Flächen blieben gegenüber dem Vorjahr praktisch unverändert.",
-            "fr": "La Confédération a versé des contributions à la sécurité de l’approvisionnement à hauteur de 912 millions de francs en 2025. Les dépenses, ainsi que l’exploitation des surfaces, sont restées pratiquement inchangées par rapport à l’année précédente.",
-            "it": "Nel 2025 la Confederazione ha versato 912 milioni di franchi di contributi a garanzia della sicurezza dell’approvvigionamento. Da un anno all’altro non vi sono pressoché variazioni delle uscite per questa voce né delle forme di gestione delle superfici."
-        },
-        "dct:accessRights": "PUBLIC",
-        "dct:publisher": "BLW-OFAG-UFAG-FOAG",
-        "dcat:contactPoint": {
-            "schema:name": "Fachbereich Direktzahlungsgrundlagen"
-        },
-        "dct:issued": "2015-01-01",
-        "dcatap:availability": "STABLE",
-        "dcat:keyword": [
-            "contribution-year",
-            "data",
-            "direct-payments",
-            "cantonal-identifier",
-            "agriculture",
-            "zoning"
-        ],
-        "dct:accrualPeriodicity": "ANNUAL",
-        "dct:modified": "2026-06-16",
-        "dcat:version": "1.0",
-        "adms:status": "published",
-        "bv:classification": "none",
-        "bv:personalData": "none",
-        "bv:typeOfData": "secondaryThematicData",
-        "bv:archivalValue": false,
-        "bv:externalCatalogs": [
-            {
-                "dcat:catalog": "I14Y"
-            },
-            {
-                "dcat:catalog": "opendata.swiss"
-            }
-        ],
-        "dcat:theme": [
-            "agriculture"
-        ],
-        "dcat:landingPage": "https://data.blw.admin.ch/",
-        "dct:temporal": {
-            "dcat:start_date": "2015-01-01",
-            "dcat:end_date": "2025-01-01"
-        },
-        "dcat:inSeries": [
-            "99788c8a-7971-4745-ae41-5eeda05ae636"
-        ],
-        "dcat:distribution": [
-            {
-                "dct:identifier": "fe608bbc-0802-449c-866a-800ef6c4613e",
-                "dcat:accessURL": "https://data.blw.admin.ch/de/2025-versorgungssicherheitsbeitraege",
-                "adms:status": "published",
-                "dcatap:availability": "STABLE",
-                "dct:format": "csv",
-                "dct:title": {
-                    "de": "Versorgungssicherheitsbeiträge - alle Daten",
-                    "fr": "Contributions à la sécurité de l’approvisionnement - tout les données",
-                    "it": " Contributi per la sicurezza dell’approvvigionamento - tutti i dati"
-                },
-                "dct:description": {
-                    "de": "Distribution enthält die Produktionssystembeiträge aufgeschlüsselt nach Jahr, Beitragsart, Kanton, Zone, Anzahl Betriebe und Fläche.",
-                    "fr": "La distribution présente les contributions à la sécurité de l’approvisionnement, ventilées par année, type de contribution, canton, zone, nombre d'exploitations et surface.",
-                    "it": "La distribuzione contiene i contributi per i sistemi di produzione, suddivisi per anno, tipo di contributo, Cantone, zona, numero di aziende e superficie."
-                },
-                "dct:license": "terms_by",
-                "bv:dimensions": [
-                    "canton",
-                    "company",
-                    "contribution",
-                    "contributionType",
-                    "year",
-                    "zone"
-                ]
-            }
-        ],
-        "dataOwner": "p-8397553",
-        "schemaViolations": 4,
-        "schemaViolationMessages": [
-            "'Contributi per la sicurezza dell’approvvigionamento' does not match '^[a-zA-Z0-9_\\\\-\\\\s\\\\(\\\\)\\\\.\\\\,\\\\:\\\\/\\\\u00A0-\\\\u017F\\\\\\'\\\\\"\\\\?\\\\!\\\\%\\\\&\\\\+\\\\@]{10,100}$'",
-            "'schema:email' is a required property",
-            "'Contributions à la sécurité de l’approvisionnement - tout les données' does not match '^[a-zA-Z0-9_\\\\-\\\\s\\\\(\\\\)\\\\.\\\\,\\\\:\\\\/\\\\u00A0-\\\\u017F\\\\\\'\\\\\"\\\\?\\\\!\\\\%\\\\&\\\\+\\\\@]{5,100}$'",
-            "' Contributi per la sicurezza dell’approvvigionamento - tutti i dati' does not match '^[a-zA-Z0-9_\\\\-\\\\s\\\\(\\\\)\\\\.\\\\,\\\\:\\\\/\\\\u00A0-\\\\u017F\\\\\\'\\\\\"\\\\?\\\\!\\\\%\\\\&\\\\+\\\\@]{5,100}$'"
-        ],
-        "quality": 727.2
     },
     {
         "rdf:type": "dcat:Dataset",
