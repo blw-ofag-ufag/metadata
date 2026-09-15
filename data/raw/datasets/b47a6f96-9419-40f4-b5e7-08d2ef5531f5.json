@@ -39,10 +39,10 @@
   "dcat:distribution": [
     {
       "dct:identifier": "f3e46350-b5bf-4765-82bb-daf1987a95fe",
+      "dcat:accessURL": "M:\\Org\\BLW_3210_INTERN\\R\\RTables\\TN400_401_M_m.rda",
       "adms:status": "archived",
       "dct:format": "rda",
       "dcat:downloadURL": "M:\\Org\\BLW_3210_INTERN\\R\\RTables\\TN400_401_M_m.rda",
-      "dcat:accessURL": "M:\\Org\\BLW_3210_INTERN\\R\\RTables\\TN400_401_M_m.rda",
       "dct:title": {
         "de": "Importstatistiken",
         "fr": "Statistiques à l'import"
@@ -57,7 +57,6 @@
       "adms:status": "archived",
       "dct:format": "rda",
       "dcat:downloadURL": "M:\\Org\\BLW_3210_INTERN\\R\\RTables\\TN400_401_X_m.rda",
-      "dct:accessURL": "M:\\Org\\BLW_3210_INTERN\\R\\RTables\\TN400_401_X_m.rda",
       "dct:title": {
         "de": "Exportstatistiken",
         "fr": "Statistiques à l'export"
@@ -67,5 +66,6 @@
         "fr": "2,211,794 lignes × 10 colonnes.\nNote: Fichiers accessibles pour l’OFAG sur demande d'accès au disque."
       }
     }
-  ]
+  ],
+  "productType": "dataset"
 }
