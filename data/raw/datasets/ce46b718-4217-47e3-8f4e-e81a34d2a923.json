@@ -15,22 +15,28 @@
   "dct:accessRights": "PUBLIC",
   "dct:publisher": "BLW-OFAG-UFAG-FOAG",
   "dcat:contactPoint": {
-    "schema:email": "info@blw.admin.ch",
-    "schema:name": "info@blw.admin.ch"
+    "schema:name": "info@blw.admin.ch",
+    "schema:email": "info@blw.admin.ch"
   },
   "dct:issued": "2012-07-01",
-  "dct:accrualPeriodicity": "NEVER",
-  "dct:modified": "2012-07-01",
-  "adms:status": "published",
-  "bv:classification": "none",
-  "bv:personalData": "none",
-  "bv:archivalValue": false,
-  "bv:typeOfData": "thematicData",
   "dcat:keyword": [
     "cultivation-suitability",
     "soil",
     "meteorology",
     "FSDI"
+  ],
+  "dct:accrualPeriodicity": "NEVER",
+  "dct:modified": "2012-07-01",
+  "adms:status": "published",
+  "bv:classification": "none",
+  "bv:personalData": "none",
+  "bv:typeOfData": "thematicData",
+  "bv:archivalValue": false,
+  "bv:externalCatalogs": [
+    {
+      "dcat:catalog": "opendata.swiss",
+      "dct:identifier": "03e2cfdd-40c1-4fe0-bf34-5c15e5779559"
+    }
   ],
   "dcat:theme": [
     "agriculture"
@@ -46,7 +52,6 @@
       "alias": "geocat.ch permalink"
     }
   ],
-  "dcatap:applicableLegislation": [],
   "schema:comment": "Imported from opendata.swiss on 2025-03-10",
   "dcat:distribution": [
     {
@@ -119,12 +124,6 @@
       "dct:format": "HTML",
       "dct:modified": "2012-07-01",
       "dcat:downloadURL": "https://data.geo.admin.ch/browser/index.html#/collections/ch.blw.bodeneignung-gruendigkeit",
-      "dct:title": {
-        "fr": "",
-        "de": "",
-        "en": "",
-        "it": ""
-      },
       "dct:description": {
         "fr": "Serveur de téléchargement de geo.admin.ch",
         "de": "Download Server von geo.admin.ch",
@@ -156,10 +155,5 @@
       "schema:comment": "ID for this distribution on opendata.swiss: e68e7981-1bc5-4e6b-8659-ef46b24c558a"
     }
   ],
-  "bv:externalCatalogs": [
-    {
-      "dcat:catalog": "opendata.swiss",
-      "dct:identifier": "03e2cfdd-40c1-4fe0-bf34-5c15e5779559"
-    }
-  ]
+  "productType": "dataset"
 }
