@@ -2,18 +2,20 @@
   "dct:identifier": "448c82ca-49f6-452e-94ab-06c14f154663",
   "schema:image": "https://v3b.fal.media/files/b/0a8b034d/dfGG6qc1IaFrT-YZjsXbT.jpg",
   "dct:title": {
-    "de": "Daten über Verwaltungsmassnahmen und strafrechtliche Sanktionen"
+    "de": "Daten über Verwaltungsmassnahmen und strafrechtliche Sanktionen",
+    "fr": "Données relatives aux mesures administratives et aux sanctions pénales"
   },
   "dct:description": {
-    "de": "Dokumentation der durch die zuständige Vollzugsstelle ergriffenen Folgemassnahmen basierend auf festgestellten Mängeln. Der Datensatz differenziert zwischen direktzahlungsrelevanten Kürzungen (in CHF oder Punkten) und weiteren administrativen oder strafrechtlichen Anordnungen. Dieser Katalog umfasst Massnahmentypen wie Tierhalteverbote, Beschlagnahmungen, Sperren, Bewilligungsentzüge sowie die Einleitung von Strafverfahren oder die Verfügung von Bussen."
+    "de": "Dokumentation der durch die zuständige Vollzugsstelle ergriffenen Folgemassnahmen basierend auf festgestellten Mängeln. Der Datensatz differenziert zwischen direktzahlungsrelevanten Kürzungen (in CHF oder Punkten) und weiteren administrativen oder strafrechtlichen Anordnungen. Dieser Katalog umfasst Massnahmentypen wie Tierhalteverbote, Beschlagnahmungen, Sperren, Bewilligungsentzüge sowie die Einleitung von Strafverfahren oder die Verfügung von Bussen.",
+    "fr": "Documentation des mesures de suivi prises par l'autorité d'exécution compétente en réponse aux manquements constatés. Le jeu de données distingue les réductions affectant les paiements directs (exprimées en CHF ou en points) des autres mesures administratives ou pénales. Ce catalogue englobe divers types de mesures, telles que les interdictions de détenir des animaux, les saisies, les blocages, les retraits d'autorisation, ainsi que l'engagement de poursuites pénales ou le prononcé d'amendes."
   },
   "dct:accessRights": "NON_PUBLIC",
   "dct:publisher": "BLW-OFAG-UFAG-FOAG",
-  "dct:issued": "2009-01-01",
   "dcat:contactPoint": {
     "schema:name": "Fachbereich Direktzahlungsgrundlagen",
     "schema:email": "acontrol@blw.admin.ch"
   },
+  "dct:issued": "2009-01-01",
   "dcat:keyword": [
     "Acontrol",
     "controls",
@@ -45,5 +47,6 @@
   ],
   "dcat:landingPage": "https://www.blw.admin.ch/de/anwendung-acontrol",
   "dct:spatial": "Switzerland",
-  "schema:comment": "Einordnung nach Datenschutzgesetz wurde von BLW/BLV 2025 geprüft und von \"besonders schützenswerte Personendaten\" auf \"Personendaten\" zurückgestuft."
+  "schema:comment": "Einordnung nach Datenschutzgesetz wurde von BLW/BLV 2025 geprüft und von \"besonders schützenswerte Personendaten\" auf \"Personendaten\" zurückgestuft.",
+  "productType": "dataset"
 }
