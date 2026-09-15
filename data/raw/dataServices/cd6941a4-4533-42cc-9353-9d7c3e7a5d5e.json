@@ -25,5 +25,6 @@
     {
       "dcat:catalog": "I14Y"
     }
-  ]
+  ],
+  "productType": "dataService"
 }
