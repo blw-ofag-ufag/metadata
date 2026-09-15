@@ -28,5 +28,6 @@
       "dcat:catalog": "opendata.swiss"
     }
   ],
-  "dcat:landingPage": "https://www.agrarmarktdaten.ch/"
+  "dcat:landingPage": "https://www.agrarmarktdaten.ch/",
+  "productType": "dataService"
 }
