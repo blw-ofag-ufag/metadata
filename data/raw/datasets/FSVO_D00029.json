@@ -1,0 +1,90 @@
+{
+  "dct:identifier": "FSVO_D00029",
+  "schema:image": "https://raw.githubusercontent.com/BLV-OSAV-USAV/FSVO-Metadata/refs/heads/main/data/images/FSVO_Default_Image.jpg",
+  "dct:title": {
+    "fr": "Betriebsbewilligungen von Lebensmittelunternehmen",
+    "de": "Betriebsbewilligungen von Lebensmittelunternehmen",
+    "en": "Betriebsbewilligungen von Lebensmittelunternehmen",
+    "it": "Betriebsbewilligungen von Lebensmittelunternehmen"
+  },
+  "dct:description": {
+    "fr": "Diese Datensammlung umfasst alle relevanten Informationen zu Betrieben, die gemäss Artikel 11 LMG eine Bewilligung erhalten haben. Grundsätzlich unterliegen alle Lebensmittelbetriebe, die Lebensmittel tierischer Herkunft herstellen, verarbeiten, behandeln, lagern oder abgeben, dieser Bewilligungspflicht. Erfasst werden unter anderem der Name und die Adresse des Betriebes, dessen Bewilligungsnummer, die bewilligten Sektionen, Tätigkeiten und Tierarten, sowie der Bewilligungsstatus, das Datum der Erteilung sowie allfällige Bedingungen oder Auflagen. Die Einträge stammen von den zuständigen kantonalen Vollzugsbehörden, welche die Bewilligungen gemäss den gesetzlichen Anforderungen ausstellen und die entsprechenden Daten dazu dem BLV per ASAN-Eintrag melden. Das BLV publiziert und aktualisiert die Daten wöchentlich auf seiner Webseite und macht sie somit für die Öffentlichkeit zugänglich. Die Datensammlung dient der behördlichen Übersicht und Kontrolle über bewilligungspflichtige Betriebe im Bereich tierischer Lebensmittel. Sie ermöglicht die Koordination zwischen Bund und Kantonen, unterstützt die risikobasierte Planung von Kontrollen und dient als Grundlage für statistische Auswertungen. Zudem ist die Bewilligung eine Voraussetzung für die Exportfähigkeit von Lebensmitteln tierischer Herkunft in die EU. Die Datensammlung ermöglicht somit eine transparente und rechtskonforme Verwaltung der Angaben zu bewilligten Betrieben.",
+    "de": "Diese Datensammlung umfasst alle relevanten Informationen zu Betrieben, die gemäss Artikel 11 LMG eine Bewilligung erhalten haben. Grundsätzlich unterliegen alle Lebensmittelbetriebe, die Lebensmittel tierischer Herkunft herstellen, verarbeiten, behandeln, lagern oder abgeben, dieser Bewilligungspflicht. Erfasst werden unter anderem der Name und die Adresse des Betriebes, dessen Bewilligungsnummer, die bewilligten Sektionen, Tätigkeiten und Tierarten, sowie der Bewilligungsstatus, das Datum der Erteilung sowie allfällige Bedingungen oder Auflagen. Die Einträge stammen von den zuständigen kantonalen Vollzugsbehörden, welche die Bewilligungen gemäss den gesetzlichen Anforderungen ausstellen und die entsprechenden Daten dazu dem BLV per ASAN-Eintrag melden. Das BLV publiziert und aktualisiert die Daten wöchentlich auf seiner Webseite und macht sie somit für die Öffentlichkeit zugänglich. Die Datensammlung dient der behördlichen Übersicht und Kontrolle über bewilligungspflichtige Betriebe im Bereich tierischer Lebensmittel. Sie ermöglicht die Koordination zwischen Bund und Kantonen, unterstützt die risikobasierte Planung von Kontrollen und dient als Grundlage für statistische Auswertungen. Zudem ist die Bewilligung eine Voraussetzung für die Exportfähigkeit von Lebensmitteln tierischer Herkunft in die EU. Die Datensammlung ermöglicht somit eine transparente und rechtskonforme Verwaltung der Angaben zu bewilligten Betrieben."
+  },
+  "dct:accessRights": "PUBLIC",
+  "dct:publisher": "BLV-OSAV-USAV-FSVO",
+  "dcat:contactPoint": {
+    "schema:name": "BLV, LME, Lebensmittelhygiene",
+    "schema:email": "lme@blv.admin.ch"
+  },
+  "dct:issued": "2006-01-01",
+  "dcatap:availability": "STABLE",
+  "dcat:keyword": [
+    "Lebensmittelsicherheit",
+    "Bewilligung"
+  ],
+  "dct:accrualPeriodicity": "MONTHLY",
+  "dct:modified": "2025-09-10",
+  "prov:qualifiedAttribution": [
+    {
+      "prov:agent": "p-1582170",
+      "dcat:hadRole": "dataOwner"
+    },
+    {
+      "prov:agent": "p-9531742",
+      "dcat:hadRole": "dataSteward"
+    }
+  ],
+  "adms:status": "published",
+  "bv:classification": "none",
+  "bv:personalData": "personalData",
+  "bv:typeOfData": "primaryThematicData",
+  "bv:archivalValue": "TRUE",
+  "dcat:theme": [
+    "health"
+  ],
+  "dcat:landingPage": "https://www.blv.admin.ch/blv/de/home/lebensmittel-und-ernaehrung/rechts-und-vollzugsgrundlagen/bewilligung-und-meldung/listen-bewilligter-betriebe.html",
+  "dct:spatial": "YES",
+  "dcatap:applicableLegislation": [
+    "https://www.fedlex.admin.ch/eli/cc/2017/62"
+  ],
+  "bv:itSystem": "ASAN",
+  "dcat:distribution": [
+    {
+      "dct:identifier": "FSVO_D00029_1",
+      "dcat:accessURL": "https://www.alvph.blv.admin.ch/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AWsLmZEKx4hIow_6OsQ7qq4",
+      "adms:status": "published",
+      "dct:format": "SAP BO",
+      "dct:title": {
+        "de": "5001_Bewilligungen/Authorisations",
+        "fr": "5001_Bewilligungen/Authorisations"
+      },
+      "dct:description": {
+        "de": "Liste aller Bewilligungen die in ASAN erfasst sind. Um die Bewilligten Lebensmittelbetriebe zu erhalten, müssen die entsprechenden Filter gesetzt werden.",
+        "fr": "Liste aller Bewilligungen die in ASAN erfasst sind. Um die Bewilligten Lebensmittelbetriebe zu erhalten, müssen die entsprechenden Filter gesetzt werden."
+      },
+      "schema:comment": "Puplikationsort in ALVPH:  /3 Shared/BLV - KAV/ASAN"
+    },
+    {
+      "dct:identifier": "FSVO_D00029_2",
+      "dcat:accessURL": "https://opendata.swiss/de/dataset/lebensmittelbetriebe",
+      "adms:status": "validated",
+      "dcatap:availability": "AVAILABLE",
+      "dct:format": "CSV",
+      "dct:title": {
+        "de": "Lebensmittelbetriebe",
+        "fr": "Établissements du secteur alimentaire",
+        "it": "Aziende alimentari",
+        "en": "Foodstuff businesses"
+      },
+      "dct:description": {
+        "de": "Betriebe, die Lebensmittel tierischer Herkunft herstellen, verarbeiten, behandeln, lagern oder abgeben, benötigen eine Bewilligung. Diese erteilt die zuständige kantonale Vollzugsbehörde. Mit der Bewilligung verknüpft ist die Möglichkeit, in die EU zu exportieren.",
+        "fr": "Les établissements qui fabriquent, transforment, traitent, entreposent ou remettent des aliments d’origine animale ont besoin d’une autorisation délivrée par l’autorité cantonale d’exécution compétente. Cette autorisation leur permet d’exporter vers l’UE.",
+        "it": "Le aziende che fabbricano, trasformano, trattano, depositano o consegnano derrate alimentari di origine animale necessitano di un’autorizzazione, rilasciata dall’autorità cantonale di esecuzione competente. La possibilità di esportare nell’UE è legata a tale autorizzazione.",
+        "en": "Businesses which manufacture, process, handle, store or distribute foodstuffs of animal origin must be authorised. This authorisation is issued by the relevant cantonal authority. The authorisation includes the possibility of exporting to the EU."
+      },
+      "dct:license": "terms_by"
+    }
+  ],
+  "productType": "dataset"
+}
