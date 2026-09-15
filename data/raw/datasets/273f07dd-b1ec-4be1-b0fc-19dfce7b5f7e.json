@@ -19,6 +19,7 @@
     "schema:name": "info@blw.admin.ch",
     "schema:email": "info@blw.admin.ch"
   },
+  "dct:issued": "2026-01-01",
   "dct:accrualPeriodicity": "UNKNOWN",
   "prov:qualifiedAttribution": [
     {
@@ -150,5 +151,6 @@
       "dct:license": "terms_by",
       "schema:comment": "ID for this distribution on opendata.swiss: 843f7014-50b0-418c-b832-a22e2c6b790a"
     }
-  ]
+  ],
+  "productType": "dataset"
 }
