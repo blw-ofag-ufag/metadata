@@ -15,23 +15,28 @@
   "dct:accessRights": "PUBLIC",
   "dct:publisher": "BLW-OFAG-UFAG-FOAG",
   "dcat:contactPoint": {
-    "schema:email": "info@blw.admin.ch",
-    "schema:name": "info@blw.admin.ch"
+    "schema:name": "info@blw.admin.ch",
+    "schema:email": "info@blw.admin.ch"
   },
   "dct:issued": "2019-03-30",
-  "dct:accrualPeriodicity": "UNKNOWN",
-  "dct:modified": null,
-  "adms:status": "published",
-  "bv:classification": "none",
-  "bv:personalData": "none",
-  "bv:archivalValue": false,
-  "bv:typeOfData": "thematicData",
   "dcat:keyword": [
     "erosion",
     "soil-erosion",
     "e-geoch",
     "soil",
     "FSDI"
+  ],
+  "dct:accrualPeriodicity": "UNKNOWN",
+  "adms:status": "published",
+  "bv:classification": "none",
+  "bv:personalData": "none",
+  "bv:typeOfData": "thematicData",
+  "bv:archivalValue": false,
+  "bv:externalCatalogs": [
+    {
+      "dcat:catalog": "opendata.swiss",
+      "dct:identifier": "078e0c66-26c4-4f83-a3d3-700b8c7dfa58"
+    }
   ],
   "dcat:theme": [
     "agriculture"
@@ -47,7 +52,6 @@
       "alias": "geocat.ch permalink"
     }
   ],
-  "dcatap:applicableLegislation": [],
   "schema:comment": "Imported from opendata.swiss on 2025-03-10",
   "dcat:distribution": [
     {
@@ -55,7 +59,6 @@
       "dcat:accessURL": "https://map.geo.admin.ch/?layers=ch.blw.erosion",
       "adms:status": "published",
       "dct:format": "SERVICE",
-      "dct:modified": null,
       "dct:title": {
         "fr": "Map (Preview) Aperçu map.geo.admin.ch",
         "de": "Map (Preview) Vorschau map.geo.admin.ch",
@@ -76,7 +79,6 @@
       "dcat:accessURL": "https://wms.geo.admin.ch/?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetCapabilities&lang=de",
       "adms:status": "published",
       "dct:format": "WMS",
-      "dct:modified": null,
       "dct:title": {
         "fr": "ch.blw.erosion",
         "de": "ch.blw.erosion",
@@ -97,7 +99,6 @@
       "dcat:accessURL": "https://wmts.geo.admin.ch/EPSG/3857/1.0.0/WMTSCapabilities.xml?lang=de",
       "adms:status": "published",
       "dct:format": "WMTS",
-      "dct:modified": null,
       "dct:title": {
         "fr": "ch.blw.erosion",
         "de": "ch.blw.erosion",
@@ -118,14 +119,7 @@
       "dcat:accessURL": "https://data.geo.admin.ch/browser/index.html#/collections/ch.blw.erosion",
       "adms:status": "published",
       "dct:format": "HTML",
-      "dct:modified": null,
       "dcat:downloadURL": "https://data.geo.admin.ch/browser/index.html#/collections/ch.blw.erosion",
-      "dct:title": {
-        "fr": "",
-        "de": "",
-        "en": "",
-        "it": ""
-      },
       "dct:description": {
         "fr": "Serveur de téléchargement de geo.admin.ch",
         "de": "Download Server von geo.admin.ch",
@@ -136,10 +130,5 @@
       "schema:comment": "ID for this distribution on opendata.swiss: dd26060a-1c61-4c88-89d3-3b5d53dbcf81"
     }
   ],
-  "bv:externalCatalogs": [
-    {
-      "dcat:catalog": "opendata.swiss",
-      "dct:identifier": "078e0c66-26c4-4f83-a3d3-700b8c7dfa58"
-    }
-  ]
+  "productType": "dataset"
 }
