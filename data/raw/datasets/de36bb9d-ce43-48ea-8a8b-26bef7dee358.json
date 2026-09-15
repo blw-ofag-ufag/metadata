@@ -142,5 +142,6 @@
       "dct:license": "terms_by",
       "schema:comment": "ID for this distribution on opendata.swiss: 82539356-f071-44db-929f-afa9cfefe87a"
     }
-  ]
+  ],
+  "productType": "dataset"
 }
