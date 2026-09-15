@@ -15,17 +15,10 @@
   "dct:accessRights": "PUBLIC",
   "dct:publisher": "BLW-OFAG-UFAG-FOAG",
   "dcat:contactPoint": {
-    "schema:email": "info@blw.admin.ch",
-    "schema:name": "info@blw.admin.ch"
+    "schema:name": "info@blw.admin.ch",
+    "schema:email": "info@blw.admin.ch"
   },
   "dct:issued": "2010-01-01",
-  "dct:accrualPeriodicity": "IRREG",
-  "dct:modified": "2013-01-01",
-  "adms:status": "published",
-  "bv:classification": "none",
-  "bv:personalData": "none",
-  "bv:archivalValue": false,
-  "bv:typeOfData": "thematicData",
   "dcat:keyword": [
     "gradient",
     "e-geoch",
@@ -35,6 +28,19 @@
     "archivation",
     "subsidy",
     "FSDI"
+  ],
+  "dct:accrualPeriodicity": "IRREG",
+  "dct:modified": "2013-01-01",
+  "adms:status": "published",
+  "bv:classification": "none",
+  "bv:personalData": "none",
+  "bv:typeOfData": "thematicData",
+  "bv:archivalValue": false,
+  "bv:externalCatalogs": [
+    {
+      "dcat:catalog": "opendata.swiss",
+      "dct:identifier": "8dacb53c-fe50-4cba-98c8-cd45c362d352"
+    }
   ],
   "dcat:theme": [
     "agriculture"
@@ -50,7 +56,6 @@
       "alias": "geocat.ch permalink"
     }
   ],
-  "dcatap:applicableLegislation": [],
   "schema:comment": "Imported from opendata.swiss on 2025-03-10",
   "dcat:distribution": [
     {
@@ -123,12 +128,6 @@
       "dct:format": "HTML",
       "dct:modified": "2013-01-01",
       "dcat:downloadURL": "https://data.geo.admin.ch/browser/index.html#/collections/ch.blw.steil_terrassenlagen_rebbau",
-      "dct:title": {
-        "fr": "",
-        "de": "",
-        "en": "",
-        "it": ""
-      },
       "dct:description": {
         "fr": "Serveur de téléchargement de geo.admin.ch",
         "de": "Download von data.geo.admin.ch",
@@ -139,10 +138,5 @@
       "schema:comment": "ID for this distribution on opendata.swiss: 103d1237-ffab-49b7-a8f6-883df0aa2975"
     }
   ],
-  "bv:externalCatalogs": [
-    {
-      "dcat:catalog": "opendata.swiss",
-      "dct:identifier": "8dacb53c-fe50-4cba-98c8-cd45c362d352"
-    }
-  ]
+  "productType": "dataset"
 }
