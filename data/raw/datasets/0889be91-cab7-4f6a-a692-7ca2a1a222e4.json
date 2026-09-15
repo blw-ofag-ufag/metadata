@@ -1,10 +1,10 @@
 {
   "dct:identifier": "0889be91-cab7-4f6a-a692-7ca2a1a222e4",
   "dct:title": {
-    "fr": "Carte des risques d'érosion des terres arables, perte moyenne de sol en tonnes (ha*année)",
-    "de": "Erosionsrisikokarte des Ackerlandes, mittlerer Bodenabtrag in Tonnen/(ha*Jahr)",
-    "en": "Erosion risk map for arable land, with average soil erosion in tonnes /(ha*year)",
-    "it": "Carta del rischio di erosione dei terreni coltivi, perdita di suolo media sul lungo periodo, espressa in tonnellate per ettaro e anno"
+    "de": "Erosionsrisikokarte des Ackerlandes, mittlerer Bodenabtrag",
+    "fr": "Carte des risques d'érosion des terres arables, perte moyenne de sol",
+    "it": "Carta del rischio di erosione dei terreni coltivi, perdita di suolo media sul lungo periodo, espressa in tonnellate per ettaro e anno",
+    "en": "Erosion risk map for arable land, with average soil erosion in tonnes /(ha*year)"
   },
   "dct:description": {
     "fr": "Carte des risques d’érosion des terres arables, perte moyenne de sol en tonnes (ha*année) (Office fédéral de l'agriculture) Carte des risques d’érosion des terres arables de la Suisse au raster 2x2 m, sur la base du modèle swissALTI3D et des données cantonales sur les terres arables (situation en 2021). La carte indique la perte moyenne potentielle de sol sur le long terme, en tonnes par hectare et par an, calculée sur la base d’une jachère nue, autrement dit l’érosion qui pourrait théoriquement se produire si le sol était nu en permanence. Les tons verts indiquent un risque d’érosion faible, les jaunes un risque moyen et les rouges un risque élevé. Les valeurs modélisées sont toutes beaucoup plus élevées (environ d’un facteur 10) que dans la réalité, du fait que le travail et le mode d'exploitation du sol (facteur C) ont été factorisés et intégrés en tant que constante de valeur 1 dans le calcul. Le calcul du risque d’érosion au moyen d’algorithmes multi-flux permet de représenter de manière plus précise et détaillée la structure du terrain, p. ex. le tracé des cuvettes ou des fortes pentes transversales et, par conséquent, d’identifier également le risque d’érosion de talweg, ce qui est représenté de manière détaillée sur la carte des écoulements (voir carte des écoulements). Les blocs de parcelles servent de base de calcul géographique (voir carte de blocs de parcelles).",
@@ -15,22 +15,27 @@
   "dct:accessRights": "PUBLIC",
   "dct:publisher": "BLW-OFAG-UFAG-FOAG",
   "dcat:contactPoint": {
-    "schema:email": "info@blw.admin.ch",
-    "schema:name": "info@blw.admin.ch"
+    "schema:name": "info@blw.admin.ch",
+    "schema:email": "info@blw.admin.ch"
   },
   "dct:issued": "2019-03-30",
-  "dct:accrualPeriodicity": "UNKNOWN",
-  "dct:modified": null,
-  "adms:status": "published",
-  "bv:classification": "none",
-  "bv:personalData": "none",
-  "bv:archivalValue": false,
-  "bv:typeOfData": "thematicData",
   "dcat:keyword": [
     "soil-erosion",
     "erosion",
     "e-geoch",
     "FSDI"
+  ],
+  "dct:accrualPeriodicity": "UNKNOWN",
+  "adms:status": "published",
+  "bv:classification": "none",
+  "bv:personalData": "none",
+  "bv:typeOfData": "thematicData",
+  "bv:archivalValue": false,
+  "bv:externalCatalogs": [
+    {
+      "dcat:catalog": "opendata.swiss",
+      "dct:identifier": "e1a93f10-8007-4ef6-b5a9-3c617ed29c32"
+    }
   ],
   "dcat:theme": [
     "agriculture"
@@ -45,7 +50,6 @@
       "alias": "geocat.ch permalink"
     }
   ],
-  "dcatap:applicableLegislation": [],
   "schema:comment": "Imported from opendata.swiss on 2025-03-10",
   "dcat:distribution": [
     {
@@ -53,7 +57,6 @@
       "dcat:accessURL": "https://map.geo.admin.ch/?layers=ch.blw.erosion-quantitativ",
       "adms:status": "published",
       "dct:format": "SERVICE",
-      "dct:modified": null,
       "dct:title": {
         "fr": "Map (Preview) Aperçu map.geo.admin.ch",
         "de": "Map (Preview) Vorschau map.geo.admin.ch",
@@ -74,7 +77,6 @@
       "dcat:accessURL": "https://wms.geo.admin.ch/?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetCapabilities&lang=de",
       "adms:status": "published",
       "dct:format": "WMS",
-      "dct:modified": null,
       "dct:title": {
         "fr": "ch.blw.erosion-quantitativ",
         "de": "ch.blw.erosion-quantitativ",
@@ -95,7 +97,6 @@
       "dcat:accessURL": "https://wmts.geo.admin.ch/EPSG/3857/1.0.0/WMTSCapabilities.xml?lang=de",
       "adms:status": "published",
       "dct:format": "WMTS",
-      "dct:modified": null,
       "dct:title": {
         "fr": "ch.blw.erosion-quantitativ",
         "de": "ch.blw.erosion-quantitativ",
@@ -116,14 +117,7 @@
       "dcat:accessURL": "https://data.geo.admin.ch/browser/index.html#/collections/ch.blw.erosion-quantitativ",
       "adms:status": "published",
       "dct:format": "HTML",
-      "dct:modified": null,
       "dcat:downloadURL": "https://data.geo.admin.ch/browser/index.html#/collections/ch.blw.erosion-quantitativ",
-      "dct:title": {
-        "fr": "",
-        "de": "",
-        "en": "",
-        "it": ""
-      },
       "dct:description": {
         "fr": "Serveur de téléchargement de geo.admin.ch",
         "de": "Download von data.geo.admin.ch",
@@ -134,10 +128,5 @@
       "schema:comment": "ID for this distribution on opendata.swiss: 6b63eeaf-14da-4ad3-9739-b5e4e5d44f2a"
     }
   ],
-  "bv:externalCatalogs": [
-    {
-      "dcat:catalog": "opendata.swiss",
-      "dct:identifier": "e1a93f10-8007-4ef6-b5a9-3c617ed29c32"
-    }
-  ]
+  "productType": "dataset"
 }
