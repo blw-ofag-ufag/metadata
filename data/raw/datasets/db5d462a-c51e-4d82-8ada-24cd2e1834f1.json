@@ -9,19 +9,16 @@
     "fr": "Ces données comprennent les contributions financières calculées par exploitation pour les différents types de paiements directs conformément à l'art. 2 OPD (p. ex. sécurité de l'approvisionnement, biodiversité, contributions au système de production) ainsi que les réductions des paiements directs. Elles comprennent à la fois le montant de la réduction, les exploitations concernées et les années de contribution. Les données relatives aux contributions servent au calcul correct des versements finaux par les cantons. Elles sont validées sur la base des données structurelles annuelles et des données d'inscription fournies par les cantons pour le versement, puis transmises à AGIS."
   },
   "dct:publisher": "BLW-OFAG-UFAG-FOAG",
-  "dcatap:applicableLegislation": [
-    "https://www.fedlex.admin.ch/eli/cc/2013/765/de#art_2"
-  ],
   "dcat:contactPoint": {
     "schema:name": "Gruppe Agrarinformationssystem AGIS",
     "schema:email": "agis@blw.admin.ch"
   },
+  "dct:issued": "01-02-1999",
   "dcat:keyword": [
     "AGIS",
     "direct-payments",
     "operational-data"
   ],
-  "dct:issued": "01-02-1999",
   "dct:accrualPeriodicity": "ANNUAL",
   "prov:qualifiedAttribution": [
     {
@@ -40,8 +37,13 @@
   "adms:status": "published",
   "bv:classification": "none",
   "bv:personalData": "personalData",
+  "bv:archivalValue": false,
   "dcat:theme": [
     "agriculture"
   ],
-  "dcat:landingPage": "https://www.blw.admin.ch/de/anwendung-agis"
+  "dcat:landingPage": "https://www.blw.admin.ch/de/anwendung-agis",
+  "dcatap:applicableLegislation": [
+    "https://www.fedlex.admin.ch/eli/cc/2013/765/de#art_2"
+  ],
+  "productType": "dataset"
 }
