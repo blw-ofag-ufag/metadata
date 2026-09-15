@@ -15,22 +15,28 @@
   "dct:accessRights": "PUBLIC",
   "dct:publisher": "BLW-OFAG-UFAG-FOAG",
   "dcat:contactPoint": {
-    "schema:email": "info@blw.admin.ch",
-    "schema:name": "info@blw.admin.ch"
+    "schema:name": "info@blw.admin.ch",
+    "schema:email": "info@blw.admin.ch"
   },
   "dct:issued": "2012-07-01",
-  "dct:accrualPeriodicity": "NEVER",
-  "dct:modified": "2012-07-01",
-  "adms:status": "published",
-  "bv:classification": "none",
-  "bv:personalData": "none",
-  "bv:archivalValue": false,
-  "bv:typeOfData": "thematicData",
   "dcat:keyword": [
     "cultivation-suitability",
     "soil",
     "meteorology",
     "FSDI"
+  ],
+  "dct:accrualPeriodicity": "NEVER",
+  "dct:modified": "2012-07-01",
+  "adms:status": "published",
+  "bv:classification": "none",
+  "bv:personalData": "none",
+  "bv:typeOfData": "thematicData",
+  "bv:archivalValue": false,
+  "bv:externalCatalogs": [
+    {
+      "dcat:catalog": "opendata.swiss",
+      "dct:identifier": "d18a25f8-6967-41d7-8813-c4b1e486f54a"
+    }
   ],
   "dcat:theme": [
     "agriculture"
@@ -46,7 +52,6 @@
       "alias": "geocat.ch permalink"
     }
   ],
-  "dcatap:applicableLegislation": [],
   "schema:comment": "Imported from opendata.swiss on 2025-03-10",
   "dcat:distribution": [
     {
@@ -119,17 +124,9 @@
       "dct:format": "HTML",
       "dct:modified": "2012-07-01",
       "dcat:downloadURL": "https://data.geo.admin.ch/browser/index.html#/collections/ch.blw.bodeneignung-skelettgehalt",
-      "dct:title": {
-        "fr": "",
-        "de": "",
-        "en": "",
-        "it": ""
-      },
       "dct:description": {
         "fr": "Plus d'information et téléchargement des données (uniquement en allemand)",
-        "de": "Weitere Infos und Datendownload",
-        "en": "",
-        "it": ""
+        "de": "Weitere Infos und Datendownload"
       },
       "dct:license": "terms_by",
       "schema:comment": "ID for this distribution on opendata.swiss: 945f2ed3-e873-442c-8ffb-3e806248a5bf"
@@ -156,10 +153,5 @@
       "schema:comment": "ID for this distribution on opendata.swiss: ecdeca9d-c614-4a72-94ee-3541c45a044a"
     }
   ],
-  "bv:externalCatalogs": [
-    {
-      "dcat:catalog": "opendata.swiss",
-      "dct:identifier": "d18a25f8-6967-41d7-8813-c4b1e486f54a"
-    }
-  ]
+  "productType": "dataset"
 }
