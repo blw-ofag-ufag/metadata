@@ -2,18 +2,20 @@
   "dct:identifier": "1dd28b58-345e-4aac-b2fe-634a876c51e5",
   "schema:image": "https://v3b.fal.media/files/b/0a8b034d/dfGG6qc1IaFrT-YZjsXbT.jpg",
   "dct:title": {
-    "de": "Kontrollergebnisse"
+    "de": "Kontrollergebnisse",
+    "fr": "Résultats des contrôles"
   },
   "dct:description": {
-    "de": "Systematische Erfassung der Prüfbefunde einer jeweiligen Kontrolle. Der Datensatz dokumentiert primär Abweichungen in Form von Mängeln unter Angabe von Schweregrad, Umfang und Wiederholung. Ergänzend können Status \"Nicht kontrolliert\" oder \"Nicht zutreffend\" ausgewiesen werden. Nicht explizit aufgeführte Kontrollpunkte gelten implizit als \"ohne Mangel\" geprüft."
+    "de": "Systematische Erfassung der Prüfbefunde einer jeweiligen Kontrolle. Der Datensatz dokumentiert primär Abweichungen in Form von Mängeln unter Angabe von Schweregrad, Umfang und Wiederholung. Ergänzend können Status \"Nicht kontrolliert\" oder \"Nicht zutreffend\" ausgewiesen werden. Nicht explizit aufgeführte Kontrollpunkte gelten implizit als \"ohne Mangel\" geprüft.",
+    "fr": "Enregistrement systématique des résultats de chaque contrôle. L'ensemble de données documente principalement les écarts sous forme de défauts, en précisant leur gravité, leur ampleur et leur récurrence. Il est également possible d'indiquer les statuts « non contrôlé » ou « sans objet ». Les points de contrôle non mentionnés explicitement sont implicitement considérés comme vérifiés et exempts de défauts.\n"
   },
   "dct:accessRights": "NON_PUBLIC",
   "dct:publisher": "BLW-OFAG-UFAG-FOAG",
-  "dct:issued": "2009-01-01",
   "dcat:contactPoint": {
     "schema:name": "Fachbereich Direktzahlungsgrundlagen",
     "schema:email": "acontrol@blw.admin.ch"
   },
+  "dct:issued": "2009-01-01",
   "dcat:keyword": [
     "Acontrol",
     "controls",
@@ -45,5 +47,6 @@
     "agriculture"
   ],
   "dcat:landingPage": "https://www.blw.admin.ch/de/anwendung-acontrol",
-  "dct:spatial": "Switzerland"
+  "dct:spatial": "Switzerland",
+  "productType": "dataset"
 }

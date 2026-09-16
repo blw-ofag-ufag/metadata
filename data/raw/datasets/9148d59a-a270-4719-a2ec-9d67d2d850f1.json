@@ -1,10 +1,10 @@
 {
   "dct:identifier": "9148d59a-a270-4719-a2ec-9d67d2d850f1",
   "dct:title": {
-    "fr": "Carte des surfaces directement ou indirectement attenantes à des eaux de surface, probabilité de surfaces attenantes",
     "de": "Gewässeranschlusskarte direkt und indirekt, Anschlusswahrscheinlichkeit",
-    "en": "Water connection map, direct and indirect, probability of connection",
-    "it": "Carta delle superfici collegate direttamente e indirettamente ad acque superficiali, probabilità di collegamento"
+    "fr": "Carte d'eaux directement ou indirectement attenantes (surfaces attenantes)",
+    "it": "Carta delle superfici collegate direttamente e indirettamente ad acque superficiali, probabilità di collegamento",
+    "en": "Water connection map, direct and indirect, probability of connection"
   },
   "dct:description": {
     "fr": "A titre de complément, une autre carte a été établie qui différencie les surfaces attenantes à des cours d’eau, entre surfaces en connexion directe et surfaces en connexion indirecte. Les surfaces en connexion directe se situent à côté de cours d’eau ou sont connectées à des cours d’eau par des fossés de drainage temporaire ou par des isobathes. L’écoulement des eaux de surfaces peut parvenir aussi indirectement dans les cours d’eau par les puits de drainage et les regards du système d’évacuation des eaux de chaussée. Grâce à ces informations, il est possible de planifier le cas échéant de manière encore mieux ciblée les mesures contre l’apport de substances polluantes dans les eaux. Six catégories de probabilité de connexion de surfaces agricoles à des eaux de surface ont été établies.",
@@ -15,17 +15,10 @@
   "dct:accessRights": "PUBLIC",
   "dct:publisher": "BLW-OFAG-UFAG-FOAG",
   "dcat:contactPoint": {
-    "schema:email": "info@blw.admin.ch",
-    "schema:name": "info@blw.admin.ch"
+    "schema:name": "info@blw.admin.ch",
+    "schema:email": "info@blw.admin.ch"
   },
   "dct:issued": "2012-12-01",
-  "dct:accrualPeriodicity": "IRREG",
-  "dct:modified": null,
-  "adms:status": "published",
-  "bv:classification": "none",
-  "bv:personalData": "none",
-  "bv:archivalValue": false,
-  "bv:typeOfData": "thematicData",
   "dcat:keyword": [
     "conservation",
     "archivation",
@@ -33,6 +26,18 @@
     "soil-erosion",
     "erosion",
     "FSDI"
+  ],
+  "dct:accrualPeriodicity": "IRREG",
+  "adms:status": "published",
+  "bv:classification": "none",
+  "bv:personalData": "none",
+  "bv:typeOfData": "thematicData",
+  "bv:archivalValue": false,
+  "bv:externalCatalogs": [
+    {
+      "dcat:catalog": "opendata.swiss",
+      "dct:identifier": "4e49f596-d0b6-4473-9c77-7cf4f1008969"
+    }
   ],
   "dcat:theme": [
     "agriculture"
@@ -48,7 +53,6 @@
       "alias": "geocat.ch permalink"
     }
   ],
-  "dcatap:applicableLegislation": [],
   "schema:comment": "Imported from opendata.swiss on 2025-03-10",
   "dcat:distribution": [
     {
@@ -56,7 +60,6 @@
       "dcat:accessURL": "https://map.geo.admin.ch/?layers=ch.blw.gewaesseranschlusskarte-direkt",
       "adms:status": "published",
       "dct:format": "SERVICE",
-      "dct:modified": null,
       "dct:title": {
         "fr": "Map (Preview) Aperçu map.geo.admin.ch",
         "de": "Map (Preview) Vorschau map.geo.admin.ch",
@@ -77,7 +80,6 @@
       "dcat:accessURL": "https://wms.geo.admin.ch/?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetCapabilities&lang=de",
       "adms:status": "published",
       "dct:format": "WMS",
-      "dct:modified": null,
       "dct:title": {
         "fr": "ch.blw.gewaesseranschlusskarte-direkt",
         "de": "ch.blw.gewaesseranschlusskarte-direkt",
@@ -98,7 +100,6 @@
       "dcat:accessURL": "https://wmts.geo.admin.ch/EPSG/3857/1.0.0/WMTSCapabilities.xml?lang=de",
       "adms:status": "published",
       "dct:format": "WMTS",
-      "dct:modified": null,
       "dct:title": {
         "fr": "ch.blw.gewaesseranschlusskarte-direkt",
         "de": "ch.blw.gewaesseranschlusskarte-direkt",
@@ -119,14 +120,7 @@
       "dcat:accessURL": "https://data.geo.admin.ch/browser/index.html#/collections/ch.blw.gewaesseranschlusskarte-direkt",
       "adms:status": "published",
       "dct:format": "HTML",
-      "dct:modified": null,
       "dcat:downloadURL": "https://data.geo.admin.ch/browser/index.html#/collections/ch.blw.gewaesseranschlusskarte-direkt",
-      "dct:title": {
-        "fr": "",
-        "de": "",
-        "en": "",
-        "it": ""
-      },
       "dct:description": {
         "fr": "Serveur de téléchargement de geo.admin.ch",
         "de": "Download Server von geo.admin.ch",
@@ -137,10 +131,5 @@
       "schema:comment": "ID for this distribution on opendata.swiss: 25c1798a-d1b8-461e-af02-dd908823ddc1"
     }
   ],
-  "bv:externalCatalogs": [
-    {
-      "dcat:catalog": "opendata.swiss",
-      "dct:identifier": "4e49f596-d0b6-4473-9c77-7cf4f1008969"
-    }
-  ]
+  "productType": "dataset"
 }

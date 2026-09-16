@@ -1,6 +1,6 @@
 {
   "dct:identifier": "e7b5cd7a-2e4f-48dd-ab78-0c4368220310",
-  "schema:image":"https://prod-blwch-hcms-sdweb.imgix.net/dam/de/sd-web/JRVuUKMgS1wg/CH-Karte_AOP-IGP_alle_2025.png",
+  "schema:image": "https://prod-blwch-hcms-sdweb.imgix.net/dam/de/sd-web/JRVuUKMgS1wg/CH-Karte_AOP-IGP_alle_2025.png",
   "dct:title": {
     "fr": "Registre des appellations d'origine (AOP) et des indications géographiques (IGP) fromage",
     "de": "Register Ursprungsbezeichnungen (GUB) und geografische Angaben (GGA) Käse",
@@ -16,17 +16,10 @@
   "dct:accessRights": "PUBLIC",
   "dct:publisher": "BLW-OFAG-UFAG-FOAG",
   "dcat:contactPoint": {
-    "schema:email": "info@blw.admin.ch",
-    "schema:name": "info@blw.admin.ch"
+    "schema:name": "info@blw.admin.ch",
+    "schema:email": "info@blw.admin.ch"
   },
   "dct:issued": "2009-12-16",
-  "dct:accrualPeriodicity": "UNKNOWN",
-  "dct:modified": "2009-12-16",
-  "adms:status": "published",
-  "bv:classification": "none",
-  "bv:personalData": "none",
-  "bv:archivalValue": false,
-  "bv:typeOfData": "thematicData",
   "dcat:keyword": [
     "protected-designation-of-origin",
     "protected-geographical-indication",
@@ -37,6 +30,19 @@
     "zoning",
     "reporting-unit",
     "FSDI"
+  ],
+  "dct:accrualPeriodicity": "UNKNOWN",
+  "dct:modified": "2009-12-16",
+  "adms:status": "published",
+  "bv:classification": "none",
+  "bv:personalData": "none",
+  "bv:typeOfData": "thematicData",
+  "bv:archivalValue": false,
+  "bv:externalCatalogs": [
+    {
+      "dcat:catalog": "opendata.swiss",
+      "dct:identifier": "825146b2-b989-414a-93b8-a8a8acca7fff"
+    }
   ],
   "dcat:theme": [
     "agriculture"
@@ -52,7 +58,6 @@
       "alias": "geocat.ch permalink"
     }
   ],
-  "dcatap:applicableLegislation": [],
   "schema:comment": "Imported from opendata.swiss on 2025-03-10",
   "dcat:distribution": [
     {
@@ -125,12 +130,6 @@
       "dct:format": "HTML",
       "dct:modified": "2009-12-16",
       "dcat:downloadURL": "https://data.geo.admin.ch/browser/index.html#/collections/ch.blw.ursprungsbezeichnungen-kaese",
-      "dct:title": {
-        "fr": "",
-        "de": "",
-        "en": "",
-        "it": ""
-      },
       "dct:description": {
         "fr": "Serveur de téléchargement de geo.admin.ch",
         "de": "Download von data.geo.admin.ch",
@@ -162,10 +161,5 @@
       "schema:comment": "ID for this distribution on opendata.swiss: 8ff0c82b-66f7-49f8-af88-5b5c3639a0b8"
     }
   ],
-  "bv:externalCatalogs": [
-    {
-      "dcat:catalog": "opendata.swiss",
-      "dct:identifier": "825146b2-b989-414a-93b8-a8a8acca7fff"
-    }
-  ]
+  "productType": "dataset"
 }

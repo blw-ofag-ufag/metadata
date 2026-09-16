@@ -2,10 +2,10 @@
   "dct:identifier": "aac232d4-3d80-44dc-a7df-ce3b72b94c20",
   "schema:image": "https://prod-blwch-hcms-sdweb.imgix.net/dam/de/sd-web/JRVuUKMgS1wg/CH-Karte_AOP-IGP_alle_2025.png",
   "dct:title": {
+    "de": "Register Ursprungsbezeichnungen und geografische Angaben Konditoreiware",
     "fr": "Registre des appellations d'origine (AOP) et des indications géographiques (IGP) pâtisserie",
-    "de": "Register Ursprungsbezeichnungen (GUB) und geografische Angaben (GGA) Konditoreiware",
-    "en": "Register of designations of origin (PDO) and geographical indications (PGI) - confectionery",
-    "it": "Registro delle denominazioni di origine (DOP) e delle indicazioni geografiche (IGP) Prodotti di pasticceria"
+    "it": "Registro delle denominazioni di origine (DOP) e delle indicazioni geografiche (IGP) Prodotti di pasticceria",
+    "en": "Register of designations of origin (PDO) and geographical indications (PGI) - confectionery"
   },
   "dct:description": {
     "fr": "Le registre des appellations d’origine (AOP) et des indications géographiques (IGP) sert à protéger les noms géographiques et les dénominations traditionnelles qui désignent des produits agricoles (autres que le vin) dont l’identité et les principales caractéristiques sont déterminées par leur origine. Lorsqu’un nom est protégé, son utilisation est réservée aux producteurs de l’aire géographique définie, pour autant qu’ils respectent un cahier des charges détaillé. La protection de certaines désignations de produits agricoles vise à défendre les consommateurs contre la tromperie et à protéger les paysans contre la concurrence déloyale quant à l’utilisation de ces désignations. La réglementation applicable dans ce domaine permet la reconnaissance réciproque des produits de qualité entre la Suisse et l’Union européenne.Les AOP/IGP sont réparties en quatre catégories : fromages, produits à base de viande, produits végétaux et spiritueux. Environ 30 produits sont aujourd’hui inscrits au registre des appellations d’origine, qui en accueille en permanence de nouveaux.",
@@ -16,17 +16,10 @@
   "dct:accessRights": "PUBLIC",
   "dct:publisher": "BLW-OFAG-UFAG-FOAG",
   "dcat:contactPoint": {
-    "schema:email": "info@blw.admin.ch",
-    "schema:name": "info@blw.admin.ch"
+    "schema:name": "info@blw.admin.ch",
+    "schema:email": "info@blw.admin.ch"
   },
   "dct:issued": "2009-12-16",
-  "dct:accrualPeriodicity": "UNKNOWN",
-  "dct:modified": "2009-12-16",
-  "adms:status": "published",
-  "bv:classification": "none",
-  "bv:personalData": "none",
-  "bv:archivalValue": false,
-  "bv:typeOfData": "thematicData",
   "dcat:keyword": [
     "protected-geographical-indication",
     "protected-designation-of-origin",
@@ -38,6 +31,19 @@
     "zoning",
     "reporting-unit",
     "FSDI"
+  ],
+  "dct:accrualPeriodicity": "UNKNOWN",
+  "dct:modified": "2009-12-16",
+  "adms:status": "published",
+  "bv:classification": "none",
+  "bv:personalData": "none",
+  "bv:typeOfData": "thematicData",
+  "bv:archivalValue": false,
+  "bv:externalCatalogs": [
+    {
+      "dcat:catalog": "opendata.swiss",
+      "dct:identifier": "621e488c-7a97-46ca-9635-7afc2ab5266e"
+    }
   ],
   "dcat:theme": [
     "agriculture"
@@ -53,7 +59,6 @@
       "alias": "geocat.ch permalink"
     }
   ],
-  "dcatap:applicableLegislation": [],
   "schema:comment": "Imported from opendata.swiss on 2025-03-10",
   "dcat:distribution": [
     {
@@ -126,12 +131,6 @@
       "dct:format": "HTML",
       "dct:modified": "2009-12-16",
       "dcat:downloadURL": "https://data.geo.admin.ch/browser/index.html#/collections/ch.blw.ursprungsbezeichnungen-konditoreiwaren",
-      "dct:title": {
-        "fr": "",
-        "de": "",
-        "en": "",
-        "it": ""
-      },
       "dct:description": {
         "fr": "Serveur de téléchargement de geo.admin.ch",
         "de": "Download von data.geo.admin.ch",
@@ -163,10 +162,5 @@
       "schema:comment": "ID for this distribution on opendata.swiss: 03029371-d3ed-4647-b2e1-69131b25a49d"
     }
   ],
-  "bv:externalCatalogs": [
-    {
-      "dcat:catalog": "opendata.swiss",
-      "dct:identifier": "621e488c-7a97-46ca-9635-7afc2ab5266e"
-    }
-  ]
+  "productType": "dataset"
 }

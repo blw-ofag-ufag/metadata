@@ -19,6 +19,7 @@
     "schema:name": "info@blw.admin.ch",
     "schema:email": "info@blw.admin.ch"
   },
+  "dct:issued": "2026-01-01",
   "dct:accrualPeriodicity": "UNKNOWN",
   "prov:qualifiedAttribution": [
     {
@@ -91,5 +92,6 @@
         "en": "Preview of the GUB and GGA Layer \"products of plant origin\""
       }
     }
-  ]
+  ],
+  "productType": "dataset"
 }

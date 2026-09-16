@@ -43,5 +43,6 @@
   "dcat:theme": [
     "agriculture"
   ],
-  "dcat:landingPage": "https://www.blw.admin.ch/de/anwendung-agis"
+  "dcat:landingPage": "https://www.blw.admin.ch/de/anwendung-agis",
+  "productType": "dataset"
 }

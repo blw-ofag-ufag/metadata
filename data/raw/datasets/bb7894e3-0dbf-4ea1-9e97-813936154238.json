@@ -2,10 +2,10 @@
   "dct:identifier": "bb7894e3-0dbf-4ea1-9e97-813936154238",
   "schema:image": "https://fal.media/files/kangaroo/MplSG_GNu6ZmK7BwV-Wna_62809d3f79334984b197c233f6abdc49.jpg",
   "dct:title": {
+    "de": "Hanglagen-Karte",
     "fr": "Terrains en pente",
-    "de": "Hanglagen",
-    "en": "Hillsides and slopes",
-    "it": "Zone declive"
+    "it": "Zone declive",
+    "en": "Hillsides and slopes"
   },
   "dct:description": {
     "fr": "Afin que la difficulté des conditions de production et de vie dans l’agriculture soit équitablement prise en compte, des contributions pour des terrains en pente sont versées pour les surfaces donnant droit aux paiements directs. Pour les paiements directs généraux, deux jeux de géodonnées ont été créés : un sur terrains en pente (OGéo 152.1 ; OPD art. 43) et un sur les vignobles en pente (OGéo 152.2 ; DZV art. 45). Plusieurs classes de déclivité sont prises en compte. Le jeu de données sur les terrains en pente est l’un des supports qui permet de calculer les paiements directs au moyen d’un système d’informations géographiques SIG. Il a été élaboré à l’échelle nationale de manière harmonisée. La production se fonde sur le modèle de terrain « MNT-MO Grid 2m » de swisstopo. On a distingué les classes de déclivité suivantes : <18% ; 18-35% ; 35-50%; >50%. Les surfaces en pente d’une superficie inférieure à un are n’ont pas été prises en compte.",
@@ -16,17 +16,10 @@
   "dct:accessRights": "PUBLIC",
   "dct:publisher": "BLW-OFAG-UFAG-FOAG",
   "dcat:contactPoint": {
-    "schema:email": "info@blw.admin.ch",
-    "schema:name": "info@blw.admin.ch"
+    "schema:name": "info@blw.admin.ch",
+    "schema:email": "info@blw.admin.ch"
   },
   "dct:issued": "2010-01-01",
-  "dct:accrualPeriodicity": "IRREG",
-  "dct:modified": "2013-01-01",
-  "adms:status": "published",
-  "bv:classification": "none",
-  "bv:personalData": "none",
-  "bv:archivalValue": false,
-  "bv:typeOfData": "thematicData",
   "dcat:keyword": [
     "official-geodata",
     "gradient",
@@ -35,6 +28,19 @@
     "e-geoch",
     "subsidy",
     "FSDI"
+  ],
+  "dct:accrualPeriodicity": "IRREG",
+  "dct:modified": "2013-01-01",
+  "adms:status": "published",
+  "bv:classification": "none",
+  "bv:personalData": "none",
+  "bv:typeOfData": "thematicData",
+  "bv:archivalValue": false,
+  "bv:externalCatalogs": [
+    {
+      "dcat:catalog": "opendata.swiss",
+      "dct:identifier": "6cac5c48-29b1-45d0-b684-836ac6354be3"
+    }
   ],
   "dcat:theme": [
     "agriculture"
@@ -50,7 +56,6 @@
       "alias": "geocat.ch permalink"
     }
   ],
-  "dcatap:applicableLegislation": [],
   "schema:comment": "Imported from opendata.swiss on 2025-03-10",
   "dcat:distribution": [
     {
@@ -123,12 +128,6 @@
       "dct:format": "HTML",
       "dct:modified": "2013-01-01",
       "dcat:downloadURL": "https://data.geo.admin.ch/browser/index.html#/collections/ch.blw.hang_steillagen",
-      "dct:title": {
-        "fr": "",
-        "de": "",
-        "en": "",
-        "it": ""
-      },
       "dct:description": {
         "fr": "Serveur de téléchargement de geo.admin.ch",
         "de": "Download von data.geo.admin.ch",
@@ -139,10 +138,5 @@
       "schema:comment": "ID for this distribution on opendata.swiss: 94c72b1f-bb7f-41a1-b2a9-88e7c12bacca"
     }
   ],
-  "bv:externalCatalogs": [
-    {
-      "dcat:catalog": "opendata.swiss",
-      "dct:identifier": "6cac5c48-29b1-45d0-b684-836ac6354be3"
-    }
-  ]
+  "productType": "dataset"
 }

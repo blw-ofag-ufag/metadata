@@ -15,23 +15,29 @@
   "dct:accessRights": "PUBLIC",
   "dct:publisher": "BLW-OFAG-UFAG-FOAG",
   "dcat:contactPoint": {
-    "schema:email": "info@blw.admin.ch",
-    "schema:name": "info@blw.admin.ch"
+    "schema:name": "info@blw.admin.ch",
+    "schema:email": "info@blw.admin.ch"
   },
   "dct:issued": "2007-06-28",
-  "dct:accrualPeriodicity": "NEVER",
-  "dct:modified": "2007-06-28",
-  "adms:status": "published",
-  "bv:classification": "none",
-  "bv:personalData": "none",
-  "bv:archivalValue": false,
-  "bv:typeOfData": "thematicData",
   "dcat:keyword": [
     "cultivation-suitability",
     "climatic-effect",
     "meteorology",
     "land-use",
     "FSDI"
+  ],
+  "dct:accrualPeriodicity": "NEVER",
+  "dct:modified": "2007-06-28",
+  "adms:status": "published",
+  "bv:classification": "none",
+  "bv:personalData": "none",
+  "bv:typeOfData": "thematicData",
+  "bv:archivalValue": false,
+  "bv:externalCatalogs": [
+    {
+      "dcat:catalog": "opendata.swiss",
+      "dct:identifier": "201f5121-9f69-48e0-bd7f-c22d7b9fd272"
+    }
   ],
   "dcat:theme": [
     "agriculture"
@@ -47,7 +53,6 @@
       "alias": "geocat.ch permalink"
     }
   ],
-  "dcatap:applicableLegislation": [],
   "schema:comment": "Imported from opendata.swiss on 2025-03-10",
   "dcat:distribution": [
     {
@@ -120,12 +125,6 @@
       "dct:format": "HTML",
       "dct:modified": "2007-06-28",
       "dcat:downloadURL": "https://data.geo.admin.ch/browser/index.html#/collections/ch.blw.klimaeignung-typ",
-      "dct:title": {
-        "fr": "",
-        "de": "",
-        "en": "",
-        "it": ""
-      },
       "dct:description": {
         "fr": "Serveur de téléchargement de geo.admin.ch",
         "de": "Download Server von geo.admin.ch",
@@ -157,10 +156,5 @@
       "schema:comment": "ID for this distribution on opendata.swiss: 9627a176-c167-4488-9cbf-66b2b233eb9b"
     }
   ],
-  "bv:externalCatalogs": [
-    {
-      "dcat:catalog": "opendata.swiss",
-      "dct:identifier": "201f5121-9f69-48e0-bd7f-c22d7b9fd272"
-    }
-  ]
+  "productType": "dataset"
 }

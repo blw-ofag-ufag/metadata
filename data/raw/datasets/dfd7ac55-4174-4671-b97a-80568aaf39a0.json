@@ -15,17 +15,10 @@
   "dct:accessRights": "PUBLIC",
   "dct:publisher": "BLW-OFAG-UFAG-FOAG",
   "dcat:contactPoint": {
-    "schema:email": "info@blw.admin.ch",
-    "schema:name": "info@blw.admin.ch"
+    "schema:name": "info@blw.admin.ch",
+    "schema:email": "info@blw.admin.ch"
   },
   "dct:issued": "1997-01-01",
-  "dct:accrualPeriodicity": "CONT",
-  "dct:modified": "2018-12-14",
-  "adms:status": "published",
-  "bv:classification": "none",
-  "bv:personalData": "none",
-  "bv:archivalValue": false,
-  "bv:typeOfData": "thematicData",
   "dcat:keyword": [
     "official-geodata",
     "conservation",
@@ -35,6 +28,19 @@
     "zoning",
     "reporting-unit",
     "FSDI"
+  ],
+  "dct:accrualPeriodicity": "CONT",
+  "dct:modified": "2018-12-14",
+  "adms:status": "published",
+  "bv:classification": "none",
+  "bv:personalData": "none",
+  "bv:typeOfData": "thematicData",
+  "bv:archivalValue": false,
+  "bv:externalCatalogs": [
+    {
+      "dcat:catalog": "opendata.swiss",
+      "dct:identifier": "704b25c2-1140-4bee-9df6-11901492232a"
+    }
   ],
   "dcat:theme": [
     "agriculture"
@@ -50,7 +56,6 @@
       "alias": "geocat.ch permalink"
     }
   ],
-  "dcatap:applicableLegislation": [],
   "schema:comment": "Imported from opendata.swiss on 2025-03-10",
   "dcat:distribution": [
     {
@@ -102,12 +107,6 @@
       "dct:format": "HTML",
       "dct:modified": "2018-12-14",
       "dcat:downloadURL": "https://data.geo.admin.ch/browser/index.html#/collections/ch.blw.landwirtschaftliche-zonengrenzen",
-      "dct:title": {
-        "fr": "",
-        "de": "",
-        "en": "",
-        "it": ""
-      },
       "dct:description": {
         "fr": "Serveur de téléchargement de geo.admin.ch",
         "de": "Download Server von geo.admin.ch",
@@ -118,10 +117,5 @@
       "schema:comment": "ID for this distribution on opendata.swiss: d2f7c148-8338-4fa0-8475-8ee9fc8811f6"
     }
   ],
-  "bv:externalCatalogs": [
-    {
-      "dcat:catalog": "opendata.swiss",
-      "dct:identifier": "704b25c2-1140-4bee-9df6-11901492232a"
-    }
-  ]
+  "productType": "dataset"
 }

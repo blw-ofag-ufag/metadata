@@ -3,7 +3,7 @@
   "schema:image": "https://prod-blwch-hcms-sdweb.imgix.net/dam/de/sd-web/4ZjVh8VS8gN6/Digitalisierung.jpg?rect=0%2C261%2C2508%2C1411&auto=format&w=1024",
   "dct:title": {
     "de": "Anmeldungen für Direktzahlungsprogramme, den ÖLN, den NPR-Futtereinsatz und den Kontrollstellen",
-    "fr": "Inscriptions aux programmes de paiements directs, aux PER, à l'utilisation fourragère NPR et aux organes de contrôle"
+    "fr": "Inscriptions aux programmes de paiements directs, PER, NPR et organes de contrôle"
   },
   "dct:description": {
     "de": "Beinhaltet die jährlichen Anmeldedaten (Stichtag im August) für spezifische Direktzahlungsprogramme (z. B. BTS, RAUS, Ressourceneffizienz) sowie für den Ökologischen Leistungsnachweis (ÖLN) für das Folgejahr. Der Datensatz dient primär der Koordination der landwirtschaftlichen Kontrollen und der Schätzung der finanziellen Beteiligung.",
@@ -37,8 +37,10 @@
   "adms:status": "published",
   "bv:classification": "none",
   "bv:personalData": "personalData",
+  "bv:archivalValue": false,
   "dcat:theme": [
     "agriculture"
   ],
-  "dcat:landingPage": "https://www.blw.admin.ch/de/anwendung-agis"
+  "dcat:landingPage": "https://www.blw.admin.ch/de/anwendung-agis",
+  "productType": "dataset"
 }
